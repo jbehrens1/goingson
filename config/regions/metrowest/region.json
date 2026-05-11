@@ -1,0 +1,30 @@
+{
+  "id": "metrowest",
+  "displayName": "MetroWest Events",
+  "tagline": "Aggregated events from MetroWest Boston venues, towns, and calendars.",
+  "defaultCenter": {
+    "label": "Framingham, MA",
+    "lat": 42.279,
+    "lon": -71.416
+  },
+  "defaultRadiusMi": 15,
+  "timeZone": "America/New_York",
+  "locale": "en-US",
+  "language": "en",
+  "boundingBox": {
+    "minLat": 42.04,
+    "maxLat": 42.55,
+    "minLon": -71.7,
+    "maxLon": -71.1
+  },
+  "centerSuggestions": [
+    "Framingham, MA",
+    "Natick, MA",
+    "Dover, MA",
+    "Sudbury, MA",
+    "Wellesley, MA",
+    "Hopkinton, MA",
+    "Marlborough, MA",
+    "Concord, MA"
+  ]
+}

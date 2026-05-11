@@ -1,0 +1,40 @@
+name: Daily ingest
+
+on:
+  schedule:
+    # 06:00 ET = 10:00 UTC (EST) / 11:00 UTC (EDT). Runs at 10:00 UTC year-round; expect a 1-hour shift in winter.
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Run ingest
+        run: npm run ingest
+        env:
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+
+      - name: Commit results
+        run: |
+          if [[ -n "$(git status --porcelain public/events.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/events.json
+            git commit -m "chore: refresh events.json [skip ci]"
+            git push
+          else
+            echo "No changes to events.json"
+          fi

@@ -1,0 +1,15 @@
+{
+  "$comment": "Venue aliases — fold variant names into a canonical name at ingest time. Add an entry when you see the same physical venue showing up under different strings (e.g. TCAN vs. 'The Center for Arts in Natick').",
+  "venues": [
+    {
+      "name": "TCAN",
+      "fullName": "The Center for Arts in Natick",
+      "aliases": [
+        "The Center for Arts in Natick",
+        "Center for the Arts in Natick",
+        "Center for Arts in Natick",
+        "The Center for the Arts in Natick"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "metrowest-events",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ingest": "tsx scripts/ingest.ts",
+    "ingest:dry": "DRY_RUN=1 tsx scripts/ingest.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "next": "^15.1.0",
+    "node-ical": "^0.20.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

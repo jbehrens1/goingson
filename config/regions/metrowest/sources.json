@@ -1,0 +1,658 @@
+{
+  "$comment": "MetroWest event sources. Most start disabled — flip `enabled: true` one at a time and tune via `INGEST_ONLY=<id> npm run ingest:dry`. See README for guidance per adapter.",
+  "sources": [
+    {
+      "id": "visitors-bureau-events",
+      "name": "MetroWest Boston Visitors Bureau - Events",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.metrowestvisitors.org/events/",
+      "category": "Regional Hub",
+      "town": "All MetroWest",
+      "notes": "Primary regional source. Try iCal first: /events/?ical=1 (likely WordPress + The Events Calendar)."
+    },
+    {
+      "id": "visitors-bureau-activities",
+      "name": "MetroWest Boston Visitors Bureau - Activities",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.metrowestvisitors.org/activities/",
+      "category": "Regional Hub",
+      "town": "All MetroWest",
+      "notes": "Evergreen 'things to do' rather than time-bound events. Low priority for v0."
+    },
+    {
+      "id": "mw-chamber",
+      "name": "MetroWest Chamber of Commerce - Events",
+      "enabled": false,
+      "adapter": "ical",
+      "url": "https://business.metrowest.org/events/ical",
+      "category": "Regional Hub",
+      "town": "All MetroWest",
+      "notes": "GrowthZone/ChamberMaster platform — try /events/ical or /events.ics. May need a different path."
+    },
+    {
+      "id": "trustees",
+      "name": "The Trustees of Reservations",
+      "enabled": true,
+      "adapter": "trustees",
+      "url": "https://thetrustees.org/events/",
+      "category": "Regional Hub",
+      "town": "All MetroWest",
+      "notes": "Parses the public events list (~6 visible at a time). Trustees properties span MA; MetroWest-area ones include The Old Manse (Concord), Powisset Farm (Dover), Rocky Narrows (Sherborn). Distance filter naturally restricts."
+    },
+    {
+      "id": "community-kangaroo-natick",
+      "name": "Community Kangaroo - Natick/Wellesley",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://communitykangaroo.com/natick/calendar/",
+      "category": "Regional Hub",
+      "town": "Natick, Wellesley, Wayland, Weston, Sudbury, Framingham, Newton, Needham, Dover, Sherborn",
+      "notes": "Family-oriented aggregator. Check ToS — already aggregates content."
+    },
+    {
+      "id": "metrowest-daily-news",
+      "name": "MetroWest Daily News",
+      "enabled": false,
+      "adapter": "rss",
+      "url": "https://metrowestdaily.com/feed/",
+      "category": "Regional News",
+      "town": "All MetroWest",
+      "notes": "News rather than structured events. Low priority — would need NLP to extract events."
+    },
+    {
+      "id": "eventbrite-metrowest",
+      "name": "Eventbrite - MetroWest",
+      "enabled": false,
+      "adapter": "eventbrite",
+      "url": "https://www.eventbrite.com/d/ma--natick/metrowest/",
+      "category": "Ticketing Platform",
+      "town": "All MetroWest",
+      "notes": "Requires EVENTBRITE_TOKEN env var. Public Search API was restricted ~2020 — may need per-organizer endpoint.",
+      "config": {
+        "location": "Natick, MA",
+        "withinMiles": 15
+      }
+    },
+    {
+      "id": "artsboston",
+      "name": "ArtsBoston Calendar",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.artsboston.org/abcalendar/",
+      "category": "Greater Boston Calendar",
+      "town": "Greater Boston incl. MetroWest",
+      "notes": "Filter for MetroWest venues post-ingest."
+    },
+    {
+      "id": "artsboston-bostix",
+      "name": "ArtsBoston Bostix Calendar",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://calendar.artsboston.org/",
+      "category": "Greater Boston Calendar",
+      "town": "Greater Boston incl. MetroWest",
+      "notes": "Has per-venue pages. Could prefer venue-specific URLs e.g. /venue/metrowest-jcc/."
+    },
+    {
+      "id": "meet-boston",
+      "name": "Meet Boston - Official Events",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.meetboston.com/events/",
+      "category": "Greater Boston Calendar",
+      "town": "Greater Boston incl. MetroWest",
+      "notes": "Simpleview CMS. Look for JSON-LD structured data."
+    },
+    {
+      "id": "boston-calendar",
+      "name": "The Boston Calendar",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.thebostoncalendar.com/",
+      "category": "Greater Boston Calendar",
+      "town": "Greater Boston incl. MetroWest",
+      "notes": "Curated highlights; some MetroWest coverage."
+    },
+    {
+      "id": "tcan",
+      "name": "The Center for Arts in Natick (TCAN)",
+      "enabled": true,
+      "adapter": "wordpress-mc",
+      "url": "https://tcan.org/events/",
+      "category": "Venue",
+      "town": "Natick",
+      "notes": "Uses My Calendar WP plugin. Adapter hits /wp-json/wp/v2/mc_event and parses ACF date fields.",
+      "config": {
+        "defaultVenue": "TCAN",
+        "defaultTimeZone": "America/New_York"
+      }
+    },
+    {
+      "id": "pac-metrowest",
+      "name": "Performing Arts Center of MetroWest",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://pacmetrowest.org/",
+      "category": "Venue",
+      "town": "Framingham",
+      "notes": "Uses The Events Calendar (Tribe) plugin. Adapter hits /wp-json/tribe/events/v1/events.",
+      "config": {}
+    },
+    {
+      "id": "amazing-things",
+      "name": "Amazing Things Arts Center",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.atac160.org/events",
+      "category": "Venue",
+      "town": "Framingham",
+      "notes": "Iconic downtown Framingham firehouse arts center."
+    },
+    {
+      "id": "wayside-inn",
+      "name": "The Wayside Inn - Events",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.wayside.org/events",
+      "category": "Venue",
+      "town": "Sudbury",
+      "notes": "Mostly seasonal/signature events (e.g., Apple Fest)."
+    },
+    {
+      "id": "hopkinton-arts",
+      "name": "Hopkinton Center for the Arts",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.hopartscenter.org/events",
+      "category": "Venue",
+      "town": "Hopkinton",
+      "notes": "Active calendar. Frequently mentioned in Patch."
+    },
+    {
+      "id": "danforth-museum",
+      "name": "Danforth Art Museum at Framingham State",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://danforth.framingham.edu/events",
+      "category": "Venue / Museum",
+      "town": "Framingham",
+      "notes": "Largest art museum in MetroWest. Exhibition openings, lectures, classes."
+    },
+    {
+      "id": "framingham-history",
+      "name": "Framingham History Center",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://framinghamhistory.org/events/",
+      "category": "Venue / Museum",
+      "town": "Framingham",
+      "notes": "Lectures, walking tours, exhibits."
+    },
+    {
+      "id": "metrowest-jcc",
+      "name": "MetroWest JCC",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://calendar.artsboston.org/venue/metrowest-jcc/",
+      "category": "Venue",
+      "town": "Framingham",
+      "notes": "Listed on ArtsBoston. Find JCC's own primary calendar URL for richer feed."
+    },
+    {
+      "id": "choose-framingham-arts",
+      "name": "Choose Framingham - Visual & Performing Arts",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.chooseframingham.com/83/Visual-and-Performing-Arts",
+      "category": "City / Cultural Council",
+      "town": "Framingham",
+      "notes": "Directory rather than event feed — use to discover sub-sources."
+    },
+    {
+      "id": "framingham-cultural-council",
+      "name": "Framingham Cultural Council (Mass Cultural Council)",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://massculturalcouncil.org/local-council/framingham/",
+      "category": "Cultural Council",
+      "town": "Framingham",
+      "notes": "Every MetroWest town has an MCC local council page — replace town slug."
+    },
+    {
+      "id": "community-foundation-mw",
+      "name": "Community Foundation for MetroWest - Arts & Culture",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.communityfoundationmw.org/grants-programs/grant-opportunities/arts-culture/",
+      "category": "Funder / Directory",
+      "town": "All MetroWest",
+      "notes": "Directory of funded organizations. Use to discover sub-sources, not as event feed."
+    },
+    {
+      "id": "sudbury-chamber",
+      "name": "Sudbury Chamber of Commerce - Events",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.sudbury.org/events",
+      "category": "Local Chamber",
+      "town": "Sudbury",
+      "notes": "Town-level chamber. Pattern likely repeats for other towns."
+    },
+    {
+      "id": "patch-framingham",
+      "name": "Framingham Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/framingham/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Framingham",
+      "notes": "Templated patch.com calendar.",
+      "config": {
+        "townSlug": "framingham"
+      }
+    },
+    {
+      "id": "patch-natick",
+      "name": "Natick Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/natick/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Natick",
+      "config": {
+        "townSlug": "natick"
+      }
+    },
+    {
+      "id": "patch-sudbury",
+      "name": "Sudbury Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/sudbury/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Sudbury",
+      "config": {
+        "townSlug": "sudbury"
+      }
+    },
+    {
+      "id": "patch-wellesley",
+      "name": "Wellesley Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/wellesley/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Wellesley",
+      "config": {
+        "townSlug": "wellesley"
+      }
+    },
+    {
+      "id": "patch-wayland",
+      "name": "Wayland Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/wayland/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Wayland",
+      "config": {
+        "townSlug": "wayland"
+      }
+    },
+    {
+      "id": "patch-weston",
+      "name": "Weston Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/weston/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Weston",
+      "config": {
+        "townSlug": "weston"
+      }
+    },
+    {
+      "id": "patch-acton",
+      "name": "Acton Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/acton/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Acton",
+      "config": {
+        "townSlug": "acton"
+      }
+    },
+    {
+      "id": "patch-hopkinton",
+      "name": "Holliston-Hopkinton Patch - Calendar",
+      "enabled": true,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/holliston-hopkinton/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Hopkinton, Holliston",
+      "config": {
+        "townSlug": "holliston-hopkinton"
+      },
+      "notes": "Patch bundles Hopkinton+Holliston into one regional calendar."
+    },
+    {
+      "id": "patch-ashland",
+      "name": "Ashland Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/ashland/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Ashland",
+      "config": {
+        "townSlug": "ashland"
+      }
+    },
+    {
+      "id": "patch-bellingham",
+      "name": "Bellingham Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/bellingham/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Bellingham",
+      "config": {
+        "townSlug": "bellingham"
+      }
+    },
+    {
+      "id": "patch-boxborough",
+      "name": "Boxborough Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/boxborough/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Boxborough",
+      "config": {
+        "townSlug": "boxborough"
+      }
+    },
+    {
+      "id": "patch-concord",
+      "name": "Concord Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/concord/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Concord",
+      "config": {
+        "townSlug": "concord"
+      }
+    },
+    {
+      "id": "patch-dover",
+      "name": "Dover Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/dover/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Dover",
+      "config": {
+        "townSlug": "dover"
+      }
+    },
+    {
+      "id": "patch-franklin",
+      "name": "Franklin Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/franklin/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Franklin",
+      "config": {
+        "townSlug": "franklin"
+      }
+    },
+    {
+      "id": "patch-holliston",
+      "name": "Holliston Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/holliston/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Holliston",
+      "config": {
+        "townSlug": "holliston"
+      }
+    },
+    {
+      "id": "patch-hudson",
+      "name": "Hudson Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/hudson/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Hudson",
+      "config": {
+        "townSlug": "hudson"
+      }
+    },
+    {
+      "id": "patch-lincoln",
+      "name": "Lincoln Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/lincoln/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Lincoln",
+      "config": {
+        "townSlug": "lincoln"
+      }
+    },
+    {
+      "id": "patch-marlborough",
+      "name": "Marlborough Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/marlborough/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Marlborough",
+      "config": {
+        "townSlug": "marlborough"
+      }
+    },
+    {
+      "id": "patch-maynard",
+      "name": "Maynard Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/maynard/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Maynard",
+      "config": {
+        "townSlug": "maynard"
+      }
+    },
+    {
+      "id": "patch-medfield",
+      "name": "Medfield Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/medfield/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Medfield",
+      "config": {
+        "townSlug": "medfield"
+      }
+    },
+    {
+      "id": "patch-medway",
+      "name": "Medway Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/medway/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Medway",
+      "config": {
+        "townSlug": "medway"
+      }
+    },
+    {
+      "id": "patch-milford",
+      "name": "Milford Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/milford/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Milford",
+      "config": {
+        "townSlug": "milford"
+      }
+    },
+    {
+      "id": "patch-millis",
+      "name": "Millis Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/millis/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Millis",
+      "config": {
+        "townSlug": "millis"
+      }
+    },
+    {
+      "id": "patch-needham",
+      "name": "Needham Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/needham/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Needham",
+      "config": {
+        "townSlug": "needham"
+      }
+    },
+    {
+      "id": "patch-northborough",
+      "name": "Northborough Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/northborough/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Northborough",
+      "config": {
+        "townSlug": "northborough"
+      }
+    },
+    {
+      "id": "patch-sherborn",
+      "name": "Sherborn Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/sherborn/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Sherborn",
+      "config": {
+        "townSlug": "sherborn"
+      }
+    },
+    {
+      "id": "patch-southborough",
+      "name": "Southborough Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/southborough/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Southborough",
+      "config": {
+        "townSlug": "southborough"
+      }
+    },
+    {
+      "id": "patch-stow",
+      "name": "Stow Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/stow/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Stow",
+      "config": {
+        "townSlug": "stow"
+      }
+    },
+    {
+      "id": "patch-westborough",
+      "name": "Westborough Patch - Calendar",
+      "enabled": false,
+      "adapter": "patch",
+      "url": "https://patch.com/massachusetts/westborough/calendar",
+      "category": "Town Calendar (Patch)",
+      "town": "Westborough",
+      "config": {
+        "townSlug": "westborough"
+      }
+    },
+    {
+      "id": "natick-report",
+      "name": "Natick Report - Events",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://www.natickreport.com/",
+      "category": "Local News",
+      "town": "Natick",
+      "notes": "Local news blog with The Events Calendar plugin."
+    },
+    {
+      "id": "swellesley-report",
+      "name": "The Swellesley Report - Events",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://theswellesleyreport.com/",
+      "category": "Local News",
+      "town": "Wellesley",
+      "notes": "Wellesley/Weston news blog with The Events Calendar plugin."
+    },
+    {
+      "id": "needham-local",
+      "name": "Needham Local - This Week",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://needhamlocal.org/",
+      "category": "Local News",
+      "town": "Needham",
+      "notes": "Needham community news with The Events Calendar plugin. iCal feed also works as fallback."
+    },
+    {
+      "id": "needham-observer",
+      "name": "Needham Observer - Events",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://needhamobserver.com/",
+      "category": "Local News",
+      "town": "Needham",
+      "notes": "Needham news outlet with The Events Calendar plugin."
+    },
+    {
+      "id": "needham-gov",
+      "name": "Town of Needham - Community Events",
+      "enabled": true,
+      "adapter": "rss",
+      "url": "https://www.needhamma.gov/RSSFeed.aspx?ModID=58&CID=84",
+      "category": "Municipal",
+      "town": "Needham",
+      "notes": "CivicPlus municipal calendar exposed as RSS. ModID=58 is the Calendar module; CID=84 is Community Events category."
+    },
+    {
+      "id": "mahjong-recurring",
+      "name": "MetroWest Mah Jongg drop-ins (manual)",
+      "enabled": true,
+      "adapter": "manual-recurring",
+      "url": "https://www.example.com/",
+      "category": "Manual",
+      "town": "All MetroWest",
+      "notes": "Materializes weekly recurring mah jongg sessions from config/regions/metrowest/recurring.json. Edit the JSON file to add/remove/modify sessions.",
+      "config": {
+        "file": "recurring.json",
+        "defaultOccurrences": 8
+      }
+    }
+  ]
+}

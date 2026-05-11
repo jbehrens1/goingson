@@ -1,0 +1,748 @@
+{
+  "metrowest::tcan, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:08:27.183Z"
+  },
+  "metrowest::8 erika dr, hopkinton, ma": {
+    "lat": 42.2174989,
+    "lon": -71.5541683,
+    "displayName": "8, Erika Drive, Woodville, Hopkinton, Middlesex County, Massachusetts, 01784, United States",
+    "fetchedAt": "2026-05-11T00:10:53.706Z"
+  },
+  "metrowest::12 concord rd, acton, ma": {
+    "lat": 42.4851742,
+    "lon": -71.4323066,
+    "displayName": "Acton Congregational Church, 12, Concord Road, East Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-11T00:10:54.859Z"
+  },
+  "metrowest::327 concord rd, sudbury, ma": {
+    "lat": 42.3831265,
+    "lon": -71.4124523,
+    "displayName": "First Parish of Sudbury, 327, Concord Road, Musketahquid Village, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-11T00:10:55.901Z"
+  },
+  "metrowest::249 waltham st, watertown, ma": {
+    "lat": 42.3711861,
+    "lon": -71.2095928,
+    "displayName": "249, Waltham Street, Bemis, Watertown, Middlesex County, Massachusetts, 02460, United States",
+    "fetchedAt": "2026-05-11T00:10:57.075Z"
+  },
+  "metrowest::746 water st, framingham, ma": {
+    "lat": 42.3290357,
+    "lon": -71.4321749,
+    "displayName": "Christa McAuliffe Branch Library, 746, Water Street, Nobscot, Framingham, Middlesex County, Massachusetts, 01701, United States",
+    "fetchedAt": "2026-05-11T00:10:58.052Z"
+  },
+  "metrowest::zoom, framingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:10:59.210Z"
+  },
+  "metrowest::5 concord rd, wayland, ma": {
+    "lat": 42.3651526,
+    "lon": -71.3608951,
+    "displayName": "Wayland Free Public Library, 5, Concord Road, Wayland Center Historic District, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-11T00:11:00.127Z"
+  },
+  "metrowest::662 boston post rd, weston, ma": {
+    "lat": 42.3657304,
+    "lon": -71.3095218,
+    "displayName": "662, Boston Post Road, Weston Station, Weston, Middlesex County, Massachusetts, 02493, United States",
+    "fetchedAt": "2026-05-11T00:11:01.574Z"
+  },
+  "metrowest::8 andrew ave, wayland, ma": {
+    "lat": 42.3644089,
+    "lon": -71.369888,
+    "displayName": "8, Andrew Avenue, Wayland Town Center, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-11T00:11:02.509Z"
+  },
+  "metrowest::26 concord rd, sudbury, ma": {
+    "lat": 42.3640178,
+    "lon": -71.4150583,
+    "displayName": "Memorial Congregational Church, 26, Concord Road, South Sudbury, Sudbury, Middlesex County, Massachusetts, 01705, United States",
+    "fetchedAt": "2026-05-11T00:11:03.631Z"
+  },
+  "metrowest::28 medway branch, norfolk, ma": {
+    "lat": 42.1252839,
+    "lon": -71.3363725,
+    "displayName": "28, Medway Branch Road, Norfolk, Norfolk County, Massachusetts, 02056, United States",
+    "fetchedAt": "2026-05-11T00:11:04.976Z"
+  },
+  "metrowest::472 massachusetts ave, acton, ma": {
+    "lat": 42.4754245,
+    "lon": -71.4610439,
+    "displayName": "472, Massachusetts Avenue, Kelley's Corner, South Acton, West Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-11T00:11:05.865Z"
+  },
+  "metrowest::49 lexington st, framingham, ma": {
+    "lat": 42.2819343,
+    "lon": -71.4167413,
+    "displayName": "Framingham Public Library, 49, Lexington Street, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-11T00:11:06.893Z"
+  },
+  "metrowest::100 cabot st, needham, ma": {
+    "lat": 42.3031931,
+    "lon": -71.2187146,
+    "displayName": "Sheraton, 100, Cabot Street, Needham Crossing, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-11T00:11:07.842Z"
+  },
+  "metrowest::salted soul, acton": {
+    "lat": 42.5017103,
+    "lon": -71.4206567,
+    "displayName": "Salted Soul, Main Street, Acton, Middlesex County, Massachusetts, 07120, United States",
+    "fetchedAt": "2026-05-11T00:11:09.097Z"
+  },
+  "metrowest::rj grey junior high school auditorium, 16 charter road, acton, acton": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:10.032Z"
+  },
+  "metrowest::15 nason st, maynard, ma": {
+    "lat": 42.4324741,
+    "lon": -71.4536257,
+    "displayName": "ArtSpace, 15, Nason Street, Maynard, Middlesex County, Massachusetts, 01754, United States",
+    "fetchedAt": "2026-05-11T00:11:11.274Z"
+  },
+  "metrowest::36 charter rd, acton, ma": {
+    "lat": 42.4798302,
+    "lon": -71.4583252,
+    "displayName": "Acton-Boxborough Regional High School, 36, Charter Road, Kelley's Corner, West Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-11T00:11:12.256Z"
+  },
+  "metrowest::41 cochituate rd, wayland, ma": {
+    "lat": 42.361369,
+    "lon": -71.3613408,
+    "displayName": "Wayland Town Hall, 41, Cochituate Road, Wayland Center Historic District, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-11T00:11:13.510Z"
+  },
+  "metrowest::70 andrew ave, wayland, ma": {
+    "lat": 42.3649915,
+    "lon": -71.368043,
+    "displayName": "Ace Hardware, 70, Andrew Avenue, Wayland Town Center, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-11T00:11:14.623Z"
+  },
+  "metrowest::sudbury town center, sudbury": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:15.565Z"
+  },
+  "metrowest::98 hayden rowe st, hopkinton, ma": {
+    "lat": 42.2171491,
+    "lon": -71.5173497,
+    "displayName": "98, Hayden Rowe Street, Hayden Row, Hopkinton, Middlesex County, Massachusetts, 01748, United States",
+    "fetchedAt": "2026-05-11T00:11:16.841Z"
+  },
+  "metrowest::525 washington st, wellesley, ma": {
+    "lat": 42.297945,
+    "lon": -71.2916839,
+    "displayName": "Wellesley Town Hall, 525, Washington Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02482, United States",
+    "fetchedAt": "2026-05-11T00:11:18.293Z"
+  },
+  "metrowest::600 central st, holliston, ma": {
+    "lat": 42.1983893,
+    "lon": -71.4041687,
+    "displayName": "600, Central Street, Holliston, Middlesex County, Massachusetts, 01746, United States",
+    "fetchedAt": "2026-05-11T00:11:18.978Z"
+  },
+  "metrowest::19 brigham st, marlboro, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:20.269Z"
+  },
+  "metrowest::725 washington st, brookline, ma": {
+    "lat": 42.3402299,
+    "lon": -71.1359105,
+    "displayName": "Michael Driscoll School, 725, Washington Street, Washington Square, North Brookline, Brookline, Norfolk County, Massachusetts, 02446, United States",
+    "fetchedAt": "2026-05-11T00:11:21.259Z"
+  },
+  "metrowest::25 union st, marlboro, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:23.398Z"
+  },
+  "metrowest::14 summer st, natick, ma": {
+    "lat": 42.2843687,
+    "lon": -71.3481374,
+    "displayName": "The Center For Arts In Natick, 14, Summer Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:23.828Z"
+  },
+  "metrowest::79 superior dr, natick, ma": {
+    "lat": 42.3025174,
+    "lon": -71.3710945,
+    "displayName": "Natick Amvets Post 79, 79, Superior Drive, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:24.878Z"
+  },
+  "metrowest::2 oak st, framingham, ma": {
+    "lat": 42.301553,
+    "lon": -71.43452,
+    "displayName": "2, Oak Street, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-11T00:11:26.159Z"
+  },
+  "metrowest::dwight performing arts center, framingham state university, framingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:27.190Z"
+  },
+  "metrowest::100 state st, framingham, ma": {
+    "lat": 42.2971254,
+    "lon": -71.4354921,
+    "displayName": "100, State Street, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-11T00:11:28.032Z"
+  },
+  "metrowest::hosmer house, 300 main st., acton, sudbury": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:29.345Z"
+  },
+  "metrowest::97 concord rd, wayland, ma": {
+    "lat": 42.3771255,
+    "lon": -71.3576868,
+    "displayName": "B'nai Torah MetroWest, 97, Concord Road, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-11T00:11:30.376Z"
+  },
+  "metrowest::39 edwards st, framingham, ma": {
+    "lat": 42.3276292,
+    "lon": -71.3998537,
+    "displayName": "39, Edwards Street, Saxonville, Framingham, Middlesex County, Massachusetts, 01701, United States",
+    "fetchedAt": "2026-05-11T00:11:31.475Z"
+  },
+  "metrowest::framingham": {
+    "lat": 42.2773177,
+    "lon": -71.4165905,
+    "displayName": "Framingham, Middlesex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T00:11:32.532Z"
+  },
+  "metrowest::33 eliot st, natick, ma": {
+    "lat": 42.2738632,
+    "lon": -71.3153433,
+    "displayName": "Riverbend School, 33, Eliot Street, Morseville, South Natick, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:33.685Z"
+  },
+  "metrowest::117 e central st, natick, ma": {
+    "lat": 42.2850532,
+    "lon": -71.3378099,
+    "displayName": "Natick Community-Senior Center, 117, East Central Street, South Natick, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:34.838Z"
+  },
+  "metrowest::35 andrew ave, wayland, ma": {
+    "lat": 42.3644644,
+    "lon": -71.3693837,
+    "displayName": "Elements Theraputic Massage, 25;29;31;35;39, Andrew Avenue, Wayland Town Center, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-11T00:11:35.751Z"
+  },
+  "metrowest::53 state st, framingham, ma": {
+    "lat": 42.2982573,
+    "lon": -71.4375529,
+    "displayName": "53, State Street, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-11T00:11:37.079Z"
+  },
+  "metrowest::70 state st, framingham, ma": {
+    "lat": 42.2993191,
+    "lon": -71.4372491,
+    "displayName": "70, State Street, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-11T00:11:38.225Z"
+  },
+  "metrowest::artspace maynard, 15 nason st, maynard, ma, acton": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:39.031Z"
+  },
+  "metrowest::acton congregational church, 12 concord rd, acton, ma, acton": {
+    "lat": 42.4851742,
+    "lon": -71.4323066,
+    "displayName": "Acton Congregational Church, 12, Concord Road, East Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-11T00:11:40.261Z"
+  },
+  "metrowest::241 wellesley st, weston, ma": {
+    "lat": 42.3484608,
+    "lon": -71.3071015,
+    "displayName": "Spellman Museum of Stamps & Postal History, 241, Wellesley Street, Weston, Middlesex County, Massachusetts, 02493, United States",
+    "fetchedAt": "2026-05-11T00:11:41.475Z"
+  },
+  "metrowest::1 walnut st, natick, ma": {
+    "lat": 42.286733,
+    "lon": -71.34763,
+    "displayName": "1, Walnut Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:42.501Z"
+  },
+  "metrowest::virtual, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:43.375Z"
+  },
+  "metrowest::1a north rd, chelmsford, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:45.384Z"
+  },
+  "metrowest::1 liberty ledge, sudbury, ma": {
+    "lat": 42.418228,
+    "lon": -71.419278,
+    "displayName": "1, Liberty Ledge, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-11T00:11:45.811Z"
+  },
+  "metrowest::280 eliot st, natick, ma": {
+    "lat": 42.256218,
+    "lon": -71.3383745,
+    "displayName": "Nature Center, 280, Eliot Street, Morseville, South Natick, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:46.943Z"
+  },
+  "metrowest::184 linden st, wellesley, ma": {
+    "lat": 42.3013512,
+    "lon": -71.2927522,
+    "displayName": "182;184;188, Linden Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02482, United States",
+    "fetchedAt": "2026-05-11T00:11:48.129Z"
+  },
+  "metrowest::165 mill st, natick, ma": {
+    "lat": 42.2888897,
+    "lon": -71.3846077,
+    "displayName": "165, Mill Street, West Natick, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:48.915Z"
+  },
+  "metrowest::218 main st, groton, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:50.585Z"
+  },
+  "metrowest::plugged in band program 40 freeman pl, needham, ma, 02492, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:51.326Z"
+  },
+  "metrowest::75 witherell dr, sudbury, ma": {
+    "lat": 42.4113036,
+    "lon": -71.4363845,
+    "displayName": "75, Witherell Drive, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-11T00:11:52.503Z"
+  },
+  "metrowest::310 speen st, natick, ma": {
+    "lat": 42.3036729,
+    "lon": -71.3824831,
+    "displayName": "310, Speen Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T00:11:53.331Z"
+  },
+  "metrowest::703 washington st, holliston, ma": {
+    "lat": 42.2021939,
+    "lon": -71.4295686,
+    "displayName": "Holliston Town Hall, 703, Washington Street, Mudville, Holliston, Middlesex County, Massachusetts, 01746, United States",
+    "fetchedAt": "2026-05-11T00:11:54.618Z"
+  },
+  "metrowest::50 oakland st, wellesley, ma": {
+    "lat": 42.3124286,
+    "lon": -71.2637772,
+    "displayName": "MassBay Community College, 50, Oakland Street, Standish Estates, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-11T00:11:55.750Z"
+  },
+  "metrowest::natick common 1 common st, natick, ma, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:11:56.774Z"
+  },
+  "metrowest::162 landham rd, sudbury, ma": {
+    "lat": 42.3527505,
+    "lon": -71.4017282,
+    "displayName": "First Baptist, 162, Landham Road, East Sudbury Station, South Sudbury, Sudbury, Middlesex County, Massachusetts, 01705, United States",
+    "fetchedAt": "2026-05-11T00:11:57.845Z"
+  },
+  "metrowest::natick": {
+    "lat": 42.2836393,
+    "lon": -71.346996,
+    "displayName": "Natick, Middlesex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T00:13:09.375Z"
+  },
+  "metrowest::acton": {
+    "lat": 42.4850931,
+    "lon": -71.43284,
+    "displayName": "Acton, Middlesex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T00:13:10.361Z"
+  },
+  "metrowest::sudbury": {
+    "lat": 42.3834278,
+    "lon": -71.4161725,
+    "displayName": "Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-11T00:13:11.458Z"
+  },
+  "metrowest::usa ninja challenge - marlborough, ma, marlborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:13:12.534Z"
+  },
+  "metrowest::marlborough": {
+    "lat": 42.3468589,
+    "lon": -71.5525188,
+    "displayName": "Marlborough, Middlesex County, Massachusetts, 01752, United States",
+    "fetchedAt": "2026-05-11T00:13:13.690Z"
+  },
+  "metrowest::1lt charles w. whitcomb middle school, marlborough": {
+    "lat": 42.3572847,
+    "lon": -71.5489504,
+    "displayName": "1LT Charles W. Whitcomb Middle School, 25, Union Street, Marlborough, Middlesex County, Massachusetts, 01752, United States",
+    "fetchedAt": "2026-05-11T00:13:14.830Z"
+  },
+  "metrowest::wellesley": {
+    "lat": 42.2964859,
+    "lon": -71.2925571,
+    "displayName": "Wellesley, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T00:13:15.884Z"
+  },
+  "metrowest::chelmsford center for the arts, chelmsford": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:13:16.834Z"
+  },
+  "metrowest::chelmsford": {
+    "lat": 42.5206866,
+    "lon": -71.2872863,
+    "displayName": "Chelmsford Road, Bedford, Middlesex County, Massachusetts, 01865, United States",
+    "fetchedAt": "2026-05-11T00:13:18.055Z"
+  },
+  "metrowest::union congregational church, groton": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:13:19.054Z"
+  },
+  "metrowest::groton": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T00:13:20.226Z"
+  },
+  "metrowest::dover, ma": {
+    "lat": 42.2452466,
+    "lon": -71.2823588,
+    "displayName": "Dover, Norfolk County, Massachusetts, 02030, United States",
+    "fetchedAt": "2026-05-11T00:17:14.276Z"
+  },
+  "metrowest::the old manse, concord": {
+    "lat": 42.4687124,
+    "lon": -71.3494439,
+    "displayName": "The Old Manse, Concord, Middlesex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T01:11:25.525Z"
+  },
+  "metrowest::weir river farm, hingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:11:26.598Z"
+  },
+  "metrowest::hingham": {
+    "lat": 42.3651823,
+    "lon": -71.1151765,
+    "displayName": "Hingham Street, Riverside, Cambridge, Middlesex County, Massachusetts, 02318, United States",
+    "fetchedAt": "2026-05-11T01:11:27.650Z"
+  },
+  "metrowest::appleton farms, hamilton & ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:11:28.653Z"
+  },
+  "metrowest::hamilton & ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:11:29.779Z"
+  },
+  "metrowest::powisset farm, dover": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:11:30.929Z"
+  },
+  "metrowest::dover": {
+    "lat": 42.2452466,
+    "lon": -71.2823588,
+    "displayName": "Dover, Norfolk County, Massachusetts, 02030, United States",
+    "fetchedAt": "2026-05-11T01:11:32.106Z"
+  },
+  "metrowest::the old manse (trustees), concord": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:48:40.925Z"
+  },
+  "metrowest::concord": {
+    "lat": 42.4605189,
+    "lon": -71.3488963,
+    "displayName": "Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-11T01:48:42.064Z"
+  },
+  "metrowest::weir river farm (trustees), hingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:48:43.109Z"
+  },
+  "metrowest::appleton farms (trustees), hamilton & ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:48:44.243Z"
+  },
+  "metrowest::powisset farm (trustees), dover": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:48:45.326Z"
+  },
+  "metrowest::natick common, natick": {
+    "lat": 42.283309,
+    "lon": -71.3466782,
+    "displayName": "Natick Common, Natick, Middlesex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T01:58:28.549Z"
+  },
+  "metrowest::common street spiritual center, 13 common st., natick, ma, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:29.477Z"
+  },
+  "metrowest::11 mechanic st., natick, ma, natick": {
+    "lat": 42.2881078,
+    "lon": -71.3520067,
+    "displayName": "11, Mechanic Street, Mechanic St Business Area, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T01:58:30.732Z"
+  },
+  "metrowest::wellesley high school track, 50 rice st, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:31.814Z"
+  },
+  "metrowest::first congregational church, 2 e central st., natick, ma 01760, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:33.218Z"
+  },
+  "metrowest::around natick center, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:34.049Z"
+  },
+  "metrowest::cochituate rail trail, natick": {
+    "lat": 42.286485,
+    "lon": -71.3506934,
+    "displayName": "Cochituate Rail Trail, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-11T01:58:35.092Z"
+  },
+  "metrowest::ma": {
+    "lat": 42.5136286,
+    "lon": -71.2735829,
+    "displayName": "Fawn Lake, Bedford Springs, Bedford, Middlesex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T01:58:37.226Z"
+  },
+  "metrowest::wellesley, ma": {
+    "lat": 42.2964859,
+    "lon": -71.2925571,
+    "displayName": "Wellesley, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T01:58:38.353Z"
+  },
+  "metrowest::congregational church of needham, 1154 great plain ave, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:39.383Z"
+  },
+  "metrowest::381 elliot street, newton., wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:40.502Z"
+  },
+  "metrowest::pickle point, wellesley, wellesley": {
+    "lat": 42.3022104,
+    "lon": -71.3196639,
+    "displayName": "Pickle Point, Wellesley, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T01:58:41.475Z"
+  },
+  "metrowest::hillside elementary school, 28 glen gary rd, needham heights, ma 02494, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:42.905Z"
+  },
+  "metrowest::hunnewell field, wellesley, wellesley": {
+    "lat": 42.3018165,
+    "lon": -71.2826177,
+    "displayName": "Hunnewell Field, 438, Washington Street, Linden Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-11T01:58:43.683Z"
+  },
+  "metrowest::wellesley high school track, 50 rice st., wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:45.114Z"
+  },
+  "metrowest::300 wellesley ave., wellesley, ma": {
+    "lat": 42.2999268,
+    "lon": -71.2595185,
+    "displayName": "Wellesley Country Club, 300, Wellesley Avenue, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-11T01:58:45.943Z"
+  },
+  "metrowest::the tollhouse 229 washington streetwellesley, ma, 02481, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:46.963Z"
+  },
+  "metrowest::28 cameron st., wellesley, ma": {
+    "lat": 42.2955546,
+    "lon": -71.2900555,
+    "displayName": "Hunnewell Elementary School, 28, Cameron Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02482, United States",
+    "fetchedAt": "2026-05-11T01:58:48.205Z"
+  },
+  "metrowest::natick community senior center, 117 e. central st., natick, ma 01760, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:50.731Z"
+  },
+  "metrowest::500 washington st., wellesley, ma": {
+    "lat": 42.2989782,
+    "lon": -71.288137,
+    "displayName": "Wellesley Council on Aging, 500, Washington Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02482, United States",
+    "fetchedAt": "2026-05-11T01:58:51.501Z"
+  },
+  "metrowest::longfellow pond parking lot at 220 oakland street, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:52.385Z"
+  },
+  "metrowest::mass bay parking lot off of oakland street, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:53.350Z"
+  },
+  "metrowest::zoom, needham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:58:55.668Z"
+  },
+  "metrowest::needham": {
+    "lat": 42.2802645,
+    "lon": -71.2360624,
+    "displayName": "Needham, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T01:58:56.526Z"
+  },
+  "metrowest::1154 great plain avenue, needham": {
+    "lat": 42.2797781,
+    "lon": -71.2410236,
+    "displayName": "Needham Congregational Church, 1154, Great Plain Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-11T01:58:57.851Z"
+  },
+  "metrowest::800 highland avenue, needham": {
+    "lat": 42.295033,
+    "lon": -71.2346395,
+    "displayName": "Carter Memorial United Methodist Church, 800, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02404, United States",
+    "fetchedAt": "2026-05-11T01:58:58.986Z"
+  },
+  "metrowest::1132 highland avenue, needham, ma": {
+    "lat": 42.2880412,
+    "lon": -71.234425,
+    "displayName": "Christ Episcopal Church, 1132, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02404, United States",
+    "fetchedAt": "2026-05-11T01:59:00.026Z"
+  },
+  "metrowest::77 ferndale rd, needham": {
+    "lat": 42.2747537,
+    "lon": -71.2434645,
+    "displayName": "High Rock School, 77, Ferndale Road, Needham Junction, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-11T01:59:01.148Z"
+  },
+  "metrowest::boston common by the corner of charles and beacon street, needham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T01:59:02.343Z"
+  },
+  "metrowest::609 webster street, needham, ma": {
+    "lat": 42.2868365,
+    "lon": -71.231587,
+    "displayName": "Needham High School, 609, Webster Street, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-11T01:59:03.364Z"
+  },
+  "metrowest::283 chestnut street, needham, ma": {
+    "lat": 42.2753137,
+    "lon": -71.2380935,
+    "displayName": "283;285, Chestnut Street, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-11T01:59:06.982Z"
+  },
+  "metrowest::609 webster st., needham": {
+    "lat": 42.2868365,
+    "lon": -71.231587,
+    "displayName": "Needham High School, 609, Webster Street, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-11T01:59:07.959Z"
+  },
+  "metrowest::1154 great plain ave., needham": {
+    "lat": 42.2797781,
+    "lon": -71.2410236,
+    "displayName": "Needham Congregational Church, 1154, Great Plain Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-11T01:59:08.969Z"
+  },
+  "metrowest::670 highland avenue, needham": {
+    "lat": 42.2985833,
+    "lon": -71.2314461,
+    "displayName": "Temple Beth Shalom, 670, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-11T01:59:10.068Z"
+  },
+  "metrowest::1139 highland avenue, needham": {
+    "lat": 42.2879212,
+    "lon": -71.2355769,
+    "displayName": "Needham Free Public Library, 1139, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-11T01:59:11.172Z"
+  },
+  "metrowest::77 ferndale rd, needham, ma 02492, needham": {
+    "lat": 42.2747537,
+    "lon": -71.2434645,
+    "displayName": "High Rock School, 77, Ferndale Road, Needham Junction, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-11T01:59:12.350Z"
+  },
+  "metrowest::25 may st, needham": {
+    "lat": 42.2831456,
+    "lon": -71.2311194,
+    "displayName": "25, May Street, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-11T01:59:13.410Z"
+  },
+  "metrowest::1139 highland ave, needham heights": {
+    "lat": 42.2879212,
+    "lon": -71.2355769,
+    "displayName": "Needham Free Public Library, 1139, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-11T01:59:14.497Z"
+  },
+  "metrowest::sherborn library, sherborn": {
+    "lat": 42.2396738,
+    "lon": -71.3706148,
+    "displayName": "Sherborn Library, 4, Sanger Street, Sherborn, Middlesex County, Massachusetts, 01770, United States",
+    "fetchedAt": "2026-05-11T02:21:17.619Z"
+  },
+  "metrowest::sherborn town hall - select board room, sherborn": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T02:21:18.743Z"
+  },
+  "metrowest::sherborn": {
+    "lat": 42.2397842,
+    "lon": -71.3701417,
+    "displayName": "Sherborn, Middlesex County, Massachusetts, 01770, United States",
+    "fetchedAt": "2026-05-11T02:21:19.746Z"
+  },
+  "metrowest::tolles parsons center, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T02:21:20.820Z"
+  },
+  "metrowest::massachusetts horticultural society - elm bank, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T02:21:21.944Z"
+  },
+  "metrowest::dedham ames senior center, dedham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T02:21:22.851Z"
+  },
+  "metrowest::dedham": {
+    "lat": 42.2489143,
+    "lon": -71.1755732,
+    "displayName": "Dedham, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-11T02:21:24.097Z"
+  },
+  "metrowest::jcc greater boston, newton": {
+    "lat": 42.2995167,
+    "lon": -71.2042428,
+    "displayName": "JCC Greater Boston, Nahanton Street, Newton, Middlesex County, Massachusetts, 02158, United States",
+    "fetchedAt": "2026-05-11T02:21:25.167Z"
+  },
+  "metrowest::caryl center (dover coa), dover": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T02:21:26.368Z"
+  },
+  "metrowest::ten trees books, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T02:21:27.486Z"
+  }
+}

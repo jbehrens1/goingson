@@ -1,0 +1,233 @@
+{
+  "$comment": "Region-specific town centroids with optional aliases (Marlboro → Marlborough).",
+  "towns": [
+    {
+      "name": "Acton",
+      "lat": 42.485,
+      "lon": -71.433
+    },
+    {
+      "name": "Ashland",
+      "lat": 42.262,
+      "lon": -71.464
+    },
+    {
+      "name": "Bellingham",
+      "lat": 42.087,
+      "lon": -71.475
+    },
+    {
+      "name": "Berlin",
+      "lat": 42.382,
+      "lon": -71.638
+    },
+    {
+      "name": "Bolton",
+      "lat": 42.434,
+      "lon": -71.601
+    },
+    {
+      "name": "Boxborough",
+      "lat": 42.488,
+      "lon": -71.519,
+      "aliases": [
+        "Boxboro"
+      ]
+    },
+    {
+      "name": "Brookline",
+      "lat": 42.332,
+      "lon": -71.122
+    },
+    {
+      "name": "Carlisle",
+      "lat": 42.529,
+      "lon": -71.346
+    },
+    {
+      "name": "Concord",
+      "lat": 42.46,
+      "lon": -71.349
+    },
+    {
+      "name": "Dover",
+      "lat": 42.245,
+      "lon": -71.283
+    },
+    {
+      "name": "Foxborough",
+      "lat": 42.066,
+      "lon": -71.247,
+      "aliases": [
+        "Foxboro"
+      ]
+    },
+    {
+      "name": "Framingham",
+      "lat": 42.279,
+      "lon": -71.416
+    },
+    {
+      "name": "Franklin",
+      "lat": 42.083,
+      "lon": -71.397
+    },
+    {
+      "name": "Holliston",
+      "lat": 42.2,
+      "lon": -71.426
+    },
+    {
+      "name": "Hopkinton",
+      "lat": 42.229,
+      "lon": -71.522
+    },
+    {
+      "name": "Hudson",
+      "lat": 42.391,
+      "lon": -71.563
+    },
+    {
+      "name": "Lincoln",
+      "lat": 42.425,
+      "lon": -71.305
+    },
+    {
+      "name": "Marlborough",
+      "lat": 42.346,
+      "lon": -71.552,
+      "aliases": [
+        "Marlboro"
+      ]
+    },
+    {
+      "name": "Maynard",
+      "lat": 42.428,
+      "lon": -71.453
+    },
+    {
+      "name": "Medfield",
+      "lat": 42.187,
+      "lon": -71.305
+    },
+    {
+      "name": "Medway",
+      "lat": 42.142,
+      "lon": -71.401
+    },
+    {
+      "name": "Mendon",
+      "lat": 42.105,
+      "lon": -71.553
+    },
+    {
+      "name": "Milford",
+      "lat": 42.139,
+      "lon": -71.519
+    },
+    {
+      "name": "Millis",
+      "lat": 42.167,
+      "lon": -71.357
+    },
+    {
+      "name": "Natick",
+      "lat": 42.283,
+      "lon": -71.349
+    },
+    {
+      "name": "Needham",
+      "lat": 42.281,
+      "lon": -71.238
+    },
+    {
+      "name": "Newton",
+      "lat": 42.337,
+      "lon": -71.21
+    },
+    {
+      "name": "Norfolk",
+      "lat": 42.115,
+      "lon": -71.323
+    },
+    {
+      "name": "Northborough",
+      "lat": 42.319,
+      "lon": -71.64,
+      "aliases": [
+        "Northboro"
+      ]
+    },
+    {
+      "name": "Sharon",
+      "lat": 42.124,
+      "lon": -71.18
+    },
+    {
+      "name": "Sherborn",
+      "lat": 42.234,
+      "lon": -71.371
+    },
+    {
+      "name": "Southborough",
+      "lat": 42.305,
+      "lon": -71.523,
+      "aliases": [
+        "Southboro"
+      ]
+    },
+    {
+      "name": "Stow",
+      "lat": 42.435,
+      "lon": -71.503
+    },
+    {
+      "name": "Sudbury",
+      "lat": 42.383,
+      "lon": -71.416
+    },
+    {
+      "name": "Upton",
+      "lat": 42.171,
+      "lon": -71.594
+    },
+    {
+      "name": "Walpole",
+      "lat": 42.142,
+      "lon": -71.249
+    },
+    {
+      "name": "Watertown",
+      "lat": 42.371,
+      "lon": -71.183
+    },
+    {
+      "name": "Wayland",
+      "lat": 42.362,
+      "lon": -71.358
+    },
+    {
+      "name": "Wellesley",
+      "lat": 42.297,
+      "lon": -71.293
+    },
+    {
+      "name": "Westborough",
+      "lat": 42.27,
+      "lon": -71.617,
+      "aliases": [
+        "Westboro"
+      ]
+    },
+    {
+      "name": "Weston",
+      "lat": 42.366,
+      "lon": -71.302
+    },
+    {
+      "name": "Wrentham",
+      "lat": 42.067,
+      "lon": -71.331
+    }
+  ]
+}

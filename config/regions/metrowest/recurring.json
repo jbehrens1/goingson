@@ -1,0 +1,86 @@
+{
+  "$comment": "Manually-curated weekly recurring events. The manual-recurring adapter materializes the next N occurrences of each entry as concrete dated events. Edit this file and re-run `npm run ingest` to refresh.",
+  "defaultOccurrences": 8,
+  "events": [
+    {
+      "title": "Mah Jongg in the Garden at Elm Bank",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "url": "https://masshort.org/",
+      "venue": "Massachusetts Horticultural Society - Elm Bank",
+      "town": "Wellesley",
+      "weekday": "Wed",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "startDate": "2026-05-13",
+      "endDate": "2026-10-28"
+    },
+    {
+      "title": "Mah Jongg Club at Sherborn Library",
+      "description": "All levels welcome. Call 508-653-0770 on your first visit.",
+      "url": "https://sherbornlibrary.org/",
+      "venue": "Sherborn Library",
+      "town": "Sherborn",
+      "weekday": "Mon",
+      "startTime": "12:00",
+      "endTime": "15:00"
+    },
+    {
+      "title": "Mah Jongg at Caryl Center",
+      "description": "Drop-in mah jongg in Room 108. Call the Dover Council on Aging to confirm during the renovation.",
+      "url": "https://www.doverma.gov/270/Council-on-Aging",
+      "venue": "Caryl Center (Dover COA)",
+      "town": "Dover",
+      "weekday": "Thu",
+      "startTime": "13:00",
+      "endTime": "15:00"
+    },
+    {
+      "title": "Pick-up Mahjong at Tolles Parsons Center",
+      "description": "Drop-in mahjong at the Wellesley Council on Aging. 781-235-3961 to confirm day/time.",
+      "url": "https://www.wellesleyma.gov/375/Council-on-Aging",
+      "venue": "Tolles Parsons Center",
+      "town": "Wellesley",
+      "weekday": "Tue",
+      "startTime": "13:00"
+    },
+    {
+      "title": "Mahjong at Sherborn COA",
+      "description": "Weekly mahjong in the Select Board Room. Email coaprograms@sherbornma.org or call 508-651-7858.",
+      "url": "https://www.sherbornma.org/council-aging",
+      "venue": "Sherborn Town Hall - Select Board Room",
+      "town": "Sherborn",
+      "weekday": "Tue",
+      "startTime": "10:00"
+    },
+    {
+      "title": "MahJong at Dedham Ames Senior Center",
+      "description": "Drop-in mahjong, 55+, no signup required.",
+      "url": "https://www.dedham-ma.gov/senior-center",
+      "venue": "Dedham Ames Senior Center",
+      "town": "Dedham",
+      "weekday": "Wed",
+      "startTime": "13:00",
+      "endTime": "15:00"
+    },
+    {
+      "title": "Beyond Beginner Mah Jongg (JCC Greater Boston)",
+      "description": "Designed for players past the basics — supervised play with focus on hand selection and pacing. Non-members welcome. Email adultprog@jccgb.org for upcoming sessions.",
+      "url": "https://www.jccgb.org/",
+      "venue": "JCC Greater Boston",
+      "town": "Newton",
+      "weekday": "Thu",
+      "startTime": "10:00",
+      "occurrences": 4
+    },
+    {
+      "title": "Guided Mah Jongg Play at Ten Trees Books",
+      "description": "Supervised play with Christina Awad of Tile & Grace Mahjong — ask questions in the moment. Watch their events page or Eventbrite listings for confirmed dates.",
+      "url": "https://tentreesbooks.com/",
+      "venue": "Ten Trees Books",
+      "town": "Natick",
+      "weekday": "Sat",
+      "startTime": "14:00",
+      "occurrences": 4
+    }
+  ]
+}
