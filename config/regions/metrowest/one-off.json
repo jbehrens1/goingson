@@ -1,0 +1,14 @@
+{
+  "$comment": "Specific dated events that can't be reliably auto-scraped from their host. Add an entry with the wall-clock start time in the region's timezone (America/New_York for MetroWest). Re-run `npm run ingest` to pick up changes.",
+  "events": [
+    {
+      "title": "Mahjong Mondays! Class 1",
+      "description": "Class with Christina Awad of Tile & Grace Mahjong at Ten Trees Books in Natick. Part of an ongoing class series. Watch tentreesbooks.com/events/calendar for additional dates.",
+      "url": "https://tentreesbooks.com/events/calendar",
+      "venue": "Ten Trees Books",
+      "town": "Natick",
+      "start": "2026-05-11T13:00:00",
+      "end": "2026-05-11T15:00:00"
+    }
+  ]
+}

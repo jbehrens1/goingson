@@ -7,6 +7,7 @@ export type AdapterType =
   | "wordpress-mc"
   | "trustees"
   | "manual-recurring"
+  | "manual-oneoff"
   | "html-generic";
 
 export type SourceConfig = {

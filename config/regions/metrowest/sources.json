@@ -653,6 +653,19 @@
         "file": "recurring.json",
         "defaultOccurrences": 8
       }
+    },
+    {
+      "id": "manual-oneoff",
+      "name": "MetroWest one-off events (manual)",
+      "enabled": true,
+      "adapter": "manual-oneoff",
+      "url": "https://www.example.com/",
+      "category": "Manual",
+      "town": "All MetroWest",
+      "notes": "Specific dated events curated by hand in config/regions/metrowest/one-off.json. Use this for sources that can't be auto-scraped (Cloudflare-blocked, class series, etc.).",
+      "config": {
+        "file": "one-off.json"
+      }
     }
   ]
 }

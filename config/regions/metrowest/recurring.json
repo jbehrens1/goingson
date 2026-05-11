@@ -61,26 +61,6 @@
       "weekday": "Wed",
       "startTime": "13:00",
       "endTime": "15:00"
-    },
-    {
-      "title": "Beyond Beginner Mah Jongg (JCC Greater Boston)",
-      "description": "Designed for players past the basics — supervised play with focus on hand selection and pacing. Non-members welcome. Email adultprog@jccgb.org for upcoming sessions.",
-      "url": "https://www.jccgb.org/",
-      "venue": "JCC Greater Boston",
-      "town": "Newton",
-      "weekday": "Thu",
-      "startTime": "10:00",
-      "occurrences": 4
-    },
-    {
-      "title": "Guided Mah Jongg Play at Ten Trees Books",
-      "description": "Supervised play with Christina Awad of Tile & Grace Mahjong — ask questions in the moment. Watch their events page or Eventbrite listings for confirmed dates.",
-      "url": "https://tentreesbooks.com/",
-      "venue": "Ten Trees Books",
-      "town": "Natick",
-      "weekday": "Sat",
-      "startTime": "14:00",
-      "occurrences": 4
     }
   ]
 }

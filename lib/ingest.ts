@@ -9,6 +9,7 @@ import { wordpressTribeAdapter } from "./adapters/wordpress-tribe";
 import { wordpressMcAdapter } from "./adapters/wordpress-mc";
 import { trusteesAdapter } from "./adapters/trustees";
 import { manualRecurringAdapter } from "./adapters/manual-recurring";
+import { manualOneoffAdapter } from "./adapters/manual-oneoff";
 import { enrichWithCoordinates } from "./geocode";
 import { eventsCanonicalPath, eventsOutputPath, loadRegion, sourcesPath } from "./region";
 import type { Adapter, EventRecord, SourceConfig, SourcesFile } from "./types";
@@ -23,6 +24,7 @@ const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   "wordpress-mc": wordpressMcAdapter,
   trustees: trusteesAdapter,
   "manual-recurring": manualRecurringAdapter,
+  "manual-oneoff": manualOneoffAdapter,
   "html-generic": htmlGenericAdapter,
 };
 
