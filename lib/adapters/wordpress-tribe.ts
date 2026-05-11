@@ -1,6 +1,19 @@
 import type { Adapter, AdapterResult } from "../types";
 import { buildEvent, politeFetch, toIsoOrUndefined } from "../util";
 
+// Tribe REST returns `utc_start_date` / `utc_end_date` as naive UTC strings
+// like "2026-05-11 17:30:00" with no trailing Z. `new Date()` parses unmarked
+// strings as LOCAL time, which produces wrong ISO timestamps when ingest runs
+// in a non-UTC timezone (e.g. a dev machine in ET). Force UTC interpretation.
+function parseUtcNaive(s: string | undefined): string | undefined {
+  if (!s) return undefined;
+  const t = s.trim();
+  if (/^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}$/.test(t)) {
+    return new Date(t.replace(" ", "T") + "Z").toISOString();
+  }
+  return toIsoOrUndefined(s);
+}
+
 // The Events Calendar (Tribe) plugin exposes a REST API at
 // `/wp-json/tribe/events/v1/events`. This adapter is generic — point any
 // source's `url` at the site root or events page; we'll derive the REST URL.
@@ -87,7 +100,7 @@ export const wordpressTribeAdapter: Adapter = async ({ source }): Promise<Adapte
     }
     const json = (await res.json()) as TribePage;
     for (const ev of json.events ?? []) {
-      const startIso = toIsoOrUndefined(ev.utc_start_date ?? ev.start_date);
+      const startIso = parseUtcNaive(ev.utc_start_date) ?? toIsoOrUndefined(ev.start_date);
       if (!startIso) {
         warnings.push(`Skipped event ${ev.id} (no start date)`);
         continue;
@@ -101,7 +114,7 @@ export const wordpressTribeAdapter: Adapter = async ({ source }): Promise<Adapte
           description: stripHtml(ev.description ?? ev.excerpt),
           url: ev.url,
           start: startIso,
-          end: toIsoOrUndefined(ev.utc_end_date ?? ev.end_date),
+          end: parseUtcNaive(ev.utc_end_date) ?? toIsoOrUndefined(ev.end_date),
           allDay: !!ev.all_day,
           location: {
             venue: venue?.venue,
