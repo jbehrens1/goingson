@@ -666,6 +666,20 @@
       "config": {
         "file": "one-off.json"
       }
+    },
+    {
+      "id": "jcc-greater-boston",
+      "name": "JCC Greater Boston",
+      "enabled": true,
+      "adapter": "wordpress-tribe-list",
+      "url": "https://www.bostonjcc.org/",
+      "category": "Venue",
+      "town": "Newton",
+      "notes": "WordPress + The Events Calendar (Tribe) plugin. REST API exposes only ~7 featured events, but /calendar/list/ shows the full calendar in JSON-LD with pagination. wordpress-tribe-list adapter scrapes those pages.",
+      "config": {
+        "basePath": "/calendar/list/",
+        "maxPages": 8
+      }
     }
   ]
 }

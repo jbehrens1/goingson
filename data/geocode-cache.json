@@ -764,5 +764,53 @@
     "lat": null,
     "lon": null,
     "fetchedAt": "2026-05-11T18:12:39.258Z"
+  },
+  "metrowest::333 nahanton st, newton, ma": {
+    "lat": 42.297392,
+    "lon": -71.20453,
+    "displayName": "333, Nahanton Street, Newton, Middlesex County, Massachusetts, 02459, United States",
+    "fetchedAt": "2026-05-11T18:31:25.622Z"
+  },
+  "metrowest::333 nahanton street, newton, ma": {
+    "lat": 42.297392,
+    "lon": -71.20453,
+    "displayName": "333, Nahanton Street, Newton, Middlesex County, Massachusetts, 02459, United States",
+    "fetchedAt": "2026-05-11T18:31:26.882Z"
+  },
+  "metrowest::provided after reg, zoom session, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T18:31:28.725Z"
+  },
+  "metrowest::zoom session, zoom session": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T18:31:29.690Z"
+  },
+  "metrowest::zoom session": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T18:31:30.699Z"
+  },
+  "metrowest::1112 main street, hingham, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T18:31:32.200Z"
+  },
+  "metrowest::elc hingham, hingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T18:31:33.092Z"
+  },
+  "metrowest::address shared after registration, cambridge, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-11T18:31:34.062Z"
+  },
+  "metrowest::cambridge - 02139, cambridge": {
+    "lat": 42.3680753,
+    "lon": -71.1023439,
+    "displayName": "Whole Foods Market, 115, Prospect Street, Mid-Cambridge, Cambridge, Middlesex County, Massachusetts, 02139, United States",
+    "fetchedAt": "2026-05-11T18:31:35.466Z"
   }
 }

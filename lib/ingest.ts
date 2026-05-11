@@ -6,6 +6,7 @@ import { eventbriteAdapter } from "./adapters/eventbrite";
 import { patchAdapter } from "./adapters/patch";
 import { htmlGenericAdapter } from "./adapters/html-generic";
 import { wordpressTribeAdapter } from "./adapters/wordpress-tribe";
+import { wordpressTribeListAdapter } from "./adapters/wordpress-tribe-list";
 import { wordpressMcAdapter } from "./adapters/wordpress-mc";
 import { trusteesAdapter } from "./adapters/trustees";
 import { manualRecurringAdapter } from "./adapters/manual-recurring";
@@ -21,6 +22,7 @@ const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   eventbrite: eventbriteAdapter,
   patch: patchAdapter,
   "wordpress-tribe": wordpressTribeAdapter,
+  "wordpress-tribe-list": wordpressTribeListAdapter,
   "wordpress-mc": wordpressMcAdapter,
   trustees: trusteesAdapter,
   "manual-recurring": manualRecurringAdapter,

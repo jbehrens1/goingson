@@ -4,6 +4,7 @@ export type AdapterType =
   | "eventbrite"
   | "patch"
   | "wordpress-tribe"
+  | "wordpress-tribe-list"
   | "wordpress-mc"
   | "trustees"
   | "manual-recurring"
