@@ -523,6 +523,7 @@ export default function EventsView({
                       <span className="distance"> · {distance.toFixed(1)} mi</span>
                     )}
                   </td>
+                  <td className="col-venue">{ev.location?.venue ?? "—"}</td>
                   <td className="col-type">
                     <span className={`type-pill type-${ev.type}`}>{TYPE_LABELS[ev.type]}</span>
                   </td>
@@ -535,7 +536,6 @@ export default function EventsView({
                     >
                       {ev.title}
                     </a>
-                    {ev.location?.venue && <span className="venue"> · {ev.location.venue}</span>}
                     {ev.description && (
                       <p className="event-description">
                         {ev.description.length > 200

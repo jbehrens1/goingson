@@ -438,6 +438,16 @@ header .muted,
   font-size: 0.8rem;
 }
 
+.col-venue {
+  width: 12rem;
+  font-size: 0.9rem;
+  color: var(--fg);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  padding-right: 0.5rem;
+}
+
 .col-type {
   width: 9.5rem;
 }
