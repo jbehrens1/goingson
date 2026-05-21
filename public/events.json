@@ -23,8 +23,8 @@
       "Concord, MA"
     ]
   },
-  "generatedAt": "2026-05-20T12:29:18.557Z",
-  "count": 377,
+  "generatedAt": "2026-05-21T12:48:16.694Z",
+  "count": 381,
   "events": [
     {
       "title": "Jewish Story Lab",
@@ -45,7 +45,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Exclusive showing:  'The Day Iceland Stood Still'",
@@ -63,25 +63,7 @@
         "id": "needham-gov",
         "name": "Town of Needham - Community Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.954Z"
-    },
-    {
-      "title": "How to Build an Accessory Dwelling Unit (ADU) in Needham",
-      "description": "Event date: May 20, 2026 \nEvent Time: 07:00 PM - 08:30 PM\nLocation: \n1139 Highland Avenue \nNeedham, MA 02492",
-      "url": "https://www.needhamma.gov/Calendar.aspx?EID=27388",
-      "start": "2026-05-14T19:24:27.000Z",
-      "location": {
-        "town": "Needham",
-        "lat": 42.2802645,
-        "lon": -71.2360624
-      },
-      "type": "workshop",
-      "id": "d0568d3ad7153550",
-      "source": {
-        "id": "needham-gov",
-        "name": "Town of Needham - Community Events"
-      },
-      "ingestedAt": "2026-05-20T12:28:10.954Z"
+      "ingestedAt": "2026-05-21T12:47:07.090Z"
     },
     {
       "title": "2026 Needham High School Civics Showcase",
@@ -99,469 +81,7 @@
         "id": "needham-gov",
         "name": "Town of Needham - Community Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.954Z"
-    },
-    {
-      "title": "Photographing Joint-Balled Dolls",
-      "description": "Presentation by Noted Still Life Photographer Polina Plotnikova Gateway Camera Club invites you to join us Tuesday, May 19 th...",
-      "url": "https://patch.com/massachusetts/wayland/calendar/event/20260519/89cd7ad5-0846-442a-bf25-1083e3288f91/photographing-joint-balled-dolls",
-      "start": "2026-05-20T01:00:00.000Z",
-      "location": {
-        "venue": "St. Andrew's Episcopal Church",
-        "town": "Framingham",
-        "address": "3 Maple St, Framingham, MA",
-        "lat": 42.2966615,
-        "lon": -71.4315045
-      },
-      "imageUrl": "https://patch.com/img/cdn20/users/27024694/20260517/101259/plotnikova___17101258235.jpg",
-      "type": "other",
-      "id": "bf87c573e89e1608",
-      "source": {
-        "id": "patch-wayland",
-        "name": "Wayland Patch - Calendar"
-      },
-      "ingestedAt": "2026-05-20T12:28:06.781Z"
-    },
-    {
-      "title": "May Lifeguard Course (includes Waterfront)",
-      "description": "&lt;p&gt;Become a certified lifeguard with this Blended Learning course.This course will include first aid and CPR/AED training, patron surveillance, water rescue, teamwork, and communication skills. Throughout the course, you will [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/may-lifeguard-course-includes-waterfront/2026-05-20/",
-      "start": "2026-05-20T12:00:00.000Z",
-      "end": "2026-05-20T23:00:00.000Z",
-      "location": {
-        "venue": "Pool Deck, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "other",
-      "id": "4b5a84431b311a96",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
-    },
-    {
-      "title": "Total Body Bootcamp – Giving Day 2026",
-      "description": "&lt;p&gt;Challenge your body and mind with this high-energy bootcamp led by Group Fitness Instructor and Trainer Jen Davis! This class combines cardio and strength intervals to sculpt, tone, and boost [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/total-body-bootcamp-giving-day-2026/2026-05-20/",
-      "start": "2026-05-20T13:30:00.000Z",
-      "end": "2026-05-20T14:15:00.000Z",
-      "location": {
-        "venue": "Community Room, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "workshop",
-      "id": "236a76a74a255e21",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
-    },
-    {
-      "title": "End Of Season Half Price Clearance!",
-      "description": "Don't miss the best little consignment shop in Metrowest as they clear out inventory with a massive half-price sale. Shop a...",
-      "url": "https://patch.com/massachusetts/holliston-hopkinton/calendar/event/20260520/50333089-4405-4abf-b4b7-56f2229c50b7/end-of-season-half-price-clearance",
-      "start": "2026-05-20T14:00:00.000Z",
-      "location": {
-        "venue": "Unitarian Universalist Area Church",
-        "town": "Sherborn",
-        "address": "11 Washington St, Sherborn, MA",
-        "lat": 42.2408042,
-        "lon": -71.370147
-      },
-      "imageUrl": "https://patch.com/img/cdn20/users/27248030/20260517/030442/flyer-8d85c53e-b63b-4e46-92df-6861374c8546___17150440837.jpg",
-      "type": "other",
-      "id": "d026ada9afe6f40a",
-      "source": {
-        "id": "patch-hopkinton",
-        "name": "Holliston-Hopkinton Patch - Calendar"
-      },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
-    },
-    {
-      "title": "Beginner Mah Jongg: Wednesday Morning",
-      "description": "&lt;p&gt;Mah Jongg is a fast-moving game that will sharpen cognitive, memorization, and decision-making skills. This is a beginners American Mah Jongg class. You will learn what the tiles are and [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/beginner-mah-jongg-wednesday-morning/2026-05-20/",
-      "start": "2026-05-20T14:00:00.000Z",
-      "end": "2026-05-20T16:00:00.000Z",
-      "location": {
-        "venue": "The Wexler Family Lounge",
-        "address": "333 Nahanton St, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297392,
-        "lon": -71.20453
-      },
-      "type": "mahjong",
-      "id": "88343cc2e077a331",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
-    },
-    {
-      "title": "Rock Steady Boxing",
-      "description": "&lt;p&gt;Fight back against Parkinson\\'s disease in this non-contact boxing-style fitness class to feel your best inside and out! Led by a Certified Rock Steady Boxing Coach, Rock Steady Boxing incorporates [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/rock-steady-boxing-3/2026-05-20/",
-      "start": "2026-05-20T15:00:00.000Z",
-      "end": "2026-05-20T16:00:00.000Z",
-      "location": {
-        "venue": "Community Room, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "workshop",
-      "id": "64616490ca45c11a",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
-    },
-    {
-      "title": "Men's Health Seminar - Take Charge of Your Health; Lunch and Learn",
-      "description": "Join Dr. Ravi Kacker for an informative session in which he'll explore key health issues affecting men today, including benign...",
-      "url": "https://patch.com/massachusetts/natick/calendar/event/20260520/5d1ace3c-d931-4fad-94cd-cb5fe491212b/mens-health-seminar-take-charge-of-your-health-lunch-and-learn",
-      "start": "2026-05-20T16:00:00.000Z",
-      "location": {
-        "venue": "Natick Community-Senior Center",
-        "town": "Natick",
-        "address": "117 E Central St, Natick, MA",
-        "lat": 42.2850532,
-        "lon": -71.3378099
-      },
-      "imageUrl": "https://patch.com/img/cdn20/users/26563699/20260504/114328/mens-health-seminar___04114327721.jpg",
-      "type": "workshop",
-      "id": "6880becb9433aaf4",
-      "source": {
-        "id": "patch-natick",
-        "name": "Natick Patch - Calendar"
-      },
-      "ingestedAt": "2026-05-20T12:28:06.633Z"
-    },
-    {
-      "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
-      "url": "https://masshort.org/",
-      "start": "2026-05-20T16:00:00.000Z",
-      "end": "2026-05-20T18:00:00.000Z",
-      "location": {
-        "venue": "Massachusetts Horticultural Society - Elm Bank",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "mahjong",
-      "id": "f682ab754cae323d",
-      "source": {
-        "id": "mahjong-recurring",
-        "name": "MetroWest Mah Jongg drop-ins (manual)"
-      },
-      "ingestedAt": "2026-05-20T12:28:10.955Z"
-    },
-    {
-      "title": "Basic Tai Chi Movement for Parkinson\\'s",
-      "description": "&lt;p&gt;Improve your balance and strength with the flowing movements found in the Tai Chi style from one of China\\'s major centers of Taoist practice, Wudang Mountain. Learn basic techniques to [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/basic-tai-chi-movement-for-parkinsons-2/2026-05-20/",
-      "start": "2026-05-20T16:00:00.000Z",
-      "end": "2026-05-20T16:50:00.000Z",
-      "location": {
-        "venue": "Mind Body Studio, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "fitness",
-      "id": "3c9fdeccc350c75f",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
-    },
-    {
-      "title": "Masters Mid Day",
-      "description": "",
-      "url": "https://www.bostonjcc.org/calendar/masters-mid-day/2026-05-20/",
-      "start": "2026-05-20T16:00:00.000Z",
-      "end": "2026-05-20T17:00:00.000Z",
-      "location": {
-        "venue": "Pool Deck, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "other",
-      "id": "ae9291f78a33cd6a",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
-    },
-    {
-      "title": "Rock Steady Boxing",
-      "description": "&lt;p&gt;Fight back against Parkinson\\'s disease in this non-contact boxing-style fitness class that will leave you feeling your best inside and out! Led by a Certified Rock Steady Boxing Coach, Rock [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/rock-steady-boxing-4/2026-05-20/",
-      "start": "2026-05-20T16:15:00.000Z",
-      "end": "2026-05-20T17:15:00.000Z",
-      "location": {
-        "venue": "Community Room, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "workshop",
-      "id": "3fee4648068a23de",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.458Z"
-    },
-    {
-      "title": "MahJong at Dedham Ames Senior Center",
-      "description": "Drop-in mahjong, 55+, no signup required.",
-      "url": "https://www.dedham-ma.gov/senior-center",
-      "start": "2026-05-20T17:00:00.000Z",
-      "end": "2026-05-20T19:00:00.000Z",
-      "location": {
-        "venue": "Dedham Ames Senior Center",
-        "town": "Dedham",
-        "lat": 42.2489143,
-        "lon": -71.1755732
-      },
-      "type": "mahjong",
-      "id": "e0ff2c52bdf9a9c7",
-      "source": {
-        "id": "mahjong-recurring",
-        "name": "MetroWest Mah Jongg drop-ins (manual)"
-      },
-      "ingestedAt": "2026-05-20T12:28:10.963Z"
-    },
-    {
-      "title": "Spring ELC Soccer (3-4 yrs)",
-      "description": "&lt;p&gt;FOR ELC CHILDREN: Get moving with Super Soccer Stars! Super Soccer Stars uses the soccer ball as a vehicle to help children not only improve their soccer skills, but develop [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/spring-elc-soccer-3-4-yrs/2026-05-20/",
-      "start": "2026-05-20T17:00:00.000Z",
-      "end": "2026-05-20T17:50:00.000Z",
-      "location": {
-        "venue": "Basketball Gym, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "family",
-      "id": "25fd7a9100ec6df4",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.459Z"
-    },
-    {
-      "title": "Barre Fusion Burn – Giving Day 2026",
-      "description": "&lt;p&gt;Led by Group Fitness Instructor Tracey Goldstein, this total-body workout incorporates ballet barre, Pilates fundamentals, and cardio segments. Designed to lengthen, tone, and sculpt muscles, increase muscle endurance and stamina, [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/barre-fusion-burn-giving-day-2026/2026-05-20/",
-      "start": "2026-05-20T17:00:00.000Z",
-      "end": "2026-05-20T17:50:00.000Z",
-      "location": {
-        "venue": "Mind Body Studio, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "fitness",
-      "id": "5b4a9139785671d0",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.459Z"
-    },
-    {
-      "title": "Spring ELC Soccer (4-5 yrs)",
-      "description": "&lt;p&gt;FOR ELC CHILDREN: Get moving with Super Soccer Stars! Super Soccer Stars uses the soccer ball as a vehicle to help children not only improve their soccer skills, but develop [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/spring-elc-soccer-4-5-yrs/2026-05-20/",
-      "start": "2026-05-20T18:00:00.000Z",
-      "end": "2026-05-20T18:50:00.000Z",
-      "location": {
-        "venue": "Basketball Gym, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "family",
-      "id": "538303b7f7f5e538",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.459Z"
-    },
-    {
-      "title": "Spring GreenBall Tennis (Gr. 4-6)",
-      "description": "&lt;p&gt;Spend time on the fundamentals, and experience a variety of drills and teaching games. This class is designed for new players and advanced beginners who are progressing to light rallying [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/spring-greenball-tennis-gr-4-6/2026-05-20/",
-      "start": "2026-05-20T19:30:00.000Z",
-      "end": "2026-05-20T20:30:00.000Z",
-      "location": {
-        "venue": "Tennis Courts, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "workshop",
-      "id": "52cc89ab595df274",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.459Z"
-    },
-    {
-      "title": "Mt Calvary Community Supper of Acton - May Menu",
-      "description": "MT CALVARY COMMUNITY SUPPER OF ACTON May 2026 ...",
-      "url": "https://patch.com/massachusetts/acton/calendar/event/20260520/5bd77271-7ca0-420f-b12c-d1af7fc87508/mt-calvary-community-supper-of-acton-may-menu",
-      "start": "2026-05-20T20:15:00.000Z",
-      "location": {
-        "venue": "Mt Calvary Lutheran Church",
-        "town": "Acton",
-        "address": "472 Massachusetts Ave, Acton, MA",
-        "lat": 42.4754245,
-        "lon": -71.4610439
-      },
-      "imageUrl": "https://patch.com/img/cdn20/users/1506953/20260423/042646/20260401-151117___23162643415.jpg",
-      "type": "other",
-      "id": "f9135de70b2fa733",
-      "source": {
-        "id": "patch-acton",
-        "name": "Acton Patch - Calendar"
-      },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
-    },
-    {
-      "title": "Beginner Mah Jongg: Wednesday Evening",
-      "description": "&lt;p&gt;Mah Jongg is a fast-moving game that will sharpen cognitive, memorization, and decision-making skills. This is a beginners American Mah Jongg class. You will learn what the tiles are and [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/beginner-mah-jongg-wednesday-evening/2026-05-20/",
-      "start": "2026-05-20T21:45:00.000Z",
-      "end": "2026-05-20T23:45:00.000Z",
-      "location": {
-        "venue": "The Wexler Family Lounge",
-        "address": "333 Nahanton St, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297392,
-        "lon": -71.20453
-      },
-      "type": "mahjong",
-      "id": "5c31da8b25ed3ac9",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.459Z"
-    },
-    {
-      "title": "Spring Music Performance - Adaptive Class",
-      "description": "&lt;p&gt;Enjoy karaoke? Love to sing and/or dance? Show off your inner super star as you learn about music performance! Participants will work on solos and group numbers, singing and dancing [&hellip;]&lt;/p&gt;\\n",
-      "url": "https://www.bostonjcc.org/calendar/spring-music-performance-adaptive-class/2026-05-20/",
-      "start": "2026-05-20T22:15:00.000Z",
-      "end": "2026-05-20T23:15:00.000Z",
-      "location": {
-        "venue": "Community Room, Leventhal-Sidman JCC",
-        "address": "333 Nahanton Street, Newton, MA",
-        "town": "Newton",
-        "lat": 42.297229,
-        "lon": -71.204043
-      },
-      "type": "workshop",
-      "id": "65f898fd07cfb433",
-      "source": {
-        "id": "jcc-greater-boston",
-        "name": "JCC Greater Boston"
-      },
-      "ingestedAt": "2026-05-20T12:28:11.459Z"
-    },
-    {
-      "title": "Rotary Club presents &#8220;Taste of Wellesley&#8221;",
-      "description": "Buy tickets here.",
-      "url": "https://theswellesleyreport.com/event/rotary-club-presents-taste-of-wellesley/",
-      "start": "2026-05-20T22:30:00.000Z",
-      "end": "2026-05-21T01:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellesley Country Club, 300 Wellesley Ave.",
-        "town": "Wellesley",
-        "address": "300 Wellesley Ave., Wellesley, MA",
-        "lat": 42.2999268,
-        "lon": -71.2595185
-      },
-      "type": "other",
-      "id": "01c1da624d0ca5cc",
-      "source": {
-        "id": "swellesley-report",
-        "name": "The Swellesley Report - Events"
-      },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
-    },
-    {
-      "title": " Craft Ladies: Kinusaiga Fabric Art | FPL McAuliffe",
-      "description": "Kinusaiga is a Japanese art form created by Setsu Maeno in the 1980's. Originally created by tucking silks into slits cut into...",
-      "url": "https://patch.com/massachusetts/framingham/calendar/event/20260520/e2679740-a6fb-484d-ad0b-1d6954d04d08/craft-ladies-kinusaiga-fabric-art-fpl-mcauliffe",
-      "start": "2026-05-20T23:00:00.000Z",
-      "location": {
-        "venue": "McAuliffe Branch Library",
-        "town": "Framingham",
-        "address": "746 Water St, Framingham, MA",
-        "lat": 42.3290357,
-        "lon": -71.4321749
-      },
-      "imageUrl": "https://patch.com/img/cdn20/users/26796489/20260421/123918/may-2026-sm___21123917227.jpg",
-      "type": "other",
-      "id": "9beaee64cae338d1",
-      "source": {
-        "id": "patch-framingham",
-        "name": "Framingham Patch - Calendar"
-      },
-      "ingestedAt": "2026-05-20T12:28:06.579Z"
-    },
-    {
-      "title": "How To Build An Accessory Dwelling Unit (ADU) in Needham",
-      "description": "How to Build an Accessory Dwelling Unit (ADU) in Needham Join us to get your questions answered! This event—co-sponsored by the Needham Housing Coalition, Charles River Regional Chamber, Progressive Needham, League of Women Voters, and Green Needham—will explore why and how to add an ADU to your property. Date &amp; Time: Wednesday, May 20th, 7 p.m. Location: Needham Public Library &nbsp; How can you benefit from an ADU? How do you build and finance an ADU? What are the new ADU bylaw requirements? &nbsp; ADUs are a valuable small housing opportunity for young people, the local workforce, seniors who are downsizing, and property owners seeking supplemental income. Recent state initiatives increase the opportunity for single family homeowners to build ADUs. &nbsp; Learn from our panel of experts: Jim Sullivan, Needham Building Department Amy Wortzman, Eastern Bank Rick Leland, Remodeling remedies, LLC Oscar Mertz, Needham Planning Board Needham resident who has built an ADU Admission is free and advance registration is not required. For more information please contact needhamhousingcoalition@gmail.com.",
-      "url": "https://needhamlocal.org/event/how-to-build-an-accessory-dwelling-unit-adu-in-needham/",
-      "start": "2026-05-20T23:00:00.000Z",
-      "end": "2026-05-21T00:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Needham Public Library",
-        "town": "Needham",
-        "address": "1132 Highland Avenue, Needham, MA",
-        "lat": 42.2880412,
-        "lon": -71.234425
-      },
-      "type": "lecture",
-      "id": "3fae10bac03168ed",
-      "source": {
-        "id": "needham-local",
-        "name": "Needham Local - This Week"
-      },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:07.090Z"
     },
     {
       "title": "The Garcia Project",
@@ -583,7 +103,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.581Z"
+      "ingestedAt": "2026-05-21T12:46:56.087Z"
     },
     {
       "title": "Sunday, Tuesday, Thursday Masters Swim",
@@ -604,7 +124,28 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:11.459Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
+    },
+    {
+      "title": "May Lifeguard Course (includes Waterfront)",
+      "description": "&lt;p&gt;Become a certified lifeguard with this Blended Learning course.This course will include first aid and CPR/AED training, patron surveillance, water rescue, teamwork, and communication skills. Throughout the course, you will [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/may-lifeguard-course-includes-waterfront/2026-05-21/",
+      "start": "2026-05-21T12:00:00.000Z",
+      "end": "2026-05-21T23:00:00.000Z",
+      "location": {
+        "venue": "Pool Deck, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "other",
+      "id": "8451bc12741291c0",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Canasta: Beginners",
@@ -625,7 +166,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.333Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Israeli Dance",
@@ -646,7 +187,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.333Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Farm Explorers at Weir River Farm",
@@ -667,7 +208,7 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-20T12:27:59.979Z"
+      "ingestedAt": "2026-05-21T12:46:54.350Z"
     },
     {
       "title": "Home to Two Revolutions: Tour of the Old Manse",
@@ -688,7 +229,7 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-20T12:27:59.981Z"
+      "ingestedAt": "2026-05-21T12:46:54.353Z"
     },
     {
       "title": "A Trip to Thailand – Adult Cooking Class",
@@ -709,7 +250,7 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-20T12:27:59.983Z"
+      "ingestedAt": "2026-05-21T12:46:54.354Z"
     },
     {
       "title": "Found Foods Supper Club: A Hands-On Culinary Experience",
@@ -728,7 +269,7 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-20T12:27:59.984Z"
+      "ingestedAt": "2026-05-21T12:46:54.355Z"
     },
     {
       "title": "Tour de Green Bike Ride – Jamaica Plain",
@@ -747,7 +288,7 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-20T12:27:59.985Z"
+      "ingestedAt": "2026-05-21T12:46:54.355Z"
     },
     {
       "title": "Where Land Meets Sea: A Coskata–Coatue Nature Tour",
@@ -768,7 +309,28 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-20T12:27:59.986Z"
+      "ingestedAt": "2026-05-21T12:46:54.356Z"
+    },
+    {
+      "title": "Chrissi Poland: Forever Muscle Shoals",
+      "description": "Powerhouse vocalist and songwriter",
+      "url": "https://tcan.org/events/chrissi-poland-forever-muscle-shoals/",
+      "start": "2026-05-21T16:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "TCAN",
+        "town": "Natick",
+        "lat": 42.2836393,
+        "lon": -71.346996
+      },
+      "imageUrl": "https://tcan.org/wp-content/uploads/2026/05/Chrissy-Poland-Web-Large.png",
+      "type": "other",
+      "id": "b3f75ed133873ea4",
+      "source": {
+        "id": "tcan",
+        "name": "The Center for Arts in Natick (TCAN)"
+      },
+      "ingestedAt": "2026-05-21T12:46:56.081Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -788,7 +350,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.960Z"
+      "ingestedAt": "2026-05-21T12:47:07.095Z"
     },
     {
       "title": "Spring ELC Sports & Games (3-4 yrs)",
@@ -809,7 +371,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.333Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Dynamic Balance and Injury Prevention",
@@ -830,7 +392,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.333Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Poetry Workshop",
@@ -851,7 +413,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.781Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Spring ELC Sports & Games (4-5 yrs)",
@@ -872,7 +434,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Spring ELC Music Video Making (4-5 yrs)",
@@ -893,7 +455,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Liliana Glenn Artist Talk",
@@ -914,7 +476,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.781Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Spring Chess Challengers (5-12 yrs) - Thursdays",
@@ -935,7 +497,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Spring Family Chess (For Caregivers with child 6yrs+) - Thursdays",
@@ -956,7 +518,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Exclusive Showing: The Day Iceland Stood Still",
@@ -979,7 +541,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.267Z"
     },
     {
       "title": "Rosh Hodesh: Girls Community Group",
@@ -1000,7 +562,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Beyond Beginner Mah Jongg: Thursday Evening: May",
@@ -1021,7 +583,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Chakra Clearing & Balancing",
@@ -1032,8 +594,8 @@
         "venue": "Salted Soul",
         "town": "Acton",
         "address": "340 Great Rd, Acton, MA",
-        "lat": 42.5023657,
-        "lon": -71.4195488
+        "lat": 42.5029262,
+        "lon": -71.4200142
       },
       "imageUrl": "https://patch.com/img/cdn20/users/27034496/20260518/113421/fb-event-covers___18233420143.jpg",
       "type": "other",
@@ -1042,7 +604,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Wellesley Conservation Land Trust&#8217;s Spring Lecture—&#8221;The Role of Forests in Decarbonization&#8221;",
@@ -1065,7 +627,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "PJ Library Playgroup Celebrates Shavuot!",
@@ -1086,7 +648,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Bridge: Beyond Beginner Plus",
@@ -1107,7 +669,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:07.419Z"
     },
     {
       "title": "Hear The 10 Commandments and enjoy a Deluxe Dairy Luncheon and More...",
@@ -1128,7 +690,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.579Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Table Tennis for Parkinson\\'s",
@@ -1149,7 +711,27 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
+    },
+    {
+      "title": "Public reading of the 10 Commandments in celebration of Shavuot",
+      "description": "To mark the Jewish Festival of Shavuot, the Jewish community in Natick and the Metrowest will gather for a public reading of the 10 Commandments on Friday, May 22. The reading will be done from a handwritten Torah scroll at Chabad Center of Natick-Metrowest. There will be two opportunities on Friday to hear the reading: The first will take place at 11:30 am, followed by a dairy luncheon. A second reading will be held at 5:45 PM, together with a Shavuot Family Event featuring activities, ice cream, and a dessert buffet, as well as for anyone unable to attend the earlier reading. Shavuot, which begins at sunset on Thursday, May 21 and concludes at nightfall on Saturday, May 23, commemorates the Jewish People&#8217;s receiving the 10 Commandments and the Torah from G-d at Mount Sinai 3,338 years ago. RSVP at ChabadNatick.com/Shavuot2026 The Chabad Center of Natick-Metrowest will also host a Yizkor memorial service on May 23 at 11:30 am. Yizkor is a traditional memorial prayer recited by those who&#8217;ve experienced the loss of an immediate family member, and is a very meaningful part of the Shavuot holiday. Please send news tips, photos, ideas to natickreport@gmail.com",
+      "url": "https://www.natickreport.com/event/public-reading-of-the-10-commandments-in-celebration-of-shavuot-2/",
+      "start": "2026-05-22T15:30:00.000Z",
+      "end": "2026-05-22T16:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Natick",
+        "lat": 42.2836393,
+        "lon": -71.346996
+      },
+      "type": "festival",
+      "id": "8498356a7aa9116d",
+      "source": {
+        "id": "natick-report",
+        "name": "Natick Report - Events"
+      },
+      "ingestedAt": "2026-05-21T12:47:03.102Z"
     },
     {
       "title": "Spring ELC 1pm Chess Champs (3.5-5 yrs)",
@@ -1170,7 +752,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Bridge: Intermediate/Advanced",
@@ -1191,7 +773,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:13.334Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Osteo Fit Group Training Series",
@@ -1212,7 +794,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.936Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Spring ELC 2pm Chess Champs (4-5 yrs)",
@@ -1233,7 +815,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.936Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Planetarium Film \"Big Astronomy\"",
@@ -1254,7 +836,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Community Shavuot Celebration",
@@ -1275,7 +857,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "Shavuot for the Family at Chabad Natick",
@@ -1296,7 +878,27 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
+    },
+    {
+      "title": "Public reading of the 10 Commandments in celebration of Shavuot",
+      "description": "To mark the Jewish Festival of Shavuot, the Jewish community in Natick and the Metrowest will gather for a public reading of the 10 Commandments on Friday, May 22. The reading will be done from a handwritten Torah scroll at Chabad Center of Natick-Metrowest. There will be two opportunities on Friday to hear the reading: The first will take place at 11:30 am, followed by a dairy luncheon. A second reading will be held at 5:45 PM, together with a Shavuot Family Event featuring activities, ice cream, and a dessert buffet, as well as for anyone unable to attend the earlier reading. Shavuot, which begins at sunset on Thursday, May 21 and concludes at nightfall on Saturday, May 23, commemorates the Jewish People&#8217;s receiving the 10 Commandments and the Torah from G-d at Mount Sinai 3,338 years ago. RSVP at ChabadNatick.com/Shavuot2026 The Chabad Center of Natick-Metrowest will also host a Yizkor memorial service on May 23 at 11:30 am. Yizkor is a traditional memorial prayer recited by those who&#8217;ve experienced the loss of an immediate family member, and is a very meaningful part of the Shavuot holiday. Please send news tips, photos, ideas to natickreport@gmail.com",
+      "url": "https://www.natickreport.com/event/public-reading-of-the-10-commandments-in-celebration-of-shavuot/",
+      "start": "2026-05-22T21:45:00.000Z",
+      "end": "2026-05-22T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Natick",
+        "lat": 42.2836393,
+        "lon": -71.346996
+      },
+      "type": "festival",
+      "id": "780a43d6b41e7481",
+      "source": {
+        "id": "natick-report",
+        "name": "Natick Report - Events"
+      },
+      "ingestedAt": "2026-05-21T12:47:03.102Z"
     },
     {
       "title": "Planetarium Film \"Pink Floyd - The Dark Side of the Moon\"",
@@ -1317,7 +919,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Community Stargazing",
@@ -1337,7 +939,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Spring Soccer (2-3 yrs) - Saturdays",
@@ -1358,7 +960,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.936Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Spring Little Ninjas (3-4 yrs)",
@@ -1379,7 +981,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.936Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "ArtSpace: Curiosity and Creativity: A Nature Journaling Workshop",
@@ -1399,7 +1001,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Spring Soccer (3-4 yrs) - Saturdays",
@@ -1420,7 +1022,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.936Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Spring Little Ninjas (4-5 yrs)",
@@ -1441,7 +1043,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.936Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Boxing & Circuit Conditioning",
@@ -1462,7 +1064,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Tai Chi Open Practice",
@@ -1483,7 +1085,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Beginner Mah Jongg: Saturdays",
@@ -1504,7 +1106,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Spring Soccer (4-5 yrs) - Saturdays",
@@ -1525,7 +1127,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Rock Steady Boxing",
@@ -1546,7 +1148,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Copy of - Land and Sea Spring",
@@ -1567,7 +1169,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:08.946Z"
     },
     {
       "title": "Sensory Swim- May 23",
@@ -1588,7 +1190,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Basket Raffle Fundraiser for America's Vet Dogs",
@@ -1609,7 +1211,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.830Z"
+      "ingestedAt": "2026-05-21T12:47:02.448Z"
     },
     {
       "title": "Wellesley Conservation Land Trust—Guided bird walk at Newton Lower Falls",
@@ -1630,7 +1232,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Spring JamBABY (6mon - 3 yrs)",
@@ -1651,7 +1253,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring 9am Soccer (2-3 yrs) - Sundays",
@@ -1672,7 +1274,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:14.937Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring Track & Field (3-5 yrs)",
@@ -1693,7 +1295,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring 9am Soccer (3-4 yrs) - Sundays (Outdoor Only Class!)",
@@ -1714,7 +1316,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring 9am RedBall Tennis (4-5 yrs)",
@@ -1735,7 +1337,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring Chess Champs (4-6 yrs)",
@@ -1756,7 +1358,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Worship with Us! Pentecost Sunday",
@@ -1776,7 +1378,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Progressive Religion in a Regressive Era with First Parish of Sudbury",
@@ -1797,7 +1399,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Spring 10am Soccer (3-4 yrs) - Sundays",
@@ -1818,7 +1420,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring 10am Soccer (2-3 yrs) - Sundays (Outdoor Only Class!)",
@@ -1839,7 +1441,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring Creative Dance (3-5 yrs)",
@@ -1860,7 +1462,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring Pickleball (5-8 yrs)",
@@ -1881,7 +1483,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring Chess Challengers (5-12 yrs) - Sundays",
@@ -1902,7 +1504,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring 10am RedBall Tennis (4-5 yrs)",
@@ -1923,7 +1525,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Jewish Teen Foundation of Greater Boston",
@@ -1944,7 +1546,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring 11am Soccer (4-5 yrs) - Sundays",
@@ -1965,7 +1567,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.581Z"
     },
     {
       "title": "Spring 11am Soccer (3-4 yrs) - Sundays (Outdoor Only Class!)",
@@ -1986,7 +1588,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring Action Hero Training Camp (4-6 yrs)",
@@ -2007,7 +1609,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring Mixed Sports (4-6 yrs)",
@@ -2028,7 +1630,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:16.586Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring Family Chess (For Caregiver with Child 6 yrs+) - Sundays",
@@ -2049,7 +1651,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring 11am RedBall+ Tennis (Gr. K-2)",
@@ -2070,7 +1672,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring 12pm Soccer (5-8 yrs) - Sundays",
@@ -2091,7 +1693,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring 12pm OrangeBall Tennis (Gr. 2-4)",
@@ -2112,7 +1714,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Iron Work Farm open houses at the Faulkner House and Jones Tavern",
@@ -2132,7 +1734,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Spring 1pm Soccer (4-5 yrs) - Sundays",
@@ -2153,7 +1755,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring 1pm RedBall+ Tennis (Gr. K-2)",
@@ -2174,7 +1776,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring 3D Printing, Coding & Design (Gr. 2-6)",
@@ -2195,7 +1797,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring 2pm Soccer (3-4 yrs) - Sundays",
@@ -2216,7 +1818,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring Basketball (5-8 yrs) - Sundays",
@@ -2237,7 +1839,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring Broadway Bootcamp (6-9 yrs)",
@@ -2258,7 +1860,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring 3pm Soccer (2-3 yrs) - Sundays",
@@ -2279,7 +1881,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Spring Basketball (4-6 yrs)",
@@ -2300,7 +1902,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:10.635Z"
     },
     {
       "title": "Foundations of Ninjutsu and Self-Defense",
@@ -2321,7 +1923,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Youth Ninjutsu Program (Ages 12+)",
@@ -2342,7 +1944,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Karishim - Spring -     Junior",
@@ -2363,7 +1965,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:18.197Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Karishim - Spring -    Age Group Prep",
@@ -2384,7 +1986,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.008Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Karishim - Spring -   Age Group",
@@ -2405,7 +2007,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.008Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Karishim - Spring -   Senior Prep",
@@ -2426,7 +2028,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Karishim - Spring -  Senior",
@@ -2447,7 +2049,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Karishim - Spring - High School",
@@ -2468,7 +2070,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Karishim - Spring -      Junior Prep",
@@ -2489,7 +2091,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Annual Memorial Day Pancake Breakfast",
@@ -2510,7 +2112,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Sudbury's Memorial Day Parade and Program",
@@ -2531,7 +2133,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "Boxing & Circuit Conditioning",
@@ -2552,7 +2154,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Bridge: Beyond Beginner",
@@ -2573,7 +2175,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Parkinson\\'s Cycle",
@@ -2594,7 +2196,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -2614,7 +2216,28 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.957Z"
+      "ingestedAt": "2026-05-21T12:47:07.093Z"
+    },
+    {
+      "title": "Masters Mid Day",
+      "description": "",
+      "url": "https://www.bostonjcc.org/calendar/masters-mid-day/2026-05-25/",
+      "start": "2026-05-25T16:00:00.000Z",
+      "end": "2026-05-25T17:00:00.000Z",
+      "location": {
+        "venue": "Pool Deck, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "other",
+      "id": "d129a6d35de59ea6",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Spring ELC Little Scientists (3.5-4 yrs)",
@@ -2635,7 +2258,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Spring ELC Art Explorers (3-5 yrs)",
@@ -2656,7 +2279,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:12.318Z"
     },
     {
       "title": "Introduction to Balance and Injury Prevention",
@@ -2677,7 +2300,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Spring ELC Little Scientists (4-5 yrs)",
@@ -2698,7 +2321,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Rock the Blacktop: Community Paint Jams",
@@ -2721,7 +2344,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.267Z"
     },
     {
       "title": "Core-Based Injury Prevention",
@@ -2742,7 +2365,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Karishim - Pre-Swim E1 - Mon & Wed",
@@ -2763,7 +2386,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:21.009Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Karishim - Pre-Swim F3 - Discovery Club Year Round",
@@ -2784,7 +2407,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Spring Basketball (5-8 yrs) - Mondays",
@@ -2805,7 +2428,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Karishim - Pre-Swim E2 - Mon & Wed",
@@ -2826,7 +2449,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Spring Basketball (7-10 yrs) - Mondays",
@@ -2847,7 +2470,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Spring Adventures in Animation (K-6)",
@@ -2868,7 +2491,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "YouTube's Philately Influencers--A Panel Discussion",
@@ -2889,7 +2512,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.830Z"
+      "ingestedAt": "2026-05-21T12:47:02.448Z"
     },
     {
       "title": "JCC PFLAG Support Group",
@@ -2908,7 +2531,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Newton ELC (Godine) - 2025-2026 Application & Deposit",
@@ -2929,7 +2552,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Newton ELC (Godine) - 2025-2026 Waitlist Application",
@@ -2950,7 +2573,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Lifeguard Recertification Course",
@@ -2971,7 +2594,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Now Accepting Donations",
@@ -2992,7 +2615,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "Hingham ELC - 2025-2026 Application & Deposit",
@@ -3013,7 +2636,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Hingham ELC - 2025-2026 Waitlist Application",
@@ -3034,7 +2657,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:13.898Z"
     },
     {
       "title": "Learn the Basics of Oil and Pastel Painting",
@@ -3055,7 +2678,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Beginner Mah Jongg: Tuesday",
@@ -3076,7 +2699,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -3095,7 +2718,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "The Council&#8217;s May Memory Cafe",
@@ -3118,7 +2741,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Walk and Talk Health: Walking Group",
@@ -3139,7 +2762,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Pilates Seasonal Semi-Private (Spring 2 Session)",
@@ -3160,7 +2783,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:22.673Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Osteo Fit Group Training Series",
@@ -3181,7 +2804,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Introduction to Backyard Beekeeping",
@@ -3204,7 +2827,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -3223,7 +2846,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.961Z"
+      "ingestedAt": "2026-05-21T12:47:07.096Z"
     },
     {
       "title": "Spring ELC Creative Dance (3-4 yrs)",
@@ -3244,7 +2867,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Spring ELC Crafty Kids (3-5 yrs)",
@@ -3265,7 +2888,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Spring ELC Tennis (4-5 yrs)",
@@ -3286,7 +2909,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Spring ELC Action Hero Training Camp (4-5 yrs)",
@@ -3307,7 +2930,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Care Partner Support Group",
@@ -3326,7 +2949,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Karishim - Pre-Swim F1 - Tue & Thu",
@@ -3347,7 +2970,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Spring RedBall+ Tennis (K-2) - Tuesdays",
@@ -3368,7 +2991,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Karishim - Pre-Swim F2 - Tue & Thu",
@@ -3389,7 +3012,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -3410,7 +3033,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Spring OrangeBall Tennis (Gr. 3-5) - Tuesdays",
@@ -3431,7 +3054,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Make it Tuesday: Eraser Stamps | FPL McAuliffe",
@@ -3452,7 +3075,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Great Presenters: Jane Kelly",
@@ -3473,7 +3096,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Jackrabbit",
@@ -3494,7 +3117,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.585Z"
+      "ingestedAt": "2026-05-21T12:46:56.090Z"
     },
     {
       "title": "jackrabbit Featuring Dermot Mulroney First Rodeo Tour - Live in Concert ",
@@ -3515,7 +3138,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.633Z"
+      "ingestedAt": "2026-05-21T12:47:01.380Z"
     },
     {
       "title": "PJ Library Playground Meetup - Sharon",
@@ -3536,7 +3159,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:15.356Z"
     },
     {
       "title": "Beginner Mah Jongg: Wednesday Morning",
@@ -3557,7 +3180,28 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:17.978Z"
+    },
+    {
+      "title": "Rock Steady Boxing",
+      "description": "&lt;p&gt;Fight back against Parkinson\\'s disease in this non-contact boxing-style fitness class to feel your best inside and out! Led by a Certified Rock Steady Boxing Coach, Rock Steady Boxing incorporates [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/rock-steady-boxing-3/2026-05-27/",
+      "start": "2026-05-27T15:00:00.000Z",
+      "end": "2026-05-27T16:00:00.000Z",
+      "location": {
+        "venue": "Community Room, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "workshop",
+      "id": "b7d5466207d14832",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -3577,7 +3221,49 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.956Z"
+      "ingestedAt": "2026-05-21T12:47:07.092Z"
+    },
+    {
+      "title": "Basic Tai Chi Movement for Parkinson\\'s",
+      "description": "&lt;p&gt;Improve your balance and strength with the flowing movements found in the Tai Chi style from one of China\\'s major centers of Taoist practice, Wudang Mountain. Learn basic techniques to [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/basic-tai-chi-movement-for-parkinsons-2/2026-05-27/",
+      "start": "2026-05-27T16:00:00.000Z",
+      "end": "2026-05-27T16:50:00.000Z",
+      "location": {
+        "venue": "Mind Body Studio, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "fitness",
+      "id": "d3ec487820e38f50",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
+    },
+    {
+      "title": "Rock Steady Boxing",
+      "description": "&lt;p&gt;Fight back against Parkinson\\'s disease in this non-contact boxing-style fitness class that will leave you feeling your best inside and out! Led by a Certified Rock Steady Boxing Coach, Rock [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/rock-steady-boxing-4/2026-05-27/",
+      "start": "2026-05-27T16:15:00.000Z",
+      "end": "2026-05-27T17:15:00.000Z",
+      "location": {
+        "venue": "Community Room, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "workshop",
+      "id": "d7d643a3c9563668",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Complimentary Presentation - Smart Strategies for College Financing",
@@ -3586,18 +3272,18 @@
       "start": "2026-05-27T16:30:00.000Z",
       "location": {
         "venue": "Online Presentation",
-        "town": "Sudbury",
-        "lat": 42.3834278,
-        "lon": -71.4161725
+        "town": "Wellesley",
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
       "imageUrl": "https://patch.com/img/cdn20/users/24633962/20260518/103044/wow-52726___18103043138.jpg",
       "type": "other",
-      "id": "05ce38ea3ce1ed94",
+      "id": "63877ea29ce2fdf0",
       "source": {
-        "id": "patch-sudbury",
-        "name": "Sudbury Patch - Calendar"
+        "id": "patch-wellesley",
+        "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.278Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -3617,7 +3303,70 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.963Z"
+      "ingestedAt": "2026-05-21T12:47:07.098Z"
+    },
+    {
+      "title": "Spring ELC Soccer (3-4 yrs)",
+      "description": "&lt;p&gt;FOR ELC CHILDREN: Get moving with Super Soccer Stars! Super Soccer Stars uses the soccer ball as a vehicle to help children not only improve their soccer skills, but develop [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/spring-elc-soccer-3-4-yrs/2026-05-27/",
+      "start": "2026-05-27T17:00:00.000Z",
+      "end": "2026-05-27T17:50:00.000Z",
+      "location": {
+        "venue": "Basketball Gym, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "family",
+      "id": "b5b5991564f5a61a",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
+    },
+    {
+      "title": "Spring ELC Soccer (4-5 yrs)",
+      "description": "&lt;p&gt;FOR ELC CHILDREN: Get moving with Super Soccer Stars! Super Soccer Stars uses the soccer ball as a vehicle to help children not only improve their soccer skills, but develop [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/spring-elc-soccer-4-5-yrs/2026-05-27/",
+      "start": "2026-05-27T18:00:00.000Z",
+      "end": "2026-05-27T18:50:00.000Z",
+      "location": {
+        "venue": "Basketball Gym, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "family",
+      "id": "df3529a613861355",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
+    },
+    {
+      "title": "Spring GreenBall Tennis (Gr. 4-6)",
+      "description": "&lt;p&gt;Spend time on the fundamentals, and experience a variety of drills and teaching games. This class is designed for new players and advanced beginners who are progressing to light rallying [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/spring-greenball-tennis-gr-4-6/2026-05-27/",
+      "start": "2026-05-27T19:30:00.000Z",
+      "end": "2026-05-27T20:30:00.000Z",
+      "location": {
+        "venue": "Tennis Courts, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "workshop",
+      "id": "e103f9f18b49abab",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Teen Tennis Development Clinic (12-15)",
@@ -3638,7 +3387,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Ladies\\' Adult Tennis Clinic",
@@ -3659,7 +3408,49 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
+    },
+    {
+      "title": "Beginner Mah Jongg: Wednesday Evening",
+      "description": "&lt;p&gt;Mah Jongg is a fast-moving game that will sharpen cognitive, memorization, and decision-making skills. This is a beginners American Mah Jongg class. You will learn what the tiles are and [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/beginner-mah-jongg-wednesday-evening/2026-05-27/",
+      "start": "2026-05-27T21:45:00.000Z",
+      "end": "2026-05-27T23:45:00.000Z",
+      "location": {
+        "venue": "The Wexler Family Lounge",
+        "address": "333 Nahanton St, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297392,
+        "lon": -71.20453
+      },
+      "type": "mahjong",
+      "id": "eea88ccb99ab9402",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
+    },
+    {
+      "title": "Spring Music Performance - Adaptive Class",
+      "description": "&lt;p&gt;Enjoy karaoke? Love to sing and/or dance? Show off your inner super star as you learn about music performance! Participants will work on solos and group numbers, singing and dancing [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/spring-music-performance-adaptive-class/2026-05-27/",
+      "start": "2026-05-27T22:15:00.000Z",
+      "end": "2026-05-27T23:15:00.000Z",
+      "location": {
+        "venue": "Community Room, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "workshop",
+      "id": "2d8110241096e5e1",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Commonwealth School Virtual Information Session for Fall 2027 Admission",
@@ -3679,7 +3470,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.741Z"
+      "ingestedAt": "2026-05-21T12:47:02.278Z"
     },
     {
       "title": "Wellesley Select Board office hours with Board chair Marjorie Freiman",
@@ -3700,7 +3491,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -3720,7 +3511,28 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.960Z"
+      "ingestedAt": "2026-05-21T12:47:07.095Z"
+    },
+    {
+      "title": "MassBay Community College commencement ceremony",
+      "description": "MassBay Community College will hold its 64th Commencement ceremony on Thursday, May 28, 2026, at 6 p.m. on the Wellesley Hills campus. The ceremony will draw thousands of people to celebrate MassBay graduates, impacting traffic in and around the campus (Oakland Street, Rt. 9 and Washington Street) between 4 p.m. – 8 p.m. Please send tips, photos, ideas to theswellesleyreport@gmail.com",
+      "url": "https://theswellesleyreport.com/event/massbay-community-college-commencement-ceremony/",
+      "start": "2026-05-28T22:00:00.000Z",
+      "end": "2026-05-29T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Wellesley",
+        "lat": 42.2964859,
+        "lon": -71.2925571
+      },
+      "imageUrl": "https://media.theswellesleyreport.com/wp-content/uploads/2026/05/20094653/massbaycc.png",
+      "type": "other",
+      "id": "678943a72a72197b",
+      "source": {
+        "id": "swellesley-report",
+        "name": "The Swellesley Report - Events"
+      },
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Aging Like Fine Wine: Sip & Swipe for Singles 60+",
@@ -3741,7 +3553,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-20T12:28:24.236Z"
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Zeppelins! The Era of the Giant Airships",
@@ -3762,7 +3574,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.830Z"
+      "ingestedAt": "2026-05-21T12:47:02.449Z"
     },
     {
       "title": "ABRHS Madrigal Dinner",
@@ -3783,7 +3595,28 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
+    },
+    {
+      "title": "Welcome Baby Parent\\'s Night Out Spring Shopping Meetup",
+      "description": "&lt;p&gt;Treat yourself to a night out with other Welcome Baby parents for some shopping, schmoozing, and snacking at popular local children\\'s consignment shop! During this after-hours private event, all attendees [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/welcome-baby-parents-night-out-spring-shopping-meetup/",
+      "start": "2026-05-28T23:00:00.000Z",
+      "end": "2026-05-29T00:00:00.000Z",
+      "location": {
+        "venue": "North Easton",
+        "address": "Address Shared After Registration, North Easton, MA",
+        "town": "North Easton",
+        "lat": 42.0692828,
+        "lon": -71.1033177
+      },
+      "type": "family",
+      "id": "06f2eb7edd8e73ff",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Ruth Moody Band",
@@ -3804,7 +3637,28 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.591Z"
+      "ingestedAt": "2026-05-21T12:46:57.555Z"
+    },
+    {
+      "title": "Bridge: Beyond Beginner Plus",
+      "description": "&lt;p&gt;Whether you have taken the Bridge: Beyond Beginner class, or have prior experience with the game, here is your chance to improve your beginner bridge skills. You will take your [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/bridge-beyond-beginner-plus/2026-05-29/",
+      "start": "2026-05-29T14:00:00.000Z",
+      "end": "2026-05-29T16:00:00.000Z",
+      "location": {
+        "venue": "The Wexler Family Lounge",
+        "address": "333 Nahanton St, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297392,
+        "lon": -71.20453
+      },
+      "type": "workshop",
+      "id": "c568b57f1214eee6",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Opening day—Friends of the Needham Public Library Spring Book Sale",
@@ -3825,7 +3679,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Friends of the Needham Public Library Book Sale",
@@ -3848,7 +3702,28 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
+    },
+    {
+      "title": "Bridge: Intermediate/Advanced",
+      "description": "&lt;p&gt;Take your bridge game to the next level in this dynamic and engaging continuation course designed for experienced players. We’ll dive into advanced bidding strategies, with a special focus on [&hellip;]&lt;/p&gt;\\n",
+      "url": "https://www.bostonjcc.org/calendar/bridge-intermediate-advanced/2026-05-29/",
+      "start": "2026-05-29T17:00:00.000Z",
+      "end": "2026-05-29T19:00:00.000Z",
+      "location": {
+        "venue": "The Wexler Family Lounge",
+        "address": "333 Nahanton St, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297392,
+        "lon": -71.20453
+      },
+      "type": "other",
+      "id": "9f1d0b08ca662f05",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-21T12:47:17.979Z"
     },
     {
       "title": "Suzy Bogguss",
@@ -3869,7 +3744,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.585Z"
+      "ingestedAt": "2026-05-21T12:46:56.091Z"
     },
     {
       "title": "Celebrate 10 Years of Dance with FJW Dance Studio’s Anniversary Showcase",
@@ -3889,7 +3764,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.830Z"
+      "ingestedAt": "2026-05-21T12:47:02.449Z"
     },
     {
       "title": "The Claflin Hill Youth Symphonies: The Re-Launch!",
@@ -3910,7 +3785,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Note-worthyPalooza Music Festival",
@@ -3930,7 +3805,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "The Claflin Hill Youth Symphonies:  The Re-Launch!",
@@ -3951,7 +3826,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "American Revolution reenactment at Needham Town Common",
@@ -3972,7 +3847,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "King&#8217;s Own Come to Needham!",
@@ -3993,7 +3868,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.267Z"
     },
     {
       "title": "King&#8217;s Own Come to Needham!",
@@ -4016,7 +3891,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Hunnewell Estate Historical Tour",
@@ -4038,7 +3913,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Gateway Camera Club Print Exhibit on Display at Broadmoor",
@@ -4059,7 +3934,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.634Z"
+      "ingestedAt": "2026-05-21T12:47:01.380Z"
     },
     {
       "title": "&#8220;Gallery Under the Tent&#8221; &#8211; Open Studio and Sale",
@@ -4082,7 +3957,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Needham High School Habitat For Humanity Community Yard Sale",
@@ -4105,7 +3980,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.267Z"
     },
     {
       "title": "Needham High School Habitat For Humanity Community Yard Sale",
@@ -4128,7 +4003,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Turning Red",
@@ -4149,7 +4024,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:03.098Z"
+      "ingestedAt": "2026-05-21T12:46:58.690Z"
     },
     {
       "title": "Framingham Bike, Pedestrian, and Rail Trail Family Bike Ride",
@@ -4169,7 +4044,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "Fundraising Bake Sale for Type 1 Diabetes Research (Breakthrough T1D Walk/ Ambassador)",
@@ -4190,7 +4065,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.741Z"
+      "ingestedAt": "2026-05-21T12:47:02.278Z"
     },
     {
       "title": "Free movie screening of &#8220;Turning Red&#8221; at TCAN",
@@ -4212,7 +4087,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.102Z"
     },
     {
       "title": "Bake sale &#038; raffle to support Type 1 Diabetes research",
@@ -4231,7 +4106,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Hunnewell Fun Fair",
@@ -4252,7 +4127,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Grand Opening of The Terrace at Wellesley Free Library",
@@ -4273,7 +4148,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "2026 Needham High Civics Showcase",
@@ -4296,7 +4171,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.268Z"
     },
     {
       "title": "2026 Needham High Civics Showcase",
@@ -4319,7 +4194,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Herman&#8217;s Hermits Starring Peter Noone",
@@ -4340,7 +4215,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.583Z"
+      "ingestedAt": "2026-05-21T12:46:56.089Z"
     },
     {
       "title": "An Evening of Chinese Dance & Cultural Celebration by FJW Dance Studio",
@@ -4360,7 +4235,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.741Z"
+      "ingestedAt": "2026-05-21T12:47:02.278Z"
     },
     {
       "title": "Voices of MetroWest presents presents The Evolution of Broadway",
@@ -4381,7 +4256,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "The New England Ringers Spring Concert",
@@ -4400,7 +4275,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4420,7 +4295,28 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.102Z"
+    },
+    {
+      "title": "Memorial Day Ceremony in Wellesley",
+      "description": "Join Wellesley elected officials on May 30 at 7:30pm for the Annual Memorial Day ceremony in front of the War Memorial on Washington Street at Wellesley Town Hall. The brief ceremony includes remarks, Wellesley Police and Wellesley Fire Honor Guards, and music by the Wellesley High School band. The community is invited to attend as we honor those who gave their lives in service to our Country. Please send tips, photos, ideas to theswellesleyreport@gmail.com",
+      "url": "https://theswellesleyreport.com/event/memorial-day-ceremony-in-wellesley/",
+      "start": "2026-05-30T23:30:00.000Z",
+      "end": "2026-05-31T00:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Wellesley",
+        "lat": 42.2964859,
+        "lon": -71.2925571
+      },
+      "imageUrl": "https://media.theswellesleyreport.com/wp-content/uploads/2024/05/31152633/IMG_1745.jpeg",
+      "type": "community",
+      "id": "4d0abf4db17de25c",
+      "source": {
+        "id": "swellesley-report",
+        "name": "The Swellesley Report - Events"
+      },
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Mission MetroWest Road Race: Bring the Community Together for a Cause!",
@@ -4440,7 +4336,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.830Z"
+      "ingestedAt": "2026-05-21T12:47:02.449Z"
     },
     {
       "title": "Plugged In Summer Session Now Enrolling - Classes Start July 6th ",
@@ -4460,7 +4356,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.634Z"
+      "ingestedAt": "2026-05-21T12:47:01.380Z"
     },
     {
       "title": "Worship with Us! Trinity Sunday",
@@ -4481,7 +4377,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "The Challenge & Promise of Change with First Parish of Sudbury",
@@ -4502,7 +4398,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "Natick Garden Club Plant Sale",
@@ -4522,7 +4418,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Natick Garden Club Plant Sale",
@@ -4542,7 +4438,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "HPLF 12th Touch-A-Truck & Food Truck Fundraiser",
@@ -4563,7 +4459,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "HPLF's Touch A Truck & Food Truck Fundraiser",
@@ -4584,7 +4480,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "&#8220;Gallery Under the Tent&#8221; &#8211; Open Studio and Sale",
@@ -4607,7 +4503,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Musical Instrument Petting Zoo",
@@ -4628,7 +4524,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4649,7 +4545,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.314Z"
     },
     {
       "title": "An American Musical Experience - Lincoln Sudbury Civic Orchestra",
@@ -4670,7 +4566,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "The Big Dill Pickleball Bash",
@@ -4691,7 +4587,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.634Z"
+      "ingestedAt": "2026-05-21T12:47:01.380Z"
     },
     {
       "title": "Jane Mecom: Widow Witness to the Revolution",
@@ -4712,7 +4608,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4732,7 +4628,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Heritage Chorale Spring Concert: America at 250 - Of Thee We Sing",
@@ -4753,7 +4649,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "Rock the Blacktop: Community Paint Jams",
@@ -4776,7 +4672,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.268Z"
     },
     {
       "title": "Craft with Wellesley Middle School Girl Scouts",
@@ -4796,7 +4692,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "Natick Pride Kick off &#8211; Living in Truth",
@@ -4817,7 +4713,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Natick Pride kick-off: &#8216;Living in Truth&#8217;: Moth-Style Storytelling",
@@ -4837,7 +4733,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -4857,7 +4753,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.958Z"
+      "ingestedAt": "2026-05-21T12:47:07.094Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -4876,7 +4772,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -4895,7 +4791,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.961Z"
+      "ingestedAt": "2026-05-21T12:47:07.096Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -4916,7 +4812,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Meditation @ Stress Reduction in Natick - June 2, 9 & 16",
@@ -4937,7 +4833,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "Authors on Stage",
@@ -4958,7 +4854,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.741Z"
+      "ingestedAt": "2026-05-21T12:47:02.278Z"
     },
     {
       "title": "Authors on Stage, Wellesley College",
@@ -4980,7 +4876,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.591Z"
     },
     {
       "title": "American Legion&#8217;s 107th Anniversary Celebration",
@@ -5001,7 +4897,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Celebrate the American Legion&#8217;s 107th anniversary",
@@ -5021,7 +4917,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -5041,7 +4937,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.956Z"
+      "ingestedAt": "2026-05-21T12:47:07.092Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -5061,7 +4957,27 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.964Z"
+      "ingestedAt": "2026-05-21T12:47:07.098Z"
+    },
+    {
+      "title": "Saint Bridget School - Spring Open House",
+      "description": "Are you looking for a school community where students are known, supported, and inspired to grow? Join us for our Spring Open...",
+      "url": "https://patch.com/massachusetts/framingham/calendar/event/20260603/d3215122-86aa-44e0-8a3e-cddef847aa14/saint-bridget-school-spring-open-house",
+      "start": "2026-06-03T21:30:00.000Z",
+      "location": {
+        "town": "Framingham",
+        "address": "832 Worcester Rd, Framingham, MA",
+        "lat": 42.298674,
+        "lon": -71.4319459
+      },
+      "imageUrl": "https://patch.com/img/cdn20/users/27144003/20260520/105325/2026-spring-oh___20105315582.jpg",
+      "type": "other",
+      "id": "8116fb84d1de07b7",
+      "source": {
+        "id": "patch-framingham",
+        "name": "Framingham Patch - Calendar"
+      },
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "ArtSpace: Inspired by Nature— An Imaginative Drawing Workshop (Online with Erica Beade)",
@@ -5081,7 +4997,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -5101,7 +5017,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.960Z"
+      "ingestedAt": "2026-05-21T12:47:07.095Z"
     },
     {
       "title": "Poetry Workshop",
@@ -5122,7 +5038,26 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
+    },
+    {
+      "title": "Feel the Inner Peace Raja Yoga Meditation Course ( 4 sessions in June)",
+      "description": "In today’s busy world, many of us are looking for a quiet space to pause, recharge, and reconnect with ourselves. We warmly...",
+      "url": "https://patch.com/massachusetts/groton-ma/calendar/event/20260604/2f3d60fc-ba17-4f7e-99d4-b7069f79dcbc/feel-the-inner-peace-raja-yoga-meditation-course-4-sessions-in-june",
+      "start": "2026-06-04T22:30:00.000Z",
+      "location": {
+        "venue": "New England Shirdi Sai Temple",
+        "town": "Groton",
+        "address": "99 Shirdi Way, Groton, MA"
+      },
+      "imageUrl": "https://patch.com/img/cdn20/users/27265107/20260520/105327/temple-june-2026___20105321150.jpg",
+      "type": "fitness",
+      "id": "dc1293506cb2c249",
+      "source": {
+        "id": "patch-acton",
+        "name": "Acton Patch - Calendar"
+      },
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "50 Hikes Through History",
@@ -5142,7 +5077,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.243Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Rope by Patrick Hamilton",
@@ -5164,7 +5099,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.578Z"
+      "ingestedAt": "2026-05-21T12:46:56.085Z"
     },
     {
       "title": "First Parish in Wayland Yard Sale! ",
@@ -5185,7 +5120,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "ArtSpace: Making Shapes: Online Workshop",
@@ -5205,7 +5140,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Wellesley Trails Committee Guided Walk—Mini-Grand Tour",
@@ -5227,7 +5162,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.244Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Reception for Tides of Change",
@@ -5247,7 +5182,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Mano a Mano: Arias in Dialogue",
@@ -5268,7 +5203,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "Worship with Us! Second Sunday after Pentecost",
@@ -5289,7 +5224,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Art in the Park —Shaw Park",
@@ -5311,7 +5246,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Mosaic Mirror or Heart Workshop",
@@ -5331,7 +5266,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Mosaic Jewelry or Frame Worksop",
@@ -5351,7 +5286,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "“Regenerative Gardening in Today’s World”",
@@ -5373,7 +5308,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Susan Chari",
@@ -5396,7 +5331,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.512Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Boston Scottish Fiddle Orchestra Annual Gala",
@@ -5419,7 +5354,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:10.513Z"
+      "ingestedAt": "2026-05-21T12:47:06.317Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -5439,7 +5374,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.958Z"
+      "ingestedAt": "2026-05-21T12:47:07.094Z"
     },
     {
       "title": "Layla Lynn Bober Memorial Foundation 6th Annual Golf Tournament",
@@ -5460,7 +5395,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "Game Group",
@@ -5481,7 +5416,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Coffee Connect at Linden Square",
@@ -5502,7 +5437,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.244Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -5521,7 +5456,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -5540,7 +5475,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.961Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -5561,7 +5496,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.782Z"
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -5581,7 +5516,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.956Z"
+      "ingestedAt": "2026-05-21T12:47:07.092Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -5601,7 +5536,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.964Z"
+      "ingestedAt": "2026-05-21T12:47:07.098Z"
     },
     {
       "title": "Let There Be Drums!",
@@ -5622,7 +5557,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.577Z"
+      "ingestedAt": "2026-05-21T12:46:56.084Z"
     },
     {
       "title": "Make-A-Wish Pickleball Classic coming to Natick",
@@ -5642,7 +5577,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -5662,7 +5597,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.960Z"
+      "ingestedAt": "2026-05-21T12:47:07.096Z"
     },
     {
       "title": "Charles River Regional Chamber Women’s Conference",
@@ -5684,7 +5619,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.244Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "St. John’s Annual Rummage Sale",
@@ -5705,7 +5640,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "Sally's Night Celebration - Free Planetarium Program",
@@ -5716,8 +5651,8 @@
         "venue": "Christa McAuliffe Center and Framingham State University Planetarium",
         "town": "Framingham",
         "address": "5 Maynard Rd, Framingham, MA",
-        "lat": 42.2976338,
-        "lon": -71.4384757
+        "lat": 42.2978018,
+        "lon": -71.43817
       },
       "imageUrl": "https://patch.com/img/cdn20/users/26782916/20260518/121723/thumbnail-sallys-night-2026-graphic___18121723058.jpg",
       "type": "other",
@@ -5726,7 +5661,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "RENT the Musical",
@@ -5747,7 +5682,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "Acton Community Chorus Spring Concert: \"Movie Night\"",
@@ -5768,7 +5703,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "St. John’s Annual Rummage Sale",
@@ -5789,7 +5724,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.052Z"
+      "ingestedAt": "2026-05-21T12:47:02.492Z"
     },
     {
       "title": "Sudbury Art Association Spring Art Fair",
@@ -5810,7 +5745,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.580Z"
+      "ingestedAt": "2026-05-21T12:47:01.315Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -5831,7 +5766,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Wellesley Trails Committee Guided Walk—Centennial Reservation",
@@ -5853,7 +5788,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.244Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Legally Blonde Jr.",
@@ -5874,7 +5809,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.634Z"
+      "ingestedAt": "2026-05-21T12:47:01.380Z"
     },
     {
       "title": "PMC Kids Ride Newton-Needham",
@@ -5895,7 +5830,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.268Z"
     },
     {
       "title": "ArtSpace: Where to Start? 3 Tips for Beginner Artists and DIYers",
@@ -5915,7 +5850,27 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
+    },
+    {
+      "title": "Weaving The Wrack Line Workshop",
+      "description": "Weaving the Wrack Line with Rebecca McGee Tuck Join fiber artist and ocean activist Rebecca McGee Tuck for Weaving the Wrack...",
+      "url": "https://patch.com/massachusetts/wayland/calendar/event/20260614/c9d53485-a63d-4f39-a2d0-c6dcc5e39c73/weaving-the-wrack-line-workshop",
+      "start": "2026-06-14T15:00:00.000Z",
+      "location": {
+        "town": "Wayland",
+        "address": "35 Andrew Ave, Wayland, MA",
+        "lat": 42.3644644,
+        "lon": -71.3693837
+      },
+      "imageUrl": "https://patch.com/img/cdn20/users/23231484/20260323/010815/aw-weaving-the-wrack-line-ig___23130813546.jpg",
+      "type": "workshop",
+      "id": "145b26ef6de1f0ca",
+      "source": {
+        "id": "patch-wayland",
+        "name": "Wayland Patch - Calendar"
+      },
+      "ingestedAt": "2026-05-21T12:47:02.395Z"
     },
     {
       "title": "Second Sunday Open House Tours",
@@ -5936,7 +5891,28 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.830Z"
+      "ingestedAt": "2026-05-21T12:47:02.449Z"
+    },
+    {
+      "title": "Wellesley’s Annual Flag Retirement Day Ceremony",
+      "description": "Wellesley’s Annual Flag Retirement Day Ceremony ~ Sunday, June 14, 1:00pm at Woodlawn Cemetery ~ Worn and damaged flags from the community and cemetery will be respectfully retired in a controlled manner conducted by the Wellesley Fire Department and Wellesley American Legion Post 72. Please send tips, photos, ideas to theswellesleyreport@gmail.com",
+      "url": "https://theswellesleyreport.com/event/wellesleys-annual-flag-retirement-day-ceremony/",
+      "start": "2026-06-14T17:00:00.000Z",
+      "end": "2026-06-14T18:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Wellesley",
+        "lat": 42.2964859,
+        "lon": -71.2925571
+      },
+      "imageUrl": "https://media.theswellesleyreport.com/wp-content/uploads/2025/05/10120539/woodlawn-cemetery-flags.jpg",
+      "type": "other",
+      "id": "f4a3e43a22318291",
+      "source": {
+        "id": "swellesley-report",
+        "name": "The Swellesley Report - Events"
+      },
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Carbon Leaf",
@@ -5957,7 +5933,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.583Z"
+      "ingestedAt": "2026-05-21T12:46:56.089Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -5977,7 +5953,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.958Z"
+      "ingestedAt": "2026-05-21T12:47:07.094Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -5996,7 +5972,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.963Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -6015,7 +5991,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Shawn Colvin",
@@ -6036,7 +6012,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.579Z"
+      "ingestedAt": "2026-05-21T12:46:56.085Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -6056,7 +6032,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.956Z"
+      "ingestedAt": "2026-05-21T12:47:07.092Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -6076,7 +6052,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.964Z"
+      "ingestedAt": "2026-05-21T12:47:07.098Z"
     },
     {
       "title": "ArtSpace: Fabric Art Workshop",
@@ -6096,7 +6072,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -6116,7 +6092,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.960Z"
+      "ingestedAt": "2026-05-21T12:47:07.096Z"
     },
     {
       "title": "Damn Tall Buildings",
@@ -6137,7 +6113,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:03.088Z"
+      "ingestedAt": "2026-05-21T12:46:57.555Z"
     },
     {
       "title": "Booker T. Jones",
@@ -6158,7 +6134,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.584Z"
+      "ingestedAt": "2026-05-21T12:46:56.090Z"
     },
     {
       "title": "Concord Electronics Recycling Event ♻️",
@@ -6179,7 +6155,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "All My Sons",
@@ -6201,7 +6177,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.580Z"
+      "ingestedAt": "2026-05-21T12:46:56.086Z"
     },
     {
       "title": "June Food Day 2026",
@@ -6222,7 +6198,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Southern Avenue",
@@ -6243,7 +6219,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.583Z"
+      "ingestedAt": "2026-05-21T12:46:56.089Z"
     },
     {
       "title": "Tour de Natick – Family Bike Ride 🚴‍♂️",
@@ -6263,7 +6239,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.634Z"
+      "ingestedAt": "2026-05-21T12:47:01.380Z"
     },
     {
       "title": "Tour de Natick cycling event",
@@ -6285,7 +6261,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -6305,7 +6281,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.958Z"
+      "ingestedAt": "2026-05-21T12:47:07.094Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -6324,7 +6300,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.963Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -6343,7 +6319,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Strega Nona: Pasta Trouble",
@@ -6364,7 +6340,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.588Z"
+      "ingestedAt": "2026-05-21T12:46:56.094Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -6384,7 +6360,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.957Z"
+      "ingestedAt": "2026-05-21T12:47:07.092Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -6404,7 +6380,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.964Z"
+      "ingestedAt": "2026-05-21T12:47:07.099Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -6424,7 +6400,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.961Z"
+      "ingestedAt": "2026-05-21T12:47:07.096Z"
     },
     {
       "title": "Cochituate Rail Trail extension celebration in Natick Center",
@@ -6444,7 +6420,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Ribbon cutting for the new Cochituate Rail Trail extension",
@@ -6466,7 +6442,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Boston Comics",
@@ -6487,7 +6463,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.577Z"
+      "ingestedAt": "2026-05-21T12:46:56.084Z"
     },
     {
       "title": "Acton-Westford Pride Festival 2026!",
@@ -6508,7 +6484,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Great American Campout - NARA Park, Acton!",
@@ -6529,7 +6505,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Teddy Thompson",
@@ -6550,7 +6526,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.579Z"
+      "ingestedAt": "2026-05-21T12:46:56.085Z"
     },
     {
       "title": "Cloudy With A Chance of Cheeseburgers",
@@ -6571,7 +6547,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.588Z"
+      "ingestedAt": "2026-05-21T12:46:56.094Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -6591,7 +6567,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.959Z"
+      "ingestedAt": "2026-05-21T12:47:07.094Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -6610,7 +6586,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.963Z"
+      "ingestedAt": "2026-05-21T12:47:07.098Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -6629,7 +6605,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -6649,7 +6625,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.957Z"
+      "ingestedAt": "2026-05-21T12:47:07.093Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -6669,7 +6645,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.964Z"
+      "ingestedAt": "2026-05-21T12:47:07.099Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -6689,7 +6665,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.961Z"
+      "ingestedAt": "2026-05-21T12:47:07.096Z"
     },
     {
       "title": "Acton Celebrates Independence Day!",
@@ -6710,7 +6686,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Natick Friends of the 4th Community Picnic",
@@ -6729,7 +6705,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "High School Summer Program at Babson – Apply Now",
@@ -6750,7 +6726,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.268Z"
     },
     {
       "title": "The Trial of the Big Bad Wolf: A New Point of View",
@@ -6771,7 +6747,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.588Z"
+      "ingestedAt": "2026-05-21T12:46:56.093Z"
     },
     {
       "title": "FREE Basketball Clinic for Kids!",
@@ -6792,7 +6768,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -6812,7 +6788,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.959Z"
+      "ingestedAt": "2026-05-21T12:47:07.094Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -6831,7 +6807,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.963Z"
+      "ingestedAt": "2026-05-21T12:47:07.098Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -6850,7 +6826,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -6870,7 +6846,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.957Z"
+      "ingestedAt": "2026-05-21T12:47:07.093Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -6890,7 +6866,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.965Z"
+      "ingestedAt": "2026-05-21T12:47:07.099Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -6910,7 +6886,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.961Z"
+      "ingestedAt": "2026-05-21T12:47:07.096Z"
     },
     {
       "title": "Animals - The Maroon 5 Tribute!",
@@ -6931,7 +6907,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:07.031Z"
+      "ingestedAt": "2026-05-21T12:47:02.476Z"
     },
     {
       "title": "Rules of the Ride—bike handling and confidence for 5th to 8th graders",
@@ -6952,7 +6928,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.244Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Black Joe Lewis &#038; The Honeybears",
@@ -6973,7 +6949,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.576Z"
+      "ingestedAt": "2026-05-21T12:46:56.083Z"
     },
     {
       "title": "Shawn Mullins",
@@ -6994,7 +6970,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.577Z"
+      "ingestedAt": "2026-05-21T12:46:56.083Z"
     },
     {
       "title": "James and the Giant Peach",
@@ -7015,7 +6991,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.587Z"
+      "ingestedAt": "2026-05-21T12:46:56.093Z"
     },
     {
       "title": "FREE Vacation Bible Adventure for Kids!",
@@ -7036,7 +7012,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-20T12:28:06.678Z"
+      "ingestedAt": "2026-05-21T12:47:02.218Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -7056,7 +7032,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.959Z"
+      "ingestedAt": "2026-05-21T12:47:07.095Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -7075,7 +7051,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.963Z"
+      "ingestedAt": "2026-05-21T12:47:07.098Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -7094,7 +7070,47 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-20T12:28:10.962Z"
+      "ingestedAt": "2026-05-21T12:47:07.097Z"
+    },
+    {
+      "title": "Mah Jongg in the Garden at Elm Bank",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "url": "https://masshort.org/",
+      "start": "2026-07-15T16:00:00.000Z",
+      "end": "2026-07-15T18:00:00.000Z",
+      "location": {
+        "venue": "Massachusetts Horticultural Society - Elm Bank",
+        "town": "Wellesley",
+        "lat": 42.2964859,
+        "lon": -71.2925571
+      },
+      "type": "mahjong",
+      "id": "8196c6fce6b6e26d",
+      "source": {
+        "id": "mahjong-recurring",
+        "name": "MetroWest Mah Jongg drop-ins (manual)"
+      },
+      "ingestedAt": "2026-05-21T12:47:07.093Z"
+    },
+    {
+      "title": "MahJong at Dedham Ames Senior Center",
+      "description": "Drop-in mahjong, 55+, no signup required.",
+      "url": "https://www.dedham-ma.gov/senior-center",
+      "start": "2026-07-15T17:00:00.000Z",
+      "end": "2026-07-15T19:00:00.000Z",
+      "location": {
+        "venue": "Dedham Ames Senior Center",
+        "town": "Dedham",
+        "lat": 42.2489143,
+        "lon": -71.1755732
+      },
+      "type": "mahjong",
+      "id": "cb94d93874821db2",
+      "source": {
+        "id": "mahjong-recurring",
+        "name": "MetroWest Mah Jongg drop-ins (manual)"
+      },
+      "ingestedAt": "2026-05-21T12:47:07.099Z"
     },
     {
       "title": "Haggis X-1",
@@ -7115,7 +7131,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.583Z"
+      "ingestedAt": "2026-05-21T12:46:56.089Z"
     },
     {
       "title": "Eric Hutchinson",
@@ -7136,7 +7152,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:04.228Z"
+      "ingestedAt": "2026-05-21T12:46:58.696Z"
     },
     {
       "title": "MOPO Miler swim at Morses Pond",
@@ -7156,7 +7172,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.244Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Bluebird Improv",
@@ -7177,7 +7193,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.582Z"
+      "ingestedAt": "2026-05-21T12:46:56.088Z"
     },
     {
       "title": "Peter Pan",
@@ -7198,7 +7214,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.587Z"
+      "ingestedAt": "2026-05-21T12:46:56.093Z"
     },
     {
       "title": "Band of Brothers",
@@ -7219,7 +7235,28 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.582Z"
+      "ingestedAt": "2026-05-21T12:46:56.088Z"
+    },
+    {
+      "title": "The Everly Brothers Experience",
+      "description": "Featuring the Zmed Brothers",
+      "url": "https://tcan.org/events/the-everly-brothers-experience/",
+      "start": "2026-07-26T16:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "TCAN",
+        "town": "Natick",
+        "lat": 42.2836393,
+        "lon": -71.346996
+      },
+      "imageUrl": "https://tcan.org/wp-content/uploads/2026/05/The-Everly-Brothers.png",
+      "type": "other",
+      "id": "9960d596a4aa0d9c",
+      "source": {
+        "id": "tcan",
+        "name": "The Center for Arts in Natick (TCAN)"
+      },
+      "ingestedAt": "2026-05-21T12:46:56.081Z"
     },
     {
       "title": "The Lorax: A Cautionary Tale",
@@ -7240,7 +7277,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.587Z"
+      "ingestedAt": "2026-05-21T12:46:56.093Z"
     },
     {
       "title": "Lez Zeppelin",
@@ -7261,7 +7298,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.578Z"
+      "ingestedAt": "2026-05-21T12:46:56.085Z"
     },
     {
       "title": "Paisley Project",
@@ -7282,7 +7319,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.576Z"
+      "ingestedAt": "2026-05-21T12:46:56.083Z"
     },
     {
       "title": "Haley Reinhart",
@@ -7303,7 +7340,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.576Z"
+      "ingestedAt": "2026-05-21T12:46:56.083Z"
     },
     {
       "title": "Princess Picky",
@@ -7324,7 +7361,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.587Z"
+      "ingestedAt": "2026-05-21T12:46:56.093Z"
     },
     {
       "title": "The James Hunter Six",
@@ -7345,7 +7382,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.579Z"
+      "ingestedAt": "2026-05-21T12:46:56.086Z"
     },
     {
       "title": "Texas Flood",
@@ -7366,7 +7403,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.578Z"
+      "ingestedAt": "2026-05-21T12:46:56.084Z"
     },
     {
       "title": "Duane Betts &#038; Palmetto Motel",
@@ -7387,7 +7424,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.580Z"
+      "ingestedAt": "2026-05-21T12:46:56.086Z"
     },
     {
       "title": "Bearly Dead",
@@ -7408,7 +7445,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:03.097Z"
+      "ingestedAt": "2026-05-21T12:46:57.562Z"
     },
     {
       "title": "Half Magic: A Twisted Tale of Trickery",
@@ -7429,7 +7466,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.587Z"
+      "ingestedAt": "2026-05-21T12:46:56.093Z"
     },
     {
       "title": "Larry McCray",
@@ -7450,7 +7487,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.580Z"
+      "ingestedAt": "2026-05-21T12:46:56.087Z"
     },
     {
       "title": "Spyro Gyra",
@@ -7471,7 +7508,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.580Z"
+      "ingestedAt": "2026-05-21T12:46:56.086Z"
     },
     {
       "title": "Seven Chances (1925)",
@@ -7492,7 +7529,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.581Z"
+      "ingestedAt": "2026-05-21T12:46:56.087Z"
     },
     {
       "title": "Ty Burkhardt",
@@ -7513,7 +7550,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.575Z"
+      "ingestedAt": "2026-05-21T12:46:56.082Z"
     },
     {
       "title": "Skerryvore",
@@ -7534,7 +7571,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.580Z"
+      "ingestedAt": "2026-05-21T12:46:56.086Z"
     },
     {
       "title": "David Nail",
@@ -7555,7 +7592,28 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.577Z"
+      "ingestedAt": "2026-05-21T12:46:56.083Z"
+    },
+    {
+      "title": "Tom Rush",
+      "description": "The Voice Behind the Folk Revival",
+      "url": "https://tcan.org/events/tom-rush/",
+      "start": "2026-09-12T16:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "TCAN",
+        "town": "Natick",
+        "lat": 42.2836393,
+        "lon": -71.346996
+      },
+      "imageUrl": "https://tcan.org/wp-content/uploads/2024/06/Tom-Rush-Web-Large-2.png",
+      "type": "other",
+      "id": "641b54d9e9eda093",
+      "source": {
+        "id": "tcan",
+        "name": "The Center for Arts in Natick (TCAN)"
+      },
+      "ingestedAt": "2026-05-21T12:46:57.562Z"
     },
     {
       "title": "The Bros. Landreth: Tumbling Wild Tour 2026",
@@ -7576,7 +7634,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.581Z"
+      "ingestedAt": "2026-05-21T12:46:56.087Z"
     },
     {
       "title": "Illusionist Leon Etienne",
@@ -7597,7 +7655,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.576Z"
+      "ingestedAt": "2026-05-21T12:46:56.082Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -7619,7 +7677,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.681Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "The Linda Ronstadt Experience",
@@ -7640,7 +7698,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:03.098Z"
+      "ingestedAt": "2026-05-21T12:46:57.562Z"
     },
     {
       "title": "Five for Fighting with String Quartet",
@@ -7661,7 +7719,28 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.579Z"
+      "ingestedAt": "2026-05-21T12:46:56.085Z"
+    },
+    {
+      "title": "Ronnie Earl",
+      "description": "and The Broadcasters",
+      "url": "https://tcan.org/events/ronnie-earl/",
+      "start": "2026-10-03T16:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "TCAN",
+        "town": "Natick",
+        "lat": 42.2836393,
+        "lon": -71.346996
+      },
+      "imageUrl": "https://tcan.org/wp-content/uploads/2024/09/ronnie-web-large.png",
+      "type": "other",
+      "id": "41998f85730e91d4",
+      "source": {
+        "id": "tcan",
+        "name": "The Center for Arts in Natick (TCAN)"
+      },
+      "ingestedAt": "2026-05-21T12:46:56.082Z"
     },
     {
       "title": "Call for Walkers: Register for the 38th Annual Jimmy Fund Walk for Dana-Farber presented by Hyundai",
@@ -7683,7 +7762,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.268Z"
     },
     {
       "title": "Jimmy Fund Walk for Dana-Farber (routes goes through Natick)",
@@ -7703,7 +7782,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.682Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Jimmy Fund Walk for Dana-Farber (routes go through Wellesley)",
@@ -7723,7 +7802,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:08.244Z"
+      "ingestedAt": "2026-05-21T12:47:03.592Z"
     },
     {
       "title": "Beau Geste (1926)",
@@ -7744,7 +7823,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.581Z"
+      "ingestedAt": "2026-05-21T12:46:56.087Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -7766,7 +7845,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-20T12:28:07.682Z"
+      "ingestedAt": "2026-05-21T12:47:03.103Z"
     },
     {
       "title": "Needham High School Artisan Craft Fair and Bake Sale",
@@ -7789,7 +7868,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-20T12:28:09.529Z"
+      "ingestedAt": "2026-05-21T12:47:05.268Z"
     },
     {
       "title": "Mike Dawes",
@@ -7810,7 +7889,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:03.089Z"
+      "ingestedAt": "2026-05-21T12:46:57.556Z"
     },
     {
       "title": "Rasputina",
@@ -7831,7 +7910,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.575Z"
+      "ingestedAt": "2026-05-21T12:46:56.082Z"
     },
     {
       "title": "When the Clouds Roll By (1919)",
@@ -7852,7 +7931,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.581Z"
+      "ingestedAt": "2026-05-21T12:46:56.087Z"
     },
     {
       "title": "Steven Page",
@@ -7873,7 +7952,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-20T12:28:01.575Z"
+      "ingestedAt": "2026-05-21T12:46:56.082Z"
     }
   ]
 }
