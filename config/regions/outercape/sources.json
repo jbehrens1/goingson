@@ -95,9 +95,13 @@
       "url": "https://castlehill.org/",
       "category": "Venue / Education",
       "town": "Truro",
-      "notes": "Squarespace events collection at /events/. Currently empty (off-season). Castle Hill posts most workshops/concerts in summer-fall.",
+      "notes": "Squarespace. Events span /all-workshops (185), /special-events (12), and /events (0). Adapter aggregates all three.",
       "config": {
-        "path": "/events/",
+        "paths": [
+          "/all-workshops/",
+          "/special-events/",
+          "/events/"
+        ],
         "defaultVenue": "Castle Hill"
       }
     },

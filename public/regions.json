@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T15:27:35.735Z",
+  "generatedAt": "2026-05-23T15:44:20.410Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -27,7 +27,7 @@
       ],
       "eventCount": 675,
       "eventsPath": "/events.metrowest.json",
-      "generatedAt": "2026-05-23T15:27:31.514Z"
+      "generatedAt": "2026-05-23T15:44:15.536Z"
     },
     {
       "id": "outercape",
@@ -49,9 +49,9 @@
         "Eastham, MA",
         "Orleans, MA"
       ],
-      "eventCount": 225,
+      "eventCount": 417,
       "eventsPath": "/events.outercape.json",
-      "generatedAt": "2026-05-23T15:27:35.735Z"
+      "generatedAt": "2026-05-23T15:44:20.410Z"
     }
   ]
 }

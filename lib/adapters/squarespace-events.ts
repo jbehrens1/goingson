@@ -53,6 +53,9 @@ type SquarespaceJson = {
 type SquarespaceConfig = {
   /** Path to the events collection page (defaults to /events/). */
   path?: string;
+  /** Optional list of additional collection paths to aggregate (e.g. Castle
+   *  Hill keeps workshops at /all-workshops and concerts at /special-events). */
+  paths?: string[];
   defaultVenue?: string;
 };
 
@@ -67,6 +70,7 @@ function stripHtml(s: string | undefined): string | undefined {
 const SQUARESPACE_DEFAULTS: Array<{ lat: number; lon: number }> = [
   { lat: 37.2232823, lon: -95.7102394 }, // continental US center
   { lat: 40.7207559, lon: -74.0007613 }, // Manhattan (some templates)
+  { lat: 38.7945952, lon: -106.5348379 }, // Salida, CO (another template default)
 ];
 
 function isSquarespaceDefaultLocation(lat: number, lon: number): boolean {
@@ -79,32 +83,45 @@ export const squarespaceEventsAdapter: Adapter = async ({ source }): Promise<Ada
   const warnings: string[] = [];
   const cfg = (source.config ?? {}) as SquarespaceConfig;
   const u = new URL(source.url);
-  const path = cfg.path ?? "/events/";
-  const slash = path.endsWith("/") ? "" : "/";
-  const requestUrl = `${u.origin}${path}${slash}?format=json-pretty`;
 
-  const res = await politeFetch(requestUrl, { headers: { Accept: "application/json" } });
-  if (!res.ok) {
-    return { events: [], warnings: [`HTTP ${res.status} fetching ${requestUrl}`] };
-  }
-  let json: SquarespaceJson;
-  try {
-    json = (await res.json()) as SquarespaceJson;
-  } catch (err) {
-    return {
-      events: [],
-      warnings: [`JSON parse failed for ${requestUrl}: ${(err as Error).message}`],
-    };
-  }
+  // Aggregate one OR multiple collection paths. Cf. Castle Hill, which keeps
+  // workshops and special-events in separate Squarespace collections.
+  const pathList = cfg.paths && cfg.paths.length > 0 ? cfg.paths : [cfg.path ?? "/events/"];
+  const candidates: SquarespaceEvent[] = [];
+  const seenIds = new Set<string>();
 
-  const upcoming = json.upcoming ?? [];
-  // Some collection types (calendar grid) use .items instead of .upcoming.
-  const candidates = upcoming.length > 0 ? upcoming : (json.items ?? []);
+  for (const rawPath of pathList) {
+    const slash = rawPath.endsWith("/") ? "" : "/";
+    const requestUrl = `${u.origin}${rawPath}${slash}?format=json-pretty`;
+    const res = await politeFetch(requestUrl, { headers: { Accept: "application/json" } });
+    if (!res.ok) {
+      warnings.push(`HTTP ${res.status} fetching ${requestUrl}`);
+      continue;
+    }
+    let json: SquarespaceJson;
+    try {
+      json = (await res.json()) as SquarespaceJson;
+    } catch (err) {
+      warnings.push(`JSON parse failed for ${requestUrl}: ${(err as Error).message}`);
+      continue;
+    }
+    const upcoming = json.upcoming ?? [];
+    const pageItems = upcoming.length > 0 ? upcoming : (json.items ?? []);
+    if (pageItems.length === 0) {
+      warnings.push(
+        `${source.id}: 0 events at ${requestUrl} (check if events collection exists or season is over).`,
+      );
+      continue;
+    }
+    for (const it of pageItems) {
+      const key = it.id ?? it.urlId ?? it.fullUrl;
+      if (key && seenIds.has(key)) continue;
+      if (key) seenIds.add(key);
+      candidates.push(it);
+    }
+  }
 
   if (candidates.length === 0) {
-    warnings.push(
-      `${source.id}: 0 upcoming events at ${requestUrl} (check if events collection exists or season is over).`,
-    );
     return { events: [], warnings };
   }
 

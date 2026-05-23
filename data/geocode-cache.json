@@ -1515,5 +1515,11 @@
     "lon": -71.4433436,
     "displayName": "40, Fairbank Road, Pine Rest, Sudbury, Middlesex County, Massachusetts, 01776, United States",
     "fetchedAt": "2026-05-23T15:27:31.415Z"
+  },
+  "outercape::castle hill, truro": {
+    "lat": 41.9963483,
+    "lon": -70.0598816,
+    "displayName": "Castle Hill Lane, Truro, Barnstable County, Massachusetts, 02666, United States",
+    "fetchedAt": "2026-05-23T15:43:29.208Z"
   }
 }
