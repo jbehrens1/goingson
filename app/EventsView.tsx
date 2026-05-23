@@ -40,6 +40,12 @@ const ANY = "__any__";
 const NO_LOCATION = "__no_location__";
 const CUSTOM = "__custom__";
 
+// Sentinel prefix for "all events from a source" meta options in the venue
+// picker (e.g. "Trustees (all events)" → matches any event whose source.id is
+// "trustees", regardless of venue). Selected value looks like "__src:trustees__".
+const SRC_PREFIX = "__src:";
+const srcKey = (sourceId: string) => `${SRC_PREFIX}${sourceId}__`;
+
 function dayKey(iso: string): string {
   return iso.slice(0, 10);
 }
@@ -99,9 +105,10 @@ export default function EventsView({
   const region = payload.region;
   const [selectedTypes, setSelectedTypes] = useState<Set<EventType>>(new Set());
 
-  // Per-column quick filters (text substring match per column).
-  const [colTown, setColTown] = useState("");
-  const [colVenue, setColVenue] = useState("");
+  // Per-column quick filters. Town and Venue are multi-select sets; Title is
+  // a free-text substring search.
+  const [colTowns, setColTowns] = useState<Set<string>>(new Set());
+  const [colVenues, setColVenues] = useState<Set<string>>(new Set());
   const [colTitle, setColTitle] = useState("");
 
   // Per-column sort. null = default day-grouped view. When set, the entire
@@ -151,17 +158,51 @@ export default function EventsView({
       );
   }, [payload.events]);
 
+  // Venue options include source-group meta items so users can pick "all
+  // events from Trustees" without having to tick each Trustees property
+  // individually. A meta item has key `__src:trustees__` and label
+  // `Trustees (all events)` so it sorts alphabetically with regular venues.
   const columnVenueOptions = useMemo(() => {
-    const counts = new Map<string, number>();
+    const venueCounts = new Map<string, number>();
+    const sourceGroups = new Map<
+      string,
+      { count: number; label: string }
+    >();
+
     for (const ev of payload.events) {
       const v = ev.location?.venue?.trim();
-      if (v) counts.set(v, (counts.get(v) ?? 0) + 1);
+      if (v) venueCounts.set(v, (venueCounts.get(v) ?? 0) + 1);
+      // Detect org suffix in venue name like "The Old Manse (Trustees)" — that
+      // identifies a multi-venue parent source we can offer as a meta option.
+      if (v) {
+        const m = v.match(/\(([^()]+)\)\s*$/);
+        if (m) {
+          const label = m[1].trim();
+          const cur = sourceGroups.get(ev.source.id);
+          if (cur) cur.count++;
+          else sourceGroups.set(ev.source.id, { count: 1, label });
+        }
+      }
     }
-    return [...counts.entries()]
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) =>
-        a.name.localeCompare(b.name, undefined, { sensitivity: "base" }),
-      );
+
+    type Item = { key: string; label: string; count: number; isGroup: boolean };
+    const items: Item[] = [
+      ...[...venueCounts.entries()].map(([name, count]) => ({
+        key: name,
+        label: name,
+        count,
+        isGroup: false,
+      })),
+      ...[...sourceGroups.entries()].map(([sourceId, info]) => ({
+        key: srcKey(sourceId),
+        label: `${info.label} (all events)`,
+        count: info.count,
+        isGroup: true,
+      })),
+    ].sort((a, b) =>
+      a.label.localeCompare(b.label, undefined, { sensitivity: "base" }),
+    );
+    return items;
   }, [payload.events]);
 
   const filtered = useMemo(() => {
@@ -183,12 +224,16 @@ export default function EventsView({
         const ts = new Date(ev.start).getTime();
         if (ts < fromTs || ts > toTs) return false;
         if (selectedTypes.size > 0 && !selectedTypes.has(ev.type)) return false;
-        // Per-column quick filters. Town and venue use exact (case-insensitive)
-        // match since they come from a fixed dropdown of known values.
-        if (colTown && (ev.location?.town ?? "").toLowerCase() !== colTown.toLowerCase())
-          return false;
-        if (colVenue && (ev.location?.venue ?? "").toLowerCase() !== colVenue.toLowerCase())
-          return false;
+        // Per-column quick filters. Town and venue are multi-select; an empty
+        // set means no filter. Venue set may include `__src:<id>__` meta keys
+        // matching the event's source.id (covers "Trustees all events").
+        if (colTowns.size > 0 && !colTowns.has(ev.location?.town ?? "")) return false;
+        if (colVenues.size > 0) {
+          const v = ev.location?.venue ?? "";
+          const venueMatch = colVenues.has(v);
+          const sourceMatch = colVenues.has(srcKey(ev.source.id));
+          if (!venueMatch && !sourceMatch) return false;
+        }
         if (colTitle) {
           const q = colTitle.toLowerCase();
           const hay = `${ev.title} ${ev.description ?? ""}`.toLowerCase();
@@ -201,7 +246,7 @@ export default function EventsView({
         }
         return true;
       });
-  }, [payload.events, selectedTypes, colTown, colVenue, colTitle, filterDistance, filterNoLocation, center.lat, center.lon, distanceMi, fromDate, toDate]);
+  }, [payload.events, selectedTypes, colTowns, colVenues, colTitle, filterDistance, filterNoLocation, center.lat, center.lon, distanceMi, fromDate, toDate]);
 
   // When a sort is active, flatten into a single ordered list (no day groups).
   const sortedFlat = useMemo(() => {
@@ -278,8 +323,8 @@ export default function EventsView({
         // Reset filters that don't make sense across regions.
         setCenter({ mode: ANY, label: "" });
         setCenterQuery("");
-        setColTown("");
-        setColVenue("");
+        setColTowns(new Set());
+        setColVenues(new Set());
         setColTitle("");
       } catch (err) {
         setRegionError((err as Error).message);
@@ -504,33 +549,23 @@ export default function EventsView({
         </div>
         <div className="col-filter col-town">
           <SortButtons col="town" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
-          <select
-            aria-label="Filter by town"
-            value={colTown}
-            onChange={(e) => setColTown(e.target.value)}
-          >
-            <option value="">All towns ({columnTownOptions.length})</option>
-            {columnTownOptions.map((t) => (
-              <option key={t.name} value={t.name}>
-                {t.name} ({t.count} {t.count === 1 ? "event" : "events"})
-              </option>
-            ))}
-          </select>
+          <MultiSelectPicker
+            label="towns"
+            singularLabel="town"
+            selected={colTowns}
+            onChange={setColTowns}
+            options={columnTownOptions.map((t) => ({ key: t.name, label: t.name, count: t.count }))}
+          />
         </div>
         <div className="col-filter col-venue">
           <SortButtons col="venue" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
-          <select
-            aria-label="Filter by venue"
-            value={colVenue}
-            onChange={(e) => setColVenue(e.target.value)}
-          >
-            <option value="">All venues ({columnVenueOptions.length})</option>
-            {columnVenueOptions.map((v) => (
-              <option key={v.name} value={v.name}>
-                {v.name} ({v.count} {v.count === 1 ? "event" : "events"})
-              </option>
-            ))}
-          </select>
+          <MultiSelectPicker
+            label="venues"
+            singularLabel="venue"
+            selected={colVenues}
+            onChange={setColVenues}
+            options={columnVenueOptions}
+          />
         </div>
         <div className="col-filter col-type">
           <SortButtons col="type" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
@@ -546,13 +581,13 @@ export default function EventsView({
             onChange={(e) => setColTitle(e.target.value)}
           />
         </div>
-        {(colTown || colVenue || colTitle || sortBy) && (
+        {(colTowns.size > 0 || colVenues.size > 0 || colTitle || sortBy) && (
           <button
             type="button"
             className="link-btn col-filter-clear"
             onClick={() => {
-              setColTown("");
-              setColVenue("");
+              setColTowns(new Set());
+              setColVenues(new Set());
               setColTitle("");
               clearSort();
             }}
@@ -715,5 +750,100 @@ function SortButtons({
         ▼
       </button>
     </span>
+  );
+}
+
+type MultiSelectOption = {
+  key: string;
+  label: string;
+  count: number;
+  isGroup?: boolean;
+};
+
+function MultiSelectPicker({
+  label,
+  singularLabel,
+  selected,
+  onChange,
+  options,
+}: {
+  label: string;
+  singularLabel: string;
+  selected: Set<string>;
+  onChange: (next: Set<string>) => void;
+  options: MultiSelectOption[];
+}) {
+  const [query, setQuery] = useState("");
+  const visible = query
+    ? options.filter((o) => o.label.toLowerCase().includes(query.toLowerCase()))
+    : options;
+
+  function toggle(key: string) {
+    const next = new Set(selected);
+    if (next.has(key)) next.delete(key);
+    else next.add(key);
+    onChange(next);
+  }
+
+  const summary =
+    selected.size === 0
+      ? `All ${label} (${options.length})`
+      : selected.size === 1
+        ? // Show the single selected label inline; truncate if too long
+          (() => {
+            const k = [...selected][0];
+            const found = options.find((o) => o.key === k);
+            return found ? found.label : `1 ${singularLabel}`;
+          })()
+        : `${selected.size} ${label}`;
+
+  return (
+    <details className="col-multi">
+      <summary>
+        <span className="col-multi-summary">{summary}</span>
+        {selected.size > 0 && (
+          <button
+            type="button"
+            className="link-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              onChange(new Set());
+            }}
+            title={`Clear ${label} filter`}
+          >
+            ×
+          </button>
+        )}
+      </summary>
+      <div className="col-multi-popover">
+        <input
+          type="search"
+          placeholder={`Search ${options.length} ${label}…`}
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className="col-multi-search"
+        />
+        <div className="col-multi-list">
+          {visible.length === 0 && (
+            <p className="empty muted small">No {label} match &ldquo;{query}&rdquo;.</p>
+          )}
+          {visible.map((o) => (
+            <label
+              key={o.key}
+              className={`col-multi-item${o.isGroup ? " col-multi-item-group" : ""}`}
+            >
+              <input
+                type="checkbox"
+                checked={selected.has(o.key)}
+                onChange={() => toggle(o.key)}
+              />
+              <span className="col-multi-name">{o.label}</span>
+              <span className="col-multi-count">{o.count}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+    </details>
   );
 }

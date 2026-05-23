@@ -391,6 +391,135 @@ header .muted,
   font-weight: 600;
 }
 
+/* Per-column multi-select picker (used for Town and Venue column filters). */
+.col-multi {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.col-multi > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0.3rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 0.82rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.col-multi > summary::-webkit-details-marker {
+  display: none;
+}
+
+.col-multi > summary::after {
+  content: "▾";
+  color: var(--muted);
+  font-size: 0.7rem;
+  margin-left: auto;
+}
+
+.col-multi[open] > summary {
+  border-color: var(--accent);
+}
+
+.col-multi[open] > summary::after {
+  content: "▴";
+}
+
+.col-multi-summary {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-multi-popover {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.3rem);
+  left: 0;
+  width: min(26rem, 96vw);
+  max-height: 24rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 24px -8px rgba(0, 0, 0, 0.25);
+}
+
+.col-multi-search {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--fg);
+}
+
+.col-multi-search:focus {
+  outline: none;
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.col-multi-list {
+  overflow-y: auto;
+  padding: 0.25rem 0;
+}
+
+.col-multi-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.18rem 0.7rem;
+  cursor: pointer;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.col-multi-item:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.col-multi-item input[type="checkbox"] {
+  transform: scale(0.9);
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.col-multi-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-multi-item-group .col-multi-name {
+  font-weight: 600;
+}
+
+.col-multi-count {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
 .col-filter-clear {
   margin-left: auto;
   white-space: nowrap;
