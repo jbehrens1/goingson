@@ -1176,5 +1176,80 @@
     "lat": null,
     "lon": null,
     "fetchedAt": "2026-05-23T13:30:35.975Z"
+  },
+  "outercape::truro": {
+    "lat": 41.993437,
+    "lon": -70.0497457,
+    "displayName": "Truro, Barnstable County, Massachusetts, United States",
+    "fetchedAt": "2026-05-23T13:42:14.425Z"
+  },
+  "outercape::orleans": {
+    "lat": 41.7883108,
+    "lon": -69.99001,
+    "displayName": "Orleans, Barnstable County, Massachusetts, United States",
+    "fetchedAt": "2026-05-23T13:42:15.433Z"
+  },
+  "outercape::provincetown": {
+    "lat": 42.0525612,
+    "lon": -70.1858639,
+    "displayName": "Provincetown, Barnstable County, Massachusetts, 02657, United States",
+    "fetchedAt": "2026-05-23T13:42:16.577Z"
+  },
+  "outercape::coskata-coatue wildlife refuge (trustees), nantucket": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:17.662Z"
+  },
+  "outercape::nantucket": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:18.571Z"
+  },
+  "outercape::appleton farms (trustees), hamilton & ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:19.826Z"
+  },
+  "outercape::hamilton & ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:21.035Z"
+  },
+  "outercape::events": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:22.079Z"
+  },
+  "outercape::castle hill on the crane estate (trustees), ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:23.008Z"
+  },
+  "outercape::ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:24.264Z"
+  },
+  "outercape::the farm institute (trustees), edgartown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:25.329Z"
+  },
+  "outercape::edgartown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:42:26.454Z"
+  },
+  "metrowest::truro": {
+    "lat": 42.2490127,
+    "lon": -71.1008974,
+    "displayName": "Truro Lane, Blue Hills, Milton, Norfolk County, Massachusetts, 01286, United States",
+    "fetchedAt": "2026-05-23T13:43:00.527Z"
+  },
+  "metrowest::orleans": {
+    "lat": 42.398257,
+    "lon": -71.1237826,
+    "displayName": "Orleans, Holland Street, Davis Square, Ball Square, Somerville, Middlesex County, Massachusetts, 02144, United States",
+    "fetchedAt": "2026-05-23T13:43:01.721Z"
   }
 }

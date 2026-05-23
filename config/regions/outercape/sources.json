@@ -20,47 +20,49 @@
       "category": "Regional Hub (statewide)",
       "town": "Statewide MA",
       "notes": "Statewide nonprofit. Outer Cape properties include Lieutenant Island & Long Point Wildlife Refuge (Wellfleet area) and other coastal preserves. Distance filter restricts to Outer Cape automatically.",
-      "config": { "venueGroupLabel": "Trustees" }
+      "config": {
+        "venueGroupLabel": "Trustees"
+      }
     },
     {
       "id": "ptown-gov",
       "name": "Town of Provincetown - Community Events",
-      "enabled": false,
+      "enabled": true,
       "adapter": "rss",
       "url": "https://www.provincetown-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Provincetown",
-      "notes": "CivicPlus calendar. Verify ModID and CID (Community Events category) from the live calendar page before enabling."
+      "notes": "CivicPlus calendar. CivicPlus calendar — RSS at ModID=58&CID=0 (all categories). Confirmed working."
     },
     {
       "id": "truro-gov",
       "name": "Town of Truro - Community Events",
-      "enabled": false,
+      "enabled": true,
       "adapter": "rss",
       "url": "https://www.truro-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Truro",
-      "notes": "CivicPlus calendar. Verify ModID and CID before enabling."
+      "notes": "CivicPlus calendar. CivicPlus calendar — ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
     },
     {
       "id": "eastham-gov",
       "name": "Town of Eastham - Community Events",
-      "enabled": false,
+      "enabled": true,
       "adapter": "rss",
       "url": "https://www.eastham-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Eastham",
-      "notes": "CivicPlus calendar. Verify ModID and CID before enabling."
+      "notes": "CivicPlus calendar. CivicPlus calendar — ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
     },
     {
       "id": "orleans-gov",
       "name": "Town of Orleans - Community Events",
-      "enabled": false,
+      "enabled": true,
       "adapter": "rss",
       "url": "https://www.town.orleans.ma.us/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Orleans",
-      "notes": "CivicPlus calendar. Verify ModID and CID before enabling."
+      "notes": "CivicPlus calendar. CivicPlus calendar — ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
     },
     {
       "id": "truro-historical",
