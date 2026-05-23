@@ -10,6 +10,7 @@
     "ingest:dry": "DRY_RUN=1 tsx scripts/ingest.ts"
   },
   "dependencies": {
+    "@clerk/nextjs": "^7.4.1",
     "cheerio": "^1.0.0",
     "next": "^15.1.0",
     "node-ical": "^0.20.1",
