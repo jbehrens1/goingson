@@ -501,10 +501,15 @@ header .muted,
   width: 12rem;
   font-size: 0.9rem;
   color: var(--fg);
-  overflow: hidden;
-  text-overflow: ellipsis;
   vertical-align: top;
   padding-right: 0.5rem;
+}
+
+/* Ellipsis only inside the events table — not in the filter row container,
+ * where overflow:hidden would clip the venue picker's popover. */
+.events-table td.col-venue {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .col-type {
