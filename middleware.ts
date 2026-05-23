@@ -1,3 +1,4 @@
+import { NextResponse, type NextRequest } from "next/server";
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
 // Pages that require an authenticated user. Sources view is public (anyone
@@ -10,11 +11,29 @@ const isProtectedRoute = createRouteMatcher([
   "/api/admin(.*)",
 ]);
 
-export default clerkMiddleware(async (auth, req) => {
+const clerkConfigured = Boolean(
+  process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY && process.env.CLERK_SECRET_KEY,
+);
+
+const clerkAware = clerkMiddleware(async (auth, req) => {
   if (isProtectedRoute(req)) {
     await auth.protect();
   }
 });
+
+export default function middleware(req: NextRequest, evt: Parameters<typeof clerkAware>[1]) {
+  // No Clerk env vars yet? Skip auth entirely so the site still renders.
+  // Protected routes will 503 instead of crashing the middleware.
+  if (!clerkConfigured) {
+    if (isProtectedRoute(req)) {
+      return new NextResponse("Auth not configured (Clerk env vars missing).", {
+        status: 503,
+      });
+    }
+    return NextResponse.next();
+  }
+  return clerkAware(req, evt);
+}
 
 export const config = {
   matcher: [
