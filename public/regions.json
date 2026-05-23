@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T14:04:38.012Z",
+  "generatedAt": "2026-05-23T14:14:36.266Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -25,9 +25,9 @@
         "Marlborough, MA",
         "Concord, MA"
       ],
-      "eventCount": 691,
+      "eventCount": 690,
       "eventsPath": "/events.metrowest.json",
-      "generatedAt": "2026-05-23T14:04:32.827Z"
+      "generatedAt": "2026-05-23T14:14:32.143Z"
     },
     {
       "id": "outercape",
@@ -51,7 +51,7 @@
       ],
       "eventCount": 93,
       "eventsPath": "/events.outercape.json",
-      "generatedAt": "2026-05-23T14:04:38.012Z"
+      "generatedAt": "2026-05-23T14:14:36.266Z"
     }
   ]
 }

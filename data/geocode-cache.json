@@ -1256,5 +1256,65 @@
     "lat": null,
     "lon": null,
     "fetchedAt": "2026-05-23T14:04:32.561Z"
+  },
+  "metrowest::1139 highland ave, needham, ma 02494": {
+    "lat": 42.2882044,
+    "lon": -71.2350162,
+    "displayName": "1139, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-23T14:14:22.485Z"
+  },
+  "metrowest::14 summer st, natick, ma 01760": {
+    "lat": 42.2843687,
+    "lon": -71.3481374,
+    "displayName": "The Center For Arts In Natick, 14, Summer Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-23T14:14:23.406Z"
+  },
+  "metrowest::40 freeman pl, needham, ma, 02492": {
+    "lat": 42.2765147,
+    "lon": -71.2385521,
+    "displayName": "40, Freeman Place, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-23T14:14:24.291Z"
+  },
+  "metrowest::117 e. central st., natick, ma 01760": {
+    "lat": 42.2859744,
+    "lon": -71.337765,
+    "displayName": "117, East Central Street, South Natick, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-23T14:14:25.345Z"
+  },
+  "metrowest::2 e central st., natick, ma 01760": {
+    "lat": 42.2842012,
+    "lon": -71.3469267,
+    "displayName": "First Church Natick, 2, East Central Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-23T14:14:26.610Z"
+  },
+  "metrowest::220 oakland street": {
+    "lat": 42.3091707,
+    "lon": -71.2525187,
+    "displayName": "220, Oakland Street, Standish Estates, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-23T14:14:27.693Z"
+  },
+  "metrowest::15 nason st, maynard, ma, 01754": {
+    "lat": 42.4324741,
+    "lon": -71.4536257,
+    "displayName": "ArtSpace, 15, Nason Street, Maynard, Middlesex County, Massachusetts, 01754, United States",
+    "fetchedAt": "2026-05-23T14:14:28.744Z"
+  },
+  "metrowest::1 common st, natick, ma": {
+    "lat": 42.282743,
+    "lon": -71.347072,
+    "displayName": "1, Common Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-23T14:14:29.716Z"
+  },
+  "metrowest::50 rice st.": {
+    "lat": 42.3942257,
+    "lon": -71.1290046,
+    "displayName": "50, Rice Street, North Cambridge, Cambridge, Middlesex County, Massachusetts, 02140, United States",
+    "fetchedAt": "2026-05-23T14:14:31.012Z"
+  },
+  "metrowest::11 mechanic st., natick, ma": {
+    "lat": 42.2881078,
+    "lon": -71.3520067,
+    "displayName": "11, Mechanic Street, Mechanic St Business Area, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-23T14:14:32.064Z"
   }
 }

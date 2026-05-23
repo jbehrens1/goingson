@@ -32,6 +32,32 @@ export function naiveToUtcIso(naiveLocal: string, tz: string): string {
   return new Date(asUtc.getTime() + diff).toISOString();
 }
 
+// Some adapters return a "venue" string that's actually a full address, like
+// "11 Mechanic St., Natick, MA" — or a venue with an address suffix like
+// "TCAN, 14 Summer St, Natick, MA 01760" or "Wellesley HS parking lot, 50 Rice St.".
+// This helper splits those into a clean venue + an address tail.
+const STREET_WORD_RE =
+  /\b(St|Rd|Ave|Dr|Ln|Way|Pkwy|Blvd|Pl|Ct|Cir|Sq|Hwy|Plaza|Ter|Trl|Pike|Highway|Street|Road|Avenue|Drive|Lane|Place|Court|Circle|Square|Terrace|Trail)\b\.?/i;
+
+export function splitVenueAndAddress(raw: string): {
+  venue?: string;
+  addressTail?: string;
+} {
+  const s = raw.trim();
+  if (!s) return {};
+  // Find a `<1-5 digit> <word>` tail preceded by start, space, or comma.
+  const tailMatch = s.match(/(?:^|[,\s]+)(\d{1,5}\s+[A-Za-z][\s\S]*)$/);
+  if (!tailMatch || tailMatch.index === undefined) return { venue: s };
+  const tail = tailMatch[1].trim();
+  // Sanity: the supposed address tail must contain a street-word, else this
+  // is probably an event number, not an address ("Class 1", "Event 7", etc.).
+  if (!STREET_WORD_RE.test(tail)) return { venue: s };
+  const tailStart = tailMatch.index + (tailMatch[0].length - tailMatch[1].length);
+  const venueRaw = s.slice(0, tailStart).replace(/[,\s]+$/, "").trim();
+  if (venueRaw.length === 0) return { addressTail: tail };
+  return { venue: venueRaw, addressTail: tail };
+}
+
 export function toIsoOrUndefined(value: unknown): string | undefined {
   if (!value) return undefined;
   if (value instanceof Date) return value.toISOString();
@@ -55,7 +81,21 @@ export function buildEvent(
 
   let location = rest.location;
 
-  // Normalize venue aliases ("Center for the Arts in Natick" → "TCAN").
+  // Step 1: detach any address embedded in the venue field
+  // ("TCAN, 14 Summer St, Natick, MA" → venue="TCAN", address="14 Summer St…").
+  const venueRaw = location?.venue?.trim();
+  if (venueRaw) {
+    const split = splitVenueAndAddress(venueRaw);
+    if (split.venue !== venueRaw || split.addressTail) {
+      location = {
+        ...(location ?? {}),
+        venue: split.venue,
+        address: location?.address || split.addressTail,
+      };
+    }
+  }
+
+  // Step 2: normalize venue aliases ("Center for the Arts in Natick" → "TCAN").
   const venueIn = location?.venue?.trim();
   if (venueIn && venueAliases) {
     const canonical = venueAliases.get(venueIn.toLowerCase());
