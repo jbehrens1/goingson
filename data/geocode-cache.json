@@ -1251,5 +1251,10 @@
     "lon": -71.1237826,
     "displayName": "Orleans, Holland Street, Davis Square, Ball Square, Somerville, Middlesex County, Massachusetts, 02144, United States",
     "fetchedAt": "2026-05-23T13:43:01.721Z"
+  },
+  "metrowest::framingham history center, framingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:04:32.561Z"
   }
 }

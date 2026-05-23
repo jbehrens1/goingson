@@ -6,6 +6,8 @@ export type AdapterType =
   | "wordpress-tribe"
   | "wordpress-tribe-list"
   | "wordpress-mc"
+  | "wordpress-mec"
+  | "squarespace-events"
   | "trustees"
   | "manual-recurring"
   | "manual-oneoff"

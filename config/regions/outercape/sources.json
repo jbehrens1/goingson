@@ -83,6 +83,76 @@
       "category": "Venue / Theater",
       "town": "Wellfleet",
       "notes": "WordPress + OvationTix (ticketing). JSON-LD likely on the listing page — wordpress-tribe-list adapter pattern might work."
+    },
+    {
+      "id": "castle-hill",
+      "name": "Truro Center for the Arts at Castle Hill",
+      "enabled": true,
+      "adapter": "squarespace-events",
+      "url": "https://castlehill.org/",
+      "category": "Venue / Education",
+      "town": "Truro",
+      "notes": "Squarespace events collection at /events/. Off-season may return 0 — main summer-fall programming starts in June.",
+      "config": {
+        "path": "/events/",
+        "defaultVenue": "Castle Hill"
+      }
+    },
+    {
+      "id": "wellfleet-preservation-hall",
+      "name": "Wellfleet Preservation Hall",
+      "enabled": true,
+      "adapter": "squarespace-events",
+      "url": "https://wellfleetpreservationhall.org/",
+      "category": "Venue",
+      "town": "Wellfleet",
+      "notes": "Squarespace; events live at /calendar/.",
+      "config": {
+        "path": "/calendar/",
+        "defaultVenue": "Wellfleet Preservation Hall"
+      }
+    },
+    {
+      "id": "wellfleet-library",
+      "name": "Wellfleet Public Library",
+      "enabled": true,
+      "adapter": "squarespace-events",
+      "url": "https://wellfleetlibrary.org/",
+      "category": "Venue / Library",
+      "town": "Wellfleet",
+      "notes": "Squarespace; events at /events/.",
+      "config": {
+        "path": "/events/",
+        "defaultVenue": "Wellfleet Public Library"
+      }
+    },
+    {
+      "id": "provincetown-library",
+      "name": "Provincetown Public Library",
+      "enabled": true,
+      "adapter": "squarespace-events",
+      "url": "https://www.provincetownlibrary.org/",
+      "category": "Venue / Library",
+      "town": "Provincetown",
+      "notes": "Squarespace; events at /events/.",
+      "config": {
+        "path": "/events/",
+        "defaultVenue": "Provincetown Public Library"
+      }
+    },
+    {
+      "id": "snow-library",
+      "name": "Snow Library (Orleans)",
+      "enabled": false,
+      "adapter": "squarespace-events",
+      "url": "https://www.snowlibrary.org/",
+      "category": "Venue / Library",
+      "town": "Orleans",
+      "notes": "Squarespace site but /events/, /calendar/, /events/?format=json-pretty all 404. Find their actual events page before enabling.",
+      "config": {
+        "path": "/events/",
+        "defaultVenue": "Snow Library"
+      }
     }
   ]
 }

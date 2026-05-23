@@ -8,6 +8,8 @@ import { htmlGenericAdapter } from "./adapters/html-generic";
 import { wordpressTribeAdapter } from "./adapters/wordpress-tribe";
 import { wordpressTribeListAdapter } from "./adapters/wordpress-tribe-list";
 import { wordpressMcAdapter } from "./adapters/wordpress-mc";
+import { wordpressMecAdapter } from "./adapters/wordpress-mec";
+import { squarespaceEventsAdapter } from "./adapters/squarespace-events";
 import { trusteesAdapter } from "./adapters/trustees";
 import { manualRecurringAdapter } from "./adapters/manual-recurring";
 import { manualOneoffAdapter } from "./adapters/manual-oneoff";
@@ -30,6 +32,8 @@ const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   "wordpress-tribe": wordpressTribeAdapter,
   "wordpress-tribe-list": wordpressTribeListAdapter,
   "wordpress-mc": wordpressMcAdapter,
+  "wordpress-mec": wordpressMecAdapter,
+  "squarespace-events": squarespaceEventsAdapter,
   trustees: trusteesAdapter,
   "manual-recurring": manualRecurringAdapter,
   "manual-oneoff": manualOneoffAdapter,

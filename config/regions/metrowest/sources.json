@@ -183,12 +183,16 @@
     {
       "id": "framingham-history",
       "name": "Framingham History Center",
-      "enabled": false,
-      "adapter": "html-generic",
-      "url": "https://framinghamhistory.org/events/",
+      "enabled": true,
+      "adapter": "wordpress-mec",
+      "url": "https://framinghamhistory.org/",
       "category": "Venue / Museum",
       "town": "Framingham",
-      "notes": "Lectures, walking tours, exhibits."
+      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Adapter scrapes /wp-json/wp/v2/mec-events and parses event dates from content.rendered HTML (MEC doesn't expose structured start_date via REST).",
+      "config": {
+        "defaultVenue": "Framingham History Center",
+        "defaultTimeZone": "America/New_York"
+      }
     },
     {
       "id": "metrowest-jcc",
