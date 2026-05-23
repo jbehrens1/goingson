@@ -68,8 +68,13 @@ function stripHtml(s: string | undefined): string | undefined {
   return s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() || undefined;
 }
 
+type WordpressTribeConfig = {
+  defaultVenue?: string;
+};
+
 export const wordpressTribeAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
   const warnings: string[] = [];
+  const cfg = (source.config ?? {}) as WordpressTribeConfig;
   const endpoint = tribeEndpoint(source.url);
 
   // Tribe defaults to "today onward". Provide an explicit window so we get
@@ -117,7 +122,7 @@ export const wordpressTribeAdapter: Adapter = async ({ source }): Promise<Adapte
           end: parseUtcNaive(ev.utc_end_date) ?? toIsoOrUndefined(ev.end_date),
           allDay: !!ev.all_day,
           location: {
-            venue: venue?.venue,
+            venue: venue?.venue ?? cfg.defaultVenue,
             town: venue?.city ?? source.town,
             address: venue
               ? [venue.address, venue.city, venue.state].filter(Boolean).join(", ") || undefined

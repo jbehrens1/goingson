@@ -20,9 +20,30 @@
       "Orleans, MA"
     ]
   },
-  "generatedAt": "2026-05-23T14:34:30.629Z",
-  "count": 87,
+  "generatedAt": "2026-05-23T15:27:35.733Z",
+  "count": 225,
   "events": [
+    {
+      "title": "Outermost Toastmasters *Every 1st &amp; 3rd Monday*",
+      "description": "Who Are We? We are Outermost Toast Toastmasters Club #1329712.&nbsp; Our club meets&nbsp;twice a month&nbsp;to practice our public speaking skills in a relaxed, supportive, and fun environment. All members are encouraged to participate at every meeting. This may be giving a speech, evaluating another club member's speech, or answering an impromptu question. We strive to provide valuable, effective and supportive feedback that will help all of our members grow as speakers and as confident individuals. But most important, we have FUN! Anyone is welcome to attend any of our meetings as a guest.&nbsp; In fact, it's encouraged! We Meet: The 1st and 3rd Monday of EVERY Month at 7:00pm - 8:30pm Questions? Email Martha at megorman57@comcast.net for more information or visit Outermost Toast Toastmasters Club (toastmastersclubs.org)",
+      "url": "https://wellfleetpreservationhall.org/programs/2021/9/6/outermost-toastmasters-every-1st-amp-3rd-monday",
+      "start": "2021-09-06T23:00:00.846Z",
+      "end": "2028-02-22T01:30:00.846Z",
+      "location": {
+        "venue": "Wellfleet Preservation Hall",
+        "town": "Wellfleet",
+        "lat": 41.9385095,
+        "lon": -70.0324086
+      },
+      "imageUrl": "https://static1.squarespace.com/static/58483ac93e00be3a8029e4a3/5e8e56bdf86cc52dfa0b794e/611d88ce343340656961d47a/1747422178806/",
+      "type": "community",
+      "id": "d6e9cefa22e8d03a",
+      "source": {
+        "id": "wellfleet-preservation-hall",
+        "name": "Wellfleet Preservation Hall"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.197Z"
+    },
     {
       "title": "Memorial Day",
       "description": "Event date: May 25, 2026 \nEvent Time: 12:00 AM - 11:59 PM\nLocation: \nTruro, MA 02666\nDescription:\nOffices closed for Memorial Day!",
@@ -39,7 +60,7 @@
         "id": "truro-gov",
         "name": "Town of Truro - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.566Z"
+      "ingestedAt": "2026-05-23T15:27:33.542Z"
     },
     {
       "title": "Zoning Board of Appeals - Skaket Room ",
@@ -57,7 +78,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Conservation Commission - Nauset Room",
@@ -75,7 +96,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Architectural Review Committee - Skaket Room",
@@ -93,7 +114,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Community Preservation Committee - Nauset Room ",
@@ -111,7 +132,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.635Z"
     },
     {
       "title": "Site Plan Review Committee - Nauset Room ",
@@ -129,7 +150,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Transportation and Bikeways Advisory Committee - Nauset Room ",
@@ -147,7 +168,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Historic District Commission Meeting",
@@ -165,7 +186,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.108Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Zoning Board of Appeals Meeting",
@@ -183,7 +204,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.108Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Cultural Council - Skaket Room ",
@@ -201,7 +222,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Snow Library Board of Trustees - Cape Cod Room Snow Library",
@@ -219,7 +240,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Harbor Committee Meeting",
@@ -237,7 +258,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Select Board Hybrid Regular Meeting",
@@ -255,7 +276,7 @@
         "id": "truro-gov",
         "name": "Town of Truro - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.566Z"
+      "ingestedAt": "2026-05-23T15:27:33.542Z"
     },
     {
       "title": "Select Board - Nauset Room",
@@ -273,7 +294,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Town Hall Closed - Memorial Day 2026",
@@ -291,7 +312,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Recreation Advisory Committee - Skaket Room",
@@ -309,7 +330,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Historic District Commission Public Hearing Notices",
@@ -327,7 +348,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.108Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Cultural Council Meeting",
@@ -345,7 +366,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Zoning Board of Appeals Public Hearing Notices",
@@ -363,7 +384,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.108Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Snow Library Marion Craine Gallery Committee Meeting - Marion Craine Gallery",
@@ -381,7 +402,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.743Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Memorial Day - Town Hall Closed",
@@ -399,7 +420,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.743Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Old King's Highway Regional District Committee - Skaket Room ",
@@ -417,7 +438,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.635Z"
     },
     {
       "title": "Water Works:  Work Session",
@@ -435,7 +456,7 @@
         "id": "truro-gov",
         "name": "Town of Truro - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.566Z"
+      "ingestedAt": "2026-05-23T15:27:33.542Z"
     },
     {
       "title": "Memorial Day Service ",
@@ -453,7 +474,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.743Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Nauset Public Schools Nauset High School Building Committee",
@@ -471,7 +492,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Select Board Meeting",
@@ -489,7 +510,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Conservation Commission Public Hearing Notices",
@@ -507,7 +528,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.108Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Nauset Public School Efficiency & Regionalization Study Presentation - Nauset Room",
@@ -525,7 +546,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Council on Aging Board Meeting - Council on Aging",
@@ -543,7 +564,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Licensing Board Meeting",
@@ -561,7 +582,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Public Landscape Committee Meeting",
@@ -579,7 +600,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Animal Welfare Meeting",
@@ -597,7 +618,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Planning Board - Nauset Room ",
@@ -615,7 +636,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.743Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Cultural District Committee - Skaket Room ",
@@ -633,7 +654,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.743Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Veterans Committee - Nauset Room",
@@ -651,7 +672,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.743Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Open Space Committee - Skaket Room ",
@@ -669,7 +690,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.743Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Wastewater Management Advisory Committee - Nauset Room",
@@ -687,7 +708,7 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
     },
     {
       "title": "Planning Board Meeting",
@@ -705,7 +726,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Cemetery Commission Emergency Meeting",
@@ -723,7 +744,7 @@
         "id": "ptown-gov",
         "name": "Town of Provincetown - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:28.107Z"
+      "ingestedAt": "2026-05-23T15:27:33.085Z"
     },
     {
       "title": "Marine & Fresh Water Quality Committee - Nauset Room",
@@ -741,7 +762,28 @@
         "id": "orleans-gov",
         "name": "Town of Orleans - Community Events"
       },
-      "ingestedAt": "2026-05-23T14:34:29.744Z"
+      "ingestedAt": "2026-05-23T15:27:34.634Z"
+    },
+    {
+      "title": "Origami Jumping Frogs with the Friends of Wellfleet Ponds",
+      "url": "https://wellfleetlibrary.org/calendar/origami-jumping-frogs-with-the-friends-of-wellfleet-ponds",
+      "start": "2026-05-23T15:00:00.061Z",
+      "end": "2026-05-23T16:00:00.061Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777394749818-OXVIPYNF9OBEPBHM8BX5/Origami+Jumping+Frogs%21.png",
+      "type": "other",
+      "id": "9271ee469b41dcab",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
     },
     {
       "title": "CLOSED for Memorial Day",
@@ -763,7 +805,7 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.618Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
     },
     {
       "title": "Tarot Club",
@@ -784,7 +826,70 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.618Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
+    },
+    {
+      "title": "The Art and Craft of Poetry with Rosalind Pace",
+      "url": "https://wellfleetlibrary.org/calendar/the-art-and-craft-of-poetry-with-rosalind-pace-4-w5jen-7km6l",
+      "start": "2026-05-26T21:00:00.071Z",
+      "end": "2026-05-26T23:00:00.071Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772493243179-LQEKT7MV0HF9GBCSAVCT/The+Art+%26+Craft+of+Poetry+%281%29.png",
+      "type": "other",
+      "id": "617527ba35c5edd6",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-xhlz7-2rljc-xa9bz",
+      "start": "2026-05-26T21:30:00.834Z",
+      "end": "2026-05-27T00:00:00.834Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772485118459-5MEMUU78GIEW0HF065MU/March-June+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "1989369c7bf1deed",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
+    },
+    {
+      "title": "80-and-Older Women's Group",
+      "url": "https://wellfleetlibrary.org/calendar/80-and-older-womens-group",
+      "start": "2026-05-27T19:30:00.047Z",
+      "end": "2026-05-27T21:00:00.047Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777327918148-O20C15AED1XI0KEARJC8/80-and-Older+Women%E2%80%99s+Group.png",
+      "type": "other",
+      "id": "0679256cb94c6d61",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
     },
     {
       "title": "Movie Night: Cactus Flower",
@@ -806,7 +911,28 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.618Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
+    },
+    {
+      "title": "Trivia Night",
+      "url": "https://wellfleetlibrary.org/calendar/h5hft2nkwfxp8764kawrp6fs588rwg",
+      "start": "2026-05-27T22:00:00.612Z",
+      "end": "2026-05-27T23:00:00.612Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778163151151-PIL4GMQJHL8YN665P5P7/May+2026+Trivia+Night.png",
+      "type": "other",
+      "id": "3586f6e4cc826039",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
     },
     {
       "title": "Postponed: Will restart in June, date TBA-Hybrid: Reading of “Leonardo Da Vinci” by Walter Isaacson",
@@ -828,7 +954,28 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.618Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
+    },
+    {
+      "title": "Restaurant Week Movie Night: Jiro Dreams of Sushi (2011)",
+      "url": "https://wellfleetlibrary.org/calendar/restaurant-week-movie-night-jiro-dreams-of-sushi-2011",
+      "start": "2026-05-28T20:00:00.616Z",
+      "end": "2026-05-28T21:30:00.616Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778169493424-P14AVPYAG9LR906OT5SS/Restaurant+Week+Movie+Night+Jiro+Dreams+of+Sushi.png",
+      "type": "film",
+      "id": "b75fa6bf4167353e",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
     },
     {
       "title": "Color All Year with Master Gardener Steven Flack",
@@ -849,7 +996,7 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.618Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
     },
     {
       "title": "Fredi Schiff Levin Lecture // Jackie Reeves",
@@ -859,6 +1006,7 @@
       "end": "2026-05-28T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -870,7 +1018,49 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.827Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Free Play Fridays",
+      "url": "https://wellfleetlibrary.org/calendar/free-play-fridays-xsc37-scl4n-hsp2z-dzbtx",
+      "start": "2026-05-29T14:30:00.037Z",
+      "end": "2026-05-29T16:30:00.037Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776796396827-WLVZR2P07J60YCVEZD0D/Free+Play+Fridays%21+2025.png",
+      "type": "theater",
+      "id": "f508b9bf285aaad3",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
+    },
+    {
+      "title": "Storytime with Anna",
+      "url": "https://wellfleetlibrary.org/calendar/storytime-with-anna-1-9lndt-n5sjd-6wj5h-sz585",
+      "start": "2026-05-29T15:30:00.764Z",
+      "end": "2026-05-29T16:00:00.764Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776958365001-Q2GN6KLJ82N1QS0OXQ1I/Storytime+with+Anna%21.png",
+      "type": "family",
+      "id": "ea05ec85a0587702",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.484Z"
     },
     {
       "title": "Free Friday from 5-8pm",
@@ -880,6 +1070,7 @@
       "end": "2026-05-30T00:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -891,7 +1082,28 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.827Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Origami Jumping Frogs with the Friends of Wellfleet Ponds",
+      "url": "https://wellfleetlibrary.org/calendar/origami-jumping-frogs-with-the-friends-of-wellfleet-ponds-hafdn",
+      "start": "2026-05-30T15:00:00.779Z",
+      "end": "2026-05-30T16:00:00.779Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777394749818-OXVIPYNF9OBEPBHM8BX5/Origami+Jumping+Frogs%21.png",
+      "type": "other",
+      "id": "425c9637e63e2975",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "20S x PAAM | Art in the Barn: Hawthorne Legacy Bootcamp",
@@ -901,6 +1113,7 @@
       "end": "2026-06-01T19:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -912,7 +1125,7 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.828Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
     },
     {
       "title": "Tarot Club",
@@ -933,7 +1146,70 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.618Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
+    },
+    {
+      "title": "Real Women, Real Talk",
+      "url": "https://wellfleetlibrary.org/calendar/5tz9zym5tbz8a988hsadjtf3xjnzt9",
+      "start": "2026-06-01T22:30:00.801Z",
+      "end": "2026-06-02T00:00:00.801Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1779201269777-VIS0LSQH7O7L048657RC/June+1+2026+Womens+Talk.png",
+      "type": "lecture",
+      "id": "c6a9e32b92943d73",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "The Art and Craft of Poetry with Rosalind Pace",
+      "url": "https://wellfleetlibrary.org/calendar/the-art-and-craft-of-poetry-with-rosalind-pace-4-w5jen-7km6l-r39xx",
+      "start": "2026-06-02T21:00:00.672Z",
+      "end": "2026-06-02T23:00:00.672Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772493243179-LQEKT7MV0HF9GBCSAVCT/The+Art+%26+Craft+of+Poetry+%281%29.png",
+      "type": "other",
+      "id": "25f6b62c8a1a1d3b",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-xhlz7-2rljc-xa9bz-85ccb",
+      "start": "2026-06-02T21:30:00.578Z",
+      "end": "2026-06-03T00:00:00.578Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772485118459-5MEMUU78GIEW0HF065MU/March-June+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "1c8226ccb97a23da",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "VIRTUAL: Your Ticket to the Best State Fair Crafts with Smithsonian Curator Mary Savig",
@@ -955,7 +1231,91 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/56xppacaeb6phsm5rlk3ye7s9pfy2w",
+      "start": "2026-06-03T22:30:00.207Z",
+      "end": "2026-06-04T00:00:00.207Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1764099078866-IOH27IGVQHIF50A21F5Z/June+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "221fcf9e82886f0d",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "East-West Voices in Poetry and Prose with Lee Desrosiers, Pegi Deitz Shea, Margaret Plaganis, and Lisa C. Taylor",
+      "url": "https://wellfleetlibrary.org/calendar/east-west-voices-in-poetry-and-prose-with-lee-desrosiers-pegi-deitz-shea-margaret-plaganis-and-lisa-c-taylor",
+      "start": "2026-06-03T23:00:00.010Z",
+      "end": "2026-06-04T00:00:00.010Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778009424557-36LDT288H524TGFA2SBY/East-West+Voices+in+Poetry+and+Prose.png",
+      "type": "other",
+      "id": "7270089126409df0",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Monthly Housing Office Hours with Ann Schiffenhaus",
+      "url": "https://wellfleetlibrary.org/calendar/ov3m9yhothedf2aspbp3g3jey7xz1v-4zsl3-2spr3-ksb9x-tk88j-xt4m5",
+      "start": "2026-06-04T17:00:00.041Z",
+      "end": "2026-06-04T19:00:00.041Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1767048743246-KYOUE638K04SWV37F5DJ/Monthly+Housing+Office+Hours+with+Ann+Schiffenhaus.png",
+      "type": "other",
+      "id": "6c17b02268dfbd43",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Free Play Fridays",
+      "url": "https://wellfleetlibrary.org/calendar/free-play-fridays-xsc37-scl4n-hsp2z-dzbtx-2gpns",
+      "start": "2026-06-05T14:30:00.513Z",
+      "end": "2026-06-05T16:30:00.513Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776796396827-WLVZR2P07J60YCVEZD0D/Free+Play+Fridays%21+2025.png",
+      "type": "theater",
+      "id": "06b99f551e894b05",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "Now On View // Avital Sagalyn: Mid-Century Provincetown",
@@ -965,6 +1325,7 @@
       "end": "2026-06-06T00:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -976,7 +1337,70 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.828Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Storytime with Anna",
+      "url": "https://wellfleetlibrary.org/calendar/storytime-with-anna-1-9lndt-n5sjd-6wj5h-sz585-8tncp",
+      "start": "2026-06-05T15:30:00.396Z",
+      "end": "2026-06-05T16:00:00.396Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776958365001-Q2GN6KLJ82N1QS0OXQ1I/Storytime+with+Anna%21.png",
+      "type": "family",
+      "id": "bbcbf4c2ae449119",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Open Mic Night",
+      "url": "https://wellfleetlibrary.org/calendar/4y48mpy9xlfzmhg2w7444fmx9wsser",
+      "start": "2026-06-05T21:00:00.552Z",
+      "end": "2026-06-05T22:00:00.552Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763500483266-0BAECIP5MFBKIAKJ1KUR/June+2026+Open+Mic+Night.png",
+      "type": "live-music",
+      "id": "53c82a740069de0d",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Origami Jumping Frogs with the Friends of Wellfleet Ponds",
+      "url": "https://wellfleetlibrary.org/calendar/origami-jumping-frogs-with-the-friends-of-wellfleet-ponds-hafdn-s39rj",
+      "start": "2026-06-06T15:00:00.508Z",
+      "end": "2026-06-06T16:00:00.508Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777394749818-OXVIPYNF9OBEPBHM8BX5/Origami+Jumping+Frogs%21.png",
+      "type": "other",
+      "id": "d1d882d0bb68465c",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "Book Launch with author Jeannette  de Beauvoir",
@@ -998,7 +1422,49 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f",
+      "start": "2026-06-06T18:30:00.773Z",
+      "end": "2026-06-06T20:00:00.773Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "906cd036d4ad5168",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Opening Artist Reception: Michael Davis",
+      "url": "https://wellfleetlibrary.org/calendar/opening-artist-reception-michael-davis",
+      "start": "2026-06-06T21:00:00.423Z",
+      "end": "2026-06-06T23:00:00.423Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778094027466-X34189ASJ05F6ET07RIN/Michael+Davis.png",
+      "type": "other",
+      "id": "d31c0c60c0eca06d",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "Tarot Club ",
@@ -1019,7 +1485,28 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.654Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-xhlz7-2rljc-xa9bz-85ccb-f9kw8",
+      "start": "2026-06-09T21:30:00.029Z",
+      "end": "2026-06-10T00:00:00.029Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772485118459-5MEMUU78GIEW0HF065MU/March-June+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "4ae864411a52173e",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "ON VIEW: Gallery Talks with Megan Hinton",
@@ -1029,6 +1516,7 @@
       "end": "2026-06-10T15:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1040,7 +1528,7 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.828Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
     },
     {
       "title": "Fredi Schiff Levin Lecture // Panel Discussion with Mark Adams",
@@ -1050,6 +1538,7 @@
       "end": "2026-06-10T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1061,7 +1550,49 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.828Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "In Concert: The Outer Cape Chorale Chamber Singers",
+      "url": "https://wellfleetlibrary.org/calendar/in-concert-the-outer-cape-chorale-chamber-singers-2",
+      "start": "2026-06-10T22:30:00.467Z",
+      "end": "2026-06-11T00:00:00.467Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1773935135318-Y680ZNVFAAH7G0L75U2R/In+Concert+The+Outer+Cape+Chorale+Chamber+Singers%21.png",
+      "type": "live-music",
+      "id": "8cedcc105b94f56d",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Watercolor Card-Making Workshop with Alla Pontbriand",
+      "url": "https://wellfleetlibrary.org/calendar/watercolor-card-making-workshop-with-alla-pontbriand",
+      "start": "2026-06-11T18:00:00.872Z",
+      "end": "2026-06-11T20:30:00.872Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1779215963235-IZYD0QRCJWYP80T26KAG/June+2026+Card-Making+Workshop.png",
+      "type": "workshop",
+      "id": "d544651d10fff402",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "VIRTUAL: Apocalyptic Mayhem, Lava-Spitting Llamas, and One Very Sassy Cat: Surviving the Universe’s Most Twisted RPG with Matt Dinniman",
@@ -1083,7 +1614,49 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
+    },
+    {
+      "title": "Free Play Fridays",
+      "url": "https://wellfleetlibrary.org/calendar/free-play-fridays-xsc37-scl4n-hsp2z-dzbtx-2gpns-ygzzk",
+      "start": "2026-06-12T14:30:00.238Z",
+      "end": "2026-06-12T16:30:00.238Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776796396827-WLVZR2P07J60YCVEZD0D/Free+Play+Fridays%21+2025.png",
+      "type": "theater",
+      "id": "479818c6f8ae7605",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
+    },
+    {
+      "title": "Storytime with Anna",
+      "url": "https://wellfleetlibrary.org/calendar/storytime-with-anna-1-9lndt-n5sjd-6wj5h-sz585-8tncp-3f46l",
+      "start": "2026-06-12T15:30:00.350Z",
+      "end": "2026-06-12T16:00:00.350Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776958365001-Q2GN6KLJ82N1QS0OXQ1I/Storytime+with+Anna%21.png",
+      "type": "family",
+      "id": "b14b59186ad26e67",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.485Z"
     },
     {
       "title": "Harvest Highlight-Wampanoag Spring Cooking with Kitty Hendricks-Miller",
@@ -1105,7 +1678,7 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
     },
     {
       "title": "Tech Time at the Adult Community Center (VMCC) ",
@@ -1127,7 +1700,7 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
     },
     {
       "title": "Tarot Club ",
@@ -1148,7 +1721,133 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
+    },
+    {
+      "title": "Author Talk: Stephen Orr",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-stephen-orr",
+      "start": "2026-06-15T23:00:00.678Z",
+      "end": "2026-06-16T00:00:00.678Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778693114773-YUGDJFN06PNRWU9TAHWT/Author+Talk+Stephen+Orr.png",
+      "type": "lecture",
+      "id": "9f799e7b0e65b7ce",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-xhlz7-2rljc-xa9bz-85ccb-f9kw8-gd2b8",
+      "start": "2026-06-16T21:30:00.143Z",
+      "end": "2026-06-17T00:00:00.143Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772485118459-5MEMUU78GIEW0HF065MU/March-June+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "70cddbc329bcc96e",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Author Talk: Juliette Fay",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-juliette-fay",
+      "start": "2026-06-16T23:00:00.210Z",
+      "end": "2026-06-17T00:00:00.210Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1779494468234-8H5GYNOT575G6JC4SVQU/Author+Talk+Juliette+Fay.png",
+      "type": "lecture",
+      "id": "700803189ce024d5",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Ericaceae, Beyond Rhododendron with Andrew Brand",
+      "url": "https://wellfleetlibrary.org/calendar/ericaceae-beyond-rhododendron-with-andrew-brand",
+      "start": "2026-06-17T14:00:00.290Z",
+      "end": "2026-06-17T15:30:00.290Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763407450601-CZRLTZF4LSHS1OYW2WT7/Ericaceae%2C+Beyond+Rhododendron.png",
+      "type": "other",
+      "id": "8f775c17411c2dbc",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/56xppacaeb6phsm5rlk3ye7s9pfy2w-cmhk6",
+      "start": "2026-06-17T22:30:00.706Z",
+      "end": "2026-06-18T00:00:00.706Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1764099078866-IOH27IGVQHIF50A21F5Z/June+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "7919bec35877aa12",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Wellfleet Historical Society &amp; Museum Speaker Series: \"Seventy-Five Years at the Wellfleet Historical Society &amp; Museum\" with David Wright",
+      "url": "https://wellfleetlibrary.org/calendar/wellfleet-historical-society-amp-museum-speaker-series-seventy-five-years-at-the-wellfleet-historical-society-amp-museum-with-david-wright",
+      "start": "2026-06-17T23:00:00.897Z",
+      "end": "2026-06-18T00:00:00.897Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778012120221-BBY0DXJT2KVNK1DKNM0B/75+Years+of+WHS%26M+6-17-26.png",
+      "type": "museum",
+      "id": "ea61e17f67076dac",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "VIRTUAL: Nurturing Future Generations: Stories from the Heart of Grandfatherhood with Ted Page",
@@ -1170,7 +1869,70 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
+    },
+    {
+      "title": "The Not-So Secret Stories of Cape Cod Women with Candace Hammond, Kristan Huggins, and Judith Newcomb Stiles",
+      "url": "https://wellfleetlibrary.org/calendar/the-not-so-secret-stories-of-cape-cod-women-with-candace-hammond-kristan-huggins-and-judith-newcomb-stiles",
+      "start": "2026-06-18T23:00:00.828Z",
+      "end": "2026-06-19T00:00:00.828Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775057412825-HZ446KGFHWXFFTJIMKZA/The+Not-So+Secret+Stories+of+Cape+Cod+Women.png",
+      "type": "other",
+      "id": "74ed4efa54db1af6",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2",
+      "start": "2026-06-20T18:30:00.765Z",
+      "end": "2026-06-20T20:00:00.765Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "009b335c3a659bd0",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "International Horseshoe Crab Day with Sharon Kreamer",
+      "url": "https://wellfleetlibrary.org/calendar/international-horseshoe-crab-day-with-sharon-kreamer",
+      "start": "2026-06-20T19:00:00.317Z",
+      "end": "2026-06-20T20:00:00.317Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1779213708953-HQ1DNLOP8B2VAK85RBNY/International+Horseshoe+Crab+Day.png",
+      "type": "other",
+      "id": "955fb526f296f7fb",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Outer Cape Chamber Music Festival // Season Opener: Inner Voices",
@@ -1180,6 +1942,7 @@
       "end": "2026-06-21T19:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1191,7 +1954,7 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.828Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
     },
     {
       "title": "Tarot Club ",
@@ -1212,7 +1975,28 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.619Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
+    },
+    {
+      "title": "In Concert: Tom Leidenfrost",
+      "url": "https://wellfleetlibrary.org/calendar/in-concert-tom-leidenfrost",
+      "start": "2026-06-22T23:00:00.318Z",
+      "end": "2026-06-23T00:00:00.318Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778605486655-4JGJU1I37AETGOWF75KC/Tom+Leidenfrost+6-22-26.png",
+      "type": "live-music",
+      "id": "e5bdc6d86d955722",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "VIRTUAL: Simple, Sustainable, and Powerfully Delicious Meals with Sana Javeri Kadri and Asha Loupy",
@@ -1234,7 +2018,70 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.620Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-xhlz7-2rljc-xa9bz-85ccb-f9kw8-gd2b8-8gyea",
+      "start": "2026-06-23T21:30:00.307Z",
+      "end": "2026-06-24T00:00:00.307Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772485118459-5MEMUU78GIEW0HF065MU/March-June+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "cf4a2f40522d60f9",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Author Talk: Theodore Orenstein",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-theodore-orenstein",
+      "start": "2026-06-23T23:00:00.342Z",
+      "end": "2026-06-24T00:00:00.342Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775497476398-OLA7O7PEPL9NR8JY6P5C/Author+Talk+Theodore+Orenstein.png",
+      "type": "lecture",
+      "id": "394ffccb79dd4091",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Trivia Night",
+      "url": "https://wellfleetlibrary.org/calendar/ygsr7g3sbfn59ceal4g6a2a468ad4f",
+      "start": "2026-06-24T22:00:00.654Z",
+      "end": "2026-06-24T23:00:00.654Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763501289062-D1OUJOJ2MMW3N0TSFNS8/June+2026+Trivia+Night.png",
+      "type": "other",
+      "id": "02144a3b0967b80b",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Outer Cape Chamber Music Festival // Concert 2: Innovation and Mastery",
@@ -1244,6 +2091,7 @@
       "end": "2026-06-24T23:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1255,7 +2103,28 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.828Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Ukulele Sing-a-Long with Julie Murray",
+      "url": "https://wellfleetlibrary.org/calendar/ukulele-sing-a-long-with-julie-murray",
+      "start": "2026-06-25T14:30:00.349Z",
+      "end": "2026-06-25T15:30:00.349Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1773082169785-258BFIMUIN3V5NIBMJFJ/Ukulele+Sing-a-long%21+With+Julie+Murray+6.png",
+      "type": "other",
+      "id": "33d8bc5add861954",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Fredi Schiff Levin Lecture // Fritz Horstman",
@@ -1265,6 +2134,7 @@
       "end": "2026-06-25T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1276,7 +2146,28 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.828Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Free Play Fridays",
+      "url": "https://wellfleetlibrary.org/calendar/free-play-fridays-xsc37-scl4n-hsp2z-dzbtx-2gpns-ygzzk-9gy77",
+      "start": "2026-06-26T14:30:00.252Z",
+      "end": "2026-06-26T16:30:00.252Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776796396827-WLVZR2P07J60YCVEZD0D/Free+Play+Fridays%21+2025.png",
+      "type": "theater",
+      "id": "da7802556f9acec8",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Now On View // Edwin Rissland: Revisitations",
@@ -1286,6 +2177,7 @@
       "end": "2026-06-27T00:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1297,7 +2189,7 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.829Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
     },
     {
       "title": "Now On View // Marcia Marcus: Strange and Clear",
@@ -1307,6 +2199,7 @@
       "end": "2026-06-27T00:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1318,7 +2211,28 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.829Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Storytime with Anna",
+      "url": "https://wellfleetlibrary.org/calendar/storytime-with-anna-1-9lndt-n5sjd-6wj5h-sz585-8tncp-3f46l-lba4r",
+      "start": "2026-06-26T15:30:00.111Z",
+      "end": "2026-06-26T16:00:00.111Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776958365001-Q2GN6KLJ82N1QS0OXQ1I/Storytime+with+Anna%21.png",
+      "type": "family",
+      "id": "5525e2bc4839ff38",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Free Friday at 5pm // Public Reception at 6pm: Avital Sagalyn, Edwin Rissland, Marcia Marcus",
@@ -1328,6 +2242,7 @@
       "end": "2026-06-27T00:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1339,7 +2254,28 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.829Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "In Concert: Carl Banner and Emma Hays Johnson",
+      "url": "https://wellfleetlibrary.org/calendar/in-concert-carl-banner-and-emma-hays-johnson",
+      "start": "2026-06-26T22:00:00.857Z",
+      "end": "2026-06-26T23:00:00.857Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1779209453894-DSV7DGS1JCFIZOWX1P4O/In+Concert+Carl+Banner+and+Emma+Hays+Johnson.png",
+      "type": "live-music",
+      "id": "4ca557416af91952",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Tarot Club ",
@@ -1360,7 +2296,7 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.620Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
     },
     {
       "title": "Outer Cape Chamber Music Festival // Concert 3: Goldberg Variations",
@@ -1370,6 +2306,7 @@
       "end": "2026-06-29T23:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1381,7 +2318,112 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.829Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Author Talk: Karan Mahajan",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-karan-mahajan",
+      "start": "2026-06-29T23:00:00.142Z",
+      "end": "2026-06-30T00:00:00.142Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775058871554-T2XKCHLMIHR5SVNCF6IF/Author+Talk+Karan+Mahajan.png",
+      "type": "lecture",
+      "id": "3149768c7aaaf9ad",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-xhlz7-2rljc-xa9bz-85ccb-f9kw8-gd2b8-8gyea-yex3b",
+      "start": "2026-06-30T21:30:00.367Z",
+      "end": "2026-07-01T00:00:00.367Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772485118459-5MEMUU78GIEW0HF065MU/March-June+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "0dbc935796527aa8",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Author Talk: Christopher C. Gorham",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-christopher-c-gorham",
+      "start": "2026-06-30T23:00:00.071Z",
+      "end": "2026-07-01T00:00:00.071Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778183410512-LEHPJPCD0TL6808YQIFJ/Author+Talk+Christopher+C.+Gorham.png",
+      "type": "lecture",
+      "id": "be39a7a805e2ebf7",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Amazing Animal Ambassadors",
+      "url": "https://wellfleetlibrary.org/calendar/amazing-animal-ambassadors-5",
+      "start": "2026-07-01T19:00:00.086Z",
+      "end": "2026-07-01T20:00:00.086Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1764791795843-DIKJ4P4I3KE0551ZI5QN/Amazing+Animal+Ambassadors+7-1-26.png",
+      "type": "other",
+      "id": "1e23d4218c4c810f",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Bob Dylan, Johnny Cash, and the Forging of American Music with Matt York",
+      "url": "https://wellfleetlibrary.org/calendar/bob-dylan-johnny-cash-and-the-forging-of-american-music-with-matt-york",
+      "start": "2026-07-01T23:00:00.987Z",
+      "end": "2026-07-02T00:00:00.987Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770141985911-EA8FLA5UG3EI8JET1ZI5/Bob+Dylan%2C+Johnny+Cash%2C+and+the+Forging+of+American+Music.png",
+      "type": "other",
+      "id": "9ca9bf2d515cb8ac",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Outer Cape Chamber Music Festival // Season closer: String Sextets",
@@ -1391,6 +2433,7 @@
       "end": "2026-07-02T23:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1402,7 +2445,133 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.829Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "An Introduction to Kelp Farming with Jamie Bassett",
+      "url": "https://wellfleetlibrary.org/calendar/an-introduction-to-kelp-farming-with-jamie-bassett",
+      "start": "2026-07-06T20:00:00.204Z",
+      "end": "2026-07-06T21:00:00.204Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775666200645-I4FI4Z5H89BZWZ9BEU26/An+Introduction+to+Kelp+Farming+with+Jamie+Bassett.png",
+      "type": "other",
+      "id": "f5ceb3655c382fa6",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Poetry Reading: Matthew E. Henry",
+      "url": "https://wellfleetlibrary.org/calendar/poetry-reading-matthew-e-henry-1",
+      "start": "2026-07-06T23:00:00.363Z",
+      "end": "2026-07-07T00:00:00.363Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770825099179-FPRI65HHVUQZID2Q7RBY/Poetry+Reading+Matthew+E.+Henry.png",
+      "type": "other",
+      "id": "45917c7cc7eb135a",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Tidal Flat Exploration at Mayo Beach",
+      "url": "https://wellfleetlibrary.org/calendar/tidal-flat-exploration-at-mayo-beach-2",
+      "start": "2026-07-08T15:30:00.525Z",
+      "end": "2026-07-08T17:00:00.525Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772935879366-74G3VLZPZ9ZX6KSLTLAC/Tidal+Flat+Exploration+7-8-26.png",
+      "type": "other",
+      "id": "f9b5f47ee85c2147",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Improv Show for Kids with Improvincetown",
+      "url": "https://wellfleetlibrary.org/calendar/improv-show-for-kids-with-improvincetown-1",
+      "start": "2026-07-08T20:00:00.300Z",
+      "end": "2026-07-08T21:00:00.300Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776793222377-DVOY4RAVNEYD4NPXPI8Z/Improvincetown+7-8-26.png",
+      "type": "comedy",
+      "id": "abf122bac441db18",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Author Talk: Paul Scheufele",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-paul-scheufele",
+      "start": "2026-07-08T23:00:00.444Z",
+      "end": "2026-07-09T00:00:00.444Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775509232577-3KM09ZHCAIZYJMYIABTM/AUTHOR+TALK+Paul+Scheufele.png",
+      "type": "lecture",
+      "id": "611d83c583145ed1",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Build Your Home Apothecary with Nicole Cormier - Summer Session",
+      "url": "https://wellfleetlibrary.org/calendar/build-your-home-apothecary-with-nicole-cormier-spring-session-fxry9",
+      "start": "2026-07-09T19:00:00.046Z",
+      "end": "2026-07-09T20:00:00.046Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776636414016-Y29I7PZ7EYS4OKBS3B4H/Build+Your+Home+Apothecary+A+Seasonal+Series+with+Nicole+Cormier.png",
+      "type": "other",
+      "id": "783d4be5b4da1538",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Fredi Schiff Levin Lecture // Joe Fiorello and Edwina Rissland",
@@ -1412,6 +2581,7 @@
       "end": "2026-07-09T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1423,7 +2593,71 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.829Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Author Talk: Carla Kaplan",
+      "description": "In Conversation with Daniel Okrent",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-carla-kaplan",
+      "start": "2026-07-09T23:00:00.414Z",
+      "end": "2026-07-10T00:00:00.414Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1768410274419-O50LGKP80FEYNXZK73TU/Author+Talk+Carla+Kaplan.png",
+      "type": "lecture",
+      "id": "35976a3c4b947f41",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Chain Reactions with Playful Engineers",
+      "url": "https://wellfleetlibrary.org/calendar/chain-reactions-with-playful-engineers-1",
+      "start": "2026-07-10T14:00:00.671Z",
+      "end": "2026-07-10T16:00:00.671Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775767568831-SFRRHG3NX7AH77UKX6NU/Playful+Engineers+7-10-26.png",
+      "type": "other",
+      "id": "27faebeb2101371d",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Summer Book Sale",
+      "url": "https://wellfleetlibrary.org/calendar/summer-book-sale-4",
+      "start": "2026-07-12T13:00:00.648Z",
+      "end": "2026-07-12T17:00:00.648Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1765485231424-9I88KK65FVURC8NZNC6V/Summer+Book+Sale+2026.png",
+      "type": "sale",
+      "id": "754fb2f239c82334",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "The Secret Garden Tour",
@@ -1433,6 +2667,7 @@
       "end": "2026-07-12T18:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1444,7 +2679,7 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.829Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
     },
     {
       "title": "Aric Attas // Symbiotic: The Four Seasons – Tree Music In the Garden (Day 1/2)",
@@ -1454,6 +2689,7 @@
       "end": "2026-07-12T21:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1465,7 +2701,7 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
     },
     {
       "title": "Aric Attas // Symbiotic: The Four Seasons – Tree Music In the Garden (Day 2/2)",
@@ -1475,6 +2711,7 @@
       "end": "2026-07-13T21:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1486,7 +2723,28 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Author Talk: Alexandra Grabbe",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-alexandra-grabbe",
+      "start": "2026-07-13T23:00:00.000Z",
+      "end": "2026-07-14T00:00:00.000Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1765553098053-O7S5KF3NQ7GESOH47LRM/Author+Talk+Alexandra+Grabbe.png",
+      "type": "lecture",
+      "id": "ca9577a9f82ab51c",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
     },
     {
       "title": "Summer Jazz Series with Bart Weisman and Friends",
@@ -1496,6 +2754,7 @@
       "end": "2026-07-14T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1507,7 +2766,134 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Amazing Animal Ambassadors",
+      "url": "https://wellfleetlibrary.org/calendar/fds3r5asn73jcmswnns4tf24z9cxw7",
+      "start": "2026-07-15T19:00:00.117Z",
+      "end": "2026-07-15T20:00:00.117Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1764792511531-BC3Y7NDJJO74ONBWZUV6/Amazing+Animal+Ambassadors+7-15-26.png",
+      "type": "other",
+      "id": "c1149546e00319ea",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Copper Bookmark Making Workshop with Heather Beck",
+      "url": "https://wellfleetlibrary.org/calendar/copper-bookmark-making-workshop-with-heather-beck",
+      "start": "2026-07-16T19:00:00.920Z",
+      "end": "2026-07-16T20:30:00.920Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775766568695-0OX7WN5Q5O3HERQU2CVO/Copper+Bookmarks+w+Heather+Beck.png",
+      "type": "workshop",
+      "id": "79a60be735411e42",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Author Talk: Daniel Okrent",
+      "description": "In Conversation with Adam Moss",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-daniel-okrent",
+      "start": "2026-07-16T23:00:00.847Z",
+      "end": "2026-07-17T00:00:00.847Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1768409746056-0YX082E6DVSDRS86E07V/Author+Talk+Daniel+Okrent.png",
+      "type": "lecture",
+      "id": "9765ce5aad66a09a",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "A Visit from Delilah the Whale!",
+      "url": "https://wellfleetlibrary.org/calendar/a-visit-from-delilah-the-whale-3",
+      "start": "2026-07-17T18:00:00.375Z",
+      "end": "2026-07-17T19:00:00.375Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777312273272-QBDKGULXVPH31QJNRWDW/July+2026+-+A+Visit+From+Delilah+the+Whale%21.png",
+      "type": "other",
+      "id": "8257cdf6acc405b5",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb",
+      "start": "2026-07-18T18:30:00.576Z",
+      "end": "2026-07-18T20:00:00.576Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "3a4f245d9d3bd38b",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.486Z"
+    },
+    {
+      "title": "In Concert: The Lariats",
+      "url": "https://wellfleetlibrary.org/calendar/in-concert-the-lariats",
+      "start": "2026-07-20T23:00:00.921Z",
+      "end": "2026-07-21T00:00:00.921Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777406758249-GHJXHV8N7DA0JXCOFLFH/In+Concert+The+Lariats.png",
+      "type": "live-music",
+      "id": "54268157b0d151c5",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Summer Jazz Series with Bart Weisman and Friends",
@@ -1517,6 +2903,7 @@
       "end": "2026-07-21T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1528,7 +2915,70 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Tidal Flat Exploration at Mayo Beach",
+      "url": "https://wellfleetlibrary.org/calendar/tidal-flat-exploration-at-mayo-beach-3",
+      "start": "2026-07-22T15:30:00.843Z",
+      "end": "2026-07-22T17:00:00.843Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772936326569-IWJ0ZO2UPUWVJ71G0OX0/Tidal+Flat+Exploration+7-22-26.png",
+      "type": "other",
+      "id": "ca875f7d6125fef4",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Poetry Reading: Sharon Dunn",
+      "url": "https://wellfleetlibrary.org/calendar/poetry-reading-sharon-dunn",
+      "start": "2026-07-22T23:00:00.647Z",
+      "end": "2026-07-23T00:00:00.647Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1774292439747-VUXUA72HZQCE532VQ57D/Poetry+Reading+Sharon+Dunn.png",
+      "type": "other",
+      "id": "49c9c7c0b53bf135",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Reusable Beeswax Food Wraps with Alla Pontbriand",
+      "url": "https://wellfleetlibrary.org/calendar/reusable-beeswax-food-wraps-with-alla-pontbriand",
+      "start": "2026-07-23T18:00:00.318Z",
+      "end": "2026-07-23T20:30:00.318Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1779136450933-0ACV1HQSV8NXA7GAPJ5S/How+To+Make+Reusable+Beeswax+Food+Wraps+With+Alla+Pontbriand.png",
+      "type": "food-drink",
+      "id": "3233c0657f78e8bc",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Fredi Schiff Levin Lecture // Marcia Marcus Panel Discussion",
@@ -1538,6 +2988,7 @@
       "end": "2026-07-23T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1549,7 +3000,49 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Author Talk: Robert Kuttner",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-robert-kuttner-1",
+      "start": "2026-07-23T23:00:00.185Z",
+      "end": "2026-07-24T00:00:00.185Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771367960245-S5448WO7SZFEWF581M4M/Author+Talk+Robert+Kuttner.png",
+      "type": "lecture",
+      "id": "658a976915113da7",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Authors in Conversation: Kai Maristed and Tom Sleigh",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-kai-maristed",
+      "start": "2026-07-27T23:00:00.955Z",
+      "end": "2026-07-28T00:00:00.955Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777310261548-T4ZLAAA7GK3FF679RSWE/Authors+in+Conversation+Kai+Maristed+and+Tom+Sleigh.png",
+      "type": "other",
+      "id": "a327fa70bb6cceff",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Summer Jazz Series with Bart Weisman and Friends",
@@ -1559,6 +3052,7 @@
       "end": "2026-07-28T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1570,7 +3064,218 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Amazing Animal Ambassadors",
+      "url": "https://wellfleetlibrary.org/calendar/mbfb25z7xngfltgb92ka8mhmnf3hjy",
+      "start": "2026-07-29T19:00:00.715Z",
+      "end": "2026-07-29T20:00:00.715Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1764792712055-320RVJ0UIE98ZLSN4M24/Amazing+Animal+Ambassadors+7-29-26.png",
+      "type": "other",
+      "id": "ee03ad8cc785b1d3",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Poetry Reading: Andrea Cohen and Joshua Weiner",
+      "url": "https://wellfleetlibrary.org/calendar/poetry-reading-andrea-cohen-and-joshua-weiner",
+      "start": "2026-07-29T23:00:00.347Z",
+      "end": "2026-07-30T00:00:00.347Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771618587222-PZKKE4WUKQC0S9NS3OJY/Poetry+Reading+Andrea+Cohen+%26+Joshua+Weiner.png",
+      "type": "other",
+      "id": "98394a85bacc4a7e",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Learn the Ukulele with Julie Murray",
+      "url": "https://wellfleetlibrary.org/calendar/learn-the-ukulele-with-julie-murray",
+      "start": "2026-07-30T19:30:00.815Z",
+      "end": "2026-07-30T20:30:00.815Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775766973507-G486DELBVFU7KK07QTEV/Learn+the+Ukulele+For+Kids%21+7-30-26.png",
+      "type": "other",
+      "id": "549f88aebbba0fc2",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Ukulele Sing-a-Long with Julie Murray",
+      "url": "https://wellfleetlibrary.org/calendar/ukulele-sing-a-long-with-julie-murray-1",
+      "start": "2026-07-31T14:30:00.692Z",
+      "end": "2026-07-31T15:30:00.692Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775767268266-16CXCBU8E546690OE632/Ukulele+Sing-a-long%21+7-31-26.png",
+      "type": "other",
+      "id": "8cbbdda418ddbc1e",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Science Heroes",
+      "url": "https://wellfleetlibrary.org/calendar/science-heroes-2",
+      "start": "2026-07-31T19:00:00.692Z",
+      "end": "2026-07-31T20:00:00.692Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777313657735-VMJD32K4D7NFQ0AYVA4T/Science+Heroes%21+July+2026.png",
+      "type": "other",
+      "id": "ab03100e7d1bc6b3",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63",
+      "start": "2026-08-01T18:30:00.503Z",
+      "end": "2026-08-01T20:00:00.503Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "c19423fbd391055a",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Gregory Hischak",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-gregory-hischak",
+      "start": "2026-08-03T23:00:00.382Z",
+      "end": "2026-08-04T00:00:00.382Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1766849455793-LND423O75U0M2GGNVFUI/Author+Talk+Gregory+Hischak.png",
+      "type": "lecture",
+      "id": "5bcfcbf25956b565",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Puppet Making Workshop for Kids",
+      "url": "https://wellfleetlibrary.org/calendar/puppet-making-workshop-for-kids",
+      "start": "2026-08-05T19:30:00.094Z",
+      "end": "2026-08-05T20:15:00.094Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1774297193671-VHAKPMRAAFHKL8TCESWQ/Puppet+Making+Workshop+for+Kids%21.png",
+      "type": "workshop",
+      "id": "7b3f66d26b4657d9",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Suzanne  McConnell",
+      "description": "In Conversation with Mo Ogrodnik",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-suzanne-mcconnell",
+      "start": "2026-08-05T23:00:00.508Z",
+      "end": "2026-08-06T00:00:00.508Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776872576439-PZVFQ7CCVKJECIT894IJ/Author+Talk+Suzanne+McConnell.png",
+      "type": "lecture",
+      "id": "535c32ca26baa085",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Distinguished Speaker: Kate Zernike",
+      "url": "https://wellfleetlibrary.org/calendar/distinguished-speaker-kate-zernike",
+      "start": "2026-08-06T23:30:00.337Z",
+      "end": "2026-08-07T00:30:00.337Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771350501080-DODJII9I590YKZ580WSV/Distinguished+Speaker+Kate+Zernike.png",
+      "type": "other",
+      "id": "0fbd4737dcf310ea",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Now On View // Midge Battelle: Love Letter to a Dream",
@@ -1580,6 +3285,7 @@
       "end": "2026-08-08T00:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1591,7 +3297,28 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Artisan Ceramic Trinket Dishes with Alla Pontbriand",
+      "url": "https://wellfleetlibrary.org/calendar/artisan-ceramic-trinket-dishes-with-alla-pontbriand",
+      "start": "2026-08-07T18:00:00.349Z",
+      "end": "2026-08-07T20:30:00.349Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1779211878769-JDG9AXLCMXNMLZ6TVQXZ/Artisan+Ceramic+Trinket+Dishes.png",
+      "type": "other",
+      "id": "746f61323cc68728",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Free Friday at 5pm // Public Reception at 6pm: Midge Battelle, The Members&#8217; 12&#215;12",
@@ -1601,6 +3328,7 @@
       "end": "2026-08-08T00:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1612,7 +3340,261 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.830Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Author Talk: Sarah Schulman",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-sarah-schulman-1",
+      "start": "2026-08-10T23:00:00.105Z",
+      "end": "2026-08-11T00:00:00.105Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770148820803-53FPLE9BOW7L3TGFAI80/Author+Talk+Sarah+Schulman.png",
+      "type": "lecture",
+      "id": "1dff5b2d2ebbb1b0",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Amazing Animal Ambassadors",
+      "url": "https://wellfleetlibrary.org/calendar/slgg2kxs68ja4fngk2xtffels4l2re",
+      "start": "2026-08-12T19:00:00.750Z",
+      "end": "2026-08-12T20:00:00.750Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772936731049-B9YUBRVUP4NGFEZHSNIU/Amazing+Animal+Ambassadors+8-12-26.png",
+      "type": "other",
+      "id": "354faa1b8dda55ab",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Hester Kaplan",
+      "description": "In Conversation with Jean Hey",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-hester-kaplan",
+      "start": "2026-08-12T23:00:00.139Z",
+      "end": "2026-08-13T00:00:00.139Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1767739637436-44E3PBTH07F9JG5LC3AC/Author+Talk+Hester+Kaplan.png",
+      "type": "lecture",
+      "id": "464d06897d0583f5",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "A Visit from Delilah the Whale!",
+      "url": "https://wellfleetlibrary.org/calendar/a-visit-from-delilah-the-whale-4",
+      "start": "2026-08-13T18:00:00.425Z",
+      "end": "2026-08-13T19:00:00.425Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777312599291-VWSD2H6T9SOQCFDOE4P2/August+2026+-+A+Visit+From+Delilah+the+Whale%21.png",
+      "type": "other",
+      "id": "bcdfb07f90610a26",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Sam Tanenhaus",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-sam-tanenhaus",
+      "start": "2026-08-13T23:00:00.323Z",
+      "end": "2026-08-14T00:00:00.323Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1767130596590-0STEC0JV8MMU3BUDCO8K/Author+Talk+Sam+Tanenhaus.png",
+      "type": "lecture",
+      "id": "f7159f956ced72a2",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl",
+      "start": "2026-08-15T18:30:00.596Z",
+      "end": "2026-08-15T20:00:00.596Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "afe00ff286396b2f",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Lili Taylor",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-lili-taylor",
+      "start": "2026-08-17T23:00:00.697Z",
+      "end": "2026-08-18T00:00:00.697Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1769186849382-OSJJ3PA4Z4K2CILXUACB/Author+Talk+Lili+Taylor.png",
+      "type": "lecture",
+      "id": "b4a00021d54b1308",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "From Fairy Tales to Climate Futures: Literature of Resistance and Reinvention with Ellen Meeropol and Elizabeth de Veer",
+      "url": "https://wellfleetlibrary.org/calendar/from-fairy-tales-to-climate-futures-literature-of-resistance-and-reinvention-with-ellen-meeropol-and-elizabeth-de-veer",
+      "start": "2026-08-18T23:00:00.871Z",
+      "end": "2026-08-19T00:00:00.871Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1769116192409-4RFY8GFFSFPPEFFHQNSO/From+Fairy+Tales+to+Climate+Futures+Literature+of+Resistance+and+Reinvention.png",
+      "type": "other",
+      "id": "fdcf0b60d3a987e3",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Tidal Flat Exploration at Mayo Beach",
+      "url": "https://wellfleetlibrary.org/calendar/tidal-flat-exploration-at-mayo-beach-4",
+      "start": "2026-08-19T15:00:00.220Z",
+      "end": "2026-08-19T16:30:00.220Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1772936625351-I890GVLXPBHZ0JNCT1ZN/Tidal+Flat+Exploration+8-19-26.png",
+      "type": "other",
+      "id": "8f53f7af11937784",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Science Heroes",
+      "url": "https://wellfleetlibrary.org/calendar/science-heroes-1",
+      "start": "2026-08-19T19:00:00.434Z",
+      "end": "2026-08-19T20:00:00.434Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776808168971-7QLL4120EEB0XTQ0EVS3/Science+Heroes%21.png",
+      "type": "other",
+      "id": "b546672995fa4729",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Ukulele Sing-a-Long with Julie Murray",
+      "url": "https://wellfleetlibrary.org/calendar/ukulele-sing-a-long-with-julie-murray-2",
+      "start": "2026-08-21T14:30:00.909Z",
+      "end": "2026-08-21T15:30:00.909Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775767978105-7UTSJVGNMTKKZNEHF3QT/Ukulele+Sing-a-long%21+8-21-26.png",
+      "type": "other",
+      "id": "5d4d0be6f00e970b",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Emily Ross",
+      "description": "In Conversation with Anjali Mitter Duva",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-emily-ross",
+      "start": "2026-08-24T23:00:00.235Z",
+      "end": "2026-08-25T00:00:00.235Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771350310509-OLDZWKZL6V5T51IKQ7S2/Author+Talk+Emily+Ross.png",
+      "type": "lecture",
+      "id": "ad424a68bf2501b2",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Summer Jazz Series with Bart Weisman and Friends",
@@ -1622,6 +3604,7 @@
       "end": "2026-08-25T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1633,7 +3616,92 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.831Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Author Talk: Lindsey J. Palmer",
+      "description": "In Conversation with Nicola Kraus",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-lindsey-j-palmer",
+      "start": "2026-08-26T23:00:00.309Z",
+      "end": "2026-08-27T00:00:00.309Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1773929194378-D27GLZRU8RVVKL459S7L/Author+Talk+Lindsey+J.+Palmer.png",
+      "type": "lecture",
+      "id": "890fb111cfbd7bdf",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Kostya Kennedy",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-kostya-kennedy",
+      "start": "2026-08-27T23:00:00.875Z",
+      "end": "2026-08-28T00:00:00.875Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776182187037-18BT5WYI8FX19PYPWTXL/Author+Talk+Kostya+Kennedy.png",
+      "type": "lecture",
+      "id": "6060c574699fa168",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/ar5krd6pre3dd9m3rmlj6ys6bz9ert",
+      "start": "2026-09-02T22:30:00.792Z",
+      "end": "2026-09-03T00:00:00.792Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770233883118-VAHVKV7JJ3L09IN0J8U8/September+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "c2ff5a5539306120",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Author Talk: Abbie Rosner",
+      "url": "https://wellfleetlibrary.org/calendar/author-talk-abbie-rosner",
+      "start": "2026-09-02T23:00:00.561Z",
+      "end": "2026-09-03T00:00:00.561Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777228554843-UYCNU5VTJQ36U3HK14V4/Author+Talk+Abbie+Rosner.png",
+      "type": "lecture",
+      "id": "0c2fd8a706ba30f1",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Fredi Schiff Levin Lecture // Midge Battelle and Pasquale Natale",
@@ -1643,6 +3711,7 @@
       "end": "2026-09-03T23:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1654,7 +3723,112 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.831Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Open Mic Night",
+      "url": "https://wellfleetlibrary.org/calendar/wnrpm8hh7gxtgy3ermrxed5l6w7b3h",
+      "start": "2026-09-04T21:00:00.926Z",
+      "end": "2026-09-04T22:00:00.926Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777412056352-SZ3I36X21OGJE6T06WLT/September+2026+Open+Mic+Night.png",
+      "type": "live-music",
+      "id": "608982a59fbd5a82",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2",
+      "start": "2026-09-05T18:30:00.813Z",
+      "end": "2026-09-05T20:00:00.813Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "bc9806a3d0011ce0",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Build Your Home Apothecary with Nicole Cormier - Fall Session",
+      "url": "https://wellfleetlibrary.org/calendar/build-your-home-apothecary-with-nicole-cormier-spring-session-y43j5",
+      "start": "2026-09-12T19:00:00.477Z",
+      "end": "2026-09-12T20:00:00.477Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1776636501497-04X383GGNMML4L8T4FG3/Build+Your+Home+Apothecary+A+Seasonal+Series+with+Nicole+Cormier.png",
+      "type": "other",
+      "id": "02af39d0672a197a",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Beyond Blooms: Creative Design with Color, Structure, and Seasonal Senescence with Warren Leach",
+      "url": "https://wellfleetlibrary.org/calendar/beyond-blooms-creative-design-with-color-structure-and-seasonal-senescence-with-warren-leach",
+      "start": "2026-09-16T14:00:00.852Z",
+      "end": "2026-09-16T15:30:00.852Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763407992932-V4C77N7X6JBMV7YQHIEQ/Beyond+Blooms+Creative+Design+with+Color%2C+Structure%2C+and+Seasonal+Senescence.png",
+      "type": "other",
+      "id": "c278426e3ddb72eb",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/ar5krd6pre3dd9m3rmlj6ys6bz9ert-2g3fc",
+      "start": "2026-09-16T22:30:00.047Z",
+      "end": "2026-09-17T00:00:00.047Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770233883118-VAHVKV7JJ3L09IN0J8U8/September+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "519a24ffc0a67cad",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
     },
     {
       "title": "Fredi Schiff Levin Lecture // Mary Abell and David Ebony",
@@ -1664,6 +3838,7 @@
       "end": "2026-09-19T17:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "PAAM (Provincetown Art Association and Museum)",
         "town": "Provincetown",
         "lat": 42.0584,
         "lon": -70.1788
@@ -1675,7 +3850,49 @@
         "id": "paam",
         "name": "Provincetown Art Association and Museum (PAAM)"
       },
-      "ingestedAt": "2026-05-23T14:34:26.831Z"
+      "ingestedAt": "2026-05-23T15:27:31.668Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2-63ke5",
+      "start": "2026-09-19T18:30:00.195Z",
+      "end": "2026-09-19T20:00:00.195Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "e37e905e35ae371d",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.487Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-de4cp-m92dh-z53b4-kwenr-5d4jl-289nc-kmgth-g2t72-w2ywt",
+      "start": "2026-09-22T21:30:00.311Z",
+      "end": "2026-09-23T00:00:00.311Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "3ddd01f969c65181",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
     },
     {
       "title": "Rose Dorothea Award",
@@ -1696,7 +3913,7 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.620Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
     },
     {
       "title": "Provincetown Book Festival",
@@ -1717,7 +3934,7 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.620Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
     },
     {
       "title": "Provincetown Book Festival",
@@ -1738,7 +3955,721 @@
         "id": "provincetown-library",
         "name": "Provincetown Public Library"
       },
-      "ingestedAt": "2026-05-23T14:34:30.620Z"
+      "ingestedAt": "2026-05-23T15:27:35.655Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-de4cp-m92dh-z53b4-kwenr-5d4jl-289nc-kmgth-g2t72-w2ywt-lf2lk",
+      "start": "2026-09-29T21:30:00.439Z",
+      "end": "2026-09-30T00:00:00.439Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "82953ea9ddee70d4",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Trivia Night",
+      "url": "https://wellfleetlibrary.org/calendar/tpdpab8c3lee77lmx5g853rzg792aw",
+      "start": "2026-09-30T22:00:00.604Z",
+      "end": "2026-09-30T23:00:00.604Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775833664814-4GLYPYD0NR3AYFAQTVXM/September+2026+Trivia+Night.png",
+      "type": "other",
+      "id": "bdafccb74d83e6f1",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Open Mic Night",
+      "url": "https://wellfleetlibrary.org/calendar/ghmfnjewdazxbkd3kc44xl695e7zat",
+      "start": "2026-10-02T21:00:00.596Z",
+      "end": "2026-10-02T22:00:00.596Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777414911215-6390MSWCQ7U5Z5SNPA4Z/October+2026+Open+Mic+Night.png",
+      "type": "live-music",
+      "id": "80076206d1ce3af3",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2-63ke5-sntps",
+      "start": "2026-10-03T18:30:00.291Z",
+      "end": "2026-10-03T20:00:00.291Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "47e47a20d8f8bc30",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-de4cp-m92dh-z53b4-kwenr-5d4jl-289nc-kmgth-g2t72-w2ywt-lf2lk-gnk2n",
+      "start": "2026-10-06T21:30:00.182Z",
+      "end": "2026-10-07T00:00:00.182Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "99388e0026cf0241",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/yzyf7klc4y5jh39ddhyhnrmlj2ecg7",
+      "start": "2026-10-07T22:30:00.967Z",
+      "end": "2026-10-08T00:00:00.967Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770234038950-HYU56KVEAIGAHLNVE4PV/October+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "364946d51f1e3d54",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-de4cp-m92dh-z53b4-kwenr-5d4jl-289nc-kmgth-g2t72-w2ywt-lf2lk-gnk2n-2ebky",
+      "start": "2026-10-13T21:30:00.937Z",
+      "end": "2026-10-14T00:00:00.937Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "282b35bb54b7f37b",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2-63ke5-sntps-rahcx",
+      "start": "2026-10-17T18:30:00.419Z",
+      "end": "2026-10-17T20:00:00.419Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "3db80fe10d3dcf44",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-de4cp-m92dh-z53b4-kwenr-5d4jl-289nc-kmgth-g2t72-w2ywt-lf2lk-gnk2n-2ebky-3gzmf",
+      "start": "2026-10-20T21:30:00.131Z",
+      "end": "2026-10-21T00:00:00.131Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "a80f4bd468591354",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Dahlias: The Divas of the Fall Garden with Beth Taylor",
+      "url": "https://wellfleetlibrary.org/calendar/dahlias-the-divas-of-the-fall-garden-with-beth-taylor",
+      "start": "2026-10-21T14:00:00.973Z",
+      "end": "2026-10-21T15:30:00.973Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763408868465-56MPX4RN2XGJUXN27A71/Dahlias+The+Divas+of+the+Fall+Garden.png",
+      "type": "other",
+      "id": "d670e196885a0453",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/yzyf7klc4y5jh39ddhyhnrmlj2ecg7-gbjnb",
+      "start": "2026-10-21T22:30:00.234Z",
+      "end": "2026-10-22T00:00:00.234Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770234038950-HYU56KVEAIGAHLNVE4PV/October+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "6aebcec233542e0b",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-de4cp-m92dh-z53b4-kwenr-5d4jl-289nc-kmgth-g2t72-w2ywt-lf2lk-gnk2n-2ebky-3gzmf-7g6p6",
+      "start": "2026-10-27T21:30:00.588Z",
+      "end": "2026-10-28T00:00:00.588Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "dce416c784680a99",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Poetry Reading: Kazim Ali and John Bonanni",
+      "url": "https://wellfleetlibrary.org/calendar/poetry-reading-kazim-ali-and-john-bonanni",
+      "start": "2026-10-27T22:00:00.680Z",
+      "end": "2026-10-27T23:00:00.680Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1773696753423-L12YYEN9YG3WFVZK0FAX/Poetry+Reading+John+Bonanni+%26+Kazim+Ali.png",
+      "type": "other",
+      "id": "dc377460f07393cd",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Trivia Night",
+      "url": "https://wellfleetlibrary.org/calendar/d3rehgb627c37kfz6hey46cxlx5fwh",
+      "start": "2026-10-28T22:00:00.646Z",
+      "end": "2026-10-28T23:00:00.646Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775833867456-A0SL0X11MZ5SI4X7IBFA/October+2026+Trivia+Night.png",
+      "type": "other",
+      "id": "50b7355dbca47a38",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/free-spanish-language-lessons-with-violeta-villamil-1-tz3af-skse4-lylte-p5t34-ghamp-d36t6-h7kgh-pnhbf-r4k5h-de4cp-m92dh-z53b4-kwenr-5d4jl-289nc-kmgth-g2t72-w2ywt-lf2lk-gnk2n-2ebky-3gzmf-7g6p6-4x2s3",
+      "start": "2026-11-03T22:30:00.597Z",
+      "end": "2026-11-04T01:00:00.597Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "fbbcbba368d19269",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/yzyf7klc4y5jh39ddhyhnrmlj2ecg7-gbjnb-hjynm",
+      "start": "2026-11-04T23:30:00.732Z",
+      "end": "2026-11-05T01:00:00.732Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770234225751-VRUYIXTVLRHB7XY07SCZ/November+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "92c8858a8397f0df",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Open Mic Night",
+      "url": "https://wellfleetlibrary.org/calendar/22xcba9xpdhaxmy2mcbxsdn9ejawr2",
+      "start": "2026-11-06T22:00:00.982Z",
+      "end": "2026-11-06T23:00:00.982Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777415213905-T9H23II7CRAERQSC65IM/November+2026+Open+Mic+Night.png",
+      "type": "live-music",
+      "id": "5b2531e7540f68f7",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2-63ke5-sntps-rahcx-fenx2",
+      "start": "2026-11-07T19:30:00.095Z",
+      "end": "2026-11-07T21:00:00.095Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "46c2c836c4b89529",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/zpyegp8kpmdaxm4",
+      "start": "2026-11-10T22:30:00.957Z",
+      "end": "2026-11-11T01:00:00.957Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "7ef1a504199abf10",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/zpyegp8kpmdaxm4-x9njn",
+      "start": "2026-11-17T22:30:00.358Z",
+      "end": "2026-11-18T01:00:00.358Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "3bcb949f65cd1074",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "ReSeeding in Rhode Island: Join us in the Journey with David Vissoe",
+      "url": "https://wellfleetlibrary.org/calendar/reseeding-in-rhode-island-join-us-in-the-journey-with-david-vissoe",
+      "start": "2026-11-18T15:00:00.495Z",
+      "end": "2026-11-18T16:30:00.495Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763491704759-KYHG6RRT40LW59F3M7OO/Reseeding+in+Rhode+Island+-+Join+Us+In+the+Journey.png",
+      "type": "other",
+      "id": "780443d5b233992b",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Trivia Night",
+      "url": "https://wellfleetlibrary.org/calendar/dg928ppfk8fcjayghnb5rzf6yspjp5",
+      "start": "2026-11-18T23:00:00.793Z",
+      "end": "2026-11-19T00:00:00.793Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775833991794-D55LUR4J8HDEL0Y66KHP/November+2026+Trivia+Night.png",
+      "type": "other",
+      "id": "13c16d1c28539d3e",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Racial Justice Study Group",
+      "url": "https://wellfleetlibrary.org/calendar/yzyf7klc4y5jh39ddhyhnrmlj2ecg7-gbjnb-hjynm-x4c52",
+      "start": "2026-11-18T23:30:00.003Z",
+      "end": "2026-11-19T01:00:00.003Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770234225751-VRUYIXTVLRHB7XY07SCZ/November+Racial+Justice+Study+Group.png",
+      "type": "other",
+      "id": "d97b9055b56f8054",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2-63ke5-sntps-rahcx-fenx2-p7l2t",
+      "start": "2026-11-21T19:30:00.413Z",
+      "end": "2026-11-21T21:00:00.413Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "11e790ea93beabc6",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/zpyegp8kpmdaxm4-x9njn-g5scg",
+      "start": "2026-11-24T22:30:00.042Z",
+      "end": "2026-11-25T01:00:00.042Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "7c7ae95e716e82a7",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/zpyegp8kpmdaxm4-x9njn-g5scg-cywey",
+      "start": "2026-12-01T22:30:00.537Z",
+      "end": "2026-12-02T01:00:00.537Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "dfff61d6cca7c0c6",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Open Mic Night",
+      "url": "https://wellfleetlibrary.org/calendar/f5s8f8ep492akns993r35fpfz5bcf7",
+      "start": "2026-12-04T22:00:00.982Z",
+      "end": "2026-12-04T23:00:00.982Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1777415405101-KNXX5DLDR3UQZY5IKMHF/December+2026+Open+Mic+Night.png",
+      "type": "live-music",
+      "id": "80d818a29953c206",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2-63ke5-sntps-rahcx-fenx2-p7l2t-k7nx4",
+      "start": "2026-12-05T19:30:00.411Z",
+      "end": "2026-12-05T21:00:00.411Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "087a78497906c654",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/zpyegp8kpmdaxm4-x9njn-g5scg-cywey-rmgyy",
+      "start": "2026-12-08T22:30:00.149Z",
+      "end": "2026-12-09T01:00:00.149Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "e9fcc0a96c14f511",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Gardening is Murder with Neal Sanders",
+      "url": "https://wellfleetlibrary.org/calendar/gardening-is-murder-with-neal-sanders",
+      "start": "2026-12-09T15:00:00.649Z",
+      "end": "2026-12-09T16:30:00.649Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763410485610-MQKMFI3D44S6GBLU464J/Gardening+is+Murder.png",
+      "type": "other",
+      "id": "7664d95a3e342afe",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/zpyegp8kpmdaxm4-x9njn-g5scg-cywey-rmgyy-mw4jr",
+      "start": "2026-12-15T22:30:00.158Z",
+      "end": "2026-12-16T01:00:00.158Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "897132a1c47066bc",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Conversational French Club",
+      "url": "https://wellfleetlibrary.org/calendar/gsa29zcjnajmxpf-3786d-hgn9f-t2hd2-aypbb-3pp63-s5nrl-dmda2-63ke5-sntps-rahcx-fenx2-p7l2t-k7nx4-x8xaa",
+      "start": "2026-12-19T19:30:00.314Z",
+      "end": "2026-12-19T21:00:00.314Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1771439223112-191UX36OW72V1QFEP3CG/Conversational+French+Club+With+Celine+Serrano.png",
+      "type": "other",
+      "id": "7cb09086a287507f",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Free Spanish Language Lessons with Violeta Villamil",
+      "url": "https://wellfleetlibrary.org/calendar/zpyegp8kpmdaxm4-x9njn-g5scg-cywey-rmgyy-mw4jr-b24ge",
+      "start": "2026-12-22T22:30:00.984Z",
+      "end": "2026-12-23T01:00:00.984Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1770158557166-5KI0PGBYEC2A6GRT4GGJ/September-December+2026+Spanish+Language+Lessons.png",
+      "type": "other",
+      "id": "052e3a8b50999668",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
+    },
+    {
+      "title": "Trivia Night",
+      "url": "https://wellfleetlibrary.org/calendar/zd49lp7z9lgjdl2te73lclpx2y3345",
+      "start": "2026-12-30T23:00:00.988Z",
+      "end": "2026-12-31T00:00:00.988Z",
+      "location": {
+        "venue": "Wellfleet Public Library",
+        "town": "Wellfleet",
+        "address": "55 West Main Street, Wellfleet MA 02667",
+        "lat": 41.9390436,
+        "lon": -70.0341306
+      },
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775836676642-BN0U0PDSGUYQU7JGIV5T/December+2026+Trivia+Night.png",
+      "type": "other",
+      "id": "80d5a7660a46f3f0",
+      "source": {
+        "id": "wellfleet-library",
+        "name": "Wellfleet Public Library"
+      },
+      "ingestedAt": "2026-05-23T15:27:35.488Z"
     }
   ]
 }

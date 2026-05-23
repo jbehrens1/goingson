@@ -61,6 +61,20 @@ function stripHtml(s: string | undefined): string | undefined {
   return s.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim() || undefined;
 }
 
+// Squarespace shows a default map pin when the venue never set a location.
+// These are the well-known defaults; if mapLat/Lng matches, ignore the coords
+// and let the geocoder resolve from the address instead.
+const SQUARESPACE_DEFAULTS: Array<{ lat: number; lon: number }> = [
+  { lat: 37.2232823, lon: -95.7102394 }, // continental US center
+  { lat: 40.7207559, lon: -74.0007613 }, // Manhattan (some templates)
+];
+
+function isSquarespaceDefaultLocation(lat: number, lon: number): boolean {
+  return SQUARESPACE_DEFAULTS.some(
+    (d) => Math.abs(lat - d.lat) < 0.05 && Math.abs(lon - d.lon) < 0.05,
+  );
+}
+
 export const squarespaceEventsAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
   const warnings: string[] = [];
   const cfg = (source.config ?? {}) as SquarespaceConfig;
@@ -101,8 +115,14 @@ export const squarespaceEventsAdapter: Adapter = async ({ source }): Promise<Ada
     const end = ev.endDate ? new Date(ev.endDate).toISOString() : undefined;
 
     const loc = ev.location ?? {};
-    const lat = loc.mapLat ?? loc.markerLat;
-    const lon = loc.mapLng ?? loc.markerLng;
+    let lat = loc.mapLat ?? loc.markerLat;
+    let lon = loc.mapLng ?? loc.markerLng;
+    // Drop Squarespace's default map pin so the geocoder can resolve the
+    // real address (e.g. Wellfleet Library leaves the default Kansas pin).
+    if (lat != null && lon != null && isSquarespaceDefaultLocation(lat, lon)) {
+      lat = undefined;
+      lon = undefined;
+    }
     const venue = loc.addressTitle || cfg.defaultVenue;
     const address = [loc.addressLine1, loc.addressLine2].filter(Boolean).join(", ");
 

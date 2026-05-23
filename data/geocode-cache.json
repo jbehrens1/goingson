@@ -1492,5 +1492,28 @@
     "lon": -71.0658327,
     "displayName": "The Greater Boston Food Bank Yawkey Distribution Center, 70, South Bay Avenue, South Boston, Boston, Suffolk County, Massachusetts, 02118, United States",
     "fetchedAt": "2026-05-23T14:34:26.537Z"
+  },
+  "outercape::paam (provincetown art association and museum), provincetown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:48:13.322Z"
+  },
+  "outercape::wellfleet preservation hall, wellfleet": {
+    "lat": 41.9385095,
+    "lon": -70.0324086,
+    "displayName": "Wellfleet Preservation Hall, 335, Main Street, Mayo Beach, Wellfleet, Barnstable County, Massachusetts, 02667, United States",
+    "fetchedAt": "2026-05-23T15:24:11.992Z"
+  },
+  "outercape::55 west main street, wellfleet ma 02667": {
+    "lat": 41.9390436,
+    "lon": -70.0341306,
+    "displayName": "55, West Main Street, Wellfleet, Barnstable County, Massachusetts, 02667, United States",
+    "fetchedAt": "2026-05-23T15:24:13.210Z"
+  },
+  "metrowest::40 fairbank rd, sudbury, ma": {
+    "lat": 42.3926415,
+    "lon": -71.4433436,
+    "displayName": "40, Fairbank Road, Pine Rest, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-23T15:27:31.415Z"
   }
 }

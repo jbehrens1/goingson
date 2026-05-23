@@ -9,7 +9,10 @@
       "url": "https://www.paam.org/",
       "category": "Venue / Museum",
       "town": "Provincetown",
-      "notes": "Anchor venue. Tribe Events Calendar plugin — wordpress-tribe adapter works directly."
+      "notes": "Anchor venue. Tribe Events Calendar plugin — wordpress-tribe adapter works directly.",
+      "config": {
+        "defaultVenue": "PAAM (Provincetown Art Association and Museum)"
+      }
     },
     {
       "id": "trustees",
@@ -92,7 +95,7 @@
       "url": "https://castlehill.org/",
       "category": "Venue / Education",
       "town": "Truro",
-      "notes": "Squarespace events collection at /events/. Off-season may return 0 — main summer-fall programming starts in June.",
+      "notes": "Squarespace events collection at /events/. Currently empty (off-season). Castle Hill posts most workshops/concerts in summer-fall.",
       "config": {
         "path": "/events/",
         "defaultVenue": "Castle Hill"
@@ -106,9 +109,9 @@
       "url": "https://wellfleetpreservationhall.org/",
       "category": "Venue",
       "town": "Wellfleet",
-      "notes": "Squarespace; events live at /calendar/.",
+      "notes": "Squarespace; events posted to /programs/ collection.",
       "config": {
-        "path": "/calendar/",
+        "path": "/programs/",
         "defaultVenue": "Wellfleet Preservation Hall"
       }
     },
@@ -120,9 +123,9 @@
       "url": "https://wellfleetlibrary.org/",
       "category": "Venue / Library",
       "town": "Wellfleet",
-      "notes": "Squarespace; events at /events/.",
+      "notes": "Squarespace; events at /calendar/ (137 upcoming, not at /events).",
       "config": {
-        "path": "/events/",
+        "path": "/calendar/",
         "defaultVenue": "Wellfleet Public Library"
       }
     },
