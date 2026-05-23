@@ -39,14 +39,6 @@ export type RegionsManifest = {
 const ANY = "__any__";
 const NO_LOCATION = "__no_location__";
 const CUSTOM = "__custom__";
-const NO_VENUE = "__no_venue__";
-
-// Sentinel prefix for "all events from a source" meta options in the venue
-// picker. Selected value looks like "__src:trustees__".
-const SRC_PREFIX = "__src:";
-const srcKey = (sourceId: string) => `${SRC_PREFIX}${sourceId}__`;
-const srcKeyToId = (key: string) =>
-  key.startsWith(SRC_PREFIX) && key.endsWith("__") ? key.slice(SRC_PREFIX.length, -2) : null;
 
 function dayKey(iso: string): string {
   return iso.slice(0, 10);
@@ -106,8 +98,6 @@ export default function EventsView({
   const [payload, setPayload] = useState<EventsPayload>(initial);
   const region = payload.region;
   const [selectedTypes, setSelectedTypes] = useState<Set<EventType>>(new Set());
-  const [selectedVenues, setSelectedVenues] = useState<Set<string>>(new Set());
-  const [venueSearch, setVenueSearch] = useState<string>("");
 
   // Per-column quick filters (text substring match per column).
   const [colTown, setColTown] = useState("");
@@ -144,66 +134,6 @@ export default function EventsView({
 
   const filterDistance = center.mode === "resolved" && center.lat != null && center.lon != null;
   const filterNoLocation = center.mode === NO_LOCATION;
-
-  // Distinct venues with counts (sorted alphabetically) + source-group meta
-  // options for sources whose venue names carry an org suffix like
-  // "The Old Manse (Trustees)". A group option lets the user pick all events
-  // from that organization regardless of which specific venue.
-  const venueOptions = useMemo(() => {
-    const counts = new Map<string, number>();
-    let noVenueCount = 0;
-    const sourceTotals = new Map<string, { sourceName: string; count: number; label: string }>();
-
-    for (const ev of payload.events) {
-      const v = ev.location?.venue?.trim();
-      if (!v) {
-        noVenueCount++;
-        continue;
-      }
-      counts.set(v, (counts.get(v) ?? 0) + 1);
-      // Look for org suffix "(...)" at the end of the venue.
-      const m = v.match(/\(([^()]+)\)\s*$/);
-      if (m) {
-        const label = m[1].trim();
-        const existing = sourceTotals.get(ev.source.id);
-        if (existing) {
-          existing.count++;
-        } else {
-          sourceTotals.set(ev.source.id, { sourceName: ev.source.name, label, count: 1 });
-        }
-      }
-    }
-
-    // Merge specific venues and source-group meta options into one alphabetized
-    // list. Group options use a sentinel key ("__src:trustees__") so the
-    // filter logic can distinguish them, and a display label that sorts
-    // alphabetically alongside venues ("Trustees (all events)" → T).
-    type Item = { key: string; label: string; count: number; isGroup: boolean };
-    const items: Item[] = [
-      ...[...counts.entries()].map(([name, count]) => ({
-        key: name,
-        label: name,
-        count,
-        isGroup: false,
-      })),
-      ...[...sourceTotals.entries()].map(([sourceId, info]) => ({
-        key: srcKey(sourceId),
-        label: `${info.label} (all events)`,
-        count: info.count,
-        isGroup: true,
-      })),
-    ].sort((a, b) =>
-      a.label.localeCompare(b.label, undefined, { sensitivity: "base" }),
-    );
-
-    return { items, noVenueCount };
-  }, [payload.events]);
-
-  const visibleVenueOptions = useMemo(() => {
-    const q = venueSearch.trim().toLowerCase();
-    if (!q) return venueOptions.items;
-    return venueOptions.items.filter((v) => v.label.toLowerCase().includes(q));
-  }, [venueOptions.items, venueSearch]);
 
   // Distinct towns + venues with event counts, alphabetized. Counts are based
   // on the full region payload (NOT the post-filter set) so the dropdown shows
@@ -253,13 +183,6 @@ export default function EventsView({
         const ts = new Date(ev.start).getTime();
         if (ts < fromTs || ts > toTs) return false;
         if (selectedTypes.size > 0 && !selectedTypes.has(ev.type)) return false;
-        if (selectedVenues.size > 0) {
-          const v = ev.location?.venue?.trim();
-          const venueKey = v || NO_VENUE;
-          const sourceMatch = selectedVenues.has(srcKey(ev.source.id));
-          const venueMatch = selectedVenues.has(venueKey);
-          if (!sourceMatch && !venueMatch) return false;
-        }
         // Per-column quick filters. Town and venue use exact (case-insensitive)
         // match since they come from a fixed dropdown of known values.
         if (colTown && (ev.location?.town ?? "").toLowerCase() !== colTown.toLowerCase())
@@ -278,7 +201,7 @@ export default function EventsView({
         }
         return true;
       });
-  }, [payload.events, selectedTypes, selectedVenues, colTown, colVenue, colTitle, filterDistance, filterNoLocation, center.lat, center.lon, distanceMi, fromDate, toDate]);
+  }, [payload.events, selectedTypes, colTown, colVenue, colTitle, filterDistance, filterNoLocation, center.lat, center.lon, distanceMi, fromDate, toDate]);
 
   // When a sort is active, flatten into a single ordered list (no day groups).
   const sortedFlat = useMemo(() => {
@@ -325,15 +248,6 @@ export default function EventsView({
     });
   }
 
-  function toggleVenue(key: string) {
-    setSelectedVenues((prev) => {
-      const next = new Set(prev);
-      if (next.has(key)) next.delete(key);
-      else next.add(key);
-      return next;
-    });
-  }
-
   function handleRefresh() {
     setRefreshError(null);
     startRefresh(async () => {
@@ -364,7 +278,6 @@ export default function EventsView({
         // Reset filters that don't make sense across regions.
         setCenter({ mode: ANY, label: "" });
         setCenterQuery("");
-        setSelectedVenues(new Set());
         setColTown("");
         setColVenue("");
         setColTitle("");
@@ -485,71 +398,6 @@ export default function EventsView({
               })}
             </div>
           </div>
-        </div>
-
-        <div className="filter-row">
-          <details className="venue-filter">
-            <summary>
-              Venues{" "}
-              {selectedVenues.size > 0 && (
-                <span className="filter-count">({selectedVenues.size})</span>
-              )}
-              {selectedVenues.size > 0 && (
-                <button
-                  type="button"
-                  className="link-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    setSelectedVenues(new Set());
-                  }}
-                >
-                  clear
-                </button>
-              )}
-            </summary>
-            <div className="venue-popover">
-              <input
-                type="search"
-                placeholder={`Search ${venueOptions.items.length} venues…`}
-                value={venueSearch}
-                onChange={(e) => setVenueSearch(e.target.value)}
-                className="venue-search"
-              />
-              <div className="venue-list">
-                {venueOptions.noVenueCount > 0 && (
-                  <label className="venue-item">
-                    <input
-                      type="checkbox"
-                      checked={selectedVenues.has(NO_VENUE)}
-                      onChange={() => toggleVenue(NO_VENUE)}
-                    />
-                    <span className="venue-name muted">(No venue listed)</span>
-                    {venueOptions.noVenueCount > 1 && (
-                      <span className="venue-count">{venueOptions.noVenueCount}</span>
-                    )}
-                  </label>
-                )}
-                {visibleVenueOptions.length === 0 && venueSearch && (
-                  <p className="empty muted small">No venues match &ldquo;{venueSearch}&rdquo;.</p>
-                )}
-                {visibleVenueOptions.map((v) => (
-                  <label
-                    key={v.key}
-                    className={`venue-item ${v.isGroup ? "venue-item-group" : ""}`}
-                  >
-                    <input
-                      type="checkbox"
-                      checked={selectedVenues.has(v.key)}
-                      onChange={() => toggleVenue(v.key)}
-                    />
-                    <span className="venue-name">{v.label}</span>
-                    {v.count > 1 && <span className="venue-count">{v.count}</span>}
-                  </label>
-                ))}
-              </div>
-            </div>
-          </details>
         </div>
 
         <div className="filter-row">
