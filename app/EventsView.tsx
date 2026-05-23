@@ -114,6 +114,22 @@ export default function EventsView({
   const [colVenue, setColVenue] = useState("");
   const [colTitle, setColTitle] = useState("");
 
+  // Per-column sort. null = default day-grouped view. When set, the entire
+  // filtered list is sorted by the chosen column and day-grouping is suspended.
+  const [sortBy, setSortBy] = useState<SortableColumn | null>(null);
+  const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
+  function toggleSort(col: SortableColumn, dir: "asc" | "desc") {
+    if (sortBy === col && sortDir === dir) {
+      setSortBy(null);
+    } else {
+      setSortBy(col);
+      setSortDir(dir);
+    }
+  }
+  function clearSort() {
+    setSortBy(null);
+  }
+
   const [isSwitchingRegion, startRegionSwitch] = useTransition();
   const [regionError, setRegionError] = useState<string | null>(null);
   const [center, setCenter] = useState<CenterState>({ mode: ANY, label: "" });
@@ -189,28 +205,33 @@ export default function EventsView({
     return venueOptions.items.filter((v) => v.label.toLowerCase().includes(q));
   }, [venueOptions.items, venueSearch]);
 
-  // Distinct towns + venues (just names, alphabetized) for the per-column
-  // dropdown filters. Computed from the current region's events.
+  // Distinct towns + venues with event counts, alphabetized. Counts are based
+  // on the full region payload (NOT the post-filter set) so the dropdown shows
+  // stable totals regardless of other active filters.
   const columnTownOptions = useMemo(() => {
-    const set = new Set<string>();
+    const counts = new Map<string, number>();
     for (const ev of payload.events) {
       const t = ev.location?.town?.trim();
-      if (t) set.add(t);
+      if (t) counts.set(t, (counts.get(t) ?? 0) + 1);
     }
-    return [...set].sort((a, b) =>
-      a.localeCompare(b, undefined, { sensitivity: "base" }),
-    );
+    return [...counts.entries()]
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) =>
+        a.name.localeCompare(b.name, undefined, { sensitivity: "base" }),
+      );
   }, [payload.events]);
 
   const columnVenueOptions = useMemo(() => {
-    const set = new Set<string>();
+    const counts = new Map<string, number>();
     for (const ev of payload.events) {
       const v = ev.location?.venue?.trim();
-      if (v) set.add(v);
+      if (v) counts.set(v, (counts.get(v) ?? 0) + 1);
     }
-    return [...set].sort((a, b) =>
-      a.localeCompare(b, undefined, { sensitivity: "base" }),
-    );
+    return [...counts.entries()]
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) =>
+        a.name.localeCompare(b.name, undefined, { sensitivity: "base" }),
+      );
   }, [payload.events]);
 
   const filtered = useMemo(() => {
@@ -259,7 +280,32 @@ export default function EventsView({
       });
   }, [payload.events, selectedTypes, selectedVenues, colTown, colVenue, colTitle, filterDistance, filterNoLocation, center.lat, center.lon, distanceMi, fromDate, toDate]);
 
+  // When a sort is active, flatten into a single ordered list (no day groups).
+  const sortedFlat = useMemo(() => {
+    if (!sortBy) return null;
+    const dir = sortDir === "asc" ? 1 : -1;
+    const key = (it: (typeof filtered)[number]): string => {
+      const ev = it.ev;
+      switch (sortBy) {
+        case "time":
+          return ev.start;
+        case "town":
+          return ev.location?.town ?? "￿";
+        case "venue":
+          return ev.location?.venue ?? "￿";
+        case "type":
+          return TYPE_LABELS[ev.type];
+        case "title":
+          return ev.title;
+      }
+    };
+    return [...filtered].sort((a, b) =>
+      dir * key(a).localeCompare(key(b), undefined, { sensitivity: "base", numeric: true }),
+    );
+  }, [filtered, sortBy, sortDir]);
+
   const byDay = useMemo(() => {
+    if (sortedFlat) return null; // flat sort suppresses day grouping
     const map = new Map<string, typeof filtered>();
     for (const item of filtered) {
       const k = dayKey(item.ev.start);
@@ -268,7 +314,7 @@ export default function EventsView({
       map.set(k, list);
     }
     return map;
-  }, [filtered]);
+  }, [filtered, sortedFlat]);
 
   function toggleType(t: EventType) {
     setSelectedTypes((prev) => {
@@ -605,9 +651,11 @@ export default function EventsView({
 
       <div className="col-filter-row" role="search">
         <div className="col-filter col-time">
+          <SortButtons col="time" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
           <span className="col-filter-label">Time</span>
         </div>
         <div className="col-filter col-town">
+          <SortButtons col="town" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
           <select
             aria-label="Filter by town"
             value={colTown}
@@ -615,13 +663,14 @@ export default function EventsView({
           >
             <option value="">All towns ({columnTownOptions.length})</option>
             {columnTownOptions.map((t) => (
-              <option key={t} value={t}>
-                {t}
+              <option key={t.name} value={t.name}>
+                {t.name} ({t.count} {t.count === 1 ? "event" : "events"})
               </option>
             ))}
           </select>
         </div>
         <div className="col-filter col-venue">
+          <SortButtons col="venue" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
           <select
             aria-label="Filter by venue"
             value={colVenue}
@@ -629,16 +678,18 @@ export default function EventsView({
           >
             <option value="">All venues ({columnVenueOptions.length})</option>
             {columnVenueOptions.map((v) => (
-              <option key={v} value={v}>
-                {v}
+              <option key={v.name} value={v.name}>
+                {v.name} ({v.count} {v.count === 1 ? "event" : "events"})
               </option>
             ))}
           </select>
         </div>
         <div className="col-filter col-type">
+          <SortButtons col="type" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
           <span className="col-filter-label">Type</span>
         </div>
         <div className="col-filter col-event">
+          <SortButtons col="title" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
           <input
             type="search"
             placeholder="Title / description…"
@@ -647,7 +698,7 @@ export default function EventsView({
             onChange={(e) => setColTitle(e.target.value)}
           />
         </div>
-        {(colTown || colVenue || colTitle) && (
+        {(colTown || colVenue || colTitle || sortBy) && (
           <button
             type="button"
             className="link-btn col-filter-clear"
@@ -655,28 +706,39 @@ export default function EventsView({
               setColTown("");
               setColVenue("");
               setColTitle("");
+              clearSort();
             }}
           >
-            clear column filters
+            clear filters &amp; sort
           </button>
         )}
       </div>
 
-      {byDay.size === 0 && (
+      {(sortedFlat ? sortedFlat.length === 0 : byDay && byDay.size === 0) && (
         <p className="empty">
           No events match the current filters. Try clearing types, widening the distance, or
           extending the date range.
         </p>
       )}
 
-      {[...byDay.entries()].map(([day, list]) => (
-        <section key={day} className="day-group">
-          <h2 className="day-heading">{formatDayHeading(day, region.timeZone, region.locale)}</h2>
+      {sortedFlat && (
+        <section className="day-group">
+          <h2 className="day-heading">
+            Sorted by {sortBy} ({sortDir === "asc" ? "A → Z" : "Z → A"}) · {sortedFlat.length} events
+          </h2>
           <table className="events-table">
             <tbody>
-              {list.map(({ ev, distance }) => (
+              {sortedFlat.map(({ ev, distance }) => (
                 <tr key={ev.id} className="event-row">
                   <td className="col-time">
+                    <span className="event-row-date">
+                      {new Date(ev.start).toLocaleDateString(region.locale, {
+                        timeZone: region.timeZone,
+                        month: "short",
+                        day: "numeric",
+                      })}
+                    </span>
+                    <br />
                     {formatTime(ev.start, region.timeZone, region.locale, ev.allDay)}
                   </td>
                   <td className="col-town">
@@ -711,12 +773,99 @@ export default function EventsView({
             </tbody>
           </table>
         </section>
-      ))}
+      )}
+
+      {!sortedFlat &&
+        byDay &&
+        [...byDay.entries()].map(([day, list]) => (
+          <section key={day} className="day-group">
+            <h2 className="day-heading">
+              {formatDayHeading(day, region.timeZone, region.locale)}
+            </h2>
+            <table className="events-table">
+              <tbody>
+                {list.map(({ ev, distance }) => (
+                  <tr key={ev.id} className="event-row">
+                    <td className="col-time">
+                      {formatTime(ev.start, region.timeZone, region.locale, ev.allDay)}
+                    </td>
+                    <td className="col-town">
+                      {ev.location?.town ?? "—"}
+                      {distance !== undefined && (
+                        <span className="distance"> · {distance.toFixed(1)} mi</span>
+                      )}
+                    </td>
+                    <td className="col-venue">{ev.location?.venue ?? "—"}</td>
+                    <td className="col-type">
+                      <span className={`type-pill type-${ev.type}`}>{TYPE_LABELS[ev.type]}</span>
+                    </td>
+                    <td className="col-event">
+                      <a
+                        href={ev.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="event-title"
+                      >
+                        {ev.title}
+                      </a>
+                      {ev.description && (
+                        <p className="event-description">
+                          {ev.description.length > 200
+                            ? ev.description.slice(0, 197).trimEnd() + "…"
+                            : ev.description}
+                        </p>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </section>
+        ))}
 
       <footer>
         Region: <code>{region.id}</code> · See <code>config/regions/{region.id}/sources.json</code>{" "}
         for configured sources.
       </footer>
     </main>
+  );
+}
+
+type SortableColumn = "time" | "town" | "venue" | "type" | "title";
+
+function SortButtons({
+  col,
+  sortBy,
+  sortDir,
+  onToggle,
+}: {
+  col: SortableColumn;
+  sortBy: SortableColumn | null;
+  sortDir: "asc" | "desc";
+  onToggle: (col: SortableColumn, dir: "asc" | "desc") => void;
+}) {
+  const ascActive = sortBy === col && sortDir === "asc";
+  const descActive = sortBy === col && sortDir === "desc";
+  return (
+    <span className="sort-buttons" role="group" aria-label={`Sort by ${col}`}>
+      <button
+        type="button"
+        className={`sort-btn${ascActive ? " active" : ""}`}
+        onClick={() => onToggle(col, "asc")}
+        aria-pressed={ascActive}
+        title={`Sort ${col} A → Z`}
+      >
+        ▲
+      </button>
+      <button
+        type="button"
+        className={`sort-btn${descActive ? " active" : ""}`}
+        onClick={() => onToggle(col, "desc")}
+        aria-pressed={descActive}
+        title={`Sort ${col} Z → A`}
+      >
+        ▼
+      </button>
+    </span>
   );
 }
