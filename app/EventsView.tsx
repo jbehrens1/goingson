@@ -189,6 +189,30 @@ export default function EventsView({
     return venueOptions.items.filter((v) => v.label.toLowerCase().includes(q));
   }, [venueOptions.items, venueSearch]);
 
+  // Distinct towns + venues (just names, alphabetized) for the per-column
+  // dropdown filters. Computed from the current region's events.
+  const columnTownOptions = useMemo(() => {
+    const set = new Set<string>();
+    for (const ev of payload.events) {
+      const t = ev.location?.town?.trim();
+      if (t) set.add(t);
+    }
+    return [...set].sort((a, b) =>
+      a.localeCompare(b, undefined, { sensitivity: "base" }),
+    );
+  }, [payload.events]);
+
+  const columnVenueOptions = useMemo(() => {
+    const set = new Set<string>();
+    for (const ev of payload.events) {
+      const v = ev.location?.venue?.trim();
+      if (v) set.add(v);
+    }
+    return [...set].sort((a, b) =>
+      a.localeCompare(b, undefined, { sensitivity: "base" }),
+    );
+  }, [payload.events]);
+
   const filtered = useMemo(() => {
     const fromTs = fromDate ? new Date(fromDate + "T00:00:00").getTime() : -Infinity;
     const toTs = toDate ? new Date(toDate + "T23:59:59").getTime() : Infinity;
@@ -215,10 +239,11 @@ export default function EventsView({
           const venueMatch = selectedVenues.has(venueKey);
           if (!sourceMatch && !venueMatch) return false;
         }
-        // Per-column quick filters (case-insensitive substring match).
-        if (colTown && !(ev.location?.town ?? "").toLowerCase().includes(colTown.toLowerCase()))
+        // Per-column quick filters. Town and venue use exact (case-insensitive)
+        // match since they come from a fixed dropdown of known values.
+        if (colTown && (ev.location?.town ?? "").toLowerCase() !== colTown.toLowerCase())
           return false;
-        if (colVenue && !(ev.location?.venue ?? "").toLowerCase().includes(colVenue.toLowerCase()))
+        if (colVenue && (ev.location?.venue ?? "").toLowerCase() !== colVenue.toLowerCase())
           return false;
         if (colTitle) {
           const q = colTitle.toLowerCase();
@@ -583,22 +608,32 @@ export default function EventsView({
           <span className="col-filter-label">Time</span>
         </div>
         <div className="col-filter col-town">
-          <input
-            type="search"
-            placeholder="Town…"
+          <select
             aria-label="Filter by town"
             value={colTown}
             onChange={(e) => setColTown(e.target.value)}
-          />
+          >
+            <option value="">All towns ({columnTownOptions.length})</option>
+            {columnTownOptions.map((t) => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="col-filter col-venue">
-          <input
-            type="search"
-            placeholder="Venue…"
+          <select
             aria-label="Filter by venue"
             value={colVenue}
             onChange={(e) => setColVenue(e.target.value)}
-          />
+          >
+            <option value="">All venues ({columnVenueOptions.length})</option>
+            {columnVenueOptions.map((v) => (
+              <option key={v} value={v}>
+                {v}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="col-filter col-type">
           <span className="col-filter-label">Type</span>

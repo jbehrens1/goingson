@@ -469,7 +469,8 @@ header .muted,
   align-items: center;
 }
 
-.col-filter input[type="search"] {
+.col-filter input[type="search"],
+.col-filter select {
   width: 100%;
   padding: 0.3rem 0.5rem;
   border: 1px solid var(--border);
@@ -477,6 +478,7 @@ header .muted,
   background: var(--bg);
   color: var(--fg);
   font-size: 0.82rem;
+  font-family: inherit;
 }
 
 .col-filter-label {
