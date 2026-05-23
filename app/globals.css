@@ -115,21 +115,6 @@ header .muted,
   gap: 0.85rem 1rem;
 }
 
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  width: 100%;
-}
-
-.filter-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
 .link-btn {
   background: none;
   border: none;
@@ -139,37 +124,6 @@ header .muted,
   color: var(--accent);
   cursor: pointer;
   text-decoration: underline;
-}
-
-.type-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.type-chip {
-  padding: 0.3rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  font: inherit;
-  font-size: 0.78rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: opacity 0.1s;
-}
-
-.type-chip.off {
-  background: var(--bg);
-  color: var(--muted);
-  opacity: 0.7;
-}
-
-.type-chip.off:hover {
-  opacity: 1;
-}
-
-.type-chip.on {
-  border-color: transparent;
 }
 
 .filters label {

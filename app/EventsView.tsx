@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState, useTransition } from "react";
-import { EVENT_TYPES, TYPE_LABELS, type EventType } from "@/lib/categorize";
+import { EVENT_TYPES, TYPE_LABELS } from "@/lib/categorize";
 import { haversineMiles } from "@/lib/towns";
 import type { EventRecord } from "@/lib/types";
 
@@ -40,11 +40,8 @@ const ANY = "__any__";
 const NO_LOCATION = "__no_location__";
 const CUSTOM = "__custom__";
 
-// Sentinel prefix for "all events from a source" meta options in the venue
-// picker (e.g. "Trustees (all events)" → matches any event whose source.id is
-// "trustees", regardless of venue). Selected value looks like "__src:trustees__".
-const SRC_PREFIX = "__src:";
-const srcKey = (sourceId: string) => `${SRC_PREFIX}${sourceId}__`;
+// Sentinel key in the venue picker for "events with no venue."
+const NO_VENUE = "__no_venue__";
 
 function dayKey(iso: string): string {
   return iso.slice(0, 10);
@@ -103,10 +100,12 @@ export default function EventsView({
 }) {
   const [payload, setPayload] = useState<EventsPayload>(initial);
   const region = payload.region;
-  const [selectedTypes, setSelectedTypes] = useState<Set<EventType>>(new Set());
 
-  // Per-column quick filters. Town and Venue are multi-select sets; Title is
-  // a free-text substring search.
+  // Per-column quick filters. Type, Town, and Venue are multi-select sets;
+  // Title is a free-text substring search. Selected sets are Set<string> to
+  // match the generic MultiSelectPicker API; for the Type column the strings
+  // are EventType literals.
+  const [selectedTypes, setSelectedTypes] = useState<Set<string>>(new Set());
   const [colTowns, setColTowns] = useState<Set<string>>(new Set());
   const [colVenues, setColVenues] = useState<Set<string>>(new Set());
   const [colTitle, setColTitle] = useState("");
@@ -158,51 +157,40 @@ export default function EventsView({
       );
   }, [payload.events]);
 
-  // Venue options include source-group meta items so users can pick "all
-  // events from Trustees" without having to tick each Trustees property
-  // individually. A meta item has key `__src:trustees__` and label
-  // `Trustees (all events)` so it sorts alphabetically with regular venues.
+  // Venue options: each distinct venue name with its event count. We also
+  // surface a "(no venue)" meta entry so users can filter to events that
+  // didn't carry a venue from the source.
   const columnVenueOptions = useMemo(() => {
     const venueCounts = new Map<string, number>();
-    const sourceGroups = new Map<
-      string,
-      { count: number; label: string }
-    >();
-
+    let noVenueCount = 0;
     for (const ev of payload.events) {
       const v = ev.location?.venue?.trim();
       if (v) venueCounts.set(v, (venueCounts.get(v) ?? 0) + 1);
-      // Detect org suffix in venue name like "The Old Manse (Trustees)" — that
-      // identifies a multi-venue parent source we can offer as a meta option.
-      if (v) {
-        const m = v.match(/\(([^()]+)\)\s*$/);
-        if (m) {
-          const label = m[1].trim();
-          const cur = sourceGroups.get(ev.source.id);
-          if (cur) cur.count++;
-          else sourceGroups.set(ev.source.id, { count: 1, label });
-        }
-      }
+      else noVenueCount++;
     }
-
-    type Item = { key: string; label: string; count: number; isGroup: boolean };
-    const items: Item[] = [
-      ...[...venueCounts.entries()].map(([name, count]) => ({
-        key: name,
-        label: name,
-        count,
-        isGroup: false,
-      })),
-      ...[...sourceGroups.entries()].map(([sourceId, info]) => ({
-        key: srcKey(sourceId),
-        label: `${info.label} (all events)`,
-        count: info.count,
-        isGroup: true,
-      })),
-    ].sort((a, b) =>
-      a.label.localeCompare(b.label, undefined, { sensitivity: "base" }),
-    );
+    const items = [...venueCounts.entries()]
+      .map(([name, count]) => ({ key: name, label: name, count }))
+      .sort((a, b) =>
+        a.label.localeCompare(b.label, undefined, { sensitivity: "base" }),
+      );
+    if (noVenueCount > 0) {
+      items.unshift({ key: NO_VENUE, label: "(no venue)", count: noVenueCount });
+    }
     return items;
+  }, [payload.events]);
+
+  // Type options: ordered by EVENT_TYPES (curated order, not alphabetical)
+  // because the type taxonomy has a deliberate hierarchy.
+  const columnTypeOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const ev of payload.events) {
+      counts.set(ev.type, (counts.get(ev.type) ?? 0) + 1);
+    }
+    return EVENT_TYPES.filter((t) => counts.has(t)).map((t) => ({
+      key: t,
+      label: TYPE_LABELS[t],
+      count: counts.get(t) ?? 0,
+    }));
   }, [payload.events]);
 
   const filtered = useMemo(() => {
@@ -224,15 +212,14 @@ export default function EventsView({
         const ts = new Date(ev.start).getTime();
         if (ts < fromTs || ts > toTs) return false;
         if (selectedTypes.size > 0 && !selectedTypes.has(ev.type)) return false;
-        // Per-column quick filters. Town and venue are multi-select; an empty
-        // set means no filter. Venue set may include `__src:<id>__` meta keys
-        // matching the event's source.id (covers "Trustees all events").
+        // Per-column quick filters. Type, Town, and Venue are multi-select;
+        // an empty set means no filter. The venue set may include the
+        // NO_VENUE sentinel to match events with no venue.
         if (colTowns.size > 0 && !colTowns.has(ev.location?.town ?? "")) return false;
         if (colVenues.size > 0) {
-          const v = ev.location?.venue ?? "";
-          const venueMatch = colVenues.has(v);
-          const sourceMatch = colVenues.has(srcKey(ev.source.id));
-          if (!venueMatch && !sourceMatch) return false;
+          const v = ev.location?.venue?.trim() ?? "";
+          const matched = v ? colVenues.has(v) : colVenues.has(NO_VENUE);
+          if (!matched) return false;
         }
         if (colTitle) {
           const q = colTitle.toLowerCase();
@@ -284,15 +271,6 @@ export default function EventsView({
     return map;
   }, [filtered, sortedFlat]);
 
-  function toggleType(t: EventType) {
-    setSelectedTypes((prev) => {
-      const next = new Set(prev);
-      if (next.has(t)) next.delete(t);
-      else next.add(t);
-      return next;
-    });
-  }
-
   function handleRefresh() {
     setRefreshError(null);
     startRefresh(async () => {
@@ -323,6 +301,7 @@ export default function EventsView({
         // Reset filters that don't make sense across regions.
         setCenter({ mode: ANY, label: "" });
         setCenterQuery("");
+        setSelectedTypes(new Set());
         setColTowns(new Set());
         setColVenues(new Set());
         setColTitle("");
@@ -412,39 +391,6 @@ export default function EventsView({
       </header>
 
       <section className="filters">
-        <div className="filter-row">
-          <div className="filter-group filter-types">
-            <span className="filter-label">
-              Types {selectedTypes.size > 0 && `(${selectedTypes.size})`}
-              {selectedTypes.size > 0 && (
-                <button
-                  type="button"
-                  className="link-btn"
-                  onClick={() => setSelectedTypes(new Set())}
-                >
-                  clear
-                </button>
-              )}
-            </span>
-            <div className="type-chips">
-              {EVENT_TYPES.map((t) => {
-                const on = selectedTypes.has(t);
-                return (
-                  <button
-                    key={t}
-                    type="button"
-                    className={`type-chip type-${t} ${on ? "on" : "off"}`}
-                    onClick={() => toggleType(t)}
-                    aria-pressed={on}
-                  >
-                    {TYPE_LABELS[t]}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-
         <div className="filter-row">
           <label className="grow">
             <span>Center on</span>
@@ -569,7 +515,13 @@ export default function EventsView({
         </div>
         <div className="col-filter col-type">
           <SortButtons col="type" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
-          <span className="col-filter-label">Type</span>
+          <MultiSelectPicker
+            label="types"
+            singularLabel="type"
+            selected={selectedTypes}
+            onChange={setSelectedTypes}
+            options={columnTypeOptions}
+          />
         </div>
         <div className="col-filter col-event">
           <SortButtons col="title" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
@@ -581,11 +533,16 @@ export default function EventsView({
             onChange={(e) => setColTitle(e.target.value)}
           />
         </div>
-        {(colTowns.size > 0 || colVenues.size > 0 || colTitle || sortBy) && (
+        {(selectedTypes.size > 0 ||
+          colTowns.size > 0 ||
+          colVenues.size > 0 ||
+          colTitle ||
+          sortBy) && (
           <button
             type="button"
             className="link-btn col-filter-clear"
             onClick={() => {
+              setSelectedTypes(new Set());
               setColTowns(new Set());
               setColVenues(new Set());
               setColTitle("");
