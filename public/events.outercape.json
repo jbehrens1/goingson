@@ -1,0 +1,659 @@
+{
+  "region": {
+    "id": "outercape",
+    "displayName": "Outer Cape Events",
+    "tagline": "Events from Wellfleet, Provincetown, Truro, Eastham, and Orleans.",
+    "defaultCenter": {
+      "label": "Provincetown, MA",
+      "lat": 42.0584,
+      "lon": -70.1788
+    },
+    "defaultRadiusMi": 15,
+    "timeZone": "America/New_York",
+    "locale": "en-US",
+    "language": "en",
+    "centerSuggestions": [
+      "Provincetown, MA",
+      "Truro, MA",
+      "Wellfleet, MA",
+      "Eastham, MA",
+      "Orleans, MA"
+    ]
+  },
+  "generatedAt": "2026-05-23T13:31:03.382Z",
+  "count": 33,
+  "events": [
+    {
+      "title": "Where Land Meets Sea: A Coskata–Coatue Nature Tour",
+      "description": "Explore Coskata-Coatue Wildlife Refuge on an over-sand adventure!",
+      "url": "https://thetrustees.org/event/447629/",
+      "start": "2026-05-23T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Coskata-Coatue Wildlife Refuge (Trustees)",
+        "town": "Nantucket",
+        "lat": 42.3227672,
+        "lon": -71.2141855
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2025/04/67f95826d2c0b.jpg",
+      "type": "other",
+      "id": "d9a47c009d7de778",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-23T13:31:03.370Z"
+    },
+    {
+      "title": "Learning with Livestock at Appleton Farms",
+      "description": "Join us for free livestock learning sessions for all ages at Appleton Farms.",
+      "url": "https://thetrustees.org/event/447159/",
+      "start": "2026-05-23T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Appleton Farms (Trustees)",
+        "town": "Hamilton & Ipswich"
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2026/04/69daa6407624e.jpg",
+      "type": "other",
+      "id": "23fbc218bcf2a198",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-23T13:31:03.370Z"
+    },
+    {
+      "title": "Adult Cow Connection at Appleton Farms",
+      "description": "Come and meet, cuddle, brush, and sit with our hand-raised cows at Appleton Farms.",
+      "url": "https://thetrustees.org/event/447165/",
+      "start": "2026-05-23T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Appleton Farms (Trustees)",
+        "town": "Hamilton & Ipswich"
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2024/03/65e0e0fc97d39.jpg",
+      "type": "other",
+      "id": "ad448eb40a8ad76e",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-23T13:31:03.371Z"
+    },
+    {
+      "title": "Urban Wild Trackers: Leatherbee Woods",
+      "description": "Join Urban Wild Trackers, a series where we learn phenology and spend time in the woods observing how the landscape changes over time!",
+      "url": "https://thetrustees.org/event/447297/",
+      "start": "2026-05-23T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "town": "Events",
+        "lat": 42.3102573,
+        "lon": -71.1093186
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2021/02/5e46bb46cbc54.jpg",
+      "type": "other",
+      "id": "34c4d49b1fe58170",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-23T13:31:03.371Z"
+    },
+    {
+      "title": "Castle Hill Tour: Highlights on the Hill",
+      "description": "Join us for a leisurely tour of the Castle Hill grounds from our comfy tour cart.",
+      "url": "https://thetrustees.org/event/445084/",
+      "start": "2026-05-23T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Castle Hill on the Crane Estate (Trustees)",
+        "town": "Ipswich",
+        "lat": 42.5341342,
+        "lon": -71.1942608
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2022/07/62c86c10d3c82.jpg",
+      "type": "other",
+      "id": "8cb580e0d3d02caa",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-23T13:31:03.371Z"
+    },
+    {
+      "title": "Barnyard Buddies",
+      "description": "Calling all Barnyard Buddies & Garden Gnomies! Explore the Farm and meet the animals in this hands-on morning for our littlest farmers!",
+      "url": "https://thetrustees.org/event/445477/",
+      "start": "2026-05-23T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The FARM Institute (Trustees)",
+        "town": "Edgartown"
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2022/04/624723fa6fe6d.png",
+      "type": "workshop",
+      "id": "829e590594dbb84c",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-23T13:31:03.372Z"
+    },
+    {
+      "title": "Fredi Schiff Levin Lecture // Jackie Reeves",
+      "description": "@ Please join us for the inaugural Fredi Schiff Levin Lecture of the 2026 summer season with exhibiting artist Jackie Reeves. Jackie Reeves : Larger than Life – Drawings in Time will present a group of large scale figurative works that explore and expand the nature of observational drawing in conjunction with exceptional skill and imagination. The title’s multiple meanings addresses both the scale of the imagery and the subject matter that provides the viewer with the mystery and richness of a life lived as a woman, wife, mother and as a creative human force. Included with $15 Museum admission, free for PAAM members. THE FREDI SCHIFF LEVIN LECTURE SERIES The Fredi Schiff Levin Lecture Series welcomes artists, art historians, curators, and authors to speak at PAAM during the summer, both in conjunction with exhibitions and as independent scholars. The series was established in honor of artist Fredi Schiff Levin, an active member of Provincetown’s arts community from the 1960s until her passing in 2002. We extend our deepest gratitude to The Levin Family, who graciously sponsors this series. Watch all previous lectures our&nbsp;YouTube&nbsp;channel.",
+      "url": "https://paam.org/event/fredi-schiff-levin-lecture-jackie-reeves/",
+      "start": "2026-05-28T22:00:00.000Z",
+      "end": "2026-05-28T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/03/FSL-Reeves-2026.png",
+      "type": "museum",
+      "id": "b5296632dead16aa",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.447Z"
+    },
+    {
+      "title": "Free Friday from 5-8pm",
+      "description": "@ Admission to PAAM is free on Friday evenings from May-October thanks to our Free Fridays Sponsors: Perry’s Fine Wines and Liquors,&nbsp;Provincetown Art Gallery Association (PAGA),&nbsp;Truro Vineyards of Cape Cod, and&nbsp;WOMR Outermost Community Radio. See what&#8217;s on view here.",
+      "url": "https://paam.org/event/free-friday-from-5-8pm/",
+      "start": "2026-05-29T21:00:00.000Z",
+      "end": "2026-05-30T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2025/04/Free-Friday-5-8pm.png",
+      "type": "art-gallery",
+      "id": "57e1afb58380c401",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.447Z"
+    },
+    {
+      "title": "20S x PAAM | Art in the Barn: Hawthorne Legacy Bootcamp",
+      "description": "@ We are hosting three days of art-making in the Hawthorne Barn with our friends from Twenty Summers. Following a brief lecture on the legacy of Charles Hawthorne in Provincetown, teacher John Clayton will give a painting demonstration and supervise three full days of painting in the Barn. Coffee and lunch will be provided. Students can choose to enroll for either the first day as a stand-alone class, or for all three days. The class is open to all levels of experience, but please bring your own supplies. We will provide easels and stools. If the event sells out, we will maintain a waitlist on a first-come, first-served basis. $125 | June 1, 9am-3pm — One Day Workshop &#8211; SOLD OUT $350 | June 1-3, 9am-3pm—Three Day Bootcamp Buy Tickets",
+      "url": "https://paam.org/event/20s-x-paam-art-in-the-barn-hawthorne-legacy-bootcamp/",
+      "start": "2026-06-01T13:00:00.000Z",
+      "end": "2026-06-01T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/Capture-e1776796554474.jpg",
+      "type": "art-gallery",
+      "id": "78b9b4c2be3ab01c",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.447Z"
+    },
+    {
+      "title": "Now On View // Avital Sagalyn: Mid-Century Provincetown",
+      "description": "@ Avital Sagalyn: Mid-Century Provincetown, curated by Betsy Siersma, opens to the public today. Please join us for a celebratory reception on Friday, June 26 at 6pm. This exhibition is generously supported by Seamen’s Bank Long Point Charitable Foundation.",
+      "url": "https://paam.org/event/now-on-view-avital-sagalyn-mid-century-provincetown/",
+      "start": "2026-06-05T15:00:00.000Z",
+      "end": "2026-06-06T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/DRS9301-Scanned-5000-scaled-e1776269714713.jpg",
+      "type": "art-gallery",
+      "id": "280b226bd8e3f623",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.447Z"
+    },
+    {
+      "title": "ON VIEW: Gallery Talks with Megan Hinton",
+      "description": "@ Wednesdays: June 10, July 8, and August 12, 10 &#8211; 11:30am. $20 each, $50 for all three. Space is limited, reserve your ticket below. ON VIEW offers an opportunity for artists and art lovers to visit PAAM and engage in a group discussion about selected pieces on exhibition during the 2026 summer season. Facilitator Megan Hinton will lead an investigative inquiry into the form, process, and content of selected artworks. This in depth look will offer viewers surprise and expansion in relation to exhibited artworks. Sessions will also provide artist participants greater insight and influence for their own practice. A deeper visual study of an art work’s historic, conceptual, and technical vocabulary will broaden artistic dialogue. All are welcome and participants may enroll in one, two, or all three gallery talks scheduled over the course of the summer. See what&#8217;s on view here. Megan Hinton is a painter known for reconfiguring genres of landscape, figurative, and object painting. Her art utilizes painting’s historic content and technique with found and discarded material to investigate line, color, shape, surface, and scale. This fusion of content and material further defines Hinton as a collagist and sculptor with interdisciplinary practices in installation, photography, and printmaking. In 2024 PAAM honored Hinton with the prestigious annual Award for Artistic Excellence. Megan holds an MFA in Interdisciplinary arts from Mills College where she won the Hung Lui Painting Prize. She has received residency fellowships from Twenty Summers in Provincetown and The Frans Masereel Centrum in Belgium. She is a recipient of the Alice C. Cole ‘42 Merit Grant from Wellesley College. Megan is also an art educator, curator, and writer. She shows her work at Farm Projects Space in Wellfleet, Massachusetts.",
+      "url": "https://paam.org/event/on-view-gallery-talks-with-megan-hinton/",
+      "start": "2026-06-10T14:00:00.000Z",
+      "end": "2026-06-10T15:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/Template-Website-6-1.png",
+      "type": "art-gallery",
+      "id": "ee5e730e2866a881",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.447Z"
+    },
+    {
+      "title": "Fredi Schiff Levin Lecture // Panel Discussion with Mark Adams",
+      "description": "@ Co-curator and Center for Coastal Studies Scientist/Artist-in-Residence will lead a panel discussion as part of our Fredi Schiff Levin Lecture Series. Persistent Curiosity: Charting the Rippled Fabric of the Sea marks the 50th anniversary of Provincetown&#8217;s Center for Coastal Studies. the exhibition draws on contemporary artists with a long connection to Provincetown’s marine history as well on works from PAAM’s permanent collection, including many donated by the late Napi and Helen Van Dereck. According to the curators, works were selected because they resonate with the show’s themes of whale biology, marine ecology, coastal landforms and working life by the sea. Included with $15 Museum admission, free for PAAM members. THE FREDI SCHIFF LEVIN LECTURE SERIES The Fredi Schiff Levin Lecture Series welcomes artists, art historians, curators, and authors to speak at PAAM during the summer, both in conjunction with exhibitions and as independent scholars. The series was established in honor of artist Fredi Schiff Levin, an active member of Provincetown’s arts community from the 1960s until her passing in 2002. We extend our deepest gratitude to The Levin Family, who graciously sponsors this series. Watch all previous lectures our&nbsp;YouTube&nbsp;channel.",
+      "url": "https://paam.org/event/fredi-schiff-levin-lecture-panel-discussion-with-mark-adams/",
+      "start": "2026-06-10T22:00:00.000Z",
+      "end": "2026-06-10T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Template-Website-7.png",
+      "type": "art-gallery",
+      "id": "3cd238284476ac27",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Outer Cape Chamber Music Festival // Season Opener: Inner Voices",
+      "description": "@ Buy Tickets! Doors open at 1:30pm, Concert begins at 2pm | Advanced Tickets: $30 | Door Tickets: $35 | $15 for students and free for kids under 10 at the door Please note: this concert was originally scheduled for Monday, June 22 at 6:30pm. Today&#8217;s program pairs two masterworks of the clarinet quintet repertoire. Brahms&#8217;s autumnal Op. 115, composed in 1891 after a long retreat from public composition and inspired by clarinetist Richard Mühlfeld, and Samuel Coleridge-Taylor&#8217;s Op. 10, was written just four years later by a young composer steeped in late-Victorian elegance but possessed of a uniquely warm, folk-inflected lyricism. Where Brahms distills German Romanticism to its reflective essence — hushed yearning themes, tender slow movements, and a quietly resolved finale — Coleridge-Taylor answers with ardent, songlike writing that is formally assured yet emotionally generous, blossoming from poised opening themes to a hopeful, affirmative close. Though separated by nationality and experience, both composers treat the clarinet as a human narrator in intimate dialogue with the string quartet, and together these two quintets chart a shared chamber ideal: music that speaks close and true. Program: Samuel-Coleridge Taylor, Clarinet Quintet (1906) Brahms Clarinet Quintet (1891) Artists: Sangwon Lee, clarinetGrant Houston and Yoonhee Lee, violins,Anna Griffis, violaJoseph Gotoff, cello The Outer Cape Chamber Music Festival at PAAM brings world-class chamber music to Provincetown through an intimate concert series that uniquely integrates with the museum&#8217;s visual art exhibitions. Led by cellist Joseph Gotoff, the series features concerts over two weeks in early summer, performed by world-class musicians with ties to Cape Cod. Each concert is specifically curated to converse with the art on display at the museum.",
+      "url": "https://paam.org/event/outer-cape-chamber-music-festival-season-opener-inner-voices/",
+      "start": "2026-06-21T18:00:00.000Z",
+      "end": "2026-06-21T19:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2013/12/PAAM-exterior-front.jpg",
+      "type": "live-music",
+      "id": "09f85f2493029523",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Outer Cape Chamber Music Festival // Concert 2: Innovation and Mastery",
+      "description": "@ Buy Tickets! Doors open at 6pm, Concert begins at 6:30 | Advanced Tickets: $30 | Door Tickets: $35 | $15 for students&nbsp;and free for kids under 10 at the door Tonight&#8217;s program traces a historical arc through three transformations of the clarinet trio: from Bruch&#8217;s twilight Romanticism to Khachaturian&#8217;s exotic modernism to LeFanu&#8217;s contemporary lyricism. Max Bruch composed his Eight Pieces, Op. 83, in 1909 in his seventies for his son, a clarinetist, offering the aging Romantic a final moment of lyrical reflection. These pieces favor rich, mellow instrumental hues and autumnal maturity of expression, with melancholy opening themes that resolve into quiet nobility—a farewell to a musical language Bruch had perfected across a lifetime. Aram Khachaturian&#8217;s Trio, composed in 1932 while still a student at the Moscow Conservatory, answers with a younger voice steeped in a different inheritance: a blend of classical form with exotic folk elements that speaks of Eastern Eurasian traditions. Where Bruch distills, Khachaturian ornaments—his rhapsodic first movement unfolds through gypsy-like improvisations, and his finale spirals through variations on Uzbek folk melody. Nearly sixty years on, Nicola LeFanu&#8217;s Lullaby for clarinet and piano and Nocturne for cello and piano (1988) return to intimacy and restraint. Written in an era that has absorbed both her predecessors, these miniatures speak quietly but assuredly: music that honors the clarinet and cello as human voices in conversation, yet in a contemporary idiom stripped to essentials. Together, these three works chart a shared chamber ideal—the belief that truth lives in melody, color, and close musical dialogue. Program: Nino Rota, Trio for Clarinet, Cello and Piano (1973) Nicola LeFanu, Nocturne for cello and piano and Lullaby for clarinet and piano (1988) Max Bruch, Pieces for Clarinet, Cello and Piano, Op. 83 Artists: Sangwon Lee, clarinet Joseph Gotoff, cello Yundu Wang, piano The Outer Cape Chamber Music Festival at PAAM brings world-class chamber music to Provincetown through an intimate concert series that uniquely integrates with the museum&#8217;s visual art exhibitions. Led by cellist Joseph Gotoff, the series features concerts over two weeks in early summer, performed by world-class musicians with ties to Cape Cod. Each concert is specifically curated to converse with the art on display at the museum.",
+      "url": "https://paam.org/event/outer-cape-chamber-music-festival-concert-2-innovation-and-mastery/",
+      "start": "2026-06-24T22:30:00.000Z",
+      "end": "2026-06-24T23:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2013/12/PAAM-exterior-front.jpg",
+      "type": "live-music",
+      "id": "697827e31a323409",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Fredi Schiff Levin Lecture // Fritz Horstman",
+      "description": "@ Teaching artist Fritz Horstman discusses his book, Interacting with Color: A Practical Guide to Josef Albers&#8217;s Color Experiments, in this Fredi Schiff Levin Lecture. This book is a companion to Josef Albers’s beautiful and canonical, though sometimes opaque, Interaction of Color, first published in 1963. Horstman focuses on 8 essential experiments in Albers’s text, providing more images, step-by-step explanations, new resources, and anecdotes from Albers’s classes and from his own that make this challenging material accessible to a wide range of ages and levels of expertise. Included with $15 Museum admission, free for PAAM members. THE FREDI SCHIFF LEVIN LECTURE SERIES The Fredi Schiff Levin Lecture Series welcomes artists, art historians, curators, and authors to speak at PAAM during the summer, both in conjunction with exhibitions and as independent scholars. The series was established in honor of artist Fredi Schiff Levin, an active member of Provincetown’s arts community from the 1960s until her passing in 2002. We extend our deepest gratitude to The Levin Family, who graciously sponsors this series. Watch all previous lectures our&nbsp;YouTube&nbsp;channel.",
+      "url": "https://paam.org/event/fredi-schiff-levin-lecture-fritz-horstman/",
+      "start": "2026-06-25T22:00:00.000Z",
+      "end": "2026-06-25T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Template-Website-8.png",
+      "type": "museum",
+      "id": "1136f48843da2773",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Now On View // Edwin Rissland: Revisitations",
+      "description": "@ Edwin Rissland: Revisitations, curated by Joe Fiorello, opens to the public today. Please join us for a public reception tonight at 6pm.",
+      "url": "https://paam.org/event/now-on-view-edwin-rissland-revisitations/",
+      "start": "2026-06-26T15:00:00.000Z",
+      "end": "2026-06-27T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/1-Oil-1953-240424-Rissland41664-scaled-e1777578682672.jpg",
+      "type": "other",
+      "id": "2fa710283ebc83f4",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Now On View // Marcia Marcus: Strange and Clear",
+      "description": "@ Marcia Marcus: Strange and Clear, curated by Brandon Brame Fortune and Debra Lennard, opens to the public today. Please join us for a public reception tonight at 6pm.",
+      "url": "https://paam.org/event/now-on-view-marcia-marcus-strange-and-clear/",
+      "start": "2026-06-26T15:00:00.000Z",
+      "end": "2026-06-27T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/OG-33415_-1-scaled-e1777580465497.jpg",
+      "type": "other",
+      "id": "e7ad64d619d52273",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Free Friday at 5pm // Public Reception at 6pm: Avital Sagalyn, Edwin Rissland, Marcia Marcus",
+      "description": "@ PAAM&#8217;s weekly Free Friday begins at 5pm, and at 6pm the public is warmly invited to a reception celebrating three exhibitions: Avital Sagalyn: Mid-Century Provincetown, curated by Betsy Siersma; Edwin Rissland: Revisitations, curated by Joe Fiorello; and Marcia Marcus: Strange and Clear, curated by Brandon Brame Fortune and Debra Lennard. Free and open to the public.",
+      "url": "https://paam.org/event/free-friday-at-5pm-public-reception-at-6pm-edwin-rissland-marcia-marcus/",
+      "start": "2026-06-26T22:00:00.000Z",
+      "end": "2026-06-27T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2025/04/Free-Friday-5-8pm.png",
+      "type": "other",
+      "id": "889776faa5dca7ce",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Outer Cape Chamber Music Festival // Concert 3: Goldberg Variations",
+      "description": "@ Buy Tickets! Doors open at 6pm, Concert begins at 6:30 | Advanced Tickets: $30 | Door Tickets: $35 | $15 for students&nbsp;and free for kids under 10 at the door Bach&#8217;s Goldberg Variations hold a peculiar place in the repertoire: endlessly analyzed, yet somehow endlessly mysterious. Written in 1741 for two-manual harpsichord, the work unfolds as an Aria followed by thirty variations — canons, dances, character pieces, a boisterous quodlibet — before the Aria returns at the end, the same notes now carrying the weight of everything that has come between. Dmitry Sitkovetsky made his string trio arrangement in 1984, dedicating it to the memory of Glenn Gould, whose two landmark recordings (1955 and 1981) had done so much to place the Goldbergs at the center of musical life. The dedication is fitting: like Gould, Sitkovetsky is less interested in replication than in reimagining. Distributing Bach&#8217;s voices across violin, viola, and cello transforms the music in subtle but profound ways. What was crystalline and percussive on the harpsichord becomes warm, breathing, sustained. The counterpoint — always present in the original — becomes something you can almost see, each voice now embodied by a different instrument, different timbre, different physical presence on the stage. The result is not Bach updated or Bach reimagined so much as Bach heard differently — as if a familiar room has been entered through a new door. Program: J. S. Bach, Goldberg Variations (1741), arr. Sitkovetsky Artists: Yoonhee Lee, violin Ken Hamao, viola Joseph Gotoff, cello The Outer Cape Chamber Music Festival at PAAM brings world-class chamber music to Provincetown through an intimate concert series that uniquely integrates with the museum&#8217;s visual art exhibitions. Led by cellist Joseph Gotoff, the series features concerts over two weeks in early summer, performed by world-class musicians with ties to Cape Cod. Each concert is specifically curated to converse with the art on display at the museum.",
+      "url": "https://paam.org/event/outer-cape-chamber-music-festival-concert-3-goldberg-variations/",
+      "start": "2026-06-29T22:30:00.000Z",
+      "end": "2026-06-29T23:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2013/12/PAAM-exterior-front.jpg",
+      "type": "live-music",
+      "id": "41dc01a4e47f4a6b",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Outer Cape Chamber Music Festival // Season closer: String Sextets",
+      "description": "@ Buy Tickets! Doors open at 6pm, Concert begins at 6:30 | Advanced Tickets: $30 | Door Tickets: $35 | $15 for students&nbsp;and free for kids under 10 at the door Arnold Schoenberg&#8217;s Verklärte Nacht (&#8220;Transfigured Night,&#8221; 1899) is one of the great emotional experiences in chamber music. Written for string sextet, it follows the arc of a late-Romantic poem: two lovers walking in moonlight, a painful secret revealed, and — through the sheer force of feeling — a transformation. The music doesn&#8217;t just describe the story. It is the transfiguration. Richard Strauss was asking a related question forty years later when he composed his final opera, Capriccio — a work entirely consumed by the debate over whether words or music matter more. The string sextet that opens the opera, played onstage before a singer has uttered a syllable, is Strauss&#8217;s quiet, gorgeous answer. Both pieces share not just a philosophy but an instrument: the rare and intimate sound of six strings playing as one. Shulamit Ran&#8217;s Lyre of Orpheus (2008) brings the question into our own time, invoking the oldest musician in Western mythology — the poet whose playing could stop rivers and soften stone. What does it mean to inherit that tradition? What does music still have the power to do? Program: Richard Strauss, String Sextet from Capriccio, Op. 85 (1939) Shulamit Ran, Lyre of Orpheus (2008) Arnold Schoenberg, Verklarte Nacht (1899) Artists: Grant Houston and Yoonhee Lee, violins,Anna Griffis, and Ken Hamao, violasFrancesca McNeeley and Joseph Gotoff, celli The Outer Cape Chamber Music Festival at PAAM brings world-class chamber music to Provincetown through an intimate concert series that uniquely integrates with the museum&#8217;s visual art exhibitions. Led by cellist Joseph Gotoff, the series features concerts over two weeks in early summer, performed by world-class musicians with ties to Cape Cod. Each concert is specifically curated to converse with the art on display at the museum.",
+      "url": "https://paam.org/event/outer-cape-chamber-music-festival-season-closer-string-sextets/",
+      "start": "2026-07-02T22:30:00.000Z",
+      "end": "2026-07-02T23:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2013/12/PAAM-exterior-front.jpg",
+      "type": "live-music",
+      "id": "19b0c07b1348e10d",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Fredi Schiff Levin Lecture // Joe Fiorello and Edwina Rissland",
+      "description": "@ Curator Joe Fiorello will be joined by Edwina Rissland to discuss her late father&#8217;s exhibition, Revisitations, for this Fredi Schiff Levin Lecture. Edwin E. Rissland first came to Provincetown at the age of twenty-three to study painting at the summer school run by George Elmer Browne. He returned nearly every summer thereafter and, over more than sixty years, explored and painted scenes throughout the town and its surrounding landscape. In those early summers, he came to know Provincetown intimately—from the harbor and tidal flats to the moors, dunes, and hills beyond Bradford Street. Certain places—the harbor, Shank Painter Pond, and the West End—became enduring subjects in his work. Some of these landscapes have since changed or disappeared, while others remain much as they were. Rissland worked in a wide range of media, including oil, watercolor, and resist techniques, and also practiced lithography, sculpture, and life figure drawing. Though he lived, worked, and studied primarily in the New Jersey–New York area, his heart was firmly anchored in Provincetown, his beloved and abiding source of inspiration. This exhibition explores a lifetime of painting a place that is always changing, yet ever the same. Included with $15 Museum admission, free for PAAM members. THE FREDI SCHIFF LEVIN LECTURE SERIES The Fredi Schiff Levin Lecture Series welcomes artists, art historians, curators, and authors to speak at PAAM during the summer, both in conjunction with exhibitions and as independent scholars. The series was established in honor of artist Fredi Schiff Levin, an active member of Provincetown’s arts community from the 1960s until her passing in 2002. We extend our deepest gratitude to The Levin Family, who graciously sponsors this series. Watch all previous lectures our&nbsp;YouTube&nbsp;channel.",
+      "url": "https://paam.org/event/fredi-schiff-levin-lecture-joe-fiorello-and-edwina-rissland/",
+      "start": "2026-07-09T22:00:00.000Z",
+      "end": "2026-07-09T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Template-Website-9.png",
+      "type": "art-gallery",
+      "id": "d2717987ca42ef75",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "The Secret Garden Tour",
+      "description": "@ The Annual Secret Garden Tour welcomes hundreds of visitors every July for a self-guided journey through private residential gardens in Provincetown. Tickets include access to a free parking lot, admission to gardens, and admission to view the exhibitions in the Museum. We are incredibly grateful to the homeowners that help raise money for PAAM by sharing their beautiful oases with us. Learn more and purchase tickets here.",
+      "url": "https://paam.org/event/the-secret-garden-tour/",
+      "start": "2026-07-12T14:00:00.000Z",
+      "end": "2026-07-12T18:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2018/04/PAAM-Secret-Garden-Tour-e1682618116805.jpg",
+      "type": "museum",
+      "id": "d55881d2f0b36cff",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Aric Attas // Symbiotic: The Four Seasons – Tree Music In the Garden (Day 1/2)",
+      "description": "@ Experience the music of plants!&nbsp; The Four Seasons&nbsp;is a multi-space sound installation where data from the natural world becomes continuously evolving music, shaped by the changing seasons. Expanding on&nbsp;Summer Song, presented in PAAM’s Sculpture Garden during the 2025 Secret Garden Tour, Attas subsequently installed&nbsp;Autumn Song, Winter Song, and&nbsp;Spring Song&nbsp;over the past year in the same exterior space. Bringing the four pieces together, this new installation unfolds as a four-part suite shaped by Autumn, Winter, Spring, and Summer. Three interior galleries will feature generative sound works created from data collected across Autumn, Winter, and Spring. Each piece evolves over time, shaped by the subtle electrical energy patterns recorded from the American Elm during those seasons. Together, they form distinct yet connected listening environments, each reflecting a different phase in the annual cycle. Summer will take place outdoors as a live installation in PAAM’s Sculpture Garden, where visitors can experience the sounds of the American Elm in real time. Again this year, the installation will coincide with PAAM’s 2026&nbsp;Secret Garden Tour. Across all four spaces,&nbsp;The Four Seasons&nbsp;creates a place for reflection, curiosity, and quiet discovery, where seasonal change becomes something you can hear.&nbsp; Using custom-designed electronic instruments and sensors, Attas draws on the bioelectric energy patterns within the large American Elm tree that shades PAAM’s Sculpture Garden. Signals produced by the plants’ own living processes are transformed in real time into harmonic tones, chimes, and ambient layers. The result: an evolving sonic tapestry where trees sing in harmony with birdsong, water, wind, and ambient human-made sounds Visitors are invited to come and go throughout the day, sit beneath the canopy and let the sounds unfold, or wander through the galleries to experience the sound of the American Elm in Autumn, Winter, and Spring.&nbsp;The Four Seasons&nbsp;is grounded in observation and curiosity. It offers a space where visitors can slow down, tune their attention, and experience the environment not as something separate, but as something unfolding around them. Artist Talks with Aric Attas Sunday, July 12th at 1pm and 3pm In the Sculpture Garden itself, Attas will share the creative process and the natural phenomena that make&nbsp;The Four Seasons&nbsp;possible. His practice blends cutting-edge technology with poetic intuition to explore unseen and unheard dimensions of the world around us. Attas’s sound installations incorporate generative ambient music, using data input from the natural world, including living plants and collected field recordings from Cape Cod, sub-tropical Central Florida, and beyond.&nbsp;Learn more at:&nbsp;healingpowerofcreativity.com",
+      "url": "https://paam.org/event/aric-attas-symbiotic-the-four-seasons-tree-music-in-the-garden-day-1-2/",
+      "start": "2026-07-12T15:00:00.000Z",
+      "end": "2026-07-12T21:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Four_Seasons_PAAM.jpeg",
+      "type": "art-gallery",
+      "id": "f23324b043d9936c",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Aric Attas // Symbiotic: The Four Seasons – Tree Music In the Garden (Day 2/2)",
+      "description": "@ Experience the music of plants!&nbsp; The Four Seasons&nbsp;is a multi-space sound installation where data from the natural world becomes continuously evolving music, shaped by the changing seasons. Expanding on&nbsp;Summer Song, presented in PAAM’s Sculpture Garden during the 2025 Secret Garden Tour, Attas subsequently installed&nbsp;Autumn Song, Winter Song, and&nbsp;Spring Song&nbsp;over the past year in the same exterior space. Bringing the four pieces together, this new installation unfolds as a four-part suite shaped by Autumn, Winter, Spring, and Summer. Three interior galleries will feature generative sound works created from data collected across Autumn, Winter, and Spring. Each piece evolves over time, shaped by the subtle electrical energy patterns recorded from the American Elm during those seasons. Together, they form distinct yet connected listening environments, each reflecting a different phase in the annual cycle. Summer will take place outdoors as a live installation in PAAM’s Sculpture Garden, where visitors can experience the sounds of the American Elm in real time. Again this year, the installation will coincide with PAAM’s 2026&nbsp;Secret Garden Tour. Across all four spaces,&nbsp;The Four Seasons&nbsp;creates a place for reflection, curiosity, and quiet discovery, where seasonal change becomes something you can hear.&nbsp; Using custom-designed electronic instruments and sensors, Attas draws on the bioelectric energy patterns within the large American Elm tree that shades PAAM’s Sculpture Garden. Signals produced by the plants’ own living processes are transformed in real time into harmonic tones, chimes, and ambient layers. The result: an evolving sonic tapestry where trees sing in harmony with birdsong, water, wind, and ambient human-made sounds Visitors are invited to come and go throughout the day, sit beneath the canopy and let the sounds unfold, or wander through the galleries to experience the sound of the American Elm in Autumn, Winter, and Spring.&nbsp;The Four Seasons&nbsp;is grounded in observation and curiosity. It offers a space where visitors can slow down, tune their attention, and experience the environment not as something separate, but as something unfolding around them. Artist Talks with Aric Attas Monday, July 13th at 1pm and 3pm In the Sculpture Garden itself, Attas will share the creative process and the natural phenomena that make&nbsp;The Four Seasons&nbsp;possible. His practice blends cutting-edge technology with poetic intuition to explore unseen and unheard dimensions of the world around us. Attas’s sound installations incorporate generative ambient music, using data input from the natural world, including living plants and collected field recordings from Cape Cod, sub-tropical Central Florida, and beyond.&nbsp;Learn more at:&nbsp;healingpowerofcreativity.com",
+      "url": "https://paam.org/event/aric-attas-symbiotic-the-four-seasons-tree-music-in-the-garden-day-2-2/",
+      "start": "2026-07-13T15:00:00.000Z",
+      "end": "2026-07-13T21:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Four_Seasons_PAAM.jpeg",
+      "type": "art-gallery",
+      "id": "f1e3fbc13590a03f",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Summer Jazz Series with Bart Weisman and Friends",
+      "description": "@ Admission: $20 at the door (no advance tickets). Time: Doors open at 5:30pm, concert begins at 6pm and typically ends by 7:15pm. Tonight’s show features Leslie Boyle (vocals) with Steve Ahern (trumpet &amp; flute), Fred Boyle (piano), Ron Ormsby (bass) and Bart Weisman (drums). Bart Weisman performs with his Jazz Group, Klezmer Swing Group, Smooth Jazz Group, and the Cape Cod Jazz Quartet &amp; Trio on Cape Cod, Massachusetts at Events, Parties, Weddings, Concerts, and Restaurants. Bart has worked with a number of musicians on Cape Cod including: Molly Ringwald, Jay Geils (J. Geils Band), Ken Peplowski, Rebecca Parris, Joe Muranyi, Eddie Higgins, Lou Colombo, and many more.​ Bart is the Founder, Executive Producer &amp; Performer for the Provincetown Jazz Festival, Hosts Jazz Jam Cape Cod, appears at The West End, Bleu Restaurant, The Vine, and Summer Jazz with Bart Weisman Concert Series at PAAM.​ Bart is the Jazz Band Director at Sturgis East and directs &amp; performs for the Jazz in the Schools program. ​Bart relocated with his wife to Cape Cod from Washington, D.C. and was with The United States Air Force Band. Bart has a B.S. degree from the University of Maryland and an A.A. degree in Music from Montgomery College in Maryland.",
+      "url": "https://paam.org/event/summer-jazz-series-with-bart-weisman-and-friends-3/",
+      "start": "2026-07-14T22:00:00.000Z",
+      "end": "2026-07-14T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/Bart-Weisman.jpg",
+      "type": "live-music",
+      "id": "edbbc8877b99cfea",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Summer Jazz Series with Bart Weisman and Friends",
+      "description": "@ Admission: $20 at the door (no advance tickets). Time: Doors open at 5:30pm, concert begins at 6pm and typically ends by 7:15pm. Tonight’s show features Fred Boyle (piano), Ron Ormsby (bass) and Bart Weisman (drums)…Featuring Original Compositions by Fred Boyle. Bart Weisman performs with his Jazz Group, Klezmer Swing Group, Smooth Jazz Group, and the Cape Cod Jazz Quartet &amp; Trio on Cape Cod, Massachusetts at Events, Parties, Weddings, Concerts, and Restaurants. Bart has worked with a number of musicians on Cape Cod including: Molly Ringwald, Jay Geils (J. Geils Band), Ken Peplowski, Rebecca Parris, Joe Muranyi, Eddie Higgins, Lou Colombo, and many more.​ Bart is the Founder, Executive Producer &amp; Performer for the Provincetown Jazz Festival, Hosts Jazz Jam Cape Cod, appears at The West End, Bleu Restaurant, The Vine, and Summer Jazz with Bart Weisman Concert Series at PAAM.​ Bart is the Jazz Band Director at Sturgis East and directs &amp; performs for the Jazz in the Schools program. ​Bart relocated with his wife to Cape Cod from Washington, D.C. and was with The United States Air Force Band. Bart has a B.S. degree from the University of Maryland and an A.A. degree in Music from Montgomery College in Maryland.",
+      "url": "https://paam.org/event/summer-jazz-series-with-bart-weisman-and-friends-2/",
+      "start": "2026-07-21T22:00:00.000Z",
+      "end": "2026-07-21T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/Bart-Weisman.jpg",
+      "type": "live-music",
+      "id": "4b8ed7f269ac7d85",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Fredi Schiff Levin Lecture // Marcia Marcus Panel Discussion",
+      "description": "@ Please join us for a panel discussion on the artist Marcia Marcus. Marcia Marcus: Strange and Clear, curated by Brandon Brame Fortune and Debra Lennard, explores the work of this vital, under-recognized contributor to American postwar figurative painting. The exhibition will be the first to address in depth Marcus’s unique, canon-reframing art. It will also be the first to examine the special significance of Provincetown—a long-time haven for artistic growth—to Marcus’s art. Included with $15 Museum admission, free for PAAM members. THE FREDI SCHIFF LEVIN LECTURE SERIES The Fredi Schiff Levin Lecture Series welcomes artists, art historians, curators, and authors to speak at PAAM during the summer, both in conjunction with exhibitions and as independent scholars. The series was established in honor of artist Fredi Schiff Levin, an active member of Provincetown’s arts community from the 1960s until her passing in 2002. We extend our deepest gratitude to The Levin Family, who graciously sponsors this series. Watch all previous lectures our&nbsp;YouTube&nbsp;channel.",
+      "url": "https://paam.org/event/fredi-schiff-levin-lecture-marcia-marcus-panel-discussion/",
+      "start": "2026-07-23T22:00:00.000Z",
+      "end": "2026-07-23T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Template-Website-10.png",
+      "type": "art-gallery",
+      "id": "6a48528a095056e8",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Summer Jazz Series with Bart Weisman and Friends",
+      "description": "@ Admission: $20 at the door (no advance tickets). Time: Doors open at 5:30pm, concert begins at 6pm and typically ends by 7:15pm. Tonight’s show Dane Vannatter (vocals) with Steve Ahern (trumpet &amp; flute), Fred Boyle (piano), Ron Ormsby (bass) and Bart Weisman (drums). Bart Weisman performs with his Jazz Group, Klezmer Swing Group, Smooth Jazz Group, and the Cape Cod Jazz Quartet &amp; Trio on Cape Cod, Massachusetts at Events, Parties, Weddings, Concerts, and Restaurants. Bart has worked with a number of musicians on Cape Cod including: Molly Ringwald, Jay Geils (J. Geils Band), Ken Peplowski, Rebecca Parris, Joe Muranyi, Eddie Higgins, Lou Colombo, and many more.​ Bart is the Founder, Executive Producer &amp; Performer for the Provincetown Jazz Festival, Hosts Jazz Jam Cape Cod, appears at The West End, Bleu Restaurant, The Vine, and Summer Jazz with Bart Weisman Concert Series at PAAM.​ Bart is the Jazz Band Director at Sturgis East and directs &amp; performs for the Jazz in the Schools program. ​Bart relocated with his wife to Cape Cod from Washington, D.C. and was with The United States Air Force Band. Bart has a B.S. degree from the University of Maryland and an A.A. degree in Music from Montgomery College in Maryland.",
+      "url": "https://paam.org/event/summer-jazz-series-with-bart-weisman-and-friends-4/",
+      "start": "2026-07-28T22:00:00.000Z",
+      "end": "2026-07-28T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/Bart-Weisman.jpg",
+      "type": "live-music",
+      "id": "21a134f23fe1ac39",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Now On View // Midge Battelle: Love Letter to a Dream",
+      "description": "@ Midge Battelle: Love Letter to a Dream, curated by Pasquale Natale, opens to the public today. The public is warmly invited to a celebratory reception tonight at 6pm. Fredi Schiff Levin Lecture: Thursday, September 3 at 6pm ($15 Museum admission, free for PAAM members).",
+      "url": "https://paam.org/event/now-on-view-midge-battelle-love-letter-to-a-dream/",
+      "start": "2026-08-07T15:00:00.000Z",
+      "end": "2026-08-08T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/IMG_0675-e1777651153339.jpg",
+      "type": "museum",
+      "id": "024779913b848ade",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Free Friday at 5pm // Public Reception at 6pm: Midge Battelle, The Members&#8217; 12&#215;12",
+      "description": "@ PAAM’s weekly Free Friday begins at 5pm, and at 6pm the public is warmly invited to a reception celebrating two: exhibitions: Midge Battelle: Love Letter to a Dream, curated by Pasquale Natale, and The Members&#8217; 12&#215;12 Exhibition and Silent Auction.",
+      "url": "https://paam.org/event/free-friday-at-5pm-public-reception-at-6pm-midge-battelle-the-members-12x12/",
+      "start": "2026-08-07T22:00:00.000Z",
+      "end": "2026-08-08T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2025/04/Free-Friday-5-8pm.png",
+      "type": "art-gallery",
+      "id": "f5b217e9fc39f0d5",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Summer Jazz Series with Bart Weisman and Friends",
+      "description": "@ Admission: $20 at the door (no advance tickets). Time: Doors open at 5:30pm, concert begins at 6pm and typically ends by 7:15pm. Tonight’s show features Donna Byrne (vocals) with Tim Ray (piano), Marshall Wood (bass), and Bart Weisman (drums). Bart Weisman performs with his Jazz Group, Klezmer Swing Group, Smooth Jazz Group, and the Cape Cod Jazz Quartet &amp; Trio on Cape Cod, Massachusetts at Events, Parties, Weddings, Concerts, and Restaurants. Bart has worked with a number of musicians on Cape Cod including: Molly Ringwald, Jay Geils (J. Geils Band), Ken Peplowski, Rebecca Parris, Joe Muranyi, Eddie Higgins, Lou Colombo, and many more.​ Bart is the Founder, Executive Producer &amp; Performer for the Provincetown Jazz Festival, Hosts Jazz Jam Cape Cod, appears at The West End, Bleu Restaurant, The Vine, and Summer Jazz with Bart Weisman Concert Series at PAAM.​ Bart is the Jazz Band Director at Sturgis East and directs &amp; performs for the Jazz in the Schools program. ​Bart relocated with his wife to Cape Cod from Washington, D.C. and was with The United States Air Force Band. Bart has a B.S. degree from the University of Maryland and an A.A. degree in Music from Montgomery College in Maryland.",
+      "url": "https://paam.org/event/summer-jazz-series-with-bart-weisman-and-friends/",
+      "start": "2026-08-25T22:00:00.000Z",
+      "end": "2026-08-25T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/04/Bart-Weisman.jpg",
+      "type": "live-music",
+      "id": "26b5c68993fc77ab",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Fredi Schiff Levin Lecture // Midge Battelle and Pasquale Natale",
+      "description": "@ Please join us for a Fredi Schiff Levin Lecture with exhibiting artist Midge Battelle and curator Pasquale Natale. Love Letter to a Dream will survey work created by Battelle from 1986 to the present day, beginning with hand-printed black and white photographs, moving on to her oil paintings created in the early 2000s, and finally to her more recent work with the Cyanotype medium. Included with $15 Museum admission, free for PAAM members. THE FREDI SCHIFF LEVIN LECTURE SERIES The Fredi Schiff Levin Lecture Series welcomes artists, art historians, curators, and authors to speak at PAAM during the summer, both in conjunction with exhibitions and as independent scholars. The series was established in honor of artist Fredi Schiff Levin, an active member of Provincetown’s arts community from the 1960s until her passing in 2002. We extend our deepest gratitude to The Levin Family, who graciously sponsors this series. Watch all previous lectures our&nbsp;YouTube&nbsp;channel.",
+      "url": "https://paam.org/event/fredi-schiff-levin-lecture-midge-battelle-and-pasquale-natale/",
+      "start": "2026-09-03T22:00:00.000Z",
+      "end": "2026-09-03T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Template-Website-11.png",
+      "type": "art-gallery",
+      "id": "449ca3c9fbe70a05",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    },
+    {
+      "title": "Fredi Schiff Levin Lecture // Mary Abell and David Ebony",
+      "description": "@ For our final Fredi Schiff Levin Lecture of the season, curator Mary Abell will be joined by writer and journalist David Ebony to discuss the life and work of Fred Garbers. Included with $15 Museum admission, free for PAAM members. THE FREDI SCHIFF LEVIN LECTURE SERIES The Fredi Schiff Levin Lecture Series welcomes artists, art historians, curators, and authors to speak at PAAM during the summer, both in conjunction with exhibitions and as independent scholars. The series was established in honor of artist Fredi Schiff Levin, an active member of Provincetown’s arts community from the 1960s until her passing in 2002. We extend our deepest gratitude to The Levin Family, who graciously sponsors this series. Watch all previous lectures our&nbsp;YouTube&nbsp;channel.",
+      "url": "https://paam.org/event/fredi-schiff-levin-lecture-mary-abell-and-david-ebony/",
+      "start": "2026-09-19T16:00:00.000Z",
+      "end": "2026-09-19T17:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "town": "Provincetown"
+      },
+      "imageUrl": "https://paam.org/wp-content/uploads/2026/05/Template-Website-12.png",
+      "type": "museum",
+      "id": "7c63c546e514a29d",
+      "source": {
+        "id": "paam",
+        "name": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "ingestedAt": "2026-05-23T13:31:02.448Z"
+    }
+  ]
+}

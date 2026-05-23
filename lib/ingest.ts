@@ -12,7 +12,13 @@ import { trusteesAdapter } from "./adapters/trustees";
 import { manualRecurringAdapter } from "./adapters/manual-recurring";
 import { manualOneoffAdapter } from "./adapters/manual-oneoff";
 import { enrichWithCoordinates } from "./geocode";
-import { eventsCanonicalPath, eventsOutputPath, loadRegion, sourcesPath } from "./region";
+import {
+  eventsCanonicalPath,
+  eventsOutputPath,
+  listRegionIds,
+  loadRegion,
+  sourcesPath,
+} from "./region";
 import type { Adapter, EventRecord, SourceConfig, SourcesFile } from "./types";
 import { nowIso } from "./util";
 
@@ -34,6 +40,8 @@ export type IngestOptions = {
   rootDir: string;
   onlySourceId?: string;
   dryRun?: boolean;
+  /** Region to ingest. Defaults to the REGION env var (or "metrowest"). */
+  regionId?: string;
 };
 
 export type SourceReport = {
@@ -47,6 +55,7 @@ export type SourceReport = {
 export type IngestReport = {
   startedAt: string;
   finishedAt: string;
+  regionId: string;
   totalEvents: number;
   perSource: SourceReport[];
   geocode?: { attempted: number; resolved: number; cacheHits: number; failed: number };
@@ -54,16 +63,42 @@ export type IngestReport = {
   dryRun: boolean;
 };
 
-export async function loadSources(rootDir: string): Promise<SourcesFile> {
-  const region = loadRegion(rootDir);
+export type RegionManifestEntry = {
+  id: string;
+  displayName: string;
+  tagline?: string;
+  defaultCenter: { label: string; lat: number; lon: number };
+  defaultRadiusMi: number;
+  timeZone: string;
+  locale: string;
+  language: string;
+  centerSuggestions?: string[];
+  eventCount: number;
+  eventsPath: string;
+  generatedAt: string;
+};
+
+export type AllRegionsReport = {
+  startedAt: string;
+  finishedAt: string;
+  defaultRegionId: string;
+  regions: RegionManifestEntry[];
+  perRegion: IngestReport[];
+};
+
+export async function loadSources(
+  rootDir: string,
+  regionId?: string,
+): Promise<SourcesFile> {
+  const region = loadRegion(rootDir, regionId);
   const raw = await readFile(sourcesPath(region), "utf8");
   return JSON.parse(raw) as SourcesFile;
 }
 
 export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
   const startedAt = nowIso();
-  const region = loadRegion(opts.rootDir);
-  const { sources } = await loadSources(opts.rootDir);
+  const region = loadRegion(opts.rootDir, opts.regionId);
+  const { sources } = await loadSources(opts.rootDir, opts.regionId);
 
   const enabled = sources.filter((s) => {
     if (opts.onlySourceId) return s.id === opts.onlySourceId;
@@ -138,18 +173,82 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     };
     const serialized = JSON.stringify(payload, null, 2) + "\n";
     await writeFile(outputPath, serialized, "utf8");
-    // The page reads events.json. Copy region-specific output to canonical path.
-    await writeFile(eventsCanonicalPath(region), serialized, "utf8");
+    // For backwards compatibility, also write the default region to events.json
+    // (the canonical path the page used to read).
+    if (region.config.id === (process.env.REGION?.trim() || "metrowest")) {
+      await writeFile(eventsCanonicalPath(region), serialized, "utf8");
+    }
   }
 
   return {
     startedAt,
     finishedAt: nowIso(),
+    regionId: region.config.id,
     totalEvents: deduped.length,
     perSource,
     geocode: geocodeReport,
     outputPath,
     dryRun: !!opts.dryRun,
+  };
+}
+
+/**
+ * Ingest every region under config/regions/ and write a manifest at
+ * public/regions.json the client can use to populate a region selector.
+ * The first region is the default (REGION env var or "metrowest").
+ */
+export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsReport> {
+  const startedAt = nowIso();
+  const ids = listRegionIds(opts.rootDir);
+  if (ids.length === 0) {
+    throw new Error(`No regions found under ${opts.rootDir}/config/regions/`);
+  }
+
+  const perRegion: IngestReport[] = [];
+  const manifestEntries: RegionManifestEntry[] = [];
+
+  for (const id of ids) {
+    const report = await runIngest({ ...opts, regionId: id });
+    perRegion.push(report);
+
+    const region = loadRegion(opts.rootDir, id);
+    const cfg = region.config;
+    manifestEntries.push({
+      id: cfg.id,
+      displayName: cfg.displayName,
+      tagline: cfg.tagline,
+      defaultCenter: cfg.defaultCenter,
+      defaultRadiusMi: cfg.defaultRadiusMi,
+      timeZone: cfg.timeZone,
+      locale: cfg.locale,
+      language: cfg.language,
+      centerSuggestions: cfg.centerSuggestions,
+      eventCount: report.totalEvents,
+      eventsPath: `/events.${cfg.id}.json`,
+      generatedAt: report.finishedAt,
+    });
+  }
+
+  if (!opts.dryRun) {
+    await mkdir(path.join(opts.rootDir, "public"), { recursive: true });
+    const manifest = {
+      generatedAt: nowIso(),
+      defaultRegionId: ids[0],
+      regions: manifestEntries,
+    };
+    await writeFile(
+      path.join(opts.rootDir, "public", "regions.json"),
+      JSON.stringify(manifest, null, 2) + "\n",
+      "utf8",
+    );
+  }
+
+  return {
+    startedAt,
+    finishedAt: nowIso(),
+    defaultRegionId: ids[0],
+    regions: manifestEntries,
+    perRegion,
   };
 }
 

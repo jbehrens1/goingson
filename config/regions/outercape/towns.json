@@ -1,0 +1,10 @@
+{
+  "$comment": "Outer Cape town centroids. Used for title-extraction (event titles often mention towns) and venue/town normalization. Distance filtering uses event-level geocoded coordinates against the user's chosen center.",
+  "towns": [
+    { "name": "Provincetown", "lat": 42.0584, "lon": -70.1788, "aliases": ["P-town", "Ptown"] },
+    { "name": "Truro", "lat": 41.9956, "lon": -70.0492, "aliases": ["North Truro"] },
+    { "name": "Wellfleet", "lat": 41.9362, "lon": -70.0331 },
+    { "name": "Eastham", "lat": 41.8316, "lon": -69.9737, "aliases": ["North Eastham"] },
+    { "name": "Orleans", "lat": 41.7901, "lon": -69.9895, "aliases": ["East Orleans", "South Orleans"] }
+  ]
+}

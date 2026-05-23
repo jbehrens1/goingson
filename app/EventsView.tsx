@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { EVENT_TYPES, TYPE_LABELS, type EventType } from "@/lib/categorize";
 import { haversineMiles } from "@/lib/towns";
 import type { EventRecord } from "@/lib/types";
@@ -22,6 +22,18 @@ export type EventsPayload = {
   generatedAt: string;
   count: number;
   events: EventRecord[];
+};
+
+export type RegionManifestEntry = RegionPayload & {
+  eventCount: number;
+  eventsPath: string;
+  generatedAt: string;
+};
+
+export type RegionsManifest = {
+  generatedAt: string;
+  defaultRegionId: string;
+  regions: RegionManifestEntry[];
 };
 
 const ANY = "__any__";
@@ -84,16 +96,26 @@ type CenterState = {
 
 export default function EventsView({
   initial,
+  manifest,
   canRefresh = true,
 }: {
   initial: EventsPayload;
+  manifest?: RegionsManifest;
   canRefresh?: boolean;
 }) {
-  const region = initial.region;
   const [payload, setPayload] = useState<EventsPayload>(initial);
+  const region = payload.region;
   const [selectedTypes, setSelectedTypes] = useState<Set<EventType>>(new Set());
   const [selectedVenues, setSelectedVenues] = useState<Set<string>>(new Set());
   const [venueSearch, setVenueSearch] = useState<string>("");
+
+  // Per-column quick filters (text substring match per column).
+  const [colTown, setColTown] = useState("");
+  const [colVenue, setColVenue] = useState("");
+  const [colTitle, setColTitle] = useState("");
+
+  const [isSwitchingRegion, startRegionSwitch] = useTransition();
+  const [regionError, setRegionError] = useState<string | null>(null);
   const [center, setCenter] = useState<CenterState>({ mode: ANY, label: "" });
   const [centerQuery, setCenterQuery] = useState<string>("");
   const [centerLookupError, setCenterLookupError] = useState<string | null>(null);
@@ -193,6 +215,16 @@ export default function EventsView({
           const venueMatch = selectedVenues.has(venueKey);
           if (!sourceMatch && !venueMatch) return false;
         }
+        // Per-column quick filters (case-insensitive substring match).
+        if (colTown && !(ev.location?.town ?? "").toLowerCase().includes(colTown.toLowerCase()))
+          return false;
+        if (colVenue && !(ev.location?.venue ?? "").toLowerCase().includes(colVenue.toLowerCase()))
+          return false;
+        if (colTitle) {
+          const q = colTitle.toLowerCase();
+          const hay = `${ev.title} ${ev.description ?? ""}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
         if (filterNoLocation) return !hasCoords;
         if (filterDistance) {
           if (!hasCoords) return false;
@@ -200,7 +232,7 @@ export default function EventsView({
         }
         return true;
       });
-  }, [payload.events, selectedTypes, selectedVenues, filterDistance, filterNoLocation, center.lat, center.lon, distanceMi, fromDate, toDate]);
+  }, [payload.events, selectedTypes, selectedVenues, colTown, colVenue, colTitle, filterDistance, filterNoLocation, center.lat, center.lon, distanceMi, fromDate, toDate]);
 
   const byDay = useMemo(() => {
     const map = new Map<string, typeof filtered>();
@@ -243,6 +275,30 @@ export default function EventsView({
         setPayload(json.payload);
       } catch (err) {
         setRefreshError((err as Error).message);
+      }
+    });
+  }
+
+  function handleRegionChange(nextRegionId: string) {
+    if (nextRegionId === region.id) return;
+    const entry = manifest?.regions.find((r) => r.id === nextRegionId);
+    if (!entry) return;
+    setRegionError(null);
+    startRegionSwitch(async () => {
+      try {
+        const res = await fetch(entry.eventsPath, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status} loading ${entry.eventsPath}`);
+        const nextPayload = (await res.json()) as EventsPayload;
+        setPayload(nextPayload);
+        // Reset filters that don't make sense across regions.
+        setCenter({ mode: ANY, label: "" });
+        setCenterQuery("");
+        setSelectedVenues(new Set());
+        setColTown("");
+        setColVenue("");
+        setColTitle("");
+      } catch (err) {
+        setRegionError((err as Error).message);
       }
     });
   }
@@ -294,14 +350,36 @@ export default function EventsView({
     setCenterLookupError(null);
   }
 
+  const hasMultipleRegions = !!manifest && manifest.regions.length > 1;
+
   return (
     <main>
       <header>
-        <h1>{region.displayName}</h1>
+        <div className="header-row">
+          <h1>{region.displayName}</h1>
+          {hasMultipleRegions && (
+            <label className="region-selector">
+              <span className="region-selector-label">Region</span>
+              <select
+                value={region.id}
+                onChange={(e) => handleRegionChange(e.target.value)}
+                disabled={isSwitchingRegion}
+              >
+                {manifest!.regions.map((r) => (
+                  <option key={r.id} value={r.id}>
+                    {r.displayName} ({r.eventCount})
+                  </option>
+                ))}
+              </select>
+              {isSwitchingRegion && <span className="region-loading">Loading…</span>}
+            </label>
+          )}
+        </div>
         <p className="muted">
           Last refreshed {formatRefreshedAt(payload.generatedAt, region.timeZone, region.locale)} ·{" "}
           {payload.events.length} ingested events ({filtered.length} match filters)
         </p>
+        {regionError && <p className="error">Region load failed: {regionError}</p>}
       </header>
 
       <section className="filters">
@@ -499,6 +577,55 @@ export default function EventsView({
       </section>
 
       {refreshError && <p className="error">Refresh failed: {refreshError}</p>}
+
+      <div className="col-filter-row" role="search">
+        <div className="col-filter col-time">
+          <span className="col-filter-label">Time</span>
+        </div>
+        <div className="col-filter col-town">
+          <input
+            type="search"
+            placeholder="Town…"
+            aria-label="Filter by town"
+            value={colTown}
+            onChange={(e) => setColTown(e.target.value)}
+          />
+        </div>
+        <div className="col-filter col-venue">
+          <input
+            type="search"
+            placeholder="Venue…"
+            aria-label="Filter by venue"
+            value={colVenue}
+            onChange={(e) => setColVenue(e.target.value)}
+          />
+        </div>
+        <div className="col-filter col-type">
+          <span className="col-filter-label">Type</span>
+        </div>
+        <div className="col-filter col-event">
+          <input
+            type="search"
+            placeholder="Title / description…"
+            aria-label="Filter by event title or description"
+            value={colTitle}
+            onChange={(e) => setColTitle(e.target.value)}
+          />
+        </div>
+        {(colTown || colVenue || colTitle) && (
+          <button
+            type="button"
+            className="link-btn col-filter-clear"
+            onClick={() => {
+              setColTown("");
+              setColVenue("");
+              setColTitle("");
+            }}
+          >
+            clear column filters
+          </button>
+        )}
+      </div>
 
       {byDay.size === 0 && (
         <p className="empty">

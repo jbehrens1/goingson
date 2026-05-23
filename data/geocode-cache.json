@@ -788,5 +788,393 @@
     "lon": -71.231587,
     "displayName": "Needham High School, 609, Webster Street, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
     "fetchedAt": "2026-05-11T19:56:19.630Z"
+  },
+  "metrowest::outside on natick common, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:16.475Z"
+  },
+  "metrowest::natick common, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:17.360Z"
+  },
+  "metrowest::coskata-coatue wildlife refuge (trustees), nantucket": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:18.525Z"
+  },
+  "metrowest::nantucket": {
+    "lat": 42.3227672,
+    "lon": -71.2141855,
+    "displayName": "Nantucket Road, Newton Highlands, Newton Centre, Newton, Middlesex County, Massachusetts, 02461, United States",
+    "fetchedAt": "2026-05-23T13:29:19.652Z"
+  },
+  "metrowest::events": {
+    "lat": 42.3102573,
+    "lon": -71.1093186,
+    "displayName": "Commuter / Church Events Parking, Elm Street, Jamaica Plain, Boston, Suffolk County, Massachusetts, 02130, United States",
+    "fetchedAt": "2026-05-23T13:29:20.670Z"
+  },
+  "metrowest::castle hill on the crane estate (trustees), ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:21.814Z"
+  },
+  "metrowest::ipswich": {
+    "lat": 42.5341342,
+    "lon": -71.1942608,
+    "displayName": "Ipswich Conservation Area, Fox Hill, Burlington, Middlesex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-23T13:29:22.928Z"
+  },
+  "metrowest::the farm institute (trustees), edgartown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:24.010Z"
+  },
+  "metrowest::edgartown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:24.918Z"
+  },
+  "metrowest::474 moody st, waltham, ma": {
+    "lat": 42.3680507,
+    "lon": -71.2373282,
+    "displayName": "Tempo, 474, Moody Street, South Side, Waltham, Middlesex County, Massachusetts, 02453, United States",
+    "fetchedAt": "2026-05-23T13:29:26.272Z"
+  },
+  "metrowest::newton lower falls, wellesley": {
+    "lat": 42.3313244,
+    "lon": -71.2451997,
+    "displayName": "Mass General Brigham Newton-Wellesley Hospital, 2014, Washington Street, Newton Lower Falls, West Newton, Newton, Middlesex County, Massachusetts, 02462, United States",
+    "fetchedAt": "2026-05-23T13:29:27.407Z"
+  },
+  "metrowest::5 high st, acton, ma": {
+    "lat": 42.4589701,
+    "lon": -71.4530924,
+    "displayName": "Faulkner House, 5, High Street, Mill Corner, Damons Mills Westvale, West Acton, Acton, Middlesex County, Massachusetts, 01754, United States",
+    "fetchedAt": "2026-05-23T13:29:28.734Z"
+  },
+  "metrowest::99 main st, wayland, ma": {
+    "lat": 42.316674,
+    "lon": -71.363426,
+    "displayName": "Main Street, Cochituate, Wayland, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-23T13:29:29.426Z"
+  },
+  "metrowest::sudbury, ma": {
+    "lat": 42.3834278,
+    "lon": -71.4161725,
+    "displayName": "Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-23T13:29:30.668Z"
+  },
+  "metrowest::299 old sudbury rd, sudbury, ma": {
+    "lat": 42.3822959,
+    "lon": -71.4124368,
+    "displayName": "299, Old Sudbury Road, Musketahquid Village, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-23T13:29:31.568Z"
+  },
+  "metrowest::20 church st, hopkinton, ma": {
+    "lat": 42.2268045,
+    "lon": -71.5197514,
+    "displayName": "Saint John the Evangelist Church, 20, Church Street, Brampton Circle, Hopkinton, Middlesex County, Massachusetts, 01748, United States",
+    "fetchedAt": "2026-05-23T13:29:32.924Z"
+  },
+  "metrowest::20 junction street, needham": {
+    "lat": 42.2740066,
+    "lon": -71.2368935,
+    "displayName": "Needham VFW Post 2498, 20, Junction Street, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-23T13:29:33.934Z"
+  },
+  "metrowest::address shared after registration, sharon, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:34.997Z"
+  },
+  "metrowest::sharon, sharon": {
+    "lat": 42.1246058,
+    "lon": -71.1844084,
+    "displayName": "Sharon, Station Street Branch, Sharon, Norfolk County, Massachusetts, 02067, United States",
+    "fetchedAt": "2026-05-23T13:29:36.014Z"
+  },
+  "metrowest::online presentation, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:37.037Z"
+  },
+  "metrowest::1255 centre st, newton, ma": {
+    "lat": 42.3305997,
+    "lon": -71.1953345,
+    "displayName": "1255, Centre Street, Newton Highlands, Newton Centre, Newton, Middlesex County, Massachusetts, 02459, United States",
+    "fetchedAt": "2026-05-23T13:29:38.341Z"
+  },
+  "metrowest::address shared after registration, north easton, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:39.465Z"
+  },
+  "metrowest::north easton, north easton": {
+    "lat": 42.0692828,
+    "lon": -71.1033177,
+    "displayName": "North Easton Station, 80, Mechanic Street, North Easton, Easton, Bristol County, Massachusetts, 02356, United States",
+    "fetchedAt": "2026-05-23T13:29:40.540Z"
+  },
+  "metrowest::needham public library, 1139 highland ave, needham, ma 02494, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:41.964Z"
+  },
+  "metrowest::264 old connecticut path, wayland, ma": {
+    "lat": 42.3428578,
+    "lon": -71.3757443,
+    "displayName": "Wayland High School, 264, Old Connecticut Path, Cochituate, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-23T13:29:42.599Z"
+  },
+  "metrowest::42 central st, southborough, ma": {
+    "lat": 42.2969114,
+    "lon": -71.5065231,
+    "displayName": "42, Central Street, Fayville, Southborough, Worcester County, Massachusetts, 01772, United States",
+    "fetchedAt": "2026-05-23T13:29:43.748Z"
+  },
+  "metrowest::needham town common, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:44.954Z"
+  },
+  "metrowest::1471 highland ave, needham, ma": {
+    "lat": 42.2810896,
+    "lon": -71.2364613,
+    "displayName": "Needham Town Hall, 1471, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-23T13:29:46.179Z"
+  },
+  "metrowest::609 webster st, needham": {
+    "lat": 42.2868365,
+    "lon": -71.231587,
+    "displayName": "Needham High School, 609, Webster Street, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-23T13:29:47.376Z"
+  },
+  "metrowest::cochituate rail trail, framingham": {
+    "lat": 42.3162542,
+    "lon": -71.3929271,
+    "displayName": "Cochituate Rail Trail, Saxonville, Framingham, Middlesex County, Massachusetts, 01701, United States",
+    "fetchedAt": "2026-05-23T13:29:48.274Z"
+  },
+  "metrowest::tcan, 14 summer st, natick, ma 01760, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:49.310Z"
+  },
+  "metrowest::summer street, natick, massachusetts": {
+    "lat": 42.2842197,
+    "lon": -71.3501818,
+    "displayName": "Summer Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-23T13:29:50.549Z"
+  },
+  "metrowest::1471 highland avenue, needham, ma": {
+    "lat": 42.2810896,
+    "lon": -71.2364613,
+    "displayName": "Needham Town Hall, 1471, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-23T13:29:51.596Z"
+  },
+  "metrowest::1471 highland avenue, needham": {
+    "lat": 42.2810896,
+    "lon": -71.2364613,
+    "displayName": "Needham Town Hall, 1471, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-23T13:29:52.730Z"
+  },
+  "metrowest::314 totten pond rd, waltham, ma": {
+    "lat": 42.3903649,
+    "lon": -71.2536961,
+    "displayName": "314, Totten Pond Road, College Farm, Waltham, Middlesex County, Massachusetts, 02451, United States",
+    "fetchedAt": "2026-05-23T13:29:53.821Z"
+  },
+  "metrowest::cambridge - 02138, cambridge": {
+    "lat": 42.3680753,
+    "lon": -71.1023439,
+    "displayName": "Whole Foods Market, 115, Prospect Street, Mid-Cambridge, Cambridge, Middlesex County, Massachusetts, 02139, United States",
+    "fetchedAt": "2026-05-23T13:29:54.839Z"
+  },
+  "metrowest::90 hayden rowe st, hopkinton, ma": {
+    "lat": 42.214262,
+    "lon": -71.5250158,
+    "displayName": "Hopkinton High School, 90, Hayden Rowe Street, Hayden Row, Hopkinton, Middlesex County, Massachusetts, 01748, United States",
+    "fetchedAt": "2026-05-23T13:29:56.066Z"
+  },
+  "metrowest::390 lincoln rd, sudbury, ma": {
+    "lat": 42.3990754,
+    "lon": -71.4001701,
+    "displayName": "Lincoln-Sudbury Regional High School, 390, Lincoln Road, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-23T13:29:57.559Z"
+  },
+  "metrowest::31 flagg dr, framingham, ma": {
+    "lat": 42.294094,
+    "lon": -71.4168379,
+    "displayName": "Fuller Middle School, 31, Flagg Drive, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-23T13:29:58.228Z"
+  },
+  "metrowest::21 wellesley college rd, wellesley, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:29:59.546Z"
+  },
+  "metrowest::lulu chow wang campus center, wellesley": {
+    "lat": 42.2945431,
+    "lon": -71.3089227,
+    "displayName": "Lulu Chow Wang Campus Center, 200, Central Street, Wellesley, Norfolk County, Massachusetts, 02482, United States",
+    "fetchedAt": "2026-05-23T13:30:00.309Z"
+  },
+  "metrowest::wellesley college road, wellesley, massachusetts": {
+    "lat": 42.2931525,
+    "lon": -71.3053352,
+    "displayName": "WZLY-FM (Wellesley), College Road, Wellesley, Norfolk County, Massachusetts, 02482, United States",
+    "fetchedAt": "2026-05-23T13:30:02.484Z"
+  },
+  "metrowest::832 worcester rd, framingham, ma": {
+    "lat": 42.298674,
+    "lon": -71.4319459,
+    "displayName": "St Bridget Elementary School, 832, Worcester Road, Framingham Center, Framingham, Middlesex County, Massachusetts, 01701, United States",
+    "fetchedAt": "2026-05-23T13:30:02.946Z"
+  },
+  "metrowest::309 washington st., wellesley, ma": {
+    "lat": 42.3118825,
+    "lon": -71.2758376,
+    "displayName": "Unitarian Universalist Society of Wellesley Hills, 309, Washington Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-23T13:30:04.571Z"
+  },
+  "metrowest::309 washington street, wellesley, ma": {
+    "lat": 42.3118825,
+    "lon": -71.2758376,
+    "displayName": "Unitarian Universalist Society of Wellesley Hills, 309, Washington Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-23T13:30:05.147Z"
+  },
+  "metrowest::99 shirdi way, groton, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:30:06.272Z"
+  },
+  "metrowest::new england shirdi sai temple, groton": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:30:07.289Z"
+  },
+  "metrowest::100 cabot street, needham, ma": {
+    "lat": 42.3031931,
+    "lon": -71.2187146,
+    "displayName": "Sheraton, 100, Cabot Street, Needham Crossing, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-23T13:30:08.385Z"
+  },
+  "metrowest::30 grant st ext, framingham, ma": {
+    "lat": 42.2920721,
+    "lon": -71.4055641,
+    "displayName": "30, Grant Street Extension, Framingham, Middlesex County, Massachusetts, 01701, United States",
+    "fetchedAt": "2026-05-23T13:30:09.516Z"
+  },
+  "metrowest::225 boston post rd, wayland, ma": {
+    "lat": 42.362305,
+    "lon": -71.3592886,
+    "displayName": "First Parish in Wayland, 225, Boston Post Road, Wayland Center Historic District, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-23T13:30:10.618Z"
+  },
+  "metrowest::copley square, boston, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:30:11.693Z"
+  },
+  "metrowest::copley square, boston": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:30:12.751Z"
+  },
+  "metrowest::128 main st, acton, ma": {
+    "lat": 42.4607192,
+    "lon": -71.4551185,
+    "displayName": "Jones Tavern, 128, Main Street, Mill Corner, South Acton, West Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-23T13:30:15.255Z"
+  },
+  "metrowest::15 george street, medford, ma": {
+    "lat": 42.4121662,
+    "lon": -71.1117338,
+    "displayName": "15, George Street, West Medford, Medford, Middlesex County, Massachusetts, 02155, United States",
+    "fetchedAt": "2026-05-23T13:30:15.836Z"
+  },
+  "metrowest::111 riverview ave, waltham, ma": {
+    "lat": 42.3598916,
+    "lon": -71.2477344,
+    "displayName": "111, Riverview Avenue, The Island, Waltham, Middlesex County, Massachusetts, 02453, United States",
+    "fetchedAt": "2026-05-23T13:30:16.832Z"
+  },
+  "metrowest::16 gates st, framingham, ma": {
+    "lat": 42.292753,
+    "lon": -71.468328,
+    "displayName": "16, Gates Street, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-23T13:30:17.944Z"
+  },
+  "metrowest::lasell university, newton, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:30:18.974Z"
+  },
+  "metrowest::5 maynard rd, framingham, ma": {
+    "lat": 42.2976338,
+    "lon": -71.4384757,
+    "displayName": "5, Maynard Road, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-23T13:30:20.048Z"
+  },
+  "metrowest::48 main st, southborough, ma": {
+    "lat": 42.304396,
+    "lon": -71.5352333,
+    "displayName": "Fay School, 48, Main Street, Southborough, Worcester County, Massachusetts, 01772, United States",
+    "fetchedAt": "2026-05-23T13:30:21.314Z"
+  },
+  "metrowest::16 charter rd, acton, ma": {
+    "lat": 42.4768041,
+    "lon": -71.4579048,
+    "displayName": "Raymond J. Grey Jr. High School, 16, Charter Road, Kelley's Corner, West Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-23T13:30:22.191Z"
+  },
+  "metrowest::365 boston post rd, sudbury, ma": {
+    "lat": 42.3618199,
+    "lon": -71.4168289,
+    "displayName": "365, Boston Post Road, South Sudbury, Sudbury, Middlesex County, Massachusetts, 01705, United States",
+    "fetchedAt": "2026-05-23T13:30:23.445Z"
+  },
+  "metrowest::830 worcester rd, framingham, ma": {
+    "lat": 42.2991222,
+    "lon": -71.4291506,
+    "displayName": "830, Worcester Road, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-23T13:30:24.501Z"
+  },
+  "metrowest::sam adams brewery, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:30:25.594Z"
+  },
+  "metrowest::24 vernon st, framingham, ma": {
+    "lat": 42.3036848,
+    "lon": -71.4344139,
+    "displayName": "First Parish in Framingham, 24, Vernon Street, Framingham Center, Framingham, Middlesex County, Massachusetts, 01701, United States",
+    "fetchedAt": "2026-05-23T13:30:26.659Z"
+  },
+  "metrowest::54 walden st, concord, ma": {
+    "lat": 42.45828,
+    "lon": -71.3497387,
+    "displayName": "Trinitarian Congregational Church, 54, Walden Street, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-23T13:30:27.599Z"
+  },
+  "metrowest::91 martin st, acton, ma": {
+    "lat": 42.4556274,
+    "lon": -71.4589702,
+    "displayName": "91, Martin Street, Mill Corner, South Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-23T13:30:29.249Z"
+  },
+  "metrowest::25 ledge rock way, acton, ma": {
+    "lat": 42.5154653,
+    "lon": -71.4112856,
+    "displayName": "25, Ledge Rock Way, North Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-23T13:30:29.767Z"
+  },
+  "metrowest::provincetown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T13:30:35.975Z"
   }
 }

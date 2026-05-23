@@ -1,18 +1,51 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import EventsView, { type EventsPayload } from "./EventsView";
+import EventsView, { type EventsPayload, type RegionsManifest } from "./EventsView";
 
 export const dynamic = "force-dynamic";
 
-async function loadEvents(): Promise<EventsPayload> {
-  const filePath = path.join(process.cwd(), "public", "events.json");
+async function loadEventsForRegion(regionId: string): Promise<EventsPayload> {
+  const filePath = path.join(process.cwd(), "public", `events.${regionId}.json`);
   const raw = await readFile(filePath, "utf8");
   return JSON.parse(raw) as EventsPayload;
 }
 
+async function loadManifest(): Promise<RegionsManifest> {
+  const filePath = path.join(process.cwd(), "public", "regions.json");
+  try {
+    const raw = await readFile(filePath, "utf8");
+    return JSON.parse(raw) as RegionsManifest;
+  } catch {
+    // No manifest yet — fall back to single-region mode using events.json directly.
+    const events = await readFile(path.join(process.cwd(), "public", "events.json"), "utf8");
+    const parsed = JSON.parse(events);
+    const r = parsed.region;
+    return {
+      generatedAt: parsed.generatedAt ?? new Date().toISOString(),
+      defaultRegionId: r?.id ?? "metrowest",
+      regions: r
+        ? [
+            {
+              id: r.id,
+              displayName: r.displayName,
+              tagline: r.tagline,
+              defaultCenter: r.defaultCenter,
+              defaultRadiusMi: r.defaultRadiusMi,
+              timeZone: r.timeZone,
+              locale: r.locale,
+              language: r.language,
+              centerSuggestions: r.centerSuggestions,
+              eventCount: parsed.count ?? 0,
+              eventsPath: `/events.${r.id}.json`,
+              generatedAt: parsed.generatedAt,
+            },
+          ]
+        : [],
+    };
+  }
+}
+
 function canRefresh(): boolean {
-  // Same logic as the /api/refresh route — true only when the filesystem is
-  // writable. Lets the client hide the button on Vercel/Cloudflare.
   return !(
     process.env.VERCEL === "1" ||
     process.env.CF_PAGES === "1" ||
@@ -21,6 +54,9 @@ function canRefresh(): boolean {
 }
 
 export default async function Home() {
-  const initial = await loadEvents();
-  return <EventsView initial={initial} canRefresh={canRefresh()} />;
+  const manifest = await loadManifest();
+  const initial = await loadEventsForRegion(manifest.defaultRegionId);
+  return (
+    <EventsView initial={initial} manifest={manifest} canRefresh={canRefresh()} />
+  );
 }

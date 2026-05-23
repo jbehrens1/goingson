@@ -1,0 +1,86 @@
+{
+  "$comment": "Outer Cape event sources. Starting with the few that work cleanly via existing adapters: PAAM (Tribe), Truro Vineyards (custom WP — disabled until probed), the Trustees of Reservations (statewide MA, covers Outer Cape properties like Lt. Island and Long Point), and the CivicPlus municipal calendars. Most other Outer Cape venues use Squarespace, Wix, or custom platforms that need additional adapter work.",
+  "sources": [
+    {
+      "id": "paam",
+      "name": "Provincetown Art Association and Museum (PAAM)",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://www.paam.org/",
+      "category": "Venue / Museum",
+      "town": "Provincetown",
+      "notes": "Anchor venue. Tribe Events Calendar plugin — wordpress-tribe adapter works directly."
+    },
+    {
+      "id": "trustees",
+      "name": "The Trustees of Reservations",
+      "enabled": true,
+      "adapter": "trustees",
+      "url": "https://thetrustees.org/events/",
+      "category": "Regional Hub (statewide)",
+      "town": "Statewide MA",
+      "notes": "Statewide nonprofit. Outer Cape properties include Lieutenant Island & Long Point Wildlife Refuge (Wellfleet area) and other coastal preserves. Distance filter restricts to Outer Cape automatically.",
+      "config": { "venueGroupLabel": "Trustees" }
+    },
+    {
+      "id": "ptown-gov",
+      "name": "Town of Provincetown - Community Events",
+      "enabled": false,
+      "adapter": "rss",
+      "url": "https://www.provincetown-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
+      "category": "Municipal",
+      "town": "Provincetown",
+      "notes": "CivicPlus calendar. Verify ModID and CID (Community Events category) from the live calendar page before enabling."
+    },
+    {
+      "id": "truro-gov",
+      "name": "Town of Truro - Community Events",
+      "enabled": false,
+      "adapter": "rss",
+      "url": "https://www.truro-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
+      "category": "Municipal",
+      "town": "Truro",
+      "notes": "CivicPlus calendar. Verify ModID and CID before enabling."
+    },
+    {
+      "id": "eastham-gov",
+      "name": "Town of Eastham - Community Events",
+      "enabled": false,
+      "adapter": "rss",
+      "url": "https://www.eastham-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
+      "category": "Municipal",
+      "town": "Eastham",
+      "notes": "CivicPlus calendar. Verify ModID and CID before enabling."
+    },
+    {
+      "id": "orleans-gov",
+      "name": "Town of Orleans - Community Events",
+      "enabled": false,
+      "adapter": "rss",
+      "url": "https://www.town.orleans.ma.us/RSSFeed.aspx?ModID=58&CID=0",
+      "category": "Municipal",
+      "town": "Orleans",
+      "notes": "CivicPlus calendar. Verify ModID and CID before enabling."
+    },
+    {
+      "id": "truro-historical",
+      "name": "Truro Historical Society / Highland House Museum",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://trurohistorical.org/events/",
+      "category": "Venue / Museum",
+      "town": "Truro",
+      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Would need wordpress-mec adapter (same pattern needed for Framingham History Center in MetroWest)."
+    },
+    {
+      "id": "what-wellfleet",
+      "name": "Wellfleet Harbor Actors Theater (WHAT)",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://what.org/events/",
+      "category": "Venue / Theater",
+      "town": "Wellfleet",
+      "notes": "WordPress + OvationTix (ticketing). JSON-LD likely on the listing page — wordpress-tribe-list adapter pattern might work."
+    }
+  ]
+}

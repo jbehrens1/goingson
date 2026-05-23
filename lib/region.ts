@@ -1,4 +1,4 @@
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { buildTownIndex, type TownCoord, type TownIndex } from "./towns";
 
@@ -30,15 +30,38 @@ export type LoadedRegion = {
   regionDir: string;
 };
 
-let cached: LoadedRegion | undefined;
+const cacheByKey = new Map<string, LoadedRegion>();
 
 export function regionId(): string {
   return process.env.REGION?.trim() || "metrowest";
 }
 
-export function loadRegion(rootDir: string = process.cwd()): LoadedRegion {
-  if (cached && cached.rootDir === rootDir) return cached;
-  const id = regionId();
+/**
+ * Enumerate every region defined under config/regions/.
+ * Sort with the default region first so single-region consumers stay stable.
+ */
+export function listRegionIds(rootDir: string = process.cwd()): string[] {
+  const regionsDir = path.join(rootDir, "config", "regions");
+  if (!existsSync(regionsDir)) return [];
+  const ids: string[] = [];
+  for (const entry of readdirSync(regionsDir)) {
+    const full = path.join(regionsDir, entry);
+    if (statSync(full).isDirectory() && existsSync(path.join(full, "region.json"))) {
+      ids.push(entry);
+    }
+  }
+  const def = regionId();
+  ids.sort((a, b) => (a === def ? -1 : b === def ? 1 : a.localeCompare(b)));
+  return ids;
+}
+
+export function loadRegion(
+  rootDir: string = process.cwd(),
+  id: string = regionId(),
+): LoadedRegion {
+  const key = `${rootDir}::${id}`;
+  const hit = cacheByKey.get(key);
+  if (hit) return hit;
   const regionDir = path.join(rootDir, "config", "regions", id);
   const configPath = path.join(regionDir, "region.json");
   if (!existsSync(configPath)) {
@@ -76,8 +99,9 @@ export function loadRegion(rootDir: string = process.cwd()): LoadedRegion {
     }
   }
 
-  cached = { config, towns, townIndex, venueAliases, rootDir, regionDir };
-  return cached;
+  const loaded: LoadedRegion = { config, towns, townIndex, venueAliases, rootDir, regionDir };
+  cacheByKey.set(key, loaded);
+  return loaded;
 }
 
 export function sourcesPath(region: LoadedRegion): string {

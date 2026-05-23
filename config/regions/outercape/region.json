@@ -1,0 +1,27 @@
+{
+  "id": "outercape",
+  "displayName": "Outer Cape Events",
+  "tagline": "Events from Wellfleet, Provincetown, Truro, Eastham, and Orleans.",
+  "defaultCenter": {
+    "label": "Provincetown, MA",
+    "lat": 42.0584,
+    "lon": -70.1788
+  },
+  "defaultRadiusMi": 15,
+  "timeZone": "America/New_York",
+  "locale": "en-US",
+  "language": "en",
+  "boundingBox": {
+    "minLat": 41.74,
+    "maxLat": 42.12,
+    "minLon": -70.30,
+    "maxLon": -69.92
+  },
+  "centerSuggestions": [
+    "Provincetown, MA",
+    "Truro, MA",
+    "Wellfleet, MA",
+    "Eastham, MA",
+    "Orleans, MA"
+  ]
+}

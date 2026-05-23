@@ -60,6 +60,37 @@ header h1 {
   font-size: 1.75rem;
 }
 
+.header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.region-selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.region-selector select {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.region-loading {
+  color: var(--accent);
+  font-size: 0.8rem;
+}
+
 header .muted,
 .muted {
   color: var(--muted);
@@ -418,6 +449,47 @@ header .muted,
 .event-row > td {
   padding: 0.75rem 0.5rem;
   vertical-align: top;
+}
+
+.col-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.25rem;
+  margin: 1rem 0 0.5rem;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.col-filter {
+  display: flex;
+  align-items: center;
+}
+
+.col-filter input[type="search"] {
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 0.82rem;
+}
+
+.col-filter-label {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.col-filter-clear {
+  margin-left: auto;
+  white-space: nowrap;
 }
 
 .col-time {
