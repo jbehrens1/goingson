@@ -1521,5 +1521,11 @@
     "lon": -70.0598816,
     "displayName": "Castle Hill Lane, Truro, Barnstable County, Massachusetts, 02666, United States",
     "fetchedAt": "2026-05-23T15:43:29.208Z"
+  },
+  "outercape::250 commercial street, wellfleet": {
+    "lat": 41.9306038,
+    "lon": -70.0300536,
+    "displayName": "250, Commercial Street, Mayo Beach, Wellfleet, Barnstable County, Massachusetts, 02667, United States",
+    "fetchedAt": "2026-05-23T17:18:04.354Z"
   }
 }

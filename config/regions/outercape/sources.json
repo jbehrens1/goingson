@@ -160,6 +160,29 @@
         "path": "/events/",
         "defaultVenue": "Snow Library"
       }
+    },
+    {
+      "id": "wellfleet-pearl",
+      "name": "The Pearl Wellfleet",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://wellfleetpearl.com/",
+      "category": "Venue / Live Music",
+      "town": "Wellfleet",
+      "notes": "Restaurant + live music venue on Wellfleet harbor. WordPress + The Events Calendar (Tribe) plugin. Tribe REST is open and returns ~150 events with venue data populated.",
+      "config": {
+        "defaultVenue": "The Pearl Wellfleet"
+      }
+    },
+    {
+      "id": "truro-vineyards",
+      "name": "Truro Vineyards of Cape Cod",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://trurovineyardsofcapecod.com/",
+      "category": "Venue",
+      "town": "Truro",
+      "notes": "Custom WordPress theme — no Tribe / MEC / event CPT. The /events-calendar/ page is image-based promos with ticketing on ExploreTock (Cloudflare-protected, blocks scrapers). No automated path; use manual-oneoff for specific announced dates (e.g. Wednesday Wine & Dine summer series, Sip-Sail-Celebrate)."
     }
   ]
 }
