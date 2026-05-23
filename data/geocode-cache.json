@@ -1316,5 +1316,181 @@
     "lon": -71.3520067,
     "displayName": "11, Mechanic Street, Mechanic St Business Area, Natick, Middlesex County, Massachusetts, 01760, United States",
     "fetchedAt": "2026-05-23T14:14:32.064Z"
+  },
+  "coskata-coatue wildlife refuge (trustees), nantucket": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:33:53.513Z"
+  },
+  "nantucket": {
+    "lat": 41.2844408,
+    "lon": -70.09842,
+    "displayName": "Nantucket, Massachusetts, United States",
+    "fetchedAt": "2026-05-23T14:33:54.485Z"
+  },
+  "appleton farms (trustees), hamilton & ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:33:55.625Z"
+  },
+  "hamilton & ipswich": {
+    "lat": 42.6310276,
+    "lon": -70.9131268,
+    "displayName": "Ipswich River Wildlife Sanctuary, Topsfield, Essex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-23T14:33:56.848Z"
+  },
+  "events": {
+    "lat": 41.4149355,
+    "lon": 2.2064679,
+    "displayName": "Events, Carrer de Pere IV, Provençals del Poblenou, Sant Martí, Barcelona, Barcelonès, Barcelona, Catalunya, 08019, España",
+    "fetchedAt": "2026-05-23T14:33:57.838Z"
+  },
+  "castle hill on the crane estate (trustees), ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:33:58.990Z"
+  },
+  "ipswich": {
+    "lat": 52.0579324,
+    "lon": 1.1528095,
+    "displayName": "Ipswich, Suffolk, England, IP1 1DD, United Kingdom",
+    "fetchedAt": "2026-05-23T14:33:59.880Z"
+  },
+  "the farm institute (trustees), edgartown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:34:01.161Z"
+  },
+  "edgartown": {
+    "lat": 41.3894198,
+    "lon": -70.5129682,
+    "displayName": "Edgartown, Dukes County, Massachusetts, 02539, United States",
+    "fetchedAt": "2026-05-23T14:34:02.222Z"
+  },
+  "474 moody st, waltham, ma": {
+    "lat": 42.3680507,
+    "lon": -71.2373282,
+    "displayName": "Tempo, 474, Moody Street, South Side, Waltham, Middlesex County, Massachusetts, 02453, United States",
+    "fetchedAt": "2026-05-23T14:34:03.367Z"
+  },
+  "provided after reg, zoom session, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:34:04.490Z"
+  },
+  "zoom session, zoom session": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:34:05.553Z"
+  },
+  "zoom session": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:34:06.645Z"
+  },
+  "1112 main street, hingham, ma": {
+    "lat": 42.1831137,
+    "lon": -70.8830397,
+    "displayName": "Congregation Sha'aray Shalom, 1112, Main Street, Liberty Plain, Hingham, Plymouth County, Massachusetts, 02239, United States",
+    "fetchedAt": "2026-05-23T14:34:07.808Z"
+  },
+  "dedham ames senior center, dedham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:34:08.811Z"
+  },
+  "dedham": {
+    "lat": 42.2489143,
+    "lon": -71.1755732,
+    "displayName": "Dedham, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-23T14:34:09.953Z"
+  },
+  "4 jersey street, boston": {
+    "lat": 42.3464614,
+    "lon": -71.0970999,
+    "displayName": "Fenway Park, 4, Jersey Street, Audubon Circle, Fenway, Boston, Suffolk County, Massachusetts, 02115, United States",
+    "fetchedAt": "2026-05-23T14:34:11.044Z"
+  },
+  "1a north rd, chelmsford, ma": {
+    "lat": 42.5977028,
+    "lon": -71.3520585,
+    "displayName": "Chelmsford Center for the Arts, 1A, North Road, Chelmsford Center Historic District, Chelmsford, Middlesex County, Massachusetts, 01824, United States",
+    "fetchedAt": "2026-05-23T14:34:12.596Z"
+  },
+  "address shared after registration, north easton, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:34:13.230Z"
+  },
+  "north easton, north easton": {
+    "lat": 42.0692828,
+    "lon": -71.1033177,
+    "displayName": "North Easton Station, 80, Mechanic Street, North Easton, Easton, Bristol County, Massachusetts, 02356, United States",
+    "fetchedAt": "2026-05-23T14:34:14.375Z"
+  },
+  "1139 highland ave, needham heights": {
+    "lat": 42.2879212,
+    "lon": -71.2355769,
+    "displayName": "Needham Free Public Library, 1139, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-23T14:34:15.393Z"
+  },
+  "218 main st, groton, ma": {
+    "lat": 42.610064,
+    "lon": -71.573404,
+    "displayName": "218, Main Street, Groton, Middlesex County, Massachusetts, 01450, United States",
+    "fetchedAt": "2026-05-23T14:34:16.525Z"
+  },
+  "314 totten pond rd, waltham, ma": {
+    "lat": 42.3903649,
+    "lon": -71.2536961,
+    "displayName": "314, Totten Pond Road, College Farm, Waltham, Middlesex County, Massachusetts, 02451, United States",
+    "fetchedAt": "2026-05-23T14:34:17.526Z"
+  },
+  "address shared after registration, cambridge, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-23T14:34:18.785Z"
+  },
+  "cambridge - 02138, cambridge": {
+    "lat": 42.3680753,
+    "lon": -71.1023439,
+    "displayName": "Whole Foods Market, 115, Prospect Street, Mid-Cambridge, Cambridge, Middlesex County, Massachusetts, 02139, United States",
+    "fetchedAt": "2026-05-23T14:34:20.291Z"
+  },
+  "99 shirdi way, groton, ma": {
+    "lat": 42.5717723,
+    "lon": -71.5086306,
+    "displayName": "New England Shirdi Sai Temple, 99, Shirdi Way, Groton, Middlesex County, Massachusetts, 01450, United States",
+    "fetchedAt": "2026-05-23T14:34:20.928Z"
+  },
+  "100 cabot street, needham, ma": {
+    "lat": 42.3031931,
+    "lon": -71.2187146,
+    "displayName": "Sheraton, 100, Cabot Street, Needham Crossing, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-23T14:34:22.141Z"
+  },
+  "copley square, boston, ma": {
+    "lat": 42.3499845,
+    "lon": -71.0765438,
+    "displayName": "Copley Square, Back Bay, Boston, Suffolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-23T14:34:23.207Z"
+  },
+  "15 george street, medford, ma": {
+    "lat": 42.4121662,
+    "lon": -71.1117338,
+    "displayName": "15, George Street, West Medford, Medford, Middlesex County, Massachusetts, 02155, United States",
+    "fetchedAt": "2026-05-23T14:34:24.429Z"
+  },
+  "111 riverview ave, waltham, ma": {
+    "lat": 42.3598916,
+    "lon": -71.2477344,
+    "displayName": "111, Riverview Avenue, The Island, Waltham, Middlesex County, Massachusetts, 02453, United States",
+    "fetchedAt": "2026-05-23T14:34:25.509Z"
+  },
+  "70 south bay avenue, boston, ma": {
+    "lat": 42.3344051,
+    "lon": -71.0658327,
+    "displayName": "The Greater Boston Food Bank Yawkey Distribution Center, 70, South Bay Avenue, South Boston, Boston, Suffolk County, Massachusetts, 02118, United States",
+    "fetchedAt": "2026-05-23T14:34:26.537Z"
   }
 }

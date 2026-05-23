@@ -21,6 +21,7 @@ import {
   loadRegion,
   sourcesPath,
 } from "./region";
+import { findTownIn } from "./towns";
 import type { Adapter, EventRecord, SourceConfig, SourcesFile } from "./types";
 import { nowIso } from "./util";
 
@@ -61,6 +62,7 @@ export type IngestReport = {
   finishedAt: string;
   regionId: string;
   totalEvents: number;
+  droppedOutsideRegion?: number;
   perSource: SourceReport[];
   geocode?: { attempted: number; resolved: number; cacheHits: number; failed: number };
   outputPath?: string;
@@ -152,8 +154,57 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
   deduped.sort((a, b) => a.start.localeCompare(b.start));
 
   // Geocode venue addresses so distance filtering works for any region.
-  // Cached on disk, rate-limited to be polite to Nominatim.
-  const geocodeReport = await enrichWithCoordinates(deduped, opts.rootDir);
+  // Cached on disk, rate-limited to be polite to Nominatim. Pass the active
+  // region so multi-region sweeps each use their own bias/cache, instead of
+  // defaulting to the REGION env var (which is always 'metrowest' in cron).
+  const geocodeReport = await enrichWithCoordinates(
+    deduped,
+    opts.rootDir,
+    region.config.id,
+  );
+
+  // Restrict events to the active region. Two complementary checks:
+  //
+  //   1. If an event has coordinates, they must fall inside the region's
+  //      bounding box. Catches geocoded outliers (Trustees properties on
+  //      Hingham, Cape Ann, etc.).
+  //
+  //   2. If an event has no coordinates but DOES have a town string, the
+  //      town must be in the region's known-town index (towns.json + aliases).
+  //      Catches events whose addresses couldn't geocode under the regional
+  //      bias — e.g. "Hamilton & Ipswich" or "Edgartown" for Outer Cape.
+  //
+  // Events with neither coords nor a town pass through (we don't have enough
+  // info to decide). Regions with no towns.json + no boundingBox also pass
+  // everything through.
+  let droppedOutsideRegion = 0;
+  const box = region.config.boundingBox;
+  const hasTownIndex = region.townIndex.list.length > 0;
+  const filteredEvents = deduped.filter((ev) => {
+    const lat = ev.location?.lat;
+    const lon = ev.location?.lon;
+    if (lat != null && lon != null) {
+      if (!box) return true;
+      const inside =
+        lat >= box.minLat &&
+        lat <= box.maxLat &&
+        lon >= box.minLon &&
+        lon <= box.maxLon;
+      if (!inside) droppedOutsideRegion++;
+      return inside;
+    }
+    // No coords: check town against the region's index.
+    const town = ev.location?.town?.trim();
+    if (!town || !hasTownIndex) return true;
+    const known = findTownIn(region.townIndex, town) !== undefined;
+    if (!known) droppedOutsideRegion++;
+    return known;
+  });
+  if (droppedOutsideRegion > 0) {
+    console.log(
+      `[ingest] ${region.config.id}: dropped ${droppedOutsideRegion} events outside region`,
+    );
+  }
 
   let outputPath: string | undefined;
   if (!opts.dryRun) {
@@ -172,8 +223,8 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
         centerSuggestions: region.config.centerSuggestions,
       },
       generatedAt: nowIso(),
-      count: deduped.length,
-      events: deduped,
+      count: filteredEvents.length,
+      events: filteredEvents,
     };
     const serialized = JSON.stringify(payload, null, 2) + "\n";
     await writeFile(outputPath, serialized, "utf8");
@@ -188,7 +239,8 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     startedAt,
     finishedAt: nowIso(),
     regionId: region.config.id,
-    totalEvents: deduped.length,
+    totalEvents: filteredEvents.length,
+    droppedOutsideRegion,
     perSource,
     geocode: geocodeReport,
     outputPath,

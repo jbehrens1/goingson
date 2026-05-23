@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import type { EventRecord } from "./types";
 import { loadRegion } from "./region";
+import { findTownIn } from "./towns";
 
 type CacheEntry = {
   lat: number | null;
@@ -63,6 +64,11 @@ export type GeocodeOptions = {
   // Bias geocoding toward a region's bounding box for ambiguous queries.
   // Without this, "Wellesley" could resolve to Wellesley, UK.
   applyRegionBias?: boolean;
+  // Region to use for bias + cache key. Defaults to whatever loadRegion()
+  // returns (i.e. REGION env var). Pass this explicitly when ingesting one
+  // region as part of a multi-region sweep, so each region geocodes against
+  // its own bounding box rather than the env-var default.
+  regionId?: string;
 };
 
 export type GeocodeResult = {
@@ -79,7 +85,7 @@ export async function geocode(
   const rootDir = opts.rootDir ?? process.cwd();
   const region = (() => {
     try {
-      return loadRegion(rootDir);
+      return loadRegion(rootDir, opts.regionId);
     } catch {
       return null;
     }
@@ -161,7 +167,16 @@ function eventQueries(ev: EventRecord): string[] {
 export async function enrichWithCoordinates(
   events: EventRecord[],
   rootDir: string,
+  regionId?: string,
 ): Promise<{ attempted: number; resolved: number; cacheHits: number; failed: number }> {
+  const region = (() => {
+    try {
+      return loadRegion(rootDir, regionId);
+    } catch {
+      return null;
+    }
+  })();
+
   let attempted = 0;
   let resolved = 0;
   let cacheHits = 0;
@@ -174,9 +189,26 @@ export async function enrichWithCoordinates(
       continue;
     }
     attempted++;
+
+    // If the event's town is one of the region's known towns, use that town's
+    // centroid directly (no Nominatim call needed) AND apply regional bias for
+    // any street-level lookups. If the town is OUT of region (Hingham from
+    // MetroWest, Nantucket from anywhere we care about), skip bias so we get
+    // the *actual* coords back instead of a bogus in-box street match —
+    // the downstream bounding-box filter then correctly drops it.
+    const evTown = ev.location?.town?.trim();
+    const knownTown = region && evTown ? findTownIn(region.townIndex, evTown) : undefined;
+    const useBias = knownTown !== undefined || !evTown;
+
     let r: GeocodeResult | null = null;
     for (const q of queries) {
-      r = await geocode(q, { rootDir, applyRegionBias: true });
+      // Shortcut: if the query exactly matches a region town, use its centroid.
+      const t = region ? findTownIn(region.townIndex, q.trim()) : undefined;
+      if (t) {
+        r = { lat: t.lat, lon: t.lon, displayName: t.name, cached: true };
+        break;
+      }
+      r = await geocode(q, { rootDir, applyRegionBias: useBias, regionId });
       if (r) break;
     }
     if (r) {
