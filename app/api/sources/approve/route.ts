@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { currentUser } from "@clerk/nextjs/server";
 import { requireRole } from "@/lib/auth";
 import { commitFileToGitHub } from "@/lib/github-commit";
+import { dispatchIngestWorkflow } from "@/lib/github-dispatch";
 import {
   readSources,
   serializeSources,
@@ -153,5 +154,18 @@ export async function POST(req: Request) {
     );
   }
 
-  return NextResponse.json({ ok: true, sourceId: newId });
+  // Kick off an immediate ingest of the target region so the newly approved
+  // source's events show up on the live site in ~2 min.
+  const dispatch = await dispatchIngestWorkflow({
+    regionId: item.regionId,
+    reason: `${reviewer} approved "${item.name}"`,
+  });
+
+  return NextResponse.json({
+    ok: true,
+    sourceId: newId,
+    rescan: dispatch.ok
+      ? { triggered: true }
+      : { triggered: false, error: dispatch.error },
+  });
 }

@@ -100,7 +100,11 @@ export function SourcesEditor({
           body: JSON.stringify({ region, sources }),
         });
         const json = (await res.json()) as
-          | { ok: true; commitSha?: string }
+          | {
+              ok: true;
+              commitSha?: string;
+              rescan?: { triggered: boolean; error?: string };
+            }
           | { ok: false; error: string; details?: string[] };
         if (!json.ok) {
           setError(
@@ -110,9 +114,13 @@ export function SourcesEditor({
           );
           return;
         }
-        setOkMsg(
-          `Saved · commit ${json.commitSha?.slice(0, 7) ?? "?"} · Vercel will redeploy shortly.`,
-        );
+        const sha = json.commitSha?.slice(0, 7) ?? "?";
+        const rescanNote = json.rescan?.triggered
+          ? "Re-scanning the region now — fresh event counts in ~2 min."
+          : json.rescan?.error
+            ? `Saved, but auto-rescan failed (${json.rescan.error}). Manually trigger the workflow from GitHub Actions.`
+            : "Vercel will redeploy with the new config; events refresh tomorrow on the daily cron.";
+        setOkMsg(`Saved · commit ${sha} · ${rescanNote}`);
         setEditing(false);
       } catch (err) {
         setError((err as Error).message);

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { requireRole } from "@/lib/auth";
 import { commitFileToGitHub } from "@/lib/github-commit";
+import { dispatchIngestWorkflow } from "@/lib/github-dispatch";
 import {
   listRegions,
   readSources,
@@ -77,5 +78,22 @@ export async function POST(req: Request) {
       { status: 500 },
     );
   }
-  return NextResponse.json({ ok: true, commitSha: result.commitSha });
+
+  // Trigger an immediate re-ingest of the edited region so the live events
+  // JSON reflects the new source config in ~2 min instead of waiting for the
+  // next daily cron tick. Non-fatal: if dispatch fails (e.g. token lacks
+  // Actions:RW), we still report the commit succeeded so the admin can
+  // re-trigger manually from the Actions tab.
+  const dispatch = await dispatchIngestWorkflow({
+    regionId: region,
+    reason: `${editor} edited ${region}`,
+  });
+
+  return NextResponse.json({
+    ok: true,
+    commitSha: result.commitSha,
+    rescan: dispatch.ok
+      ? { triggered: true }
+      : { triggered: false, error: dispatch.error },
+  });
 }

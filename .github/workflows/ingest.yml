@@ -4,7 +4,16 @@ on:
   schedule:
     # 06:00 ET = 10:00 UTC (EST) / 11:00 UTC (EDT). Runs at 10:00 UTC year-round; expect a 1-hour shift in winter.
     - cron: "0 10 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      region:
+        description: "Optional region id (e.g. 'metrowest' or 'outercape'). Empty = all regions."
+        required: false
+        type: string
+      reason:
+        description: "Optional note shown in the commit message (e.g. 'admin edit')."
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -26,6 +35,7 @@ jobs:
         run: npm run ingest
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+          REGION: ${{ inputs.region }}
 
       - name: Commit results
         run: |
@@ -35,10 +45,14 @@ jobs:
           git add public/events.json public/events.*.json public/regions.json public/source-health.json config/regions/*/sources.json data/geocode-cache.json 2>/dev/null || true
           if [[ -n "$(git diff --cached --name-only)" ]]; then
             # Flag auto-fixes prominently in the commit message.
+            REASON_SUFFIX=""
+            if [[ -n "${{ inputs.reason }}" ]]; then
+              REASON_SUFFIX=" (${{ inputs.reason }})"
+            fi
             if git diff --cached --name-only | grep -q "config/regions/.*/sources.json"; then
-              MSG="chore: refresh events + auto-fixed source configs [skip ci]"
+              MSG="chore: refresh events + auto-fixed source configs${REASON_SUFFIX} [skip ci]"
             else
-              MSG="chore: refresh events.json [skip ci]"
+              MSG="chore: refresh events.json${REASON_SUFFIX} [skip ci]"
             fi
             git commit -m "$MSG"
             git push
