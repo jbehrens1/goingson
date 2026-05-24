@@ -1,0 +1,104 @@
+{
+  "$comment": "Manual dates for Truro Vineyards. Their /events-calendar/ page is image-only with ticketing on ExploreTock + FareHarbor (both Cloudflare-protected, no scrape). Seeded from the 2026 Wednesday Wine & Dine series flyer. Add other events here when dates appear on their site.",
+  "events": [
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-07-01T17:30:00",
+      "end": "2026-07-01T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-07-08T17:30:00",
+      "end": "2026-07-08T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-07-15T17:30:00",
+      "end": "2026-07-15T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-07-22T17:30:00",
+      "end": "2026-07-22T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-07-29T17:30:00",
+      "end": "2026-07-29T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-08-05T17:30:00",
+      "end": "2026-08-05T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-08-12T17:30:00",
+      "end": "2026-08-12T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-08-19T17:30:00",
+      "end": "2026-08-19T21:00:00",
+      "category": "food-drink"
+    },
+    {
+      "title": "Wednesday Wine & Dine",
+      "description": "Outdoor summer dinner series at Truro Vineyards. Tickets via ExploreTock.",
+      "url": "https://www.exploretock.com/trurovineyards/event/601937/wednesday-wine-dine-2026-season",
+      "venue": "Truro Vineyards of Cape Cod",
+      "town": "Truro",
+      "address": "11 Shore Rd, Truro, MA 02666",
+      "start": "2026-08-26T17:30:00",
+      "end": "2026-08-26T21:00:00",
+      "category": "food-drink"
+    }
+  ]
+}

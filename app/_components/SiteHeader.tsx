@@ -31,7 +31,7 @@ export async function SiteHeader() {
     <nav className="site-header">
       <div className="site-header-inner">
         <Link href="/" className="site-header-brand">
-          MetroWest Events
+          Goings On
         </Link>
         <div className="site-header-links">
           <Link href="/sources">Sources</Link>

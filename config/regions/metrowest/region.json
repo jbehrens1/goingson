@@ -1,6 +1,6 @@
 {
   "id": "metrowest",
-  "displayName": "MetroWest Events",
+  "displayName": "MetroWest",
   "tagline": "Aggregated events from MetroWest Boston venues, towns, and calendars.",
   "defaultCenter": {
     "label": "Framingham, MA",

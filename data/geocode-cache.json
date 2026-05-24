@@ -1566,5 +1566,28 @@
     "lon": -71.4117349,
     "displayName": "62, Morse Road, North Sudbury, Sudbury, Middlesex County, Massachusetts, 01776, United States",
     "fetchedAt": "2026-05-24T01:14:47.677Z"
+  },
+  "naumkeag (trustees), stockbridge": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T13:21:29.187Z"
+  },
+  "stockbridge": {
+    "lat": 42.282398,
+    "lon": -73.3123684,
+    "displayName": "Stockbridge, Berkshire County, Massachusetts, United States",
+    "fetchedAt": "2026-05-24T13:21:30.614Z"
+  },
+  "outercape::11 shore rd, truro, ma 02666": {
+    "lat": 42.0298296,
+    "lon": -70.0778722,
+    "displayName": "Truro Vineyards, 11, Shore Road, Pond Village, Truro, Barnstable County, Massachusetts, 02652, United States",
+    "fetchedAt": "2026-05-24T13:21:31.333Z"
+  },
+  "metrowest::80 dudley rd, framingham, ma": {
+    "lat": 42.2864587,
+    "lon": -71.4342715,
+    "displayName": "80, Dudley Road, Coburnville, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-24T13:22:10.173Z"
   }
 }

@@ -5,8 +5,11 @@ import { SiteHeader } from "./_components/SiteHeader";
 import { authIsConfigured } from "@/lib/auth";
 
 export const metadata: Metadata = {
-  title: "MetroWest Events",
-  description: "Aggregated events from MetroWest Boston venues, towns, and calendars.",
+  title: {
+    default: "Goings On",
+    template: "Goings On — %s",
+  },
+  description: "Local events aggregated from venues, towns, and calendars across the region.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

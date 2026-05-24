@@ -387,6 +387,12 @@ export default function EventsView({
         if (!res.ok) throw new Error(`HTTP ${res.status} loading ${entry.eventsPath}`);
         const nextPayload = (await res.json()) as EventsPayload;
         setPayload(nextPayload);
+        // Remember the chosen region so reloads come back to it.
+        try {
+          localStorage.setItem("goingson:regionId", nextRegionId);
+        } catch {
+          // localStorage can be disabled in private browsing — ignore
+        }
         // Reset filters that don't make sense across regions.
         setCenter({ mode: ANY, label: "" });
         setCenterQuery("");
@@ -399,6 +405,26 @@ export default function EventsView({
       }
     });
   }
+
+  // On first mount: if the user picked a different region in a prior session,
+  // switch to it. The initial server-rendered payload uses the default region
+  // (so SSR is consistent across users); we then swap to the remembered one.
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("goingson:regionId");
+      if (saved && saved !== region.id && manifest?.regions.some((r) => r.id === saved)) {
+        handleRegionChange(saved);
+      }
+    } catch {
+      // localStorage unavailable — no-op
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Keep the browser tab title in sync with the active region.
+  useEffect(() => {
+    document.title = `Goings On — ${region.displayName}`;
+  }, [region.displayName]);
 
   function applyCenter(query: string) {
     const q = query.trim();
@@ -453,7 +479,7 @@ export default function EventsView({
     <main>
       <header>
         <div className="header-row">
-          <h1>{region.displayName}</h1>
+          <h1>Goings On <span className="muted">— {region.displayName}</span></h1>
           {hasMultipleRegions && (
             <label className="region-selector">
               <span className="region-selector-label">Region</span>
