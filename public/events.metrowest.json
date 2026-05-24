@@ -1659,7 +1659,7 @@
     },
     {
       "title": "TBElle | Laughing Through the Ages: Jewish Humor, Resilience and Survival (Hybrid)",
-      "description": "This engaging course explores how Jewish communities have long turned to humor—rich with wit, irony, and a keen sense of the absurd—as a powerful way to endure hardship and persecution. Through key moments in Jewish history, we’ll discover how laughter has lived alongside suffering, fostering resilience, offering hope, and illuminating the depth and spirit of the Jewish experience. Dates: April 28, May 5, 12, 19, 26, June 2 Join us for one, two, or however many classes you&#8217;d like to participate in! Registration: This event is available in person and online. Please click the appropriate purple bar above to register. This program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
+      "description": "This engaging course explores how Jewish communities have long turned to humor—rich with wit, irony, and a keen sense of the absurd—as a powerful way to endure hardship and persecution. Through key moments in Jewish history, we’ll discover how laughter has lived alongside suffering, fostering resilience, offering hope, and illuminating the depth and spirit of the Jewish experience. \nDates: April 28, May 5, 12, 19, 26, June 2 \nJoin us for one, two, or however many classes you’d like to participate in! \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
       "url": "https://tbewellesley.org/event/tbelle-laughing-through-the-ages-jewish-humor-resilience-and-survival-hybrid-2/2026-05-26/",
       "start": "2026-05-26T14:00:00.000Z",
       "end": "2026-05-26T15:30:00.000Z",
@@ -1667,13 +1667,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/08/CAL_TBELLE_0619-e1627595156229.png",
       "type": "other",
-      "id": "e54894b7b9a5e3e6",
+      "id": "99d69ab06ef407bf",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -1789,19 +1788,19 @@
     },
     {
       "title": "TBElle | Dramatic Changes in Christianity’s View of Judaism After the Holocaust (Hybrid)",
-      "description": "In this course, we’ll explore pivotal statements from the Catholic Church and Protestant churches that dramatically reshaped Christianity’s view of Judaism—alongside the Jewish responses to these changes. Together, we’ll consider the lasting impact of these developments and how contemporary issues continue to influence them, including their role in shaping today’s interfaith dialogue. Dates: Tuesdays, May 19, 26, June 2 This course follows a sequential structure, but anyone is welcome to join at any point, or to drop in to any class. If you have questions regarding participation, please contact the program leader. Registration: This event is available in person and online. Please click the appropriate purple bar above to register. This program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
+      "description": "In this course, we’ll explore pivotal statements from the Catholic Church and Protestant churches that dramatically reshaped Christianity’s view of Judaism—alongside the Jewish responses to these changes. Together, we’ll consider the lasting impact of these developments and how contemporary issues continue to influence them, including their role in shaping today’s interfaith dialogue. \nDates: Tuesdays, May 19, 26, June 2 \nThis course follows a sequential structure, but anyone is welcome to join at any point, or to drop in to any class. If you have questions regarding participation, please contact the program leader. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
       "url": "https://tbewellesley.org/event/tbelle-dramatic-changes-in-christianitys-view-of-judaism-after-the-holocaust-hybrid/2026-05-26/",
       "start": "2026-05-26T16:45:00.000Z",
       "end": "2026-05-26T18:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/08/CAL_TBELLE_0619-e1627595156229.png",
       "type": "workshop",
-      "id": "544f3c577d9967b8",
+      "id": "156c3c1344f2ccaa",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -2062,7 +2061,7 @@
     },
     {
       "title": "May 2026 Green Team Meeting (Hybrid)",
-      "description": "Join us for our next Green Team Meeting as we come together to discuss current sustainability initiatives at TBE and explore new ideas for making our community greener, more responsible, and more aligned with our Jewish values of Shmirat HaAdamah—caring for the Earth. This is an open, collaborative conversation and a great opportunity to get involved, share your ideas, and connect with fellow TBE members who are passionate about environmental stewardship. No prior Green Team experience needed—all are welcome! Registration: This event is available in person and online. Please click the appropriate purple bar above to register This event is sponsored by the Green Team at TBE, which helps ensure our building and community are environmentally sound and sustainable.",
+      "description": "Join us for our next Green Team Meeting as we come together to discuss current sustainability initiatives at TBE and explore new ideas for making our community greener, more responsible, and more aligned with our Jewish values of Shmirat HaAdamah—caring for the Earth. \nThis is an open, collaborative conversation and a great opportunity to get involved, share your ideas, and connect with fellow TBE members who are passionate about environmental stewardship. No prior Green Team experience needed—all are welcome! \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register \nThis event is sponsored by the Green Team at TBE, which helps ensure our building and community are environmentally sound and sustainable.",
       "url": "https://tbewellesley.org/event/may-2026-green-team-meeting-hybrid/",
       "start": "2026-05-26T23:00:00.000Z",
       "end": "2026-05-27T00:30:00.000Z",
@@ -2070,13 +2069,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2025/12/Green-Team-Logo.png",
       "type": "community",
-      "id": "02476ab1ee7dec59",
+      "id": "f3eab7fbf54c094b",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -2169,19 +2167,19 @@
     },
     {
       "title": "Yoga with Stephanie: Spring Session Two (Online)",
-      "description": "Prepare for Summer by nurturing your strength, balance, and alignment through the steady practice of yoga. Join experienced yoga teacher Stephanie Javaheri for a weekly mindful yoga “work-in” designed to cultivate both physical and mental awareness. Through slow, intentional movement, breathwork, and meditation, this one-hour class offers space to feel more at ease in your body and mind. All that’s needed is an open spirit, a yoga mat, and a non-cork set of blocks. Dates: May 20 &amp; 27, June 10, 17 &amp; 24, July 1 Fee: Members: $60 | Non-Members: $85 Registration: This event is available online. Please click the purple bar above to register. If you are interested in joining Spring Session Two once it has begun, please reach out to Lynn Burke Harrell. This program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
+      "description": "Prepare for Summer by nurturing your strength, balance, and alignment through the steady practice of yoga. Join experienced yoga teacher Stephanie Javaheri for a weekly mindful yoga “work-in” designed to cultivate both physical and mental awareness. Through slow, intentional movement, breathwork, and meditation, this one-hour class offers space to feel more at ease in your body and mind. All that’s needed is an open spirit, a yoga mat, and a non-cork set of blocks. \nDates: May 20 & 27, June 10, 17 & 24, July 1 \nFee: Members: $60 | Non-Members: $85 \nRegistration: This event is available online. Please click the purple bar above to register. If you are interested in joining Spring Session Two once it has begun, please reach out to Lynn Burke Harrell. \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
       "url": "https://tbewellesley.org/event/yoga-with-stephanie-spring-session-two-online-2/2026-05-27/",
       "start": "2026-05-27T13:30:00.000Z",
       "end": "2026-05-27T14:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2022/02/CAL_Yoga_0619.png",
       "type": "workshop",
-      "id": "2d79391ab88384bd",
+      "id": "ea86f487603a3b8e",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -2231,8 +2229,8 @@
       "ingestedAt": "2026-05-24T13:22:03.931Z"
     },
     {
-      "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
-      "description": "We’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. Feel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! With your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. Since ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. Dates: Wednesdays, April 15, 29, May 6, 13, 20, 27, June 3, 10, 17, 24 Registration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. Members Fee: Sliding scale of $180 / $270 (suggested) / $360 | Non-members: Fee: $450 This fee helps us cover the cost of the kiln and materials. Bundled Spring Pass | Both Monday Evening &amp; Wednesday Afternoon Times and dates as listed above. Fee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 This program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
+      "title": "Text & Texture Ceramics Open Studios (In Person)",
+      "description": "We’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. \nFeel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! \nWith your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. \nSince ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. \nDates: Wednesdays, April 15, 29, May 6, 13, 20, 27, June 3, 10, 17, 24 \nRegistration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. \nMembers Fee: Sliding scale of $180 / $270 (suggested) / $360 | Non-members: Fee: $450\nThis fee helps us cover the cost of the kiln and materials. \nBundled Spring Pass | Both Monday Evening & Wednesday Afternoon\nTimes and dates as listed above. \nFee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
       "url": "https://tbewellesley.org/event/text-texture-ceramics-open-studios-in-person-2/2026-05-27/",
       "start": "2026-05-27T15:30:00.000Z",
       "end": "2026-05-27T18:30:00.000Z",
@@ -2240,13 +2238,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2023/04/oshin-khandelwal-EQpXnijYejQ-unsplash.jpg",
       "type": "other",
-      "id": "e2fd68858f260a0f",
+      "id": "0a14c331c831f5a2",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -2691,7 +2688,7 @@
     },
     {
       "title": "Mahjong (In Person)",
-      "description": "Join us for mahjong at TBE on Thursday afternoons! Whether you&#8217;re a seasoned player or have just learned how to play, it’s a wonderful opportunity to make new friends or enjoy a game with familiar faces. Beginners are welcome, though sessions for those who have never played before will resume in the spring. While we’d greatly appreciate it if you could sign up in advance to ensure we have enough mahjong sets and tables for everyone, feel free to drop in if your schedule changes at the last minute. Registration: Email the event organizer, Barbara Marx at barbmarx@gmail.com if you&#8217;d like to join us!",
+      "description": "Join us for mahjong at TBE on Thursday afternoons! Whether you’re a seasoned player or have just learned how to play, it’s a wonderful opportunity to make new friends or enjoy a game with familiar faces. Beginners are welcome, though sessions for those who have never played before will resume in the spring. While we’d greatly appreciate it if you could sign up in advance to ensure we have enough mahjong sets and tables for everyone, feel free to drop in if your schedule changes at the last minute. \nRegistration: Email the event organizer, Barbara Marx at barbmarx@gmail.com if you’d like to join us!",
       "url": "https://tbewellesley.org/event/mahjong-thursday-aftenoons/2026-05-28/",
       "start": "2026-05-28T18:00:00.000Z",
       "end": "2026-05-28T20:00:00.000Z",
@@ -2699,13 +2696,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2024/09/Screenshot-2024-09-03-at-2.07.21 PM.png",
       "type": "mahjong",
-      "id": "584e2dac5ced00db",
+      "id": "3d5d53c691ea1740",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -2882,19 +2878,19 @@
     },
     {
       "title": "Drum Circle: Spring 2026 (In Person)",
-      "description": "Drum Circle start date has been postponed to April 16. Join us for an exciting, joyful drum circle with our own Friday night service drummer, Noam Sender. A drum circle is a centuries-old tradition tapping into age-old wisdom. Drumming is known to reduce stress and promote a sense of well being and mental alertness. Seated in a circle, we will play beautiful, accessible and captivating rhythms from around the world. The drumming will be enhanced with familiar chants and melodies (singing is optional). We will deepen the drumming experience with brief mindfulness exercises, learning to center ourselves, relax and explore our authentic self, while building a deep sense of community and sharing our collective voice. No prior experience required. Drums are available if needed, but feel free to bring your own if you like. Class size is limited to between 6 and 8 participants so it is best to register soon! This course follows a sequential structure, and participants are encouraged to attend all sessions. If you are interested in joining once the course has begun, please contact the program leader. Dates &amp; Time: April 16, 23, May 7, 14, 28, June 4 Fee: $180 Registration: This program is held in person. Please click the purple button above to register. Registration closes Wednesday, April 16 at 11:59 pm. This program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
+      "description": "Drum Circle start date has been postponed to April 16. \nJoin us for an exciting, joyful drum circle with our own Friday night service drummer, Noam Sender. \nA drum circle is a centuries-old tradition tapping into age-old wisdom. Drumming is known to reduce stress and promote a sense of well being and mental alertness. Seated in a circle, we will play beautiful, accessible and captivating rhythms from around the world. The drumming will be enhanced with familiar chants and melodies (singing is optional). We will deepen the drumming experience with brief mindfulness exercises, learning to center ourselves, relax and explore our authentic self, while building a deep sense of community and sharing our collective voice. \nNo prior experience required. Drums are available if needed, but feel free to bring your own if you like. Class size is limited to between 6 and 8 participants so it is best to register soon! \nThis course follows a sequential structure, and participants are encouraged to attend all sessions. If you are interested in joining once the course has begun, please contact the program leader. \nDates & Time: April 16, 23, May 7, 14, 28, June 4 \nFee: $180 \nRegistration: This program is held in person. Please click the purple button above to register. Registration closes Wednesday, April 16 at 11:59 pm. \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
       "url": "https://tbewellesley.org/event/drum-circle-spring-2026-in-person/2026-05-28/",
       "start": "2026-05-28T23:30:00.000Z",
       "end": "2026-05-29T00:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2021/08/Djembe-photo-TBE-drum-circle-class.jpg",
       "type": "theater",
-      "id": "2039771bda9829b1",
+      "id": "6ad4640df5ed2d5c",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -2903,19 +2899,19 @@
     },
     {
       "title": "TBE Meditation Group (Online)",
-      "description": "New to meditation and eager to get started? Or, are you practiced and want to join others for a collective meditation experience? Join our weekly live meditation group! We&#8217;ll meet either in-person, via Zoom, or both, creating a space where we collaboratively explore meditation—sharing what works, what doesn&#8217;t, and growing together. Dates: With the exception of the first Thursday of each month, when we will meet in person, meetings will be every other Thursday on Zoom: March 12, 19, 26, April 16, 23, 30, May 14, 21, 28, June 11, 18, 25 Registration: This event is available online. Please email Joe Bodoff jbodoff@gmail.com to register and receive the Zoom link. This program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
+      "description": "New to meditation and eager to get started? Or, are you practiced and want to join others for a collective meditation experience? Join our weekly live meditation group! We’ll meet either in-person, via Zoom, or both, creating a space where we collaboratively explore meditation—sharing what works, what doesn’t, and growing together. \nDates: With the exception of the first Thursday of each month, when we will meet in person, meetings will be every other Thursday on Zoom: March 12, 19, 26, April 16, 23, 30, May 14, 21, 28, June 11, 18, 25 \nRegistration: This event is available online. Please email Joe Bodoff jbodoff@gmail.com to register and receive the Zoom link. \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
       "url": "https://tbewellesley.org/event/tbe-meditation-group-online/2026-05-28/",
       "start": "2026-05-28T23:30:00.000Z",
       "end": "2026-05-29T00:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/05/Meditation.png",
       "type": "fitness",
-      "id": "6f2560cbd1843c75",
+      "id": "9fcd6d8203b66ad2",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -2945,19 +2941,19 @@
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
-      "description": "Join us for a practice of reading and discussing a page of Talmud a day, led by Rabbi Carol Mitchell. A complete cycle takes seven years! We meet on-line on Friday mornings to study the most interesting and timely Talmud tractates. Daf Yomi is an international practice to read the entire Babylonian Talmud in seven and a half years at the rate of one page a day. Tens of thousands of Jews study Daf Yomi worldwide, all on the same page each day, following a schedule fixed in 1923 in Poland by Rabbi Meir Shapiro, the founder of Daf Yomi, who envisioned the whole world as a vast Talmudic classroom connected by a global network of conversational threads. Learn more Come when you can. Walk ins welcome. Prior registration is not required. If you are interested in learning with us or have questions, please contact Rabbi Carol Mitchell. All are welcome! &nbsp;",
+      "description": "Join us for a practice of reading and discussing a page of Talmud a day, led by Rabbi Carol Mitchell. A complete cycle takes seven years! We meet on-line on Friday mornings to study the most interesting and timely Talmud tractates. \nDaf Yomi is an international practice to read the entire Babylonian Talmud in seven and a half years at the rate of one page a day. Tens of thousands of Jews study Daf Yomi worldwide, all on the same page each day, following a schedule fixed in 1923 in Poland by Rabbi Meir Shapiro, the founder of Daf Yomi, who envisioned the whole world as a vast Talmudic classroom connected by a global network of conversational threads. Learn more \nCome when you can. Walk ins welcome. Prior registration is not required. \nIf you are interested in learning with us or have questions, please contact Rabbi Carol Mitchell. All are welcome! \n ",
       "url": "https://tbewellesley.org/event/adult-talmud-study-daf-yomi-online-2-4-6/2026-05-29/",
       "start": "2026-05-29T13:30:00.000Z",
       "end": "2026-05-29T14:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/06/Daf-Yomi.png",
       "type": "fitness",
-      "id": "88472da4cad5af7e",
+      "id": "d58ac459a7040813",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -3157,8 +3153,8 @@
       "ingestedAt": "2026-05-24T13:22:04.066Z"
     },
     {
-      "title": "Friday Shabbat Service, Confirmation &#038; Honoring Rabbi Ben Rosen (Hybrid)",
-      "description": "Welcome Shabbat with uplifting music, meaningful prayer, and the warmth of community. As we gather in the sanctuary, we create sacred space for connection, reflection, and renewal—walking together on our shared path toward shalom. This evening, we will celebrate our Havayah seniors as they mark the milestone of Confirmation, sharing their voices and receiving the blessings of our community. We will also honor Rabbi Ben Rosen and the meaningful impact he has made through his leadership, care, and presence at TBE. Honor Rabbi Rosen by making a gift to the Youth Engagement Fund. Following services, Confirmation families are invited to continue the celebration with a potluck-style dinner. Click here to share lifecycle updates with the TBE Caring Connections team, letting us know if there is someone in need of a r&#8217;fuah shleimah, a full recovery of body and spirit, or other pastoral care. We would also love to celebrate joyous shehecheyanu moments with you, from the birth of a new baby to a retirement and everything in between. View this week&#8217;s yahrzeits Registration: This event is available in person and online. No registration is required to join us in person. To join us online, please click the purple registration bar above. Once you have registered, your unique access link will be emailed to you.",
+      "title": "Friday Shabbat Service, Confirmation & Honoring Rabbi Ben Rosen (Hybrid)",
+      "description": "Welcome Shabbat with uplifting music, meaningful prayer, and the warmth of community. As we gather in the sanctuary, we create sacred space for connection, reflection, and renewal—walking together on our shared path toward shalom. \nThis evening, we will celebrate our Havayah seniors as they mark the milestone of Confirmation, sharing their voices and receiving the blessings of our community. We will also honor Rabbi Ben Rosen and the meaningful impact he has made through his leadership, care, and presence at TBE. \nHonor Rabbi Rosen by making a gift to the Youth Engagement Fund. \nFollowing services, Confirmation families are invited to continue the celebration with a potluck-style dinner. \nClick here to share lifecycle updates with the TBE Caring Connections team, letting us know if there is someone in need of a r’fuah shleimah, a full recovery of body and spirit, or other pastoral care. We would also love to celebrate joyous shehecheyanu moments with you, from the birth of a new baby to a retirement and everything in between. \nView this week’s yahrzeits \nRegistration: This event is available in person and online. No registration is required to join us in person. To join us online, please click the purple registration bar above. Once you have registered, your unique access link will be emailed to you.",
       "url": "https://tbewellesley.org/event/shabbat-confirmation-rosen/",
       "start": "2026-05-29T22:00:00.000Z",
       "end": "2026-05-29T23:15:00.000Z",
@@ -3166,13 +3162,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2025/10/Friday-Shabbat-Service.png",
       "type": "family",
-      "id": "8b7d9835782fc2ff",
+      "id": "83836312ae8b9729",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -3390,20 +3385,20 @@
       "ingestedAt": "2026-05-24T13:22:04.197Z"
     },
     {
-      "title": "Minyan &amp; Torah Study (Hybrid)",
-      "description": "Gather for minyan, a time of prayer and reflection, followed by Torah study with a member of our clergy. Together, we’ll explore sacred text through deep listening, heartfelt conversation, and shared learning—guiding us on our collective path toward wisdom and shalom—wholeness. Registration: This event is available in person and online. No registration is required to join us in person. If you&#8217;d like to join us online, please click the purple bar above.",
+      "title": "Minyan & Torah Study (Hybrid)",
+      "description": "Gather for minyan, a time of prayer and reflection, followed by Torah study with a member of our clergy. Together, we’ll explore sacred text through deep listening, heartfelt conversation, and shared learning—guiding us on our collective path toward wisdom and shalom—wholeness. \nRegistration: This event is available in person and online. No registration is required to join us in person. If you’d like to join us online, please click the purple bar above.",
       "url": "https://tbewellesley.org/event/minyan-torah-study-hybrid/2026-05-30/",
       "start": "2026-05-30T13:30:00.000Z",
       "end": "2026-05-30T15:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/07/Community-Minyan-Torah-Study.png",
       "type": "other",
-      "id": "345b6c770eae24b9",
+      "id": "cf5ef1da3b0d843e",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -3412,7 +3407,7 @@
     },
     {
       "title": "Shabbat Morning Service (Hybrid)",
-      "description": "Our Shabbat service includes the celebration of the B&#8217;Mitzvah of Solin Meyers. Registration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time. About Solin Hi everyone! My name is Solin, and I&#8217;m a 7th grader at Dover-Sherborn Middle School. My favorite subject in school is math (although recess is definitely the best!). Outside of school, I love spending time with my friends and family—especially playing with my chocolate lab puppy, Vinny. One of my favorite things to do is travel. I love exploring new places, trying new things, and going on exciting adventures. I also enjoy playing sports. Over the years, I&#8217;ve played basketball, volleyball, soccer, and softball. People always ask me which one is my favorite, but I honestly love them all. Being part of a team—supporting each other and bringing out the best in one another—makes me really happy. If you asked the people in my life to describe me, I think they would say I&#8217;m energetic, caring, and competitive. I feel so grateful for my family and friends, who make me excited to wake up each day and see what&#8217;s ahead. For my ma&#8217;asim tovim project, I wanted to focus on something meaningful to me: helping people going through difficult times. After raising nearly $2,000, I started a project called Hope for Healing. With help from the TBE community, I created comfort baskets for kids in the emergency room at local hospitals like Newton-Wellesley. I hope to continue doing projects like this, because it makes me happy to know I can make a difference in someone&#8217;s life. Becoming a bat mitzvah means more to me than just leading a service. It means becoming part of a meaningful tradition and honoring those who came before me. TBE has helped me stay connected to my Jewish identity through its activities and the strong friendships I&#8217;ve built there. I&#8217;m so excited to celebrate this special day with all of you! &nbsp;",
+      "description": "Our Shabbat service includes the celebration of the B’Mitzvah of Solin Meyers.\n \nRegistration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time.\n\n\nAbout Solin\nHi everyone! My name is Solin, and I’m a 7th grader at Dover-Sherborn Middle School. My favorite subject in school is math (although recess is definitely the best!). Outside of school, I love spending time with my friends and family—especially playing with my chocolate lab puppy, Vinny. One of my favorite things to do is travel. I love exploring new places, trying new things, and going on exciting adventures. I also enjoy playing sports. Over the years, I’ve played basketball, volleyball, soccer, and softball. People always ask me which one is my favorite, but I honestly love them all. Being part of a team—supporting each other and bringing out the best in one another—makes me really happy. If you asked the people in my life to describe me, I think they would say I’m energetic, caring, and competitive. I feel so grateful for my family and friends, who make me excited to wake up each day and see what’s ahead.\n\nFor my ma’asim tovim project, I wanted to focus on something meaningful to me: helping people going through difficult times. After raising nearly $2,000, I started a project called Hope for Healing. With help from the TBE community, I created comfort baskets for kids in the emergency room at local hospitals like Newton-Wellesley. I hope to continue doing projects like this, because it makes me happy to know I can make a difference in someone’s life. \nBecoming a bat mitzvah means more to me than just leading a service. It means becoming part of a meaningful tradition and honoring those who came before me. TBE has helped me stay connected to my Jewish identity through its activities and the strong friendships I’ve built there. \nI’m so excited to celebrate this special day with all of you! \n\n\n\n ",
       "url": "https://tbewellesley.org/event/shabbat-morning-service-hybrid-51/",
       "start": "2026-05-30T13:30:00.000Z",
       "end": "2026-05-30T15:00:00.000Z",
@@ -3420,13 +3415,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/08/Shabbat-Morning-Service.png",
       "type": "family",
-      "id": "4e9241f452a8e9b3",
+      "id": "abcbd6cb1aeecbb0",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -3837,7 +3831,7 @@
     },
     {
       "title": "Shabbat Morning Service (Hybrid)",
-      "description": "Our Shabbat service includes the celebration of the B&#8217;Mitzvah of Emma Andler Registration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time. About Emma Hi TBE. My name is Emma Andler and I am very excited to become a bat mitzvah. I am a 7th grader at Dana Hall School where my two favorite subjects are English and Social Studies. I live in Wellesley with my Mom, Elizabeth; my Dad, Rob; my little brother Jack who is ten; my little sister Lily who is six; and our two female guinea pigs, Figgy and Zippy. My grandparents, Susan and Julian Lange, live down the street from me, and we are very close. They are long-time members of TBE and my Mom grew up going to TBE and even used to teach Hebrew School here! Some things I enjoy doing are reading, hanging out with my friends, and playing with my younger siblings. I also love horseback riding, ice skating, and Broadway musicals. Singing and playing the piano are two of my hobbies. I&#8217;ve been in some musicals and even played Anna in Frozen which was all in Hebrew!! I have also helped with costume design in some other productions, including Mean Girls, Jr. and Legally Blonde, Jr. at Dana Hall. I have gone to Grossman Camp for many years and love it there too. I am so grateful to have met so many fantastic people at TBE. I even met some of my best friends here! Leading with kindness is very important to me. Kindness is key when leading if you want a community that accepts and includes people as they are. For my bat mitzvah project, I am serving as a Madricha (teacher&#8217;s aide) for a class of kindergartners and first graders at Kesher Newton and am teaching them Hebrew and Jewish values. Once I have become a bat mitzvah, I hope to continue teaching younger kids about Judaism and life as a Jewish person and I hope to continue to stay involved in the Jewish community as well. &nbsp;",
+      "description": "Our Shabbat service includes the celebration of the B’Mitzvah of Emma Andler \nRegistration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time. \nAbout Emma\nHi TBE. My name is Emma Andler and I am very excited to become a bat mitzvah. I am a 7th grader at Dana Hall School where my two favorite subjects are English and Social Studies. I live in Wellesley with my Mom, Elizabeth; my Dad, Rob; my little brother Jack who is ten; my little sister Lily who is six; and our two female guinea pigs, Figgy and Zippy. My grandparents, Susan and Julian Lange, live down the street from me, and we are very close. They are long-time members of TBE and my Mom grew up going to TBE and even used to teach Hebrew School here! \nSome things I enjoy doing are reading, hanging out with my friends, and playing with my younger siblings. I also love horseback riding, ice skating, and Broadway musicals. Singing and playing the piano are two of my hobbies. I’ve been in some musicals and even played Anna in Frozen which was all in Hebrew!! I have also helped with costume design in some other productions, including Mean Girls, Jr. and Legally Blonde, Jr. at Dana Hall. I have gone to Grossman Camp for many years and love it there too. \nI am so grateful to have met so many fantastic people at TBE. I even met some of my best friends here! \nLeading with kindness is very important to me. Kindness is key when leading if you want a community that accepts and includes people as they are. For my bat mitzvah project, I am serving as a Madricha (teacher’s aide) for a class of kindergartners and first graders at Kesher Newton and am teaching them Hebrew and Jewish values. Once I have become a bat mitzvah, I hope to continue teaching younger kids about Judaism and life as a Jewish person and I hope to continue to stay involved in the Jewish community as well. \n\n\n\n ",
       "url": "https://tbewellesley.org/event/shabbat-morning-service-hybrid-27/",
       "start": "2026-05-30T15:30:00.000Z",
       "end": "2026-05-30T17:00:00.000Z",
@@ -3845,13 +3839,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/08/Shabbat-Morning-Service.png",
       "type": "theater",
-      "id": "b69f5a4c8e8d1346",
+      "id": "10605bc5b95bc791",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -3989,8 +3982,8 @@
       "ingestedAt": "2026-05-24T13:21:39.440Z"
     },
     {
-      "title": "Mincha Ma&#8217;ariv Service (Hybrid)",
-      "description": "Our Mincha Ma&#8217;ariv service includes the celebration of the B&#8217;Mitzvah of Avery and Marin Frieze. Registration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time. About Avery Dear TBE Community, my name is Avery Frieze. I love to play all kinds of sports, including fencing, pickleball, soccer, basketball, flag football, golf and tennis. Sports keep me active, strong and it&#8217;s fun to get to know new people. I am the youngest in my family by a minute. I have two sisters, one is my identical twin and one is my older sister. I have two parents, my mom and dad, and one absolutely adorable dog named Ottie. She is a golden retriever and I love her so much. I am in 7th grade at Carroll School, but next year I will join my sister at Beaver Country Day. I like math the best because it is one of my strengths. I have made one of my closest friends at school through my parents and TBE. I really like going to Rosh Hashana and Yom Kippur services. I love all of the singing and how everyone&#8217;s voices are so good and how everyone is synchronized. I also like the speeches that are low-key funny. Being a leader in my community makes me feel more mature and responsible. Becoming a bat mitzvah means that I am a Jewish adult and I am responsible for living with Jewish values and changing the world by helping people. About Marin Dear TBE Community, my name is Marin Frieze. I am a soccer player and I play for my school, my town and my club. My family is the best. I am an identical twin, I have an older sister, two parents and one dog. Even though I am a twin, I am technically the middle child because I was born one minute ahead of my sister. I go to Beaver Country Day School and I am in the 7th grade. I like visual arts because it&#8217;s a class where we get to make sculptures and have fun. I love hanging out with my friends and playing soccer at recess, and I like math because I think I am good at problem solving. When I think about TBE, I think about my b&#8217;mitzvah tutor, Geoffrey. He is really funny and he has made Hebrew easy and fun to learn. He has been helpful and supportive by making sure I stay on track. I am so excited to be a Jewish adult. This means a lot to me because I get to become a leader in our community and set a good example by being a good student, a person who gives back and someone who stays connected to their Judaism. For my bat mitzvah, I collected clothing to donate to Cradles to Crayons and then went and volunteered to sort clothing and make care packages with outfits for teenage girls. It was fun to create all of the different outfits and package them knowing someone would open them and be happy. I also volunteered delivering food to the elderly with Family Table. &nbsp;",
+      "title": "Mincha Ma'ariv Service (Hybrid)",
+      "description": "Our Mincha Ma’ariv service includes the celebration of the B’Mitzvah of Avery and Marin Frieze. \nRegistration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time. \nAbout Avery\nDear TBE Community, my name is Avery Frieze. I love to play all kinds of sports, including fencing, pickleball, soccer, basketball, flag football, golf and tennis. Sports keep me active, strong and it’s fun to get to know new people. \nI am the youngest in my family by a minute. I have two sisters, one is my identical twin and one is my older sister. I have two parents, my mom and dad, and one absolutely adorable dog named Ottie. She is a golden retriever and I love her so much. \nI am in 7th grade at Carroll School, but next year I will join my sister at Beaver Country Day. I like math the best because it is one of my strengths. \nI have made one of my closest friends at school through my parents and TBE. I really like going to Rosh Hashana and Yom Kippur services. I love all of the singing and how everyone’s voices are so good and how everyone is synchronized. I also like the speeches that are low-key funny. \nBeing a leader in my community makes me feel more mature and responsible. Becoming a bat mitzvah means that I am a Jewish adult and I am responsible for living with Jewish values and changing the world by helping people. \nAbout Marin\nDear TBE Community, my name is Marin Frieze. I am a soccer player and I play for my school, my town and my club. My family is the best. I am an identical twin, I have an older sister, two parents and one dog. Even though I am a twin, I am technically the middle child because I was born one minute ahead of my sister. \nI go to Beaver Country Day School and I am in the 7th grade. I like visual arts because it’s a class where we get to make sculptures and have fun. I love hanging out with my friends and playing soccer at recess, and I like math because I think I am good at problem solving. \nWhen I think about TBE, I think about my b’mitzvah tutor, Geoffrey. He is really funny and he has made Hebrew easy and fun to learn. He has been helpful and supportive by making sure I stay on track. \nI am so excited to be a Jewish adult. This means a lot to me because I get to become a leader in our community and set a good example by being a good student, a person who gives back and someone who stays connected to their Judaism. \nFor my bat mitzvah, I collected clothing to donate to Cradles to Crayons and then went and volunteered to sort clothing and make care packages with outfits for teenage girls. It was fun to create all of the different outfits and package them knowing someone would open them and be happy. I also volunteered delivering food to the elderly with Family Table. \n ",
       "url": "https://tbewellesley.org/event/mincha-maariv-service-hybrid-44/",
       "start": "2026-05-30T20:00:00.000Z",
       "end": "2026-05-30T21:30:00.000Z",
@@ -3998,13 +3991,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/08/Shabbat-Morning-Service.png",
       "type": "theater",
-      "id": "5f42e73381633e36",
+      "id": "81fb75907a1b3620",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4095,19 +4087,19 @@
     },
     {
       "title": "TBE Table (In Person)",
-      "description": "Join TBE Table in providing meals to individuals experiencing food insecurity in our community. Volunteers are needed to shop, get the kitchen ready, prepare the food, cook, pack the meals, and then deliver them to various organizations in our area. To express interest, please click the purple bar above and someone from TBE Table will reach back out to you. TBE Table is a member-driven meal production and distribution program located in the TBE kitchen. Our goal is to produce healthy, delicious meals for those facing food insecurity and to build community while working together towards this important goal. Learn more about TBE Table",
+      "description": "Join TBE Table in providing meals to individuals experiencing food insecurity in our community. Volunteers are needed to shop, get the kitchen ready, prepare the food, cook, pack the meals, and then deliver them to various organizations in our area. \nTo express interest, please click the purple bar above and someone from TBE Table will reach back out to you. \nTBE Table is a member-driven meal production and distribution program located in the TBE kitchen. Our goal is to produce healthy, delicious meals for those facing food insecurity and to build community while working together towards this important goal. Learn more about TBE Table",
       "url": "https://tbewellesley.org/event/tbe-table-in-person-3/",
-      "start": "2026-05-31T04:00:00.000Z",
-      "end": "2026-06-03T03:59:59.000Z",
+      "start": "2026-05-31T00:00:00.000Z",
+      "end": "2026-06-03T00:00:00.000Z",
       "allDay": true,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2024/01/TBE-Table-1.jpg",
       "type": "food-drink",
-      "id": "647711b7ec54f90f",
+      "id": "0e1080ac95b53ab1",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4620,19 +4612,19 @@
     },
     {
       "title": "Birnbaum Memorial Lecture 2026",
-      "description": "Don’t miss the 23rd annual Connie Spear Birnbaum Memorial Lecture featuring Micahel Masters, National Director &amp; CEO of the Secure Community Network (SCN) and former Executive Director of the Department of Homeland Security and Emergency Management for Cook County, Illinois. Registration: For security and planning purposes, advance registration is required for this free event. Click the purple button above to join. TBE is an Organizational Sponsor of this year’s Connie Spear Birnbaum Memorial Lecture.",
+      "description": "Don’t miss the 23rd annual Connie Spear Birnbaum Memorial Lecture featuring Micahel Masters, National Director & CEO of the Secure Community Network (SCN) and former Executive Director of the Department of Homeland Security and Emergency Management for Cook County, Illinois. \nRegistration: For security and planning purposes, advance registration is required for this free event. Click the purple button above to join. \nTBE is an Organizational Sponsor of this year’s Connie Spear Birnbaum Memorial Lecture.",
       "url": "https://tbewellesley.org/event/birnbaum-memorial-lecture-2026/",
       "start": "2026-05-31T23:30:00.000Z",
       "end": "2026-06-01T01:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2024/03/Birnbaum-Foundation.jpg",
       "type": "lecture",
-      "id": "ea91001fb89668f5",
+      "id": "97829e219e23b883",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4682,7 +4674,7 @@
     },
     {
       "title": "TBE Bridge Club (In Person)",
-      "description": "Join fellow TBE members for an afternoon of learning, strategy, and connection through the game of bridge. Couples and singles of all skill levels are welcome, from seasoned players to those just getting started. We meet weekly on Mondays from 1:30–3:30 pm for friendly play and shared enjoyment. New to bridge? We’re happy to help you get started. Once there is sufficient interest, we plan to offer an Introduction to Bridge class on Sunday afternoons at TBE. Please contact the event organizers to be added to the interest list. Registration: This event is available in person. Please contact the event organizers Jeffrey Arnold or Robert Nagle at least 72 hours before the event if you are interested in participating.",
+      "description": "Join fellow TBE members for an afternoon of learning, strategy, and connection through the game of bridge. Couples and singles of all skill levels are welcome, from seasoned players to those just getting started. \nWe meet weekly on Mondays from 1:30–3:30 pm for friendly play and shared enjoyment. \nNew to bridge? We’re happy to help you get started. Once there is sufficient interest, we plan to offer an Introduction to Bridge class on Sunday afternoons at TBE. Please contact the event organizers to be added to the interest list. \nRegistration: This event is available in person. Please contact the event organizers Jeffrey Arnold or Robert Nagle at least 72 hours before the event if you are interested in participating.",
       "url": "https://tbewellesley.org/event/tbe-bridge-club-in-person/2026-06-01/",
       "start": "2026-06-01T17:30:00.000Z",
       "end": "2026-06-01T19:30:00.000Z",
@@ -4690,13 +4682,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2025/04/Screenshot-2025-04-02-at-10.15.07 AM-1.png",
       "type": "theater",
-      "id": "33aa0dbc3e28e2cb",
+      "id": "2009073c11e94cb8",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4725,8 +4716,29 @@
       "ingestedAt": "2026-05-24T13:22:04.197Z"
     },
     {
-      "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
-      "description": "Our open ceramics studio is a space to connect and create in a relaxed and supportive atmosphere. Show up to make and connect alongside friends new and old We’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. Feel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! With your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. Since ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. Dates: April 6, April 13, April 27, May 4, May 11, May 18, June 1, June 8, June 15, June 22 Registration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. Members Fee: Sliding scale of $180 / $270 (suggested) / $360 Non-members Fee: $450 This fee helps us cover the cost of the kiln and materials. Bundled Spring Pass | Both Monday Evening &amp; Wednesday Afternoon Times and dates as listed above. Fee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 This program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
+      "title": "Get Ready for Summer- Whole Week June 1-5",
+      "description": "",
+      "url": "https://www.bostonjcc.org/calendar/get-ready-for-summer-whole-week-june-1-5/2026-06-01/",
+      "start": "2026-06-01T20:00:00.000Z",
+      "end": "2026-06-01T20:00:00.000Z",
+      "location": {
+        "venue": "Outdoor Pool, Leventhal-Sidman JCC",
+        "address": "333 Nahanton Street, Newton, MA",
+        "town": "Newton",
+        "lat": 42.297229,
+        "lon": -71.204043
+      },
+      "type": "other",
+      "id": "d9ee6331e1b3e871",
+      "source": {
+        "id": "jcc-greater-boston",
+        "name": "JCC Greater Boston"
+      },
+      "ingestedAt": "2026-05-24T11:19:57.015Z"
+    },
+    {
+      "title": "Text & Texture Ceramics Open Studios (In Person)",
+      "description": "Our open ceramics studio is a space to connect and create in a relaxed and supportive atmosphere. Show up to make and connect alongside friends new and old \nWe’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. \nFeel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! \nWith your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. \nSince ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. \nDates: April 6, April 13, April 27, May 4, May 11, May 18, June 1, June 8, June 15, June 22 \nRegistration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. \nMembers Fee: Sliding scale of $180 / $270 (suggested) / $360 \nNon-members Fee: $450 \nThis fee helps us cover the cost of the kiln and materials. \nBundled Spring Pass | Both Monday Evening & Wednesday Afternoon \nTimes and dates as listed above. \nFee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
       "url": "https://tbewellesley.org/event/text-texture-ceramics-open-studios-in-person/2026-06-01/",
       "start": "2026-06-01T22:00:00.000Z",
       "end": "2026-06-02T01:00:00.000Z",
@@ -4734,13 +4746,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2023/04/oshin-khandelwal-EQpXnijYejQ-unsplash.jpg",
       "type": "other",
-      "id": "57dd7309b0af6162",
+      "id": "45064f5bdf536f1b",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4768,7 +4779,7 @@
     },
     {
       "title": "TBElle | Laughing Through the Ages: Jewish Humor, Resilience and Survival (Hybrid)",
-      "description": "This engaging course explores how Jewish communities have long turned to humor—rich with wit, irony, and a keen sense of the absurd—as a powerful way to endure hardship and persecution. Through key moments in Jewish history, we’ll discover how laughter has lived alongside suffering, fostering resilience, offering hope, and illuminating the depth and spirit of the Jewish experience. Dates: April 28, May 5, 12, 19, 26, June 2 Join us for one, two, or however many classes you&#8217;d like to participate in! Registration: This event is available in person and online. Please click the appropriate purple bar above to register. This program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
+      "description": "This engaging course explores how Jewish communities have long turned to humor—rich with wit, irony, and a keen sense of the absurd—as a powerful way to endure hardship and persecution. Through key moments in Jewish history, we’ll discover how laughter has lived alongside suffering, fostering resilience, offering hope, and illuminating the depth and spirit of the Jewish experience. \nDates: April 28, May 5, 12, 19, 26, June 2 \nJoin us for one, two, or however many classes you’d like to participate in! \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
       "url": "https://tbewellesley.org/event/tbelle-laughing-through-the-ages-jewish-humor-resilience-and-survival-hybrid-2/2026-06-02/",
       "start": "2026-06-02T14:00:00.000Z",
       "end": "2026-06-02T15:30:00.000Z",
@@ -4776,13 +4787,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/08/CAL_TBELLE_0619-e1627595156229.png",
       "type": "other",
-      "id": "684833dff74b85c9",
+      "id": "4cd01bbf58a019f3",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4790,20 +4800,20 @@
       "ingestedAt": "2026-05-24T13:22:05.462Z"
     },
     {
-      "title": "Lunch &amp; Learn | Meet Spike Kraus: Beyond the Voice",
-      "description": "You’ve seen him. You’ve heard him. Now, meet our Cantorial Soloist, Spike Kraus—in person! Join us for an engaging conversation to learn more from him and about him—his experiences, perspectives, and the stories behind the voice. This is a unique opportunity to connect, ask questions, and get to know Spike beyond what you already know. Registration: This event is available in person and online. Please click the appropriate purple bar above to register. This event is sponsored by Lunch &amp; Learn, a unique learning program led by fellow congregants who are excited to share their knowledge and interests in a relaxed, fun weekday experience.",
+      "title": "Lunch & Learn | Meet Spike Kraus: Beyond the Voice",
+      "description": "You’ve seen him. You’ve heard him. Now, meet our Cantorial Soloist, Spike Kraus—in person! Join us for an engaging conversation to learn more from him and about him—his experiences, perspectives, and the stories behind the voice. This is a unique opportunity to connect, ask questions, and get to know Spike beyond what you already know. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis event is sponsored by Lunch & Learn, a unique learning program led by fellow congregants who are excited to share their knowledge and interests in a relaxed, fun weekday experience.",
       "url": "https://tbewellesley.org/event/lunch-learn-meet-spike-kraus-beyond-the-voice/",
       "start": "2026-06-02T15:30:00.000Z",
       "end": "2026-06-02T16:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/09/Lunch-Learn.png",
       "type": "other",
-      "id": "15ff358c1b4f1d0f",
+      "id": "d7ce8f5d9cdbdfdd",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4811,20 +4821,20 @@
       "ingestedAt": "2026-05-24T13:22:05.462Z"
     },
     {
-      "title": "Lunch &amp; Learn | Intentional Beauty: Jewish Ritual Art from the Collection (Hybrid)",
-      "description": "Join Gloria Fox as she leads us on a visually rich journey through the highlights of the MFA’s Judaica collection, guiding us with a slide presentation that brings these extraordinary treasures to life. Registration: This event is available in person and online. Please click the appropriate purple bar above to register. This event is sponsored by Lunch &amp; Learn, a unique learning program led by fellow congregants who are excited to share their knowledge and interests in a relaxed, fun weekday experience.",
+      "title": "Lunch & Learn | Intentional Beauty: Jewish Ritual Art from the Collection (Hybrid)",
+      "description": "Join Gloria Fox as she leads us on a visually rich journey through the highlights of the MFA’s Judaica collection, guiding us with a slide presentation that brings these extraordinary treasures to life. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis event is sponsored by Lunch & Learn, a unique learning program led by fellow congregants who are excited to share their knowledge and interests in a relaxed, fun weekday experience.",
       "url": "https://tbewellesley.org/event/lunch-learn-intentional-beauty-jewish-ritual-art-from-the-collection-hybrid/",
       "start": "2026-06-02T15:30:00.000Z",
       "end": "2026-06-02T16:30:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/09/Lunch-Learn.png",
       "type": "other",
-      "id": "66231c96ecb59d1a",
+      "id": "f8222cd42a73a7fe",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4833,19 +4843,19 @@
     },
     {
       "title": "TBElle | Dramatic Changes in Christianity’s View of Judaism After the Holocaust (Hybrid)",
-      "description": "In this course, we’ll explore pivotal statements from the Catholic Church and Protestant churches that dramatically reshaped Christianity’s view of Judaism—alongside the Jewish responses to these changes. Together, we’ll consider the lasting impact of these developments and how contemporary issues continue to influence them, including their role in shaping today’s interfaith dialogue. Dates: Tuesdays, May 19, 26, June 2 This course follows a sequential structure, but anyone is welcome to join at any point, or to drop in to any class. If you have questions regarding participation, please contact the program leader. Registration: This event is available in person and online. Please click the appropriate purple bar above to register. This program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
+      "description": "In this course, we’ll explore pivotal statements from the Catholic Church and Protestant churches that dramatically reshaped Christianity’s view of Judaism—alongside the Jewish responses to these changes. Together, we’ll consider the lasting impact of these developments and how contemporary issues continue to influence them, including their role in shaping today’s interfaith dialogue. \nDates: Tuesdays, May 19, 26, June 2 \nThis course follows a sequential structure, but anyone is welcome to join at any point, or to drop in to any class. If you have questions regarding participation, please contact the program leader. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
       "url": "https://tbewellesley.org/event/tbelle-dramatic-changes-in-christianitys-view-of-judaism-after-the-holocaust-hybrid/2026-06-02/",
       "start": "2026-06-02T16:45:00.000Z",
       "end": "2026-06-02T18:00:00.000Z",
       "allDay": false,
       "location": {
+        "venue": "MA",
         "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "lat": 42.2964859,
+        "lon": -71.2925571
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/08/CAL_TBELLE_0619-e1627595156229.png",
       "type": "workshop",
-      "id": "ccf69cbf2b441091",
+      "id": "e3a5077445398315",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -4998,8 +5008,8 @@
       "ingestedAt": "2026-05-24T13:21:59.114Z"
     },
     {
-      "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
-      "description": "We’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. Feel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! With your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. Since ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. Dates: Wednesdays, April 15, 29, May 6, 13, 20, 27, June 3, 10, 17, 24 Registration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. Members Fee: Sliding scale of $180 / $270 (suggested) / $360 | Non-members: Fee: $450 This fee helps us cover the cost of the kiln and materials. Bundled Spring Pass | Both Monday Evening &amp; Wednesday Afternoon Times and dates as listed above. Fee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 This program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
+      "title": "Text & Texture Ceramics Open Studios (In Person)",
+      "description": "We’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. \nFeel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! \nWith your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. \nSince ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. \nDates: Wednesdays, April 15, 29, May 6, 13, 20, 27, June 3, 10, 17, 24 \nRegistration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. \nMembers Fee: Sliding scale of $180 / $270 (suggested) / $360 | Non-members: Fee: $450\nThis fee helps us cover the cost of the kiln and materials. \nBundled Spring Pass | Both Monday Evening & Wednesday Afternoon\nTimes and dates as listed above. \nFee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
       "url": "https://tbewellesley.org/event/text-texture-ceramics-open-studios-in-person-2/2026-06-03/",
       "start": "2026-06-03T15:30:00.000Z",
       "end": "2026-06-03T18:30:00.000Z",
@@ -5007,13 +5017,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2023/04/oshin-khandelwal-EQpXnijYejQ-unsplash.jpg",
       "type": "other",
-      "id": "e1578837f0360028",
+      "id": "b9468e6af41aa73d",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -5082,7 +5091,7 @@
     },
     {
       "title": "Slavery in Massachusetts: Then, and Its Legacy Today (Hybrid)",
-      "description": "Massachusetts is widely celebrated as the heart of the abolitionist movement—but there is a deeper, more complicated story that demands to be told. As we mark our nation&#8217;s 250th anniversary, TBE&#8217;s Racial Justice Initiative invites you to reckon with a history that is rarely acknowledged: the relationship between wealth and bondage in pre-Revolutionary Massachusetts. The Royall House and Slave Quarters in Medford was the plantation home of the Royalls—the largest slaveholding family in the Commonwealth, with at least 60 enslaved men, women, and children—existing in painful tension with Massachusetts&#8217; Revolutionary fervor for freedom from tyranny. Joining us is Dr. Kyera Singleton, Executive Director of the Royall House and Slave Quarters, who will share the stories of those enslaved in the Greater Boston area before Massachusetts&#8217; landmark 1783 court decision to abolish slavery. Dr. Singleton will also illuminate the remarkable resistance and activism of the enslaved and free Black people of that era—stories of courage and dignity that deserve to be heard and honored. This is history that lives in our own backyard, and as a community rooted in the values of justice, tzedakah, and repair, we are called to engage with it fully and honestly. This event is the companion experience to our June 7th tour of Royall House and Slave Quarters. Whether or not you attend that event, all are welcome to join us as we learn from Dr. Kyera Signleton. Registration: This event is available in person and online. Please click the appropriate purple bar above to register. This event is sponsored by the Racial Justice Initiative at TBE, which works to increase our understanding and activism to address ongoing discrimination and inequality. &nbsp;",
+      "description": "Massachusetts is widely celebrated as the heart of the abolitionist movement—but there is a deeper, more complicated story that demands to be told. \nAs we mark our nation’s 250th anniversary, TBE’s Racial Justice Initiative invites you to reckon with a history that is rarely acknowledged: the relationship between wealth and bondage in pre-Revolutionary Massachusetts. The Royall House and Slave Quarters in Medford was the plantation home of the Royalls—the largest slaveholding family in the Commonwealth, with at least 60 enslaved men, women, and children—existing in painful tension with Massachusetts’ Revolutionary fervor for freedom from tyranny. \nJoining us is Dr. Kyera Singleton, Executive Director of the Royall House and Slave Quarters, who will share the stories of those enslaved in the Greater Boston area before Massachusetts’ landmark 1783 court decision to abolish slavery. Dr. Singleton will also illuminate the remarkable resistance and activism of the enslaved and free Black people of that era—stories of courage and dignity that deserve to be heard and honored. \nThis is history that lives in our own backyard, and as a community rooted in the values of justice, tzedakah, and repair, we are called to engage with it fully and honestly. \nThis event is the companion experience to our June 7th tour of Royall House and Slave Quarters. Whether or not you attend that event, all are welcome to join us as we learn from Dr. Kyera Signleton. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis event is sponsored by the Racial Justice Initiative at TBE, which works to increase our understanding and activism to address ongoing discrimination and inequality. \n ",
       "url": "https://tbewellesley.org/event/slavery-in-massachusetts-then-and-its-legacy-today-hybrid/",
       "start": "2026-06-03T23:00:00.000Z",
       "end": "2026-06-04T00:15:00.000Z",
@@ -5090,13 +5099,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2026/04/unnamed-e1777392247227.jpg",
       "type": "family",
-      "id": "c3db18414b719dac",
+      "id": "1c09bba9c78e6fad",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -5166,7 +5174,7 @@
     },
     {
       "title": "Mahjong (In Person)",
-      "description": "Join us for mahjong at TBE on Thursday afternoons! Whether you&#8217;re a seasoned player or have just learned how to play, it’s a wonderful opportunity to make new friends or enjoy a game with familiar faces. Beginners are welcome, though sessions for those who have never played before will resume in the spring. While we’d greatly appreciate it if you could sign up in advance to ensure we have enough mahjong sets and tables for everyone, feel free to drop in if your schedule changes at the last minute. Registration: Email the event organizer, Barbara Marx at barbmarx@gmail.com if you&#8217;d like to join us!",
+      "description": "Join us for mahjong at TBE on Thursday afternoons! Whether you’re a seasoned player or have just learned how to play, it’s a wonderful opportunity to make new friends or enjoy a game with familiar faces. Beginners are welcome, though sessions for those who have never played before will resume in the spring. While we’d greatly appreciate it if you could sign up in advance to ensure we have enough mahjong sets and tables for everyone, feel free to drop in if your schedule changes at the last minute. \nRegistration: Email the event organizer, Barbara Marx at barbmarx@gmail.com if you’d like to join us!",
       "url": "https://tbewellesley.org/event/mahjong-thursday-aftenoons/2026-06-04/",
       "start": "2026-06-04T18:00:00.000Z",
       "end": "2026-06-04T20:00:00.000Z",
@@ -5174,13 +5182,12 @@
       "location": {
         "venue": "Temple Beth Elohim",
         "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
+        "address": "10 Bethel Road, Wellesley, MA, 02081",
         "lat": 42.319317,
         "lon": -71.2523411
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2024/09/Screenshot-2024-09-03-at-2.07.21 PM.png",
       "type": "mahjong",
-      "id": "41f0630dabb2f06d",
+      "id": "2db0c2999bd1c4fa",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -5211,7 +5218,7 @@
     },
     {
       "title": "PrideWellesley 2026 Celebration (Offsite)",
-      "description": "Join TBE and our neighbors at PrideWellesley, the inaugural community LGBTQIA+ pride event for the town. It will be an evening of community, music, lawn games, raffle prizes, and food trucks as we celebrate Pride together. Everyone is welcome, invite your family and friends. Registration: This event is available in person (offsite). Please click the appropriate purple bar above to register. This event is sponsored/hosted by World of Wellesley and UU Wellesley Hills, and cosponsored by Temple Beth Elohim, Wellesley Congregational Village Church, Saint Andrew’s Episcopal Church, The Wellesley Freedom Team, and Eliot Church of South Natick. &nbsp;",
+      "description": "Join TBE and our neighbors at PrideWellesley, the inaugural community LGBTQIA+ pride event for the town. It will be an evening of community, music, lawn games, raffle prizes, and food trucks as we celebrate Pride together. Everyone is welcome, invite your family and friends. \nRegistration: This event is available in person (offsite). Please click the appropriate purple bar above to register. \nThis event is sponsored/hosted by World of Wellesley and UU Wellesley Hills, and cosponsored by Temple Beth Elohim, Wellesley Congregational Village Church, Saint Andrew’s Episcopal Church, The Wellesley Freedom Team, and Eliot Church of South Natick. \n ",
       "url": "https://tbewellesley.org/event/2026-pridewellesley-celebration-offsite/",
       "start": "2026-06-04T21:00:00.000Z",
       "end": "2026-06-04T23:00:00.000Z",
@@ -5219,13 +5226,12 @@
       "location": {
         "venue": "UU Wellesley Hills",
         "town": "Wellesley",
-        "address": "309 Washington Street, Wellesley, MA",
+        "address": "309 Washington Street, Wellesley, MA, 02481, United States",
         "lat": 42.3118825,
         "lon": -71.2758376
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2026/05/pride_wellesley_logo.jpeg",
       "type": "family",
-      "id": "40922ebe9ff2f360",
+      "id": "14f2d84ee5eba215",
       "source": {
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
@@ -8771,23 +8777,23 @@
       "ingestedAt": "2026-05-24T13:22:02.777Z"
     },
     {
-      "title": "&#8220;People&#8221;hood of the Book (Online)",
-      "description": "Join Rabbi Jordy Callman for a summer reading series that brings fresh, vibrant voices to the table. Together, we&#8217;ll journey through three novels by Jewish authors—all published within the last year—each one illuminating a different facet of Jewish identity, memory, and belonging. Come for one session or all three. Every gathering stands on its own. July 9 — This Is Not About Us by Allegra Goodman July 16 — The Spoon and the Sea by Rachel Caplin July 23 — Sisters of Fortune by Esther Chehebar No homework required—just an open mind, a love of story, and curiosity about what it means to be part of this remarkable people. Each course in this sequence is stand-alone, meaning you can attend as many or as few as you prefer! Feel free to join us for any session that interests you. If you have any questions about participating, please contact the program leader. Registration: This event is available online. Please click the appropriate purple bar above to register. This event is a part of Summer Institute 2026: Stories That Shape Us, a month of immersive experiences centered on the creation of our community Torah scroll, Scribing Our Story. Offerings include hands-on workshops, text study, and conversations with educators and clergy. Engage at TBE, online, and beyond our walls, while deepening your connection to Jewish tradition and discovering your place in the Jewish story! Click here to view a list of all Summer Institute programs. We are deeply grateful to the family of Burton D. &#8220;Bud&#8221; Rose, M.D., who has underwritten the Summer Institute in loving memory of Bud, who was a lifelong teacher, learner, and lover of Jewish community.",
-      "url": "https://tbewellesley.org/event/peoplehood-of-the-book-online/2026-07-09/",
-      "start": "2026-07-09T23:30:00.000Z",
-      "end": "2026-07-10T01:00:00.000Z",
-      "allDay": false,
+      "title": "Animals - The Maroon 5 Tribute!",
+      "description": "Animals - The Maroon 5 Tribute Come join us for a wild night at the Thomas E. Tidman Amphitheater at NARA Park! We'll be...",
+      "url": "https://patch.com/massachusetts/acton/calendar/event/20260710/73cb322a-6949-46da-811d-8dbc4b0f5836/animals-the-maroon-5-tribute",
+      "start": "2026-07-11T00:00:00.000Z",
       "location": {
-        "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
+        "venue": "NARA Park",
+        "town": "Acton",
+        "address": "25 Ledge Rock Way, Acton, MA",
+        "lat": 42.5154653,
+        "lon": -71.4112856
       },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2025/06/People-of-the-book.jpg",
-      "type": "workshop",
-      "id": "0adadfe78ef8f196",
+      "imageUrl": "https://patch.com/img/cdn20/users/897876/20260514/114558/animals-maroon-5-tribute-square___14114557329.jpg",
+      "type": "other",
+      "id": "c3423566c1a5148e",
       "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
+        "id": "patch-acton",
+        "name": "Acton Patch - Calendar"
       },
       "ingestedAt": "2026-05-24T13:22:06.514Z"
     },
