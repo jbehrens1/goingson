@@ -1605,5 +1605,22 @@
     "lat": null,
     "lon": null,
     "fetchedAt": "2026-05-24T13:32:40.211Z"
+  },
+  "outercape::6 highland light road, north truro ma 02652": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T13:43:07.776Z"
+  },
+  "outercape::highland house museum, truro": {
+    "lat": 42.0388787,
+    "lon": -70.0648682,
+    "displayName": "Highland House Museum, 6, Highland Light Road, Truro, Barnstable County, Massachusetts, 02652, United States",
+    "fetchedAt": "2026-05-24T13:43:08.472Z"
+  },
+  "outercape::5 standish way north truro ma 02652": {
+    "lat": 42.0374217,
+    "lon": -70.088689,
+    "displayName": "5, Standish Way, North Truro, Truro, Barnstable County, Massachusetts, 02652, United States",
+    "fetchedAt": "2026-05-24T13:43:09.635Z"
   }
 }
