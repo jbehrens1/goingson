@@ -70,9 +70,9 @@
     {
       "id": "truro-historical",
       "name": "Truro Historical Society / Highland House Museum",
-      "enabled": false,
+      "enabled": true,
       "adapter": "html-generic",
-      "url": "https://trurohistorical.org/events/",
+      "url": "https://trurohistoricalsociety.org/events/",
       "category": "Venue / Museum",
       "town": "Truro",
       "notes": "WordPress + Modern Events Calendar (MEC) plugin. Would need wordpress-mec adapter (same pattern needed for Framingham History Center in MetroWest)."
