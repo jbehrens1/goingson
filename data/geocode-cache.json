@@ -1527,5 +1527,38 @@
     "lon": -70.0300536,
     "displayName": "250, Commercial Street, Mayo Beach, Wellfleet, Barnstable County, Massachusetts, 02667, United States",
     "fetchedAt": "2026-05-23T17:18:04.354Z"
+  },
+  "outercape::335 main st, wellfleet, ma 02667, usa": {
+    "lat": 41.9385095,
+    "lon": -70.0324086,
+    "displayName": "Wellfleet Preservation Hall, 335, Main Street, Mayo Beach, Wellfleet, Barnstable County, Massachusetts, 02667, United States",
+    "fetchedAt": "2026-05-24T01:03:06.949Z"
+  },
+  "the old manse (trustees), concord": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T01:03:07.785Z"
+  },
+  "concord": {
+    "lat": 43.207178,
+    "lon": -71.537476,
+    "displayName": "Concord, Merrimack County, New Hampshire, United States",
+    "fetchedAt": "2026-05-24T01:03:08.769Z"
+  },
+  "crane beach on the crane estate (trustees), ipswich": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T01:03:09.962Z"
+  },
+  "crane wildlife refuge on the crane estate (trustees), essex": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T01:03:11.152Z"
+  },
+  "essex": {
+    "lat": 51.7704679,
+    "lon": 0.4646698,
+    "displayName": "Essex, England, United Kingdom",
+    "fetchedAt": "2026-05-24T01:03:12.186Z"
   }
 }

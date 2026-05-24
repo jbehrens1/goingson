@@ -2,8 +2,15 @@ import nodeIcal from "node-ical";
 import type { Adapter, AdapterResult } from "../types";
 import { buildEvent, politeFetch, toIsoOrUndefined } from "../util";
 
+type IcalConfig = {
+  /** Fallback venue name when an event has no LOCATION field — covers cases
+   *  like Tockify-hosted iCals where ~15% of events ship with no location. */
+  defaultVenue?: string;
+};
+
 export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
   const warnings: string[] = [];
+  const cfg = (source.config ?? {}) as IcalConfig;
   const res = await politeFetch(source.url);
   if (!res.ok) {
     return { events: [], warnings: [`HTTP ${res.status} fetching ${source.url}`] };
@@ -27,6 +34,8 @@ export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> =
       }
       const url = (typeof vev.url === "string" ? vev.url : undefined) ?? source.url;
       const naturalKey = vev.uid ?? `${vev.summary}::${start}`;
+      const venue =
+        (vev.location && String(vev.location).trim()) || cfg.defaultVenue || undefined;
       return buildEvent(source, {
         naturalKey,
         title: String(vev.summary ?? "Untitled event"),
@@ -35,8 +44,8 @@ export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> =
         start,
         end: toIsoOrUndefined(vev.end),
         allDay: vev.datetype === "date",
-        location: vev.location
-          ? { venue: String(vev.location), town: source.town }
+        location: venue
+          ? { venue, town: source.town }
           : source.town
             ? { town: source.town }
             : undefined,

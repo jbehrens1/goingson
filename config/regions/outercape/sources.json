@@ -109,13 +109,12 @@
       "id": "wellfleet-preservation-hall",
       "name": "Wellfleet Preservation Hall",
       "enabled": true,
-      "adapter": "squarespace-events",
-      "url": "https://wellfleetpreservationhall.org/",
+      "adapter": "ical",
+      "url": "https://tockify.com/api/feeds/ics/prezhall",
       "category": "Venue",
       "town": "Wellfleet",
-      "notes": "Squarespace; events posted to /programs/ collection.",
+      "notes": "Squarespace site (www.wellfleetpreservationhall.org) embeds a Tockify calendar (slug: prezhall) instead of using the native Squarespace events collection. Tockify exposes an iCalendar feed at /api/feeds/ics/<slug> — pulls ~550 events directly.",
       "config": {
-        "path": "/programs/",
         "defaultVenue": "Wellfleet Preservation Hall"
       }
     },
