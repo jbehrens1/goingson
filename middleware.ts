@@ -11,6 +11,16 @@ const isProtectedRoute = createRouteMatcher([
   "/api/sources(.*)",
   "/api/admin(.*)",
   "/api/suggest(.*)",
+  "/api/account(.*)",
+  "/api/newsletter(.*)",
+]);
+
+// Endpoints that must remain public for third-party callers (Resend webhook,
+// Vercel Cron, and one-click unsubscribe from email clients).
+const isAlwaysPublic = createRouteMatcher([
+  "/api/webhooks/(.*)",
+  "/api/cron/(.*)",
+  "/api/unsubscribe(.*)",
 ]);
 
 const clerkConfigured = Boolean(
@@ -24,6 +34,12 @@ const clerkAware = clerkMiddleware(async (auth, req) => {
 });
 
 export default function middleware(req: NextRequest, evt: Parameters<typeof clerkAware>[1]) {
+  // Webhooks + cron + email unsubscribe links: skip Clerk entirely. They
+  // authenticate via their own signatures / tokens / shared secrets and
+  // are called by external services that won't have Clerk session cookies.
+  if (isAlwaysPublic(req)) {
+    return NextResponse.next();
+  }
   // No Clerk env vars yet? Skip auth entirely so the site still renders.
   // Protected routes will 503 instead of crashing the middleware.
   if (!clerkConfigured) {

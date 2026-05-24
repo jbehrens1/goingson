@@ -10,3 +10,9 @@ out/
 next-env.d.ts.bak
 .tsbuildinfo
 *.tsbuildinfo
+
+# Newsletter delivery log — written by /api/webhooks/resend on every Resend
+# event. Lives in /public for the cron to commit later if desired, but we
+# gitignore it for now to keep the repo small. If you want historical
+# analytics, remove this line.
+public/newsletter-events.jsonl

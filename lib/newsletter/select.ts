@@ -1,0 +1,114 @@
+// Given a user's prefs and the events for their region, returns the set of
+// events to include in the next digest: matched (passes filters) + surprises
+// (intentionally outside filters, picked randomly with anti-repeat logic).
+
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import { haversineMiles } from "../towns";
+import type { EventRecord } from "../types";
+import type { NewsletterPrefs } from "./types";
+import { SURPRISE_K } from "./types";
+
+export type DigestSelection = {
+  matched: EventRecord[];
+  surprises: EventRecord[];
+  /** Window the digest covers, in ISO date strings. */
+  windowStart: string;
+  windowEnd: string;
+};
+
+const DAY_MS = 86_400_000;
+
+/**
+ * Load events for a region from public/events.<region>.json.
+ * Called per-cron-tick rather than per-user so we hit disk once.
+ */
+export async function loadRegionEvents(
+  rootDir: string,
+  regionId: string,
+): Promise<EventRecord[]> {
+  const file = path.join(rootDir, "public", `events.${regionId}.json`);
+  const raw = await readFile(file, "utf8");
+  const parsed = JSON.parse(raw) as { events: EventRecord[] };
+  return parsed.events;
+}
+
+/**
+ * Filter + pick events for one user's digest.
+ *
+ *  - Daily digests: events starting in the next 24 hours
+ *  - Weekly digests: events starting in the next 7 days
+ *  - Cap matched at 50 (daily) / 75 (weekly) to keep emails readable
+ *  - Surprise events come from outside the user's type/venue/distance
+ *    filters; their count is determined by prefs.surprise
+ *  - We avoid showing the same surprise twice within prefs.surpriseHistory
+ */
+export function selectDigest(
+  events: EventRecord[],
+  prefs: NewsletterPrefs,
+  now: Date = new Date(),
+): DigestSelection {
+  const horizonDays = prefs.schedule === "daily" ? 1 : 7;
+  const windowStart = new Date(now.getTime());
+  const windowEnd = new Date(now.getTime() + horizonDays * DAY_MS);
+
+  const inWindow = events.filter((ev) => {
+    const ts = new Date(ev.start).getTime();
+    return ts >= windowStart.getTime() && ts <= windowEnd.getTime();
+  });
+
+  function passesUserFilters(ev: EventRecord): boolean {
+    if (prefs.types.length > 0 && !prefs.types.includes(ev.type)) return false;
+    if (prefs.venues.length > 0) {
+      const v = ev.location?.venue?.trim() ?? "";
+      if (!prefs.venues.includes(v)) return false;
+    }
+    if (prefs.center && prefs.radiusMi != null && prefs.radiusMi > 0) {
+      const lat = ev.location?.lat;
+      const lon = ev.location?.lon;
+      if (lat == null || lon == null) return false;
+      const d = haversineMiles(
+        { lat: prefs.center.lat, lon: prefs.center.lon },
+        { lat, lon },
+      );
+      if (d > prefs.radiusMi) return false;
+    }
+    return true;
+  }
+
+  const matched = inWindow
+    .filter(passesUserFilters)
+    .sort((a, b) => a.start.localeCompare(b.start))
+    .slice(0, prefs.schedule === "daily" ? 50 : 75);
+
+  // Surprise pool: in-window events that DID NOT match the user's filters,
+  // and weren't shown as a surprise within the recent history.
+  const recentHistory = new Set(prefs.surpriseHistory ?? []);
+  const surprisePool = inWindow.filter(
+    (ev) => !passesUserFilters(ev) && !recentHistory.has(ev.id),
+  );
+
+  const k = SURPRISE_K[prefs.surprise];
+  const surprises = pickRandom(surprisePool, k).sort((a, b) =>
+    a.start.localeCompare(b.start),
+  );
+
+  return {
+    matched,
+    surprises,
+    windowStart: windowStart.toISOString(),
+    windowEnd: windowEnd.toISOString(),
+  };
+}
+
+/** Fisher–Yates partial shuffle → take K. */
+function pickRandom<T>(arr: T[], k: number): T[] {
+  if (k <= 0 || arr.length === 0) return [];
+  const n = Math.min(k, arr.length);
+  const copy = [...arr];
+  for (let i = 0; i < n; i++) {
+    const j = i + Math.floor(Math.random() * (copy.length - i));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy.slice(0, n);
+}

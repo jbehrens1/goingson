@@ -36,6 +36,7 @@ export async function SiteHeader() {
         <div className="site-header-links">
           <Link href="/sources">Sources</Link>
           <Link href="/suggest">Suggest a venue</Link>
+          {userId && <Link href="/account">Newsletter</Link>}
           {isAdmin && (
             <Link href="/sources/pending">
               Pending{pendingCount > 0 && <span className="header-badge">{pendingCount}</span>}
