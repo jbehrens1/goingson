@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { EVENT_TYPES, TYPE_LABELS } from "@/lib/categorize";
 import { haversineMiles } from "@/lib/towns";
 import type { EventRecord } from "@/lib/types";
@@ -846,6 +846,7 @@ function MultiSelectPicker({
   options: MultiSelectOption[];
 }) {
   const [query, setQuery] = useState("");
+  const detailsRef = useRef<HTMLDetailsElement>(null);
   const visible = query
     ? options.filter((o) => o.label.toLowerCase().includes(query.toLowerCase()))
     : options;
@@ -856,6 +857,30 @@ function MultiSelectPicker({
     else next.add(key);
     onChange(next);
   }
+
+  // Close the popover when the user clicks anywhere outside of it. Clicks
+  // INSIDE — including on a checkbox row — leave it open so multiple options
+  // can be toggled. Also close on Escape, standard popover convention.
+  useEffect(() => {
+    function onDocClick(e: MouseEvent) {
+      const el = detailsRef.current;
+      if (!el || !el.open) return;
+      if (e.target instanceof Node && !el.contains(e.target)) {
+        el.open = false;
+      }
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape" && detailsRef.current?.open) {
+        detailsRef.current.open = false;
+      }
+    }
+    document.addEventListener("mousedown", onDocClick);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDocClick);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, []);
 
   const summary =
     selected.size === 0
@@ -870,7 +895,7 @@ function MultiSelectPicker({
         : `${selected.size} ${label}`;
 
   return (
-    <details className="col-multi">
+    <details className="col-multi" ref={detailsRef}>
       <summary>
         <span className="col-multi-summary">{summary}</span>
         {selected.size > 0 && (
