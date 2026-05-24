@@ -2,7 +2,13 @@
 
 import { useMemo, useState, useTransition } from "react";
 import { TYPE_LABELS, type EventType } from "@/lib/categorize";
-import type { NewsletterPrefs, Schedule, SurpriseLevel } from "@/lib/newsletter/types";
+import {
+  LOOKAHEAD_MAX,
+  LOOKAHEAD_MIN,
+  type NewsletterPrefs,
+  type Schedule,
+  type SurpriseLevel,
+} from "@/lib/newsletter/types";
 import { MultiSelectPicker } from "../_components/MultiSelectPicker";
 
 type Props = {
@@ -182,6 +188,25 @@ export function AccountPrefs({
               <option value="daily">Daily (every morning)</option>
               <option value="weekly">Weekly (Friday morning)</option>
             </select>
+          </label>
+
+          <label>
+            <span>Look ahead (days)</span>
+            <input
+              type="number"
+              min={LOOKAHEAD_MIN}
+              max={LOOKAHEAD_MAX}
+              step={1}
+              value={prefs.lookaheadDays}
+              onChange={(e) => {
+                const n = Math.round(Number(e.target.value));
+                if (!Number.isFinite(n)) return;
+                patch({
+                  lookaheadDays: Math.max(LOOKAHEAD_MIN, Math.min(LOOKAHEAD_MAX, n)),
+                });
+              }}
+              title="How many days of upcoming events each digest covers (1–30)"
+            />
           </label>
 
           <label>

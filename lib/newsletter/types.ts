@@ -15,6 +15,12 @@ export type NewsletterPrefs = {
   /** Which region's events the digest pulls from. */
   region: string;
   schedule: Schedule;
+  /**
+   * How many days of upcoming events each digest covers. Independent from
+   * `schedule` — e.g. a daily-frequency subscriber can still preview the
+   * whole next week each morning. Default 7. Allowed range 1–30.
+   */
+  lookaheadDays: number;
   /** Event types the user wants. Empty = all. */
   types: EventType[];
   /** Venue names the user wants. Empty = all. */
@@ -35,10 +41,14 @@ export const DEFAULT_PREFS: NewsletterPrefs = {
   subscribed: false,
   region: "metrowest",
   schedule: "weekly",
+  lookaheadDays: 7,
   types: [],
   venues: [],
   surprise: "sometimes",
 };
+
+export const LOOKAHEAD_MIN = 1;
+export const LOOKAHEAD_MAX = 30;
 
 /** How many surprise events to include based on the level. */
 export const SURPRISE_K: Record<SurpriseLevel, number> = {

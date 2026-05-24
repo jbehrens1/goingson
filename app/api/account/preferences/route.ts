@@ -3,7 +3,13 @@ import { auth } from "@clerk/nextjs/server";
 import { getPrefsForUserId, savePrefsForUserId } from "@/lib/newsletter/prefs";
 import { listRegions } from "@/lib/sources-config";
 import { EVENT_TYPES, type EventType } from "@/lib/categorize";
-import type { NewsletterPrefs, Schedule, SurpriseLevel } from "@/lib/newsletter/types";
+import {
+  LOOKAHEAD_MAX,
+  LOOKAHEAD_MIN,
+  type NewsletterPrefs,
+  type Schedule,
+  type SurpriseLevel,
+} from "@/lib/newsletter/types";
 
 export const runtime = "nodejs";
 
@@ -45,6 +51,19 @@ export async function POST(req: Request) {
       { ok: false, error: "schedule must be daily or weekly" },
       { status: 400 },
     );
+  }
+  if (typeof body.lookaheadDays === "number") {
+    const n = Math.round(body.lookaheadDays);
+    if (n < LOOKAHEAD_MIN || n > LOOKAHEAD_MAX) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: `lookaheadDays must be between ${LOOKAHEAD_MIN} and ${LOOKAHEAD_MAX}`,
+        },
+        { status: 400 },
+      );
+    }
+    patch.lookaheadDays = n;
   }
   if (Array.isArray(body.types)) {
     const valid = (EVENT_TYPES as readonly string[]).slice();

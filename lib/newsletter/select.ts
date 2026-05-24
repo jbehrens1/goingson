@@ -36,19 +36,20 @@ export async function loadRegionEvents(
 /**
  * Filter + pick events for one user's digest.
  *
- *  - Daily digests: events starting in the next 24 hours
- *  - Weekly digests: events starting in the next 7 days
- *  - Cap matched at 50 (daily) / 75 (weekly) to keep emails readable
+ *  - Lookahead window is the user's `lookaheadDays` pref (default 7, range 1-30).
+ *  - Cap matched at 50 (daily schedule) / 100 (weekly schedule) to keep emails
+ *    readable — the schedule, not the window, controls density.
  *  - Surprise events come from outside the user's type/venue/distance
- *    filters; their count is determined by prefs.surprise
- *  - We avoid showing the same surprise twice within prefs.surpriseHistory
+ *    filters; their count is determined by prefs.surprise.
+ *  - We avoid showing the same surprise twice within prefs.surpriseHistory.
  */
 export function selectDigest(
   events: EventRecord[],
   prefs: NewsletterPrefs,
   now: Date = new Date(),
 ): DigestSelection {
-  const horizonDays = prefs.schedule === "daily" ? 1 : 7;
+  // Honor the user's window; clamp to a sane range in case stored pref is bad.
+  const horizonDays = Math.min(30, Math.max(1, prefs.lookaheadDays ?? 7));
   const windowStart = new Date(now.getTime());
   const windowEnd = new Date(now.getTime() + horizonDays * DAY_MS);
 
@@ -79,7 +80,7 @@ export function selectDigest(
   const matched = inWindow
     .filter(passesUserFilters)
     .sort((a, b) => a.start.localeCompare(b.start))
-    .slice(0, prefs.schedule === "daily" ? 50 : 75);
+    .slice(0, prefs.schedule === "daily" ? 50 : 100);
 
   // Surprise pool: in-window events that DID NOT match the user's filters,
   // and weren't shown as a surprise within the recent history.
