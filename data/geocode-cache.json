@@ -1566,5 +1566,50 @@
     "lon": -71.4117349,
     "displayName": "62, Morse Road, North Sudbury, Sudbury, Middlesex County, Massachusetts, 01776, United States",
     "fetchedAt": "2026-05-24T01:14:47.677Z"
+  },
+  "metrowest::ma, wellesley": {
+    "lat": 42.2964859,
+    "lon": -71.2925571,
+    "displayName": "Wellesley, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-24T11:20:01.990Z"
+  },
+  "naumkeag (trustees), stockbridge": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T11:20:03.119Z"
+  },
+  "stockbridge": {
+    "lat": 42.282398,
+    "lon": -73.3123684,
+    "displayName": "Stockbridge, Berkshire County, Massachusetts, United States",
+    "fetchedAt": "2026-05-24T11:20:04.217Z"
+  },
+  "metrowest::10 bethel road, wellesley, ma, 02081": {
+    "lat": 42.319317,
+    "lon": -71.2523411,
+    "displayName": "10, Bethel Road, Wellesley Lower Falls, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-24T11:20:05.397Z"
+  },
+  "metrowest::4 jersey street, boston, ma, 02215": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T11:20:06.725Z"
+  },
+  "metrowest::fenway park, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T11:20:07.517Z"
+  },
+  "metrowest::309 washington street, wellesley, ma, 02481, united states": {
+    "lat": 42.3118825,
+    "lon": -71.2758376,
+    "displayName": "Unitarian Universalist Society of Wellesley Hills, 309, Washington Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-24T11:20:08.808Z"
+  },
+  "metrowest::80 dudley rd, framingham, ma": {
+    "lat": 42.2846033,
+    "lon": -71.4339108,
+    "displayName": "80, Dudley Road, Coburnville, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
+    "fetchedAt": "2026-05-24T11:20:09.697Z"
   }
 }

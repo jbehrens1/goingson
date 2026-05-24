@@ -689,11 +689,11 @@
       "id": "tbe-wellesley",
       "name": "Temple Beth Elohim Wellesley",
       "enabled": true,
-      "adapter": "wordpress-tribe",
-      "url": "https://tbewellesley.org/",
+      "adapter": "ical",
+      "url": "https://tbewellesley.org/events/?ical=1",
       "category": "Venue / Religious",
       "town": "Wellesley",
-      "notes": "Reform synagogue in Wellesley running WordPress + The Events Calendar (Tribe) plugin. Tribe REST API is fully open (287 events), iCal feed at /events/?ical=1 also works. Use the wordpress-tribe adapter."
+      "notes": "Reform synagogue in Wellesley running WordPress + The Events Calendar (Tribe) plugin. Tribe REST API is fully open (287 events), iCal feed at /events/?ical=1 also works. Use the wordpress-tribe adapter.\n[auto-fix 2026-05-24] iCal feed at /events/?ical=1 yields 30 events."
     }
   ]
 }
