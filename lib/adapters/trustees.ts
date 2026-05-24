@@ -39,11 +39,14 @@ type TrusteesConfig = {
   venueGroupLabel?: string;
 };
 
-export const trusteesAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
+export const trusteesAdapter: Adapter = async ({
+  source,
+  regionId,
+}): Promise<AdapterResult> => {
   const warnings: string[] = [];
   const tz = (() => {
     try {
-      return loadRegion().config.timeZone;
+      return loadRegion(process.cwd(), regionId).config.timeZone;
     } catch {
       return "America/New_York";
     }

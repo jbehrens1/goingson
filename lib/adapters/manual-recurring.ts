@@ -80,11 +80,14 @@ function ymd(d: Date): string {
   return `${y}-${m}-${day}`;
 }
 
-export const manualRecurringAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
+export const manualRecurringAdapter: Adapter = async ({
+  source,
+  regionId,
+}): Promise<AdapterResult> => {
   const warnings: string[] = [];
   const region = (() => {
     try {
-      return loadRegion();
+      return loadRegion(process.cwd(), regionId);
     } catch {
       return null;
     }

@@ -1622,5 +1622,44 @@
     "lon": -70.088689,
     "displayName": "5, Standish Way, North Truro, Truro, Barnstable County, Massachusetts, 02652, United States",
     "fetchedAt": "2026-05-24T13:43:09.635Z"
+  },
+  "lbi::joe pop's shore bar, ship bottom": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T21:33:54.689Z"
+  },
+  "lbi::bird & betty's, beach haven": {
+    "lat": 39.5663902,
+    "lon": -74.2443241,
+    "displayName": "Bird & Betty's, 529, Dock Road, Beach Haven, Ocean County, New Jersey, 08008, United States",
+    "fetchedAt": "2026-05-24T21:33:55.561Z"
+  },
+  "metrowest::ma, wellesley": {
+    "lat": 42.2964859,
+    "lon": -71.2925571,
+    "displayName": "Wellesley, Norfolk County, Massachusetts, United States",
+    "fetchedAt": "2026-05-24T21:34:51.564Z"
+  },
+  "metrowest::10 bethel road, wellesley, ma, 02081": {
+    "lat": 42.319317,
+    "lon": -71.2523411,
+    "displayName": "10, Bethel Road, Wellesley Lower Falls, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-24T21:34:52.700Z"
+  },
+  "metrowest::4 jersey street, boston, ma, 02215": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T21:34:53.781Z"
+  },
+  "metrowest::fenway park, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T21:34:54.750Z"
+  },
+  "metrowest::309 washington street, wellesley, ma, 02481, united states": {
+    "lat": 42.3118825,
+    "lon": -71.2758376,
+    "displayName": "Unitarian Universalist Society of Wellesley Hills, 309, Washington Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
+    "fetchedAt": "2026-05-24T21:34:56.011Z"
   }
 }

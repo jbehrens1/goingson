@@ -1,0 +1,27 @@
+{
+  "id": "lbi",
+  "displayName": "LBI",
+  "tagline": "Events on Long Beach Island, NJ — from Barnegat Light south to Holgate.",
+  "defaultCenter": {
+    "label": "Ship Bottom, NJ",
+    "lat": 39.6428,
+    "lon": -74.1842
+  },
+  "defaultRadiusMi": 8,
+  "timeZone": "America/New_York",
+  "locale": "en-US",
+  "language": "en",
+  "boundingBox": {
+    "minLat": 39.53,
+    "maxLat": 39.78,
+    "minLon": -74.32,
+    "maxLon": -74.05
+  },
+  "centerSuggestions": [
+    "Ship Bottom, NJ",
+    "Beach Haven, NJ",
+    "Surf City, NJ",
+    "Harvey Cedars, NJ",
+    "Barnegat Light, NJ"
+  ]
+}

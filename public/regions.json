@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-24T11:20:37.822Z",
+  "generatedAt": "2026-05-24T21:38:40.788Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
       "id": "metrowest",
-      "displayName": "MetroWest Events",
+      "displayName": "MetroWest",
       "tagline": "Aggregated events from MetroWest Boston venues, towns, and calendars.",
       "defaultCenter": {
         "label": "Framingham, MA",
@@ -25,13 +25,37 @@
         "Marlborough, MA",
         "Concord, MA"
       ],
-      "eventCount": 465,
+      "eventCount": 467,
       "eventsPath": "/events.metrowest.json",
-      "generatedAt": "2026-05-24T11:20:09.769Z"
+      "generatedAt": "2026-05-24T21:38:31.548Z"
+    },
+    {
+      "id": "lbi",
+      "displayName": "LBI",
+      "tagline": "Events on Long Beach Island, NJ — from Barnegat Light south to Holgate.",
+      "defaultCenter": {
+        "label": "Ship Bottom, NJ",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "defaultRadiusMi": 8,
+      "timeZone": "America/New_York",
+      "locale": "en-US",
+      "language": "en",
+      "centerSuggestions": [
+        "Ship Bottom, NJ",
+        "Beach Haven, NJ",
+        "Surf City, NJ",
+        "Harvey Cedars, NJ",
+        "Barnegat Light, NJ"
+      ],
+      "eventCount": 265,
+      "eventsPath": "/events.lbi.json",
+      "generatedAt": "2026-05-24T21:38:32.115Z"
     },
     {
       "id": "outercape",
-      "displayName": "Outer Cape Events",
+      "displayName": "Outer Cape",
       "tagline": "Events from Wellfleet, Provincetown, Truro, Eastham, and Orleans.",
       "defaultCenter": {
         "label": "Provincetown, MA",
@@ -49,9 +73,9 @@
         "Eastham, MA",
         "Orleans, MA"
       ],
-      "eventCount": 1115,
+      "eventCount": 1202,
       "eventsPath": "/events.outercape.json",
-      "generatedAt": "2026-05-24T11:20:37.822Z"
+      "generatedAt": "2026-05-24T21:38:40.788Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T11:20:37.822Z",
+  "generatedAt": "2026-05-24T21:38:40.791Z",
   "sources": {
     "metrowest:pac-metrowest": {
       "count": 0,
@@ -13,33 +13,6 @@
       "warnings": [],
       "probe": {
         "candidates": []
-      }
-    },
-    "metrowest:tbe-wellesley": {
-      "count": 30,
-      "warnings": [],
-      "probe": {
-        "candidates": [
-          {
-            "confidence": "high",
-            "verifiedCount": 30,
-            "adapter": "ical",
-            "url": "https://tbewellesley.org/events/?ical=1",
-            "evidence": "iCal feed at /events/?ical=1 yields 30 events."
-          }
-        ],
-        "autoApplied": {
-          "from": {
-            "adapter": "wordpress-tribe",
-            "url": "https://tbewellesley.org/"
-          },
-          "to": {
-            "adapter": "ical",
-            "url": "https://tbewellesley.org/events/?ical=1"
-          },
-          "reason": "iCal feed at /events/?ical=1 yields 30 events.",
-          "newCount": 30
-        }
       }
     },
     "outercape:eastham-gov": {

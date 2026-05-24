@@ -146,7 +146,7 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     let activeSource = source;
     let result;
     try {
-      result = await adapter({ source: activeSource, fetch });
+      result = await adapter({ source: activeSource, fetch, regionId: region.config.id });
     } catch (err) {
       perSource.push({
         sourceId: source.id,
@@ -181,7 +181,11 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
             notes: appendAutoFixNote(activeSource.notes, best),
           };
           try {
-            const fixedResult = await newAdapterFn({ source: fixedSource, fetch });
+            const fixedResult = await newAdapterFn({
+              source: fixedSource,
+              fetch,
+              regionId: region.config.id,
+            });
             if (fixedResult.events.length > result.events.length) {
               probe.autoApplied = {
                 from: {

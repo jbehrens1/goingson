@@ -62,6 +62,10 @@ export type AdapterResult = {
 export type AdapterContext = {
   source: SourceConfig;
   fetch: typeof fetch;
+  /** Active region id. Adapters that read region-local files (manual-oneoff,
+   *  manual-recurring) need this to find the right region directory when
+   *  multiple regions are being swept in one ingest run. */
+  regionId?: string;
 };
 
 export type Adapter = (ctx: AdapterContext) => Promise<AdapterResult>;

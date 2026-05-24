@@ -1,0 +1,32 @@
+{
+  "$comment": "LBI (Long Beach Island, NJ) town centroids. Used by the geocoder to disambiguate addresses + by the ingest region filter to keep cross-region events out.",
+  "towns": [
+    { "name": "Barnegat Light", "lat": 39.7625, "lon": -74.1085, "aliases": ["Barnegat Lighthouse"] },
+    { "name": "Harvey Cedars", "lat": 39.7048, "lon": -74.1351 },
+    { "name": "Surf City", "lat": 39.6620, "lon": -74.1684 },
+    { "name": "Ship Bottom", "lat": 39.6428, "lon": -74.1842 },
+    {
+      "name": "Long Beach Township",
+      "lat": 39.6000,
+      "lon": -74.2000,
+      "aliases": [
+        "Brant Beach",
+        "Beach Haven Crest",
+        "Beach Haven Park",
+        "Beach Haven Terrace",
+        "Spray Beach",
+        "North Beach",
+        "Loveladies",
+        "High Bar Harbor",
+        "Holgate"
+      ]
+    },
+    { "name": "Beach Haven", "lat": 39.5602, "lon": -74.2440 },
+    {
+      "name": "Manahawkin",
+      "lat": 39.6960,
+      "lon": -74.2604,
+      "aliases": ["Stafford Township"]
+    }
+  ]
+}

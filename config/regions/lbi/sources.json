@@ -1,0 +1,104 @@
+{
+  "$comment": "Long Beach Island, NJ sources. Two confirmed-working venues to start: Bird & Betty's (Squarespace events collection) and Joe Pop's (Squarespace site but the events page embeds a public Google Calendar — we fetch its iCal feed directly). Remaining venues are platforms our existing adapters don't cleanly handle yet; disabled with notes so the auto-probe system can revisit, and so admins can swap them to manual-oneoff if they want to seed dates by hand.",
+  "sources": [
+    {
+      "id": "bird-and-bettys",
+      "name": "Bird & Betty's",
+      "enabled": true,
+      "adapter": "squarespace-events",
+      "url": "https://www.birdandbettys.com/",
+      "category": "Venue / Restaurant",
+      "town": "Beach Haven",
+      "notes": "Squarespace site — events collection at /events/ (~58 upcoming). Misses daytime-only events because they don't get posted here.",
+      "config": {
+        "path": "/events/",
+        "defaultVenue": "Bird & Betty's"
+      }
+    },
+    {
+      "id": "joe-pops",
+      "name": "Joe Pop's Shore Bar",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://calendar.google.com/calendar/ical/07919b74d6e43922cc76627ce10d669077197d20cd0b236f41d5e09356234738%40group.calendar.google.com/public/basic.ics",
+      "category": "Venue / Live Music",
+      "town": "Ship Bottom",
+      "notes": "Squarespace site (joepops.com), but events live in a public Google Calendar embedded on /events. We fetch the calendar's iCal export directly (~200 events). To update the calendar source, see the data-src attribute on Joe Pop's /events page.",
+      "config": {
+        "defaultVenue": "Joe Pop's Shore Bar"
+      }
+    },
+    {
+      "id": "blackeyed-susans",
+      "name": "Black-Eyed Susan's",
+      "enabled": false,
+      "adapter": "squarespace-events",
+      "url": "https://www.blackeyedsusanslbi.com/",
+      "category": "Venue / Restaurant",
+      "town": "Harvey Cedars",
+      "notes": "Squarespace site. The /happenings page is a single anchor-targeted section on the home page, not a Squarespace events collection. No JSON feed. Disable until they create one, or switch to manual-oneoff to seed dates by hand.",
+      "config": {
+        "path": "/happenings/",
+        "defaultVenue": "Black-Eyed Susan's"
+      }
+    },
+    {
+      "id": "old-causeway",
+      "name": "The Old Causeway Steak & Oyster House",
+      "enabled": false,
+      "adapter": "squarespace-events",
+      "url": "https://www.oldcauseway.com/",
+      "category": "Venue / Restaurant",
+      "town": "Manahawkin",
+      "notes": "Squarespace site, but they explicitly don't list upcoming shows on their public pages. No events collection found at any common path. Disable; admin can switch to manual-oneoff if dates appear elsewhere.",
+      "config": {
+        "path": "/events/",
+        "defaultVenue": "The Old Causeway"
+      }
+    },
+    {
+      "id": "surf-city-hotel",
+      "name": "Surf City Hotel",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://surfcityhotel.com/entertainment.html",
+      "category": "Venue / Hotel + Live Music",
+      "town": "Surf City",
+      "notes": "Static custom HTML page on /entertainment.html — no event plugin, no calendar feed, content appears to be a single edited paragraph rather than structured listings (current page references an October 2023 Halloween show). Disable; use manual-oneoff for specific dated entertainment.",
+      "config": {}
+    },
+    {
+      "id": "daddyo-lbi",
+      "name": "Daddy O LBI",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.daddyolbi.com/happenings",
+      "category": "Venue / Restaurant + Hotel",
+      "town": "Long Beach Township",
+      "notes": "Wix site using the Wix Events app. Wix doesn't expose a public events API without an OAuth instance ID; reachable only via their dynamic JS bundle. Needs a dedicated wix-events adapter or manual-oneoff seeding.",
+      "config": {}
+    },
+    {
+      "id": "thesandpaper",
+      "name": "The Sandpaper",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.thesandpaper.net/events/",
+      "category": "Local News",
+      "town": "Surf City",
+      "notes": "Local LBI newspaper. WordPress + GeoDirectory plugin (CPT gd_event) but their REST endpoints (/wp-json/wp/v2/gd_event, /wp-json/geodir/v2/posts) all 404 — likely behind a paywall or restricted. Their event sitemap (/gd_event-sitemap.xml) lists URLs but the dates in lastmod are stale (2020). Needs a GeoDirectory adapter or sitemap-scrape approach.",
+      "config": {}
+    },
+    {
+      "id": "lbi-lowdown",
+      "name": "LBI Lowdown",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.lbilowdown.com/",
+      "category": "Aggregator",
+      "town": "Long Beach Township",
+      "notes": "Existing local-events aggregator. WordPress but the wp-json REST endpoint 302-redirects (probably to login). Aggregators often don't want to be re-aggregated; consider reaching out for partnership before scraping.",
+      "config": {}
+    }
+  ]
+}

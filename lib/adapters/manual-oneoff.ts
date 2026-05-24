@@ -52,11 +52,17 @@ type ManualOneoffConfig = {
   keepPast?: boolean;
 };
 
-export const manualOneoffAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
+export const manualOneoffAdapter: Adapter = async ({
+  source,
+  regionId,
+}): Promise<AdapterResult> => {
   const warnings: string[] = [];
+  // Honor the active region passed via ctx, NOT the REGION env var — when the
+  // all-regions sweep runs, env REGION is unset and loadRegion() falls back
+  // to the default, breaking manual-oneoff files in non-default regions.
   const region = (() => {
     try {
-      return loadRegion();
+      return loadRegion(process.cwd(), regionId);
     } catch {
       return null;
     }
