@@ -81,28 +81,39 @@ export default async function SourcesPage() {
         )}
       </header>
 
-      {perRegion.map(({ region, sources }) => (
-        <section key={region} className="sources-region">
-          <h2>
-            {region} <span className="muted">· {sources.length} sources</span>
-          </h2>
-          <SourcesEditor
-            region={region}
-            initialSources={sources}
-            eventCounts={Object.fromEntries(
-              Object.entries(eventCounts)
-                .filter(([k]) => k.startsWith(`${region}:`))
-                .map(([k, v]) => [k.slice(region.length + 1), v.count]),
-            )}
-            health={Object.fromEntries(
-              Object.entries(sourceHealth)
-                .filter(([k]) => k.startsWith(`${region}:`))
-                .map(([k, v]) => [k.slice(region.length + 1), v]),
-            )}
-            canEdit={canEdit}
-          />
-        </section>
-      ))}
+      {perRegion.map(({ region, sources }) => {
+        const counts = Object.fromEntries(
+          Object.entries(eventCounts)
+            .filter(([k]) => k.startsWith(`${region}:`))
+            .map(([k, v]) => [k.slice(region.length + 1), v.count]),
+        );
+        const totalEvents = Object.values(counts).reduce<number>(
+          (a, b) => a + (b as number),
+          0,
+        );
+        const enabled = sources.filter((s) => s.enabled).length;
+        return (
+          <details key={region} className="sources-region">
+            <summary>
+              <span className="sources-region-name">{region}</span>
+              <span className="muted small">
+                · {enabled}/{sources.length} enabled · {totalEvents.toLocaleString()} events
+              </span>
+            </summary>
+            <SourcesEditor
+              region={region}
+              initialSources={sources}
+              eventCounts={counts}
+              health={Object.fromEntries(
+                Object.entries(sourceHealth)
+                  .filter(([k]) => k.startsWith(`${region}:`))
+                  .map(([k, v]) => [k.slice(region.length + 1), v]),
+              )}
+              canEdit={canEdit}
+            />
+          </details>
+        );
+      })}
     </main>
   );
 }

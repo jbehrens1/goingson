@@ -2,6 +2,8 @@
 
 import { useMemo, useState, useTransition } from "react";
 import type { SourceConfig, AdapterType } from "@/lib/types";
+import { SortButtons, type SortDir } from "../_components/SortButtons";
+import { MultiSelectPicker } from "../_components/MultiSelectPicker";
 
 export type SourceHealth = {
   count: number;
@@ -39,12 +41,16 @@ const ADAPTERS: AdapterType[] = [
   "html-generic",
 ];
 
+type SourceCol = "enabled" | "name" | "adapter" | "url" | "town" | "category" | "count" | "notes";
+
 type Props = {
   region: string;
   initialSources: SourceConfig[];
   eventCounts: Record<string, number>;
   health: Record<string, SourceHealth>;
   canEdit: boolean;
+  /** When true, the table renders open; otherwise it's collapsed inside a <details>. */
+  defaultOpen?: boolean;
 };
 
 export function SourcesEditor({
@@ -53,12 +59,142 @@ export function SourcesEditor({
   eventCounts,
   health,
   canEdit,
+  defaultOpen = false,
 }: Props) {
   const [sources, setSources] = useState<SourceConfig[]>(initialSources);
   const [editing, setEditing] = useState(false);
   const [isSaving, startSave] = useTransition();
   const [error, setError] = useState<string | null>(null);
   const [okMsg, setOkMsg] = useState<string | null>(null);
+
+  // ---- Filter + sort state (view-only; not persisted in sources.json) ----
+  const [enabledFilter, setEnabledFilter] = useState<Set<string>>(new Set()); // "yes"/"no"
+  const [adapterFilter, setAdapterFilter] = useState<Set<string>>(new Set());
+  const [townFilter, setTownFilter] = useState<Set<string>>(new Set());
+  const [categoryFilter, setCategoryFilter] = useState<Set<string>>(new Set());
+  const [nameQuery, setNameQuery] = useState("");
+  const [urlQuery, setUrlQuery] = useState("");
+  const [notesQuery, setNotesQuery] = useState("");
+  const [sortBy, setSortBy] = useState<SourceCol | null>(null);
+  const [sortDir, setSortDir] = useState<SortDir>("asc");
+
+  function toggleSort(col: SourceCol, dir: SortDir) {
+    if (sortBy === col && sortDir === dir) setSortBy(null);
+    else {
+      setSortBy(col);
+      setSortDir(dir);
+    }
+  }
+  function clearFilters() {
+    setEnabledFilter(new Set());
+    setAdapterFilter(new Set());
+    setTownFilter(new Set());
+    setCategoryFilter(new Set());
+    setNameQuery("");
+    setUrlQuery("");
+    setNotesQuery("");
+    setSortBy(null);
+  }
+  const anyFilterActive =
+    enabledFilter.size > 0 ||
+    adapterFilter.size > 0 ||
+    townFilter.size > 0 ||
+    categoryFilter.size > 0 ||
+    nameQuery !== "" ||
+    urlQuery !== "" ||
+    notesQuery !== "" ||
+    sortBy !== null;
+
+  // Build option lists for the multi-select pickers. Counts reflect the
+  // ENTIRE source list for this region, not the filtered view (stable totals).
+  const enabledOptions = useMemo(() => {
+    const yes = sources.filter((s) => s.enabled).length;
+    const no = sources.length - yes;
+    return [
+      { key: "yes", label: "Enabled", count: yes },
+      { key: "no", label: "Disabled", count: no },
+    ];
+  }, [sources]);
+  const adapterOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const s of sources) counts.set(s.adapter, (counts.get(s.adapter) ?? 0) + 1);
+    return [...counts.entries()]
+      .map(([k, c]) => ({ key: k, label: k, count: c }))
+      .sort((a, b) => a.label.localeCompare(b.label));
+  }, [sources]);
+  const townOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const s of sources) {
+      const t = s.town?.trim();
+      if (t) counts.set(t, (counts.get(t) ?? 0) + 1);
+    }
+    return [...counts.entries()]
+      .map(([k, c]) => ({ key: k, label: k, count: c }))
+      .sort((a, b) => a.label.localeCompare(b.label));
+  }, [sources]);
+  const categoryOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const s of sources) {
+      const c = s.category?.trim();
+      if (c) counts.set(c, (counts.get(c) ?? 0) + 1);
+    }
+    return [...counts.entries()]
+      .map(([k, c]) => ({ key: k, label: k, count: c }))
+      .sort((a, b) => a.label.localeCompare(b.label));
+  }, [sources]);
+
+  // ---- Apply filters + sort to derive the visible rows ----
+  const visibleSources = useMemo(() => {
+    let out = sources.map((s, originalIndex) => ({ source: s, originalIndex }));
+    if (enabledFilter.size > 0) {
+      out = out.filter(({ source }) =>
+        enabledFilter.has(source.enabled ? "yes" : "no"),
+      );
+    }
+    if (adapterFilter.size > 0) {
+      out = out.filter(({ source }) => adapterFilter.has(source.adapter));
+    }
+    if (townFilter.size > 0) {
+      out = out.filter(({ source }) => townFilter.has(source.town?.trim() ?? ""));
+    }
+    if (categoryFilter.size > 0) {
+      out = out.filter(({ source }) =>
+        categoryFilter.has(source.category?.trim() ?? ""),
+      );
+    }
+    if (nameQuery) {
+      const q = nameQuery.toLowerCase();
+      out = out.filter(
+        ({ source }) =>
+          source.name.toLowerCase().includes(q) || source.id.toLowerCase().includes(q),
+      );
+    }
+    if (urlQuery) {
+      const q = urlQuery.toLowerCase();
+      out = out.filter(({ source }) => source.url.toLowerCase().includes(q));
+    }
+    if (notesQuery) {
+      const q = notesQuery.toLowerCase();
+      out = out.filter(({ source }) => (source.notes ?? "").toLowerCase().includes(q));
+    }
+    if (sortBy) {
+      const dir = sortDir === "asc" ? 1 : -1;
+      out = [...out].sort((a, b) => dir * compare(a.source, b.source, sortBy, eventCounts));
+    }
+    return out;
+  }, [
+    sources,
+    enabledFilter,
+    adapterFilter,
+    townFilter,
+    categoryFilter,
+    nameQuery,
+    urlQuery,
+    notesQuery,
+    sortBy,
+    sortDir,
+    eventCounts,
+  ]);
 
   const dirty = useMemo(
     () => JSON.stringify(sources) !== JSON.stringify(initialSources),
@@ -168,22 +304,101 @@ export function SourcesEditor({
         </div>
       )}
 
+      <div className="sources-filter-row">
+        <p className="muted small">
+          Showing {visibleSources.length} of {sources.length} source
+          {sources.length === 1 ? "" : "s"}
+          {anyFilterActive && (
+            <>
+              {" "}
+              ·{" "}
+              <button type="button" className="link-btn" onClick={clearFilters}>
+                clear filters
+              </button>
+            </>
+          )}
+        </p>
+      </div>
+
       <table className="sources-table">
         <thead>
-          <tr>
-            <th>On</th>
-            <th>Name</th>
-            <th>Adapter</th>
-            <th>URL</th>
-            <th>Town</th>
-            <th>Category</th>
-            <th title="Events ingested on the most recent cron run">Events</th>
-            <th>Notes</th>
+          <tr className="sources-th-sort">
+            <th>
+              <SortButtons col="enabled" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <MultiSelectPicker
+                label="status"
+                singularLabel="status"
+                selected={enabledFilter}
+                onChange={setEnabledFilter}
+                options={enabledOptions}
+              />
+            </th>
+            <th>
+              <SortButtons col="name" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <input
+                type="search"
+                placeholder="Search name / id…"
+                value={nameQuery}
+                onChange={(e) => setNameQuery(e.target.value)}
+              />
+            </th>
+            <th>
+              <SortButtons col="adapter" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <MultiSelectPicker
+                label="adapters"
+                singularLabel="adapter"
+                selected={adapterFilter}
+                onChange={setAdapterFilter}
+                options={adapterOptions}
+              />
+            </th>
+            <th>
+              <SortButtons col="url" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <input
+                type="search"
+                placeholder="Search URL…"
+                value={urlQuery}
+                onChange={(e) => setUrlQuery(e.target.value)}
+              />
+            </th>
+            <th>
+              <SortButtons col="town" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <MultiSelectPicker
+                label="towns"
+                singularLabel="town"
+                selected={townFilter}
+                onChange={setTownFilter}
+                options={townOptions}
+              />
+            </th>
+            <th>
+              <SortButtons col="category" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <MultiSelectPicker
+                label="categories"
+                singularLabel="category"
+                selected={categoryFilter}
+                onChange={setCategoryFilter}
+                options={categoryOptions}
+              />
+            </th>
+            <th title="Events ingested on the most recent cron run">
+              <SortButtons col="count" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <span className="col-filter-label">Events</span>
+            </th>
+            <th>
+              <SortButtons col="notes" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
+              <input
+                type="search"
+                placeholder="Search notes…"
+                value={notesQuery}
+                onChange={(e) => setNotesQuery(e.target.value)}
+              />
+            </th>
             {editing && <th></th>}
           </tr>
         </thead>
         <tbody>
-          {sources.map((s, i) => {
+          {visibleSources.map(({ source: s, originalIndex: i }) => {
             const count = eventCounts[s.id];
             const h = health[s.id];
             return (
@@ -323,8 +538,54 @@ export function SourcesEditor({
               </tr>
             );
           })}
+          {visibleSources.length === 0 && (
+            <tr>
+              <td colSpan={editing ? 9 : 8} className="muted small">
+                No sources match the current filters.
+              </td>
+            </tr>
+          )}
         </tbody>
       </table>
     </div>
   );
+
+  // Hint to TS that defaultOpen is "used" — it's read by the parent <details>
+  // wrapper on the page, but importing this prop tells TS it's intentional.
+  void defaultOpen;
+}
+
+function compare(
+  a: SourceConfig,
+  b: SourceConfig,
+  col: SourceCol,
+  eventCounts: Record<string, number>,
+): number {
+  function strKey(s: SourceConfig): string {
+    switch (col) {
+      case "enabled":
+        return s.enabled ? "0" : "1"; // enabled (✓) sorts first ascending
+      case "name":
+        return s.name.toLowerCase();
+      case "adapter":
+        return s.adapter;
+      case "url":
+        return s.url.toLowerCase();
+      case "town":
+        return s.town?.toLowerCase() ?? "";
+      case "category":
+        return s.category?.toLowerCase() ?? "";
+      case "notes":
+        return s.notes?.toLowerCase() ?? "";
+      default:
+        return "";
+    }
+  }
+  if (col === "count") {
+    return (eventCounts[a.id] ?? -1) - (eventCounts[b.id] ?? -1);
+  }
+  return strKey(a).localeCompare(strKey(b), undefined, {
+    sensitivity: "base",
+    numeric: true,
+  });
 }
