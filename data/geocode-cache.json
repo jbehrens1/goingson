@@ -1589,5 +1589,21 @@
     "lon": -71.4342715,
     "displayName": "80, Dudley Road, Coburnville, Framingham Center, Framingham, Middlesex County, Massachusetts, 01702, United States",
     "fetchedAt": "2026-05-24T13:22:10.173Z"
+  },
+  "outercape::11 shore road, north truro, ma 02652": {
+    "lat": 42.0298296,
+    "lon": -70.0778722,
+    "displayName": "Truro Vineyards, 11, Shore Road, Pond Village, Truro, Barnstable County, Massachusetts, 02652, United States",
+    "fetchedAt": "2026-05-24T13:32:38.083Z"
+  },
+  "outercape::10 w macmillan pier, provincetown, ma 02657": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T13:32:39.198Z"
+  },
+  "outercape::schooner hindu (truro vineyards tastings), provincetown": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-24T13:32:40.211Z"
   }
 }
