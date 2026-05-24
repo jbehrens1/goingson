@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SignInButton, UserButton } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
 import { authIsConfigured, getCurrentRole } from "@/lib/auth";
+import { readPending } from "@/lib/pending-sources";
 
 export async function SiteHeader() {
   const configured = authIsConfigured();
@@ -15,6 +16,17 @@ export async function SiteHeader() {
   const isAdmin = role === "admin" || role === "owner";
   const isOwner = role === "owner";
 
+  // Show a pending-suggestions count badge in the header for admins.
+  let pendingCount = 0;
+  if (isAdmin) {
+    try {
+      const file = await readPending(process.cwd());
+      pendingCount = file.pending.length;
+    } catch {
+      // ignore — file may not exist yet
+    }
+  }
+
   return (
     <nav className="site-header">
       <div className="site-header-inner">
@@ -23,6 +35,12 @@ export async function SiteHeader() {
         </Link>
         <div className="site-header-links">
           <Link href="/sources">Sources</Link>
+          <Link href="/suggest">Suggest a venue</Link>
+          {isAdmin && (
+            <Link href="/sources/pending">
+              Pending{pendingCount > 0 && <span className="header-badge">{pendingCount}</span>}
+            </Link>
+          )}
           {isOwner && <Link href="/admin">Admin</Link>}
         </div>
         <div className="site-header-auth">
