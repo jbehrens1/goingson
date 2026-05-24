@@ -1,0 +1,17 @@
+{
+  "$comment": "Pending venue suggestions queued via /suggest. Approved entries move to config/regions/<region>/sources.json; rejected entries are removed. Managed via /sources/pending UI.",
+  "pending": [
+    {
+      "id": "5891518e-515e-4efa-bed5-b2022dbee282",
+      "submittedAt": "2026-05-24T01:44:57.912Z",
+      "submittedBy": "jeff@adviza.com",
+      "name": "truro vineyards",
+      "url": "https://trurovineyardsofcapecod.com/",
+      "town": "Truro",
+      "regionId": "outercape",
+      "probe": {
+        "candidates": []
+      }
+    }
+  ]
+}
