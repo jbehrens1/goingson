@@ -29,12 +29,19 @@ jobs:
 
       - name: Commit results
         run: |
-          if [[ -n "$(git status --porcelain public/events.json)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add public/events.json
-            git commit -m "chore: refresh events.json [skip ci]"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage all generated outputs + any auto-applied sources.json fixes.
+          git add public/events.json public/events.*.json public/regions.json public/source-health.json config/regions/*/sources.json data/geocode-cache.json 2>/dev/null || true
+          if [[ -n "$(git diff --cached --name-only)" ]]; then
+            # Flag auto-fixes prominently in the commit message.
+            if git diff --cached --name-only | grep -q "config/regions/.*/sources.json"; then
+              MSG="chore: refresh events + auto-fixed source configs [skip ci]"
+            else
+              MSG="chore: refresh events.json [skip ci]"
+            fi
+            git commit -m "$MSG"
             git push
           else
-            echo "No changes to events.json"
+            echo "No changes to commit"
           fi

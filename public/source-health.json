@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-05-24T01:14:56.602Z",
+  "sources": {
+    "metrowest:pac-metrowest": {
+      "count": 0,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:needham-gov": {
+      "count": 1,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:manual-oneoff": {
+      "count": 0,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "outercape:eastham-gov": {
+      "count": 0,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    }
+  }
+}

@@ -775,6 +775,37 @@ footer {
   font-size: 0.78rem;
 }
 
+.health-badge {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: help;
+}
+.health-low {
+  background: #fde2e2;
+  color: #8a1a1a;
+}
+.health-fixed {
+  background: #d4f3df;
+  color: #16603d;
+}
+@media (prefers-color-scheme: dark) {
+  .health-low {
+    background: #3a1a1a;
+    color: #f9c5c5;
+  }
+  .health-fixed {
+    background: #1a3a1a;
+    color: #c0e7be;
+  }
+}
+
 @media (max-width: 720px) {
   .events-table,
   .events-table tbody,

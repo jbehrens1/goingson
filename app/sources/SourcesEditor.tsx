@@ -3,6 +3,26 @@
 import { useMemo, useState, useTransition } from "react";
 import type { SourceConfig, AdapterType } from "@/lib/types";
 
+export type SourceHealth = {
+  count: number;
+  warnings: string[];
+  probe?: {
+    candidates: Array<{
+      confidence: "high" | "medium" | "low";
+      verifiedCount: number;
+      adapter: string;
+      url: string;
+      evidence: string;
+    }>;
+    autoApplied?: {
+      from: { adapter: string; url: string };
+      to: { adapter: string; url: string };
+      reason: string;
+      newCount: number;
+    };
+  };
+};
+
 const ADAPTERS: AdapterType[] = [
   "ical",
   "rss",
@@ -23,10 +43,17 @@ type Props = {
   region: string;
   initialSources: SourceConfig[];
   eventCounts: Record<string, number>;
+  health: Record<string, SourceHealth>;
   canEdit: boolean;
 };
 
-export function SourcesEditor({ region, initialSources, eventCounts, canEdit }: Props) {
+export function SourcesEditor({
+  region,
+  initialSources,
+  eventCounts,
+  health,
+  canEdit,
+}: Props) {
   const [sources, setSources] = useState<SourceConfig[]>(initialSources);
   const [editing, setEditing] = useState(false);
   const [isSaving, startSave] = useTransition();
@@ -150,6 +177,7 @@ export function SourcesEditor({ region, initialSources, eventCounts, canEdit }: 
         <tbody>
           {sources.map((s, i) => {
             const count = eventCounts[s.id];
+            const h = health[s.id];
             return (
               <tr key={`${s.id}-${i}`} className={s.enabled ? "" : "row-disabled"}>
                 <td>
@@ -238,7 +266,29 @@ export function SourcesEditor({ region, initialSources, eventCounts, canEdit }: 
                     s.category ?? "—"
                   )}
                 </td>
-                <td className="sources-count-cell">{count ?? (s.enabled ? "0" : "—")}</td>
+                <td className="sources-count-cell">
+                  {count ?? (s.enabled ? "0" : "—")}
+                  {h?.probe?.autoApplied && (
+                    <div
+                      className="health-badge health-fixed"
+                      title={`Auto-fixed: ${h.probe.autoApplied.reason}`}
+                    >
+                      auto-fixed
+                    </div>
+                  )}
+                  {h && !h.probe?.autoApplied && s.enabled && h.count <= 1 && (
+                    <div
+                      className="health-badge health-low"
+                      title={
+                        h.probe?.candidates?.length
+                          ? `Probe ran, no auto-fix candidate. Top finding: ${h.probe.candidates[0].evidence}`
+                          : "Source yielded ≤1 events. No probe candidate found."
+                      }
+                    >
+                      low yield
+                    </div>
+                  )}
+                </td>
                 <td className="sources-notes-cell">
                   {editing ? (
                     <textarea

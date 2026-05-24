@@ -24,6 +24,7 @@ import {
 import { findTownIn } from "./towns";
 import type { Adapter, EventRecord, SourceConfig, SourcesFile } from "./types";
 import { nowIso } from "./util";
+import { probeSource, shouldAutoApply, type ProbeCandidate } from "./probe";
 
 const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   ical: icalAdapter,
@@ -55,6 +56,16 @@ export type SourceReport = {
   count: number;
   warnings: string[];
   error?: string;
+  /** Probe findings when initial count was ≤1. */
+  probe?: {
+    candidates: ProbeCandidate[];
+    autoApplied?: {
+      from: { adapter: string; url: string; config?: Record<string, unknown> };
+      to: { adapter: string; url: string; config?: Record<string, unknown> };
+      reason: string;
+      newCount: number;
+    };
+  };
 };
 
 export type IngestReport = {
@@ -117,6 +128,8 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
 
   const perSource: SourceReport[] = [];
   const allEvents: EventRecord[] = [];
+  // Auto-applied probe fixes get written back to sources.json once at the end.
+  const fixedSources = new Map<string, SourceConfig>();
 
   for (const source of enabled) {
     const adapter = ADAPTERS[source.adapter];
@@ -130,15 +143,10 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
       });
       continue;
     }
+    let activeSource = source;
+    let result;
     try {
-      const result = await adapter({ source, fetch });
-      allEvents.push(...result.events);
-      perSource.push({
-        sourceId: source.id,
-        sourceName: source.name,
-        count: result.events.length,
-        warnings: result.warnings ?? [],
-      });
+      result = await adapter({ source: activeSource, fetch });
     } catch (err) {
       perSource.push({
         sourceId: source.id,
@@ -147,7 +155,89 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
         warnings: [],
         error: (err as Error).message,
       });
+      continue;
     }
+
+    // Low-yield probe: if we got ≤1 events, look for a better config.
+    let probe: SourceReport["probe"];
+    if (result.events.length <= 1) {
+      console.log(
+        `[ingest] ${source.id}: low yield (${result.events.length}), running probe...`,
+      );
+      const candidates = await probeSource(activeSource);
+      probe = { candidates };
+      const best = candidates[0];
+      if (best && shouldAutoApply(best, result.events.length)) {
+        console.log(
+          `[ingest] ${source.id}: auto-applying ${best.adapter} @ ${best.url} (${best.verifiedCount} events)`,
+        );
+        const newAdapterFn = ADAPTERS[best.adapter];
+        if (newAdapterFn) {
+          const fixedSource: SourceConfig = {
+            ...activeSource,
+            adapter: best.adapter,
+            url: best.url,
+            config: best.config ?? activeSource.config,
+            notes: appendAutoFixNote(activeSource.notes, best),
+          };
+          try {
+            const fixedResult = await newAdapterFn({ source: fixedSource, fetch });
+            if (fixedResult.events.length > result.events.length) {
+              probe.autoApplied = {
+                from: {
+                  adapter: activeSource.adapter,
+                  url: activeSource.url,
+                  config: activeSource.config,
+                },
+                to: {
+                  adapter: fixedSource.adapter,
+                  url: fixedSource.url,
+                  config: fixedSource.config,
+                },
+                reason: best.evidence,
+                newCount: fixedResult.events.length,
+              };
+              result = fixedResult;
+              activeSource = fixedSource;
+              fixedSources.set(source.id, fixedSource);
+            }
+          } catch (err) {
+            probe.candidates.unshift({
+              ...best,
+              confidence: "low",
+              evidence: `${best.evidence} (auto-apply failed: ${(err as Error).message})`,
+            });
+          }
+        }
+      }
+    }
+
+    allEvents.push(...result.events);
+    perSource.push({
+      sourceId: source.id,
+      sourceName: source.name,
+      count: result.events.length,
+      warnings: result.warnings ?? [],
+      probe,
+    });
+  }
+
+  // Persist any auto-applied fixes back to sources.json so the cron's commit
+  // step picks them up. Skip during dry-run / single-source runs.
+  if (!opts.dryRun && !opts.onlySourceId && fixedSources.size > 0) {
+    const fullFile = await loadSources(opts.rootDir, opts.regionId);
+    const next: SourcesFile = {
+      ...fullFile,
+      sources: fullFile.sources.map((s) => fixedSources.get(s.id) ?? s),
+    };
+    await writeFile(
+      sourcesPath(region),
+      JSON.stringify(next, null, 2) + "\n",
+      "utf8",
+    );
+    console.log(
+      `[ingest] ${region.config.id}: auto-applied probe fixes to ${fixedSources.size} source(s); wrote sources.json`,
+    );
   }
 
   const deduped = dedupe(allEvents);
@@ -297,6 +387,30 @@ export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsRepo
       JSON.stringify(manifest, null, 2) + "\n",
       "utf8",
     );
+
+    // Source-health snapshot so the /sources page can surface low-yield + probe
+    // findings without re-running the ingest. Only includes sources whose
+    // initial yield was ≤1 (i.e. those the probe actually evaluated).
+    const health: Record<
+      string,
+      { count: number; warnings: string[]; probe?: SourceReport["probe"] }
+    > = {};
+    for (const report of perRegion) {
+      for (const s of report.perSource) {
+        if (s.count <= 1 || s.probe) {
+          health[`${report.regionId}:${s.sourceId}`] = {
+            count: s.count,
+            warnings: s.warnings,
+            probe: s.probe,
+          };
+        }
+      }
+    }
+    await writeFile(
+      path.join(opts.rootDir, "public", "source-health.json"),
+      JSON.stringify({ generatedAt: nowIso(), sources: health }, null, 2) + "\n",
+      "utf8",
+    );
   }
 
   return {
@@ -306,6 +420,12 @@ export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsRepo
     regions: manifestEntries,
     perRegion,
   };
+}
+
+function appendAutoFixNote(notes: string | undefined, c: ProbeCandidate): string {
+  const stamp = new Date().toISOString().slice(0, 10);
+  const line = `[auto-fix ${stamp}] ${c.evidence}`;
+  return notes ? `${notes}\n${line}` : line;
 }
 
 function dedupe(events: EventRecord[]): EventRecord[] {

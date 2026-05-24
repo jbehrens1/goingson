@@ -1560,5 +1560,11 @@
     "lon": 0.4646698,
     "displayName": "Essex, England, United Kingdom",
     "fetchedAt": "2026-05-24T01:03:12.186Z"
+  },
+  "metrowest::62 morse rd, sudbury, ma": {
+    "lat": 42.3947391,
+    "lon": -71.4117349,
+    "displayName": "62, Morse Road, North Sudbury, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-24T01:14:47.677Z"
   }
 }

@@ -3,11 +3,24 @@ import path from "node:path";
 import { getCurrentRole, authIsConfigured } from "@/lib/auth";
 import { listRegions, readSources } from "@/lib/sources-config";
 import type { SourceConfig } from "@/lib/types";
-import { SourcesEditor } from "./SourcesEditor";
+import { SourcesEditor, type SourceHealth } from "./SourcesEditor";
 
 export const dynamic = "force-dynamic";
 
 type RegionEventSummary = Record<string, { count: number; generatedAt?: string }>;
+
+async function loadSourceHealth(): Promise<Record<string, SourceHealth>> {
+  const file = path.join(process.cwd(), "public", "source-health.json");
+  try {
+    const raw = await fs.readFile(file, "utf8");
+    const parsed = JSON.parse(raw) as {
+      sources: Record<string, SourceHealth>;
+    };
+    return parsed.sources ?? {};
+  } catch {
+    return {};
+  }
+}
 
 async function loadRegionEventCounts(regions: string[]): Promise<RegionEventSummary> {
   const out: RegionEventSummary = {};
@@ -38,6 +51,7 @@ export default async function SourcesPage() {
 
   const regions = await listRegions();
   const eventCounts = await loadRegionEventCounts(regions);
+  const sourceHealth = await loadSourceHealth();
 
   const perRegion: Array<{ region: string; sources: SourceConfig[] }> = [];
   for (const region of regions) {
@@ -79,6 +93,11 @@ export default async function SourcesPage() {
               Object.entries(eventCounts)
                 .filter(([k]) => k.startsWith(`${region}:`))
                 .map(([k, v]) => [k.slice(region.length + 1), v.count]),
+            )}
+            health={Object.fromEntries(
+              Object.entries(sourceHealth)
+                .filter(([k]) => k.startsWith(`${region}:`))
+                .map(([k, v]) => [k.slice(region.length + 1), v]),
             )}
             canEdit={canEdit}
           />

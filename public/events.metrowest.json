@@ -23,8 +23,8 @@
       "Concord, MA"
     ]
   },
-  "generatedAt": "2026-05-23T17:20:54.514Z",
-  "count": 675,
+  "generatedAt": "2026-05-24T01:14:47.776Z",
+  "count": 674,
   "events": [
     {
       "title": "Jewish Story Lab",
@@ -45,7 +45,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.997Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "2026 Needham High School Civics Showcase",
@@ -63,7 +63,7 @@
         "id": "needham-gov",
         "name": "Town of Needham - Community Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.704Z"
+      "ingestedAt": "2026-05-24T01:14:28.805Z"
     },
     {
       "title": "Community Stargazing",
@@ -83,71 +83,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.333Z"
-    },
-    {
-      "title": "Natick Farmers Market",
-      "description": "EVENT: Natick Farmers Market DATE: Saturday, May 23, 2026 TIME: 9am-1pm LOCATION: outside on Natick Common",
-      "url": "https://www.natickreport.com/event/natick-farmers-market-beach-read-day/",
-      "start": "2026-05-23T13:00:00.000Z",
-      "end": "2026-05-23T17:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Outside on Natick Common",
-        "town": "Natick",
-        "lat": 42.283,
-        "lon": -71.349
-      },
-      "type": "other",
-      "id": "6c07e9d19f09c364",
-      "source": {
-        "id": "natick-report",
-        "name": "Natick Report - Events"
-      },
-      "ingestedAt": "2026-05-23T17:20:31.528Z"
-    },
-    {
-      "title": "Natick Farmers Market",
-      "description": "EVENT: Natick Farmers Market DATE: Saturday, May 23, 2026 TIME: 9am-1pm LOCATION: outside on Natick Common",
-      "url": "https://theswellesleyreport.com/event/natick-farmers-market-6/",
-      "start": "2026-05-23T13:00:00.000Z",
-      "end": "2026-05-23T17:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Natick Common",
-        "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
-      },
-      "imageUrl": "https://media.theswellesleyreport.com/wp-content/uploads/2026/04/30135744/img_8755.jpg",
-      "type": "other",
-      "id": "0d170ae6e222fbeb",
-      "source": {
-        "id": "swellesley-report",
-        "name": "The Swellesley Report - Events"
-      },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
-    },
-    {
-      "title": "Canceled: Minyan &amp; Torah Study (Hybrid)",
-      "description": "We will not be meeting this week. We look forward to seeing you next Saturday, May 30. Gather for minyan, a time of prayer and reflection, followed by Torah study with a member of our clergy. Together, we’ll explore sacred text through deep listening, heartfelt conversation, and shared learning—guiding us on our collective path toward wisdom and shalom—wholeness. Registration: This event is available in person and online. No registration is required to join us in person. If you&#8217;d like to join us online, please click the purple bar above.",
-      "url": "https://tbewellesley.org/event/minyan-torah-study-hybrid-6/",
-      "start": "2026-05-23T13:30:00.000Z",
-      "end": "2026-05-23T15:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "town": "Wellesley",
-        "lat": 42.297,
-        "lon": -71.293
-      },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2019/07/Community-Minyan-Torah-Study.png",
-      "type": "community",
-      "id": "ffc1092b9def5141",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-23T17:20:50.358Z"
+      "ingestedAt": "2026-05-24T01:14:22.266Z"
     },
     {
       "title": "ArtSpace: Curiosity and Creativity: A Nature Journaling Workshop",
@@ -168,30 +104,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
-    },
-    {
-      "title": "Shabbat Morning Service Celebrating the Adult B&#8217;Mitzvah Class (Hybrid)",
-      "description": "Join us as we celebrate a sacred milestone—seven of our Adult B&#8217;Mitzvah students becoming b&#8217;not mitzvah. Prepared alongside Cantor Zell and our clergy, this meaningful Shabbat morning service will be held both in person and online, and the entire TBE community is warmly invited to share in the joy. Registration: This event is available in person and via live stream. In person registration is not required. Click here to join the live stream at the event start time.",
-      "url": "https://tbewellesley.org/event/shabbat-morning-service-celebrating-the-adult-bmitzvah-class-hybrid/",
-      "start": "2026-05-23T14:30:00.000Z",
-      "end": "2026-05-23T16:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "imageUrl": "https://tbewellesley.org/wp-content/uploads/2026/05/IMG_1697-1-scaled-e1778761644211.jpeg",
-      "type": "workshop",
-      "id": "c1b5b418857eae63",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-23T17:20:50.358Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Copy of - Land and Sea Spring",
@@ -212,7 +125,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Sensory Swim- May 23",
@@ -233,7 +146,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Basket Raffle Fundraiser for America's Vet Dogs",
@@ -254,7 +167,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.265Z"
+      "ingestedAt": "2026-05-24T01:14:23.059Z"
     },
     {
       "title": "Sunday, Tuesday, Thursday Masters Swim",
@@ -275,7 +188,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Wellesley Conservation Land Trust—Guided bird walk at Newton Lower Falls",
@@ -296,7 +209,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Spring JamBABY (6mon - 3 yrs)",
@@ -317,7 +230,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring 9am Soccer (2-3 yrs) - Sundays",
@@ -338,7 +251,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring Track & Field (3-5 yrs)",
@@ -359,7 +272,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring 9am Soccer (3-4 yrs) - Sundays (Outdoor Only Class!)",
@@ -380,7 +293,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring 9am RedBall Tennis (4-5 yrs)",
@@ -401,7 +314,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring Chess Champs (4-6 yrs)",
@@ -422,7 +335,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.998Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Worship with Us! Pentecost Sunday",
@@ -443,7 +356,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Progressive Religion in a Regressive Era with First Parish of Sudbury",
@@ -464,7 +377,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.333Z"
+      "ingestedAt": "2026-05-24T01:14:22.266Z"
     },
     {
       "title": "Spring 10am Soccer (3-4 yrs) - Sundays",
@@ -485,7 +398,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.999Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring 10am Soccer (2-3 yrs) - Sundays (Outdoor Only Class!)",
@@ -506,7 +419,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.999Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring Creative Dance (3-5 yrs)",
@@ -527,7 +440,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.999Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring Pickleball (5-8 yrs)",
@@ -548,7 +461,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.999Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring Chess Challengers (5-12 yrs) - Sundays",
@@ -569,7 +482,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:36.999Z"
+      "ingestedAt": "2026-05-24T01:14:31.643Z"
     },
     {
       "title": "Spring 10am RedBall Tennis (4-5 yrs)",
@@ -590,7 +503,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Jewish Teen Foundation of Greater Boston",
@@ -611,7 +524,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring 11am Soccer (4-5 yrs) - Sundays",
@@ -632,7 +545,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring 11am Soccer (3-4 yrs) - Sundays (Outdoor Only Class!)",
@@ -653,7 +566,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring Action Hero Training Camp (4-6 yrs)",
@@ -674,7 +587,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring Mixed Sports (4-6 yrs)",
@@ -695,7 +608,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring Family Chess (For Caregiver with Child 6 yrs+) - Sundays",
@@ -716,7 +629,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring 11am RedBall+ Tennis (Gr. K-2)",
@@ -737,7 +650,49 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
+    },
+    {
+      "title": "Home to Two Revolutions: Tour of the Old Manse",
+      "description": "Uncover the thrilling stories of revolutionary figures and literary giants in a historic home that shaped American culture!",
+      "url": "https://thetrustees.org/event/443662/",
+      "start": "2026-05-24T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The Old Manse (Trustees)",
+        "town": "Concord",
+        "lat": 42.46,
+        "lon": -71.349
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2021/07/5ac8fbeaca290.jpg",
+      "type": "other",
+      "id": "a23c26fc297e766e",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-24T01:14:03.837Z"
+    },
+    {
+      "title": "Family-Friendly Tour of the Old Manse",
+      "description": "Uncover the magic of The Old Manse with a fun-filled tour for families, featuring hands-on history and a thrilling scavenger hunt!",
+      "url": "https://thetrustees.org/event/443817/",
+      "start": "2026-05-24T16:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The Old Manse (Trustees)",
+        "town": "Concord",
+        "lat": 42.46,
+        "lon": -71.349
+      },
+      "imageUrl": "https://thetrustees.org/wp-content/uploads/2025/05/5a58ccfa40a23.jpg",
+      "type": "workshop",
+      "id": "85971c32527bfb23",
+      "source": {
+        "id": "trustees",
+        "name": "The Trustees of Reservations"
+      },
+      "ingestedAt": "2026-05-24T01:14:03.839Z"
     },
     {
       "title": "Spring 12pm Soccer (5-8 yrs) - Sundays",
@@ -758,7 +713,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring 12pm OrangeBall Tennis (Gr. 2-4)",
@@ -779,7 +734,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Iron Work Farm open houses at the Faulkner House and Jones Tavern",
@@ -799,7 +754,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Spring 1pm Soccer (4-5 yrs) - Sundays",
@@ -820,7 +775,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.825Z"
     },
     {
       "title": "Spring 1pm RedBall+ Tennis (Gr. K-2)",
@@ -841,7 +796,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.826Z"
     },
     {
       "title": "Spring 3D Printing, Coding & Design (Gr. 2-6)",
@@ -862,7 +817,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.826Z"
     },
     {
       "title": "Spring 2pm Soccer (3-4 yrs) - Sundays",
@@ -883,7 +838,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.826Z"
     },
     {
       "title": "Spring Basketball (5-8 yrs) - Sundays",
@@ -904,7 +859,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:38.941Z"
+      "ingestedAt": "2026-05-24T01:14:33.826Z"
     },
     {
       "title": "Spring Broadway Bootcamp (6-9 yrs)",
@@ -925,7 +880,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.603Z"
     },
     {
       "title": "Spring 3pm Soccer (2-3 yrs) - Sundays",
@@ -946,7 +901,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Spring Basketball (4-6 yrs)",
@@ -967,7 +922,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Foundations of Ninjutsu and Self-Defense",
@@ -988,7 +943,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Youth Ninjutsu Program (Ages 12+)",
@@ -1009,7 +964,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Karishim - Spring -     Junior",
@@ -1030,7 +985,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Karishim - Spring -    Age Group Prep",
@@ -1051,7 +1006,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Karishim - Spring -   Age Group",
@@ -1072,7 +1027,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Karishim - Spring -   Senior Prep",
@@ -1093,7 +1048,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Karishim - Spring -  Senior",
@@ -1114,7 +1069,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.563Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Karishim - Spring - High School",
@@ -1135,7 +1090,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.564Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Karishim - Spring -      Junior Prep",
@@ -1156,7 +1111,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.564Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Annual Memorial Day Pancake Breakfast",
@@ -1177,7 +1132,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.333Z"
+      "ingestedAt": "2026-05-24T01:14:22.266Z"
     },
     {
       "title": "Memorial Day Parade and Ceremony",
@@ -1197,7 +1152,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Memorial Day | Temple Offices &#038; Gan Elohim Closed",
@@ -1220,7 +1175,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.358Z"
+      "ingestedAt": "2026-05-24T01:14:42.872Z"
     },
     {
       "title": "Sudbury's Memorial Day Parade and Program",
@@ -1241,7 +1196,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Boxing & Circuit Conditioning",
@@ -1262,7 +1217,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.564Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Bridge: Beyond Beginner",
@@ -1283,7 +1238,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.564Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Sudbury's Hosmer House Open May 25th 10:30AM to 1:00PM",
@@ -1304,7 +1259,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Parkinson\\'s Cycle",
@@ -1325,7 +1280,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:41.564Z"
+      "ingestedAt": "2026-05-24T01:14:36.604Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -1345,7 +1300,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.709Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "Masters Mid Day",
@@ -1366,7 +1321,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Spring ELC Little Scientists (3.5-4 yrs)",
@@ -1387,7 +1342,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Spring ELC Art Explorers (3-5 yrs)",
@@ -1408,7 +1363,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Introduction to Balance and Injury Prevention",
@@ -1429,7 +1384,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Spring ELC Little Scientists (4-5 yrs)",
@@ -1450,7 +1405,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Rock the Blacktop: Community Paint Jams",
@@ -1473,7 +1428,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "Core-Based Injury Prevention",
@@ -1494,7 +1449,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Karishim - Pre-Swim E1 - Mon & Wed",
@@ -1515,7 +1470,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Karishim - Pre-Swim F3 - Discovery Club Year Round",
@@ -1536,7 +1491,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Spring Basketball (5-8 yrs) - Mondays",
@@ -1557,7 +1512,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Karishim - Pre-Swim E2 - Mon & Wed",
@@ -1578,7 +1533,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Spring Basketball (7-10 yrs) - Mondays",
@@ -1599,7 +1554,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.053Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Spring Adventures in Animation (K-6)",
@@ -1620,7 +1575,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.054Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "YouTube's Philately Influencers--A Panel Discussion",
@@ -1641,7 +1596,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.265Z"
+      "ingestedAt": "2026-05-24T01:14:23.059Z"
     },
     {
       "title": "Farewell Open House &#8211; CANCELLED",
@@ -1662,7 +1617,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.414Z"
+      "ingestedAt": "2026-05-24T01:14:20.033Z"
     },
     {
       "title": "Newton ELC (Godine) - 2025-2026 Application & Deposit",
@@ -1683,7 +1638,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.054Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Newton ELC (Godine) - 2025-2026 Waitlist Application",
@@ -1704,7 +1659,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:43.054Z"
+      "ingestedAt": "2026-05-24T01:14:36.692Z"
     },
     {
       "title": "Lifeguard Recertification Course",
@@ -1725,7 +1680,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Now Accepting Donations",
@@ -1746,7 +1701,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.511Z"
+      "ingestedAt": "2026-05-24T01:14:23.287Z"
     },
     {
       "title": "Learn the Basics of Oil and Pastel Painting",
@@ -1767,7 +1722,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Beginner Mah Jongg: Tuesday",
@@ -1788,7 +1743,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -1807,7 +1762,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "TBElle | Laughing Through the Ages: Jewish Humor, Resilience and Survival (Hybrid)",
@@ -1830,7 +1785,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.359Z"
+      "ingestedAt": "2026-05-24T01:14:42.872Z"
     },
     {
       "title": "The Council&#8217;s May Memory Cafe",
@@ -1853,7 +1808,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Walk and Talk Health: Walking Group",
@@ -1874,7 +1829,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "TO BE RESCHEDULED FHC Memorial Day Exhibit – “Stories Yet to Be Told”",
@@ -1895,7 +1850,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.407Z"
+      "ingestedAt": "2026-05-24T01:14:20.022Z"
     },
     {
       "title": "Pilates Seasonal Semi-Private (Spring 2 Session)",
@@ -1916,7 +1871,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Osteo Fit Group Training Series",
@@ -1937,7 +1892,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "TBElle | Dramatic Changes in Christianity’s View of Judaism After the Holocaust (Hybrid)",
@@ -1958,7 +1913,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.359Z"
+      "ingestedAt": "2026-05-24T01:14:42.873Z"
     },
     {
       "title": "Introduction to Backyard Beekeeping",
@@ -1981,7 +1936,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -2000,7 +1955,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Spring ELC Creative Dance (3-4 yrs)",
@@ -2021,7 +1976,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Spring ELC Crafty Kids (3-5 yrs)",
@@ -2042,7 +1997,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Spring ELC Tennis (4-5 yrs)",
@@ -2063,7 +2018,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Spring ELC Action Hero Training Camp (4-5 yrs)",
@@ -2084,7 +2039,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Karishim - Pre-Swim F1 - Tue & Thu",
@@ -2105,7 +2060,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Spring RedBall+ Tennis (K-2) - Tuesdays",
@@ -2126,7 +2081,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:44.559Z"
+      "ingestedAt": "2026-05-24T01:14:36.839Z"
     },
     {
       "title": "Karishim - Pre-Swim F2 - Tue & Thu",
@@ -2147,7 +2102,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.045Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -2168,7 +2123,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Spring OrangeBall Tennis (Gr. 3-5) - Tuesdays",
@@ -2189,7 +2144,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.045Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Make it Tuesday: Eraser Stamps | FPL McAuliffe",
@@ -2210,7 +2165,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.333Z"
+      "ingestedAt": "2026-05-24T01:14:22.266Z"
     },
     {
       "title": "May 2026 Green Team Meeting (Hybrid)",
@@ -2233,7 +2188,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.359Z"
+      "ingestedAt": "2026-05-24T01:14:42.873Z"
     },
     {
       "title": "Great Presenters: Jane Kelly",
@@ -2254,7 +2209,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Jackrabbit",
@@ -2275,7 +2230,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.797Z"
+      "ingestedAt": "2026-05-24T01:14:05.450Z"
     },
     {
       "title": "jackrabbit Featuring Dermot Mulroney First Rodeo Tour - Live in Concert ",
@@ -2296,7 +2251,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.562Z"
+      "ingestedAt": "2026-05-24T01:14:22.462Z"
     },
     {
       "title": "PJ Library Playground Meetup - Sharon",
@@ -2317,7 +2272,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.045Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Yoga with Stephanie: Spring Session Two (Online)",
@@ -2338,7 +2293,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.359Z"
+      "ingestedAt": "2026-05-24T01:14:42.873Z"
     },
     {
       "title": "Beginner Mah Jongg: Wednesday Morning",
@@ -2359,7 +2314,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.045Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Rock Steady Boxing",
@@ -2380,7 +2335,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.045Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -2403,7 +2358,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.359Z"
+      "ingestedAt": "2026-05-24T01:14:42.873Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -2423,7 +2378,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.707Z"
+      "ingestedAt": "2026-05-24T01:14:31.152Z"
     },
     {
       "title": "Basic Tai Chi Movement for Parkinson\\'s",
@@ -2444,7 +2399,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Rock Steady Boxing",
@@ -2465,7 +2420,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Complimentary Presentation - Smart Strategies for College Financing",
@@ -2485,7 +2440,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.001Z"
+      "ingestedAt": "2026-05-24T01:14:22.803Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -2505,7 +2460,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Spring ELC Soccer (3-4 yrs)",
@@ -2526,7 +2481,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Spring ELC Soccer (4-5 yrs)",
@@ -2547,7 +2502,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Spring GreenBall Tennis (Gr. 4-6)",
@@ -2568,7 +2523,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Mt Calvary Community Supper of Acton - May Menu",
@@ -2589,7 +2544,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Teen Tennis Development Clinic (12-15)",
@@ -2610,7 +2565,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Ladies\\' Adult Tennis Clinic",
@@ -2631,7 +2586,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Beginner Mah Jongg: Wednesday Evening",
@@ -2652,7 +2607,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Spring Music Performance - Adaptive Class",
@@ -2673,7 +2628,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.590Z"
     },
     {
       "title": "Commonwealth School Virtual Information Session for Fall 2027 Admission",
@@ -2693,7 +2648,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.001Z"
+      "ingestedAt": "2026-05-24T01:14:22.803Z"
     },
     {
       "title": "Wellesley Select Board office hours with Board chair Marjorie Freiman",
@@ -2714,7 +2669,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Israeli Dance",
@@ -2735,7 +2690,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:46.046Z"
+      "ingestedAt": "2026-05-24T01:14:38.591Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -2755,7 +2710,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.710Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Spring ELC Sports & Games (3-4 yrs)",
@@ -2776,7 +2731,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.042Z"
     },
     {
       "title": "Dynamic Balance and Injury Prevention",
@@ -2797,7 +2752,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.042Z"
     },
     {
       "title": "Spring ELC Sports & Games (4-5 yrs)",
@@ -2818,7 +2773,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.042Z"
     },
     {
       "title": "Spring ELC Music Video Making (4-5 yrs)",
@@ -2839,7 +2794,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.042Z"
     },
     {
       "title": "Mahjong (In Person)",
@@ -2862,7 +2817,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.359Z"
+      "ingestedAt": "2026-05-24T01:14:42.874Z"
     },
     {
       "title": "Spring Chess Challengers (5-12 yrs) - Thursdays",
@@ -2883,7 +2838,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Spring Family Chess (For Caregivers with child 6yrs+) - Thursdays",
@@ -2904,7 +2859,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Rosh Hodesh: Girls Community Group",
@@ -2925,7 +2880,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "MassBay Community College commencement ceremony",
@@ -2946,7 +2901,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Aging Like Fine Wine: Sip & Swipe for Singles 60+",
@@ -2967,7 +2922,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Zeppelins! The Era of the Giant Airships",
@@ -2988,7 +2943,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.265Z"
+      "ingestedAt": "2026-05-24T01:14:23.059Z"
     },
     {
       "title": "Solomon Carter Fuller: Scientist, Pioneer, Immigrant",
@@ -3009,7 +2964,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "Welcome Baby Parent\\'s Night Out Spring Shopping Meetup",
@@ -3030,7 +2985,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Drum Circle: Spring 2026 (In Person)",
@@ -3051,7 +3006,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.359Z"
+      "ingestedAt": "2026-05-24T01:14:42.874Z"
     },
     {
       "title": "TBE Meditation Group (Online)",
@@ -3072,7 +3027,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.360Z"
+      "ingestedAt": "2026-05-24T01:14:42.874Z"
     },
     {
       "title": "Ruth Moody Band",
@@ -3093,7 +3048,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.948Z"
+      "ingestedAt": "2026-05-24T01:14:06.940Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -3114,7 +3069,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.360Z"
+      "ingestedAt": "2026-05-24T01:14:42.874Z"
     },
     {
       "title": "Bridge: Beyond Beginner Plus",
@@ -3135,7 +3090,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Table Tennis for Parkinson\\'s",
@@ -3156,7 +3111,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Opening day—Friends of the Needham Public Library Spring Book Sale",
@@ -3178,7 +3133,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Friends of the Needham Public Library Book Sale",
@@ -3201,7 +3156,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Spring ELC 1pm Chess Champs (3.5-5 yrs)",
@@ -3222,7 +3177,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Bridge: Intermediate/Advanced",
@@ -3243,7 +3198,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Osteo Fit Group Training Series",
@@ -3264,7 +3219,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Spring ELC 2pm Chess Champs (4-5 yrs)",
@@ -3285,7 +3240,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:47.635Z"
+      "ingestedAt": "2026-05-24T01:14:40.043Z"
     },
     {
       "title": "Picnic on the Lawn - End of Year Celebration!",
@@ -3306,7 +3261,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.109Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Friday Shabbat Service, Confirmation &#038; Honoring Rabbi Ben Rosen (Hybrid)",
@@ -3329,7 +3284,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.360Z"
+      "ingestedAt": "2026-05-24T01:14:42.874Z"
     },
     {
       "title": "Suzy Bogguss",
@@ -3350,7 +3305,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.797Z"
+      "ingestedAt": "2026-05-24T01:14:05.450Z"
     },
     {
       "title": "Celebrate 10 Years of Dance with FJW Dance Studio’s Anniversary Showcase",
@@ -3370,7 +3325,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.265Z"
+      "ingestedAt": "2026-05-24T01:14:23.059Z"
     },
     {
       "title": "The Claflin Hill Youth Symphonies: The Re-Launch!",
@@ -3391,7 +3346,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.266Z"
     },
     {
       "title": "Note-worthyPalooza Music Festival",
@@ -3411,7 +3366,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "The Claflin Hill Youth Symphonies:  The Re-Launch!",
@@ -3432,7 +3387,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.511Z"
+      "ingestedAt": "2026-05-24T01:14:23.288Z"
     },
     {
       "title": "American Revolution reenactment at Needham Town Common",
@@ -3453,7 +3408,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "King&#8217;s Own Come to Needham!",
@@ -3474,7 +3429,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "King&#8217;s Own Come to Needham!",
@@ -3497,7 +3452,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Spring Soccer (2-3 yrs) - Saturdays",
@@ -3518,7 +3473,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.109Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Spring Little Ninjas (3-4 yrs)",
@@ -3539,7 +3494,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.109Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Minyan &amp; Torah Study (Hybrid)",
@@ -3560,7 +3515,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.360Z"
+      "ingestedAt": "2026-05-24T01:14:42.874Z"
     },
     {
       "title": "Shabbat Morning Service (Hybrid)",
@@ -3583,7 +3538,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.360Z"
+      "ingestedAt": "2026-05-24T01:14:42.875Z"
     },
     {
       "title": "Hunnewell Estate Historical Tour",
@@ -3605,7 +3560,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Gateway Camera Club Print Exhibit on Display at Broadmoor",
@@ -3626,7 +3581,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.562Z"
+      "ingestedAt": "2026-05-24T01:14:22.462Z"
     },
     {
       "title": "&#8220;Gallery Under the Tent&#8221; &#8211; Open Studio and Sale",
@@ -3648,7 +3603,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Spring Soccer (3-4 yrs) - Saturdays",
@@ -3669,7 +3624,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.109Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Spring Little Ninjas (4-5 yrs)",
@@ -3690,7 +3645,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.109Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Boxing & Circuit Conditioning",
@@ -3711,7 +3666,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Tai Chi Open Practice",
@@ -3732,7 +3687,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Beginner Mah Jongg: Saturdays",
@@ -3753,7 +3708,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Needham High School Habitat For Humanity Community Yard Sale",
@@ -3776,7 +3731,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "Needham High School Habitat For Humanity Community Yard Sale",
@@ -3799,7 +3754,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Turning Red",
@@ -3820,7 +3775,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:20.104Z"
+      "ingestedAt": "2026-05-24T01:14:08.352Z"
     },
     {
       "title": "Framingham Bike, Pedestrian, and Rail Trail Family Bike Ride",
@@ -3840,7 +3795,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Fundraising Bake Sale for Type 1 Diabetes Research (Breakthrough T1D Walk/ Ambassador)",
@@ -3861,7 +3816,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.001Z"
+      "ingestedAt": "2026-05-24T01:14:22.803Z"
     },
     {
       "title": "Free movie screening of &#8220;Turning Red&#8221; at TCAN",
@@ -3884,7 +3839,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Free moving screening: &#8216;Turning Red&#8217; at TCAN",
@@ -3904,7 +3859,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Bake sale &#038; raffle to support Type 1 Diabetes research",
@@ -3923,7 +3878,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Photography Open House",
@@ -3943,7 +3898,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Spring Soccer (4-5 yrs) - Saturdays",
@@ -3964,7 +3919,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Rock Steady Boxing",
@@ -3985,7 +3940,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Shabbat Morning Service (Hybrid)",
@@ -4008,7 +3963,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.360Z"
+      "ingestedAt": "2026-05-24T01:14:42.875Z"
     },
     {
       "title": "Hunnewell Fun Fair",
@@ -4029,7 +3984,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Grand Opening of The Terrace at Wellesley Free Library",
@@ -4050,7 +4005,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.166Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "2026 Needham High Civics Showcase",
@@ -4073,7 +4028,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "2026 Needham High Civics Showcase",
@@ -4096,7 +4051,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Herman&#8217;s Hermits Starring Peter Noone",
@@ -4117,7 +4072,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.796Z"
+      "ingestedAt": "2026-05-24T01:14:05.449Z"
     },
     {
       "title": "Mincha Ma&#8217;ariv Service (Hybrid)",
@@ -4140,7 +4095,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.360Z"
+      "ingestedAt": "2026-05-24T01:14:42.875Z"
     },
     {
       "title": "An Evening of Chinese Dance & Cultural Celebration by FJW Dance Studio",
@@ -4160,7 +4115,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.001Z"
+      "ingestedAt": "2026-05-24T01:14:22.803Z"
     },
     {
       "title": "Voices of MetroWest presents presents The Evolution of Broadway",
@@ -4181,7 +4136,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4201,7 +4156,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Memorial Day Ceremony in Wellesley",
@@ -4222,7 +4177,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "TBE Table (In Person)",
@@ -4243,7 +4198,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.875Z"
     },
     {
       "title": "Adult Tennis Clinic",
@@ -4264,7 +4219,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Lifeguard Recertification Course",
@@ -4285,7 +4240,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Mission MetroWest Road Race: Bring the Community Together for a Cause!",
@@ -4305,7 +4260,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.265Z"
+      "ingestedAt": "2026-05-24T01:14:23.060Z"
     },
     {
       "title": "Plugged In Summer Session Now Enrolling - Classes Start July 6th ",
@@ -4326,7 +4281,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.562Z"
+      "ingestedAt": "2026-05-24T01:14:22.463Z"
     },
     {
       "title": "Spring 9am Soccer (3-4 yrs) - Sundays (Outdoor Only Class!)",
@@ -4347,7 +4302,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Worship with Us! Trinity Sunday",
@@ -4368,7 +4323,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "The Challenge & Promise of Change with First Parish of Sudbury",
@@ -4389,7 +4344,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Natick Garden Club Plant Sale",
@@ -4409,7 +4364,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Natick Garden Club Plant Sale",
@@ -4430,7 +4385,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "PJ Library Pond Explorers-Cambridge",
@@ -4451,7 +4406,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "HPLF 12th Touch-A-Truck & Food Truck Fundraiser",
@@ -4472,7 +4427,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.511Z"
+      "ingestedAt": "2026-05-24T01:14:23.288Z"
     },
     {
       "title": "HPLF's Touch A Truck & Food Truck Fundraiser",
@@ -4493,7 +4448,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.511Z"
+      "ingestedAt": "2026-05-24T01:14:23.288Z"
     },
     {
       "title": "&#8220;Gallery Under the Tent&#8221; &#8211; Open Studio and Sale",
@@ -4515,7 +4470,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.261Z"
     },
     {
       "title": "Musical Instrument Petting Zoo",
@@ -4536,7 +4491,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "An American Musical Experience - Lincoln Sudbury Civic Orchestra",
@@ -4557,7 +4512,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4578,7 +4533,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "The Big Dill Pickleball Bash",
@@ -4599,7 +4554,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.562Z"
+      "ingestedAt": "2026-05-24T01:14:22.463Z"
     },
     {
       "title": "Jane Mecom: Widow Witness to the Revolution",
@@ -4620,7 +4575,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4640,7 +4595,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Heritage Chorale Spring Concert: America at 250 - Of Thee We Sing",
@@ -4661,7 +4616,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Rock the Blacktop: Community Paint Jams",
@@ -4684,7 +4639,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "Craft with Wellesley Middle School Girl Scouts",
@@ -4704,7 +4659,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Native Communities & The American Revolution",
@@ -4725,7 +4680,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Natick Pride Kick off &#8211; Living in Truth",
@@ -4747,7 +4702,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Birnbaum Memorial Lecture 2026",
@@ -4768,7 +4723,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.875Z"
     },
     {
       "title": "Bridge: Beyond Beginner",
@@ -4789,7 +4744,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-23T17:20:49.110Z"
+      "ingestedAt": "2026-05-24T01:14:41.459Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -4809,7 +4764,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.709Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "TBE Bridge Club (In Person)",
@@ -4832,7 +4787,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.875Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -4855,7 +4810,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.875Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -4874,7 +4829,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "TBElle | Laughing Through the Ages: Jewish Humor, Resilience and Survival (Hybrid)",
@@ -4897,7 +4852,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "Lunch &amp; Learn | Meet Spike Kraus: Beyond the Voice",
@@ -4918,7 +4873,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "Lunch &amp; Learn | Intentional Beauty: Jewish Ritual Art from the Collection (Hybrid)",
@@ -4939,7 +4894,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "TBElle | Dramatic Changes in Christianity’s View of Judaism After the Holocaust (Hybrid)",
@@ -4960,7 +4915,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.361Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -4979,7 +4934,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -5000,7 +4955,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Meditation @ Stress Reduction in Natick - June 2, 9 & 16",
@@ -5021,7 +4976,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Authors on Stage",
@@ -5042,7 +4997,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.001Z"
+      "ingestedAt": "2026-05-24T01:14:22.803Z"
     },
     {
       "title": "Authors on Stage, Wellesley College",
@@ -5064,7 +5019,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "American Legion&#8217;s 107th Anniversary Celebration",
@@ -5085,7 +5040,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Celebrate the American Legion&#8217;s 107th anniversary",
@@ -5105,7 +5060,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -5128,7 +5083,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -5148,7 +5103,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.708Z"
+      "ingestedAt": "2026-05-24T01:14:31.152Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -5168,7 +5123,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.713Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Saint Bridget School - Spring Open House",
@@ -5188,7 +5143,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Slavery in Massachusetts: Then, and Its Legacy Today (Hybrid)",
@@ -5211,7 +5166,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "ArtSpace: Inspired by Nature— An Imaginative Drawing Workshop (Online with Erica Beade)",
@@ -5231,7 +5186,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -5251,7 +5206,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Poetry Workshop",
@@ -5272,7 +5227,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Mahjong (In Person)",
@@ -5295,7 +5250,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "Wellesley Pride Celebration",
@@ -5317,7 +5272,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "PrideWellesley 2026 Celebration (Offsite)",
@@ -5340,7 +5295,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "50 Hikes Through History",
@@ -5360,7 +5315,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Drum Circle: Spring 2026 (In Person)",
@@ -5381,7 +5336,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.876Z"
     },
     {
       "title": "TBE Meditation Group (In Person)",
@@ -5404,7 +5359,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.877Z"
     },
     {
       "title": "Charles River Center, Lifeworks and Riverside to host legislative breakfast on June 5",
@@ -5427,7 +5382,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -5448,7 +5403,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.877Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -5471,7 +5426,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.877Z"
     },
     {
       "title": "Rope by Patrick Hamilton",
@@ -5493,7 +5448,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.791Z"
+      "ingestedAt": "2026-05-24T01:14:05.444Z"
     },
     {
       "title": "Beyond Binaries: Histories of Gender through Time",
@@ -5514,7 +5469,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.026Z"
     },
     {
       "title": "Big Yard Sale",
@@ -5534,7 +5489,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "First Parish in Wayland Yard Sale! ",
@@ -5555,7 +5510,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Minyan &amp; Torah Study (Hybrid)",
@@ -5576,7 +5531,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.362Z"
+      "ingestedAt": "2026-05-24T01:14:42.877Z"
     },
     {
       "title": "Shabbat Morning Service (Hybrid)",
@@ -5599,7 +5554,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.877Z"
     },
     {
       "title": "ArtSpace: Making Shapes: Online Workshop",
@@ -5619,7 +5574,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Wellesley Trails Committee Guided Walk—Mini-Grand Tour",
@@ -5642,7 +5597,28 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
+    },
+    {
+      "title": "Experiencing the Joy of Cycling: Free Adaptive Rail Trail Rides in Sudbury on June 6",
+      "description": "Residents and non-residents of all ages and abilities are invited to experience the joy of cycling this spring and summer...",
+      "url": "https://patch.com/massachusetts/sudbury/calendar/event/20260606/8574a226-95e9-419a-bd80-49254bfc1f79/experiencing-the-joy-of-cycling-free-adaptive-rail-trail-rides-in-sudbury-on-june-6",
+      "start": "2026-06-06T15:00:00.000Z",
+      "location": {
+        "venue": "Broadacres Farm Parking Lot",
+        "town": "Sudbury",
+        "address": "62 Morse Rd, Sudbury, MA",
+        "lat": 42.3947391,
+        "lon": -71.4117349
+      },
+      "imageUrl": "https://patch.com/img/cdn20/users/27273541/20260523/084125/img-0788___23204124634.jpg",
+      "type": "other",
+      "id": "b631d6a431430da5",
+      "source": {
+        "id": "patch-sudbury",
+        "name": "Sudbury Patch - Calendar"
+      },
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Food Boxes for Our Immigrant and Refugee Neighbors (In Person)",
@@ -5665,7 +5641,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.877Z"
     },
     {
       "title": "Mincha Ma&#8217;ariv Service (Hybrid)",
@@ -5688,7 +5664,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.877Z"
     },
     {
       "title": "Colonial Whiskey Tasting at Jones Tavern",
@@ -5709,7 +5685,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Reception for Tides of Change",
@@ -5729,7 +5705,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Mano a Mano: Arias in Dialogue",
@@ -5750,7 +5726,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.511Z"
+      "ingestedAt": "2026-05-24T01:14:23.288Z"
     },
     {
       "title": "Worship with Us! Second Sunday after Pentecost",
@@ -5771,7 +5747,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Art in the Park —Shaw Park",
@@ -5793,7 +5769,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Bear Witness to Slavery in MA: Tour the Royall House and Slave Quarters (Offsite)",
@@ -5816,7 +5792,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "Mosaic Mirror or Heart Workshop",
@@ -5836,7 +5812,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Mosaic Jewelry or Frame Worksop",
@@ -5856,7 +5832,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Spark Fest family-friendly event",
@@ -5876,7 +5852,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "“Regenerative Gardening in Today’s World”",
@@ -5898,7 +5874,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.068Z"
+      "ingestedAt": "2026-05-24T01:14:28.262Z"
     },
     {
       "title": "The Boston Scottish Fiddle Orchestra Annual Gala",
@@ -5921,7 +5897,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:36.069Z"
+      "ingestedAt": "2026-05-24T01:14:28.262Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -5941,7 +5917,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.709Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "Layla Lynn Bober Memorial Foundation 6th Annual Golf Tournament",
@@ -5962,7 +5938,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "TBE Bridge Club (In Person)",
@@ -5985,7 +5961,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "Hikes through History &#8211; Coburnville &#038; Tripoli",
@@ -6006,7 +5982,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -6029,7 +6005,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "Game Group",
@@ -6050,7 +6026,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Coffee Connect at Linden Square",
@@ -6071,7 +6047,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -6090,7 +6066,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -6109,7 +6085,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -6130,7 +6106,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "TBE Holy Singers (In Person)",
@@ -6153,7 +6129,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "TCAN Open Mic",
@@ -6174,7 +6150,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.951Z"
+      "ingestedAt": "2026-05-24T01:14:06.943Z"
     },
     {
       "title": "Yoga with Stephanie: Spring Session Two (Online)",
@@ -6195,7 +6171,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "Yoga With Stephanie: Spring Session Two (Online)",
@@ -6216,7 +6192,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -6239,7 +6215,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.363Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -6259,7 +6235,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.708Z"
+      "ingestedAt": "2026-05-24T01:14:31.152Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -6279,7 +6255,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.713Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "3D Design Workshop - Sliding lid box",
@@ -6300,7 +6276,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Let&#8217;s Start Talking | A Community Conversation About Israel (In Person)",
@@ -6323,7 +6299,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.364Z"
+      "ingestedAt": "2026-05-24T01:14:42.878Z"
     },
     {
       "title": "Let There Be Drums!",
@@ -6344,7 +6320,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.790Z"
+      "ingestedAt": "2026-05-24T01:14:05.443Z"
     },
     {
       "title": "Make-A-Wish Pickleball Classic coming to Natick",
@@ -6364,7 +6340,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -6384,7 +6360,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Mahjong (In Person)",
@@ -6407,7 +6383,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.364Z"
+      "ingestedAt": "2026-05-24T01:14:42.879Z"
     },
     {
       "title": "TBE Meditation Group (Online)",
@@ -6428,7 +6404,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.364Z"
+      "ingestedAt": "2026-05-24T01:14:42.879Z"
     },
     {
       "title": "Israeli Folk Dancing (In Person)",
@@ -6451,7 +6427,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:50.364Z"
+      "ingestedAt": "2026-05-24T01:14:42.879Z"
     },
     {
       "title": "Charles River Regional Chamber Women’s Conference",
@@ -6473,7 +6449,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "St. John’s Annual Rummage Sale",
@@ -6494,7 +6470,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.511Z"
+      "ingestedAt": "2026-05-24T01:14:23.288Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -6515,7 +6491,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.385Z"
+      "ingestedAt": "2026-05-24T01:14:42.879Z"
     },
     {
       "title": "Congregational Meeting 2026 (Hybrid)",
@@ -6538,7 +6514,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.385Z"
+      "ingestedAt": "2026-05-24T01:14:42.879Z"
     },
     {
       "title": "Sally's Night Celebration - Free Planetarium Program",
@@ -6559,7 +6535,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -6582,7 +6558,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.385Z"
+      "ingestedAt": "2026-05-24T01:14:44.004Z"
     },
     {
       "title": "RENT the Musical",
@@ -6603,7 +6579,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Acton Community Chorus Spring Concert: \"Movie Night\"",
@@ -6624,7 +6600,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "St. John’s Annual Rummage Sale",
@@ -6645,7 +6621,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.511Z"
+      "ingestedAt": "2026-05-24T01:14:23.288Z"
     },
     {
       "title": "Minyan &amp; Torah Study (Hybrid)",
@@ -6666,7 +6642,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.385Z"
+      "ingestedAt": "2026-05-24T01:14:44.005Z"
     },
     {
       "title": "Shabbat Morning Service (Hybrid)",
@@ -6689,7 +6665,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.385Z"
+      "ingestedAt": "2026-05-24T01:14:44.005Z"
     },
     {
       "title": "Sudbury Art Association Spring Art Fair",
@@ -6710,7 +6686,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -6731,7 +6707,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Wellesley Trails Committee Guided Walk—Centennial Reservation",
@@ -6753,7 +6729,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Mincha Ma&#8217;ariv Service (Hybrid)",
@@ -6776,7 +6752,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.386Z"
+      "ingestedAt": "2026-05-24T01:14:44.005Z"
     },
     {
       "title": "Legally Blonde Jr.",
@@ -6797,7 +6773,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.562Z"
+      "ingestedAt": "2026-05-24T01:14:22.463Z"
     },
     {
       "title": "Diplomat in China: Framingham’s Peter Parker &#8211; Virtual Program",
@@ -6818,7 +6794,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:29.166Z"
+      "ingestedAt": "2026-05-24T01:14:22.083Z"
     },
     {
       "title": "Pancake Breakfast",
@@ -6839,7 +6815,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "PMC Kids Ride Newton-Needham",
@@ -6860,7 +6836,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "ArtSpace: Where to Start? 3 Tips for Beginner Artists and DIYers",
@@ -6881,7 +6857,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Weaving The Wrack Line Workshop",
@@ -6901,7 +6877,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Prime Timers: Sam Adams Brewery Tour &#038; Lunch (Offsite)",
@@ -6923,7 +6899,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.386Z"
+      "ingestedAt": "2026-05-24T01:14:44.005Z"
     },
     {
       "title": "Second Sunday Open House Tours",
@@ -6944,7 +6920,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.265Z"
+      "ingestedAt": "2026-05-24T01:14:23.060Z"
     },
     {
       "title": "Wellesley’s Annual Flag Retirement Day Ceremony",
@@ -6965,7 +6941,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Framingham Repair Cafe",
@@ -6985,7 +6961,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Carbon Leaf",
@@ -7006,7 +6982,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.796Z"
+      "ingestedAt": "2026-05-24T01:14:05.449Z"
     },
     {
       "title": "TBE Table (In Person)",
@@ -7029,7 +7005,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.386Z"
+      "ingestedAt": "2026-05-24T01:14:44.005Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -7049,7 +7025,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.710Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "TBE Bridge Club (In Person)",
@@ -7072,7 +7048,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.386Z"
+      "ingestedAt": "2026-05-24T01:14:44.005Z"
     },
     {
       "title": "Framingham’s Automotive History &#8211; Special Lecture &#038; Reception",
@@ -7093,7 +7069,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -7116,7 +7092,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.387Z"
+      "ingestedAt": "2026-05-24T01:14:44.006Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -7135,7 +7111,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -7154,7 +7130,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -7175,7 +7151,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "Shawn Colvin",
@@ -7196,7 +7172,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.793Z"
+      "ingestedAt": "2026-05-24T01:14:05.446Z"
     },
     {
       "title": "Yoga With Stephanie: Spring Session Two (Online)",
@@ -7217,7 +7193,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.387Z"
+      "ingestedAt": "2026-05-24T01:14:44.006Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -7240,7 +7216,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.387Z"
+      "ingestedAt": "2026-05-24T01:14:44.006Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -7260,7 +7236,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.708Z"
+      "ingestedAt": "2026-05-24T01:14:31.152Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -7280,7 +7256,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.713Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "TBE Music Club",
@@ -7301,7 +7277,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.387Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "ArtSpace: Fabric Art Workshop",
@@ -7321,7 +7297,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.122Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -7341,7 +7317,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Mahjong (In Person)",
@@ -7364,7 +7340,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.387Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "Poetry Workshop",
@@ -7385,7 +7361,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.061Z"
+      "ingestedAt": "2026-05-24T01:14:22.860Z"
     },
     {
       "title": "TBE Meditation Group (Online)",
@@ -7406,7 +7382,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.387Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "Damn Tall Buildings",
@@ -7427,7 +7403,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.949Z"
+      "ingestedAt": "2026-05-24T01:14:06.941Z"
     },
     {
       "title": "3rd Annual Trivia Championship",
@@ -7448,7 +7424,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.408Z"
+      "ingestedAt": "2026-05-24T01:14:20.022Z"
     },
     {
       "title": "Juneteenth | Temple Offices &#038; Gan Elohim Closed",
@@ -7471,7 +7447,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.387Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -7492,7 +7468,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.388Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "Tot Kabbalat Family Shabbat &amp; Dinner (In Person)",
@@ -7515,7 +7491,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.388Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -7538,7 +7514,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.388Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "RENT the Musical",
@@ -7559,7 +7535,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.334Z"
+      "ingestedAt": "2026-05-24T01:14:22.267Z"
     },
     {
       "title": "Booker T. Jones",
@@ -7580,7 +7556,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.797Z"
+      "ingestedAt": "2026-05-24T01:14:05.450Z"
     },
     {
       "title": "Concord Electronics Recycling Event ♻️",
@@ -7601,7 +7577,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Minyan &amp; Torah Study (Hybrid)",
@@ -7622,7 +7598,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.388Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "Shabbat Morning Service (Hybrid)",
@@ -7645,7 +7621,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.388Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "All My Sons",
@@ -7667,7 +7643,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.793Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "June Food Day 2026",
@@ -7688,7 +7664,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.123Z"
     },
     {
       "title": "Southern Avenue",
@@ -7709,7 +7685,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.796Z"
+      "ingestedAt": "2026-05-24T01:14:05.449Z"
     },
     {
       "title": "Tour de Natick – Family Bike Ride 🚴‍♂️",
@@ -7730,7 +7706,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.563Z"
+      "ingestedAt": "2026-05-24T01:14:22.463Z"
     },
     {
       "title": "Tour de Natick cycling event",
@@ -7752,7 +7728,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -7772,7 +7748,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.710Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "TBE Bridge Club (In Person)",
@@ -7795,7 +7771,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.388Z"
+      "ingestedAt": "2026-05-24T01:14:44.007Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -7818,7 +7794,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.389Z"
+      "ingestedAt": "2026-05-24T01:14:44.008Z"
     },
     {
       "title": "Nipmuc Lifeways through Framingham Artifacts: Foodways",
@@ -7839,7 +7815,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.031Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -7858,7 +7834,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -7877,7 +7853,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Strega Nona: Pasta Trouble",
@@ -7898,7 +7874,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.799Z"
+      "ingestedAt": "2026-05-24T01:14:05.452Z"
     },
     {
       "title": "Yoga With Stephanie: Spring Session Two (Online)",
@@ -7919,7 +7895,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.389Z"
+      "ingestedAt": "2026-05-24T01:14:44.008Z"
     },
     {
       "title": "Text &amp; Texture Ceramics Open Studios (In Person)",
@@ -7942,7 +7918,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.389Z"
+      "ingestedAt": "2026-05-24T01:14:44.008Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -7962,7 +7938,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.708Z"
+      "ingestedAt": "2026-05-24T01:14:31.152Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -7982,7 +7958,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.713Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -8002,7 +7978,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Mahjong (In Person)",
@@ -8025,7 +8001,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.389Z"
+      "ingestedAt": "2026-05-24T01:14:44.008Z"
     },
     {
       "title": "Cochituate Rail Trail extension celebration in Natick Center",
@@ -8045,7 +8021,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Ribbon cutting for the new Cochituate Rail Trail extension",
@@ -8067,7 +8043,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Clopener of Framingham’s Collective Journeys",
@@ -8088,7 +8064,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.407Z"
+      "ingestedAt": "2026-05-24T01:14:20.022Z"
     },
     {
       "title": "TBE Book Club (Hybrid)",
@@ -8109,7 +8085,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.389Z"
+      "ingestedAt": "2026-05-24T01:14:44.008Z"
     },
     {
       "title": "TBE Meditation Group (Online)",
@@ -8130,7 +8106,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.008Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -8151,7 +8127,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -8174,7 +8150,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Boston Comics",
@@ -8195,7 +8171,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.790Z"
+      "ingestedAt": "2026-05-24T01:14:05.443Z"
     },
     {
       "title": "Minyan &amp; Torah Study (Hybrid)",
@@ -8216,7 +8192,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Acton-Westford Pride Festival 2026!",
@@ -8237,7 +8213,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.123Z"
     },
     {
       "title": "Great American Campout - NARA Park, Acton!",
@@ -8258,7 +8234,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.123Z"
     },
     {
       "title": "Teddy Thompson",
@@ -8279,7 +8255,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.791Z"
+      "ingestedAt": "2026-05-24T01:14:05.444Z"
     },
     {
       "title": "Stitching Revolution in Massachusetts: Quilting & Dancing",
@@ -8300,7 +8276,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.028Z"
     },
     {
       "title": "2026 Mornings at the Museum",
@@ -8321,7 +8297,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.408Z"
+      "ingestedAt": "2026-05-24T01:14:20.023Z"
     },
     {
       "title": "Cloudy With A Chance of Cheeseburgers",
@@ -8342,7 +8318,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.798Z"
+      "ingestedAt": "2026-05-24T01:14:05.452Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -8362,7 +8338,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.710Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "TBE Bridge Club (In Person)",
@@ -8385,7 +8361,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -8404,7 +8380,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -8423,7 +8399,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Yoga With Stephanie: Spring Session Two (Online)",
@@ -8444,7 +8420,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -8464,7 +8440,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.708Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -8484,7 +8460,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.713Z"
+      "ingestedAt": "2026-05-24T01:14:31.156Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -8504,7 +8480,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Acton Celebrates Independence Day!",
@@ -8525,7 +8501,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:30.335Z"
+      "ingestedAt": "2026-05-24T01:14:23.123Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -8546,7 +8522,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -8569,7 +8545,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Independence Day: Temple Offices Closed",
@@ -8590,7 +8566,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Independence Day | Temple Offices &#038; Gan Elohim Closed",
@@ -8613,7 +8589,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.390Z"
+      "ingestedAt": "2026-05-24T01:14:44.009Z"
     },
     {
       "title": "Natick Friends of the 4th Community Picnic",
@@ -8632,7 +8608,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "High School Summer Program at Babson – Apply Now",
@@ -8653,7 +8629,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "The Trial of the Big Bad Wolf: A New Point of View",
@@ -8674,7 +8650,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.798Z"
+      "ingestedAt": "2026-05-24T01:14:05.452Z"
     },
     {
       "title": "FREE Basketball Clinic for Kids!",
@@ -8695,7 +8671,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -8715,7 +8691,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.710Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -8734,7 +8710,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -8753,7 +8729,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -8773,7 +8749,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.709Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -8793,7 +8769,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.713Z"
+      "ingestedAt": "2026-05-24T01:14:31.156Z"
     },
     {
       "title": "Torah Text &#038; Texture: Summer Ceramics Open Studios (In Person)",
@@ -8816,7 +8792,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.391Z"
+      "ingestedAt": "2026-05-24T01:14:44.010Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -8836,7 +8812,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "&#8220;People&#8221;hood of the Book (Online)",
@@ -8857,7 +8833,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.391Z"
+      "ingestedAt": "2026-05-24T01:14:44.010Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -8878,7 +8854,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.391Z"
+      "ingestedAt": "2026-05-24T01:14:44.010Z"
     },
     {
       "title": "Finding Ourselves in Tanakh (In Person)",
@@ -8899,7 +8875,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.391Z"
+      "ingestedAt": "2026-05-24T01:14:44.010Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -8922,7 +8898,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.391Z"
+      "ingestedAt": "2026-05-24T01:14:44.010Z"
     },
     {
       "title": "Rules of the Ride—bike handling and confidence for 5th to 8th graders",
@@ -8944,7 +8920,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Black Joe Lewis &#038; The Honeybears",
@@ -8965,7 +8941,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.789Z"
+      "ingestedAt": "2026-05-24T01:14:05.442Z"
     },
     {
       "title": "Shawn Mullins",
@@ -8986,7 +8962,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.790Z"
+      "ingestedAt": "2026-05-24T01:14:05.443Z"
     },
     {
       "title": "James and the Giant Peach",
@@ -9007,7 +8983,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.798Z"
+      "ingestedAt": "2026-05-24T01:14:05.451Z"
     },
     {
       "title": "FREE Vacation Bible Adventure for Kids!",
@@ -9028,7 +9004,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-23T17:20:29.618Z"
+      "ingestedAt": "2026-05-24T01:14:22.523Z"
     },
     {
       "title": "Hikes through History &#8211; Nobscot",
@@ -9049,7 +9025,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "Life Review Workshop (In Person)",
@@ -9072,7 +9048,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.391Z"
+      "ingestedAt": "2026-05-24T01:14:44.010Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -9092,7 +9068,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.710Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -9111,7 +9087,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -9130,7 +9106,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.712Z"
+      "ingestedAt": "2026-05-24T01:14:31.155Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -9150,7 +9126,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.709Z"
+      "ingestedAt": "2026-05-24T01:14:31.153Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -9170,7 +9146,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.713Z"
+      "ingestedAt": "2026-05-24T01:14:31.156Z"
     },
     {
       "title": "Torah Text &#038; Texture: Summer Ceramics Open Studios (In Person)",
@@ -9193,7 +9169,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.392Z"
+      "ingestedAt": "2026-05-24T01:14:44.011Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -9213,7 +9189,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-23T17:20:36.711Z"
+      "ingestedAt": "2026-05-24T01:14:31.154Z"
     },
     {
       "title": "Hikes through History Series: Saxonville",
@@ -9234,7 +9210,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.031Z"
     },
     {
       "title": "&#8220;People&#8221;hood of the Book (Online)",
@@ -9255,7 +9231,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.392Z"
+      "ingestedAt": "2026-05-24T01:14:44.011Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -9276,7 +9252,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:51.392Z"
+      "ingestedAt": "2026-05-24T01:14:44.011Z"
     },
     {
       "title": "Finding Ourselves in Tanakh (In Person)",
@@ -9297,7 +9273,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.426Z"
+      "ingestedAt": "2026-05-24T01:14:44.011Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -9320,7 +9296,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.426Z"
+      "ingestedAt": "2026-05-24T01:14:44.011Z"
     },
     {
       "title": "Haggis X-1",
@@ -9341,7 +9317,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.795Z"
+      "ingestedAt": "2026-05-24T01:14:05.448Z"
     },
     {
       "title": "Eric Hutchinson",
@@ -9362,7 +9338,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:20.111Z"
+      "ingestedAt": "2026-05-24T01:14:08.359Z"
     },
     {
       "title": "MOPO Miler swim at Morses Pond",
@@ -9382,7 +9358,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.657Z"
     },
     {
       "title": "Bluebird Improv",
@@ -9403,7 +9379,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.795Z"
+      "ingestedAt": "2026-05-24T01:14:05.448Z"
     },
     {
       "title": "Peter Pan",
@@ -9424,7 +9400,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.798Z"
+      "ingestedAt": "2026-05-24T01:14:05.451Z"
     },
     {
       "title": "Life Review Workshop (In Person)",
@@ -9447,7 +9423,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.426Z"
+      "ingestedAt": "2026-05-24T01:14:44.988Z"
     },
     {
       "title": "Holy Singers Summer Edition! (In Person)",
@@ -9470,7 +9446,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.426Z"
+      "ingestedAt": "2026-05-24T01:14:44.988Z"
     },
     {
       "title": "&#8220;People&#8221;hood of the Book (Online)",
@@ -9491,7 +9467,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.426Z"
+      "ingestedAt": "2026-05-24T01:14:44.989Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -9512,7 +9488,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.989Z"
     },
     {
       "title": "Finding Ourselves in Tanakh (In Person)",
@@ -9533,7 +9509,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.989Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -9556,7 +9532,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.989Z"
     },
     {
       "title": "Band of Brothers",
@@ -9577,7 +9553,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.795Z"
+      "ingestedAt": "2026-05-24T01:14:05.448Z"
     },
     {
       "title": "Art & the Family Archive | Collage as Protest and Portraiture with Ileana Doble Hernandez",
@@ -9598,7 +9574,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.026Z"
     },
     {
       "title": "The Everly Brothers Experience",
@@ -9619,7 +9595,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.787Z"
+      "ingestedAt": "2026-05-24T01:14:05.440Z"
     },
     {
       "title": "The Lorax: A Cautionary Tale",
@@ -9640,7 +9616,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.798Z"
+      "ingestedAt": "2026-05-24T01:14:05.451Z"
     },
     {
       "title": "Life Review Workshop (In Person)",
@@ -9663,7 +9639,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.989Z"
     },
     {
       "title": "Torah Text &#038; Texture: Summer Ceramics Open Studios (In Person)",
@@ -9686,7 +9662,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.989Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -9707,7 +9683,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -9730,7 +9706,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Lez Zeppelin",
@@ -9751,7 +9727,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.791Z"
+      "ingestedAt": "2026-05-24T01:14:05.444Z"
     },
     {
       "title": "Paisley Project",
@@ -9772,7 +9748,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.789Z"
+      "ingestedAt": "2026-05-24T01:14:05.442Z"
     },
     {
       "title": "Haley Reinhart",
@@ -9793,7 +9769,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.789Z"
+      "ingestedAt": "2026-05-24T01:14:05.442Z"
     },
     {
       "title": "Princess Picky",
@@ -9814,7 +9790,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.798Z"
+      "ingestedAt": "2026-05-24T01:14:05.451Z"
     },
     {
       "title": "The James Hunter Six",
@@ -9835,7 +9811,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.793Z"
+      "ingestedAt": "2026-05-24T01:14:05.446Z"
     },
     {
       "title": "Texas Flood",
@@ -9856,7 +9832,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.791Z"
+      "ingestedAt": "2026-05-24T01:14:05.444Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -9877,7 +9853,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.427Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -9900,7 +9876,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Duane Betts &#038; Palmetto Motel",
@@ -9921,7 +9897,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.793Z"
+      "ingestedAt": "2026-05-24T01:14:05.446Z"
     },
     {
       "title": "Bearly Dead",
@@ -9942,7 +9918,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.956Z"
+      "ingestedAt": "2026-05-24T01:14:06.948Z"
     },
     {
       "title": "Half Magic: A Twisted Tale of Trickery",
@@ -9963,7 +9939,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.798Z"
+      "ingestedAt": "2026-05-24T01:14:05.451Z"
     },
     {
       "title": "Larry McCray",
@@ -9984,7 +9960,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.794Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10005,7 +9981,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10028,7 +10004,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Spyro Gyra",
@@ -10049,7 +10025,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.794Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "Monday Morning B&#8217;Mitzvah Service (Hybrid)",
@@ -10072,7 +10048,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Red Cross Blood Drive | August 2026 (In Person)",
@@ -10093,7 +10069,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10114,7 +10090,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10137,7 +10113,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Seven Chances (1925)",
@@ -10158,7 +10134,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.794Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10179,7 +10155,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10202,7 +10178,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.990Z"
     },
     {
       "title": "Ty Burkhardt",
@@ -10223,7 +10199,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.788Z"
+      "ingestedAt": "2026-05-24T01:14:05.441Z"
     },
     {
       "title": "Skerryvore",
@@ -10244,7 +10220,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.794Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10265,7 +10241,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10288,7 +10264,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "The Infrastructure of Health in Framingham",
@@ -10309,7 +10285,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.025Z"
     },
     {
       "title": "Labor Day | Temple Offices &#038; Gan Elohim Closed",
@@ -10332,7 +10308,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.428Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "David Nail",
@@ -10353,7 +10329,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.790Z"
+      "ingestedAt": "2026-05-24T01:14:05.443Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10374,7 +10350,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10397,7 +10373,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Tom Rush",
@@ -10418,7 +10394,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.956Z"
+      "ingestedAt": "2026-05-24T01:14:06.948Z"
     },
     {
       "title": "Volunteer Appreciation Night with a Special Presentation on Framingham’s Chautauqua Movement",
@@ -10439,7 +10415,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.412Z"
+      "ingestedAt": "2026-05-24T01:14:20.031Z"
     },
     {
       "title": "The Bridges of Saxonville",
@@ -10460,7 +10436,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.414Z"
+      "ingestedAt": "2026-05-24T01:14:20.032Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10481,7 +10457,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10504,7 +10480,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "2025 Big Band Music Social Dance",
@@ -10525,7 +10501,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.025Z"
     },
     {
       "title": "SOLD OUT &#8211; 2024 FHC Swing Dance",
@@ -10546,7 +10522,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "The Bros. Landreth: Tumbling Wild Tour 2026",
@@ -10567,7 +10543,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.794Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10588,7 +10564,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10611,7 +10587,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Illusionist Leon Etienne",
@@ -10632,7 +10608,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.789Z"
+      "ingestedAt": "2026-05-24T01:14:05.442Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -10654,7 +10630,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "The Linda Ronstadt Experience",
@@ -10675,7 +10651,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.957Z"
+      "ingestedAt": "2026-05-24T01:14:06.949Z"
     },
     {
       "title": "Five for Fighting with String Quartet",
@@ -10696,7 +10672,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.793Z"
+      "ingestedAt": "2026-05-24T01:14:05.446Z"
     },
     {
       "title": "Hikes through History Series: Coburnville/Tripoli &#8211; SOLD OUT",
@@ -10717,7 +10693,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.031Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10738,7 +10714,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10761,7 +10737,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Ronnie Earl",
@@ -10782,7 +10758,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.788Z"
+      "ingestedAt": "2026-05-24T01:14:05.441Z"
     },
     {
       "title": "Call for Walkers: Register for the 38th Annual Jimmy Fund Walk for Dana-Farber presented by Hyundai",
@@ -10804,7 +10780,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "Jimmy Fund Walk for Dana-Farber (routes goes through Natick)",
@@ -10824,7 +10800,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "Jimmy Fund Walk for Dana-Farber (routes go through Wellesley)",
@@ -10844,7 +10820,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:32.167Z"
+      "ingestedAt": "2026-05-24T01:14:24.658Z"
     },
     {
       "title": "Beau Geste (1926)",
@@ -10865,7 +10841,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.794Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "SOLD OUT &#8211; 2024 Hike Through History &#8211; Nipmuc Lifeways",
@@ -10886,7 +10862,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.028Z"
     },
     {
       "title": "Chrissi Poland: Forever Muscle Shoals",
@@ -10907,7 +10883,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.788Z"
+      "ingestedAt": "2026-05-24T01:14:05.441Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10928,7 +10904,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -10951,7 +10927,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.991Z"
     },
     {
       "title": "2021 Framingham History Center Virtual House Tour",
@@ -10972,7 +10948,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.415Z"
+      "ingestedAt": "2026-05-24T01:14:20.034Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -10993,7 +10969,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11016,7 +10992,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.429Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -11038,7 +11014,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-23T17:20:31.529Z"
+      "ingestedAt": "2026-05-24T01:14:23.890Z"
     },
     {
       "title": "2025 Hike Through History &#8211; Nipmuc Lifeways",
@@ -11059,7 +11035,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.024Z"
     },
     {
       "title": "Civil Rights Journey 2026",
@@ -11080,7 +11056,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11101,7 +11077,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11124,7 +11100,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "Needham High School Artisan Craft Fair and Bake Sale",
@@ -11147,7 +11123,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-23T17:20:33.901Z"
+      "ingestedAt": "2026-05-24T01:14:26.666Z"
     },
     {
       "title": "Mike Dawes",
@@ -11168,7 +11144,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.950Z"
+      "ingestedAt": "2026-05-24T01:14:06.942Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11189,7 +11165,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11212,7 +11188,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "Rasputina",
@@ -11233,7 +11209,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.789Z"
+      "ingestedAt": "2026-05-24T01:14:05.441Z"
     },
     {
       "title": "2024 Tag Sale",
@@ -11254,7 +11230,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11275,7 +11251,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.992Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11298,7 +11274,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "“Views of Framingham” &#8211; Howard Street Studios Artist Reception &#038; Community Drawing Event",
@@ -11319,7 +11295,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.028Z"
     },
     {
       "title": "2025 Hike Through History &#8211; Coburnville-Tripoli",
@@ -11340,7 +11316,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.024Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11361,7 +11337,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11384,7 +11360,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "The Framingham History Center Virtual House Tour",
@@ -11405,7 +11381,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:29.166Z"
+      "ingestedAt": "2026-05-24T01:14:22.083Z"
     },
     {
       "title": "Art & the Family Archive | Family Fictions with artist Liz Albert",
@@ -11426,7 +11402,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.025Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11447,7 +11423,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11470,7 +11446,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "Thanksgiving | Temple Building, Offices &#038; Gan Elohim Closed",
@@ -11493,7 +11469,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:52.430Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11514,7 +11490,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.449Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11537,7 +11513,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.449Z"
+      "ingestedAt": "2026-05-24T01:14:44.993Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11558,7 +11534,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.449Z"
+      "ingestedAt": "2026-05-24T01:14:46.045Z"
     },
     {
       "title": "Caroling on the Common",
@@ -11579,7 +11555,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.414Z"
+      "ingestedAt": "2026-05-24T01:14:20.034Z"
     },
     {
       "title": "Christa Corrigan McAuliffe, Symbol of Ordinary People Achieving Extraordinary Things",
@@ -11600,7 +11576,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.024Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11623,7 +11599,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.045Z"
     },
     {
       "title": "When the Clouds Roll By (1919)",
@@ -11644,7 +11620,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.794Z"
+      "ingestedAt": "2026-05-24T01:14:05.447Z"
     },
     {
       "title": "Caroling on the Common",
@@ -11665,7 +11641,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.024Z"
     },
     {
       "title": "A Tapestry of Faith: A Jewish Journey Through Morocco (In Person)",
@@ -11686,7 +11662,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.045Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11707,7 +11683,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.045Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11730,7 +11706,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Steven Page",
@@ -11751,7 +11727,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-23T17:20:19.789Z"
+      "ingestedAt": "2026-05-24T01:14:05.442Z"
     },
     {
       "title": "Art & the Family Archive | The Persistence of Family with Diana Cheren Nygren",
@@ -11772,7 +11748,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.025Z"
     },
     {
       "title": "Craft with History Series",
@@ -11793,7 +11769,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.031Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11814,7 +11790,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11837,7 +11813,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "CLOSED",
@@ -11858,7 +11834,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.032Z"
     },
     {
       "title": "Closed",
@@ -11879,7 +11855,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.414Z"
+      "ingestedAt": "2026-05-24T01:14:20.033Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11900,7 +11876,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Friday Shabbat Service (Hybrid)",
@@ -11923,7 +11899,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11944,7 +11920,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.450Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11965,7 +11941,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -11986,7 +11962,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12007,7 +11983,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Art &#038; the Family Archive: Astrid Reischwitz: Embroidery on Photograph",
@@ -12028,7 +12004,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.028Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12049,7 +12025,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "50th Anniversary Event: FHC’s Third Grade Program",
@@ -12070,7 +12046,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.409Z"
+      "ingestedAt": "2026-05-24T01:14:20.024Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12091,7 +12067,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.046Z"
     },
     {
       "title": "Knox Trail 250th Commemorative Program",
@@ -12112,7 +12088,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.408Z"
+      "ingestedAt": "2026-05-24T01:14:20.024Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12133,7 +12109,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12154,7 +12130,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "1780 &#8211; 2025 Reclaimed: “A Child of that Next Day”",
@@ -12175,7 +12151,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.027Z"
     },
     {
       "title": "Art & Family Archive: Vivian Poey: Barquito de papel",
@@ -12196,7 +12172,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.027Z"
     },
     {
       "title": "Why Isn’t He Famous? Dr. Solomon Carter Fuller &#038; Friends",
@@ -12217,7 +12193,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.414Z"
+      "ingestedAt": "2026-05-24T01:14:20.033Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12238,7 +12214,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "“You Don’t Know Jack’s” Framingham Trivia Championship Night!",
@@ -12259,7 +12235,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.412Z"
+      "ingestedAt": "2026-05-24T01:14:20.030Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12280,7 +12256,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "2025 Annual Meeting &#038; Special Lecture",
@@ -12301,7 +12277,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.027Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12322,7 +12298,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.451Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12343,7 +12319,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "FHC 2026 Annual Meeting & Special Lecture",
@@ -12364,7 +12340,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.408Z"
+      "ingestedAt": "2026-05-24T01:14:20.023Z"
     },
     {
       "title": "2nd Annual Trivia Championship",
@@ -12385,7 +12361,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.027Z"
     },
     {
       "title": "2023 FHC Annual Meeting",
@@ -12406,7 +12382,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.032Z"
     },
     {
       "title": "Erev Purim",
@@ -12427,7 +12403,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Purim Holiday",
@@ -12448,7 +12424,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Book Talk &#038; Signing: “World War II Massachusetts” with Author James L. Parr",
@@ -12469,7 +12445,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.412Z"
+      "ingestedAt": "2026-05-24T01:14:20.030Z"
     },
     {
       "title": "Frances Lewis Wilson: Letters from Haiti 1843-1870",
@@ -12490,7 +12466,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.414Z"
+      "ingestedAt": "2026-05-24T01:14:20.033Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12511,7 +12487,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Art & Family Archive: Nilou Moochhala: The Sacred Strands of Continuity",
@@ -12532,7 +12508,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.027Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12553,7 +12529,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Spies in Plain Sight: How a Botched Mission Led to Lexington and Concord",
@@ -12574,7 +12550,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.027Z"
     },
     {
       "title": "Celebrate Framingham’s Firefighter History",
@@ -12595,7 +12571,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.026Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12616,7 +12592,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "2024 FHC Annual Meeting",
@@ -12637,7 +12613,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.412Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "Hikes through History Series",
@@ -12658,7 +12634,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.032Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12679,7 +12655,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Through Their Eyes: Artifacts &#038; Stories of Framingham’s Role in WWII",
@@ -12700,7 +12676,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.029Z"
     },
     {
       "title": "Erev Passover",
@@ -12721,7 +12697,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Passover",
@@ -12742,7 +12718,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.047Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12763,7 +12739,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "2025 Hike Through History &#8211; Weston Aqueduct",
@@ -12784,7 +12760,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.026Z"
     },
     {
       "title": "I Am Every Migrant Child: Reflections of a World War II Orphan",
@@ -12805,7 +12781,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.414Z"
+      "ingestedAt": "2026-05-24T01:14:20.034Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12826,7 +12802,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Hike Through History &#8211; Callahan State Park",
@@ -12847,7 +12823,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.408Z"
+      "ingestedAt": "2026-05-24T01:14:20.023Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12868,7 +12844,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Hikes through History Series: Downtown",
@@ -12889,7 +12865,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.032Z"
     },
     {
       "title": "Revolutionary Networks: Printers, Politics, and the Power of the Press",
@@ -12910,7 +12886,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.026Z"
     },
     {
       "title": "Art & the Family Archive: “Photography and Words – An Ekphrastic Poetry Experience”",
@@ -12931,7 +12907,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.410Z"
+      "ingestedAt": "2026-05-24T01:14:20.026Z"
     },
     {
       "title": "Framingham’s Top 10",
@@ -12952,7 +12928,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.413Z"
+      "ingestedAt": "2026-05-24T01:14:20.032Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -12973,7 +12949,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "2026 FHC House Tour",
@@ -12994,7 +12970,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.408Z"
+      "ingestedAt": "2026-05-24T01:14:20.023Z"
     },
     {
       "title": "2025 FHC House Tour",
@@ -13015,7 +12991,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-23T17:20:26.411Z"
+      "ingestedAt": "2026-05-24T01:14:20.028Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13036,7 +13012,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13057,7 +13033,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.452Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13078,7 +13054,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Erev Shavuot",
@@ -13099,7 +13075,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Shavuot Holiday",
@@ -13120,7 +13096,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13141,7 +13117,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13162,7 +13138,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.048Z"
     },
     {
       "title": "Juneteenth | Temple Offices &#038; Gan Elohim Closed",
@@ -13185,7 +13161,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13206,7 +13182,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13227,7 +13203,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Independence Day: Temple Offices Closed",
@@ -13248,7 +13224,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13269,7 +13245,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13290,7 +13266,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13311,7 +13287,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13332,7 +13308,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:53.453Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13353,7 +13329,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.342Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13374,7 +13350,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.049Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13395,7 +13371,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.962Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13416,7 +13392,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13437,7 +13413,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Labor Day | Temple Offices &#038; Gan Elohim Closed",
@@ -13460,7 +13436,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13481,7 +13457,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13502,7 +13478,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13523,7 +13499,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.343Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13544,7 +13520,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13565,7 +13541,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13586,7 +13562,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13607,7 +13583,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.963Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13628,7 +13604,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13649,7 +13625,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13670,7 +13646,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13691,7 +13667,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13712,7 +13688,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13733,7 +13709,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.344Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13754,7 +13730,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13775,7 +13751,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13796,7 +13772,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13817,7 +13793,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.964Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13838,7 +13814,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13859,7 +13835,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13880,7 +13856,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13901,7 +13877,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13922,7 +13898,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13943,7 +13919,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13964,7 +13940,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -13985,7 +13961,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.345Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14006,7 +13982,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14027,7 +14003,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Erev Purim",
@@ -14048,7 +14024,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Purim Holiday",
@@ -14069,7 +14045,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14090,7 +14066,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.965Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14111,7 +14087,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14132,7 +14108,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14153,7 +14129,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Erev Passover",
@@ -14174,7 +14150,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Passover",
@@ -14195,7 +14171,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14216,7 +14192,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14237,7 +14213,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14258,7 +14234,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14279,7 +14255,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14300,7 +14276,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     },
     {
       "title": "Adult Talmud Study | Daf Yomi (Online)",
@@ -14321,7 +14297,7 @@
         "id": "tbe-wellesley",
         "name": "Temple Beth Elohim Wellesley"
       },
-      "ingestedAt": "2026-05-23T17:20:54.346Z"
+      "ingestedAt": "2026-05-24T01:14:46.966Z"
     }
   ]
 }
