@@ -141,57 +141,146 @@ export default function EventsView({
   const filterDistance = center.mode === "resolved" && center.lat != null && center.lon != null;
   const filterNoLocation = center.mode === NO_LOCATION;
 
-  // Distinct towns + venues with event counts, alphabetized. Counts are based
-  // on the full region payload (NOT the post-filter set) so the dropdown shows
-  // stable totals regardless of other active filters.
-  const columnTownOptions = useMemo(() => {
-    const counts = new Map<string, number>();
+  // Faceted counts: each dropdown's counts reflect what would still match if
+  // you applied that facet on top of every OTHER active filter. So if you
+  // pick town=Wellesley, the venue dropdown counts reflect Wellesley-only
+  // events; if you pick type=Music, town counts reflect music-only events;
+  // etc. Standard pattern used by every catalog/search UI.
+  //
+  // Items whose count drops to 0 are hidden unless currently selected (so
+  // the user can still uncheck them).
+  const facets = useMemo(() => {
+    const fromTs = fromDate ? new Date(fromDate + "T00:00:00").getTime() : -Infinity;
+    const toTs = toDate ? new Date(toDate + "T23:59:59").getTime() : Infinity;
+
+    type Skip = "type" | "town" | "venue" | null;
+    function passes(ev: (typeof payload.events)[number], skip: Skip): boolean {
+      const ts = new Date(ev.start).getTime();
+      if (ts < fromTs || ts > toTs) return false;
+      if (skip !== "type" && selectedTypes.size > 0 && !selectedTypes.has(ev.type))
+        return false;
+      if (
+        skip !== "town" &&
+        colTowns.size > 0 &&
+        !colTowns.has(ev.location?.town ?? "")
+      )
+        return false;
+      if (skip !== "venue" && colVenues.size > 0) {
+        const v = ev.location?.venue?.trim() ?? "";
+        const matched = v ? colVenues.has(v) : colVenues.has(NO_VENUE);
+        if (!matched) return false;
+      }
+      if (colTitle) {
+        const q = colTitle.toLowerCase();
+        const hay = `${ev.title} ${ev.description ?? ""}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      const hasCoords = ev.location?.lat != null && ev.location?.lon != null;
+      if (filterNoLocation) return !hasCoords;
+      if (filterDistance) {
+        if (!hasCoords) return false;
+        const d = haversineMiles(
+          { lat: center.lat!, lon: center.lon! },
+          { lat: ev.location!.lat!, lon: ev.location!.lon! },
+        );
+        if (d > distanceMi) return false;
+      }
+      return true;
+    }
+
+    const allTowns = new Set<string>();
+    const townCounts = new Map<string, number>();
+    const allVenues = new Set<string>();
+    const venueCounts = new Map<string, number>();
+    let hasAnyNoVenue = false;
+    let noVenueCount = 0;
+    const typeCounts = new Map<string, number>();
+
     for (const ev of payload.events) {
       const t = ev.location?.town?.trim();
-      if (t) counts.set(t, (counts.get(t) ?? 0) + 1);
-    }
-    return [...counts.entries()]
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) =>
-        a.name.localeCompare(b.name, undefined, { sensitivity: "base" }),
-      );
-  }, [payload.events]);
-
-  // Venue options: each distinct venue name with its event count. We also
-  // surface a "(no venue)" meta entry so users can filter to events that
-  // didn't carry a venue from the source.
-  const columnVenueOptions = useMemo(() => {
-    const venueCounts = new Map<string, number>();
-    let noVenueCount = 0;
-    for (const ev of payload.events) {
+      if (t) allTowns.add(t);
       const v = ev.location?.venue?.trim();
-      if (v) venueCounts.set(v, (venueCounts.get(v) ?? 0) + 1);
-      else noVenueCount++;
+      if (v) allVenues.add(v);
+      else hasAnyNoVenue = true;
+
+      if (passes(ev, "town")) {
+        if (t) townCounts.set(t, (townCounts.get(t) ?? 0) + 1);
+      }
+      if (passes(ev, "venue")) {
+        if (v) venueCounts.set(v, (venueCounts.get(v) ?? 0) + 1);
+        else noVenueCount++;
+      }
+      if (passes(ev, "type")) {
+        typeCounts.set(ev.type, (typeCounts.get(ev.type) ?? 0) + 1);
+      }
     }
-    const items = [...venueCounts.entries()]
-      .map(([name, count]) => ({ key: name, label: name, count }))
-      .sort((a, b) =>
-        a.label.localeCompare(b.label, undefined, { sensitivity: "base" }),
-      );
-    if (noVenueCount > 0) {
-      items.unshift({ key: NO_VENUE, label: "(no venue)", count: noVenueCount });
+
+    return {
+      allTowns,
+      townCounts,
+      allVenues,
+      venueCounts,
+      hasAnyNoVenue,
+      noVenueCount,
+      typeCounts,
+    };
+  }, [
+    payload.events,
+    selectedTypes,
+    colTowns,
+    colVenues,
+    colTitle,
+    filterDistance,
+    filterNoLocation,
+    center.lat,
+    center.lon,
+    distanceMi,
+    fromDate,
+    toDate,
+  ]);
+
+  const columnTownOptions = useMemo(() => {
+    const items: { name: string; count: number }[] = [];
+    for (const name of facets.allTowns) {
+      const count = facets.townCounts.get(name) ?? 0;
+      // Show items with events OR currently-selected items (so they can be unchecked).
+      if (count > 0 || colTowns.has(name)) items.push({ name, count });
+    }
+    return items.sort((a, b) =>
+      a.name.localeCompare(b.name, undefined, { sensitivity: "base" }),
+    );
+  }, [facets, colTowns]);
+
+  const columnVenueOptions = useMemo(() => {
+    const items: { key: string; label: string; count: number }[] = [];
+    for (const name of facets.allVenues) {
+      const count = facets.venueCounts.get(name) ?? 0;
+      if (count > 0 || colVenues.has(name))
+        items.push({ key: name, label: name, count });
+    }
+    items.sort((a, b) =>
+      a.label.localeCompare(b.label, undefined, { sensitivity: "base" }),
+    );
+    if (facets.hasAnyNoVenue && (facets.noVenueCount > 0 || colVenues.has(NO_VENUE))) {
+      items.unshift({
+        key: NO_VENUE,
+        label: "(no venue)",
+        count: facets.noVenueCount,
+      });
     }
     return items;
-  }, [payload.events]);
+  }, [facets, colVenues]);
 
-  // Type options: ordered by EVENT_TYPES (curated order, not alphabetical)
-  // because the type taxonomy has a deliberate hierarchy.
   const columnTypeOptions = useMemo(() => {
-    const counts = new Map<string, number>();
-    for (const ev of payload.events) {
-      counts.set(ev.type, (counts.get(ev.type) ?? 0) + 1);
-    }
-    return EVENT_TYPES.filter((t) => counts.has(t)).map((t) => ({
+    return EVENT_TYPES.filter((t) => {
+      const count = facets.typeCounts.get(t) ?? 0;
+      return count > 0 || selectedTypes.has(t);
+    }).map((t) => ({
       key: t,
       label: TYPE_LABELS[t],
-      count: counts.get(t) ?? 0,
+      count: facets.typeCounts.get(t) ?? 0,
     }));
-  }, [payload.events]);
+  }, [facets, selectedTypes]);
 
   const filtered = useMemo(() => {
     const fromTs = fromDate ? new Date(fromDate + "T00:00:00").getTime() : -Infinity;
@@ -788,7 +877,7 @@ function MultiSelectPicker({
           {visible.map((o) => (
             <label
               key={o.key}
-              className={`col-multi-item${o.isGroup ? " col-multi-item-group" : ""}`}
+              className={`col-multi-item${o.isGroup ? " col-multi-item-group" : ""}${o.count === 0 ? " col-multi-item-empty" : ""}`}
             >
               <input
                 type="checkbox"

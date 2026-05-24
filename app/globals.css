@@ -467,6 +467,15 @@ header .muted,
   font-weight: 600;
 }
 
+/* Selected-but-empty: dimmed so user can see it's still in their selection
+ * but produces no events under the other current filters. */
+.col-multi-item-empty {
+  opacity: 0.55;
+}
+.col-multi-item-empty .col-multi-count {
+  font-style: italic;
+}
+
 .col-multi-count {
   color: var(--muted);
   font-size: 0.78rem;
