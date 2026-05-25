@@ -26,6 +26,7 @@ import { findTownIn } from "./towns";
 import type { Adapter, EventRecord, SourceConfig, SourcesFile } from "./types";
 import { nowIso } from "./util";
 import { probeSource, shouldAutoApply, type ProbeCandidate } from "./probe";
+import { appendHistory, type HistoryRow } from "./source-history";
 
 const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   ical: icalAdapter,
@@ -132,6 +133,10 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
   const allEvents: EventRecord[] = [];
   // Auto-applied probe fixes get written back to sources.json once at the end.
   const fixedSources = new Map<string, SourceConfig>();
+  // History rows accumulated for this ingest run; written to
+  // public/source-history.jsonl after the loop.
+  const historyRows: HistoryRow[] = [];
+  const runStartedAt = new Date().toISOString();
 
   for (const source of enabled) {
     const adapter = ADAPTERS[source.adapter];
@@ -143,6 +148,15 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
         warnings: [],
         error: `Unknown adapter: ${source.adapter}`,
       });
+      historyRows.push({
+        ts: runStartedAt,
+        regionId: region.config.id,
+        sourceId: source.id,
+        adapter: source.adapter,
+        url: source.url,
+        count: 0,
+        error: `Unknown adapter: ${source.adapter}`,
+      });
       continue;
     }
     let activeSource = source;
@@ -150,12 +164,22 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     try {
       result = await adapter({ source: activeSource, fetch, regionId: region.config.id });
     } catch (err) {
+      const errMsg = (err as Error).message;
       perSource.push({
         sourceId: source.id,
         sourceName: source.name,
         count: 0,
         warnings: [],
-        error: (err as Error).message,
+        error: errMsg,
+      });
+      historyRows.push({
+        ts: runStartedAt,
+        regionId: region.config.id,
+        sourceId: source.id,
+        adapter: source.adapter,
+        url: source.url,
+        count: 0,
+        error: errMsg,
       });
       continue;
     }
@@ -226,6 +250,27 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
       warnings: result.warnings ?? [],
       probe,
     });
+    historyRows.push({
+      ts: runStartedAt,
+      regionId: region.config.id,
+      sourceId: source.id,
+      adapter: activeSource.adapter,
+      url: activeSource.url,
+      count: result.events.length,
+      ...(result.warnings && result.warnings.length > 0
+        ? { warnings: result.warnings.slice(0, 5).map((w) => w.slice(0, 200)) }
+        : {}),
+    });
+  }
+
+  // Persist the per-source history (one row per source per ingest) so the
+  // QC dashboard can show trends + spot the day a venue's count crashed.
+  if (!opts.dryRun && historyRows.length > 0) {
+    try {
+      await appendHistory(opts.rootDir, historyRows);
+    } catch (err) {
+      console.warn(`[ingest] history write failed: ${(err as Error).message}`);
+    }
   }
 
   // Persist any auto-applied fixes back to sources.json so the cron's commit

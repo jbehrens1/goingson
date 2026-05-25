@@ -874,6 +874,159 @@ footer {
   color: var(--error-fg);
   background: var(--error-bg);
 }
+
+/* ---------- /admin/qc (quality-control dashboard) ---------- */
+.qc-page {
+  max-width: 1100px;
+}
+.qc-section {
+  margin-top: 2rem;
+}
+.qc-section h2 {
+  margin: 0 0 0.85rem;
+  font-size: 1.15rem;
+}
+.qc-region {
+  margin: 1rem 0;
+}
+.qc-region > summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  padding: 0.5rem 0.75rem;
+  background: color-mix(in srgb, var(--fg) 4%, transparent);
+  border-radius: 6px;
+  font-weight: 600;
+}
+.qc-region > summary::-webkit-details-marker {
+  display: none;
+}
+.qc-region > summary::before {
+  content: "▸ ";
+  color: var(--muted);
+  font-size: 0.85rem;
+  display: inline-block;
+  transition: transform 0.1s;
+}
+.qc-region[open] > summary::before {
+  transform: rotate(90deg);
+}
+.qc-region-name {
+  text-transform: capitalize;
+}
+.qc-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0 0;
+}
+.qc-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  background: var(--bg);
+}
+.qc-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.qc-card-head h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+.qc-card-head h3 .small {
+  font-size: 0.78rem;
+}
+.qc-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+.qc-grid {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0.5rem 1rem;
+  margin: 1rem 0 0;
+  font-size: 0.88rem;
+}
+.qc-grid dt {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.qc-grid dd {
+  margin: 0;
+}
+.qc-notes {
+  white-space: pre-wrap;
+  font-size: 0.85rem;
+  color: var(--fg);
+  opacity: 0.85;
+}
+.qc-history > summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.85rem;
+  list-style: none;
+}
+.qc-history > summary::-webkit-details-marker {
+  display: none;
+}
+.qc-history > summary::before {
+  content: "▸ ";
+}
+.qc-history[open] > summary::before {
+  content: "▾ ";
+}
+.qc-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.qc-history-table th {
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.7rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  padding: 0.3rem 0.4rem;
+}
+.qc-history-table td {
+  padding: 0.3rem 0.4rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.qc-changed-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  font-weight: 600;
+}
+.qc-probe-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.qc-probe-list li {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
 .sources-editor-toolbar {
   display: flex;
   flex-wrap: wrap;

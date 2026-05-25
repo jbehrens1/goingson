@@ -42,6 +42,7 @@ export async function SiteHeader() {
               Pending{pendingCount > 0 && <span className="header-badge">{pendingCount}</span>}
             </Link>
           )}
+          {isAdmin && <Link href="/admin/qc">QC</Link>}
           {isOwner && <Link href="/admin">Admin</Link>}
         </div>
         <div className="site-header-auth">

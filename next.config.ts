@@ -10,7 +10,13 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/sources/**": ["./config/**"],
     "/account": ["./config/**", "./public/events.*.json"],
-    "/admin/**": ["./public/newsletter-events.jsonl"],
+    "/admin/**": [
+      "./public/newsletter-events.jsonl",
+      "./public/source-history.jsonl",
+      "./public/source-health.json",
+      "./public/events.*.json",
+      "./config/**",
+    ],
     "/api/sources/**": ["./config/**"],
     "/api/suggest/**": ["./config/**"],
     "/api/cron/**": ["./public/**", "./config/**"],
