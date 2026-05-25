@@ -79,15 +79,19 @@ function platformTagToType(raw: string): EventType | undefined {
   if (!t) return undefined;
 
   // Exact / prefix matches against common platform vocabularies.
-  if (/^(concerts?|music|live music|jazz|rock|folk|bluegrass|acoustic|singer-?songwriter|chamber music|chorus|choir|recital|band)\b/.test(t)) return "live-music";
+  // Order: most specific first. Theater/Comedy/Film should win over the
+  // broader "Performances" → live-music for theater plays and comedy shows
+  // when both terms appear on the same event (e.g. TCAN tags a play with
+  // event-type=Performances AND xdgp_genre=Theater).
   if (/^(stand-?up|comedy|comedian|improv)\b/.test(t)) return "comedy";
-  if (/^(theat(er|re)|play|musical|drama|opera|broadway)\b/.test(t)) return "theater";
-  if (/^(films?|movies?|screenings?|cinema|documentary)\b/.test(t)) return "film";
+  if (/^(theat(er|re)|plays?|musical|drama|opera|broadway)\b/.test(t)) return "theater";
+  if (/^(films?|movies?|screenings?|cinema|documentary|animation|sci-?fi|silent film|cult classics?|oscar shorts?|big screen classics?|stage on screen|rock on film)\b/.test(t)) return "film";
+  if (/^(concerts?|music|live music|live performances?|performances?|jazz|rock|pop|country|folk|bluegrass|blues|acoustic|singer-?songwriter|chamber music|chorus|choir|recital|band|a cappella|classical|open mic|instrumental|r ?& ?b|rb)\b/.test(t)) return "live-music";
   if (/^(art|gallery|exhibits?|exhibitions?|paintings?|sculpture|art show)\b/.test(t)) return "art-gallery";
   if (/^(museums?|history|historical|heritage)\b/.test(t)) return "museum";
   if (/^(festivals?|fairs?|carnival)\b/.test(t)) return "festival";
   if (/^(lectures?|talks?|panels?|author|book reading|book signing|discussion|symposium)\b/.test(t)) return "lecture";
-  if (/^(workshops?|classes|seminars?|tutorial|hands-on)\b/.test(t)) return "workshop";
+  if (/^(workshops?|classes|seminars?|tutorial|hands-on|education(al)?)\b/.test(t)) return "workshop";
   if (/^(kids|family|children|youth|teens?|storytime|story time)\b/.test(t)) return "family";
   if (/^(food|drink|wine|beer|brewery|tasting|brunch|dinner|culinary)\b/.test(t)) return "food-drink";
   if (/^(yoga|fitness|outdoors?|hike|hiking|running|race|workout|pilates|zumba|barre|meditation|tai chi)\b/.test(t)) return "fitness";

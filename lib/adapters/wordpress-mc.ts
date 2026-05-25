@@ -22,6 +22,12 @@ type MCAcf = {
   vague_dates?: string;
 };
 
+type MCEmbeddedTerm = {
+  name?: string;
+  slug?: string;
+  taxonomy?: string;
+};
+
 type MCEvent = {
   id: number;
   slug: string;
@@ -30,7 +36,73 @@ type MCEvent = {
   title: { rendered: string };
   ACF?: MCAcf;
   acf?: MCAcf;
+  /** Present when we request `?_embed=1`. Each inner array is one taxonomy's
+   *  terms. TCAN exposes `event-type` (Performances / Screenings / Community
+   *  / Education / Event Canceled / Event Postponed), `xdgp_genre` (Jazz,
+   *  Folk, Theater, Drama, Documentary, …), and `venue`. */
+  _embedded?: { "wp:term"?: MCEmbeddedTerm[][] };
 };
+
+// Taxonomies that signal the event isn't actually happening — drop these
+// instead of carrying them into the feed.
+const CANCELED_TERM_SLUGS = new Set([
+  "event-canceled",
+  "event-cancelled",
+  "event-postponed",
+  "canceled",
+  "cancelled",
+  "postponed",
+]);
+
+/** Extract human-readable taxonomy names from a `?_embed=1` MC event response.
+ *  Ordering matters: more specific taxonomies (genre) come BEFORE coarser
+ *  ones (event-type) so the platform-category mapper picks "Theater" over
+ *  the generic "Performances" for a play. Venue terms are skipped — they're
+ *  location info, not categorization signal. */
+function extractTaxonomyTerms(ev: MCEvent): {
+  terms: string[];
+  canceled: boolean;
+} {
+  const groups = ev._embedded?.["wp:term"];
+  if (!Array.isArray(groups)) return { terms: [], canceled: false };
+  const byTax: Record<string, string[]> = {};
+  let canceled = false;
+  for (const group of groups) {
+    if (!Array.isArray(group)) continue;
+    for (const term of group) {
+      if (!term || typeof term !== "object") continue;
+      const tax = term.taxonomy ?? "_unknown";
+      const slug = term.slug;
+      if (slug && CANCELED_TERM_SLUGS.has(slug)) canceled = true;
+      if (tax === "venue") continue;
+      const name = typeof term.name === "string" ? term.name.trim() : "";
+      if (!name) continue;
+      (byTax[tax] ??= []).push(name);
+    }
+  }
+  // Ordering priority for the platform-tag mapper (first match wins):
+  //   1. "Screenings" (when present in event-type) — it's a format, not a
+  //      content type, and should always win film over genres like "Drama"
+  //      (e.g. The Devil Wears Prada 2 is Drama + Screenings → we want film).
+  //   2. Genre/sub-taxonomy ("Theater", "Jazz", "Blues") — specific signal
+  //      that beats coarse event-type. E.g. plays at TCAN are tagged
+  //      event-type=Performances + xdgp_genre=Theater → we want theater.
+  //   3. Remaining event-type values ("Performances", "Community",
+  //      "Education") — final fallback when genre didn't classify.
+  //   4. Any other taxonomies on non-TCAN MC installs.
+  const eventType = byTax["event-type"] ?? [];
+  const screenings = eventType.filter((n) => /^screenings?$/i.test(n));
+  const otherEventType = eventType.filter((n) => !/^screenings?$/i.test(n));
+  const ordered = [
+    ...screenings,
+    ...(byTax["xdgp_genre"] ?? []),
+    ...otherEventType,
+    ...Object.entries(byTax)
+      .filter(([k]) => k !== "xdgp_genre" && k !== "event-type")
+      .flatMap(([, v]) => v),
+  ];
+  return { terms: ordered, canceled };
+}
 
 type WordpressMcConfig = {
   defaultVenue?: string;
@@ -115,9 +187,13 @@ export const wordpressMcAdapter: Adapter = async ({ source }): Promise<AdapterRe
   let pagesFetched = 0;
   const maxPages = 5;
 
+  let canceledCount = 0;
   while (pagesFetched < maxPages) {
     pagesFetched++;
-    const url = `${endpoint}?per_page=${perPage}&page=${page}&orderby=date&order=desc`;
+    // _embed=1 inlines the taxonomy terms (event-type, genre) so we can
+    // hand them to categorize() as platform tags. Roughly 3x response size,
+    // but TCAN-style sites have ≤200 events so still small.
+    const url = `${endpoint}?per_page=${perPage}&page=${page}&orderby=date&order=desc&_embed=1`;
     const res = await politeFetch(url, { headers: { Accept: "application/json" } });
     if (!res.ok) {
       // WP returns 400 when paging beyond the end. That's a clean stop.
@@ -132,6 +208,12 @@ export const wordpressMcAdapter: Adapter = async ({ source }): Promise<AdapterRe
     for (const ev of list) {
       const acf = ev.ACF ?? ev.acf ?? {};
       if (acf.hide_event_from_calendar) continue;
+
+      const { terms: categories, canceled } = extractTaxonomyTerms(ev);
+      if (canceled) {
+        canceledCount++;
+        continue;
+      }
 
       const range = parseDateRange(acf.display_dates_sort, acf.display_dates_long);
       if (!range) {
@@ -171,6 +253,7 @@ export const wordpressMcAdapter: Adapter = async ({ source }): Promise<AdapterRe
             town: source.town,
           },
           imageUrl: image ?? calImage,
+          categories: categories.length ? categories : undefined,
         }),
       );
     }
@@ -183,6 +266,9 @@ export const wordpressMcAdapter: Adapter = async ({ source }): Promise<AdapterRe
 
   if (pagesFetched >= maxPages) {
     warnings.push(`Stopped after ${maxPages} pages — more events may exist.`);
+  }
+  if (canceledCount > 0) {
+    warnings.push(`Dropped ${canceledCount} event${canceledCount === 1 ? "" : "s"} flagged as canceled/postponed.`);
   }
 
   return { events, warnings };
