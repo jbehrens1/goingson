@@ -122,18 +122,27 @@ export function buildEvent(
 
   // Categorization priority (when the caller didn't pin `type` explicitly):
   //   1. source.titleRules     — surgical per-venue overrides (highest signal)
-  //   2. platform categories   — Tribe/Squarespace/iCal tags carried on the event
-  //   3. categorize(title+desc) — global keyword regex
+  //   2. categorize(title+desc) — global keyword regex (high-signal, title-derived)
+  //   3. platform categories   — Tribe/Squarespace/iCal/Tockify tags (used only
+  //                              when title regex falls through to "other";
+  //                              Tockify in particular tags everything with
+  //                              generic "Community,Education,Wellness", which
+  //                              would otherwise drown out specific title signals
+  //                              like "Mah Jongg" or "Workshop").
   //   4. source.defaultEventType — venue-level fallback (e.g. live-music bar)
   //   5. "other"
   let resolvedType: EventRecord["type"] | undefined = type;
   if (!resolvedType) resolvedType = matchTitleRules(source, rest.title);
-  if (!resolvedType) resolvedType = typeFromPlatformCategories(rest.categories);
   if (!resolvedType) {
     const titleType = categorize(rest.title, rest.description);
-    resolvedType = titleType === "other"
-      ? (source.defaultEventType ?? "other")
-      : titleType;
+    if (titleType !== "other") {
+      resolvedType = titleType;
+    } else {
+      resolvedType =
+        typeFromPlatformCategories(rest.categories) ??
+        source.defaultEventType ??
+        "other";
+    }
   }
 
   return {
