@@ -1,10 +1,10 @@
 // Signed one-click unsubscribe tokens. The footer link + List-Unsubscribe
 // header both carry a URL like:
-//   https://www.goingson.co/api/unsubscribe?u=<userId>&t=<hmac>
-// /api/unsubscribe verifies the HMAC against UNSUBSCRIBE_SECRET, flips the
-// user's newsletter.subscribed flag to false. No login required — clicking
-// the link is itself the authentication. This is required by Gmail/Apple's
-// one-click unsubscribe specs (RFC 8058).
+//   https://www.goingson.co/api/unsubscribe?u=<userId>&s=<subId>&t=<hmac>
+// /api/unsubscribe verifies the HMAC against UNSUBSCRIBE_SECRET, removes the
+// specific subscription, and confirms. No login required — clicking the link
+// IS the authentication. Required by Gmail/Apple's one-click unsubscribe
+// specs (RFC 8058).
 //
 // Required env: UNSUBSCRIBE_SECRET — any random hex string ≥ 32 chars.
 //   Generate locally with: openssl rand -hex 32
@@ -19,15 +19,20 @@ function getSecret(): string {
   return s;
 }
 
-export function signUnsubscribeToken(userId: string): string {
+/** Token covers a specific (userId, subscriptionId) pair. */
+export function signUnsubscribeToken(userId: string, subscriptionId: string): string {
   const h = createHmac("sha256", getSecret());
-  h.update(userId);
+  h.update(`${userId}:${subscriptionId}`);
   return h.digest("base64url");
 }
 
-export function verifyUnsubscribeToken(userId: string, token: string): boolean {
+export function verifyUnsubscribeToken(
+  userId: string,
+  subscriptionId: string,
+  token: string,
+): boolean {
   try {
-    const expected = signUnsubscribeToken(userId);
+    const expected = signUnsubscribeToken(userId, subscriptionId);
     const a = Buffer.from(expected);
     const b = Buffer.from(token);
     if (a.length !== b.length) return false;
@@ -37,10 +42,15 @@ export function verifyUnsubscribeToken(userId: string, token: string): boolean {
   }
 }
 
-export function unsubscribeUrl(baseUrl: string, userId: string): string {
-  const token = signUnsubscribeToken(userId);
+export function unsubscribeUrl(
+  baseUrl: string,
+  userId: string,
+  subscriptionId: string,
+): string {
+  const token = signUnsubscribeToken(userId, subscriptionId);
   const url = new URL("/api/unsubscribe", baseUrl);
   url.searchParams.set("u", userId);
+  url.searchParams.set("s", subscriptionId);
   url.searchParams.set("t", token);
   return url.toString();
 }

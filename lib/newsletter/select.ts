@@ -6,7 +6,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { haversineMiles } from "../towns";
 import type { EventRecord } from "../types";
-import type { NewsletterPrefs } from "./types";
+import type { NewsletterSubscription } from "./types";
 import { SURPRISE_K } from "./types";
 
 export type DigestSelection = {
@@ -40,16 +40,16 @@ export async function loadRegionEvents(
  *  - Cap matched at 50 (daily schedule) / 100 (weekly schedule) to keep emails
  *    readable — the schedule, not the window, controls density.
  *  - Surprise events come from outside the user's type/venue/distance
- *    filters; their count is determined by prefs.surprise.
- *  - We avoid showing the same surprise twice within prefs.surpriseHistory.
+ *    filters; their count is determined by sub.surprise.
+ *  - We avoid showing the same surprise twice within sub.surpriseHistory.
  */
 export function selectDigest(
   events: EventRecord[],
-  prefs: NewsletterPrefs,
+  sub: NewsletterSubscription,
   now: Date = new Date(),
 ): DigestSelection {
   // Honor the user's window; clamp to a sane range in case stored pref is bad.
-  const horizonDays = Math.min(30, Math.max(1, prefs.lookaheadDays ?? 7));
+  const horizonDays = Math.min(30, Math.max(1, sub.lookaheadDays ?? 7));
   const windowStart = new Date(now.getTime());
   const windowEnd = new Date(now.getTime() + horizonDays * DAY_MS);
 
@@ -59,20 +59,20 @@ export function selectDigest(
   });
 
   function passesUserFilters(ev: EventRecord): boolean {
-    if (prefs.types.length > 0 && !prefs.types.includes(ev.type)) return false;
-    if (prefs.venues.length > 0) {
+    if (sub.types.length > 0 && !sub.types.includes(ev.type)) return false;
+    if (sub.venues.length > 0) {
       const v = ev.location?.venue?.trim() ?? "";
-      if (!prefs.venues.includes(v)) return false;
+      if (!sub.venues.includes(v)) return false;
     }
-    if (prefs.center && prefs.radiusMi != null && prefs.radiusMi > 0) {
+    if (sub.center && sub.radiusMi != null && sub.radiusMi > 0) {
       const lat = ev.location?.lat;
       const lon = ev.location?.lon;
       if (lat == null || lon == null) return false;
       const d = haversineMiles(
-        { lat: prefs.center.lat, lon: prefs.center.lon },
+        { lat: sub.center.lat, lon: sub.center.lon },
         { lat, lon },
       );
-      if (d > prefs.radiusMi) return false;
+      if (d > sub.radiusMi) return false;
     }
     return true;
   }
@@ -80,16 +80,16 @@ export function selectDigest(
   const matched = inWindow
     .filter(passesUserFilters)
     .sort((a, b) => a.start.localeCompare(b.start))
-    .slice(0, prefs.schedule === "daily" ? 50 : 100);
+    .slice(0, sub.schedule === "daily" ? 50 : 100);
 
   // Surprise pool: in-window events that DID NOT match the user's filters,
   // and weren't shown as a surprise within the recent history.
-  const recentHistory = new Set(prefs.surpriseHistory ?? []);
+  const recentHistory = new Set(sub.surpriseHistory ?? []);
   const surprisePool = inWindow.filter(
     (ev) => !passesUserFilters(ev) && !recentHistory.has(ev.id),
   );
 
-  const k = SURPRISE_K[prefs.surprise];
+  const k = SURPRISE_K[sub.surprise];
   const surprises = pickRandom(surprisePool, k).sort((a, b) =>
     a.start.localeCompare(b.start),
   );

@@ -10,7 +10,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { redirect } from "next/navigation";
 import { authIsConfigured, getCurrentRole } from "@/lib/auth";
-import { iterateAllUsers, prefsFromUser } from "@/lib/newsletter/prefs";
+import { iterateAllUsers, stateFromUser } from "@/lib/newsletter/prefs";
 
 export const dynamic = "force-dynamic";
 
@@ -54,18 +54,24 @@ export default async function NewsletterAdminPage() {
   const role = await getCurrentRole();
   if (role !== "admin" && role !== "owner") redirect("/sources");
 
-  // Subscriber counts, grouped by region + schedule.
+  // Subscription counts, grouped by region + schedule. One user can have
+  // multiple subscriptions, so totalSubs counts subscriptions (not users)
+  // and uniqueUsers counts distinct users with ≥1 subscription.
   const byRegion = new Map<string, { daily: number; weekly: number; total: number }>();
   let totalSubs = 0;
+  let uniqueUsers = 0;
   for await (const user of iterateAllUsers()) {
-    const p = prefsFromUser(user);
-    if (!p.subscribed) continue;
-    totalSubs++;
-    const r = byRegion.get(p.region) ?? { daily: 0, weekly: 0, total: 0 };
-    r.total++;
-    if (p.schedule === "daily") r.daily++;
-    else r.weekly++;
-    byRegion.set(p.region, r);
+    const state = stateFromUser(user);
+    if (state.subscriptions.length === 0) continue;
+    uniqueUsers++;
+    for (const sub of state.subscriptions) {
+      totalSubs++;
+      const r = byRegion.get(sub.region) ?? { daily: 0, weekly: 0, total: 0 };
+      r.total++;
+      if (sub.schedule === "daily") r.daily++;
+      else r.weekly++;
+      byRegion.set(sub.region, r);
+    }
   }
 
   // Send/click counts from the webhook log (last 30 days).
@@ -96,7 +102,10 @@ export default async function NewsletterAdminPage() {
       </header>
 
       <section style={{ marginTop: "1.5rem" }}>
-        <h2>Subscribers — {totalSubs} total</h2>
+        <h2>
+          Subscriptions — {totalSubs} across {uniqueUsers} user
+          {uniqueUsers === 1 ? "" : "s"}
+        </h2>
         <table className="sources-table">
           <thead>
             <tr>

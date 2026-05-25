@@ -1,19 +1,23 @@
-// "Send me a preview" button on /account. Generates and sends the next
-// scheduled digest immediately, ignoring the lastSentAt cooldown.
+// "Send me a preview" button on /account. Generates and sends the digest for
+// ONE subscription immediately, ignoring the lastSentAt cooldown. Body must
+// include { subscriptionId } so the user picks which subscription to preview.
+
 import { NextResponse } from "next/server";
 import { auth, currentUser } from "@clerk/nextjs/server";
-import { getPrefsForUserId } from "@/lib/newsletter/prefs";
+import { getStateForUserId } from "@/lib/newsletter/prefs";
 import { loadEventsForRegions, sendDigest, defaultRegionIds } from "@/lib/newsletter/send";
 
 export const runtime = "nodejs";
 
 export async function POST(req: Request) {
   const { userId } = await auth();
-  if (!userId) return NextResponse.json({ ok: false, error: "Not signed in" }, { status: 401 });
-
+  if (!userId) {
+    return NextResponse.json({ ok: false, error: "Not signed in" }, { status: 401 });
+  }
   const user = await currentUser();
-  if (!user) return NextResponse.json({ ok: false, error: "User not found" }, { status: 404 });
-
+  if (!user) {
+    return NextResponse.json({ ok: false, error: "User not found" }, { status: 404 });
+  }
   const email =
     user.emailAddresses.find((e) => e.id === user.primaryEmailAddressId)?.emailAddress ??
     user.emailAddresses[0]?.emailAddress;
@@ -21,29 +25,39 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "No email on account" }, { status: 400 });
   }
 
-  const prefs = await getPrefsForUserId(userId);
-  // For the preview we don't require subscribed=true so the user can sanity-
-  // check the format before they commit to subscribing.
-  const allRegions = defaultRegionIds();
-  const events = await loadEventsForRegions(allRegions);
+  let body: { subscriptionId?: string };
+  try {
+    body = await req.json();
+  } catch {
+    body = {};
+  }
+  if (!body.subscriptionId) {
+    return NextResponse.json(
+      { ok: false, error: "subscriptionId required" },
+      { status: 400 },
+    );
+  }
 
+  const state = await getStateForUserId(userId);
+  const sub = state.subscriptions.find((s) => s.id === body.subscriptionId);
+  if (!sub) {
+    return NextResponse.json({ ok: false, error: "Subscription not found" }, { status: 404 });
+  }
+
+  const events = await loadEventsForRegions(defaultRegionIds());
   const baseUrl =
     process.env.NEXT_PUBLIC_APP_URL ?? new URL(req.url).origin.replace(/\/$/, "");
 
   const res = await sendDigest({
     recipient: { userId, email, firstName: user.firstName ?? undefined },
-    prefs: { ...prefs, subscribed: true }, // pretend subscribed so isDueNow doesn't block
+    sub,
     eventsByRegion: events,
     baseUrl,
     forceSend: true,
   });
 
-  if (!res.ok) {
-    return NextResponse.json({ ok: false, error: res.error }, { status: 500 });
-  }
-  if ("skipped" in res) {
-    return NextResponse.json({ ok: true, skipped: res.skipped });
-  }
+  if (!res.ok) return NextResponse.json({ ok: false, error: res.error }, { status: 500 });
+  if ("skipped" in res) return NextResponse.json({ ok: true, skipped: res.skipped });
   return NextResponse.json({
     ok: true,
     emailId: res.emailId,

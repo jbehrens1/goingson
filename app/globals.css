@@ -802,6 +802,72 @@ footer {
   margin-top: 1rem;
 }
 
+/* Multiple newsletter subscriptions per user. Each shows as a card. */
+.account-subs {
+  margin-top: 1rem;
+}
+.account-subs-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.account-subs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.sub-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.2rem 0.85rem;
+  background: var(--bg);
+}
+.sub-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.85rem;
+}
+.sub-card-head .sub-card-actions {
+  display: flex;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+.sub-name-input {
+  flex: 1 1 14rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--fg);
+  transition: border-color 0.1s, background 0.1s;
+}
+.sub-name-input:hover {
+  border-color: var(--border);
+}
+.sub-name-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--bg);
+}
+.sub-delete-btn {
+  color: var(--muted);
+}
+.sub-delete-btn:hover {
+  color: var(--error-fg);
+  background: var(--error-bg);
+  border-color: var(--error-fg);
+}
+.sub-card-footer {
+  min-height: 1.2em;
+  margin-top: 0.5rem;
+}
+
 .sources-th-sort > th input[type="search"] {
   width: 100%;
   padding: 0.3rem 0.4rem;

@@ -1,14 +1,17 @@
-// Vercel Cron handler. Runs daily at the schedule defined in vercel.json.
-// Iterates every Clerk user, sends a digest to anyone subscribed + due.
+// Vercel Cron handler. Fires daily at the schedule in vercel.json.
+// Iterates every Clerk user, then every subscription on that user, sending a
+// separate digest per subscription that's due. Each subscription has its own
+// lastSentAt so a daily sub on a user with a weekly sub still fires correctly.
 //
-// Vercel adds an "Authorization: Bearer <CRON_SECRET>" header to cron-fired
-// requests when CRON_SECRET env var is set. We require that to prevent
-// random web traffic from triggering blast sends.
-//
-// ?dryRun=1 query param skips the actual Resend call but still iterates
-// users and reports what WOULD have happened. Useful for first-time setup.
+// Auth: requires `Authorization: Bearer <CRON_SECRET>` header when env is set.
+// ?dryRun=1 reports what WOULD be sent without calling Resend.
+
 import { NextResponse } from "next/server";
-import { iterateAllUsers, prefsFromUser, savePrefsForUserId } from "@/lib/newsletter/prefs";
+import {
+  iterateAllUsers,
+  saveStateForUserId,
+  stateFromUser,
+} from "@/lib/newsletter/prefs";
 import {
   defaultRegionIds,
   isDueNow,
@@ -18,7 +21,7 @@ import {
 } from "@/lib/newsletter/send";
 
 export const runtime = "nodejs";
-export const maxDuration = 300; // 5 minutes — generous for a few hundred sends
+export const maxDuration = 300;
 
 export async function GET(req: Request) {
   const expected = process.env.CRON_SECRET;
@@ -31,77 +34,82 @@ export async function GET(req: Request) {
 
   const url = new URL(req.url);
   const dryRun = url.searchParams.get("dryRun") === "1";
-  const baseUrl =
-    process.env.NEXT_PUBLIC_APP_URL ?? `${url.protocol}//${url.host}`;
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL ?? `${url.protocol}//${url.host}`;
 
   const startedAt = new Date();
   const events = await loadEventsForRegions(defaultRegionIds());
 
-  let scanned = 0;
-  let subscribed = 0;
-  let due = 0;
+  let usersScanned = 0;
+  let subsConsidered = 0;
+  let subsDue = 0;
   let sent = 0;
   let skipped = 0;
   let failed = 0;
-  const failures: Array<{ userId: string; email: string; error: string }> = [];
+  const failures: Array<{ userId: string; subId: string; email: string; error: string }> =
+    [];
 
   for await (const user of iterateAllUsers()) {
-    scanned++;
-    const prefs = prefsFromUser(user);
-    if (!prefs.subscribed) continue;
-    subscribed++;
-    if (!isDueNow(prefs, startedAt)) continue;
-    due++;
+    usersScanned++;
+    const state = stateFromUser(user);
+    if (state.subscriptions.length === 0) continue;
 
     const email =
-      user.emailAddresses.find((e) => e.id === user.primaryEmailAddressId)?.emailAddress ??
-      user.emailAddresses[0]?.emailAddress;
+      user.emailAddresses.find((e) => e.id === user.primaryEmailAddressId)
+        ?.emailAddress ?? user.emailAddresses[0]?.emailAddress;
     if (!email) {
-      skipped++;
+      skipped += state.subscriptions.length;
       continue;
     }
 
-    if (dryRun) {
+    // Track which subs got their lastSentAt updated; save once per user
+    // after all their subs are processed.
+    const updatedSubs = [...state.subscriptions];
+    let anyUpdated = false;
+
+    for (let i = 0; i < state.subscriptions.length; i++) {
+      const sub = state.subscriptions[i];
+      subsConsidered++;
+      if (!isDueNow(sub, startedAt)) continue;
+      subsDue++;
+
+      if (dryRun) {
+        sent++;
+        continue;
+      }
+
+      let res: SendResult;
+      try {
+        res = await sendDigest({
+          recipient: { userId: user.id, email, firstName: user.firstName ?? undefined },
+          sub,
+          eventsByRegion: events,
+          baseUrl,
+          now: startedAt,
+        });
+      } catch (err) {
+        res = { ok: false, error: (err as Error).message };
+      }
+
+      if (!res.ok) {
+        failed++;
+        failures.push({ userId: user.id, subId: sub.id, email, error: res.error });
+        continue;
+      }
+      if ("skipped" in res) {
+        skipped++;
+        continue;
+      }
       sent++;
-      continue;
+      updatedSubs[i] = { ...sub, lastSentAt: startedAt.toISOString() };
+      anyUpdated = true;
     }
 
-    let res: SendResult;
-    try {
-      res = await sendDigest({
-        recipient: { userId: user.id, email, firstName: user.firstName ?? undefined },
-        prefs,
-        eventsByRegion: events,
-        baseUrl,
-        now: startedAt,
-      });
-    } catch (err) {
-      res = { ok: false, error: (err as Error).message };
-    }
-
-    if (!res.ok) {
-      failed++;
-      failures.push({ userId: user.id, email, error: res.error });
-      continue;
-    }
-    if ("skipped" in res) {
-      skipped++;
-      continue;
-    }
-    sent++;
-
-    // Update lastSentAt + surpriseHistory so we don't re-send / repeat surprises.
-    try {
-      const newHistory = [...(prefs.surpriseHistory ?? [])];
-      // Surprises were picked inside sendDigest; we don't have them back here.
-      // Acceptable trade-off: lastSentAt cools the schedule down, surprise
-      // dedupe will catch up on the next send via natural shuffling.
-      await savePrefsForUserId(user.id, {
-        lastSentAt: startedAt.toISOString(),
-        surpriseHistory: newHistory,
-      });
-    } catch {
-      // metadata update failures don't unsend the email; just log
+    if (anyUpdated) {
+      try {
+        await saveStateForUserId(user.id, { subscriptions: updatedSubs });
+      } catch {
+        // metadata write failures don't unsend the email; just continue
+      }
     }
   }
 
@@ -110,9 +118,9 @@ export async function GET(req: Request) {
     startedAt: startedAt.toISOString(),
     finishedAt: new Date().toISOString(),
     dryRun,
-    scanned,
-    subscribed,
-    due,
+    usersScanned,
+    subsConsidered,
+    subsDue,
     sent,
     skipped,
     failed,

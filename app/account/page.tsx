@@ -2,11 +2,11 @@ import { auth, currentUser } from "@clerk/nextjs/server";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { authIsConfigured } from "@/lib/auth";
-import { getPrefsForUserId } from "@/lib/newsletter/prefs";
+import { getStateForUserId } from "@/lib/newsletter/prefs";
 import { listRegions } from "@/lib/sources-config";
 import { EVENT_TYPES } from "@/lib/categorize";
 import type { EventRecord } from "@/lib/types";
-import { AccountPrefs } from "./AccountPrefs";
+import { AccountSubscriptions } from "./AccountSubscriptions";
 
 export const dynamic = "force-dynamic";
 
@@ -47,7 +47,7 @@ export default async function AccountPage() {
     return (
       <main className="sources-page">
         <h1>Account</h1>
-        <p>Please sign in to manage your newsletter preferences.</p>
+        <p>Please sign in to manage your newsletter subscriptions.</p>
       </main>
     );
   }
@@ -58,7 +58,7 @@ export default async function AccountPage() {
     user?.emailAddresses[0]?.emailAddress ??
     "";
 
-  const prefs = await getPrefsForUserId(userId);
+  const state = await getStateForUserId(userId);
   const regions = await listRegions();
   const venuesByRegion = await loadVenuesByRegion(regions);
 
@@ -72,14 +72,14 @@ export default async function AccountPage() {
       </header>
 
       <section>
-        <h2>Newsletter</h2>
+        <h2>Newsletter subscriptions</h2>
         <p className="muted small">
-          Get a personalized digest of upcoming local events. Filters apply on every
-          send; "surprise" frequency adds events from outside your filters at the level
-          you choose.
+          Subscribe to multiple personalized digests — pick a different region,
+          schedule, or filter set for each one. Every subscription sends + can
+          be unsubscribed from independently.
         </p>
-        <AccountPrefs
-          initialPrefs={prefs}
+        <AccountSubscriptions
+          initialState={state}
           regions={regions}
           venuesByRegion={venuesByRegion}
           eventTypes={[...EVENT_TYPES]}

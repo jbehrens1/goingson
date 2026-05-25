@@ -4,41 +4,47 @@ export type Schedule = "daily" | "weekly";
 export type SurpriseLevel = "never" | "sometimes" | "often";
 
 /**
- * Newsletter preferences stored on Clerk user.publicMetadata.newsletter.
- * Empty arrays = "no filter applied" (i.e. all values qualify).
- *
- * Stays under Clerk's 8KB metadata cap as long as venues[] is < ~100 entries
- * and surpriseHistory is trimmed to 30 most recent.
+ * One subscription. A user can have several (e.g. "LBI daily music,"
+ * "MetroWest weekly family events"). Each is independently sent,
+ * due-checked, and unsubscribable. Stored under
+ * user.publicMetadata.newsletter.subscriptions[].
  */
-export type NewsletterPrefs = {
-  subscribed: boolean;
+export type NewsletterSubscription = {
+  /** UUID, used to scope unsubscribe tokens and update operations. */
+  id: string;
+  /** User-given label shown in the email subject and on /account. */
+  name: string;
   /** Which region's events the digest pulls from. */
   region: string;
   schedule: Schedule;
-  /**
-   * How many days of upcoming events each digest covers. Independent from
-   * `schedule` — e.g. a daily-frequency subscriber can still preview the
-   * whole next week each morning. Default 7. Allowed range 1–30.
-   */
+  /** Days of upcoming events each digest covers (1-30). Independent from schedule. */
   lookaheadDays: number;
-  /** Event types the user wants. Empty = all. */
+  /** Event types this digest includes. Empty = all. */
   types: EventType[];
-  /** Venue names the user wants. Empty = all. */
+  /** Venue names this digest includes. Empty = all. */
   venues: string[];
   /** Optional geographic center for distance filtering. */
   center?: { label: string; lat: number; lon: number };
-  /** Radius in miles around `center`. Ignored if center is not set. */
+  /** Radius in miles around `center`. Ignored if center isn't set. */
   radiusMi?: number;
-  /** How aggressive to be about including "off-filter" surprise events. */
+  /** How aggressively to include "off-filter" surprise events. */
   surprise: SurpriseLevel;
-  /** ISO timestamp of the last successful send. Used to skip duplicate sends. */
+  /** ISO timestamp of the last successful send for this sub. */
   lastSentAt?: string;
   /** Event IDs recently shown as surprises (capped at 30) so we avoid repeats. */
   surpriseHistory?: string[];
 };
 
-export const DEFAULT_PREFS: NewsletterPrefs = {
-  subscribed: false,
+/**
+ * Top-level newsletter blob stored on user.publicMetadata.newsletter.
+ * The old single-sub `NewsletterPrefs` shape is silently migrated to a
+ * one-item subscriptions array on read (see lib/newsletter/prefs.ts).
+ */
+export type NewsletterState = {
+  subscriptions: NewsletterSubscription[];
+};
+
+export const DEFAULT_SUBSCRIPTION: Omit<NewsletterSubscription, "id" | "name"> = {
   region: "metrowest",
   schedule: "weekly",
   lookaheadDays: 7,
@@ -49,6 +55,9 @@ export const DEFAULT_PREFS: NewsletterPrefs = {
 
 export const LOOKAHEAD_MIN = 1;
 export const LOOKAHEAD_MAX = 30;
+
+/** Hard cap to keep all subscriptions under Clerk's 8KB metadata limit. */
+export const MAX_SUBSCRIPTIONS_PER_USER = 10;
 
 /** How many surprise events to include based on the level. */
 export const SURPRISE_K: Record<SurpriseLevel, number> = {

@@ -21,6 +21,9 @@ import type { Schedule } from "@/lib/newsletter/types";
 export type NewsletterProps = {
   recipientFirstName?: string;
   regionDisplayName: string;
+  /** User-given subscription label, e.g. "LBI weekly music." Falls back to
+   *  the region name if not provided. */
+  subscriptionName?: string;
   schedule: Schedule;
   windowStart: string; // ISO
   windowEnd: string;   // ISO
@@ -180,6 +183,7 @@ export function Newsletter(props: NewsletterProps) {
   const {
     recipientFirstName,
     regionDisplayName,
+    subscriptionName,
     schedule,
     windowStart,
     windowEnd,
@@ -190,6 +194,7 @@ export function Newsletter(props: NewsletterProps) {
     subscribeUrl,
     timeZone,
   } = props;
+  const headerTitle = subscriptionName ?? regionDisplayName;
 
   const previewText = matched.length
     ? `${matched.length} ${schedule === "daily" ? "today" : "upcoming"} · ${matched[0].title}`
@@ -204,9 +209,11 @@ export function Newsletter(props: NewsletterProps) {
       <Body style={styles.body}>
         <Container style={styles.container}>
           <Section style={styles.header}>
-            <Text style={styles.brand}>Goings On</Text>
+            <Text style={styles.brand}>
+              Goings On{subscriptionName ? ` · ${regionDisplayName}` : ""}
+            </Text>
             <Heading as="h1" style={styles.h1}>
-              {regionDisplayName} · {formatRange(windowStart, windowEnd, schedule, timeZone)}
+              {headerTitle} · {formatRange(windowStart, windowEnd, schedule, timeZone)}
             </Heading>
             <Text style={styles.subhead}>
               {recipientFirstName ? `Hi ${recipientFirstName} — ` : ""}
@@ -276,14 +283,17 @@ export function Newsletter(props: NewsletterProps) {
           <Section style={styles.footer}>
             <Hr />
             <Text style={{ margin: "8px 0" }}>
-              You&rsquo;re getting this because you subscribed to {schedule} updates for{" "}
-              {regionDisplayName}.{" "}
+              You&rsquo;re getting this because you subscribed to{" "}
+              <strong>
+                {subscriptionName ?? `${regionDisplayName} ${schedule} digest`}
+              </strong>
+              .{" "}
               <Link href={manageUrl} style={styles.footerLink}>
-                Manage your preferences
+                Manage your subscriptions
               </Link>{" "}
               ·{" "}
               <Link href={unsubscribeUrl} style={styles.footerLink}>
-                Unsubscribe
+                Unsubscribe from this one
               </Link>
             </Text>
             <Text style={{ margin: "8px 0" }}>
