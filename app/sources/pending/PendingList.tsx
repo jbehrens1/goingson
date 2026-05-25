@@ -14,6 +14,7 @@ const ADAPTERS: AdapterType[] = [
   "wordpress-mc",
   "wordpress-mec",
   "squarespace-events",
+  "elfsight-events",
   "trustees",
   "manual-recurring",
   "manual-oneoff",

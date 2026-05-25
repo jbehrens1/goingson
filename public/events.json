@@ -20,9 +20,296 @@
       "Barnegat Light, NJ"
     ]
   },
-  "generatedAt": "2026-05-25T02:33:26.427Z",
-  "count": 319,
+  "generatedAt": "2026-05-25T03:01:58.535Z",
+  "count": 315,
   "events": [
+    {
+      "title": "Tiki Friday",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2023-12-15T16:00:00",
+      "end": "2023-12-15T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/38d2d19e-c935-40fa-908e-2c513db998d0/pau-hana-tiki-friday-daddy-o.png",
+      "type": "other",
+      "id": "db02b595565b687f",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "All Day Happy Hour",
+      "description": "<div>Every Hour is Happy Hour at Daddy O's Main Bar on Mondays! </div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2024-11-04T15:40:00",
+      "end": "2024-11-04T15:40:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/aa92d2a8-36d0-4c8a-aa75-19c9b05f24ea/DO-Happy-Hour-Monday-3-Elfsight_FB-Events.png",
+      "type": "other",
+      "id": "7aa8ffe1b3780ab2",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Half Price Sushi Night",
+      "description": "<div>Half Price Sushi Night is BACK Rollin' every Thursday at 4pm!</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2024-11-07T16:00:00",
+      "end": "2024-11-07T16:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d96ae103-c67d-4d6b-9a2f-792b1a7cad25/DO-Half-Price-Sushi-night-3-FB-Event_-Elfsight.png",
+      "type": "other",
+      "id": "54085140536ab4d2",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Half Price Sushi Night",
+      "description": "<div>Half Price Sushi Night is BACK Rollin' every Thursday at 4pm!</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2024-12-05T16:00:00",
+      "end": "2024-12-05T16:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d96ae103-c67d-4d6b-9a2f-792b1a7cad25/DO-Half-Price-Sushi-night-3-FB-Event_-Elfsight.png",
+      "type": "other",
+      "id": "d42c9cafde697d87",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Tiki Friday",
+      "description": "<div>Enjoy Tiki themed cocktails and Chef Jeff's Hawaiian Themed Menu</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2025-02-28T15:47:00",
+      "end": "2025-02-28T15:47:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/737caead-2d87-46ef-8a9e-b36bccdab4a6/DO-Tiki-Friday-Graphic-3.png",
+      "type": "other",
+      "id": "6631e42ee776965d",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "His and Hers Night",
+      "description": "<div>Bourbon flights for him. Wine for her. Or switch it up. We don't judge.</div><br><div>$18 bourbon flights and half-price wine every Tuesday at Daddy O</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2025-11-18T12:52:00",
+      "end": "2025-11-18T13:52:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/2f3830bc-e28d-4069-bb05-50d9249c8034/Black-and-Beige-Classy-Bold-Signature-Drinks-Menu-800-x-500-px-2-.png",
+      "type": "food-drink",
+      "id": "01fd6a23b495d5dc",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Espresso Martini Flight Night",
+      "description": "<div>Stay awake, stay out late. Ten flavors and three ways to get your buzz on. </div><br><div>$18 espresso martini flights every Wednesday at Daddy O.</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2025-11-19T13:04:00",
+      "end": "2025-11-19T13:04:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/b1ea3859-2f06-4761-9dc4-e330741f3c39/Brown-and-White-Retro-Martini-Monday-Instagram-Post-Happy-Hour-800-x-500-px-.png",
+      "type": "other",
+      "id": "12cdcb3a2f4f3908",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Half Price Sushi",
+      "description": "<div>We're rollin' at 4pm and so should you. Half the price, all the flavor.</div><br><div>Every Thursday at Daddy O.</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2025-11-20T16:00:00",
+      "end": "2025-11-20T16:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f972fcb5-6a50-4155-bbf7-5f0cb7ae77dd/DO-Half-Price-Sushi-night-3-FB-Event-Elfsight.png",
+      "type": "other",
+      "id": "6b3e5ed2f36a6214",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Tiki Friday",
+      "description": "<div>Celebrate Pau Hana (after work) with our Hawaiian Themed Menu and Live Music Every Friday!</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2025-11-28T15:49:00",
+      "end": "2025-11-28T15:49:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/bd1d19d5-034b-4505-980c-8d49bd85852f/Brown-And-Green-Playful-Tropical-Celebration-Tiki-Party-Invitation-800-x-500-px-1-.png",
+      "type": "live-music",
+      "id": "e11c7f64036a6342",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Half Price Sushi",
+      "description": "<div>We're rollin' at 4pm and so should you. Half the price, all the flavor.</div><br><div>Every Thursday at Daddy O.</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2025-12-04T16:00:00",
+      "end": "2025-12-04T16:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f972fcb5-6a50-4155-bbf7-5f0cb7ae77dd/DO-Half-Price-Sushi-night-3-FB-Event-Elfsight.png",
+      "type": "other",
+      "id": "3fb01550e2ef0ff9",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Espresso Martini Flight Night",
+      "description": "<div>Stay awake, stay out late. Ten flavors and three ways to get your buzz on. </div><br><div>$18 espresso martini flights every Wednesday at Daddy O.</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-01-07T13:04:00",
+      "end": "2026-01-07T13:04:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/b1ea3859-2f06-4761-9dc4-e330741f3c39/Brown-and-White-Retro-Martini-Monday-Instagram-Post-Happy-Hour-800-x-500-px-.png",
+      "type": "other",
+      "id": "9c0a80e3e01b917d",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Half Price Sushi",
+      "description": "<div>We're rollin' at 4pm and so should you. Half the price, all the flavor.</div><br><div>Every Thursday at Daddy O.</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-01-08T16:00:00",
+      "end": "2026-01-08T16:00:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "lat": 39.6,
+        "lon": -74.2
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f972fcb5-6a50-4155-bbf7-5f0cb7ae77dd/DO-Half-Price-Sushi-night-3-FB-Event-Elfsight.png",
+      "type": "other",
+      "id": "88afa379ea47eafb",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "All Day Happy Hour",
+      "description": "<div>Every Hour is Happy Hour on Mondays!</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-03-09T13:23:00",
+      "end": "2026-03-09T14:23:00",
+      "allDay": true,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/fedcae77-630d-419b-b83a-63942b4db557/Blue-and-Beige-Retro-Happy-Hour-Instagram-Story-1200-x-1600-px-800-x-500-px-.png",
+      "type": "other",
+      "id": "6f8b05b628b5a9a4",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
     {
       "title": "Happy Hour - ned ryerson band",
       "description": "Happy Hour Music",
@@ -42,7 +329,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Trevor Baylor",
@@ -62,7 +349,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Joe Faronea",
@@ -82,7 +369,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Jack Managan",
@@ -102,7 +389,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Meg Whalen",
@@ -122,7 +409,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Alex Wreck",
@@ -142,7 +429,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Chuck Debruyn",
@@ -162,7 +449,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Mike Matthews",
@@ -182,7 +469,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Thom Ryan",
@@ -202,7 +489,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Trevor Baylor",
@@ -222,7 +509,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -243,7 +530,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - open mike",
@@ -264,7 +551,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -285,7 +572,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -306,7 +593,51 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with The Pickles",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-07T18:00:00",
+      "end": "2026-05-07T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Rpn4XSgM/The-Pickles.jpg",
+      "type": "live-music",
+      "id": "49a325ddc3e15e62",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Live Music with Preach",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-08T18:00:00",
+      "end": "2026-05-08T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/W4XwQjhH/Preach.jpg",
+      "type": "live-music",
+      "id": "db3674355b8615e3",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -327,7 +658,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - open mike",
@@ -348,7 +679,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Generation Next",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-09T18:00:00",
+      "end": "2026-05-09T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/4gYkJVb4/Generation-Next.jpg",
+      "type": "live-music",
+      "id": "f8a8463abc517e70",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -369,7 +722,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - 80's undercover",
@@ -390,7 +743,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with The Pickles",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-14T18:00:00",
+      "end": "2026-05-14T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Rpn4XSgM/The-Pickles.jpg",
+      "type": "live-music",
+      "id": "1237b2b1f573731c",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Thom Ryan",
@@ -410,7 +785,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Scotty Z",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-15T18:00:00",
+      "end": "2026-05-15T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/yBM55mTs/Scotty-Z.jpg",
+      "type": "live-music",
+      "id": "cb15b64c53dec2e7",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - chad miller",
@@ -431,7 +828,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Open Mic",
@@ -452,7 +849,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with Chuck DeBruyn",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-16T18:00:00",
+      "end": "2026-05-16T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/TD5KS9nq/Chuck-De-Bruyn.jpg",
+      "type": "live-music",
+      "id": "880a59c853d9fbe3",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - Billy T Midnight",
@@ -473,7 +892,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - ridgemont high",
@@ -494,7 +913,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Billy Simmons",
@@ -514,7 +933,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with The Pickles",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-21T18:00:00",
+      "end": "2026-05-21T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Rpn4XSgM/The-Pickles.jpg",
+      "type": "live-music",
+      "id": "0e6a9d9332845ef8",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -535,7 +976,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - dueling piano",
@@ -556,7 +997,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with The Pettis",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-22T18:00:00",
+      "end": "2026-05-22T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/d4N0KZzm/The-Pettis.jpg",
+      "type": "live-music",
+      "id": "7b35826aa9f52a55",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -577,7 +1040,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -598,7 +1061,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Matt Fisher",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-23T19:00:00",
+      "end": "2026-05-23T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/wrsB6xnR/Matt-Fisher.jpg",
+      "type": "live-music",
+      "id": "7d704e7bcc0598b2",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - ned solo",
@@ -619,7 +1104,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - nerds",
@@ -640,7 +1125,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Ted Hammock",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-24T18:00:00",
+      "end": "2026-05-24T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/8DQ5HThn/Ted-Hammock.jpg",
+      "type": "live-music",
+      "id": "7570b0505429bc01",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - Trevor Baylor",
@@ -661,7 +1168,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - turning the tide",
@@ -682,7 +1189,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Aftershock ",
@@ -703,7 +1210,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.151Z"
+      "ingestedAt": "2026-05-25T03:01:50.736Z"
     },
     {
       "title": "Happy Hour - hybrid",
@@ -724,7 +1231,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with The Pickles",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-28T18:00:00",
+      "end": "2026-05-28T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Rpn4XSgM/The-Pickles.jpg",
+      "type": "live-music",
+      "id": "9c716f3809eaefc3",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Mike Matthews",
@@ -744,28 +1273,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
+      "title": "Live Music with East Two Three",
       "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-05-28T22:00:00.000Z",
-      "end": "2026-05-29T01:00:00.000Z",
+      "start": "2026-05-29T18:00:00",
+      "end": "2026-05-29T21:00:00",
+      "allDay": false,
       "location": {
         "venue": "Daddy O LBI",
         "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
         "lat": 39.6299066,
         "lon": -74.1911607
       },
+      "imageUrl": "https://i.ibb.co/XZ1TLJZT/East-Two-Three.jpg",
       "type": "live-music",
-      "id": "2bce771338580da3",
+      "id": "f7d9d4a1ec373541",
       "source": {
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T02:33:19.228Z"
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -786,28 +1316,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-05-29T22:00:00.000Z",
-      "end": "2026-05-30T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "d0ecbb02ed14d42f",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.228Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Open Mic",
@@ -828,7 +1337,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band of Make Believe",
@@ -849,7 +1358,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with Ty Mares",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-05-30T19:00:00",
+      "end": "2026-05-30T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/JWWgv64Y/Ty-Mares.jpg",
+      "type": "live-music",
+      "id": "a780fbfa7fc18203",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -870,28 +1401,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-05-30T22:00:00.000Z",
-      "end": "2026-05-31T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "c835def4c06bbc66",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.228Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - No Dead Air",
@@ -912,7 +1422,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Kono Nation",
@@ -933,7 +1443,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -954,7 +1464,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with The Pickles",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-04T18:00:00",
+      "end": "2026-06-04T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Rpn4XSgM/The-Pickles.jpg",
+      "type": "live-music",
+      "id": "8469df3c2a88d09e",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -975,28 +1507,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-04T22:00:00.000Z",
-      "end": "2026-06-05T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "9285c0e6f6e4e51c",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.228Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -1017,28 +1528,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-05T22:00:00.000Z",
-      "end": "2026-06-06T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "8fe290e9bcd1e83d",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.228Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - open mike",
@@ -1059,7 +1549,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Sky City Social",
@@ -1080,7 +1570,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with Barbara Lin",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-06T19:00:00",
+      "end": "2026-06-06T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/1JqF4msg/Barbara-Lin.jpg",
+      "type": "live-music",
+      "id": "b2e98959ec8dfd97",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -1101,28 +1613,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-06T22:00:00.000Z",
-      "end": "2026-06-07T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "89cbd2c123264a28",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -1143,7 +1634,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "3AM Tokyo ",
@@ -1164,7 +1655,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -1185,7 +1676,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with The Pickles",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-11T18:00:00",
+      "end": "2026-06-11T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Rpn4XSgM/The-Pickles.jpg",
+      "type": "live-music",
+      "id": "24c07dc343ea261c",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -1206,28 +1719,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
+      "title": "Live Music with Chuck DeBruyn",
       "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-11T22:00:00.000Z",
-      "end": "2026-06-12T01:00:00.000Z",
+      "start": "2026-06-12T18:00:00",
+      "end": "2026-06-12T21:00:00",
+      "allDay": false,
       "location": {
         "venue": "Daddy O LBI",
         "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
         "lat": 39.6299066,
         "lon": -74.1911607
       },
+      "imageUrl": "https://i.ibb.co/TD5KS9nq/Chuck-De-Bruyn.jpg",
       "type": "live-music",
-      "id": "bd84100e52f4c135",
+      "id": "121a65e4df6c86ad",
       "source": {
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -1248,28 +1762,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-12T22:00:00.000Z",
-      "end": "2026-06-13T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "7d12d2e3d2c4eed1",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - open mike",
@@ -1290,7 +1783,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "The Benjamins",
@@ -1311,7 +1804,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with East Two Three",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-13T19:00:00",
+      "end": "2026-06-13T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/XZ1TLJZT/East-Two-Three.jpg",
+      "type": "live-music",
+      "id": "1b23e0f4993edaf5",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -1332,28 +1847,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-13T22:00:00.000Z",
-      "end": "2026-06-14T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "3712efc53178ce8b",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band -  the foots",
@@ -1374,7 +1868,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Split Decision ",
@@ -1395,7 +1889,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -1416,7 +1910,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with The Pickles",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-18T18:00:00",
+      "end": "2026-06-18T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Rpn4XSgM/The-Pickles.jpg",
+      "type": "live-music",
+      "id": "358f226e30e21a23",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -1437,28 +1953,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
+      "title": "Live Music with Scotty Z",
       "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-18T22:00:00.000Z",
-      "end": "2026-06-19T01:00:00.000Z",
+      "start": "2026-06-19T18:00:00",
+      "end": "2026-06-19T21:00:00",
+      "allDay": false,
       "location": {
         "venue": "Daddy O LBI",
         "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
         "lat": 39.6299066,
         "lon": -74.1911607
       },
+      "imageUrl": "https://i.ibb.co/yBM55mTs/Scotty-Z.jpg",
       "type": "live-music",
-      "id": "10b099c2ff1307e5",
+      "id": "eb2a8b5eb3814fce",
       "source": {
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -1479,28 +1996,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-19T22:00:00.000Z",
-      "end": "2026-06-20T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "c22b96d558efd400",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - open mike",
@@ -1521,7 +2017,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Kono Nation ",
@@ -1542,7 +2038,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with Brother Pete",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-20T19:00:00",
+      "end": "2026-06-20T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/twR988kk/Brother-Pete.jpg",
+      "type": "live-music",
+      "id": "c5f623332a75ecf1",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -1563,28 +2081,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-20T22:00:00.000Z",
-      "end": "2026-06-21T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "1e111d302eda65a8",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - shallow green",
@@ -1605,7 +2102,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Stealing Savanah ",
@@ -1626,7 +2123,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -1647,7 +2144,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -1668,7 +2165,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -1689,7 +2186,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -1710,7 +2207,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -1731,7 +2228,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Harvey Street",
@@ -1752,7 +2249,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -1773,7 +2270,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Highly Questionable Trivia",
@@ -1794,7 +2291,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Band - nerds",
@@ -1815,7 +2312,52 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Daddy O x Jetty Summer Launch Party",
+      "description": "<div>Join us to celebrate the launch of our limited-edition 2026 t-shirt collab in The Garden at Daddy O, celebrating our 20th summer!</div><br><div>A ticket includes a complimentary beverage and a raffle ticket for your chance to win a beach cruiser bike and other great prizes. $1 of every ticket is being donated to the Jetty Rock Foundation.</div><br><div>Come kick off the summer with Jetty &amp; Daddy O, as we begin our 20th year in LBI!</div>",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-25T18:00:00",
+      "end": "2026-06-25T20:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a9a64fd2-e2cd-47a4-8564-44bc3d621fa3/Jetty-x-DaddyO_26__V2_Facebook-Banner.jpg",
+      "type": "other",
+      "id": "c7d2ac928bb0c581",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
+    },
+    {
+      "title": "Live Music with Rob Connolly",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-25T18:00:00",
+      "end": "2026-06-25T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/DfSbyjND/Rob-Connolly.jpg",
+      "type": "live-music",
+      "id": "aff1ca2bd004c0f4",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -1836,28 +2378,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-25T22:00:00.000Z",
-      "end": "2026-06-26T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "ed536a5f9a0ce950",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -1878,7 +2399,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Preach",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-26T18:00:00",
+      "end": "2026-06-26T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/W4XwQjhH/Preach.jpg",
+      "type": "live-music",
+      "id": "2168faffd90b711e",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -1899,28 +2442,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-26T22:00:00.000Z",
-      "end": "2026-06-27T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "4422fcba703a215b",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - steel the sky",
@@ -1941,7 +2463,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Go Go Gadget",
@@ -1962,7 +2484,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with Matt Fisher",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-06-27T19:00:00",
+      "end": "2026-06-27T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/wrsB6xnR/Matt-Fisher.jpg",
+      "type": "live-music",
+      "id": "213046d232387e9e",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -1983,28 +2527,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-06-27T22:00:00.000Z",
-      "end": "2026-06-28T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "0451ead30586bc20",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -2025,7 +2548,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Gab Cinque  Band",
@@ -2046,7 +2569,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -2067,7 +2590,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -2088,7 +2611,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -2109,7 +2632,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -2130,7 +2653,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -2151,7 +2674,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "The Wheeland Brothers",
@@ -2172,7 +2695,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -2193,7 +2716,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -2214,7 +2737,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Band - nerds",
@@ -2235,7 +2758,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with Skip Winters",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-02T18:00:00",
+      "end": "2026-07-02T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/Sw4YPbnM/Skip-Winters.jpg",
+      "type": "live-music",
+      "id": "0861b06b1f105941",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -2256,28 +2801,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-02T22:00:00.000Z",
-      "end": "2026-07-03T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "2dbf061f38a10408",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.229Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -2298,7 +2822,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -2319,28 +2843,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-03T22:00:00.000Z",
-      "end": "2026-07-04T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "a9057f1469456c6e",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -2361,7 +2864,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "My Hero Zero",
@@ -2382,7 +2885,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with Gypsy Moon",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-04T19:00:00",
+      "end": "2026-07-04T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/MDFpMw5x/Gypsy-Moon.jpg",
+      "type": "live-music",
+      "id": "30b1b62f234821ce",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - hybrid",
@@ -2403,28 +2928,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-04T22:00:00.000Z",
-      "end": "2026-07-05T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "242e1ce83cc82324",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - nerds",
@@ -2445,7 +2949,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "3AM Tokyo Fireworks Party",
@@ -2466,7 +2970,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -2487,7 +2991,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -2508,7 +3012,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - dueling piano",
@@ -2529,7 +3033,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -2550,7 +3054,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -2571,7 +3075,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Drifting Roots",
@@ -2592,7 +3096,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -2613,7 +3117,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -2634,7 +3138,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Band - nerds",
@@ -2655,7 +3159,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -2676,28 +3180,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-09T22:00:00.000Z",
-      "end": "2026-07-10T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "fa7f698d112094d8",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - karaoke",
@@ -2718,7 +3201,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Chuck DeBruyn",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-10T18:00:00",
+      "end": "2026-07-10T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/TD5KS9nq/Chuck-De-Bruyn.jpg",
+      "type": "live-music",
+      "id": "816614345b1cd9af",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -2739,28 +3244,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-10T22:00:00.000Z",
-      "end": "2026-07-11T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "954b8ccf9f09d03c",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - anger management",
@@ -2781,7 +3265,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Split Decision ",
@@ -2802,7 +3286,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with Justin Jones",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-11T19:00:00",
+      "end": "2026-07-11T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/35yXGLKm/Justin-Jones.jpg",
+      "type": "live-music",
+      "id": "4c00061acf643dcd",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -2823,28 +3329,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-11T22:00:00.000Z",
-      "end": "2026-07-12T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "e395c4f0385f4901",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - 5 dollar shakes",
@@ -2865,7 +3350,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Gab Cinque  Band ",
@@ -2886,7 +3371,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -2907,7 +3392,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -2928,7 +3413,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -2949,7 +3434,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -2970,7 +3455,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -2991,7 +3476,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "SUM SUN with Wim Tapley &amp; The Cannons",
@@ -3012,7 +3497,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3033,7 +3518,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -3054,7 +3539,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Band - nerds",
@@ -3075,7 +3560,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with La Stella Brother",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-16T18:00:00",
+      "end": "2026-07-16T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/JwX6x50X/La-Stella-Brothers.jpg",
+      "type": "live-music",
+      "id": "1568e600932e5854",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -3096,28 +3603,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-16T22:00:00.000Z",
-      "end": "2026-07-17T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "9f4d84a989bffba4",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - karaoke",
@@ -3138,7 +3624,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Scotty Z",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-17T18:00:00",
+      "end": "2026-07-17T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/yBM55mTs/Scotty-Z.jpg",
+      "type": "live-music",
+      "id": "c1bdcfbdd0390196",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -3159,28 +3667,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-17T22:00:00.000Z",
-      "end": "2026-07-18T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "ee8c984dda22a80c",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -3201,7 +3688,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Amish Outlaws",
@@ -3222,7 +3709,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.152Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
+    },
+    {
+      "title": "Live Music with Ted Hammock",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-18T19:00:00",
+      "end": "2026-07-18T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/8DQ5HThn/Ted-Hammock.jpg",
+      "type": "live-music",
+      "id": "c20ddebec07eab30",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -3243,28 +3752,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-18T22:00:00.000Z",
-      "end": "2026-07-19T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "8261bbd2f61e769d",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - turning the tide",
@@ -3285,7 +3773,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "The Way Outs",
@@ -3306,7 +3794,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -3327,7 +3815,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -3348,7 +3836,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -3369,7 +3857,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -3390,7 +3878,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -3411,7 +3899,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Rob Benton",
@@ -3432,7 +3920,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3453,7 +3941,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -3474,7 +3962,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Band - nerds",
@@ -3495,7 +3983,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Matt Fisher",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-23T18:00:00",
+      "end": "2026-07-23T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/wrsB6xnR/Matt-Fisher.jpg",
+      "type": "live-music",
+      "id": "e6ea76798e589e81",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -3516,28 +4026,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-23T22:00:00.000Z",
-      "end": "2026-07-24T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "86c5397e4ef7a93a",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -3558,7 +4047,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with Ty Mares",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-24T18:00:00",
+      "end": "2026-07-24T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/JWWgv64Y/Ty-Mares.jpg",
+      "type": "live-music",
+      "id": "75478dead4c4d024",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -3579,28 +4090,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-24T22:00:00.000Z",
-      "end": "2026-07-25T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "3c3f50db9f93fe88",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -3621,7 +4111,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "The Cliffs",
@@ -3642,7 +4132,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -3663,28 +4153,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-25T22:00:00.000Z",
-      "end": "2026-07-26T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "f0c924e924bc8c80",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - steel the sky",
@@ -3705,7 +4174,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Good Noise",
@@ -3726,7 +4195,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.737Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -3747,7 +4216,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -3768,7 +4237,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -3789,7 +4258,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -3810,7 +4279,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -3831,7 +4300,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Tunnel Vision and Capital Dub",
@@ -3852,7 +4321,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3873,7 +4342,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -3894,7 +4363,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Band - nerds",
@@ -3915,7 +4384,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
+    },
+    {
+      "title": "Live Music with Rob Connolly",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-30T18:00:00",
+      "end": "2026-07-30T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/DfSbyjND/Rob-Connolly.jpg",
+      "type": "live-music",
+      "id": "3ebca5d8febca525",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -3936,28 +4427,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-30T22:00:00.000Z",
-      "end": "2026-07-31T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "dd7884e01936226c",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.230Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - karaoke",
@@ -3978,7 +4448,29 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
+    },
+    {
+      "title": "Live Music with East Two Three",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-07-31T18:00:00",
+      "end": "2026-07-31T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/XZ1TLJZT/East-Two-Three.jpg",
+      "type": "live-music",
+      "id": "be7aabeafa40898d",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -3999,28 +4491,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-07-31T22:00:00.000Z",
-      "end": "2026-08-01T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "0db19b19bea1f3bb",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - porch",
@@ -4041,7 +4512,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Go Go Gadget ",
@@ -4062,7 +4533,29 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
+    },
+    {
+      "title": "Live Music with Justin Jones",
+      "url": "https://www.daddyolbi.com/happenings",
+      "start": "2026-08-01T19:00:00",
+      "end": "2026-08-01T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Daddy O LBI",
+        "town": "Long Beach Township",
+        "address": "4401 Long Beach Blvd, Long Beach, NJ 08008",
+        "lat": 39.6299066,
+        "lon": -74.1911607
+      },
+      "imageUrl": "https://i.ibb.co/35yXGLKm/Justin-Jones.jpg",
+      "type": "live-music",
+      "id": "4f5ccfd3ecdbd2f7",
+      "source": {
+        "id": "daddyo-lbi",
+        "name": "Daddy O LBI"
+      },
+      "ingestedAt": "2026-05-25T03:01:52.735Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -4083,28 +4576,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-01T22:00:00.000Z",
-      "end": "2026-08-02T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "574b550e0919b71a",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - turning the tide",
@@ -4125,7 +4597,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "3AM Tokyo ",
@@ -4146,7 +4618,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -4167,7 +4639,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -4188,7 +4660,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - dueling piano",
@@ -4209,7 +4681,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Farias Surf Night with Steve Rondo, \"Wrapped in a Feeling.\"",
@@ -4230,7 +4702,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -4251,7 +4723,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -4272,7 +4744,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Billy Walton Band",
@@ -4293,7 +4765,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -4314,7 +4786,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -4335,7 +4807,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Band - nerds",
@@ -4356,7 +4828,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -4377,28 +4849,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-06T22:00:00.000Z",
-      "end": "2026-08-07T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "bc02fcd8b450bff8",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - karaoke",
@@ -4419,7 +4870,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -4440,28 +4891,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-07T22:00:00.000Z",
-      "end": "2026-08-08T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "c0db946d46ac9271",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -4482,7 +4912,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Kono Nation ",
@@ -4503,7 +4933,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -4524,28 +4954,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-08T22:00:00.000Z",
-      "end": "2026-08-09T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "e76cf67d50bd5d6d",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - steel the sky",
@@ -4566,7 +4975,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Aftershock",
@@ -4587,7 +4996,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -4608,7 +5017,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -4629,7 +5038,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -4650,7 +5059,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -4671,7 +5080,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -4692,7 +5101,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "St. Cecilia",
@@ -4713,7 +5122,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "The Saint Cecilia",
@@ -4734,7 +5143,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -4755,7 +5164,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -4776,7 +5185,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Band - nerds",
@@ -4797,7 +5206,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -4818,28 +5227,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-13T22:00:00.000Z",
-      "end": "2026-08-14T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "0a6352f17a3368f8",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - karaoke",
@@ -4860,7 +5248,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -4881,28 +5269,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-14T22:00:00.000Z",
-      "end": "2026-08-15T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "47738c162c8de169",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - porch",
@@ -4923,7 +5290,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Man Down",
@@ -4944,7 +5311,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -4965,28 +5332,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-15T22:00:00.000Z",
-      "end": "2026-08-16T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "84a582116094058a",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - anger management",
@@ -5007,7 +5353,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Stealing Savanah ",
@@ -5028,7 +5374,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -5049,7 +5395,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -5070,7 +5416,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - dueling piano",
@@ -5091,7 +5437,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -5112,7 +5458,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5133,7 +5479,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5154,7 +5500,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -5175,7 +5521,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Band - nerds",
@@ -5196,7 +5542,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -5217,28 +5563,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-20T22:00:00.000Z",
-      "end": "2026-08-21T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "90007ed5248ecefb",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -5259,7 +5584,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -5280,28 +5605,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-21T22:00:00.000Z",
-      "end": "2026-08-22T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "ad41cf499b6f7de1",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -5322,7 +5626,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "3AM Tokyo  ",
@@ -5343,7 +5647,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -5364,28 +5668,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-22T22:00:00.000Z",
-      "end": "2026-08-23T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "08d2f0400cfac7da",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -5406,7 +5689,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Good Noise ",
@@ -5427,7 +5710,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -5448,7 +5731,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -5469,7 +5752,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - dueling piano",
@@ -5490,7 +5773,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -5511,7 +5794,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5532,7 +5815,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5553,7 +5836,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -5574,7 +5857,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Band - nerds",
@@ -5595,7 +5878,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -5616,28 +5899,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.642Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-27T22:00:00.000Z",
-      "end": "2026-08-28T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "8ffb8a8bf431d1f6",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.231Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - karaoke",
@@ -5658,7 +5920,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -5679,28 +5941,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-28T22:00:00.000Z",
-      "end": "2026-08-29T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "9476b71544f22abf",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - shallow green",
@@ -5721,7 +5962,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "The Way Outs ",
@@ -5742,7 +5983,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -5763,28 +6004,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-08-29T22:00:00.000Z",
-      "end": "2026-08-30T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "0246d8f1689719b2",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -5805,7 +6025,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Sky City Social",
@@ -5826,7 +6046,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -5847,7 +6067,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -5868,7 +6088,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - dueling piano",
@@ -5889,7 +6109,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -5910,7 +6130,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5931,7 +6151,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5952,7 +6172,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -5973,7 +6193,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Band - nerds",
@@ -5994,7 +6214,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -6015,28 +6235,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-03T22:00:00.000Z",
-      "end": "2026-09-04T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "8a7789e967e9430b",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - karaoke",
@@ -6057,7 +6256,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -6078,28 +6277,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-04T22:00:00.000Z",
-      "end": "2026-09-05T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "ab759db248087bb8",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -6120,7 +6298,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Gab Cinque  Band  ",
@@ -6141,7 +6319,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - chad miller",
@@ -6162,28 +6340,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-05T22:00:00.000Z",
-      "end": "2026-09-06T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "30c12d116fd5d691",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Band - nerds",
@@ -6204,7 +6361,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Kono Nation ",
@@ -6225,7 +6382,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -6246,7 +6403,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.645Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Happy Hour - ty duo",
@@ -6267,7 +6424,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -6288,28 +6445,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-10T22:00:00.000Z",
-      "end": "2026-09-11T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "ad230869edc49385",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.059Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -6330,28 +6466,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-11T22:00:00.000Z",
-      "end": "2026-09-12T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "6626d5ce4d67cc04",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - Friday Sept 11 needs a band, Mike or Anthony can help",
@@ -6372,7 +6487,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.643Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "The Black Ties",
@@ -6393,7 +6508,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -6414,28 +6529,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.646Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-12T22:00:00.000Z",
-      "end": "2026-09-13T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "4805e5ffb9d43d2e",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Band - pickles",
@@ -6456,7 +6550,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "Ridgemont Hight",
@@ -6477,7 +6571,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -6498,112 +6592,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T02:33:16.644Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-17T22:00:00.000Z",
-      "end": "2026-09-18T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "eed9f96d4fae43b0",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-18T22:00:00.000Z",
-      "end": "2026-09-19T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "e8ab5d7856f69b9f",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-19T22:00:00.000Z",
-      "end": "2026-09-20T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "08878a8c35458142",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-24T22:00:00.000Z",
-      "end": "2026-09-25T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "5f448aea010cad54",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.232Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-25T22:00:00.000Z",
-      "end": "2026-09-26T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "79df87183a71cdb7",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.233Z"
+      "ingestedAt": "2026-05-25T03:01:51.058Z"
     },
     {
       "title": "The Polish Nannies",
@@ -6624,28 +6613,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
-    },
-    {
-      "title": "Live Music at Daddy O",
-      "description": "Live music at the bar. Band TBA — see daddyolbi.com/happenings for the night's lineup.",
-      "url": "https://www.daddyolbi.com/happenings",
-      "start": "2026-09-26T22:00:00.000Z",
-      "end": "2026-09-27T01:00:00.000Z",
-      "location": {
-        "venue": "Daddy O LBI",
-        "town": "Long Beach Township",
-        "address": "4401 Long Beach Blvd, Brant Beach, NJ 08008",
-        "lat": 39.6299066,
-        "lon": -74.1911607
-      },
-      "type": "live-music",
-      "id": "613529bf70a985a8",
-      "source": {
-        "id": "daddyo-lbi",
-        "name": "Daddy O LBI"
-      },
-      "ingestedAt": "2026-05-25T02:33:19.233Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "95 Live",
@@ -6666,7 +6634,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Jel &amp; The Kidz",
@@ -6687,7 +6655,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     },
     {
       "title": "Band of Make Believe ",
@@ -6708,7 +6676,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T02:33:16.153Z"
+      "ingestedAt": "2026-05-25T03:01:50.738Z"
     }
   ]
 }

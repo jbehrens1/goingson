@@ -71,13 +71,15 @@
       "id": "daddyo-lbi",
       "name": "Daddy O LBI",
       "enabled": true,
-      "adapter": "manual-oneoff",
+      "adapter": "elfsight-events",
       "url": "https://www.daddyolbi.com/happenings",
       "category": "Venue / Restaurant + Hotel",
       "town": "Long Beach Township",
-      "notes": "Wix Events widget — content is API-locked behind a Wix OAuth token, so we can only see the recurring schedule from the static HTML wrapper. Seeded with Thu/Fri/Sat 6-9pm Live Music from the venue's published schedule (May 28 – Sep 26 2026). Update one-off-daddyo.json when the season changes; build a wix-events adapter to pull band names.",
+      "notes": "Wix site embedding the Elfsight 'Event Calendar' third-party widget. The widget's boot endpoint returns the full event list as clean JSON (band names, dates, times, images) with no auth needed. Widget ID discovered by loading /happenings in DevTools and watching the network call to core.service.elfsight.com/p/boot.",
       "config": {
-        "file": "one-off-daddyo.json"
+        "widgetId": "ced2ea9c-538f-4f25-a1c5-5fe1c4387785",
+        "pageUrl": "https://www-daddyolbi-com.filesusr.com/html/8d4e1c_93fee63efebb2b8da4fcfc8ba028447d.html",
+        "defaultVenue": "Daddy O LBI"
       }
     },
     {

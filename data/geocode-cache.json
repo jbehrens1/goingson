@@ -1895,5 +1895,16 @@
     "lon": -74.1911607,
     "displayName": "4401, Long Beach Boulevard, Brant Beach, Long Beach Township, Ocean County, New Jersey, 08008, United States",
     "fetchedAt": "2026-05-25T02:33:26.306Z"
+  },
+  "lbi::daddy o lbi, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T03:00:57.662Z"
+  },
+  "lbi::4401 long beach blvd, long beach, nj 08008": {
+    "lat": 39.6299066,
+    "lon": -74.1911607,
+    "displayName": "4401, Long Beach Boulevard, Brant Beach, Long Beach Township, Ocean County, New Jersey, 08008, United States",
+    "fetchedAt": "2026-05-25T03:00:58.381Z"
   }
 }
