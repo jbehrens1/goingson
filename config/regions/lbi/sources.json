@@ -36,9 +36,9 @@
       "url": "https://www.blackeyedsusanslbi.com/",
       "category": "Venue / Restaurant",
       "town": "Harvey Cedars",
-      "notes": "Squarespace site. The /happenings page is a single anchor-targeted section on the home page, not a Squarespace events collection. No JSON feed. Disable until they create one, or switch to manual-oneoff to seed dates by hand.",
+      "notes": "Squarespace native Calendar block on /happenings; the events collection backing it lives at /live-music-1/. The /happenings page itself has no JSON feed — find the collection URL via the Squarespace sitemap (look for /<collection-slug>/<year>/<month>/<day>/<event-slug> patterns).",
       "config": {
-        "path": "/happenings/",
+        "path": "/live-music-1/",
         "defaultVenue": "Black-Eyed Susan's"
       }
     },

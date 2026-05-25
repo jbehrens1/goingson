@@ -20,8 +20,8 @@
       "Barnegat Light, NJ"
     ]
   },
-  "generatedAt": "2026-05-25T03:01:58.535Z",
-  "count": 315,
+  "generatedAt": "2026-05-25T03:15:16.241Z",
+  "count": 345,
   "events": [
     {
       "title": "Tiki Friday",
@@ -42,7 +42,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "All Day Happy Hour",
@@ -64,7 +64,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Half Price Sushi Night",
@@ -86,7 +86,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Half Price Sushi Night",
@@ -108,7 +108,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Tiki Friday",
@@ -130,7 +130,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "His and Hers Night",
@@ -152,7 +152,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Espresso Martini Flight Night",
@@ -174,7 +174,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Half Price Sushi",
@@ -196,7 +196,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Tiki Friday",
@@ -219,7 +219,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Half Price Sushi",
@@ -241,7 +241,28 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
+    },
+    {
+      "title": "Live Music: Samantha Dress",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/3/live-music-samantha-dress",
+      "start": "2026-01-03T23:00:00.380Z",
+      "end": "2026-01-04T02:00:00.380Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/6930cef3830262367c32c9a3/1764806404496/",
+      "type": "live-music",
+      "id": "2edfc3a877d8cca6",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
     },
     {
       "title": "Espresso Martini Flight Night",
@@ -263,7 +284,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Half Price Sushi",
@@ -285,7 +306,322 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
+    },
+    {
+      "title": "Live Music: Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/9/live-music-greg-warren",
+      "start": "2026-01-09T23:00:00.048Z",
+      "end": "2026-01-10T02:00:00.048Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596af456778532c5fa37d3/1767467816087/",
+      "type": "live-music",
+      "id": "fda5fa447075716e",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
+    },
+    {
+      "title": "Live Music: Ty Mares",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/10/live-music-ty-mares",
+      "start": "2026-01-10T23:00:00.570Z",
+      "end": "2026-01-11T02:00:00.570Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596b29d567595621457a5f/1767467846581/",
+      "type": "live-music",
+      "id": "4805d6d119acca0c",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
+    },
+    {
+      "title": "Live Music: Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/16/live-music-greg-warren",
+      "start": "2026-01-16T23:00:00.565Z",
+      "end": "2026-01-17T02:00:00.565Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596b487c1ee40e93e5b508/1767467872496/",
+      "type": "live-music",
+      "id": "556db8d49b3c8721",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
+    },
+    {
+      "title": "Live Music: Samantha Dress",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/17/live-music-samantha-dress",
+      "start": "2026-01-17T23:00:00.932Z",
+      "end": "2026-01-18T02:00:00.932Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596b639112f803871e4384/1767467898311/",
+      "type": "live-music",
+      "id": "6fba3f448fcacf16",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
+    },
+    {
+      "title": "Live Music: Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/23/live-music-greg-warren",
+      "start": "2026-01-23T23:00:00.940Z",
+      "end": "2026-01-24T02:00:00.940Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596b7fe93eca087a617dc3/1767467922056/",
+      "type": "live-music",
+      "id": "099a5766d618f08b",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
+    },
+    {
+      "title": "Live Music: East Two Three",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/24/live-music-east-two-three",
+      "start": "2026-01-24T23:00:00.357Z",
+      "end": "2026-01-25T02:00:00.357Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596b9327a39922decfc000/1767467972920/",
+      "type": "live-music",
+      "id": "d189626773e593ed",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
+    },
+    {
+      "title": "Live Music: Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/30/live-music-greg-warren",
+      "start": "2026-01-30T23:00:00.343Z",
+      "end": "2026-01-31T02:00:00.343Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596bc79112f803871e604a/1767468010853/",
+      "type": "live-music",
+      "id": "3adabcd321540fb3",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.156Z"
+    },
+    {
+      "title": "Live Music: East Two Three",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/1/31/live-music-east-two-three",
+      "start": "2026-01-31T23:00:00.751Z",
+      "end": "2026-02-01T02:00:00.751Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596beec610fe086a639984/1767468037307/",
+      "type": "live-music",
+      "id": "52051263cb2e8784",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
+    },
+    {
+      "title": "Live Music: Brian Massa",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/2/6/live-music-greg-warren",
+      "start": "2026-02-06T23:00:00.540Z",
+      "end": "2026-02-07T02:00:00.540Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596c1184273e5290f3757f/1770052348439/",
+      "type": "live-music",
+      "id": "2c933006df88a6ac",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
+    },
+    {
+      "title": "Live Music: Samantha Dress",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/2/7/live-music-samantha-dress",
+      "start": "2026-02-07T23:00:00.581Z",
+      "end": "2026-02-08T02:00:00.581Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596c26776f5433600dc44f/1767468093514/",
+      "type": "live-music",
+      "id": "8f46b8536cbccffc",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
+    },
+    {
+      "title": "Live Music: Skip Winters",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/2/13/live-music-skip-winters",
+      "start": "2026-02-13T23:00:00.843Z",
+      "end": "2026-02-14T02:00:00.843Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596c3f75670a15a5dfb0f0/1767468117861/",
+      "type": "live-music",
+      "id": "ad25f2d4a53dc8a1",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
+    },
+    {
+      "title": "Live Music: Allison Stella",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/2/14/live-music-allison-stella",
+      "start": "2026-02-14T23:00:00.907Z",
+      "end": "2026-02-15T02:00:00.907Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596c5806d71a2e5236d9f4/1767468144243/",
+      "type": "live-music",
+      "id": "c766f4e29fa18d66",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
+    },
+    {
+      "title": "Live Music: Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/2/20/live-music-greg-warren",
+      "start": "2026-02-20T23:00:00.425Z",
+      "end": "2026-02-21T02:00:00.425Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596c750c409f19cddcaf8b/1767468178990/",
+      "type": "live-music",
+      "id": "1d4e14a0aced02c0",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
+    },
+    {
+      "title": "Live Music: Chris Guzman",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/2/21/live-music-chris-guzman",
+      "start": "2026-02-21T23:00:00.439Z",
+      "end": "2026-02-22T02:00:00.439Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596c9529787c37c3c3ce55/1767468206243/",
+      "type": "live-music",
+      "id": "cb614a2e5a576cf9",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
+    },
+    {
+      "title": "Live Music: Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/2/27/live-music-greg-warren",
+      "start": "2026-02-27T23:00:00.530Z",
+      "end": "2026-02-28T02:00:00.530Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69596cb075670a15a5dfcf11/1767468234211/",
+      "type": "live-music",
+      "id": "70858a8fded040a0",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "All Day Happy Hour",
@@ -308,7 +644,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - ned ryerson band",
@@ -329,7 +665,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
+    },
+    {
+      "title": "Live Music with Samantha Dress",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/3/20/live-music-with-samantha-dress",
+      "start": "2026-03-20T22:00:00.218Z",
+      "end": "2026-03-21T01:00:00.218Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69bc5e7f867f88488831a8ef/1773952662956/",
+      "type": "live-music",
+      "id": "670edc511370ae55",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Trevor Baylor",
@@ -349,7 +706,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Joe Faronea",
@@ -369,7 +726,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Jack Managan",
@@ -389,7 +746,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Meg Whalen",
@@ -409,7 +766,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Alex Wreck",
@@ -429,7 +786,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Chuck Debruyn",
@@ -449,7 +806,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
+    },
+    {
+      "title": "Live Music - Brian Massa",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/4/17/live-music-brian-massa",
+      "start": "2026-04-17T22:00:00.354Z",
+      "end": "2026-04-18T01:00:00.354Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69e0d99adc2d81085b26f57d/1776343471251/",
+      "type": "live-music",
+      "id": "144280b74032d13c",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Mike Matthews",
@@ -469,7 +847,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
+    },
+    {
+      "title": "Live Music - Chris Guzman",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/4/18/live-music-chris-guzman",
+      "start": "2026-04-18T22:00:00.473Z",
+      "end": "2026-04-19T01:00:00.473Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8d05676ad70b9cb0e5de/1776258336534/",
+      "type": "live-music",
+      "id": "f96a7b62f9a4834d",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Thom Ryan",
@@ -489,7 +888,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
+    },
+    {
+      "title": "Live Music - Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/4/24/live-music-greg-warren",
+      "start": "2026-04-24T22:00:00.212Z",
+      "end": "2026-04-25T01:00:00.212Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8d22ef0bce02c96d8acb/1776258365686/",
+      "type": "live-music",
+      "id": "925b6e79db4856e2",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Trevor Baylor",
@@ -509,7 +929,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
+    },
+    {
+      "title": "Live Music - Chris Guzman",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/4/25/live-music-chris-guzman",
+      "start": "2026-04-25T22:00:00.748Z",
+      "end": "2026-04-26T01:00:00.748Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8d3f676ad70b9cb0fe03/1776258495621/",
+      "type": "live-music",
+      "id": "df3044d42c6d7c82",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -530,7 +971,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
+    },
+    {
+      "title": "Live Music - Brian Massa",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/1/live-music-skip-winters",
+      "start": "2026-05-01T22:00:00.246Z",
+      "end": "2026-05-02T01:00:00.246Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8dc3711a482bce65212c/1777637479886/",
+      "type": "live-music",
+      "id": "b89bf3bda7457238",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - open mike",
@@ -551,7 +1013,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -572,7 +1034,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
+    },
+    {
+      "title": "Live Music - Chris Guzman",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/2/live-music-chris-guzman",
+      "start": "2026-05-02T22:00:00.413Z",
+      "end": "2026-05-03T01:00:00.413Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8ddf3b60ee28ebc5e462/1776258561154/",
+      "type": "live-music",
+      "id": "ff673ea3bc252e4e",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -593,7 +1076,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -615,7 +1098,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Live Music with Preach",
@@ -637,7 +1120,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -658,7 +1141,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
+    },
+    {
+      "title": "Live Music - Greg Warren",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/8/live-music-greg-warren",
+      "start": "2026-05-08T22:00:00.487Z",
+      "end": "2026-05-09T01:00:00.487Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8e3a47ec6f4eecb10d49/1776258638611/",
+      "type": "live-music",
+      "id": "a4e5d8510e6be8b6",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - open mike",
@@ -679,7 +1183,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with Generation Next",
@@ -701,7 +1205,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -722,7 +1226,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
+    },
+    {
+      "title": "Live Music - Chris Guzman",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/9/live-music-chris-guzman",
+      "start": "2026-05-09T22:00:00.959Z",
+      "end": "2026-05-10T01:00:00.959Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8e50048909072b338f07/1776258715613/",
+      "type": "live-music",
+      "id": "a1bb1105f79a4905",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - 80's undercover",
@@ -743,7 +1268,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -765,7 +1290,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Thom Ryan",
@@ -785,7 +1310,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Live Music with Scotty Z",
@@ -807,7 +1332,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - chad miller",
@@ -828,7 +1353,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
+    },
+    {
+      "title": "Live Music - La Stella Brothers",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/15/live-music-la-stella-brothers",
+      "start": "2026-05-15T22:00:00.715Z",
+      "end": "2026-05-16T01:00:00.715Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8f14ef722f1c2ab5d20b/1776258964769/",
+      "type": "live-music",
+      "id": "6bc8d69c497522b9",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Open Mic",
@@ -849,7 +1395,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Live Music with Chuck DeBruyn",
@@ -871,7 +1417,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - Billy T Midnight",
@@ -892,7 +1438,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
+    },
+    {
+      "title": "Live Music - Abe Ovadia Trio",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/16/live-music-abe-ovadia-trio",
+      "start": "2026-05-16T22:00:00.898Z",
+      "end": "2026-05-17T01:00:00.898Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8f9727eb3a37bd9ca2e5/1776258994787/",
+      "type": "live-music",
+      "id": "5631919467b09bb8",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - ridgemont high",
@@ -913,7 +1480,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Billy Simmons",
@@ -933,7 +1500,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -955,7 +1522,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.934Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -976,7 +1543,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - dueling piano",
@@ -997,7 +1564,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with The Pettis",
@@ -1019,7 +1586,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.934Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -1040,7 +1607,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
+    },
+    {
+      "title": "Live Music - Brian Massa",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/22/live-music-brian-massa",
+      "start": "2026-05-22T22:00:00.317Z",
+      "end": "2026-05-23T01:00:00.317Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69e0da0279afc71dad4d810c/1776343574825/",
+      "type": "live-music",
+      "id": "e649aeb942caf79b",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -1061,7 +1649,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with Matt Fisher",
@@ -1083,7 +1671,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - ned solo",
@@ -1104,7 +1692,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
+    },
+    {
+      "title": "Live Music In The Garden - Chris Guzman ",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/23/live-music-in-the-garden-chris-guzman",
+      "start": "2026-05-23T21:00:00.410Z",
+      "end": "2026-05-24T00:00:00.410Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8fc341af2965aeba4cc0/1776259042512/",
+      "type": "live-music",
+      "id": "e946cd0ee5be0f75",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - nerds",
@@ -1125,7 +1734,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Live Music with Ted Hammock",
@@ -1147,7 +1756,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - Trevor Baylor",
@@ -1168,7 +1777,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
+    },
+    {
+      "title": "Live Music In The Garden - Skip Winters",
+      "url": "https://www.blackeyedsusanslbi.com/live-music-1/2026/5/24/live-music-in-the-garden-skip-winters",
+      "start": "2026-05-24T21:00:00.856Z",
+      "end": "2026-05-25T00:00:00.856Z",
+      "location": {
+        "venue": "Black Eyed Susans",
+        "town": "Harvey Cedars",
+        "address": "7908 Long Beach Boulevard, Harvey Cedars, NJ, 08008",
+        "lat": 39.7071569,
+        "lon": -74.1341612
+      },
+      "imageUrl": "https://static1.squarespace.com/static/570ba27b45bf2194c86ead62/68f680ce2241d2123757efe9/69df8fe547a9677547c8ac3f/1776259067978/",
+      "type": "live-music",
+      "id": "9d0028d96803b901",
+      "source": {
+        "id": "blackeyed-susans",
+        "name": "Black-Eyed Susan's"
+      },
+      "ingestedAt": "2026-05-25T03:15:07.155Z"
     },
     {
       "title": "Band - turning the tide",
@@ -1189,7 +1819,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Aftershock ",
@@ -1210,7 +1840,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.736Z"
+      "ingestedAt": "2026-05-25T03:15:06.764Z"
     },
     {
       "title": "Happy Hour - hybrid",
@@ -1231,7 +1861,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -1253,7 +1883,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Mike Matthews",
@@ -1273,7 +1903,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with East Two Three",
@@ -1295,7 +1925,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -1316,7 +1946,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Open Mic",
@@ -1337,7 +1967,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band of Make Believe",
@@ -1358,7 +1988,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Ty Mares",
@@ -1380,7 +2010,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -1401,7 +2031,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - No Dead Air",
@@ -1422,7 +2052,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Kono Nation",
@@ -1443,7 +2073,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -1464,7 +2094,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -1486,7 +2116,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -1507,7 +2137,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -1528,7 +2158,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - open mike",
@@ -1549,7 +2179,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Sky City Social",
@@ -1570,7 +2200,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Barbara Lin",
@@ -1592,7 +2222,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -1613,7 +2243,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -1634,7 +2264,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "3AM Tokyo ",
@@ -1655,7 +2285,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -1676,7 +2306,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -1698,7 +2328,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -1719,7 +2349,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Live Music with Chuck DeBruyn",
@@ -1741,7 +2371,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -1762,7 +2392,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - open mike",
@@ -1783,7 +2413,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "The Benjamins",
@@ -1804,7 +2434,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with East Two Three",
@@ -1826,7 +2456,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -1847,7 +2477,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band -  the foots",
@@ -1868,7 +2498,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Split Decision ",
@@ -1889,7 +2519,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -1910,7 +2540,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -1932,7 +2562,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -1953,7 +2583,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Live Music with Scotty Z",
@@ -1975,7 +2605,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -1996,7 +2626,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Band - open mike",
@@ -2017,7 +2647,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Kono Nation ",
@@ -2038,7 +2668,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Brother Pete",
@@ -2060,7 +2690,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -2081,7 +2711,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - shallow green",
@@ -2102,7 +2732,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Stealing Savanah ",
@@ -2123,7 +2753,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -2144,7 +2774,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -2165,7 +2795,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - dueling piano",
@@ -2186,7 +2816,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -2207,7 +2837,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -2228,7 +2858,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Harvey Street",
@@ -2249,7 +2879,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -2270,7 +2900,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Highly Questionable Trivia",
@@ -2291,7 +2921,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Band - nerds",
@@ -2312,7 +2942,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Daddy O x Jetty Summer Launch Party",
@@ -2335,7 +2965,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Live Music with Rob Connolly",
@@ -2357,7 +2987,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -2378,7 +3008,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -2399,7 +3029,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with Preach",
@@ -2421,7 +3051,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -2442,7 +3072,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - steel the sky",
@@ -2463,7 +3093,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Go Go Gadget",
@@ -2484,7 +3114,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Matt Fisher",
@@ -2506,7 +3136,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -2527,7 +3157,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -2548,7 +3178,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Gab Cinque  Band",
@@ -2569,7 +3199,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -2590,7 +3220,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -2611,7 +3241,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - dueling piano",
@@ -2632,7 +3262,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -2653,7 +3283,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -2674,7 +3304,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "The Wheeland Brothers",
@@ -2695,7 +3325,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -2716,7 +3346,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -2737,7 +3367,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Band - nerds",
@@ -2758,7 +3388,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Live Music with Skip Winters",
@@ -2780,7 +3410,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -2801,7 +3431,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -2822,7 +3452,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -2843,7 +3473,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -2864,7 +3494,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "My Hero Zero",
@@ -2885,7 +3515,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Gypsy Moon",
@@ -2907,7 +3537,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - hybrid",
@@ -2928,7 +3558,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - nerds",
@@ -2949,7 +3579,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "3AM Tokyo Fireworks Party",
@@ -2970,7 +3600,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -2991,7 +3621,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -3012,7 +3642,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - dueling piano",
@@ -3033,7 +3663,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -3054,7 +3684,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -3075,7 +3705,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Drifting Roots",
@@ -3096,7 +3726,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3117,7 +3747,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -3138,7 +3768,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Band - nerds",
@@ -3159,7 +3789,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -3180,7 +3810,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - karaoke",
@@ -3201,7 +3831,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Live Music with Chuck DeBruyn",
@@ -3223,7 +3853,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -3244,7 +3874,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - anger management",
@@ -3265,7 +3895,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Split Decision ",
@@ -3286,7 +3916,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Justin Jones",
@@ -3308,7 +3938,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -3329,7 +3959,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - 5 dollar shakes",
@@ -3350,7 +3980,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Gab Cinque  Band ",
@@ -3371,7 +4001,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -3392,7 +4022,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -3413,7 +4043,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Band - dueling piano",
@@ -3434,7 +4064,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -3455,7 +4085,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -3476,7 +4106,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "SUM SUN with Wim Tapley &amp; The Cannons",
@@ -3497,7 +4127,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3518,7 +4148,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -3539,7 +4169,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Band - nerds",
@@ -3560,7 +4190,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Live Music with La Stella Brother",
@@ -3582,7 +4212,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -3603,7 +4233,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Band - karaoke",
@@ -3624,7 +4254,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Live Music with Scotty Z",
@@ -3646,7 +4276,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -3667,7 +4297,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -3688,7 +4318,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Amish Outlaws",
@@ -3709,7 +4339,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Ted Hammock",
@@ -3731,7 +4361,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -3752,7 +4382,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Band - turning the tide",
@@ -3773,7 +4403,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "The Way Outs",
@@ -3794,7 +4424,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -3815,7 +4445,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -3836,7 +4466,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - dueling piano",
@@ -3857,7 +4487,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -3878,7 +4508,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -3899,7 +4529,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Rob Benton",
@@ -3920,7 +4550,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3941,7 +4571,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -3962,7 +4592,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Band - nerds",
@@ -3983,7 +4613,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Live Music with Matt Fisher",
@@ -4005,7 +4635,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -4026,7 +4656,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - karaoke",
@@ -4047,7 +4677,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Live Music with Ty Mares",
@@ -4069,7 +4699,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -4090,7 +4720,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -4111,7 +4741,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "The Cliffs",
@@ -4132,7 +4762,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -4153,7 +4783,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - steel the sky",
@@ -4174,7 +4804,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Good Noise",
@@ -4195,7 +4825,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.737Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -4216,7 +4846,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -4237,7 +4867,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - dueling piano",
@@ -4258,7 +4888,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -4279,7 +4909,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -4300,7 +4930,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Tunnel Vision and Capital Dub",
@@ -4321,7 +4951,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -4342,7 +4972,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -4363,7 +4993,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Band - nerds",
@@ -4384,7 +5014,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Live Music with Rob Connolly",
@@ -4406,7 +5036,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -4427,7 +5057,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - karaoke",
@@ -4448,7 +5078,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Live Music with East Two Three",
@@ -4470,7 +5100,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -4491,7 +5121,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - porch",
@@ -4512,7 +5142,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Go Go Gadget ",
@@ -4533,7 +5163,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Live Music with Justin Jones",
@@ -4555,7 +5185,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T03:01:52.735Z"
+      "ingestedAt": "2026-05-25T03:15:08.935Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -4576,7 +5206,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - turning the tide",
@@ -4597,7 +5227,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "3AM Tokyo ",
@@ -4618,7 +5248,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.765Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -4639,7 +5269,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -4660,7 +5290,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -4681,7 +5311,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Farias Surf Night with Steve Rondo, \"Wrapped in a Feeling.\"",
@@ -4702,7 +5332,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -4723,7 +5353,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -4744,7 +5374,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Billy Walton Band",
@@ -4765,7 +5395,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -4786,7 +5416,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -4807,7 +5437,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Band - nerds",
@@ -4828,7 +5458,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -4849,7 +5479,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - karaoke",
@@ -4870,7 +5500,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -4891,7 +5521,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -4912,7 +5542,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Kono Nation ",
@@ -4933,7 +5563,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -4954,7 +5584,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - steel the sky",
@@ -4975,7 +5605,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Aftershock",
@@ -4996,7 +5626,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -5017,7 +5647,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -5038,7 +5668,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Band - dueling piano",
@@ -5059,7 +5689,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -5080,7 +5710,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5101,7 +5731,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "St. Cecilia",
@@ -5122,7 +5752,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "The Saint Cecilia",
@@ -5143,7 +5773,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5164,7 +5794,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -5185,7 +5815,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Band - nerds",
@@ -5206,7 +5836,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -5227,7 +5857,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -5248,7 +5878,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -5269,7 +5899,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Band - porch",
@@ -5290,7 +5920,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Man Down",
@@ -5311,7 +5941,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -5332,7 +5962,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - anger management",
@@ -5353,7 +5983,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.054Z"
     },
     {
       "title": "Stealing Savanah ",
@@ -5374,7 +6004,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -5395,7 +6025,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -5416,7 +6046,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - dueling piano",
@@ -5437,7 +6067,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -5458,7 +6088,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5479,7 +6109,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5500,7 +6130,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -5521,7 +6151,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Band - nerds",
@@ -5542,7 +6172,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -5563,7 +6193,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - karaoke",
@@ -5584,7 +6214,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -5605,7 +6235,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -5626,7 +6256,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "3AM Tokyo  ",
@@ -5647,7 +6277,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -5668,7 +6298,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -5689,7 +6319,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Good Noise ",
@@ -5710,7 +6340,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -5731,7 +6361,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -5752,7 +6382,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - dueling piano",
@@ -5773,7 +6403,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -5794,7 +6424,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5815,7 +6445,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5836,7 +6466,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -5857,7 +6487,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Band - nerds",
@@ -5878,7 +6508,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -5899,7 +6529,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -5920,7 +6550,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -5941,7 +6571,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - shallow green",
@@ -5962,7 +6592,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "The Way Outs ",
@@ -5983,7 +6613,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -6004,7 +6634,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -6025,7 +6655,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Sky City Social",
@@ -6046,7 +6676,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -6067,7 +6697,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -6088,7 +6718,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - dueling piano",
@@ -6109,7 +6739,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -6130,7 +6760,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -6151,7 +6781,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -6172,7 +6802,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -6193,7 +6823,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Band - nerds",
@@ -6214,7 +6844,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -6235,7 +6865,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - karaoke",
@@ -6256,7 +6886,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -6277,7 +6907,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -6298,7 +6928,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Gab Cinque  Band  ",
@@ -6319,7 +6949,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - chad miller",
@@ -6340,7 +6970,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "Band - nerds",
@@ -6361,7 +6991,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Kono Nation ",
@@ -6382,7 +7012,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -6403,7 +7033,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "Happy Hour - ty duo",
@@ -6424,7 +7054,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.059Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -6445,7 +7075,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.059Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -6466,7 +7096,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.055Z"
     },
     {
       "title": "Band - Friday Sept 11 needs a band, Mike or Anthony can help",
@@ -6487,7 +7117,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.056Z"
     },
     {
       "title": "The Black Ties",
@@ -6508,7 +7138,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -6529,7 +7159,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Band - pickles",
@@ -6550,7 +7180,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.058Z"
     },
     {
       "title": "Ridgemont Hight",
@@ -6571,7 +7201,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -6592,7 +7222,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T03:01:51.058Z"
+      "ingestedAt": "2026-05-25T03:15:07.057Z"
     },
     {
       "title": "The Polish Nannies",
@@ -6613,7 +7243,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "95 Live",
@@ -6634,7 +7264,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Jel &amp; The Kidz",
@@ -6655,7 +7285,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     },
     {
       "title": "Band of Make Believe ",
@@ -6676,7 +7306,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T03:01:50.738Z"
+      "ingestedAt": "2026-05-25T03:15:06.766Z"
     }
   ]
 }

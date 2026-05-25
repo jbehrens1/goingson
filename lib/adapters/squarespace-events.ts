@@ -106,7 +106,15 @@ export const squarespaceEventsAdapter: Adapter = async ({ source }): Promise<Ada
       continue;
     }
     const upcoming = json.upcoming ?? [];
-    const pageItems = upcoming.length > 0 ? upcoming : (json.items ?? []);
+    const items = json.items ?? [];
+    const past = json.past ?? [];
+    // Prefer upcoming, then items, then past. Past is included as a fallback
+    // because some Squarespace events collections (esp. small venues that
+    // forget to publish next-month dates promptly) return everything in
+    // past[] — but the data is still real and includes today's show. The
+    // events page filters by date so old shows don't pollute the default view.
+    const pageItems =
+      upcoming.length > 0 ? upcoming : items.length > 0 ? items : past;
     if (pageItems.length === 0) {
       warnings.push(
         `${source.id}: 0 events at ${requestUrl} (check if events collection exists or season is over).`,
