@@ -5,11 +5,11 @@
       "id": "paam",
       "name": "Provincetown Art Association and Museum (PAAM)",
       "enabled": true,
-      "adapter": "wordpress-tribe",
-      "url": "https://www.paam.org/",
+      "adapter": "ical",
+      "url": "https://paam.org/events/?ical=1",
       "category": "Venue / Museum",
       "town": "Provincetown",
-      "notes": "Anchor venue. Tribe Events Calendar plugin — wordpress-tribe adapter works directly.",
+      "notes": "Anchor venue. Tribe Events Calendar plugin — wordpress-tribe adapter works directly.\n[auto-fix 2026-05-25] iCal feed at /events/?ical=1 yields 27 events.",
       "config": {
         "defaultVenue": "PAAM (Provincetown Art Association and Museum)"
       }

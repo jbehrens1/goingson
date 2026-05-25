@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T16:13:22.160Z",
+  "generatedAt": "2026-05-25T16:32:03.275Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -337,6 +337,39 @@
       ],
       "probe": {
         "candidates": []
+      }
+    },
+    "outercape:paam": {
+      "count": 27,
+      "warnings": [],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "high",
+            "verifiedCount": 27,
+            "adapter": "ical",
+            "url": "https://paam.org/events/?ical=1",
+            "evidence": "iCal feed at /events/?ical=1 yields 27 events."
+          }
+        ],
+        "autoApplied": {
+          "from": {
+            "adapter": "wordpress-tribe",
+            "url": "https://www.paam.org/",
+            "config": {
+              "defaultVenue": "PAAM (Provincetown Art Association and Museum)"
+            }
+          },
+          "to": {
+            "adapter": "ical",
+            "url": "https://paam.org/events/?ical=1",
+            "config": {
+              "defaultVenue": "PAAM (Provincetown Art Association and Museum)"
+            }
+          },
+          "reason": "iCal feed at /events/?ical=1 yields 27 events.",
+          "newCount": 27
+        }
       }
     },
     "outercape:eastham-gov": {

@@ -1,0 +1,4 @@
+{"ts":"2026-05-25T16:21:47.437Z","regionId":"metrowest","durationMs":77091,"eventCount":502,"sourceCount":61,"dropped":{"closure":2,"outOfRegion":27}}
+{"ts":"2026-05-25T16:21:47.437Z","regionId":"lbi","durationMs":12007,"eventCount":1455,"sourceCount":8,"dropped":{"closure":18}}
+{"ts":"2026-05-25T16:21:47.437Z","regionId":"outercape","durationMs":526727,"eventCount":1190,"sourceCount":16,"dropped":{"closure":15,"outOfRegion":11},"autoFixes":1}
+{"ts":"2026-05-25T16:21:47.437Z","regionId":"__all__","durationMs":615839,"eventCount":3147,"sourceCount":85,"dropped":{"closure":35,"outOfRegion":38},"autoFixes":1}
