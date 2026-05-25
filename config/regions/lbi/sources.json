@@ -71,12 +71,14 @@
       "id": "daddyo-lbi",
       "name": "Daddy O LBI",
       "enabled": true,
-      "adapter": "html-generic",
+      "adapter": "manual-oneoff",
       "url": "https://www.daddyolbi.com/happenings",
       "category": "Venue / Restaurant + Hotel",
       "town": "Long Beach Township",
-      "notes": "Wix site using the Wix Events app. Wix doesn't expose a public events API without an OAuth instance ID; reachable only via their dynamic JS bundle. Needs a dedicated wix-events adapter or manual-oneoff seeding.",
-      "config": {}
+      "notes": "Wix Events widget — content is API-locked behind a Wix OAuth token, so we can only see the recurring schedule from the static HTML wrapper. Seeded with Thu/Fri/Sat 6-9pm Live Music from the venue's published schedule (May 28 – Sep 26 2026). Update one-off-daddyo.json when the season changes; build a wix-events adapter to pull band names.",
+      "config": {
+        "file": "one-off-daddyo.json"
+      }
     },
     {
       "id": "thesandpaper",
