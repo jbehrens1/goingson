@@ -185,6 +185,15 @@
       "config": {
         "file": "one-off-truro-vineyards.json"
       }
+    },
+    {
+      "id": "truro-vineyards-2",
+      "name": "truro vineyards",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://trurovineyardsofcapecod.com/",
+      "town": "Truro",
+      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-24."
     }
   ]
 }
