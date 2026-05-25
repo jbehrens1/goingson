@@ -27,6 +27,11 @@ import type { Adapter, EventRecord, SourceConfig, SourcesFile } from "./types";
 import { nowIso } from "./util";
 import { probeSource, shouldAutoApply, type ProbeCandidate } from "./probe";
 import { appendHistory, type HistoryRow } from "./source-history";
+import {
+  ALL_REGIONS_KEY,
+  appendIngestHistory,
+  type IngestHistoryRow,
+} from "./ingest-history";
 
 const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   ical: icalAdapter,
@@ -77,6 +82,8 @@ export type IngestReport = {
   regionId: string;
   totalEvents: number;
   droppedOutsideRegion?: number;
+  droppedClosure?: number;
+  autoFixes?: number;
   perSource: SourceReport[];
   geocode?: { attempted: number; resolved: number; cacheHits: number; failed: number };
   outputPath?: string;
@@ -291,7 +298,19 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     );
   }
 
-  const deduped = dedupe(allEvents);
+  // Drop venue-closure announcements from all sources before anything else
+  // sees them. These aren't events — they're "we're closed today" entries
+  // venues drop into their public calendars (Joe Pop's, town halls, etc.).
+  const beforeClosure = allEvents.length;
+  const nonClosure = allEvents.filter((ev) => !isClosureAnnouncement(ev.title));
+  const droppedClosure = beforeClosure - nonClosure.length;
+  if (droppedClosure > 0) {
+    console.log(
+      `[ingest] ${region.config.id}: dropped ${droppedClosure} venue-closure announcement(s)`,
+    );
+  }
+
+  const deduped = dedupe(nonClosure);
   deduped.sort((a, b) => a.start.localeCompare(b.start));
 
   // Geocode venue addresses so distance filtering works for any region.
@@ -382,6 +401,8 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     regionId: region.config.id,
     totalEvents: filteredEvents.length,
     droppedOutsideRegion,
+    droppedClosure,
+    autoFixes: fixedSources.size,
     perSource,
     geocode: geocodeReport,
     outputPath,
@@ -462,6 +483,40 @@ export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsRepo
       JSON.stringify({ generatedAt: nowIso(), sources: health }, null, 2) + "\n",
       "utf8",
     );
+
+    // Record per-region + overall duration for /admin/qc trend visibility.
+    const overallEnd = Date.now();
+    const overallStartMs = new Date(startedAt).getTime();
+    const historyRows: IngestHistoryRow[] = perRegion.map((r) => ({
+      ts: startedAt,
+      regionId: r.regionId,
+      durationMs:
+        new Date(r.finishedAt).getTime() - new Date(r.startedAt).getTime(),
+      eventCount: r.totalEvents,
+      sourceCount: r.perSource.length,
+      dropped: {
+        ...(r.droppedClosure ? { closure: r.droppedClosure } : {}),
+        ...(r.droppedOutsideRegion ? { outOfRegion: r.droppedOutsideRegion } : {}),
+      },
+      ...(r.autoFixes ? { autoFixes: r.autoFixes } : {}),
+    }));
+    historyRows.push({
+      ts: startedAt,
+      regionId: ALL_REGIONS_KEY,
+      durationMs: overallEnd - overallStartMs,
+      eventCount: perRegion.reduce((sum, r) => sum + r.totalEvents, 0),
+      sourceCount: perRegion.reduce((sum, r) => sum + r.perSource.length, 0),
+      dropped: {
+        closure: perRegion.reduce((s, r) => s + (r.droppedClosure ?? 0), 0),
+        outOfRegion: perRegion.reduce((s, r) => s + (r.droppedOutsideRegion ?? 0), 0),
+      },
+      autoFixes: perRegion.reduce((s, r) => s + (r.autoFixes ?? 0), 0),
+    });
+    try {
+      await appendIngestHistory(opts.rootDir, historyRows);
+    } catch (err) {
+      console.warn(`[ingest] timing-history write failed: ${(err as Error).message}`);
+    }
   }
 
   return {
@@ -471,6 +526,39 @@ export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsRepo
     regions: manifestEntries,
     perRegion,
   };
+}
+
+/**
+ * Recognize venue-closure announcements that shouldn't appear in the events
+ * feed. Match patterns observed across sources:
+ *   "Closed" / "CLOSED"
+ *   "Closed Today" / "Closed for Thanksgiving" / "Closed for the Season"
+ *   "Closed for a Private Event" / "CLOSED for Memorial Day"
+ *   "Bistro Closed?"
+ *   "Town Hall Closed - Memorial Day 2026" / "Memorial Day - Town Hall Closed"
+ * Errs on the side of NOT dropping unless the title is clearly a closure;
+ * a legitimate event whose title coincidentally starts with "Closed" (e.g.
+ * "Closed Captioning Movie Night") would be wrongly dropped, but the corpus
+ * doesn't currently contain any such cases.
+ */
+function isClosureAnnouncement(title: string): boolean {
+  const t = title.trim().toLowerCase();
+  if (!t) return false;
+  // 1. Title begins with "closed" as a whole word — catches most cases:
+  //    "Closed", "Closed Today", "Closed for ___", "CLOSED for ___"
+  if (/^closed\b/.test(t)) return true;
+  // 2. "<venue noun> closed" — catches "Town Hall Closed", "Bistro Closed"
+  //    anywhere in the title.
+  if (
+    /\b(town\s*hall|bistro|library|office|restaurant|store|shop|gallery|museum)\s+closed\b/.test(
+      t,
+    )
+  )
+    return true;
+  // 3. Title ends with "closed" (with optional punctuation) — catches
+  //    "Memorial Day - Town Hall Closed", "Bistro Closed?", etc.
+  if (/\bclosed\s*[?!.]?\s*$/.test(t)) return true;
+  return false;
 }
 
 function appendAutoFixNote(notes: string | undefined, c: ProbeCandidate): string {

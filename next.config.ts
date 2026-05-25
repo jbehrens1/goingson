@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
     "/admin/**": [
       "./public/newsletter-events.jsonl",
       "./public/source-history.jsonl",
+      "./public/ingest-history.jsonl",
       "./public/source-health.json",
       "./public/events.*.json",
       "./config/**",

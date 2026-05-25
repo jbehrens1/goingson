@@ -14,6 +14,11 @@ import { redirect } from "next/navigation";
 import { authIsConfigured, getCurrentRole } from "@/lib/auth";
 import { listRegions, readSources } from "@/lib/sources-config";
 import { readHistory, type HistoryRow } from "@/lib/source-history";
+import {
+  ALL_REGIONS_KEY,
+  readIngestHistory,
+  type IngestHistoryRow,
+} from "@/lib/ingest-history";
 import type { SourceConfig } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -116,6 +121,21 @@ export default async function QcPage() {
   const totalZero = Object.values(zeroByRegion).flat().length;
   const totalLow = Object.values(lowByRegion).flat().length;
 
+  // Recent ingest timing for the "How long is the cron taking" panel.
+  const ingestHistory = await readIngestHistory(process.cwd());
+  // Show overall-sweep rows from most recent → oldest, capped at 15.
+  const recentRuns = ingestHistory
+    .filter((r) => r.regionId === ALL_REGIONS_KEY)
+    .slice(-15)
+    .reverse();
+  const perRegionByTs = new Map<string, IngestHistoryRow[]>();
+  for (const r of ingestHistory) {
+    if (r.regionId === ALL_REGIONS_KEY) continue;
+    const arr = perRegionByTs.get(r.ts) ?? [];
+    arr.push(r);
+    perRegionByTs.set(r.ts, arr);
+  }
+
   return (
     <main className="sources-page qc-page">
       <header>
@@ -131,6 +151,66 @@ export default async function QcPage() {
           history goes back ~60 ingests (≈2 months at daily cadence)
         </p>
       </header>
+
+      <section className="qc-section">
+        <h2>
+          ⏱ Recent ingest runs <span className="muted">· {recentRuns.length}</span>
+        </h2>
+        {recentRuns.length === 0 ? (
+          <p className="muted">
+            No ingest runs tracked yet. The next time the daily cron runs (or you
+            edit a source and trigger a re-scan) this table will populate.
+          </p>
+        ) : (
+          <table className="sources-table">
+            <thead>
+              <tr>
+                <th>When</th>
+                <th>Duration</th>
+                <th>Events</th>
+                <th>Sources</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {recentRuns.map((run) => {
+                const perRegion = perRegionByTs.get(run.ts) ?? [];
+                const notes: string[] = [];
+                if (run.autoFixes) notes.push(`${run.autoFixes} auto-fix${run.autoFixes === 1 ? "" : "es"}`);
+                if (run.dropped?.closure) notes.push(`${run.dropped.closure} closures dropped`);
+                if (run.dropped?.outOfRegion) notes.push(`${run.dropped.outOfRegion} out-of-region`);
+                return (
+                  <tr key={run.ts}>
+                    <td className="muted small">
+                      <time dateTime={run.ts}>{formatRelativeTime(run.ts)}</time>
+                      <br />
+                      <span style={{ opacity: 0.55 }}>{run.ts.slice(0, 16).replace("T", " ")}</span>
+                    </td>
+                    <td className="sources-count-cell">
+                      <strong>{formatDuration(run.durationMs)}</strong>
+                      {perRegion.length > 0 && (
+                        <details className="qc-history" style={{ marginTop: "0.25rem" }}>
+                          <summary>per-region</summary>
+                          <ul style={{ margin: "0.3rem 0", padding: 0, listStyle: "none", fontSize: "0.78rem" }}>
+                            {perRegion.map((r) => (
+                              <li key={r.regionId}>
+                                {r.regionId}: <strong>{formatDuration(r.durationMs)}</strong>
+                              </li>
+                            ))}
+                          </ul>
+                        </details>
+                      )}
+                    </td>
+                    <td className="sources-count-cell">{run.eventCount.toLocaleString()}</td>
+                    <td className="sources-count-cell">{run.sourceCount}</td>
+                    <td className="muted small">{notes.join(" · ")}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        )}
+      </section>
 
       <section className="qc-section">
         <h2>
@@ -163,6 +243,26 @@ export default async function QcPage() {
       </section>
     </main>
   );
+}
+
+function formatDuration(ms: number): string {
+  if (ms < 1000) return `${ms}ms`;
+  const sec = Math.round(ms / 1000);
+  if (sec < 90) return `${sec}s`;
+  const min = Math.floor(sec / 60);
+  const remSec = sec % 60;
+  return remSec > 0 ? `${min}m ${remSec}s` : `${min}m`;
+}
+
+function formatRelativeTime(iso: string): string {
+  const diffMs = Date.now() - new Date(iso).getTime();
+  if (diffMs < 60_000) return "just now";
+  const min = Math.round(diffMs / 60_000);
+  if (min < 60) return `${min} min ago`;
+  const hr = Math.round(min / 60);
+  if (hr < 36) return `${hr} hour${hr === 1 ? "" : "s"} ago`;
+  const day = Math.round(hr / 24);
+  return `${day} day${day === 1 ? "" : "s"} ago`;
 }
 
 function RegionGroup({ region, entries }: { region: string; entries: QcEntry[] }) {
