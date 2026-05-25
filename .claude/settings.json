@@ -1,0 +1,56 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status)",
+      "Bash(git status:*)",
+      "Bash(git diff)",
+      "Bash(git diff:*)",
+      "Bash(git log)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git fetch)",
+      "Bash(git fetch:*)",
+      "Bash(git pull)",
+      "Bash(git pull --ff-only)",
+      "Bash(git pull --rebase)",
+
+      "Bash(git push)",
+      "Bash(git push origin main)",
+      "Bash(git push origin HEAD:*)",
+
+      "Bash(gh auth status)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh run watch:*)",
+      "Bash(gh workflow list:*)",
+      "Bash(gh workflow view:*)",
+      "Bash(gh workflow run:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh api:*)",
+
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next build:*)",
+      "Bash(npx eslint:*)",
+      "Bash(npx prettier:*)",
+
+      "Bash(python3:*)",
+
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(find . *)",
+      "Bash(curl -sS:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push --force-with-lease:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean -f:*)",
+      "Bash(git branch -D:*)",
+      "Bash(rm -rf:*)"
+    ]
+  }
+}
