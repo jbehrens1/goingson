@@ -6,3 +6,7 @@
 {"ts":"2026-05-25T17:07:45.449Z","regionId":"lbi","durationMs":10793,"eventCount":415,"sourceCount":8,"dropped":{"closure":18,"past":1045}}
 {"ts":"2026-05-25T17:07:45.449Z","regionId":"outercape","durationMs":22627,"eventCount":1088,"sourceCount":16,"dropped":{"closure":26,"outOfRegion":11,"past":92}}
 {"ts":"2026-05-25T17:07:45.449Z","regionId":"__all__","durationMs":122168,"eventCount":2003,"sourceCount":85,"dropped":{"closure":46,"outOfRegion":28,"past":1149},"autoFixes":0}
+{"ts":"2026-05-25T18:28:48.525Z","regionId":"metrowest","durationMs":68655,"eventCount":447,"sourceCount":61,"dropped":{"closure":2,"outOfRegion":17,"past":12}}
+{"ts":"2026-05-25T18:28:48.525Z","regionId":"lbi","durationMs":18640,"eventCount":415,"sourceCount":8,"dropped":{"closure":18,"past":1045}}
+{"ts":"2026-05-25T18:28:48.525Z","regionId":"outercape","durationMs":25516,"eventCount":1088,"sourceCount":16,"dropped":{"closure":26,"outOfRegion":11,"past":92}}
+{"ts":"2026-05-25T18:28:48.525Z","regionId":"__all__","durationMs":112822,"eventCount":1950,"sourceCount":85,"dropped":{"closure":46,"outOfRegion":28,"past":1149},"autoFixes":0}
