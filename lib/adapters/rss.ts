@@ -5,7 +5,7 @@ import { buildEvent, toIsoOrUndefined } from "../util";
 const parser = new Parser({
   headers: {
     "User-Agent":
-      "metrowest-events/0.1 (+https://github.com/jbehrens/metrowest-events) - personal aggregator",
+      "goingson/0.1 (+https://github.com/jbehrens1/goingson) - personal aggregator",
   },
 });
 

@@ -4,7 +4,7 @@
 //
 // Required env:
 //   GITHUB_TOKEN  - fine-grained PAT with Contents: Read & Write on the repo
-//   GITHUB_REPO   - "owner/repo" form, e.g. "jbehrens1/metrowest-events"
+//   GITHUB_REPO   - "owner/repo" form, e.g. "jbehrens1/goingson"
 
 type CommitOptions = {
   path: string; // repo-relative path, e.g. "config/regions/metrowest/sources.json"
@@ -33,7 +33,7 @@ export async function commitFileToGitHub(opts: CommitOptions): Promise<{
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: "application/vnd.github+json",
-      "User-Agent": "metrowest-events-editor",
+      "User-Agent": "goingson-editor",
     },
   });
   let sha: string | undefined;
@@ -62,7 +62,7 @@ export async function commitFileToGitHub(opts: CommitOptions): Promise<{
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: "application/vnd.github+json",
-      "User-Agent": "metrowest-events-editor",
+      "User-Agent": "goingson-editor",
       "Content-Type": "application/json",
     },
     body: JSON.stringify(body),

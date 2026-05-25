@@ -32,7 +32,7 @@ export async function dispatchIngestWorkflow(opts: {
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: "application/vnd.github+json",
-      "User-Agent": "metrowest-events-editor",
+      "User-Agent": "goingson-editor",
       "Content-Type": "application/json",
     },
     body: JSON.stringify(body),

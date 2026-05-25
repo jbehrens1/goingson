@@ -7,7 +7,7 @@ A personal event aggregator. Defaults to MetroWest Boston, but the codebase is r
 ## Quick start
 
 ```bash
-cd ~/Dropbox/metrowest-events
+cd ~/Dropbox/goingson
 npm install
 npm run dev          # http://localhost:3000
 ```
@@ -158,17 +158,17 @@ After a one-time setup, every commit auto-deploys and the events refresh once a 
 
 2. **Initialize the repo and push**:
    ```bash
-   cd ~/Dropbox/metrowest-events
+   cd ~/Dropbox/goingson
    git init -b main
    git add .
    git commit -m "Initial commit"
-   gh repo create metrowest-events --private --source=. --remote=origin --push
+   gh repo create goingson --private --source=. --remote=origin --push
    ```
 
 3. **Deploy to Vercel**:
    - Sign up at https://vercel.com using "Continue with GitHub".
-   - Click "Add New… → Project", pick the `metrowest-events` repo, accept defaults, click Deploy.
-   - First deploy takes ~1 min. You'll get a URL like `metrowest-events.vercel.app`.
+   - Click "Add New… → Project", pick the `goingson` repo, accept defaults, click Deploy.
+   - First deploy takes ~1 min. You'll get a URL like `goingson.vercel.app`.
 
 4. **Seed `events.json` in the repo**: GitHub → repo → Actions → "Daily ingest" → "Run workflow". This commits a fresh `public/events.json` and triggers a Vercel rebuild.
 
@@ -203,6 +203,6 @@ Public Search has been restricted since ~2020. The adapter only supports the per
 If `node_modules/` or `data/`'s cache file syncs through Dropbox it will be slow. Mark them ignored after first install:
 
 ```bash
-xattr -w com.dropbox.ignored 1 ~/Dropbox/metrowest-events/node_modules
-xattr -w com.dropbox.ignored 1 ~/Dropbox/metrowest-events/.next
+xattr -w com.dropbox.ignored 1 ~/Dropbox/goingson/node_modules
+xattr -w com.dropbox.ignored 1 ~/Dropbox/goingson/.next
 ```

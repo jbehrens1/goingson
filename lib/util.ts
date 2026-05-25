@@ -148,7 +148,7 @@ function safeVenueAliases() {
 
 // Many shared-WAF hosts (WP Engine, etc.) 403 anything that doesn't look
 // browser-like. Use a generic Mozilla UA — still polite, just not flagged.
-const USER_AGENT = "Mozilla/5.0 (compatible; metrowest-events/0.1)";
+const USER_AGENT = "Mozilla/5.0 (compatible; goingson/0.1)";
 
 export async function politeFetch(
   url: string,

@@ -69,7 +69,7 @@ export async function POST(req: Request) {
     content: serialized,
     message: `sources: ${editor} edited ${region} via /sources`,
     authorName: user?.fullName ?? editor,
-    authorEmail: editor.includes("@") ? editor : "noreply@metrowest-events.local",
+    authorEmail: editor.includes("@") ? editor : "noreply@goingson.co",
   });
 
   if (!result.ok) {

@@ -16,7 +16,7 @@ type Cache = Record<string, CacheEntry>;
 const NOMINATIM = "https://nominatim.openstreetmap.org";
 const RATE_LIMIT_MS = 1100; // Nominatim ToS = max 1 req/sec; we go 1.1s to be safe.
 const USER_AGENT =
-  "metrowest-events/0.1 (+https://github.com/jbehrens/metrowest-events) - personal aggregator";
+  "goingson/0.1 (+https://github.com/jbehrens1/goingson) - personal aggregator";
 
 let lastRequestAt = 0;
 async function rateLimit() {
