@@ -188,7 +188,8 @@
       "url": "https://framinghamhistory.org/",
       "category": "Venue / Museum",
       "town": "Framingham",
-      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Adapter scrapes /wp-json/wp/v2/mec-events and parses event dates from content.rendered HTML (MEC doesn't expose structured start_date via REST).",
+      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Adapter scrapes /wp-json/wp/v2/mec-events and parses event dates from content.rendered HTML (MEC doesn't expose structured start_date via REST). Programming is local history lectures/exhibits — defaultEventType=\"museum\" catches entries whose titles don't have museum/history keywords (e.g. \"Beyond Binaries\", \"The Bridges of Saxonville\").",
+      "defaultEventType": "museum",
       "config": {
         "defaultVenue": "Framingham History Center",
         "defaultTimeZone": "America/New_York"
@@ -679,7 +680,12 @@
       "url": "https://www.bostonjcc.org/",
       "category": "Venue",
       "town": "Newton",
-      "notes": "WordPress + The Events Calendar (Tribe) plugin. REST API exposes only ~7 featured events, but /calendar/list/ shows the full calendar in JSON-LD with pagination. wordpress-tribe-list adapter scrapes those pages.",
+      "notes": "WordPress + The Events Calendar (Tribe) plugin. REST API exposes only ~7 featured events, but /calendar/list/ shows the full calendar in JSON-LD with pagination. wordpress-tribe-list adapter scrapes those pages. titleRules catch the recurring Karishim youth-swim and Pre-Swim entries as family; defaultEventType=\"community\" covers the JCC's mixed adult programming.",
+      "defaultEventType": "community",
+      "titleRules": [
+        { "pattern": "^karishim\\b|pre-?swim|swim lessons?", "type": "family" },
+        { "pattern": "newton elc|application & deposit", "type": "community" }
+      ],
       "config": {
         "basePath": "/calendar/list/",
         "maxPages": 8

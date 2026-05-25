@@ -44,19 +44,19 @@ const RULES: Array<[EventType, RegExp]> = [
   // still land in the dedicated mahjong category.
   ["mahjong", /\b(mah[- ]?jongg?|mahjong)\b/i],
   ["comedy", /\b(stand-?up|comedian|comedy|improv)\b/i],
-  ["live-music", /\b(concert|live music|live band|symphony|orchestra|recital|jazz|rock band|folk music|bluegrass|acoustic|open mic|singer-songwriter|chamber music|chorus|choir|karaoke|dj set|dj night|tribute band|cover band)\b/i],
+  ["live-music", /\b(concert|live music|live band|symphony|orchestra|recital|jazz|rock band|folk music|bluegrass|acoustic|open mic|singer-songwriter|chamber music|chorus|choir|karaoke|dj set|dj night|tribute band|cover band|tribute to|sing[- ]?a[- ]?long|ukulele)\b/i],
   ["theater", /\b(play|theater|theatre|musical|drama|broadway|opera|playwright|monologue)\b/i],
   ["film", /\b(film|movie|screening|cinema|documentary)\b/i],
   ["art-gallery", /\b(exhibit|exhibition|gallery|art show|opening reception|paintings?|sculpture|art walk|mural)\b/i],
   ["museum", /\b(museum|history center|historical society|heritage)\b/i],
   ["festival", /\b(festival|fair|carnival|fest\b)\b/i],
   ["lecture", /\b(lecture|talk|panel|forum|book reading|book signing|author|book club|discussion|symposium)\b/i],
-  ["workshop", /\b(workshop|class\b|seminar|tutorial|how to|hands-on|cooking class|art class)\b/i],
+  ["workshop", /\b(workshops?|class(es)?\b|seminar|tutorial|how to|hands-on|cooking class|art class|language lessons?|spanish lessons?|french lessons?)\b/i],
   ["family", /\b(kids|family|children|storytime|story time|toddler|teens?|youth|baby)\b/i],
   ["food-drink", /\b(food|drink|tasting|wine|beer|brewery|brunch|dinner|pancake|coffee|tea\b)\b/i],
-  ["fitness", /\b(yoga|fitness|run\b|race\b|hike|walk\b|workout|pilates|tai chi|meditation|zumba|barre|spin class|cycling)\b/i],
+  ["fitness", /\b(yoga|fitness|runs?\b|race\b|hikes?\b|walks?\b|workout|pilates|tai chi|meditation|zumba|barre|spin class|cycling)\b/i],
   ["sale", /\b(yard sale|plant sale|bake sale|fundraiser|book sale|tag sale|garage sale|craft fair|holiday market)\b/i],
-  ["community", /\b(town hall|volunteer|cleanup|clean-up|meeting\b|forum|civic|pride|memorial day|veterans|town meeting|trivia|bingo|game night)\b/i],
+  ["community", /\b(town hall|volunteer|cleanup|clean-up|meeting\b|forum|civic|pride|memorial day|veterans|town meeting|trivia|bingo|game night|worship|sunday service|sabbath|study group|conversational|conversation club|french club|spanish club)\b/i],
 ];
 
 export function categorize(title: string, description?: string): EventType {

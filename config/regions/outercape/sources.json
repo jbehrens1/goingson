@@ -95,7 +95,8 @@
       "url": "https://castlehill.org/",
       "category": "Venue / Education",
       "town": "Truro",
-      "notes": "Squarespace. Events span /all-workshops (185), /special-events (12), and /events (0). Adapter aggregates all three.",
+      "notes": "Squarespace. Events span /all-workshops (185), /special-events (12), and /events (0). Adapter aggregates all three. Art-school programming — defaultEventType=\"workshop\" handles the long tail of class titles that don't have a keyword match (e.g. \"Resolving Color Problems\", \"From the Bottom Up\").",
+      "defaultEventType": "workshop",
       "config": {
         "paths": [
           "/all-workshops/",
@@ -126,7 +127,11 @@
       "url": "https://wellfleetlibrary.org/",
       "category": "Venue / Library",
       "town": "Wellfleet",
-      "notes": "Squarespace; events at /calendar/ (137 upcoming, not at /events).",
+      "notes": "Squarespace; events at /calendar/ (137 upcoming, not at /events). Library programming is mostly recurring adult groups (Spanish lessons, French club, study groups) — defaultEventType=\"community\" handles entries that don't match a specific keyword; titleRules pull kids' programs into family.",
+      "defaultEventType": "community",
+      "titleRules": [
+        { "pattern": "animal ambassadors|whale|jumping frogs|science heroes|storytime|kids|children", "type": "family" }
+      ],
       "config": {
         "path": "/calendar/",
         "defaultVenue": "Wellfleet Public Library"
@@ -140,7 +145,8 @@
       "url": "https://www.provincetownlibrary.org/",
       "category": "Venue / Library",
       "town": "Provincetown",
-      "notes": "Squarespace; events at /events/.",
+      "notes": "Squarespace; events at /events/. Library programming is recurring adult groups (Tarot Club, Tech Time, gardening talks) — defaultEventType=\"community\" handles the long tail.",
+      "defaultEventType": "community",
       "config": {
         "path": "/events/",
         "defaultVenue": "Provincetown Public Library"
