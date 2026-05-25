@@ -21,7 +21,7 @@
     ]
   },
   "generatedAt": "2026-05-25T16:32:03.264Z",
-  "count": 1098,
+  "count": 1089,
   "events": [
     {
       "title": "Zumba with Alissa",
@@ -864,27 +864,6 @@
       "ingestedAt": "2026-05-25T16:31:59.579Z"
     },
     {
-      "title": "Private Event",
-      "description": "The Hall will be closed on 5/31 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1375/1780236000000",
-      "start": "2026-05-31T14:00:00.000Z",
-      "end": "2026-05-31T23:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "7f2369eb9e1b89f2",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.579Z"
-    },
-    {
       "title": "Riptide",
       "description": "Riptide is a powerhouse, female-fronted four-piece dance band based on Cape Cod, built for packed dance floors. Known for seamless, extended dance sets, the band keeps crowds moving from the first song to the last. Their polished, approachable style makes them a favorite for weddings, private celebrations, and premier venues across Cape Cod and the greater Boston area.",
       "url": "https://wellfleetpearl.com/event/riptide-4/2026-05-31/",
@@ -1507,27 +1486,6 @@
       "ingestedAt": "2026-05-25T16:31:59.580Z"
     },
     {
-      "title": "Private Event",
-      "description": "The Hall will be closed 6/6 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1412/1780747200000",
-      "start": "2026-06-06T12:00:00.000Z",
-      "end": "2026-06-07T01:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "c87eaf6417e05a73",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.580Z"
-    },
-    {
       "title": "Origami Jumping Frogs with the Friends of Wellfleet Ponds",
       "url": "https://wellfleetlibrary.org/calendar/origami-jumping-frogs-with-the-friends-of-wellfleet-ponds-hafdn-s39rj",
       "start": "2026-06-06T15:00:00.508Z",
@@ -1634,27 +1592,6 @@
         "name": "Wellfleet Public Library"
       },
       "ingestedAt": "2026-05-25T16:31:59.981Z"
-    },
-    {
-      "title": "Private Event",
-      "description": "The Hall will be closed 6/7 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1413/1780833600000",
-      "start": "2026-06-07T12:00:00.000Z",
-      "end": "2026-06-08T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "06cc3d31ae5e5045",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.580Z"
     },
     {
       "title": "Zumba with Alissa",
@@ -2283,27 +2220,6 @@
         "name": "The Pearl Wellfleet"
       },
       "ingestedAt": "2026-05-25T16:32:02.302Z"
-    },
-    {
-      "title": "Private Event",
-      "description": "The Hall will be closed 6/13 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1414/1781352000000",
-      "start": "2026-06-13T12:00:00.000Z",
-      "end": "2026-06-14T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "0e40dadc66022161",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.580Z"
     },
     {
       "title": "Harvest Highlight-Wampanoag Spring Cooking with Kitty Hendricks-Miller",
@@ -3142,27 +3058,6 @@
       },
       "type": "live-music",
       "id": "e8f33e273bc4c30c",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.580Z"
-    },
-    {
-      "title": "Private Event",
-      "description": "The hall will be closed on 6/20 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1415/1781956800000",
-      "start": "2026-06-20T12:00:00.000Z",
-      "end": "2026-06-21T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "c6a488530edd7dd7",
       "source": {
         "id": "wellfleet-preservation-hall",
         "name": "Wellfleet Preservation Hall"
@@ -6081,27 +5976,6 @@
       },
       "type": "live-music",
       "id": "fda64799e9cd743a",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.581Z"
-    },
-    {
-      "title": "Private Event",
-      "description": "The Hall will be closed on 7/11 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1416/1783771200000",
-      "start": "2026-07-11T12:00:00.000Z",
-      "end": "2026-07-12T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "1c4364cd1ef69353",
       "source": {
         "id": "wellfleet-preservation-hall",
         "name": "Wellfleet Preservation Hall"
@@ -11426,27 +11300,6 @@
       "ingestedAt": "2026-05-25T16:31:59.582Z"
     },
     {
-      "title": "Private Event",
-      "description": "The Hall will be closed on 8/15 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1417/1786795200000",
-      "start": "2026-08-15T12:00:00.000Z",
-      "end": "2026-08-16T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "67ba3242923d3ae9",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.582Z"
-    },
-    {
       "title": "Glaze Session: 2",
       "description": "Paul Wisotzky",
       "url": "https://castlehill.org/all-workshops/glaze/august15",
@@ -14982,27 +14835,6 @@
       "ingestedAt": "2026-05-25T16:32:00.239Z"
     },
     {
-      "title": "Private Event",
-      "description": "The Hall will be closed on 9/26 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1418/1790424000000",
-      "start": "2026-09-26T12:00:00.000Z",
-      "end": "2026-09-27T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "716ea2f7ba4d20fa",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.583Z"
-    },
-    {
       "title": "Provincetown Book Festival",
       "url": "https://www.provincetownlibrary.org/events/7wcuskait7xtojwufdv7qvm8v1suvj",
       "start": "2026-09-26T13:00:00.170Z",
@@ -15596,27 +15428,6 @@
         "name": "The Pearl Wellfleet"
       },
       "ingestedAt": "2026-05-25T16:32:02.474Z"
-    },
-    {
-      "title": "Private Event",
-      "description": "The Hall will be closed on 10/10 for a private event.",
-      "url": "https://tockify.com/prezhall/detail/1426/1791633600000",
-      "start": "2026-10-10T12:00:00.000Z",
-      "end": "2026-10-11T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Wellfleet Preservation Hall",
-        "town": "Wellfleet",
-        "lat": 41.9385095,
-        "lon": -70.0324086
-      },
-      "type": "other",
-      "id": "20bcfe594b625e81",
-      "source": {
-        "id": "wellfleet-preservation-hall",
-        "name": "Wellfleet Preservation Hall"
-      },
-      "ingestedAt": "2026-05-25T16:31:59.583Z"
     },
     {
       "title": "Cheap Voova",
