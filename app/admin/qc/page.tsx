@@ -178,6 +178,7 @@ export default async function QcPage() {
                 const notes: string[] = [];
                 if (run.autoFixes) notes.push(`${run.autoFixes} auto-fix${run.autoFixes === 1 ? "" : "es"}`);
                 if (run.dropped?.closure) notes.push(`${run.dropped.closure} closures dropped`);
+                if (run.dropped?.past) notes.push(`${run.dropped.past.toLocaleString()} past events dropped`);
                 if (run.dropped?.outOfRegion) notes.push(`${run.dropped.outOfRegion} out-of-region`);
                 return (
                   <tr key={run.ts}>

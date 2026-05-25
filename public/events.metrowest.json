@@ -24,7 +24,7 @@
     ]
   },
   "generatedAt": "2026-05-25T16:23:04.536Z",
-  "count": 502,
+  "count": 500,
   "events": [
     {
       "title": "Jewish Story Lab",
@@ -46,42 +46,6 @@
         "name": "JCC Greater Boston"
       },
       "ingestedAt": "2026-05-25T16:23:00.932Z"
-    },
-    {
-      "title": "Boston Scottish Fiddle Club Gala",
-      "description": "Event date: June 7, 2026 \nEvent Time: 03:00 PM - 06:00 PM\nLocation: \n20 Junction Street\nNeedham, MA 02492\nDescription:\nThe Boston Scottish Fiddle Club is excited to announce their eighth annualGala scheduled for Sunday, June 7 from 3:00pm-6:00pm at the VFW post, 20 Junction St., Needham, MA! The event incudes a Scottish music concert, featuring the Boston Scottish Fiddle orchestra and featured guest Ed Pearlman.  Ceilidh Dancing, and a silent auction. will follow the concert. Suggested donation is $20 at the door, kids 12 and under are free.The concert features the Boston Scottish Fiddle Orchestra, which is the performing group of the Boston Scottish Fiddle Club. Under the direction of Neil Pearlman the orchestra performs a repertoire of traditional and contemporary Scottish and Cape Breton tunes arranged to create a unique fresh sound while also keeping with the tradition.  Special guest Ed Pearlman has performed, taught, and promoted the fiddle music of Scotland and Cape Breton for over 45 years throughout the US and in Canada and Scotland and directed the Boston Scottish Fiddle Club 1981-1999",
-      "url": "https://www.bsfc.org/",
-      "start": "2026-05-18T15:59:13.000Z",
-      "location": {
-        "town": "Needham",
-        "lat": 42.281,
-        "lon": -71.238
-      },
-      "type": "live-music",
-      "id": "7d579ddfe06a6710",
-      "source": {
-        "id": "needham-gov",
-        "name": "Town of Needham - Community Events"
-      },
-      "ingestedAt": "2026-05-25T16:23:00.623Z"
-    },
-    {
-      "title": "2026 Needham High School Civics Showcase",
-      "description": "Event date: May 30, 2026 \nEvent Time: 02:00 PM - 03:30 PM\nLocation: \n1471 Highland Avenue\nNeedham, MA 02492\nDescription:\nThe League of Women Voters of Needham and the Needham High School Social Studies Department are co-sponsoring Students Advocate for Change, the Needham High School Civics Showcase, on Saturday, May 30 at 2-3:30 PM at Powers Hall, Needham Town Hall.All high school students in MA are required to select a state or local issue and prepare an advocacy plan. At the Showcase, more than 100 eleventh grade students in 50 groups will share their research, materials, and positions in a science fair type setting.The public is encouraged to come and talk with the next generation of policy advocates about the issues important to them. Visit www.lwv-needham.org for details.",
-      "url": "https://www.needhamma.gov/Calendar.aspx?EID=27403",
-      "start": "2026-05-18T16:09:12.000Z",
-      "location": {
-        "town": "Needham",
-        "lat": 42.281,
-        "lon": -71.238
-      },
-      "type": "festival",
-      "id": "0e8568a56479d9f4",
-      "source": {
-        "id": "needham-gov",
-        "name": "Town of Needham - Community Events"
-      },
-      "ingestedAt": "2026-05-25T16:23:00.623Z"
     },
     {
       "title": "Karishim - Spring -     Junior",
@@ -253,7 +217,7 @@
     },
     {
       "title": "Memorial Day Parade and Ceremony",
-      "description": "Parade route and schedule 8:00-8:15am—Parade formation on South Ave., between Main Street and Washington St. 8:30am—Flag Ceremony at Moran Square at the Natick Center T-Station 8:45am—Parade marches to and around the Town Common Observances on the Common 9am Opening remarks at the Common John T. Martin, Veterans Services Officer Benediction- Chaplain, NSSC “National Anthem” by Natick High School Band Remarks from State Senator Karen Spilka’s office Remarks from State Representative David Linsky Remarks from Select Board Chair—Kathryn Coughlin Placing wreath at the Grand Army of Republic Monument by Scouts Keynote Speaker—Dave Josselyn, Vietnam Veteran “America the Beautiful” performed by Natick High Chorus Students “Taps” performed by Natick High School Band Parade forms up in front of the Common and marches: From East Central St. to West Central St. to Forest Ave. to Pond St. Parade marches and stops along the route for moment of silence and Taps, in honor of the fallen service members at: Old Dell Park Cemetery (163 Pond St.) St. Patrick’s Cemetery (180 Pond St.) Parade marches back to center of town and disbands All Veterans and Active Military are welcome to march in the parade. Please be advised that road closures will be in effect to accommodate parade traffic. In case of inclement weather, updates will be posted on the town website, and a decision regarding the parade will be made by 7am. If the parade needs to be moved indoors, the indoor location will be at the Natick Community Senior Center, located at 117 East Central St., Natick, at 9am. Thank you to Veterans Services Officer John Martin for this information.",
+      "description": "Parade route and schedule 8:00-8:15am\u2014Parade formation on South Ave., between Main Street and Washington St. 8:30am\u2014Flag Ceremony at Moran Square at the Natick Center T-Station 8:45am\u2014Parade marches to and around the Town Common Observances on the Common 9am Opening remarks at the Common John T. Martin, Veterans Services Officer Benediction- Chaplain, NSSC \u201cNational Anthem\u201d by Natick High School Band Remarks from State Senator Karen Spilka\u2019s office Remarks from State Representative David Linsky Remarks from Select Board Chair\u2014Kathryn Coughlin Placing wreath at the Grand Army of Republic Monument by Scouts Keynote Speaker\u2014Dave Josselyn, Vietnam Veteran \u201cAmerica the Beautiful\u201d performed by Natick High Chorus Students \u201cTaps\u201d performed by Natick High School Band Parade forms up in front of the Common and marches: From East Central St. to West Central St. to Forest Ave. to Pond St. Parade marches and stops along the route for moment of silence and Taps, in honor of the fallen service members at: Old Dell Park Cemetery (163 Pond St.) St. Patrick\u2019s Cemetery (180 Pond St.) Parade marches back to center of town and disbands All Veterans and Active Military are welcome to march in the parade. Please be advised that road closures will be in effect to accommodate parade traffic. In case of inclement weather, updates will be posted on the town website, and a decision regarding the parade will be made by 7am. If the parade needs to be moved indoors, the indoor location will be at the Natick Community Senior Center, located at 117 East Central St., Natick, at 9am. Thank you to Veterans Services Officer John Martin for this information.",
       "url": "https://www.natickreport.com/event/memorial-day-parade-and-ceremony/",
       "start": "2026-05-25T12:00:00.000Z",
       "end": "2026-05-25T14:00:00.000Z",
@@ -294,7 +258,7 @@
     },
     {
       "title": "Sudbury's Memorial Day Parade and Program",
-      "description": "The schedule for Memorial Day in Sudbury is at sudbury.ma.us/memorialday/2026/05/08/memorialdayparade2026/.Sudbury’s Memorial...",
+      "description": "The schedule for Memorial Day in Sudbury is at sudbury.ma.us/memorialday/2026/05/08/memorialdayparade2026/.Sudbury\u2019s Memorial...",
       "url": "https://patch.com/massachusetts/sudbury/calendar/event/20260525/2f75b466-c399-47f2-b109-1f6d230f55fe/sudburys-memorial-day-parade-and-program",
       "start": "2026-05-25T13:30:00.000Z",
       "location": {
@@ -839,7 +803,7 @@
     },
     {
       "title": "Now Accepting Donations",
-      "description": "St. John’s Parish appreciates your resalable donations! Drop off beginning Tuesday May 26 through Wednesday June 10 — 9:00 AM...",
+      "description": "St. John\u2019s Parish appreciates your resalable donations! Drop off beginning Tuesday May 26 through Wednesday June 10 \u2014 9:00 AM...",
       "url": "https://patch.com/massachusetts/holliston-hopkinton/calendar/event/20260526/58afd245-993b-4968-8059-46512bce0b9b/now-accepting-donations",
       "start": "2026-05-26T13:00:00.000Z",
       "location": {
@@ -921,7 +885,7 @@
     },
     {
       "title": "The Council&#8217;s May Memory Cafe",
-      "description": "@ A Memory Café is a welcoming social gathering for people living with changes in memory or thinking, along with those who care about them. Please join us as we welcome back Donna Newman-Bluestein, who will invite participants to move to irresistible music from the 1950s to the present. We will explore simple movements that support both physical and brain health. Come ready to have fun and leave with a greater sense of vitality, joy, community, and well-being. Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+      "description": "@ A Memory Caf\u00e9 is a welcoming social gathering for people living with changes in memory or thinking, along with those who care about them. Please join us as we welcome back Donna Newman-Bluestein, who will invite participants to move to irresistible music from the 1950s to the present. We will explore simple movements that support both physical and brain health. Come ready to have fun and leave with a greater sense of vitality, joy, community, and well-being. Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
       "url": "https://needhamobserver.com/event/the-councils-may-memory-cafe/",
       "start": "2026-05-26T14:30:00.000Z",
       "end": "2026-05-26T16:30:00.000Z",
@@ -964,8 +928,8 @@
       "ingestedAt": "2026-05-25T16:23:01.331Z"
     },
     {
-      "title": "TO BE RESCHEDULED FHC Memorial Day Exhibit – “Stories Yet to Be Told”",
-      "description": "Join the Framingham History Center at Village Hall for the annual Memorial Day Exhibit, a special program honoring Framingham’s military history through artifacts, photographs, and personal stories spanning from the American Revolution to the Vietnam War.",
+      "title": "TO BE RESCHEDULED FHC Memorial Day Exhibit \u2013 \u201cStories Yet to Be Told\u201d",
+      "description": "Join the Framingham History Center at Village Hall for the annual Memorial Day Exhibit, a special program honoring Framingham\u2019s military history through artifacts, photographs, and personal stories spanning from the American Revolution to the Vietnam War.",
       "url": "https://framinghamhistory.org/events/stories-yet-to-be-told/",
       "start": "2026-05-26T15:00:00.000Z",
       "allDay": false,
@@ -1070,7 +1034,7 @@
     },
     {
       "title": "Spring ELC Creative Dance (3-4 yrs)",
-      "description": "&lt;p&gt;FOR ELC CHILDREN: Love to move and groove? Join Dancin’ Dave for a high-energy class full of music, movement, and creative exploration! With fun themes like Opposite Day, Carnival, Superhero [&hellip;]&lt;/p&gt;\\n",
+      "description": "&lt;p&gt;FOR ELC CHILDREN: Love to move and groove? Join Dancin\u2019 Dave for a high-energy class full of music, movement, and creative exploration! With fun themes like Opposite Day, Carnival, Superhero [&hellip;]&lt;/p&gt;\\n",
       "url": "https://www.bostonjcc.org/calendar/spring-elc-creative-dance-3-4-yrs/2026-05-26/",
       "start": "2026-05-26T17:00:00.000Z",
       "end": "2026-05-26T17:50:00.000Z",
@@ -1259,7 +1223,7 @@
     },
     {
       "title": "Make it Tuesday: Eraser Stamps | FPL McAuliffe",
-      "description": "Turn the ordinary into the extraordinary! Join us for a hands-on workshop where we’ll upcycle rubber erasers into unique,...",
+      "description": "Turn the ordinary into the extraordinary! Join us for a hands-on workshop where we\u2019ll upcycle rubber erasers into unique,...",
       "url": "https://patch.com/massachusetts/framingham/calendar/event/20260526/6bdbf360-5a17-478c-a7f6-bbc24b42f517/make-it-tuesday-eraser-stamps-fpl-mcauliffe",
       "start": "2026-05-26T22:00:00.000Z",
       "location": {
@@ -1322,7 +1286,7 @@
     },
     {
       "title": "jackrabbit Featuring Dermot Mulroney First Rodeo Tour - Live in Concert ",
-      "description": "jackrabbit featuring Dermot Mulroney – a Heartfelt Country Connection – announced today that the band is hitting the road for...",
+      "description": "jackrabbit featuring Dermot Mulroney \u2013 a Heartfelt Country Connection \u2013 announced today that the band is hitting the road for...",
       "url": "https://patch.com/massachusetts/natick/calendar/event/20260526/0adfd2dd-fe0a-41d1-8785-16066b8a2ac2/jackrabbit-featuring-dermot-mulroney-first-rodeo-tour-live-in-concert",
       "start": "2026-05-27T00:00:00.000Z",
       "location": {
@@ -1406,7 +1370,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-05-27T16:00:00.000Z",
       "end": "2026-05-27T18:00:00.000Z",
@@ -1468,7 +1432,7 @@
     },
     {
       "title": "Complimentary Presentation - Smart Strategies for College Financing",
-      "description": "Whether your child is in grade school or applying to colleges now, it’s never too early - or too late - to start planning for...",
+      "description": "Whether your child is in grade school or applying to colleges now, it\u2019s never too early - or too late - to start planning for...",
       "url": "https://patch.com/massachusetts/wellesley/calendar/event/20260527/0c84755f-9a32-43e9-b487-3ef203e108a4/complimentary-presentation-smart-strategies-for-college-financing",
       "start": "2026-05-27T16:30:00.000Z",
       "location": {
@@ -1613,7 +1577,7 @@
     },
     {
       "title": "Spaghetti Supper",
-      "description": "Wednesday May 27th from 5-6:30 pm …Spaghetti Supper including Spaghetti and meatballs (vegetarian available) roll, salad,...",
+      "description": "Wednesday May 27th from 5-6:30 pm \u2026Spaghetti Supper including Spaghetti and meatballs (vegetarian available) roll, salad,...",
       "url": "https://patch.com/massachusetts/marlborough/calendar/event/20260527/2470b56d-f0bf-4cde-aae3-e74fe1182ddc/spaghetti-supper",
       "start": "2026-05-27T21:00:00.000Z",
       "location": {
@@ -1946,7 +1910,7 @@
     },
     {
       "title": "Monthly LGBTQ+ Social Group",
-      "description": "M 🦜 🦜 🦜 🦜 🦜 🦜 🦜 🦜 🦜 🦜 We offer a LGBTQ+ Social Group at the COA on the last...",
+      "description": "M \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c \ud83e\udd9c We offer a LGBTQ+ Social Group at the COA on the last...",
       "url": "https://patch.com/massachusetts/concord/calendar/event/20260528/29ad9a15-7ec6-45ca-8164-b7b249d96538/monthly-lgbtq-social-group",
       "start": "2026-05-28T21:30:00.000Z",
       "location": {
@@ -1987,7 +1951,7 @@
       "ingestedAt": "2026-05-25T16:23:01.695Z"
     },
     {
-      "title": "Chinese Classics – Adult Cooking Class",
+      "title": "Chinese Classics \u2013 Adult Cooking Class",
       "description": "Join us in celebrating AAPI Heritage Month with a cooking class series focused on regional Asian cuisines and their culinary...",
       "url": "https://patch.com/massachusetts/dover/calendar/event/20260528/f2a35470-3adc-453e-9f59-d4736e94cfb6/chinese-classics-adult-cooking-class",
       "start": "2026-05-28T22:00:00.000Z",
@@ -2008,7 +1972,7 @@
     },
     {
       "title": "MassBay Community College commencement ceremony",
-      "description": "MassBay Community College will hold its 64th Commencement ceremony on Thursday, May 28, 2026, at 6 p.m. on the Wellesley Hills campus. The ceremony will draw thousands of people to celebrate MassBay graduates, impacting traffic in and around the campus (Oakland Street, Rt. 9 and Washington Street) between 4 p.m. – 8 p.m. Please send tips, photos, ideas to theswellesleyreport@gmail.com",
+      "description": "MassBay Community College will hold its 64th Commencement ceremony on Thursday, May 28, 2026, at 6 p.m. on the Wellesley Hills campus. The ceremony will draw thousands of people to celebrate MassBay graduates, impacting traffic in and around the campus (Oakland Street, Rt. 9 and Washington Street) between 4 p.m. \u2013 8 p.m. Please send tips, photos, ideas to theswellesleyreport@gmail.com",
       "url": "https://theswellesleyreport.com/event/massbay-community-college-commencement-ceremony/",
       "start": "2026-05-28T22:00:00.000Z",
       "end": "2026-05-29T00:00:00.000Z",
@@ -2113,7 +2077,7 @@
     },
     {
       "title": "Ruth Moody Band",
-      "description": "Inspired songwriting—otherworldly voice",
+      "description": "Inspired songwriting\u2014otherworldly voice",
       "url": "https://tcan.org/events/ruth-moody-band/",
       "start": "2026-05-29T00:00:00.000Z",
       "allDay": false,
@@ -2175,8 +2139,8 @@
       "ingestedAt": "2026-05-25T16:23:01.695Z"
     },
     {
-      "title": "Opening day—Friends of the Needham Public Library Spring Book Sale",
-      "description": "The Friends of the Needham Public Library will host their Spring Book Sale in the Community Room at the Needham Public Library starting Friday, May 29 from 12-4 pm, on Saturday, May 30, from 9 am &#8211; 4 pm, and on Sunday, May 31, from 1-4 pm. Individually priced books in the Friends’ Book Shop (now on the 2nd floor in the Bosworth Room) will be half-price starting at 12 pm on Friday. Hardcovers and trade paperbacks are $1, mass market paperbacks are 50 cents, and CDs and DVDs are $1. Sunday is bargain day during which all items are half-price and a brown bag of books is $8. Fiction, general non-fiction, some separate non-fiction categories, children’s youth, and young adult books and more.",
+      "title": "Opening day\u2014Friends of the Needham Public Library Spring Book Sale",
+      "description": "The Friends of the Needham Public Library will host their Spring Book Sale in the Community Room at the Needham Public Library starting Friday, May 29 from 12-4 pm, on Saturday, May 30, from 9 am &#8211; 4 pm, and on Sunday, May 31, from 1-4 pm. Individually priced books in the Friends\u2019 Book Shop (now on the 2nd floor in the Bosworth Room) will be half-price starting at 12 pm on Friday. Hardcovers and trade paperbacks are $1, mass market paperbacks are 50 cents, and CDs and DVDs are $1. Sunday is bargain day during which all items are half-price and a brown bag of books is $8. Fiction, general non-fiction, some separate non-fiction categories, children\u2019s youth, and young adult books and more.",
       "url": "https://theswellesleyreport.com/event/opening-day-friends-of-the-needham-public-library-spring-book-sale/",
       "start": "2026-05-29T16:00:00.000Z",
       "end": "2026-05-29T20:00:00.000Z",
@@ -2242,7 +2206,7 @@
     },
     {
       "title": "Bridge: Intermediate/Advanced",
-      "description": "&lt;p&gt;Take your bridge game to the next level in this dynamic and engaging continuation course designed for experienced players. We’ll dive into advanced bidding strategies, with a special focus on [&hellip;]&lt;/p&gt;\\n",
+      "description": "&lt;p&gt;Take your bridge game to the next level in this dynamic and engaging continuation course designed for experienced players. We\u2019ll dive into advanced bidding strategies, with a special focus on [&hellip;]&lt;/p&gt;\\n",
       "url": "https://www.bostonjcc.org/calendar/bridge-intermediate-advanced/2026-05-29/",
       "start": "2026-05-29T17:00:00.000Z",
       "end": "2026-05-29T19:00:00.000Z",
@@ -2409,8 +2373,8 @@
       "ingestedAt": "2026-05-25T16:22:51.573Z"
     },
     {
-      "title": "Celebrate 10 Years of Dance with FJW Dance Studio’s Anniversary Showcase",
-      "description": "FJW Dance Studio proudly presents its 10th Anniversary Gala & Showcase — an unforgettable evening celebrating a decade of...",
+      "title": "Celebrate 10 Years of Dance with FJW Dance Studio\u2019s Anniversary Showcase",
+      "description": "FJW Dance Studio proudly presents its 10th Anniversary Gala & Showcase \u2014 an unforgettable evening celebrating a decade of...",
       "url": "https://patch.com/massachusetts/weston/calendar/event/20260530/73895c4b-3ab8-48b4-ad11-acc8945a719b/celebrate-10-years-of-dance-with-fjw-dance-studio-s-anniversary-showcase",
       "start": "2026-05-30T10:30:00.000Z",
       "location": {
@@ -2491,8 +2455,8 @@
       "ingestedAt": "2026-05-25T16:22:50.371Z"
     },
     {
-      "title": "Norfolk Electronics Recycling Event ♻️",
-      "description": "Join us at St. Jude's Church for our annual Electronics Recycling Event! 📅 Saturday, May 30th, 9AM-2PM 📍 St. Jude's Church-...",
+      "title": "Norfolk Electronics Recycling Event \u267b\ufe0f",
+      "description": "Join us at St. Jude's Church for our annual Electronics Recycling Event! \ud83d\udcc5 Saturday, May 30th, 9AM-2PM \ud83d\udccd St. Jude's Church-...",
       "url": "https://patch.com/massachusetts/norfolk-ma/calendar/event/20260530/b763c047-3b67-4d06-9581-752398d82afc/norfolk-electronics-recycling-event",
       "start": "2026-05-30T13:00:00.000Z",
       "location": {
@@ -2620,7 +2584,7 @@
     },
     {
       "title": "Hunnewell Estate Historical Tour",
-      "description": "Saturday, May 30, 2026, 9:45 AM-12:00 PM The Tollhouse Shop, 229 Washington Street, Wellesley, MA, 02481 Space is limited! We have 24 spaces available per tour. Tickets here. Experience the rich history and vibrant present of the Hunnewell Estate with the Wellesley Historical Society&#8217;s exclusive walking tour. This 90-minute journey delves into the estate&#8217;s unique horticultural collection, offering insights into both its past and present. With only 24 spaces available per tour, this intimate experience ensures a detailed exploration of the gardens. Please note that the tour includes uneven terrain and requires all participants to use the provided transportation. Proceeds from the tour will benefit the Society’s general operating fund, supporting our mission to preserve local history.",
+      "description": "Saturday, May 30, 2026, 9:45 AM-12:00 PM The Tollhouse Shop, 229 Washington Street, Wellesley, MA, 02481 Space is limited! We have 24 spaces available per tour. Tickets here. Experience the rich history and vibrant present of the Hunnewell Estate with the Wellesley Historical Society&#8217;s exclusive walking tour. This 90-minute journey delves into the estate&#8217;s unique horticultural collection, offering insights into both its past and present. With only 24 spaces available per tour, this intimate experience ensures a detailed exploration of the gardens. Please note that the tour includes uneven terrain and requires all participants to use the provided transportation. Proceeds from the tour will benefit the Society\u2019s general operating fund, supporting our mission to preserve local history.",
       "url": "https://theswellesleyreport.com/event/hunnewell-estate-historic-horticultural-tour/",
       "start": "2026-05-30T13:45:00.000Z",
       "end": "2026-05-30T16:00:00.000Z",
@@ -2642,7 +2606,7 @@
     },
     {
       "title": "Gateway Camera Club Print Exhibit on Display at Broadmoor",
-      "description": "Spring is the perfect time to meander along the many trails at Audubon’s 624-acre Broadmoor Wildlife Sanctuary at 280 Elliot...",
+      "description": "Spring is the perfect time to meander along the many trails at Audubon\u2019s 624-acre Broadmoor Wildlife Sanctuary at 280 Elliot...",
       "url": "https://patch.com/massachusetts/natick/calendar/event/20260530/2327cad2-431e-4c9d-ae93-a354402d8479/gateway-camera-club-print-exhibit-on-display-at-broadmoor",
       "start": "2026-05-30T14:00:00.000Z",
       "location": {
@@ -2811,7 +2775,7 @@
     },
     {
       "title": "Concord Conservatory of Music Presents Pianos on the Town ",
-      "description": "Eight Artist‑Designed Pianos to Pop Up Across Concord This Spring Get ready to play! From May 30 to June 26, the Concord...",
+      "description": "Eight Artist\u2011Designed Pianos to Pop Up Across Concord This Spring Get ready to play! From May 30 to June 26, the Concord...",
       "url": "https://patch.com/massachusetts/concord/calendar/event/20260530/8de25dd0-1725-482b-801b-e8be12083d35/concord-conservatory-of-music-presents-pianos-on-the-town",
       "start": "2026-05-30T14:30:00.000Z",
       "location": {
@@ -2939,7 +2903,7 @@
     },
     {
       "title": "Free movie screening of &#8220;Turning Red&#8221; at TCAN",
-      "description": "Movie Screening: May 30th, 11am, at TCAN In celebration of Mental Health Awareness Month, the Natick Health Department is hosting a free screening of Turning Red at the TCAN Cinema Room. Turning Red introduces Mei Lee, a confident, dorky 13-year-old torn between staying her mother’s dutiful daughter and the chaos of adolescence. Her protective, if not slightly overbearing mother, Ming, is never far from her daughter—an unfortunate reality for the teenager. And as if changes to her interests, relationships and body weren’t enough, whenever she gets too excited (which is practically ALWAYS), she “poofs” into a giant red panda! Visit: turningred.com Location: 14 Summer St, Natick, MA 01760 The Center For Arts In Natick @11:00AM Register Here: https://tcan.org/events/turning-red/",
+      "description": "Movie Screening: May 30th, 11am, at TCAN In celebration of Mental Health Awareness Month, the Natick Health Department is hosting a free screening of Turning Red at the TCAN Cinema Room. Turning Red introduces Mei Lee, a confident, dorky 13-year-old torn between staying her mother\u2019s dutiful daughter and the chaos of adolescence. Her protective, if not slightly overbearing mother, Ming, is never far from her daughter\u2014an unfortunate reality for the teenager. And as if changes to her interests, relationships and body weren\u2019t enough, whenever she gets too excited (which is practically ALWAYS), she \u201cpoofs\u201d into a giant red panda! Visit: turningred.com Location: 14 Summer St, Natick, MA 01760 The Center For Arts In Natick @11:00AM Register Here: https://tcan.org/events/turning-red/",
       "url": "https://www.natickreport.com/event/free-movie-screening-of-turning-red-at-tcan/",
       "start": "2026-05-30T15:00:00.000Z",
       "end": "2026-05-30T17:00:00.000Z",
@@ -3126,7 +3090,7 @@
     },
     {
       "title": "FAMILY GLASS WORKSHOP: Tack Fusing, Bouquets & Landscapes",
-      "description": "In this 2-hour workshop, adults and children will learn the basics of glass fusing by creating one tile each (8” x 8”) that...",
+      "description": "In this 2-hour workshop, adults and children will learn the basics of glass fusing by creating one tile each (8\u201d x 8\u201d) that...",
       "url": "https://patch.com/massachusetts/concord/calendar/event/20260530/c346a957-35a1-4b30-95ef-4b9e4bc64df0/family-glass-workshop-tack-fusing-bouquets-landscapes",
       "start": "2026-05-30T18:00:00.000Z",
       "location": {
@@ -3255,7 +3219,7 @@
     },
     {
       "title": "Herman&#8217;s Hermits Starring Peter Noone",
-      "description": "Pure pop nostalgia, straight from the ’60s",
+      "description": "Pure pop nostalgia, straight from the \u201960s",
       "url": "https://tcan.org/events/hermans-hermits-starring-peter-noone/",
       "start": "2026-05-30T20:00:00.000Z",
       "allDay": false,
@@ -3297,7 +3261,7 @@
     },
     {
       "title": "An Evening of Chinese Dance & Cultural Celebration by FJW Dance Studio",
-      "description": "FJW Dance Studio proudly presents its 10th Anniversary Gala & Showcase — an unforgettable evening celebrating a decade of...",
+      "description": "FJW Dance Studio proudly presents its 10th Anniversary Gala & Showcase \u2014 an unforgettable evening celebrating a decade of...",
       "url": "https://patch.com/massachusetts/wellesley/calendar/event/20260530/8358bf21-da7c-4acf-acb4-457ac2a0e62e/an-evening-of-chinese-dance-cultural-celebration-by-fjw-dance-studio",
       "start": "2026-05-30T22:30:00.000Z",
       "location": {
@@ -3317,7 +3281,7 @@
     },
     {
       "title": "FJW Dance Studio - 10th Anniversary Gala & Showcase",
-      "description": "FJW Dance Studio proudly presents its 10th Anniversary Gala & Showcase — an unforgettable evening celebrating a decade of...",
+      "description": "FJW Dance Studio proudly presents its 10th Anniversary Gala & Showcase \u2014 an unforgettable evening celebrating a decade of...",
       "url": "https://patch.com/massachusetts/needham/calendar/event/20260530/7ddb66e7-7d2e-4880-9d9e-e63cdabdea98/fjw-dance-studio-10th-anniversary-gala-showcase",
       "start": "2026-05-30T22:30:00.000Z",
       "location": {
@@ -3358,7 +3322,7 @@
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
-      "description": "Experience the magic of Broadway across the decades, from the golden-age sparkle of West Side Story and Oklahoma to the powerhouse hits of Wicked, Hamilton, Six, and Les Misérables. We bring you the songs that defined generations. Beloved classics, modern showstoppers, and unforgettable harmonies. Date: May 30 Time: 7:00 PM - 9:00 PM Address: Kennedy Middle School, 165 Mill St. Tickets available online. Note: Online ticket sales end May 29th at 11:59 PM. Tickets can be purchased at the door for $20/each. Children under 7 free. Sign up for Natick Report&#8217;s free weekday email newsletter",
+      "description": "Experience the magic of Broadway across the decades, from the golden-age sparkle of West Side Story and Oklahoma to the powerhouse hits of Wicked, Hamilton, Six, and Les Mis\u00e9rables. We bring you the songs that defined generations. Beloved classics, modern showstoppers, and unforgettable harmonies. Date: May 30 Time: 7:00 PM - 9:00 PM Address: Kennedy Middle School, 165 Mill St. Tickets available online. Note: Online ticket sales end May 29th at 11:59 PM. Tickets can be purchased at the door for $20/each. Children under 7 free. Sign up for Natick Report&#8217;s free weekday email newsletter",
       "url": "https://www.natickreport.com/event/voices-of-metrowest-presents-the-evolution-of-broadway/",
       "start": "2026-05-30T23:00:00.000Z",
       "end": "2026-05-31T01:00:00.000Z",
@@ -3692,7 +3656,7 @@
     },
     {
       "title": "Worship with Us! Trinity Sunday",
-      "description": "This Sunday, we celebrate Trinity Sunday through the sweeping creation story of Genesis and Paul’s blessing to the church in...",
+      "description": "This Sunday, we celebrate Trinity Sunday through the sweeping creation story of Genesis and Paul\u2019s blessing to the church in...",
       "url": "https://patch.com/massachusetts/acton/calendar/event/20260531/f3f8c858-9f9b-4dfb-988b-6faa86205089/worship-with-us-trinity-sunday",
       "start": "2026-05-31T13:30:00.000Z",
       "location": {
@@ -3734,7 +3698,7 @@
     },
     {
       "title": "Natick Garden Club Plant Sale",
-      "description": "The Natick Garden Club is hosting its annual plant sale on Sunday, May 31 from 10am-2pm indoors at the Natick Community-Senior Center, 117 East Central St. The sale is the group&#8217;s major fundraiser for the year. They offer a variety of plants that have been proven to grow successfully in our sometimes challenging weather conditions. Most of the plants are perennials from members’ gardens, and are labeled for bloom time and season, height, spacing needed, and sun and moisture requirements. They promote native plants as well, meaning they are native to our area, and tolerant of drought conditions and excellent at providing habitat for good insects and birds. There will be a modest houseplant and seedling section. Raffle tickets for a variety of items will be available and you don&#8217;t need to be present to win. Stay in the loop by signing up for Natick Report&#8216;s free weekday email newsletter",
+      "description": "The Natick Garden Club is hosting its annual plant sale on Sunday, May 31 from 10am-2pm indoors at the Natick Community-Senior Center, 117 East Central St. The sale is the group&#8217;s major fundraiser for the year. They offer a variety of plants that have been proven to grow successfully in our sometimes challenging weather conditions. Most of the plants are perennials from members\u2019 gardens, and are labeled for bloom time and season, height, spacing needed, and sun and moisture requirements. They promote native plants as well, meaning they are native to our area, and tolerant of drought conditions and excellent at providing habitat for good insects and birds. There will be a modest houseplant and seedling section. Raffle tickets for a variety of items will be available and you don&#8217;t need to be present to win. Stay in the loop by signing up for Natick Report&#8216;s free weekday email newsletter",
       "url": "https://www.natickreport.com/event/natick-garden-club-plant-sale-2/",
       "start": "2026-05-31T14:00:00.000Z",
       "end": "2026-05-31T18:00:00.000Z",
@@ -3817,7 +3781,7 @@
     },
     {
       "title": "Spring Creative Dance (3-5 yrs)",
-      "description": "&lt;p&gt;Love to move and groove? Join Dancin’ Dave for a high-energy class full of music, movement, and creative exploration! With fun themes like Opposite Day, Carnival, Superhero Day, and Princess [&hellip;]&lt;/p&gt;\\n",
+      "description": "&lt;p&gt;Love to move and groove? Join Dancin\u2019 Dave for a high-energy class full of music, movement, and creative exploration! With fun themes like Opposite Day, Carnival, Superhero Day, and Princess [&hellip;]&lt;/p&gt;\\n",
       "url": "https://www.bostonjcc.org/calendar/spring-creative-dance-3-5-yrs/2026-05-31/",
       "start": "2026-05-31T14:00:00.000Z",
       "end": "2026-05-31T14:50:00.000Z",
@@ -4238,11 +4202,11 @@
     },
     {
       "title": "Musical Instrument Petting Zoo",
-      "description": "We are excited to announce a very special event for our students, families, and community members—our Musical Instrument...",
+      "description": "We are excited to announce a very special event for our students, families, and community members\u2014our Musical Instrument...",
       "url": "https://patch.com/massachusetts/sudbury/calendar/event/20260531/ef9251d4-728a-4ad0-a4e0-8a832ebff6e0/musical-instrument-petting-zoo",
       "start": "2026-05-31T17:30:00.000Z",
       "location": {
-        "venue": "Note-worthy Experiences® Music Studio",
+        "venue": "Note-worthy Experiences\u00ae Music Studio",
         "town": "Sudbury",
         "address": "75 Witherell Dr, Sudbury, MA",
         "lat": 42.4113036,
@@ -4384,7 +4348,7 @@
     },
     {
       "title": "The Big Dill Pickleball Bash",
-      "description": "We’re excited to invite you to The Big Dill Pickleball Bash presented by Big Brothers Big Sisters! Date: Sunday, May 31,...",
+      "description": "We\u2019re excited to invite you to The Big Dill Pickleball Bash presented by Big Brothers Big Sisters! Date: Sunday, May 31,...",
       "url": "https://patch.com/massachusetts/natick/calendar/event/20260531/d7c50569-ad88-493f-bd53-4109cc53936e/the-big-dill-pickleball-bash",
       "start": "2026-05-31T19:00:00.000Z",
       "location": {
@@ -4426,7 +4390,7 @@
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
-      "description": "Experience the magic of Broadway across the decades, from the golden-age sparkle of West Side Story and Oklahoma to the powerhouse hits of Wicked, Hamilton, Six, and Les Misérables. We bring you the songs that defined generations. Beloved classics, modern showstoppers, and unforgettable harmonies. Date: May 30 Time: 7:00 PM - 9:00 PM Address: Kennedy Middle School, 165 Mill St. Tickets available online. Note: Online ticket sales end May 29th at 11:59 PM. Tickets can be purchased at the door for $20/each. Children under 7 free. Sign up for Natick Report&#8217;s free weekday email newsletter",
+      "description": "Experience the magic of Broadway across the decades, from the golden-age sparkle of West Side Story and Oklahoma to the powerhouse hits of Wicked, Hamilton, Six, and Les Mis\u00e9rables. We bring you the songs that defined generations. Beloved classics, modern showstoppers, and unforgettable harmonies. Date: May 30 Time: 7:00 PM - 9:00 PM Address: Kennedy Middle School, 165 Mill St. Tickets available online. Note: Online ticket sales end May 29th at 11:59 PM. Tickets can be purchased at the door for $20/each. Children under 7 free. Sign up for Natick Report&#8217;s free weekday email newsletter",
       "url": "https://www.natickreport.com/event/voices-of-metrowest-presents-the-evolution-of-broadway-2/",
       "start": "2026-05-31T19:00:00.000Z",
       "end": "2026-05-31T21:00:00.000Z",
@@ -4553,7 +4517,7 @@
     },
     {
       "title": "Craft with Wellesley Middle School Girl Scouts",
-      "description": "Craft with Middle School Girl Scouts Sunday, May 31, 4:30 &#8211; 5:30 pm 5th &#8211; 7th graders snack &amp; craft Adult orientation at 5:15 pm RSVP or ask questions: gstroop73505@gmail.com Fun &amp; Friendship for Middle School Girls Wellesley Girl Scouts for 6th–8th graders combines fun, friendship, and adventure with community service. Scouts may also choose to pursue their Silver Award, a girl-led &#8220;take action&#8221; project which improves their community. Our troop meets monthly on Sundays late afternoon with one additional weekend activity scheduled each month. Participation is flexible based on your scout&#8217;s interests and schedule; our members attend various schools.This year’s activities have included: Community Service: archery and ice skating for younger girls, holiday party for Wellesley senior residents, and collecting food for Wellesley food Pantry. Scouts earned their animal helper badge by learning about the animals Unity Farm Sanctuary and crafting toys for Buddy Dog and Stray Pets in Need. Outings: apple picking, night climbing for Halloween, skiing at Wachusett, and back yard winter camping. The troop attended International Women’s Day at Mass Bay. We enjoyed the penguins at New England Aquarium and cannolis at Bova’s Bakery. The troop also bonded at beach volleyball, an arcade escape room, and cheered the Boston Legacy women’s soccer team to victory at Gillette Stadium. We will finish the year with a trip to Canobie Lake Park funded by our cookie sales. To RSVP or ask questions, please email gstroop73505@gmail.com Wellesley Girl Scouts are also recruiting girls at all grade levels (K-12) to form new troops or join existing troops in the fall. If you&#8217;re interested in joining Girl Scouts, please contact wellesleygs@gmail.com or customercare@gsema.org",
+      "description": "Craft with Middle School Girl Scouts Sunday, May 31, 4:30 &#8211; 5:30 pm 5th &#8211; 7th graders snack &amp; craft Adult orientation at 5:15 pm RSVP or ask questions: gstroop73505@gmail.com Fun &amp; Friendship for Middle School Girls Wellesley Girl Scouts for 6th\u20138th graders combines fun, friendship, and adventure with community service. Scouts may also choose to pursue their Silver Award, a girl-led &#8220;take action&#8221; project which improves their community. Our troop meets monthly on Sundays late afternoon with one additional weekend activity scheduled each month. Participation is flexible based on your scout&#8217;s interests and schedule; our members attend various schools.This year\u2019s activities have included: Community Service: archery and ice skating for younger girls, holiday party for Wellesley senior residents, and collecting food for Wellesley food Pantry. Scouts earned their animal helper badge by learning about the animals Unity Farm Sanctuary and crafting toys for Buddy Dog and Stray Pets in Need. Outings: apple picking, night climbing for Halloween, skiing at Wachusett, and back yard winter camping. The troop attended International Women\u2019s Day at Mass Bay. We enjoyed the penguins at New England Aquarium and cannolis at Bova\u2019s Bakery. The troop also bonded at beach volleyball, an arcade escape room, and cheered the Boston Legacy women\u2019s soccer team to victory at Gillette Stadium. We will finish the year with a trip to Canobie Lake Park funded by our cookie sales. To RSVP or ask questions, please email gstroop73505@gmail.com Wellesley Girl Scouts are also recruiting girls at all grade levels (K-12) to form new troops or join existing troops in the fall. If you&#8217;re interested in joining Girl Scouts, please contact wellesleygs@gmail.com or customercare@gsema.org",
       "url": "https://theswellesleyreport.com/event/craft-with-wellesley-middle-school-girl-scouts/",
       "start": "2026-05-31T20:30:00.000Z",
       "end": "2026-05-31T21:30:00.000Z",
@@ -4594,7 +4558,7 @@
     },
     {
       "title": "Natick Pride Kick off &#8211; Living in Truth",
-      "description": "Natick Pride Kick off &#8211; Living in Truth Sunday, May 31 • Doors: 5:30pm. Storytelling: 6pm Moth-Style Storytelling First Congregational Church of Natick 2 East Central Street Admission is free, but we welcome donations at the door.",
+      "description": "Natick Pride Kick off &#8211; Living in Truth Sunday, May 31 \u2022 Doors: 5:30pm. Storytelling: 6pm Moth-Style Storytelling First Congregational Church of Natick 2 East Central Street Admission is free, but we welcome donations at the door.",
       "url": "https://www.natickreport.com/event/natick-pride-kick-off-living-in-truth/",
       "start": "2026-05-31T21:30:00.000Z",
       "end": "2026-06-01T00:00:00.000Z",
@@ -4615,7 +4579,7 @@
       "ingestedAt": "2026-05-25T16:22:55.775Z"
     },
     {
-      "title": "Youth Ninjutsu Program (Ages 12+)",
+      "title": "Youth Ninjutsu Program\u00a0(Ages 12+)",
       "description": "&lt;p&gt;Registration is still available! The Way of Ninjutsu: Enter the world of Bu-do Taijutsu (Ninjutsu), a Japanese martial art that builds power, focus, and confidence through smart movement and self [&hellip;]&lt;/p&gt;\\n",
       "url": "https://www.bostonjcc.org/calendar/youth-ninjutsu-program-ages-12-3/2026-05-31/",
       "start": "2026-05-31T21:30:00.000Z",
@@ -4740,8 +4704,8 @@
       "ingestedAt": "2026-05-25T16:23:02.260Z"
     },
     {
-      "title": "EAY Bookclub: Buddha’s Brain by Rick Hanson",
-      "description": "Join Kat for the inaugural meeting of the Earth & Aerial Yoga Book Club! We will explore Buddha’s Brain by Rick Hanson through...",
+      "title": "EAY Bookclub: Buddha\u2019s Brain by Rick Hanson",
+      "description": "Join Kat for the inaugural meeting of the Earth & Aerial Yoga Book Club! We will explore Buddha\u2019s Brain by Rick Hanson through...",
       "url": "https://patch.com/massachusetts/marlborough/calendar/event/20260601/de81377c-5bf5-477b-ae8d-34ffd8475650/eay-bookclub-buddha-s-brain-by-rick-hanson",
       "start": "2026-06-01T14:30:00.000Z",
       "location": {
@@ -4967,7 +4931,7 @@
     },
     {
       "title": "Authors on Stage, Wellesley College",
-      "description": "Come celebrate the 46th year of Authors on Stage! Fill your morning with engaging presentations by three authors and learn how they came to write their new books. After the program, the authors will sign copies of their first-edition books—available for purchase at a special discount. All proceeds benefit the Wellesley College Library. June 3, 2026 10:30 AM &#8211; 12:00 PM, Lulu Chow Wang Campus Center at Wellesley College. Parking nearby in College garage. 106 Central St, Wellesley, MA 02481 This event is open to the public. Tickets will be held at the door. Coffee and pastries will be served at 9:30 AM, and the program will begin at 10:30 AM. PRESENTED BY: Wellesley College Alumnae of Boston AUTHORS: Peter S. Canellos, Revenge for the Sixties: Sam Alito and the Triumph of the Conservative Legal Movement Tom Perrotta, Ghost Town: A Novel Eliza E. Rathbone, Avery, Gottlieb &amp; Rothko: By the Sea",
+      "description": "Come celebrate the 46th year of Authors on Stage! Fill your morning with engaging presentations by three authors and learn how they came to write their new books. After the program, the authors will sign copies of their first-edition books\u2014available for purchase at a special discount. All proceeds benefit the Wellesley College Library. June 3, 2026 10:30 AM &#8211; 12:00 PM, Lulu Chow Wang Campus Center at Wellesley College. Parking nearby in College garage. 106 Central St, Wellesley, MA 02481 This event is open to the public. Tickets will be held at the door. Coffee and pastries will be served at 9:30 AM, and the program will begin at 10:30 AM. PRESENTED BY: Wellesley College Alumnae of Boston AUTHORS: Peter S. Canellos, Revenge for the Sixties: Sam Alito and the Triumph of the Conservative Legal Movement Tom Perrotta, Ghost Town: A Novel Eliza E. Rathbone, Avery, Gottlieb &amp; Rothko: By the Sea",
       "url": "https://theswellesleyreport.com/event/authors-on-stage-wellesley-college/",
       "start": "2026-06-03T14:30:00.000Z",
       "end": "2026-06-03T16:00:00.000Z",
@@ -5030,7 +4994,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-06-03T16:00:00.000Z",
       "end": "2026-06-03T18:00:00.000Z",
@@ -5089,7 +5053,7 @@
       "ingestedAt": "2026-05-25T16:22:49.869Z"
     },
     {
-      "title": "ArtSpace: Inspired by Nature— An Imaginative Drawing Workshop (Online with Erica Beade)",
+      "title": "ArtSpace: Inspired by Nature\u2014 An Imaginative Drawing Workshop (Online with Erica Beade)",
       "description": "Looking closely at nature inspires a huge range of imaginative artwork, from abstraction and decorative work to illustration...",
       "url": "https://patch.com/massachusetts/acton/calendar/event/20260604/559b77fb-afb1-4f53-9897-b2c4c421ad7a/artspace-inspired-by-nature-an-imaginative-drawing-workshop-online-with-erica-beade",
       "start": "2026-06-04T13:30:00.000Z",
@@ -5172,8 +5136,8 @@
       "ingestedAt": "2026-05-25T16:22:56.687Z"
     },
     {
-      "title": "The Perfect Pizza Pie – Adult Cooking Class",
-      "description": "The June heat isn’t the only thing sizzling this summer! Experience the art of wood-fired pizza in this hands-on adult cooking...",
+      "title": "The Perfect Pizza Pie \u2013 Adult Cooking Class",
+      "description": "The June heat isn\u2019t the only thing sizzling this summer! Experience the art of wood-fired pizza in this hands-on adult cooking...",
       "url": "https://patch.com/massachusetts/dover/calendar/event/20260604/7f78b53f-df21-4055-88bc-11bb6ae511f5/the-perfect-pizza-pie-adult-cooking-class",
       "start": "2026-06-04T22:00:00.000Z",
       "location": {
@@ -5193,7 +5157,7 @@
     },
     {
       "title": "50 Hikes Through History",
-      "description": "In Massachusetts, many parks and trails have been carved out of historical sites. Author Alison O’Leary, a journalist and coauthor of the Appalachian Mountain Club’s guidebook, Best Day Hikes Near Boston, shares her favorites through this hour-long program. Using maps and historic photos, O&#8217;Leary describes several day trip destinations with historical significance and interesting features. Special effort is made to include varying levels of difficulty (flat and easy to steep and challenging) and variety of scenery. June 4, 7pm, Wellesley Free Library main branch. Register online. YES, sign me up for Swellesley’s free weekday email newsletter",
+      "description": "In Massachusetts, many parks and trails have been carved out of historical sites. Author Alison O\u2019Leary, a journalist and coauthor of the Appalachian Mountain Club\u2019s guidebook, Best Day Hikes Near Boston, shares her favorites through this hour-long program. Using maps and historic photos, O&#8217;Leary describes several day trip destinations with historical significance and interesting features. Special effort is made to include varying levels of difficulty (flat and easy to steep and challenging) and variety of scenery. June 4, 7pm, Wellesley Free Library main branch. Register online. YES, sign me up for Swellesley\u2019s free weekday email newsletter",
       "url": "https://theswellesleyreport.com/event/50-hikes-through-history/",
       "start": "2026-06-04T23:00:00.000Z",
       "end": "2026-06-05T00:00:00.000Z",
@@ -5235,7 +5199,7 @@
       "ingestedAt": "2026-05-25T16:22:58.317Z"
     },
     {
-      "title": "Open Mic Café at the MAC",
+      "title": "Open Mic Caf\u00e9 at the MAC",
       "description": "Open mic event open to all. A night of music, poetry, comedy, storytelling and good companionship. Sign up at the door to...",
       "url": "https://patch.com/massachusetts/northborough/calendar/event/20260605/2878db83-80ac-4dbf-90e3-0289830217db/open-mic-caf-at-the-mac",
       "start": "2026-06-05T23:00:00.000Z",
@@ -5320,7 +5284,7 @@
     },
     {
       "title": "First Parish in Wayland Yard Sale! ",
-      "description": "Please join First Parish in Wayland for a fun and kid-friendly yard sale on Saturday, June 6, 9:00 a.m. – 1 p.m. The church is...",
+      "description": "Please join First Parish in Wayland for a fun and kid-friendly yard sale on Saturday, June 6, 9:00 a.m. \u2013 1 p.m. The church is...",
       "url": "https://patch.com/massachusetts/wayland/calendar/event/20260606/64d922b2-c7aa-4059-a22f-26d03156dd02/first-parish-in-wayland-yard-sale",
       "start": "2026-06-06T13:00:00.000Z",
       "location": {
@@ -5341,7 +5305,7 @@
     },
     {
       "title": "Town Wide Yard Sale in Westborough",
-      "description": "One day. Dozens of homes. Hundreds of shoppers.Don’t miss the biggest yard sale in town.Want to be on the map? Turn your...",
+      "description": "One day. Dozens of homes. Hundreds of shoppers.Don\u2019t miss the biggest yard sale in town.Want to be on the map? Turn your...",
       "url": "https://patch.com/massachusetts/westborough/calendar/event/20260606/2683f701-5d4f-424c-ab79-f43c03aa2778/town-wide-yard-sale-in-westborough",
       "start": "2026-06-06T13:00:00.000Z",
       "location": {
@@ -5380,7 +5344,7 @@
       "ingestedAt": "2026-05-25T16:22:50.305Z"
     },
     {
-      "title": "Wellesley Trails Committee Guided Walk—Mini-Grand Tour",
+      "title": "Wellesley Trails Committee Guided Walk\u2014Mini-Grand Tour",
       "description": "Join the Wellesley Trails Committee on a guided trail walk. Free. No registration required. Walks take place unless it pours rain or there are high winds. Dogs on leashes are welcome. DATE: Saturday, June 6, 2026 TIME: 10:00am-12:30pm LOCATION: Meet at the Longfellow Pond parking lot at 220 Oakland Street DESCRIPTION: Mini-Grand Tour (6.5 miles) Join us for a 6.5-mile, 2.5+ hour Mini-Grand Tour that links a selection of our favorite trails, with a few sidewalks in between. From Longfellow Pond, we will find our way to Centennial Reservation, the Crosstown Trail at Indian Springs Park, John G. Schuler Path, Hunnewell Fyffe footbridge, Charles River Path, Oullet Park, and Barton Road trail, before returning to the Town Forest. While not as long as the Grand Tour, the Mini Tour is more strenuous than our typical walk. Remember to bring water and wear sturdy walking shoes. Meet at the Longfellow Pond parking lot at 220 Oakland Street.",
       "url": "https://theswellesleyreport.com/event/wellesley-trails-committee-guided-walk-mini-grand-tour/",
       "start": "2026-06-06T14:00:00.000Z",
@@ -5424,7 +5388,7 @@
       "ingestedAt": "2026-05-25T16:22:50.015Z"
     },
     {
-      "title": "Splendid Strawberries – Adult Cooking Class",
+      "title": "Splendid Strawberries \u2013 Adult Cooking Class",
       "description": "Join special guest Chef Clarisse Maugis in the Powisset Farm Kitchen as you learn to make an elegant Charlotte aux Fraises with...",
       "url": "https://patch.com/massachusetts/dover/calendar/event/20260606/b3052e34-1d65-41e3-98bc-892b11b84ed5/splendid-strawberries-adult-cooking-class",
       "start": "2026-06-06T15:00:00.000Z",
@@ -5569,7 +5533,7 @@
       "ingestedAt": "2026-05-25T16:22:50.305Z"
     },
     {
-      "title": "Art in the Park —Shaw Park",
+      "title": "Art in the Park \u2014Shaw Park",
       "description": "EVENT: Art in the Park at Shaw Park DATE/TIME: Sunday, June 7th 10am &#8211; 3pm LOCATION: Shaw Park, 53 Eliot St., (that nice green space across the street from the Bacon Free Library) DESCRIPTION: The Natick Art Association hosts its twice annual art fair! Art in the Park is a collection of amazing artists with various wares for sale. Come enjoy live music and shop the wide variety of media Natick Art Association artists work in. Past years have included everything from pottery to painting, jewelry to books, and more! This is a family and pet friendly event.",
       "url": "https://www.natickreport.com/event/art-in-the-park-shaw-park/",
       "start": "2026-06-07T14:00:00.000Z",
@@ -5592,7 +5556,7 @@
     },
     {
       "title": "Mosaic Mirror or Heart Workshop",
-      "description": "On June 7, 2026 from 1:00–4:30 pm, design your own mosaic mirror or heart using glass, beads, recycled jewelry, and more....",
+      "description": "On June 7, 2026 from 1:00\u20134:30 pm, design your own mosaic mirror or heart using glass, beads, recycled jewelry, and more....",
       "url": "https://patch.com/massachusetts/wayland/calendar/event/20260607/a59b5098-e633-4508-b785-ccb99d9840f3/mosaic-mirror-or-heart-workshop",
       "start": "2026-06-07T17:00:00.000Z",
       "location": {
@@ -5612,7 +5576,7 @@
     },
     {
       "title": "Mosaic Jewelry or Frame Worksop",
-      "description": "💎 Jewelry or Frame Mosaic Workshop – June 7, 2026 💎 Join us June 7, 2026 from 2:00–4:30 pm for a creative mosaic workshop...",
+      "description": "\ud83d\udc8e Jewelry or Frame Mosaic Workshop \u2013 June 7, 2026 \ud83d\udc8e Join us June 7, 2026 from 2:00\u20134:30 pm for a creative mosaic workshop...",
       "url": "https://patch.com/massachusetts/wayland/calendar/event/20260607/d9ba057e-2ba1-4535-9ae7-c523a02e7f5f/mosaic-jewelry-or-frame-worksop",
       "start": "2026-06-07T18:00:00.000Z",
       "location": {
@@ -5631,7 +5595,7 @@
       "ingestedAt": "2026-05-25T16:22:50.155Z"
     },
     {
-      "title": "“Regenerative Gardening in Today’s World”",
+      "title": "\u201cRegenerative Gardening in Today\u2019s World\u201d",
       "description": "Trevor Smith, an award-winning regenerative landscape designer and a principal of CFS Regenerative Design Studios, will discuss...",
       "url": "https://patch.com/massachusetts/needham/calendar/event/20260607/f2958a7b-05cf-4b60-a2de-8c026d71534b/regenerative-gardening-in-today-s-world",
       "start": "2026-06-07T18:00:00.000Z",
@@ -5778,7 +5742,7 @@
       "ingestedAt": "2026-05-25T16:22:50.155Z"
     },
     {
-      "title": "Author Talk: “Wildlife Out Your Window” And Westborough Community Land Trust Annual Meeting",
+      "title": "Author Talk: \u201cWildlife Out Your Window\u201d And Westborough Community Land Trust Annual Meeting",
       "description": "*NOTE CHANGE IN LOCATION FROM PAST ANNUAL MEETINGS*Westborough Senior Center, 4 Rogers Road, Westborough MA In this fun and...",
       "url": "https://patch.com/massachusetts/westborough/calendar/event/20260608/e3752a42-66b1-47a2-a358-845c8bbb8563/author-talk-wildlife-out-your-window-and-westborough-community-land-trust-annual-meeting",
       "start": "2026-06-08T23:00:00.000Z",
@@ -5800,7 +5764,7 @@
     },
     {
       "title": "Coffee Connect at Linden Square",
-      "description": "Tuesday. June 9, 8:30 &#8211; 9:30 a.m. Linden Square 181 Linden Street, Wellesley Free for Charles River Regional Chamber members, $10 future members Meet us in Wellesley’s Linden Square for our next coffee connect. Typically drawing upwards of 100 local professionals, our morning networking events are the place to make tons of new connections and grow your networking while enjoying the summer weather. Open to members and those interested in learning more about becoming a member, coffee connects are a great way to network and get to know the chamber, our members, and our programs. As an exclusive member benefit, chamber members can preview the RSVP list before the event. Expand your reach (and support local news) by advertising on Swellesley",
+      "description": "Tuesday. June 9, 8:30 &#8211; 9:30 a.m. Linden Square 181 Linden Street, Wellesley Free for Charles River Regional Chamber members, $10 future members Meet us in Wellesley\u2019s Linden Square for our next coffee connect. Typically drawing upwards of 100 local professionals, our morning networking events are the place to make tons of new connections and grow your networking while enjoying the summer weather. Open to members and those interested in learning more about becoming a member, coffee connects are a great way to network and get to know the chamber, our members, and our programs. As an exclusive member benefit, chamber members can preview the RSVP list before the event. Expand your reach (and support local news) by advertising on Swellesley",
       "url": "https://theswellesleyreport.com/event/coffee-connect-at-linden-square/",
       "start": "2026-06-09T12:30:00.000Z",
       "end": "2026-06-09T13:30:00.000Z",
@@ -5922,7 +5886,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-06-10T16:00:00.000Z",
       "end": "2026-06-10T18:00:00.000Z",
@@ -6043,8 +6007,8 @@
       "ingestedAt": "2026-05-25T16:23:00.631Z"
     },
     {
-      "title": "The Perfect Pizza Pie – Adult Cooking Class",
-      "description": "The June heat isn’t the only thing sizzling this summer! Experience the art of wood-fired pizza in this hands-on adult cooking...",
+      "title": "The Perfect Pizza Pie \u2013 Adult Cooking Class",
+      "description": "The June heat isn\u2019t the only thing sizzling this summer! Experience the art of wood-fired pizza in this hands-on adult cooking...",
       "url": "https://patch.com/massachusetts/dover/calendar/event/20260611/df7de00e-1647-49d9-b405-e1a63261a127/the-perfect-pizza-pie-adult-cooking-class",
       "start": "2026-06-11T22:00:00.000Z",
       "location": {
@@ -6063,8 +6027,8 @@
       "ingestedAt": "2026-05-25T16:22:51.645Z"
     },
     {
-      "title": "Charles River Regional Chamber Women’s Conference",
-      "description": "Charles River Regional Chamber 2nd Annual Women’s Conference Fri. June 12, 8 a.m. to 3 p.m. Lasell University, Newton free parking, accessible to Green Line More info &amp; RSVP",
+      "title": "Charles River Regional Chamber Women\u2019s Conference",
+      "description": "Charles River Regional Chamber 2nd Annual Women\u2019s Conference Fri. June 12, 8 a.m. to 3 p.m. Lasell University, Newton free parking, accessible to Green Line More info &amp; RSVP",
       "url": "https://theswellesleyreport.com/event/charles-river-regional-chamber-womens-conference/",
       "start": "2026-06-12T12:00:00.000Z",
       "end": "2026-06-12T19:00:00.000Z",
@@ -6085,8 +6049,8 @@
       "ingestedAt": "2026-05-25T16:22:56.688Z"
     },
     {
-      "title": "St. John’s Annual Rummage Sale",
-      "description": "Just. Don’t. Miss it!!",
+      "title": "St. John\u2019s Annual Rummage Sale",
+      "description": "Just. Don\u2019t. Miss it!!",
       "url": "https://patch.com/massachusetts/holliston-hopkinton/calendar/event/20260612/3d12ee94-6b6e-4a2c-95aa-0b33e2f5c8fb/st-john-s-annual-rummage-sale",
       "start": "2026-06-12T13:00:00.000Z",
       "location": {
@@ -6128,7 +6092,7 @@
     },
     {
       "title": "Sally's Night Celebration - Free Planetarium Program",
-      "description": "Free Planetarium Program to honor the 43rd anniversary of Sally Ride’s historic STS-7 mission and becoming the first American...",
+      "description": "Free Planetarium Program to honor the 43rd anniversary of Sally Ride\u2019s historic STS-7 mission and becoming the first American...",
       "url": "https://patch.com/massachusetts/framingham/calendar/event/20260612/f30e4090-1418-4ae1-af5c-ff4380de7393/sallys-night-celebration-free-planetarium-program",
       "start": "2026-06-12T22:00:00.000Z",
       "location": {
@@ -6148,8 +6112,8 @@
       "ingestedAt": "2026-05-25T16:22:49.869Z"
     },
     {
-      "title": "“The Future of Democracy” ",
-      "description": "“The Future of Democracy” A live, interview‑style conversation with Danielle Allen, Harvard professor and director of the...",
+      "title": "\u201cThe Future of Democracy\u201d ",
+      "description": "\u201cThe Future of Democracy\u201d A live, interview\u2011style conversation with Danielle Allen, Harvard professor and director of the...",
       "url": "https://patch.com/massachusetts/concord/calendar/event/20260612/ecfa4424-ee73-4821-8485-5b1dea21ad3e/the-future-of-democracy",
       "start": "2026-06-12T23:00:00.000Z",
       "location": {
@@ -6191,7 +6155,7 @@
     },
     {
       "title": "Acton Community Chorus Spring Concert: \"Movie Night\"",
-      "description": "The Acton Community Chorus presents its Spring 2026 Concert “Movie Night” on June 12 at 7:00 p.m. and June 13 at 4:00 p.m. at...",
+      "description": "The Acton Community Chorus presents its Spring 2026 Concert \u201cMovie Night\u201d on June 12 at 7:00 p.m. and June 13 at 4:00 p.m. at...",
       "url": "https://patch.com/massachusetts/acton/calendar/event/20260612/b9b6c919-f5a5-46d1-8d77-76df73461a81/acton-community-chorus-spring-concert-movie-night",
       "start": "2026-06-13T00:00:00.000Z",
       "location": {
@@ -6211,7 +6175,7 @@
       "ingestedAt": "2026-05-25T16:22:50.305Z"
     },
     {
-      "title": "St. John’s Annual Rummage Sale",
+      "title": "St. John\u2019s Annual Rummage Sale",
       "description": "Please note that there will be some road closures due to a road race in Hopkinton beginning at 8:30 AM. Primary Road affected...",
       "url": "https://patch.com/massachusetts/holliston-hopkinton/calendar/event/20260613/8dd67dd9-6a4e-4012-9a71-37528bcac9e1/st-john-s-annual-rummage-sale",
       "start": "2026-06-13T13:00:00.000Z",
@@ -6253,7 +6217,7 @@
       "ingestedAt": "2026-05-25T16:22:49.869Z"
     },
     {
-      "title": "Get Creative! Come to Bedford’s Music & Arts Experience 2026",
+      "title": "Get Creative! Come to Bedford\u2019s Music & Arts Experience 2026",
       "description": "Mark your calendar for Saturday, June 13, and join us for the Music & Arts Experience 2026, where local artistry will meet...",
       "url": "https://patch.com/massachusetts/concord/calendar/event/20260613/d7173365-d82a-46f0-b24b-3749eb399a01/get-creative-come-to-bedford-s-music-arts-experience-2026",
       "start": "2026-06-13T14:00:00.000Z",
@@ -6295,7 +6259,7 @@
       "ingestedAt": "2026-05-25T16:22:55.775Z"
     },
     {
-      "title": "Wellesley Trails Committee Guided Walk—Centennial Reservation",
+      "title": "Wellesley Trails Committee Guided Walk\u2014Centennial Reservation",
       "description": "Join the Wellesley Trails Committee on a guided trail walk. Free. No registration required. Walks take place unless it pours rain or there are high winds. Dogs on leashes are welcome. DATE: Saturday, June 13 TIME: 10am-11:15am LOCATION: Meet at the Mass Bay parking lot off of Oakland Street, (not the Centennial lot) DESCRIPTION: Centennial Reservation (1.8 miles). Take a picturesque walk, through rolling meadows to the top of Maugus Hill, one of the highest points in Wellesley. View the beautiful Great Blue Hills in Canton from a hillside meadow overlooking the town of Needham. Then, descend through the meadow and around Benzanson Pond, a favorite swimming hole for dogs as well as frogs and tadpoles. Come explore this conservation land purchased by the town for Wellesley&#8217;s 1981 Centennial Celebration and now one of the most popular trails in Wellesley. This walk also includes Mass Bay land that is maintained by the Wellesley Trails Committee and the Wellesley DPW.",
       "url": "https://theswellesleyreport.com/event/wellesley-trails-committee-guided-walk-centennial-reservation/",
       "start": "2026-06-13T14:00:00.000Z",
@@ -6318,7 +6282,7 @@
     },
     {
       "title": "Democracy and Freedom Fair",
-      "description": "Democracy & Freedom Fair Saturday June 13, 11am – 2pm, First Parish in Concord, 20 Lexington Rd (will move inside with...",
+      "description": "Democracy & Freedom Fair Saturday June 13, 11am \u2013 2pm, First Parish in Concord, 20 Lexington Rd (will move inside with...",
       "url": "https://patch.com/massachusetts/concord/calendar/event/20260613/0138903d-11c8-499a-aeac-fa4cd2e65ff5/democracy-and-freedom-fair",
       "start": "2026-06-13T15:00:00.000Z",
       "location": {
@@ -6359,8 +6323,8 @@
       "ingestedAt": "2026-05-25T16:22:49.938Z"
     },
     {
-      "title": "Diplomat in China: Framingham’s Peter Parker &#8211; Virtual Program",
-      "description": "*Virtual Zoom Program* Featuring Dana Dauterman Ricciardi Peter Parker’s diplomatic uniform is currently on exhibit both online and in the Edgell Memorial Library as part of the Framingham’s&hellip;",
+      "title": "Diplomat in China: Framingham\u2019s Peter Parker &#8211; Virtual Program",
+      "description": "*Virtual Zoom Program* Featuring Dana Dauterman Ricciardi Peter Parker\u2019s diplomatic uniform is currently on exhibit both online and in the Edgell Memorial Library as part of the Framingham\u2019s&hellip;",
       "url": "https://framinghamhistory.org/events/diplomat-to-china-framinghams-peter-parker/",
       "start": "2026-06-14T03:59:00.000Z",
       "allDay": false,
@@ -6484,8 +6448,8 @@
       "ingestedAt": "2026-05-25T16:22:50.229Z"
     },
     {
-      "title": "Wellesley’s Annual Flag Retirement Day Ceremony",
-      "description": "Wellesley’s Annual Flag Retirement Day Ceremony ~ Sunday, June 14, 1:00pm at Woodlawn Cemetery ~ Worn and damaged flags from the community and cemetery will be respectfully retired in a controlled manner conducted by the Wellesley Fire Department and Wellesley American Legion Post 72. Please send tips, photos, ideas to theswellesleyreport@gmail.com",
+      "title": "Wellesley\u2019s Annual Flag Retirement Day Ceremony",
+      "description": "Wellesley\u2019s Annual Flag Retirement Day Ceremony ~ Sunday, June 14, 1:00pm at Woodlawn Cemetery ~ Worn and damaged flags from the community and cemetery will be respectfully retired in a controlled manner conducted by the Wellesley Fire Department and Wellesley American Legion Post 72. Please send tips, photos, ideas to theswellesleyreport@gmail.com",
       "url": "https://theswellesleyreport.com/event/wellesleys-annual-flag-retirement-day-ceremony/",
       "start": "2026-06-14T17:00:00.000Z",
       "end": "2026-06-14T18:00:00.000Z",
@@ -6649,7 +6613,7 @@
       "ingestedAt": "2026-05-25T16:23:00.628Z"
     },
     {
-      "title": "Framingham’s Automotive History &#8211; Special Lecture &#038; Reception",
+      "title": "Framingham\u2019s Automotive History &#8211; Special Lecture &#038; Reception",
       "description": "Saturday, June 15, 3:00 pm &amp; 5:30 p.m. FHC Village Hall on the Common &nbsp; Join us for an exploration of Framingham&#8217;s deep-rooted automotive history, from stories of&hellip;",
       "url": "https://framinghamhistory.org/events/2024-auto-history/",
       "start": "2026-06-15T19:00:00.000Z",
@@ -6772,7 +6736,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-06-17T16:00:00.000Z",
       "end": "2026-06-17T18:00:00.000Z",
@@ -6852,7 +6816,7 @@
     },
     {
       "title": "Love for Lifesavers",
-      "description": "Love for Lifesavers - Thursday, June 18th Join us for one of our favorite nights of the year—our FIFTH annual Love for...",
+      "description": "Love for Lifesavers - Thursday, June 18th Join us for one of our favorite nights of the year\u2014our FIFTH annual Love for...",
       "url": "https://patch.com/massachusetts/westborough/calendar/event/20260618/9a284a75-490a-4cd5-bdc0-af69098dc38c/love-for-lifesavers",
       "start": "2026-06-18T20:30:00.000Z",
       "location": {
@@ -6892,8 +6856,8 @@
       "ingestedAt": "2026-05-25T16:22:50.156Z"
     },
     {
-      "title": "Grill and Gather – Adult Cooking Class",
-      "description": "Let’s get to grilling! In this hands-on cooking class, we’ll focus on the sauces and marinades that turn simple grilled foods...",
+      "title": "Grill and Gather \u2013 Adult Cooking Class",
+      "description": "Let\u2019s get to grilling! In this hands-on cooking class, we\u2019ll focus on the sauces and marinades that turn simple grilled foods...",
       "url": "https://patch.com/massachusetts/dover/calendar/event/20260618/ef158d95-0587-4f36-8ae9-ff52969c92e2/grill-and-gather-adult-cooking-class",
       "start": "2026-06-18T22:00:00.000Z",
       "location": {
@@ -6955,7 +6919,7 @@
     },
     {
       "title": "Reading Frederick Douglass &#038; Celebrating Juneteenth",
-      "description": "The Natick Historical Society and Natick is United will co-host a community reading of Frederick Douglass’ 1852 speech, “What to a Slave is the 4th of July?” at 10:30 AM on Natick Common. Historian and Natick resident, Brenna Greer, will offer an introduction to the speech and facilitate dialogue afterwards. Local drummer Bruno Giles will kick off the event with drumming at 10am. If you would like to sign up to participate in this event by reading part of the speech (1-3 paragraphs) please sign up. Questions? Email director@natickhistoricalsociety.org The Juneteenth celebration continues on Saturday, June 20 with Natick Center Cultural District’s Juneteenth event on Natick Common from 11:00 AM– 1:00 PM. There will be food by Mig’s Dogs, fun activities, and musical performances by Drum Nomads. Expand your reach (and support local news) via paid advertisement on Natick Report",
+      "description": "The Natick Historical Society and Natick is United will co-host a community reading of Frederick Douglass\u2019 1852 speech, \u201cWhat to a Slave is the 4th of July?\u201d at 10:30 AM on Natick Common. Historian and Natick resident, Brenna Greer, will offer an introduction to the speech and facilitate dialogue afterwards. Local drummer Bruno Giles will kick off the event with drumming at 10am. If you would like to sign up to participate in this event by reading part of the speech (1-3 paragraphs) please sign up. Questions? Email director@natickhistoricalsociety.org The Juneteenth celebration continues on Saturday, June 20 with Natick Center Cultural District\u2019s Juneteenth event on Natick Common from 11:00 AM\u2013 1:00 PM. There will be food by Mig\u2019s Dogs, fun activities, and musical performances by Drum Nomads. Expand your reach (and support local news) via paid advertisement on Natick Report",
       "url": "https://www.natickreport.com/event/reading-frederick-douglass-celebrating-juneteenth/",
       "start": "2026-06-19T14:30:00.000Z",
       "end": "2026-06-19T15:30:00.000Z",
@@ -7036,8 +7000,8 @@
       "ingestedAt": "2026-05-25T16:22:14.250Z"
     },
     {
-      "title": "Westborough Food Pantry encourages public to donate food at “Fill a Truck” event .",
-      "description": "Give a little. Help a lot. The Westborough Food Pantry welcomes the public to donate food at the “Fill a Truck” event on...",
+      "title": "Westborough Food Pantry encourages public to donate food at \u201cFill a Truck\u201d event .",
+      "description": "Give a little. Help a lot. The Westborough Food Pantry welcomes the public to donate food at the \u201cFill a Truck\u201d event on...",
       "url": "https://patch.com/massachusetts/westborough/calendar/event/20260620/a352be86-c643-424f-bf0e-3913eeb5c2a2/westborough-food-pantry-encourages-public-to-donate-food-at-fill-a-truck-event",
       "start": "2026-06-20T12:30:00.000Z",
       "location": {
@@ -7057,8 +7021,8 @@
       "ingestedAt": "2026-05-25T16:22:54.996Z"
     },
     {
-      "title": "Concord Electronics Recycling Event ♻️",
-      "description": "Join us at Tri-Con Church for our annual Electronics Recycling Event. 📅 Saturday, June 20th, 9AM-2PM 📍 Tri-Con Church- Parking...",
+      "title": "Concord Electronics Recycling Event \u267b\ufe0f",
+      "description": "Join us at Tri-Con Church for our annual Electronics Recycling Event. \ud83d\udcc5 Saturday, June 20th, 9AM-2PM \ud83d\udccd Tri-Con Church- Parking...",
       "url": "https://patch.com/massachusetts/concord/calendar/event/20260620/904e8af3-11f4-4aa3-8c13-b7c627ac4792/concord-electronics-recycling-event",
       "start": "2026-06-20T13:00:00.000Z",
       "location": {
@@ -7163,7 +7127,7 @@
     },
     {
       "title": "June Food Day 2026",
-      "description": "Celebrate summer, local food and community at Boston Area Gleaners’ June Food Day! This rain or shine event will be held on...",
+      "description": "Celebrate summer, local food and community at Boston Area Gleaners\u2019 June Food Day! This rain or shine event will be held on...",
       "url": "https://patch.com/massachusetts/acton/calendar/event/20260620/8dfb4dbf-3d27-471f-a6f6-b76dd9496939/june-food-day-2026",
       "start": "2026-06-20T20:30:00.000Z",
       "location": {
@@ -7205,7 +7169,7 @@
     },
     {
       "title": "Bay State Motor Festival",
-      "description": "Bay State Motor Festival Returns to Cushing Memorial Park — Free Community Event, June 21The Bay State Motor Festival is back...",
+      "description": "Bay State Motor Festival Returns to Cushing Memorial Park \u2014 Free Community Event, June 21The Bay State Motor Festival is back...",
       "url": "https://patch.com/massachusetts/framingham/calendar/event/20260621/e7d38cea-3bd6-4d38-aa78-41e689460382/bay-state-motor-festival",
       "start": "2026-06-21T13:00:00.000Z",
       "location": {
@@ -7225,8 +7189,8 @@
       "ingestedAt": "2026-05-25T16:22:49.870Z"
     },
     {
-      "title": "Tour de Natick – Family Bike Ride 🚴‍♂️",
-      "description": "Tour de Natick – Family Bike Ride 🚴‍♂️ Date: Sunday, June 21, 2026 Time: • 10:00 AM – Check-in • 11:00 AM – Ride...",
+      "title": "Tour de Natick \u2013 Family Bike Ride \ud83d\udeb4\u200d\u2642\ufe0f",
+      "description": "Tour de Natick \u2013 Family Bike Ride \ud83d\udeb4\u200d\u2642\ufe0f Date: Sunday, June 21, 2026 Time: \u2022 10:00 AM \u2013 Check-in \u2022 11:00 AM \u2013 Ride...",
       "url": "https://patch.com/massachusetts/natick/calendar/event/20260621/375590e0-d813-4b8d-9616-7eeb0e0a5dd3/tour-de-natick-family-bike-ride",
       "start": "2026-06-21T14:00:00.000Z",
       "location": {
@@ -7269,7 +7233,7 @@
     },
     {
       "title": "Father's Day Bluegrass BBQ",
-      "description": "BBQ, beer, and bluegrass music – the perfect recipe for Father’s Day! Bring Dad and the family for a summer experience at the...",
+      "description": "BBQ, beer, and bluegrass music \u2013 the perfect recipe for Father\u2019s Day! Bring Dad and the family for a summer experience at the...",
       "url": "https://patch.com/massachusetts/dover/calendar/event/20260621/a0126703-db31-48ba-a2d5-b0b745520474/fathers-day-bluegrass-bbq",
       "start": "2026-06-21T16:00:00.000Z",
       "location": {
@@ -7329,7 +7293,7 @@
     },
     {
       "title": "Nipmuc Lifeways through Framingham Artifacts: Foodways",
-      "description": "Thursday, June 22 @ 7PM Zoom Free Within the Framingham History Center’s (FHC) 10,000 piece collection are 600+ Indigenous artifacts ranging from projectile points to game pieces to&hellip;",
+      "description": "Thursday, June 22 @ 7PM Zoom Free Within the Framingham History Center\u2019s (FHC) 10,000 piece collection are 600+ Indigenous artifacts ranging from projectile points to game pieces to&hellip;",
       "url": "https://framinghamhistory.org/events/nipmuc-lifeways-through-framingham-artifacts-foodways/",
       "start": "2026-06-22T23:00:00.000Z",
       "allDay": false,
@@ -7430,7 +7394,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-06-24T16:00:00.000Z",
       "end": "2026-06-24T18:00:00.000Z",
@@ -7551,8 +7515,8 @@
       "ingestedAt": "2026-05-25T16:22:51.645Z"
     },
     {
-      "title": "Clopener of Framingham’s Collective Journeys",
-      "description": "Clopener of Framingham’s Collective Journeys Thursday, June 25 | 6:00-7:00 p.m. Edgell Memorial Library | During the Framingham Farmers Market No registration required! clopener (noun) | kloh-puh-ner: borrowed&hellip;",
+      "title": "Clopener of Framingham\u2019s Collective Journeys",
+      "description": "Clopener of Framingham\u2019s Collective Journeys Thursday, June 25 | 6:00-7:00 p.m. Edgell Memorial Library | During the Framingham Farmers Market No registration required! clopener (noun) | kloh-puh-ner: borrowed&hellip;",
       "url": "https://framinghamhistory.org/events/clopener-of-framinghams-collective-journeys/",
       "start": "2026-06-25T23:00:00.000Z",
       "allDay": false,
@@ -7657,7 +7621,7 @@
     },
     {
       "title": "Stitching Revolution in Massachusetts: Quilting & Dancing",
-      "description": "Stitching Revolution in Massachusetts&#8221; is a hands-on celebration of the Bay State’s pivotal role in the American Revolution, combining history, creativity, and community.",
+      "description": "Stitching Revolution in Massachusetts&#8221; is a hands-on celebration of the Bay State\u2019s pivotal role in the American Revolution, combining history, creativity, and community.",
       "url": "https://framinghamhistory.org/events/stitching-revolution/",
       "start": "2026-06-28T13:30:00.000Z",
       "allDay": false,
@@ -7778,7 +7742,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-07-01T16:00:00.000Z",
       "end": "2026-07-01T18:00:00.000Z",
@@ -7877,8 +7841,8 @@
       "ingestedAt": "2026-05-25T16:22:55.776Z"
     },
     {
-      "title": "High School Summer Program at Babson – Apply Now",
-      "description": "Babson College is now accepting applications for the Arthur M. Blank School Summer Program, a pre-college experience for rising high school juniors and seniors (ages 16+). Students can choose from 50+ hands-on courses in areas like business, finance, AI, entrepreneurship, and more—offered on campus, online, or commuter. The program runs July 6–31, 2026. Space is limited, and courses fill on a rolling, first-come, first-served basis. Learn more, apply, or register for an upcoming info session: Link: https://www.babson.edu/summer-at-babson/high-school-learners/the-arthur-m-blank-school-summer-program/?utm_source=xchannel&amp;utm_medium=link&amp;utm_campaign=CM_0_custom_260215_product_0___AWA_&amp;utm_content=_click",
+      "title": "High School Summer Program at Babson \u2013 Apply Now",
+      "description": "Babson College is now accepting applications for the Arthur M. Blank School Summer Program, a pre-college experience for rising high school juniors and seniors (ages 16+). Students can choose from 50+ hands-on courses in areas like business, finance, AI, entrepreneurship, and more\u2014offered on campus, online, or commuter. The program runs July 6\u201331, 2026. Space is limited, and courses fill on a rolling, first-come, first-served basis. Learn more, apply, or register for an upcoming info session: Link: https://www.babson.edu/summer-at-babson/high-school-learners/the-arthur-m-blank-school-summer-program/?utm_source=xchannel&amp;utm_medium=link&amp;utm_campaign=CM_0_custom_260215_product_0___AWA_&amp;utm_content=_click",
       "url": "https://needhamlocal.org/event/high-school-summer-program-at-babson-apply-now/",
       "start": "2026-07-06T12:00:00.000Z",
       "end": "2026-07-31T21:00:00.000Z",
@@ -7999,7 +7963,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-07-08T16:00:00.000Z",
       "end": "2026-07-08T18:00:00.000Z",
@@ -8079,7 +8043,7 @@
       "ingestedAt": "2026-05-25T16:22:50.306Z"
     },
     {
-      "title": "Rules of the Ride—bike handling and confidence for 5th to 8th graders",
+      "title": "Rules of the Ride\u2014bike handling and confidence for 5th to 8th graders",
       "description": "Rules of the Ride is a fun, hands-on way to learn bike handling and confidence for 5th to 8th graders. This year&#8217;s event is Sunday, June 7 from 10 a.m. to 11:30 a.m. at the Wellesley High School parking lot. Participants will learn how to ride safely and how to legally use critical skills training from MassBike instructors. The event includes a guided ride led by the Wellesley Police Department. During the event, helmets and bikes will be checked for proper fit and safety before moving into brief group instruction and the guided ride. Participants need a rideable bike, closed-toed shoes, and a helmet. Registration is required. (use Activity #231505).",
       "url": "https://theswellesleyreport.com/event/rules-of-the-ride-bike-handling-and-confidence-for-5th-to-8th-graders/",
       "start": "2026-07-11T14:00:00.000Z",
@@ -8165,7 +8129,7 @@
     },
     {
       "title": "FREE Vacation Bible Adventure for Kids!",
-      "description": "Shining a light on who Jesus is at VBA's Illumination Station! All children, completed Kindergarten—5th grade, are welcome to...",
+      "description": "Shining a light on who Jesus is at VBA's Illumination Station! All children, completed Kindergarten\u20145th grade, are welcome to...",
       "url": "https://patch.com/massachusetts/sudbury/calendar/event/20260713/a0982631-834b-4d74-a643-2db5adcf326f/free-vacation-bible-adventure-for-kids",
       "start": "2026-07-13T13:00:00.000Z",
       "location": {
@@ -8286,7 +8250,7 @@
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
-      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional — working knowledge assumed.",
+      "description": "Drop-in mah jongg in the Crockett Garden. Garden season only. Explicitly not instructional \u2014 working knowledge assumed.",
       "url": "https://masshort.org/",
       "start": "2026-07-15T16:00:00.000Z",
       "end": "2026-07-15T18:00:00.000Z",
@@ -8346,7 +8310,7 @@
     },
     {
       "title": "Hikes through History Series: Saxonville",
-      "description": "Walk through time with the Framingham History Center’s Hikes through History Series. Explore Framingham’s past and present as local historians take you on an hour-long guided walking tour&hellip;",
+      "description": "Walk through time with the Framingham History Center\u2019s Hikes through History Series. Explore Framingham\u2019s past and present as local historians take you on an hour-long guided walking tour&hellip;",
       "url": "https://framinghamhistory.org/events/hikes-through-history-series-saxonville/",
       "start": "2026-07-16T18:00:00.000Z",
       "allDay": false,
@@ -8367,7 +8331,7 @@
     },
     {
       "title": "Haggis X-1",
-      "description": "A new era—the next evolution in Celtic-inspired rock",
+      "description": "A new era\u2014the next evolution in Celtic-inspired rock",
       "url": "https://tcan.org/events/haggis-x-1/",
       "start": "2026-07-18T00:00:00.000Z",
       "allDay": false,
@@ -8533,7 +8497,7 @@
     },
     {
       "title": "Art & the Family Archive | Collage as Protest and Portraiture with Ileana Doble Hernandez",
-      "description": "Framingham-based artist Ileana Doble Hernandez invites you to reflect on the use of collage as a way to resist and explore our current socio-political situation, as well as a form of personal portrayal. You&#8217;ll have time to create a small collage piece! We’ll provide blank paper, scissors, and magazines for clipping. You’re also welcome to bring your own magazines. Other materials like newspapers, discarded books, or copies of photographs also make great sources for collage.",
+      "description": "Framingham-based artist Ileana Doble Hernandez invites you to reflect on the use of collage as a way to resist and explore our current socio-political situation, as well as a form of personal portrayal. You&#8217;ll have time to create a small collage piece! We\u2019ll provide blank paper, scissors, and magazines for clipping. You\u2019re also welcome to bring your own magazines. Other materials like newspapers, discarded books, or copies of photographs also make great sources for collage.",
       "url": "https://framinghamhistory.org/events/framingham-based-artist-ileana-doble-hernandez-invites-you-to-reflect-on-the-use-of-collage-as-a-way-to-resist-and-explore-our-current-socio-political-situation-as-well-as-a-form-of-personal-portraya/",
       "start": "2026-07-26T19:30:00.000Z",
       "allDay": false,
@@ -8868,7 +8832,7 @@
     },
     {
       "title": "Spyro Gyra",
-      "description": "Jazz fusion—masterful musicality",
+      "description": "Jazz fusion\u2014masterful musicality",
       "url": "https://tcan.org/events/spyro-gyra/",
       "start": "2026-08-15T00:00:00.000Z",
       "allDay": false,
@@ -8952,7 +8916,7 @@
     },
     {
       "title": "The Infrastructure of Health in Framingham",
-      "description": "Join us to explore Framingham’s rich history of health infrastructure and celebrate the innovative work that continues to benefit the community today, from milestones like the Framingham Heart Study to present-day efforts in health equity. Through real-world examples, we will examine the power of local policies, programs, and people in building a more inclusive and resilient community.",
+      "description": "Join us to explore Framingham\u2019s rich history of health infrastructure and celebrate the innovative work that continues to benefit the community today, from milestones like the Framingham Heart Study to present-day efforts in health equity. Through real-world examples, we will examine the power of local policies, programs, and people in building a more inclusive and resilient community.",
       "url": "https://framinghamhistory.org/events/health-framingham/",
       "start": "2026-09-05T00:30:00.000Z",
       "allDay": false,
@@ -9035,7 +8999,7 @@
       "ingestedAt": "2026-05-25T16:22:14.435Z"
     },
     {
-      "title": "Volunteer Appreciation Night with a Special Presentation on Framingham’s Chautauqua Movement",
+      "title": "Volunteer Appreciation Night with a Special Presentation on Framingham\u2019s Chautauqua Movement",
       "description": "Whether you&#8217;re already part of our volunteer family or considering joining us, this is an opportunity to get to know one another and learn about the exciting initiatives that lie ahead! The evening will feature historian Anita Danker for a talk on the Chautauqua movement in Framingham and the significant mark it left on the region.",
       "url": "https://framinghamhistory.org/events/volunteer-appreciation/",
       "start": "2026-09-13T04:00:00.000Z",
@@ -9098,7 +9062,7 @@
       "ingestedAt": "2026-05-25T16:22:30.176Z"
     },
     {
-      "title": "♨️ Inner Peace: Low Hammock Restorative & Reiki Healing",
+      "title": "\u2668\ufe0f Inner Peace: Low Hammock Restorative & Reiki Healing",
       "description": "Immerse yourself in deep relaxation and holistic healing with our one-of-a-kind low hammock and floating Reiki workshop. Join...",
       "url": "https://patch.com/massachusetts/marlborough/calendar/event/20260919/e23c4e28-e949-42b1-9149-c1bc8737f94e/inner-peace-low-hammock-restorative-reiki-healing",
       "start": "2026-09-19T22:00:00.000Z",
@@ -9120,7 +9084,7 @@
     },
     {
       "title": "2025 Big Band Music Social Dance",
-      "description": "Big Band Music Returns to Framingham! Our Big Band Music Weekend kicks off with a lively community dance at Framingham’s historic Village Hall. Step onto the beautifully restored wood floors and experience the joy of live music from Dan Gabel and his Orchestra, an 18-piece swing orchestra known for their vibrant, authentic renditions of hits from the &#8220;Great American Songbook.&#8221;",
+      "description": "Big Band Music Returns to Framingham! Our Big Band Music Weekend kicks off with a lively community dance at Framingham\u2019s historic Village Hall. Step onto the beautifully restored wood floors and experience the joy of live music from Dan Gabel and his Orchestra, an 18-piece swing orchestra known for their vibrant, authentic renditions of hits from the &#8220;Great American Songbook.&#8221;",
       "url": "https://framinghamhistory.org/events/2025-big-band-music-social-dance/",
       "start": "2026-09-20T02:00:00.000Z",
       "allDay": false,
@@ -9141,7 +9105,7 @@
     },
     {
       "title": "SOLD OUT &#8211; 2024 FHC Swing Dance",
-      "description": "SOLD OUT! Friday, Sept. 20, 7:00 pm 1940s-style Swing Dance Imagine it’s a Friday night in 1949 in Framingham, MA&#8230; Workers are streaming home from the General Motors&hellip;",
+      "description": "SOLD OUT! Friday, Sept. 20, 7:00 pm 1940s-style Swing Dance Imagine it\u2019s a Friday night in 1949 in Framingham, MA&#8230; Workers are streaming home from the General Motors&hellip;",
       "url": "https://framinghamhistory.org/events/2024-swing-dance/",
       "start": "2026-09-20T23:00:00.000Z",
       "allDay": false,
@@ -9247,7 +9211,7 @@
     },
     {
       "title": "Five for Fighting with String Quartet",
-      "description": "The voice behind 2000s&#8217; hit &#8216;Superman (It’s Not Easy)&#8217;",
+      "description": "The voice behind 2000s&#8217; hit &#8216;Superman (It\u2019s Not Easy)&#8217;",
       "url": "https://tcan.org/events/five-for-fighting-with-string-quartet/",
       "start": "2026-09-27T23:30:00.000Z",
       "allDay": false,
@@ -9268,7 +9232,7 @@
     },
     {
       "title": "Hikes through History Series: Coburnville/Tripoli &#8211; SOLD OUT",
-      "description": "SOLD OUT! Walk through time with the Framingham History Center’s Hikes through History Series. Explore Framingham’s past and present as local historians take you on an hour-long guided&hellip;",
+      "description": "SOLD OUT! Walk through time with the Framingham History Center\u2019s Hikes through History Series. Explore Framingham\u2019s past and present as local historians take you on an hour-long guided&hellip;",
       "url": "https://framinghamhistory.org/events/hikes-through-history-series-coburnville-tripoli/",
       "start": "2026-10-01T18:00:00.000Z",
       "allDay": false,
@@ -9310,7 +9274,7 @@
     },
     {
       "title": "Call for Walkers: Register for the 38th Annual Jimmy Fund Walk for Dana-Farber presented by Hyundai",
-      "description": "Registration is open for the 2026 Jimmy Fund Walk for Dana-Farber presented by Hyundai. Scheduled for Sunday, Oct. 4, funds raised from the Walk support all forms of adult and pediatric care and cancer research at Dana-Farber Cancer Institute. The 2026 event will aim to raise $10 million in support of Dana-Farber’s mission to defy cancer by leading the way in groundbreaking research and lifesaving patient care. The Details: The Jimmy Fund Walk is the only organized walk permitted to use the famed Boston Marathon® course, and participants have the flexibility to choose from four distance options: 5K walk: Starting at Dana-Farber’s Longwood Medical Campus 10K walk: Starting in Newton Half Marathon walk: Starting in Wellesley Marathon walk: Starting in Hopkinton Along the route, participants will be motivated by Hero posters, photos and quotes from Dana-Farber patients, who are considered the heart and inspiration for the event. Walkers will also enjoy refreshments and cheer squads throughout the course. The event will conclude at the Boston Common Finish Line, by the corner of Charles and Beacon Streets. Finish line activities will include a celebration with food, entertainment, and more. Walkers who prefer to participate virtually can complete their chosen distance from any location. To register for the Jimmy Fund Walk for Dana-Farber or to support a walker, visit JimmyFund.org/Walk or call (866) 531-9255. Registrants can enter the promo code NEWS for $5 off the registration fee. You can also sign up to volunteer on Walk Day. &nbsp;",
+      "description": "Registration is open for the 2026 Jimmy Fund Walk for Dana-Farber presented by Hyundai. Scheduled for Sunday, Oct. 4, funds raised from the Walk support all forms of adult and pediatric care and cancer research at Dana-Farber Cancer Institute. The 2026 event will aim to raise $10 million in support of Dana-Farber\u2019s mission to defy cancer by leading the way in groundbreaking research and lifesaving patient care. The Details: The Jimmy Fund Walk is the only organized walk permitted to use the famed Boston Marathon\u00ae course, and participants have the flexibility to choose from four distance options: 5K walk: Starting at Dana-Farber\u2019s Longwood Medical Campus 10K walk: Starting in Newton Half Marathon walk: Starting in Wellesley Marathon walk: Starting in Hopkinton Along the route, participants will be motivated by Hero posters, photos and quotes from Dana-Farber patients, who are considered the heart and inspiration for the event. Walkers will also enjoy refreshments and cheer squads throughout the course. The event will conclude at the Boston Common Finish Line, by the corner of Charles and Beacon Streets. Finish line activities will include a celebration with food, entertainment, and more. Walkers who prefer to participate virtually can complete their chosen distance from any location. To register for the Jimmy Fund Walk for Dana-Farber or to support a walker, visit JimmyFund.org/Walk or call (866) 531-9255. Registrants can enter the promo code NEWS for $5 off the registration fee. You can also sign up to volunteer on Walk Day. &nbsp;",
       "url": "https://needhamlocal.org/event/call-for-walkers-register-for-the-38th-annual-jimmy-fund-walk-for-dana-farber-presented-by-hyundai/",
       "start": "2026-10-04T04:00:00.000Z",
       "end": "2026-10-05T03:59:59.000Z",
@@ -9434,7 +9398,7 @@
       "ingestedAt": "2026-05-25T16:22:14.237Z"
     },
     {
-      "title": "♨️ The Healing Hammock: Restorative Aerial Yoga & Sacred Sound",
+      "title": "\u2668\ufe0f The Healing Hammock: Restorative Aerial Yoga & Sacred Sound",
       "description": "Embark on a transformative evening of rest, renewal, and heart-centered healing in our popular restorative aerial yoga and...",
       "url": "https://patch.com/massachusetts/marlborough/calendar/event/20261010/3575335c-c054-40d3-bc99-5ac801c5cf09/the-healing-hammock-restorative-aerial-yoga-sacred-sound",
       "start": "2026-10-10T22:00:00.000Z",
@@ -9583,7 +9547,7 @@
     },
     {
       "title": "2024 Tag Sale",
-      "description": "Saturday, November 2nd 9:00 am to 3:00 pm Find your next treasures at the Framingham History Center Tag Sale! Items for sale will include: antiques, curiosities, holiday décor,&hellip;",
+      "description": "Saturday, November 2nd 9:00 am to 3:00 pm Find your next treasures at the Framingham History Center Tag Sale! Items for sale will include: antiques, curiosities, holiday d\u00e9cor,&hellip;",
       "url": "https://framinghamhistory.org/events/2024-tag-sale/",
       "start": "2026-11-02T14:00:00.000Z",
       "allDay": false,
@@ -9603,7 +9567,7 @@
       "ingestedAt": "2026-05-25T16:22:30.165Z"
     },
     {
-      "title": "♨️ Inner Peace: Low Hammock Restorative & Reiki Healing",
+      "title": "\u2668\ufe0f Inner Peace: Low Hammock Restorative & Reiki Healing",
       "description": "Immerse yourself in deep relaxation and holistic healing with our one-of-a-kind low hammock and floating Reiki workshop. Join...",
       "url": "https://patch.com/massachusetts/marlborough/calendar/event/20261107/5165f9af-d8aa-4c9b-8b01-d4ed80fe3f87/inner-peace-low-hammock-restorative-reiki-healing",
       "start": "2026-11-07T23:00:00.000Z",
@@ -9624,7 +9588,7 @@
       "ingestedAt": "2026-05-25T16:22:52.650Z"
     },
     {
-      "title": "“Views of Framingham” &#8211; Howard Street Studios Artist Reception &#038; Community Drawing Event",
+      "title": "\u201cViews of Framingham\u201d &#8211; Howard Street Studios Artist Reception &#038; Community Drawing Event",
       "description": "Join us at Edgell Memorial Library for a special artist reception, workshop, and pop-up exhibition in partnership with Howard Street Studios! Experience the vibrant artistry of Framingham through&hellip;",
       "url": "https://framinghamhistory.org/events/2024-views-of-framingham/",
       "start": "2026-11-09T15:00:00.000Z",
@@ -9646,7 +9610,7 @@
     },
     {
       "title": "2025 Hike Through History &#8211; Coburnville-Tripoli",
-      "description": "Sunday, November 9th 2:00-3:30 p.m. | FREE; Registration required! &nbsp; &nbsp; Step into Framingham’s vibrant past with longtime resident and community activist, Judith Grove, as your guide. Explore&hellip;",
+      "description": "Sunday, November 9th 2:00-3:30 p.m. | FREE; Registration required! &nbsp; &nbsp; Step into Framingham\u2019s vibrant past with longtime resident and community activist, Judith Grove, as your guide. Explore&hellip;",
       "url": "https://framinghamhistory.org/events/2025-hike-coburnville/",
       "start": "2026-11-09T20:30:00.000Z",
       "allDay": false,
@@ -9667,7 +9631,7 @@
     },
     {
       "title": "The Framingham History Center Virtual House Tour",
-      "description": "HGTV meets the FHC! The Framingham History Center is bringing you our beloved House Tour featuring four Framingham properties – inside and out – in stunning HD video.&hellip;",
+      "description": "HGTV meets the FHC! The Framingham History Center is bringing you our beloved House Tour featuring four Framingham properties \u2013 inside and out \u2013 in stunning HD video.&hellip;",
       "url": "https://framinghamhistory.org/events/the-framingham-history-center-virtual-house-tour/",
       "start": "2026-11-14T05:00:00.000Z",
       "allDay": true,
@@ -9709,7 +9673,7 @@
     },
     {
       "title": "Art & the Family Archive | Family Fictions with artist Liz Albert",
-      "description": "Join lens-based artist and educator Liz Albert for a creative and interactive session exploring how found images can be transformed into stories. Using old Polaroids from Liz’s collection, she will guide you through her recent projects Family Fictions and Instant Classic, in which she reimagines found family photos with juxtaposed imagery and text to uncover hidden narratives.",
+      "description": "Join lens-based artist and educator Liz Albert for a creative and interactive session exploring how found images can be transformed into stories. Using old Polaroids from Liz\u2019s collection, she will guide you through her recent projects Family Fictions and Instant Classic, in which she reimagines found family photos with juxtaposed imagery and text to uncover hidden narratives.",
       "url": "https://framinghamhistory.org/events/diana-446-371/",
       "start": "2026-11-15T20:30:00.000Z",
       "allDay": false,
@@ -9793,7 +9757,7 @@
     },
     {
       "title": "Caroling on the Common",
-      "description": "Sunday, December 7th 4:00-6:00 p.m. | FREE; Registration NOT required! Join us at the historic Village Hall on the Common for a beloved holiday tradition! Framingham History Center’s&hellip;",
+      "description": "Sunday, December 7th 4:00-6:00 p.m. | FREE; Registration NOT required! Join us at the historic Village Hall on the Common for a beloved holiday tradition! Framingham History Center\u2019s&hellip;",
       "url": "https://framinghamhistory.org/events/2025-caroling/",
       "start": "2026-12-07T23:00:00.000Z",
       "allDay": false,
@@ -9834,7 +9798,7 @@
       "ingestedAt": "2026-05-25T16:22:14.238Z"
     },
     {
-      "title": "♨️ The Healing Hammock: Restorative Aerial Yoga & Sacred Sound",
+      "title": "\u2668\ufe0f The Healing Hammock: Restorative Aerial Yoga & Sacred Sound",
       "description": "Embark on a transformative evening of rest, renewal, and heart-centered healing in our popular restorative aerial yoga and...",
       "url": "https://patch.com/massachusetts/marlborough/calendar/event/20261212/070ded91-b4f9-447d-a587-9ae071d1f089/the-healing-hammock-restorative-aerial-yoga-sacred-sound",
       "start": "2026-12-12T23:00:00.000Z",
@@ -9877,7 +9841,7 @@
     },
     {
       "title": "Craft with History Series",
-      "description": "Let’s get crafty! Join the Framingham History Center (FHC) for a program series titled “Craft with History.” Throughout the year, an object or topic with craft-related history will&hellip;",
+      "description": "Let\u2019s get crafty! Join the Framingham History Center (FHC) for a program series titled \u201cCraft with History.\u201d Throughout the year, an object or topic with craft-related history will&hellip;",
       "url": "https://framinghamhistory.org/events/craft-with-history-series/",
       "start": "2026-12-15T00:00:00.000Z",
       "allDay": false,
@@ -9918,7 +9882,7 @@
       "ingestedAt": "2026-05-25T16:22:30.164Z"
     },
     {
-      "title": "50th Anniversary Event: FHC’s Third Grade Program",
+      "title": "50th Anniversary Event: FHC\u2019s Third Grade Program",
       "description": "Saturday, January 31st | 2:00-4:00 p.m. FREE; Registration NOT required! FHC Village Hall on the Common 2 Oak Street, Framingham, MA 01701 Join us as we celebrate the&hellip;",
       "url": "https://framinghamhistory.org/events/50th-third-grade/",
       "start": "2027-01-31T21:00:00.000Z",
@@ -9960,7 +9924,7 @@
       "ingestedAt": "2026-05-25T16:22:30.158Z"
     },
     {
-      "title": "1780 &#8211; 2025 Reclaimed: “A Child of that Next Day”",
+      "title": "1780 &#8211; 2025 Reclaimed: \u201cA Child of that Next Day\u201d",
       "description": "Thursday, February 20th | 7 p.m. Zoom Lecture &amp; Discussion What does it mean to be born African American? For Eric Reynolds, no stranger to Framingham, Massachusetts, it means&hellip;",
       "url": "https://framinghamhistory.org/events/2025-eric-reynolds/",
       "start": "2027-02-21T00:00:00.000Z",
@@ -10002,7 +9966,7 @@
       "ingestedAt": "2026-05-25T16:22:30.163Z"
     },
     {
-      "title": "Why Isn’t He Famous? Dr. Solomon Carter Fuller &#038; Friends",
+      "title": "Why Isn\u2019t He Famous? Dr. Solomon Carter Fuller &#038; Friends",
       "description": "Thursday, February 24 @ 7PM Zoom Program Tickets: $5/FHC Member, $10/not-yet-a-member (purchase below) Presenters: Ruthann Tomassini, FHC Researcher &amp; Genealogist; Dr. Alfred DeMaria, Jr., Medical and Laboratory Consultant,&hellip;",
       "url": "https://framinghamhistory.org/events/why-isnt-he-famous-dr-solomon-carter-fuller/",
       "start": "2027-02-25T00:00:00.000Z",
@@ -10023,7 +9987,7 @@
       "ingestedAt": "2026-05-25T16:22:30.177Z"
     },
     {
-      "title": "“You Don’t Know Jack’s” Framingham Trivia Championship Night!",
+      "title": "\u201cYou Don\u2019t Know Jack\u2019s\u201d Framingham Trivia Championship Night!",
       "description": "&#8220;You Don&#8217;t Know Jack&#8217;s&#8221; First Annual Framingham Trivia Championship Thursday, February 29 6:00-10:00 PM FHC Village Hall on the Common $100 per team (six people max) Join us&hellip;",
       "url": "https://framinghamhistory.org/events/you-dont-know-jacks-framingham-trivia-championship-night/",
       "start": "2027-03-02T03:00:00.000Z",
@@ -10045,7 +10009,7 @@
     },
     {
       "title": "2025 Annual Meeting &#038; Special Lecture",
-      "description": "Date: Thursday, March 6th, 7:00 &#8211; 8:15 PM EventFHC Annual Meeting FREE; Registration Requested For nearly two centuries, Framingham’s Village Hall on the Common has been a stage&hellip;",
+      "description": "Date: Thursday, March 6th, 7:00 &#8211; 8:15 PM EventFHC Annual Meeting FREE; Registration Requested For nearly two centuries, Framingham\u2019s Village Hall on the Common has been a stage&hellip;",
       "url": "https://framinghamhistory.org/events/annual-meeting/",
       "start": "2027-03-07T01:15:00.000Z",
       "allDay": false,
@@ -10066,7 +10030,7 @@
     },
     {
       "title": "FHC 2026 Annual Meeting & Special Lecture",
-      "description": "Date: Thursday, March 19th, 7:00 &#8211; 8:15 PM Event: FHC Annual Meeting FREE; Registration Requested For nearly two centuries, Framingham’s Village Hall on the Common has served as&hellip;",
+      "description": "Date: Thursday, March 19th, 7:00 &#8211; 8:15 PM Event: FHC Annual Meeting FREE; Registration Requested For nearly two centuries, Framingham\u2019s Village Hall on the Common has served as&hellip;",
       "url": "https://framinghamhistory.org/events/2026-annual-meeting-special-lecture/",
       "start": "2027-03-20T00:15:00.000Z",
       "allDay": false,
@@ -10128,7 +10092,7 @@
       "ingestedAt": "2026-05-25T16:22:30.175Z"
     },
     {
-      "title": "Book Talk &#038; Signing: “World War II Massachusetts” with Author James L. Parr",
+      "title": "Book Talk &#038; Signing: \u201cWorld War II Massachusetts\u201d with Author James L. Parr",
       "description": "Sunday, March 24, 2:00 pm FHC Village Hall on the Common &nbsp; Over 500,000 Massachusetts residents answered the call to military duty in the Second World War, while&hellip;",
       "url": "https://framinghamhistory.org/events/book-talk-signing-world-war-ii-massachusetts-with-author-james-l-parr/",
       "start": "2027-03-24T18:00:00.000Z",
@@ -10212,8 +10176,8 @@
       "ingestedAt": "2026-05-25T16:22:30.162Z"
     },
     {
-      "title": "Celebrate Framingham’s Firefighter History",
-      "description": "Date: Friday, April 4th, 12:00 &#8211; 2:00 PM Free &amp; Open to the Public “It is more than a profession – it is an unconditional commitment to serve&hellip;",
+      "title": "Celebrate Framingham\u2019s Firefighter History",
+      "description": "Date: Friday, April 4th, 12:00 &#8211; 2:00 PM Free &amp; Open to the Public \u201cIt is more than a profession \u2013 it is an unconditional commitment to serve&hellip;",
       "url": "https://framinghamhistory.org/events/celebrate-framinghams-firefighter-history/",
       "start": "2027-04-04T18:00:00.000Z",
       "allDay": false,
@@ -10234,7 +10198,7 @@
     },
     {
       "title": "2024 FHC Annual Meeting",
-      "description": "Tuesday, April 9, 7:00 pm FHC Edgell Memorial Library Join us for the 2024 Framingham History Center’s Annual Meeting this upcoming April 9th! The evening includes a year-in-review,&hellip;",
+      "description": "Tuesday, April 9, 7:00 pm FHC Edgell Memorial Library Join us for the 2024 Framingham History Center\u2019s Annual Meeting this upcoming April 9th! The evening includes a year-in-review,&hellip;",
       "url": "https://framinghamhistory.org/events/2024-annual-meeting/",
       "start": "2027-04-09T23:00:00.000Z",
       "allDay": false,
@@ -10255,7 +10219,7 @@
     },
     {
       "title": "Hikes through History Series",
-      "description": "Walk through time with the Framingham History Center’s Hikes through History Series. Explore Framingham’s past and present as local historians take you on an hour-long guided walking tour&hellip;",
+      "description": "Walk through time with the Framingham History Center\u2019s Hikes through History Series. Explore Framingham\u2019s past and present as local historians take you on an hour-long guided walking tour&hellip;",
       "url": "https://framinghamhistory.org/events/hikes-through-history-series/",
       "start": "2027-04-15T18:00:00.000Z",
       "allDay": false,
@@ -10275,7 +10239,7 @@
       "ingestedAt": "2026-05-25T16:22:30.175Z"
     },
     {
-      "title": "Through Their Eyes: Artifacts &#038; Stories of Framingham’s Role in WWII",
+      "title": "Through Their Eyes: Artifacts &#038; Stories of Framingham\u2019s Role in WWII",
       "description": "Tuesday, April 16, 7:00 pm FHC Village Hall on the Common Explore all of the Framingham Reads Together programs here! Join us for a captivating journey back in&hellip;",
       "url": "https://framinghamhistory.org/events/frt-through-their-eyes/",
       "start": "2027-04-16T23:00:00.000Z",
@@ -10360,7 +10324,7 @@
     },
     {
       "title": "Hikes through History Series: Downtown",
-      "description": "Walk through time with the Framingham History Center’s Hikes through History Series. Explore Framingham’s past and present as local historians take you on an hour-long guided walking tour&hellip;",
+      "description": "Walk through time with the Framingham History Center\u2019s Hikes through History Series. Explore Framingham\u2019s past and present as local historians take you on an hour-long guided walking tour&hellip;",
       "url": "https://framinghamhistory.org/events/hikes-through-history-series-downtown/",
       "start": "2027-05-07T18:00:00.000Z",
       "allDay": false,
@@ -10401,7 +10365,7 @@
       "ingestedAt": "2026-05-25T16:22:30.162Z"
     },
     {
-      "title": "Art & the Family Archive: “Photography and Words – An Ekphrastic Poetry Experience”",
+      "title": "Art & the Family Archive: \u201cPhotography and Words \u2013 An Ekphrastic Poetry Experience\u201d",
       "description": "Join artist and writer Julie Williams-Krishnan for an engaging and immersive workshop exploring the connection between photography and words through the art of ekphrastic poetry. Hosted at the Framingham History Center, this interactive session invites participants to reflect on historical and contemporary photographs as inspiration for creative writing.",
       "url": "https://framinghamhistory.org/events/photographyandwords-julie/",
       "start": "2027-05-10T19:30:00.000Z",
@@ -10422,8 +10386,8 @@
       "ingestedAt": "2026-05-25T16:22:30.162Z"
     },
     {
-      "title": "Framingham’s Top 10",
-      "description": "Visit our Framingham&#8217;s Top 10 exhibition at Edgell Memorial Library before it closes in June 2023 for the installation of Collective Journeys: Framingham’s Global Migration Story, 1960-Present, opening&hellip;",
+      "title": "Framingham\u2019s Top 10",
+      "description": "Visit our Framingham&#8217;s Top 10 exhibition at Edgell Memorial Library before it closes in June 2023 for the installation of Collective Journeys: Framingham\u2019s Global Migration Story, 1960-Present, opening&hellip;",
       "url": "https://framinghamhistory.org/events/framinghams-top-10/",
       "start": "2027-05-13T20:00:00.000Z",
       "allDay": false,
@@ -10465,7 +10429,7 @@
     },
     {
       "title": "2025 FHC House Tour",
-      "description": "Sunday, May 18, 12:00 &#8211; 5:00 PM FHC Members, be sure to add your $5 discount promo code at checkout! Join us for the Framingham History Center’s 2025&hellip;",
+      "description": "Sunday, May 18, 12:00 &#8211; 5:00 PM FHC Members, be sure to add your $5 discount promo code at checkout! Join us for the Framingham History Center\u2019s 2025&hellip;",
       "url": "https://framinghamhistory.org/events/2025-house-tour/",
       "start": "2027-05-18T21:00:00.000Z",
       "allDay": false,

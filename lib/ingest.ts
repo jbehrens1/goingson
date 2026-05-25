@@ -83,6 +83,7 @@ export type IngestReport = {
   totalEvents: number;
   droppedOutsideRegion?: number;
   droppedClosure?: number;
+  droppedPast?: number;
   autoFixes?: number;
   perSource: SourceReport[];
   geocode?: { attempted: number; resolved: number; cacheHits: number; failed: number };
@@ -311,7 +312,27 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     );
   }
 
-  const deduped = dedupe(publicEvents);
+  // Drop past events (end-time more than 24h ago, or start-time if no end).
+  // Many sources return years of history via their public iCal/JSON feeds
+  // (Surf City Hotel's Google Calendar has ~1000 past shows), which bloats
+  // events.<region>.json without ever being shown — the home page, /sources
+  // counts, and newsletter selector all filter to "from today onward" anyway.
+  // 24h buffer keeps a show that ended at midnight visible for the next
+  // morning's traffic.
+  const pastCutoffMs = Date.now() - 24 * 3_600_000;
+  const beforePast = publicEvents.length;
+  const futureEvents = publicEvents.filter((ev) => {
+    const ref = new Date(ev.end ?? ev.start).getTime();
+    return Number.isFinite(ref) ? ref >= pastCutoffMs : true;
+  });
+  const droppedPast = beforePast - futureEvents.length;
+  if (droppedPast > 0) {
+    console.log(
+      `[ingest] ${region.config.id}: dropped ${droppedPast} past event(s) (ended > 24h ago)`,
+    );
+  }
+
+  const deduped = dedupe(futureEvents);
   deduped.sort((a, b) => a.start.localeCompare(b.start));
 
   // Geocode venue addresses so distance filtering works for any region.
@@ -403,6 +424,7 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     totalEvents: filteredEvents.length,
     droppedOutsideRegion,
     droppedClosure,
+    droppedPast,
     autoFixes: fixedSources.size,
     perSource,
     geocode: geocodeReport,
@@ -498,6 +520,7 @@ export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsRepo
       dropped: {
         ...(r.droppedClosure ? { closure: r.droppedClosure } : {}),
         ...(r.droppedOutsideRegion ? { outOfRegion: r.droppedOutsideRegion } : {}),
+        ...(r.droppedPast ? { past: r.droppedPast } : {}),
       },
       ...(r.autoFixes ? { autoFixes: r.autoFixes } : {}),
     }));
@@ -510,6 +533,7 @@ export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsRepo
       dropped: {
         closure: perRegion.reduce((s, r) => s + (r.droppedClosure ?? 0), 0),
         outOfRegion: perRegion.reduce((s, r) => s + (r.droppedOutsideRegion ?? 0), 0),
+        past: perRegion.reduce((s, r) => s + (r.droppedPast ?? 0), 0),
       },
       autoFixes: perRegion.reduce((s, r) => s + (r.autoFixes ?? 0), 0),
     });

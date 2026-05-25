@@ -27,6 +27,7 @@ export type IngestHistoryRow = {
   dropped?: {
     closure?: number;
     outOfRegion?: number;
+    past?: number;
   };
   /** Probe auto-fix count (sources whose adapter+url got rewritten this run). */
   autoFixes?: number;
