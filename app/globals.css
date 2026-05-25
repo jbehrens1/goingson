@@ -911,6 +911,32 @@ footer {
   white-space: nowrap;
 }
 
+/* Region picker lives inline in the expanded-card header (next to the name). */
+.sub-region-inline {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  flex: 0 0 auto !important;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.sub-region-inline > span {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.sub-region-inline > select {
+  padding: 0.35rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+  font-size: 0.9rem;
+}
+
 /* Expanded-card chevron button (closes the card). */
 .sub-summary-chevron-btn {
   background: none;

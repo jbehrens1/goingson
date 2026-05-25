@@ -203,6 +203,38 @@ function SubscriptionCard({
     setOkMsg(null);
   }
 
+  /** Names that match the auto-generated pattern get refreshed when the user
+   *  changes region or schedule. Custom names (anything not matching) are
+   *  left alone — we shouldn't clobber what the user typed.
+   */
+  function isAutoName(name: string): boolean {
+    const n = name.trim().toLowerCase();
+    for (const r of regions) {
+      if (n === `${r.toLowerCase()} weekly digest`) return true;
+      if (n === `${r.toLowerCase()} daily digest`) return true;
+    }
+    return false;
+  }
+  function autoName(region: string, schedule: Schedule): string {
+    return `${region} ${schedule} digest`;
+  }
+
+  function changeRegion(nextRegion: string) {
+    const followName = isAutoName(draft.name);
+    patch({
+      region: nextRegion,
+      venues: [], // venue list is region-specific; reset on change
+      ...(followName ? { name: autoName(nextRegion, draft.schedule) } : {}),
+    });
+  }
+  function changeSchedule(nextSchedule: Schedule) {
+    const followName = isAutoName(draft.name);
+    patch({
+      schedule: nextSchedule,
+      ...(followName ? { name: autoName(draft.region, nextSchedule) } : {}),
+    });
+  }
+
   async function lookupCenter() {
     setCenterErr(null);
     const q = centerQuery.trim();
@@ -373,11 +405,25 @@ function SubscriptionCard({
         >
           ▾
         </button>
+        <label className="sub-region-inline" title="Pick the region this digest pulls from">
+          <span>Region</span>
+          <select
+            value={draft.region}
+            onChange={(e) => changeRegion(e.target.value)}
+          >
+            {regions.map((r) => (
+              <option key={r} value={r}>
+                {r}
+              </option>
+            ))}
+          </select>
+        </label>
         <input
           className="sub-name-input"
           value={draft.name}
           onChange={(e) => patch({ name: e.target.value })}
           placeholder="Subscription name"
+          title="Auto-named from region/frequency unless you customize it"
         />
         <div className="sub-card-actions">
           <button
@@ -412,24 +458,10 @@ function SubscriptionCard({
 
       <div className="account-row">
         <label>
-          <span>Region</span>
-          <select
-            value={draft.region}
-            onChange={(e) => patch({ region: e.target.value, venues: [] })}
-          >
-            {regions.map((r) => (
-              <option key={r} value={r}>
-                {r}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label>
           <span>Frequency</span>
           <select
             value={draft.schedule}
-            onChange={(e) => patch({ schedule: e.target.value as Schedule })}
+            onChange={(e) => changeSchedule(e.target.value as Schedule)}
           >
             <option value="daily">Daily (each morning)</option>
             <option value="weekly">Weekly (Fri morning)</option>
