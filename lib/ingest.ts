@@ -298,19 +298,20 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
     );
   }
 
-  // Drop venue-closure announcements from all sources before anything else
-  // sees them. These aren't events — they're "we're closed today" entries
-  // venues drop into their public calendars (Joe Pop's, town halls, etc.).
-  const beforeClosure = allEvents.length;
-  const nonClosure = allEvents.filter((ev) => !isClosureAnnouncement(ev.title));
-  const droppedClosure = beforeClosure - nonClosure.length;
+  // Drop non-public entries (venue closures + private bookings) before
+  // anything else sees them. These aren't events — they're status markers
+  // venues drop into their public calendars (Joe Pop's, town halls,
+  // Wellfleet Preservation Hall, etc.).
+  const beforeFilter = allEvents.length;
+  const publicEvents = allEvents.filter((ev) => !isNonPublicEntry(ev.title));
+  const droppedClosure = beforeFilter - publicEvents.length;
   if (droppedClosure > 0) {
     console.log(
-      `[ingest] ${region.config.id}: dropped ${droppedClosure} venue-closure announcement(s)`,
+      `[ingest] ${region.config.id}: dropped ${droppedClosure} non-public entry/entries (closures + private bookings)`,
     );
   }
 
-  const deduped = dedupe(nonClosure);
+  const deduped = dedupe(publicEvents);
   deduped.sort((a, b) => a.start.localeCompare(b.start));
 
   // Geocode venue addresses so distance filtering works for any region.
@@ -529,19 +530,26 @@ export async function runAllRegions(opts: IngestOptions): Promise<AllRegionsRepo
 }
 
 /**
- * Recognize venue-closure announcements that shouldn't appear in the events
- * feed. Match patterns observed across sources:
- *   "Closed" / "CLOSED"
- *   "Closed Today" / "Closed for Thanksgiving" / "Closed for the Season"
- *   "Closed for a Private Event" / "CLOSED for Memorial Day"
- *   "Bistro Closed?"
- *   "Town Hall Closed - Memorial Day 2026" / "Memorial Day - Town Hall Closed"
- * Errs on the side of NOT dropping unless the title is clearly a closure;
- * a legitimate event whose title coincidentally starts with "Closed" (e.g.
- * "Closed Captioning Movie Night") would be wrongly dropped, but the corpus
- * doesn't currently contain any such cases.
+ * Recognize non-public entries that shouldn't appear in the events feed:
+ * venue-closure announcements ("Closed Today", "Town Hall Closed") and
+ * private-booking entries ("Private Event", "Private Party"). Match
+ * patterns observed across sources:
+ *
+ *   Closures:
+ *     "Closed" / "CLOSED"
+ *     "Closed Today" / "Closed for Thanksgiving" / "Closed for the Season"
+ *     "Closed for a Private Event" / "CLOSED for Memorial Day"
+ *     "Bistro Closed?"
+ *     "Town Hall Closed - Memorial Day 2026"
+ *   Private bookings:
+ *     "Private Event" / "Private Party" / "Private booking"
+ *
+ * Errs on the side of NOT dropping unless the title is clearly non-public.
+ * A legitimate event with a coincidental match (e.g. "Private Lives of
+ * Saints") would be wrongly dropped, but the corpus doesn't currently
+ * contain any such cases.
  */
-function isClosureAnnouncement(title: string): boolean {
+function isNonPublicEntry(title: string): boolean {
   const t = title.trim().toLowerCase();
   if (!t) return false;
   // 1. Title begins with "closed" as a whole word — catches most cases:
@@ -555,9 +563,10 @@ function isClosureAnnouncement(title: string): boolean {
     )
   )
     return true;
-  // 3. Title ends with "closed" (with optional punctuation) — catches
-  //    "Memorial Day - Town Hall Closed", "Bistro Closed?", etc.
+  // 3. Title ends with "closed" (with optional punctuation).
   if (/\bclosed\s*[?!.]?\s*$/.test(t)) return true;
+  // 4. Private bookings — "Private Event", "Private Party", etc.
+  if (/^private\s+(event|party|booking|function|rental)\b/.test(t)) return true;
   return false;
 }
 
