@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T13:13:25.158Z",
+  "generatedAt": "2026-05-25T13:33:38.743Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -76,7 +76,7 @@
     "metrowest:boston-calendar": {
       "count": 0,
       "warnings": [
-        "boston-calendar: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+        "HTTP 403 fetching https://www.thebostoncalendar.com/"
       ],
       "probe": {
         "candidates": []
@@ -146,7 +146,7 @@
     "metrowest:framingham-cultural-council": {
       "count": 0,
       "warnings": [
-        "framingham-cultural-council: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+        "HTTP 403 fetching https://massculturalcouncil.org/local-council/framingham/"
       ],
       "probe": {
         "candidates": []
@@ -303,6 +303,15 @@
         "candidates": []
       }
     },
+    "metrowest:tbe-wellesley": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://tbewellesley.org/events/?ical=1"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
     "lbi:old-causeway": {
       "count": 0,
       "warnings": [
@@ -360,6 +369,13 @@
       "warnings": [
         "HTTP 404 fetching https://www.snowlibrary.org/events/?format=json-pretty"
       ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "outercape:truro-vineyards-2": {
+      "count": 0,
+      "warnings": [],
       "probe": {
         "candidates": []
       }

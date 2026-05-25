@@ -23,8 +23,8 @@
       "Concord, MA"
     ]
   },
-  "generatedAt": "2026-05-25T13:12:50.412Z",
-  "count": 533,
+  "generatedAt": "2026-05-25T13:33:03.691Z",
+  "count": 503,
   "events": [
     {
       "title": "Jewish Story Lab",
@@ -45,49 +45,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
-    },
-    {
-      "title": "Restoring Dignity: An Adult B'Mitzvah Service Project",
-      "description": "Did you know that for many women and girls in our community, basic necessities like bras, underwear, and menstrual products are often out of reach? “Period poverty” is a hidden crisis—these essential items are not covered by SNAP benefits and are rarely donated to local food pantries. Without them, women and girls are often forced to miss work or school, compromising their health and their dignity. \nAs our Adult B’Mitzvah class prepares for this meaningful milestone, we are honored to partner with Dignity Matters, a local non-profit dedicated to providing these essential items to women and girls experiencing homelessness or extreme poverty. This drive is a beautiful expression of the values at the heart of our Jewish journey—tzedakah, kavod habriot (honoring the dignity of every person), and tikkun olam. \nHow You Can Help: Throughout the month of May, please consider donating new, unopened items to support our neighbors in need. There are three easy ways to participate: \n1. Drop Off at TBE—Bring donations to the Dignity Matters bin in the TBE Atrium anytime during the month of May. \n2. Shop the Amazon Wish List—Order items directly and have them shipped to the Dignity Matters warehouse. \n3. Spread the Word—Tell your friends and family about the drive—every donation makes a difference! \nMost Needed Items: \n\nMenstrual Products: Pads (all sizes/absorbency), tampons, and liners. Open packages are acceptable if items are individually wrapped. Most needed.\nUnderwear: Must be new and in original packaging. All sizes welcome—adult S, M, and L are most needed.\nBras: New or gently used (laundered and in excellent condition). Any style welcome—bralettes, sports bras, and regular bras.\n\nThank you for supporting our class project and helping us ensure that every woman and girl in our community can live with the dignity she deserves. \nSponsored by TBE’s Adult B’Mitzvah Program",
-      "url": "https://tbewellesley.org/event/restoring-dignity-an-adult-bmitzvah-service-project/",
-      "start": "2026-05-01T04:00:00.000Z",
-      "end": "2026-06-01T04:00:00.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "workshop",
-      "id": "15cbfcdb66d7e392",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
-    },
-    {
-      "title": "Collection |  Hunger Doesn't Take a Summer Vacation",
-      "description": "Did you know that the Racial Justice Initiative at TBE provides 80 TBE Table-prepared meals to students at the William Monroe Trotter School every month during the school year? These nutritious meals, alongside the school’s free breakfast and lunch program, make up a significant portion of many children’s daily diet. \nBut as summer approaches and school year programs pause, that safety net disappears. No child should go hungry—and with your help, we can bridge the gap. \nHere are three ways you can contribute: \n1. Shop the Amazon Wish List Order items directly from our Amazon Wish List and have them delivered straight to TBE. Easy, convenient, and impactful! \n2. Contribute to the RJI Fund Make a financial contribution to the Racial Justice Initiative Fund to support this and other ongoing efforts. \n3. Purchase and Drop Off Items at the TBE Atrium Pick up any of the following preferred items and bring them to the TBE Atrium: \n\nChef Boyardee Spaghetti & Meatballs Microwaveable Bowls\nGeneral Mills/Kellogg Cereal Single Serve Pouches\nNature Valley Granola Bars\nNutri-Grain Breakfast Bars\nQuaker Instant Oatmeal Express Cups\nVelveeta Shells & Cheese Microwaveable Cups\nWelch’s Fruit Snacks\n\nThis event is sponsored by the Racial Justice Initiative at TBE, which works to increase our understanding and activism to address ongoing discrimination and inequality.",
-      "url": "https://tbewellesley.org/event/collection-hunger-doesnt-take-a-summer-vacation/",
-      "start": "2026-05-15T04:00:00.000Z",
-      "end": "2026-06-19T04:00:00.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "family",
-      "id": "4d03e449a0ac8b22",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Boston Scottish Fiddle Club Gala",
@@ -105,7 +63,7 @@
         "id": "needham-gov",
         "name": "Town of Needham - Community Events"
       },
-      "ingestedAt": "2026-05-25T13:12:37.482Z"
+      "ingestedAt": "2026-05-25T13:33:00.936Z"
     },
     {
       "title": "2026 Needham High School Civics Showcase",
@@ -123,7 +81,7 @@
         "id": "needham-gov",
         "name": "Town of Needham - Community Events"
       },
-      "ingestedAt": "2026-05-25T13:12:37.482Z"
+      "ingestedAt": "2026-05-25T13:33:00.936Z"
     },
     {
       "title": "Karishim - Spring -     Junior",
@@ -144,7 +102,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Karishim - Spring -    Age Group Prep",
@@ -165,7 +123,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Karishim - Spring -   Age Group",
@@ -186,7 +144,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Karishim - Spring -   Senior Prep",
@@ -207,7 +165,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Karishim - Spring -  Senior",
@@ -228,7 +186,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Karishim - Spring - High School",
@@ -249,7 +207,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Karishim - Spring -      Junior Prep",
@@ -270,29 +228,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
-    },
-    {
-      "title": "Memorial Day | Temple Offices & Gan Elohim Closed",
-      "description": "In observance of the holiday, temple offices and Gan Elohim Early Learning Center will be closed. \nIf you have a pastoral emergency during this time, please call the temple at 781.235.8419 and follow the prompts.",
-      "url": "https://tbewellesley.org/event/memorial-day/2026-05-25/",
-      "start": "2026-05-25T04:00:00.000Z",
-      "end": "2026-05-26T04:00:00.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "community",
-      "id": "4db7a6c5034d0241",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Annual Memorial Day Pancake Breakfast",
@@ -313,7 +249,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Memorial Day Parade and Ceremony",
@@ -333,7 +269,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.367Z"
+      "ingestedAt": "2026-05-25T13:32:56.976Z"
     },
     {
       "title": "Memorial Day Fair",
@@ -354,7 +290,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.741Z"
     },
     {
       "title": "Sudbury's Memorial Day Parade and Program",
@@ -375,7 +311,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.766Z"
+      "ingestedAt": "2026-05-25T13:32:52.595Z"
     },
     {
       "title": "Boxing & Circuit Conditioning",
@@ -396,7 +332,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Bridge: Beyond Beginner",
@@ -417,7 +353,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Sudbury's Hosmer House Open May 25th 10:30AM to 1:00PM",
@@ -438,7 +374,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.766Z"
+      "ingestedAt": "2026-05-25T13:32:52.595Z"
     },
     {
       "title": "Parkinson\\'s Cycle",
@@ -459,7 +395,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Barn to Run Trail Race",
@@ -480,7 +416,7 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-25T13:11:14.023Z"
+      "ingestedAt": "2026-05-25T13:31:53.480Z"
     },
     {
       "title": "Home to Two Revolutions: Tour of the Old Manse",
@@ -501,7 +437,7 @@
         "id": "trustees",
         "name": "The Trustees of Reservations"
       },
-      "ingestedAt": "2026-05-25T13:11:14.024Z"
+      "ingestedAt": "2026-05-25T13:31:53.483Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -521,7 +457,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.489Z"
+      "ingestedAt": "2026-05-25T13:33:00.939Z"
     },
     {
       "title": "Masters Mid Day",
@@ -542,7 +478,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Spring ELC Little Scientists (3.5-4 yrs)",
@@ -563,7 +499,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Spring ELC Art Explorers (3-5 yrs)",
@@ -584,7 +520,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Introduction to Balance and Injury Prevention",
@@ -605,7 +541,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:38.081Z"
+      "ingestedAt": "2026-05-25T13:33:01.357Z"
     },
     {
       "title": "Spring ELC Little Scientists (4-5 yrs)",
@@ -626,7 +562,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.702Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Rock The Blacktop: Community Paint Jams",
@@ -647,7 +583,7 @@
         "id": "patch-needham",
         "name": "Needham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.490Z"
+      "ingestedAt": "2026-05-25T13:32:55.721Z"
     },
     {
       "title": "Core-Based Injury Prevention",
@@ -668,7 +604,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.702Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Karishim - Pre-Swim E1 - Mon & Wed",
@@ -689,7 +625,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.702Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Karishim - Pre-Swim F3 - Discovery Club Year Round",
@@ -710,7 +646,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.702Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Spring Basketball (5-8 yrs) - Mondays",
@@ -731,7 +667,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.702Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Karishim - Pre-Swim E2 - Mon & Wed",
@@ -752,7 +688,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.703Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Spring Basketball (7-10 yrs) - Mondays",
@@ -773,7 +709,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.703Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Spring Adventures in Animation (K-6)",
@@ -794,7 +730,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.703Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "YouTube's Philately Influencers--A Panel Discussion",
@@ -815,7 +751,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.774Z"
+      "ingestedAt": "2026-05-25T13:32:52.870Z"
     },
     {
       "title": "Farewell Open House &#8211; CANCELLED",
@@ -836,7 +772,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.208Z"
+      "ingestedAt": "2026-05-25T13:32:31.306Z"
     },
     {
       "title": "Sunday, Tuesday, Thursday Masters Swim",
@@ -857,7 +793,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.703Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Newton ELC (Godine) - 2025-2026 Application & Deposit",
@@ -878,7 +814,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.703Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Newton ELC (Godine) - 2025-2026 Waitlist Application",
@@ -899,7 +835,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.703Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Lifeguard Recertification Course",
@@ -920,7 +856,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:39.703Z"
+      "ingestedAt": "2026-05-25T13:33:01.496Z"
     },
     {
       "title": "Now Accepting Donations",
@@ -941,7 +877,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:21.166Z"
+      "ingestedAt": "2026-05-25T13:32:52.939Z"
     },
     {
       "title": "Learn the Basics of Oil and Pastel Painting",
@@ -962,7 +898,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Beginner Mah Jongg: Tuesday",
@@ -983,7 +919,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -1002,29 +938,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
-    },
-    {
-      "title": "Postponed: TBElle | Laughing Through the Ages: Jewish Humor, Resilience and Survival (Hybrid)",
-      "description": "This event has been postponed to June 2nd. You can find class by clicking here. Please reach out to the event Lynn Burke Harrell with any questions. \nThis engaging course explores how Jewish communities have long turned to humor—rich with wit, irony, and a keen sense of the absurd—as a powerful way to endure hardship and persecution. Through key moments in Jewish history, we’ll discover how laughter has lived alongside suffering, fostering resilience, offering hope, and illuminating the depth and spirit of the Jewish experience. \nDates: April 28, May 5, 12, 19, (May 26 postponed) June 2, June 9 \nJoin us for one, two, or however many classes you’d like to participate in! \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
-      "url": "https://tbewellesley.org/event/tbelle-laughing-through-the-ages-jewish-humor-resilience-and-survival-hybrid-2-2/",
-      "start": "2026-05-26T14:00:00.000Z",
-      "end": "2026-05-26T15:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "workshop",
-      "id": "99d69ab06ef407bf",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "The Council&#8217;s May Memory Cafe",
@@ -1047,7 +961,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.900Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Walk and Talk Health: Walking Group",
@@ -1068,7 +982,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "TO BE RESCHEDULED FHC Memorial Day Exhibit – “Stories Yet to Be Told”",
@@ -1089,7 +1003,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.294Z"
     },
     {
       "title": "Pilates Seasonal Semi-Private (Spring 2 Session)",
@@ -1110,7 +1024,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Osteo Fit Group Training Series",
@@ -1131,28 +1045,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
-    },
-    {
-      "title": "Postponed: TBElle | Dramatic Changes in Christianity’s View of Judaism After the Holocaust (Hybrid)",
-      "description": "This class has been postponed to June 9th. Please reach out to Lynn Burke Harrell with any questions. \nIn this course, we’ll explore pivotal statements from the Catholic Church and Protestant churches that dramatically reshaped Christianity’s view of Judaism—alongside the Jewish responses to these changes. Together, we’ll consider the lasting impact of these developments and how contemporary issues continue to influence them, including their role in shaping today’s interfaith dialogue. \nDates: Tuesdays, May 19, (May 26 is postponed to June 9), June 2, 9 \nThis course follows a sequential structure, but anyone is welcome to join at any point, or to drop in to any class. If you have questions regarding participation, please contact the program leader. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
-      "url": "https://tbewellesley.org/event/tbelle-dramatic-changes-in-christianitys-view-of-judaism-after-the-holocaust-hybrid/2026-05-26/",
-      "start": "2026-05-26T16:45:00.000Z",
-      "end": "2026-05-26T18:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "workshop",
-      "id": "156c3c1344f2ccaa",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Introduction to Backyard Beekeeping",
@@ -1175,7 +1068,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.022Z"
+      "ingestedAt": "2026-05-25T13:32:57.558Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -1194,7 +1087,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Spring ELC Creative Dance (3-4 yrs)",
@@ -1215,7 +1108,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Spring ELC Crafty Kids (3-5 yrs)",
@@ -1236,7 +1129,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Spring ELC Tennis (4-5 yrs)",
@@ -1257,7 +1150,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Spring ELC Action Hero Training Camp (4-5 yrs)",
@@ -1278,7 +1171,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.206Z"
+      "ingestedAt": "2026-05-25T13:33:01.637Z"
     },
     {
       "title": "Karishim - Pre-Swim F1 - Tue & Thu",
@@ -1299,7 +1192,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.207Z"
+      "ingestedAt": "2026-05-25T13:33:01.638Z"
     },
     {
       "title": "Spring RedBall+ Tennis (K-2) - Tuesdays",
@@ -1320,7 +1213,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.207Z"
+      "ingestedAt": "2026-05-25T13:33:01.638Z"
     },
     {
       "title": "Karishim - Pre-Swim F2 - Tue & Thu",
@@ -1341,7 +1234,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.207Z"
+      "ingestedAt": "2026-05-25T13:33:01.638Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -1362,7 +1255,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Spring OrangeBall Tennis (Gr. 3-5) - Tuesdays",
@@ -1383,7 +1276,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.207Z"
+      "ingestedAt": "2026-05-25T13:33:01.638Z"
     },
     {
       "title": "Make it Tuesday: Eraser Stamps | FPL McAuliffe",
@@ -1404,29 +1297,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
-    },
-    {
-      "title": "May 2026 Green Team Meeting (Hybrid)",
-      "description": "Join us for our next Green Team Meeting as we come together to discuss current sustainability initiatives at TBE and explore new ideas for making our community greener, more responsible, and more aligned with our Jewish values of Shmirat HaAdamah—caring for the Earth. \nThis is an open, collaborative conversation and a great opportunity to get involved, share your ideas, and connect with fellow TBE members who are passionate about environmental stewardship. No prior Green Team experience needed—all are welcome! \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register \nThis event is sponsored by the Green Team at TBE, which helps ensure our building and community are environmentally sound and sustainable.",
-      "url": "https://tbewellesley.org/event/may-2026-green-team-meeting-hybrid/",
-      "start": "2026-05-26T23:00:00.000Z",
-      "end": "2026-05-27T00:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "community",
-      "id": "f3eab7fbf54c094b",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Great Presenters: Jane Kelly",
@@ -1447,7 +1318,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Jackrabbit",
@@ -1468,7 +1339,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.839Z"
+      "ingestedAt": "2026-05-25T13:32:14.972Z"
     },
     {
       "title": "jackrabbit Featuring Dermot Mulroney First Rodeo Tour - Live in Concert ",
@@ -1489,7 +1360,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.270Z"
+      "ingestedAt": "2026-05-25T13:32:52.244Z"
     },
     {
       "title": "PJ Library Playground Meetup - Sharon",
@@ -1510,28 +1381,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.207Z"
-    },
-    {
-      "title": "Yoga with Stephanie: Spring Session Two (Online)",
-      "description": "Prepare for Summer by nurturing your strength, balance, and alignment through the steady practice of yoga. Join experienced yoga teacher Stephanie Javaheri for a weekly mindful yoga “work-in” designed to cultivate both physical and mental awareness. Through slow, intentional movement, breathwork, and meditation, this one-hour class offers space to feel more at ease in your body and mind. All that’s needed is an open spirit, a yoga mat, and a non-cork set of blocks. \nDates: May 20 & 27, June 10, 17 & 24, July 1 \nFee: Members: $60 | Non-Members: $85 \nRegistration: This event is available online. Please click the purple bar above to register. If you are interested in joining Spring Session Two once it has begun, please reach out to Lynn Burke Harrell. \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
-      "url": "https://tbewellesley.org/event/yoga-with-stephanie-spring-session-two-online-2/2026-05-27/",
-      "start": "2026-05-27T13:30:00.000Z",
-      "end": "2026-05-27T14:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "workshop",
-      "id": "ea86f487603a3b8e",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:33:01.638Z"
     },
     {
       "title": "Beginner Mah Jongg: Wednesday Morning",
@@ -1552,7 +1402,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Rock Steady Boxing",
@@ -1573,29 +1423,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
-    },
-    {
-      "title": "Text & Texture Ceramics Open Studios (In Person)",
-      "description": "We’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. \nFeel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! \nWith your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. \nSince ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. \nDates: Wednesdays, April 15, 29, May 6, 13, 20, 27, June 3, 10, 17, 24 \nRegistration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. \nMembers Fee: Sliding scale of $180 / $270 (suggested) / $360 | Non-members: Fee: $450\nThis fee helps us cover the cost of the kiln and materials. \nBundled Spring Pass | Both Monday Evening & Wednesday Afternoon\nTimes and dates as listed above. \nFee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
-      "url": "https://tbewellesley.org/event/text-texture-ceramics-open-studios-in-person-2/2026-05-27/",
-      "start": "2026-05-27T15:30:00.000Z",
-      "end": "2026-05-27T18:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "other",
-      "id": "0a14c331c831f5a2",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -1615,7 +1443,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.487Z"
+      "ingestedAt": "2026-05-25T13:33:00.937Z"
     },
     {
       "title": "Basic Tai Chi Movement for Parkinson\\'s",
@@ -1636,7 +1464,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Rock Steady Boxing",
@@ -1657,7 +1485,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Complimentary Presentation - Smart Strategies for College Financing",
@@ -1677,7 +1505,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.844Z"
+      "ingestedAt": "2026-05-25T13:32:52.773Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -1697,7 +1525,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Spring ELC Soccer (3-4 yrs)",
@@ -1718,7 +1546,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Spring ELC Soccer (4-5 yrs)",
@@ -1739,7 +1567,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Spring GreenBall Tennis (Gr. 4-6)",
@@ -1760,7 +1588,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Mt Calvary Community Supper of Acton - May Menu",
@@ -1781,7 +1609,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.830Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Teen Tennis Development Clinic (12-15)",
@@ -1802,7 +1630,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.783Z"
     },
     {
       "title": "Spaghetti Supper",
@@ -1823,7 +1651,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.589Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Ladies\\' Adult Tennis Clinic",
@@ -1844,7 +1672,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.784Z"
     },
     {
       "title": "Beginner Mah Jongg: Wednesday Evening",
@@ -1865,7 +1693,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.784Z"
     },
     {
       "title": "Spring Music Performance - Adaptive Class",
@@ -1886,7 +1714,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.366Z"
+      "ingestedAt": "2026-05-25T13:33:01.784Z"
     },
     {
       "title": "Commonwealth School Virtual Information Session for Fall 2027 Admission",
@@ -1906,29 +1734,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.844Z"
-    },
-    {
-      "title": "FULL: Jewish Heritage Night at the Red Sox (Offsite)",
-      "description": "This event is full, contact Eliana Stein at estein@tbewellesley.org to be put on the waitlist. \nStep up to the plate with the TBE community for a joyful night at Fenway Park! As part of the Red Sox Jewish Heritage Celebration, your ticket includes a special Jewish Heritage Red Sox jersey — and the chance to gather in the spirit of connection, pride, and shared celebration. It’s a fun and meaningful way to live TBE’s vision of vibrant Jewish life, strengthening community both inside and beyond our walls. \nRegistration: This event takes place at Fenway Park. Click the purple bar above to join us.",
-      "url": "https://tbewellesley.org/event/jewish-heritage-night-at-the-red-sox-2026/",
-      "start": "2026-05-27T22:45:00.000Z",
-      "end": "2026-05-27T22:45:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Fenway Park",
-        "town": "Wellesley",
-        "address": "4 Jersey Street, Boston, MA, 02215",
-        "lat": 42.297,
-        "lon": -71.293
-      },
-      "type": "museum",
-      "id": "48c9883a24201963",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:32:52.773Z"
     },
     {
       "title": "Wellesley Select Board office hours with Board chair Marjorie Freiman",
@@ -1949,7 +1755,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.558Z"
     },
     {
       "title": "Moms Walk & Talk",
@@ -1970,7 +1776,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.741Z"
     },
     {
       "title": "Israeli Dance",
@@ -1991,7 +1797,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.367Z"
+      "ingestedAt": "2026-05-25T13:33:01.784Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -2011,7 +1817,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.492Z"
+      "ingestedAt": "2026-05-25T13:33:00.940Z"
     },
     {
       "title": "Spring ELC Sports & Games (3-4 yrs)",
@@ -2032,7 +1838,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.367Z"
+      "ingestedAt": "2026-05-25T13:33:01.784Z"
     },
     {
       "title": "Dynamic Balance and Injury Prevention",
@@ -2053,7 +1859,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.367Z"
+      "ingestedAt": "2026-05-25T13:33:01.784Z"
     },
     {
       "title": "Spring ELC Sports & Games (4-5 yrs)",
@@ -2074,7 +1880,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:41.367Z"
+      "ingestedAt": "2026-05-25T13:33:01.784Z"
     },
     {
       "title": "Spring ELC Music Video Making (4-5 yrs)",
@@ -2095,29 +1901,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
-    },
-    {
-      "title": "Mahjong (In Person)",
-      "description": "Join us for mahjong at TBE on Thursday afternoons! Whether you’re a seasoned player or have just learned how to play, it’s a wonderful opportunity to make new friends or enjoy a game with familiar faces. Beginners are welcome, though sessions for those who have never played before will resume in the spring. While we’d greatly appreciate it if you could sign up in advance to ensure we have enough mahjong sets and tables for everyone, feel free to drop in if your schedule changes at the last minute. \nRegistration: Email the event organizer, Barbara Marx at barbmarx@gmail.com if you’d like to join us!",
-      "url": "https://tbewellesley.org/event/mahjong-thursday-aftenoons/2026-05-28/",
-      "start": "2026-05-28T18:00:00.000Z",
-      "end": "2026-05-28T20:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "mahjong",
-      "id": "3d5d53c691ea1740",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.740Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Powerful Proteins From The Mediterranean",
@@ -2137,7 +1921,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.117Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Spring Chess Challengers (5-12 yrs) - Thursdays",
@@ -2158,7 +1942,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Spring Family Chess (For Caregivers with child 6yrs+) - Thursdays",
@@ -2179,7 +1963,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Monthly LGBTQ+ Social Group",
@@ -2200,7 +1984,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Rosh Hodesh: Girls Community Group",
@@ -2221,7 +2005,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Chinese Classics – Adult Cooking Class",
@@ -2241,7 +2025,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.191Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "MassBay Community College commencement ceremony",
@@ -2262,7 +2046,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.558Z"
     },
     {
       "title": "Aging Like Fine Wine: Sip & Swipe for Singles 60+",
@@ -2283,7 +2067,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Zeppelins! The Era of the Giant Airships",
@@ -2304,7 +2088,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.774Z"
+      "ingestedAt": "2026-05-25T13:32:52.870Z"
     },
     {
       "title": "Solomon Carter Fuller: Scientist, Pioneer, Immigrant",
@@ -2325,7 +2109,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.301Z"
     },
     {
       "title": "Welcome Baby Parent\\'s Night Out Spring Shopping Meetup",
@@ -2346,49 +2130,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
-    },
-    {
-      "title": "Drum Circle: Spring 2026 (In Person)",
-      "description": "Drum Circle start date has been postponed to April 16. \nJoin us for an exciting, joyful drum circle with our own Friday night service drummer, Noam Sender. \nA drum circle is a centuries-old tradition tapping into age-old wisdom. Drumming is known to reduce stress and promote a sense of well being and mental alertness. Seated in a circle, we will play beautiful, accessible and captivating rhythms from around the world. The drumming will be enhanced with familiar chants and melodies (singing is optional). We will deepen the drumming experience with brief mindfulness exercises, learning to center ourselves, relax and explore our authentic self, while building a deep sense of community and sharing our collective voice. \nNo prior experience required. Drums are available if needed, but feel free to bring your own if you like. Class size is limited to between 6 and 8 participants so it is best to register soon! \nThis course follows a sequential structure, and participants are encouraged to attend all sessions. If you are interested in joining once the course has begun, please contact the program leader. \nDates & Time: April 16, 23, May 7, 14, 28, June 4 \nFee: $180 \nRegistration: This program is held in person. Please click the purple button above to register. Registration closes Wednesday, April 16 at 11:59 pm. \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
-      "url": "https://tbewellesley.org/event/drum-circle-spring-2026-in-person/2026-05-28/",
-      "start": "2026-05-28T23:30:00.000Z",
-      "end": "2026-05-29T00:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "theater",
-      "id": "6ad4640df5ed2d5c",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
-    },
-    {
-      "title": "TBE Meditation Group (Online)",
-      "description": "New to meditation and eager to get started? Or, are you practiced and want to join others for a collective meditation experience? Join our weekly live meditation group! We’ll meet either in-person, via Zoom, or both, creating a space where we collaboratively explore meditation—sharing what works, what doesn’t, and growing together. \nDates: With the exception of the first Thursday of each month, when we will meet in person, meetings will be every other Thursday on Zoom: March 12, 19, 26, April 16, 23, 30, May 14, 21, 28, June 11, 18, 25 \nRegistration: This event is available online. Please email Joe Bodoff jbodoff@gmail.com to register and receive the Zoom link. \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
-      "url": "https://tbewellesley.org/event/tbe-meditation-group-online/2026-05-28/",
-      "start": "2026-05-28T23:30:00.000Z",
-      "end": "2026-05-29T00:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "fitness",
-      "id": "9fcd6d8203b66ad2",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Ruth Moody Band",
@@ -2409,28 +2151,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:41.469Z"
-    },
-    {
-      "title": "Adult Talmud Study | Daf Yomi (Online)",
-      "description": "Join us for a practice of reading and discussing a page of Talmud a day, led by Rabbi Carol Mitchell. A complete cycle takes seven years! We meet on-line on Friday mornings to study the most interesting and timely Talmud tractates. \nDaf Yomi is an international practice to read the entire Babylonian Talmud in seven and a half years at the rate of one page a day. Tens of thousands of Jews study Daf Yomi worldwide, all on the same page each day, following a schedule fixed in 1923 in Poland by Rabbi Meir Shapiro, the founder of Daf Yomi, who envisioned the whole world as a vast Talmudic classroom connected by a global network of conversational threads. Learn more \nCome when you can. Walk ins welcome. Prior registration is not required. \nIf you are interested in learning with us or have questions, please contact Rabbi Carol Mitchell. All are welcome! \n ",
-      "url": "https://tbewellesley.org/event/adult-talmud-study-daf-yomi-online-2-4-6/2026-05-29/",
-      "start": "2026-05-29T13:30:00.000Z",
-      "end": "2026-05-29T14:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "fitness",
-      "id": "d58ac459a7040813",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:32:15.096Z"
     },
     {
       "title": "Bridge: Beyond Beginner Plus",
@@ -2451,7 +2172,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Table Tennis for Parkinson\\'s",
@@ -2472,7 +2193,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Opening day—Friends of the Needham Public Library Spring Book Sale",
@@ -2494,7 +2215,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.558Z"
     },
     {
       "title": "Friends of the Needham Public Library Book Sale",
@@ -2517,7 +2238,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.900Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Spring ELC 1pm Chess Champs (3.5-5 yrs)",
@@ -2538,7 +2259,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Bridge: Intermediate/Advanced",
@@ -2559,7 +2280,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Osteo Fit Group Training Series",
@@ -2580,7 +2301,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Spring ELC 2pm Chess Champs (4-5 yrs)",
@@ -2601,7 +2322,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "FAMILY WORKSHOP: Alice in Wonderland Teacup Floral Arranging",
@@ -2622,7 +2343,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Picnic on the Lawn - End of Year Celebration!",
@@ -2643,29 +2364,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
-    },
-    {
-      "title": "Friday Shabbat Service, Confirmation & Honoring Rabbi Ben Rosen (Hybrid)",
-      "description": "Welcome Shabbat with uplifting music, meaningful prayer, and the warmth of community. As we gather in the sanctuary, we create sacred space for connection, reflection, and renewal—walking together on our shared path toward shalom. \nThis evening, we will celebrate our Havayah seniors as they mark the milestone of Confirmation, sharing their voices and receiving the blessings of our community. We will also honor Rabbi Ben Rosen and the meaningful impact he has made through his leadership, care, and presence at TBE. \nHonor Rabbi Rosen by making a gift to the Youth Engagement Fund. \nFollowing services, Confirmation families are invited to continue the celebration with a potluck-style dinner. \nClick here to share lifecycle updates with the TBE Caring Connections team, letting us know if there is someone in need of a r’fuah shleimah, a full recovery of body and spirit, or other pastoral care. We would also love to celebrate joyous shehecheyanu moments with you, from the birth of a new baby to a retirement and everything in between. \nView this week’s yahrzeits \nRegistration: This event is available in person and online. No registration is required to join us in person. To join us online, please click the purple registration bar above. Once you have registered, your unique access link will be emailed to you.",
-      "url": "https://tbewellesley.org/event/shabbat-confirmation-rosen/",
-      "start": "2026-05-29T22:00:00.000Z",
-      "end": "2026-05-29T23:15:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "family",
-      "id": "83836312ae8b9729",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Concord Conservatory of Music Presents Chatham Rabbits",
@@ -2686,7 +2385,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Suzy Bogguss",
@@ -2707,7 +2406,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.839Z"
+      "ingestedAt": "2026-05-25T13:32:14.973Z"
     },
     {
       "title": "An Evening with Megan Hilty",
@@ -2728,7 +2427,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Celebrate 10 Years of Dance with FJW Dance Studio’s Anniversary Showcase",
@@ -2748,7 +2447,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.774Z"
+      "ingestedAt": "2026-05-25T13:32:52.870Z"
     },
     {
       "title": "The Claflin Hill Youth Symphonies: The Re-Launch!",
@@ -2769,7 +2468,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Note-worthyPalooza Music Festival",
@@ -2789,7 +2488,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.766Z"
+      "ingestedAt": "2026-05-25T13:32:52.595Z"
     },
     {
       "title": "The Claflin Hill Youth Symphonies:  The Re-Launch!",
@@ -2810,7 +2509,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:21.166Z"
+      "ingestedAt": "2026-05-25T13:32:52.939Z"
     },
     {
       "title": "Norfolk Electronics Recycling Event ♻️",
@@ -2831,7 +2530,7 @@
         "id": "patch-medfield",
         "name": "Medfield Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:28.445Z"
+      "ingestedAt": "2026-05-25T13:32:55.222Z"
     },
     {
       "title": "American Revolution reenactment at Needham Town Common",
@@ -2852,7 +2551,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.558Z"
     },
     {
       "title": "King&#8217;s Own Come to Needham!",
@@ -2873,7 +2572,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.709Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "King&#8217;s Own Come to Needham!",
@@ -2896,7 +2595,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.901Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Spring Soccer (2-3 yrs) - Saturdays",
@@ -2917,7 +2616,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Spring Little Ninjas (3-4 yrs)",
@@ -2938,50 +2637,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:43.181Z"
-    },
-    {
-      "title": "Minyan & Torah Study (Hybrid)",
-      "description": "Gather for minyan, a time of prayer and reflection, followed by Torah study with a member of our clergy. Together, we’ll explore sacred text through deep listening, heartfelt conversation, and shared learning—guiding us on our collective path toward wisdom and shalom—wholeness. \nRegistration: This event is available in person and online. No registration is required to join us in person. If you’d like to join us online, please click the purple bar above.",
-      "url": "https://tbewellesley.org/event/minyan-torah-study-hybrid/2026-05-30/",
-      "start": "2026-05-30T13:30:00.000Z",
-      "end": "2026-05-30T15:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "other",
-      "id": "cf5ef1da3b0d843e",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
-    },
-    {
-      "title": "Shabbat Morning Service (Hybrid)",
-      "description": "Our Shabbat service includes the celebration of the B’Mitzvah of Solin Meyers.\n \nRegistration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time.\n\n\nAbout Solin\nHi everyone! My name is Solin, and I’m a 7th grader at Dover-Sherborn Middle School. My favorite subject in school is math (although recess is definitely the best!). Outside of school, I love spending time with my friends and family—especially playing with my chocolate lab puppy, Vinny. One of my favorite things to do is travel. I love exploring new places, trying new things, and going on exciting adventures. I also enjoy playing sports. Over the years, I’ve played basketball, volleyball, soccer, and softball. People always ask me which one is my favorite, but I honestly love them all. Being part of a team—supporting each other and bringing out the best in one another—makes me really happy. If you asked the people in my life to describe me, I think they would say I’m energetic, caring, and competitive. I feel so grateful for my family and friends, who make me excited to wake up each day and see what’s ahead.\n\nFor my ma’asim tovim project, I wanted to focus on something meaningful to me: helping people going through difficult times. After raising nearly $2,000, I started a project called Hope for Healing. With help from the TBE community, I created comfort baskets for kids in the emergency room at local hospitals like Newton-Wellesley. I hope to continue doing projects like this, because it makes me happy to know I can make a difference in someone’s life. \nBecoming a bat mitzvah means more to me than just leading a service. It means becoming part of a meaningful tradition and honoring those who came before me. TBE has helped me stay connected to my Jewish identity through its activities and the strong friendships I’ve built there. \nI’m so excited to celebrate this special day with all of you! \n\n\n\n ",
-      "url": "https://tbewellesley.org/event/shabbat-morning-service-hybrid-51/",
-      "start": "2026-05-30T13:30:00.000Z",
-      "end": "2026-05-30T15:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "family",
-      "id": "abcbd6cb1aeecbb0",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:33:01.911Z"
     },
     {
       "title": "Hunnewell Estate Historical Tour",
@@ -3003,7 +2659,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.558Z"
     },
     {
       "title": "Gateway Camera Club Print Exhibit on Display at Broadmoor",
@@ -3024,7 +2680,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.271Z"
+      "ingestedAt": "2026-05-25T13:32:52.244Z"
     },
     {
       "title": "GLASS WORKSHOP: Fused Glass Sushi Set",
@@ -3045,7 +2701,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "&#8220;Gallery Under the Tent&#8221; &#8211; Open Studio and Sale",
@@ -3067,7 +2723,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.901Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Spring Soccer (3-4 yrs) - Saturdays",
@@ -3088,7 +2744,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.852Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Spring Little Ninjas (4-5 yrs)",
@@ -3109,7 +2765,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.852Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Boxing & Circuit Conditioning",
@@ -3130,7 +2786,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.852Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Tai Chi Open Practice",
@@ -3151,7 +2807,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.852Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Beginner Mah Jongg: Saturdays",
@@ -3172,7 +2828,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.852Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Concord Conservatory of Music Presents Pianos on the Town ",
@@ -3192,7 +2848,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Needham High School Habitat For Humanity Community Yard Sale",
@@ -3215,7 +2871,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "Needham High School Habitat For Humanity Community Yard Sale",
@@ -3238,7 +2894,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.901Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Turning Red",
@@ -3259,7 +2915,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:42.654Z"
+      "ingestedAt": "2026-05-25T13:32:15.222Z"
     },
     {
       "title": "Framingham Bike, Pedestrian, and Rail Trail Family Bike Ride",
@@ -3279,7 +2935,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Fundraising Bake Sale for Type 1 Diabetes Research (Breakthrough T1D Walk/ Ambassador)",
@@ -3300,7 +2956,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.844Z"
+      "ingestedAt": "2026-05-25T13:32:52.773Z"
     },
     {
       "title": "Free movie screening of &#8220;Turning Red&#8221; at TCAN",
@@ -3323,7 +2979,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.367Z"
+      "ingestedAt": "2026-05-25T13:32:56.976Z"
     },
     {
       "title": "Bake sale &#038; raffle to support Type 1 Diabetes research",
@@ -3342,7 +2998,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Photography Open House",
@@ -3362,7 +3018,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.901Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Spring Soccer (4-5 yrs) - Saturdays",
@@ -3383,7 +3039,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Rock Steady Boxing",
@@ -3404,29 +3060,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
-    },
-    {
-      "title": "Shabbat Morning Service (Hybrid)",
-      "description": "Our Shabbat service includes the celebration of the B’Mitzvah of Emma Andler \nRegistration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time. \nAbout Emma\nHi TBE. My name is Emma Andler and I am very excited to become a bat mitzvah. I am a 7th grader at Dana Hall School where my two favorite subjects are English and Social Studies. I live in Wellesley with my Mom, Elizabeth; my Dad, Rob; my little brother Jack who is ten; my little sister Lily who is six; and our two female guinea pigs, Figgy and Zippy. My grandparents, Susan and Julian Lange, live down the street from me, and we are very close. They are long-time members of TBE and my Mom grew up going to TBE and even used to teach Hebrew School here! \nSome things I enjoy doing are reading, hanging out with my friends, and playing with my younger siblings. I also love horseback riding, ice skating, and Broadway musicals. Singing and playing the piano are two of my hobbies. I’ve been in some musicals and even played Anna in Frozen which was all in Hebrew!! I have also helped with costume design in some other productions, including Mean Girls, Jr. and Legally Blonde, Jr. at Dana Hall. I have gone to Grossman Camp for many years and love it there too. \nI am so grateful to have met so many fantastic people at TBE. I even met some of my best friends here! \nLeading with kindness is very important to me. Kindness is key when leading if you want a community that accepts and includes people as they are. For my bat mitzvah project, I am serving as a Madricha (teacher’s aide) for a class of kindergartners and first graders at Kesher Newton and am teaching them Hebrew and Jewish values. Once I have become a bat mitzvah, I hope to continue teaching younger kids about Judaism and life as a Jewish person and I hope to continue to stay involved in the Jewish community as well. \n\n\n\n ",
-      "url": "https://tbewellesley.org/event/shabbat-morning-service-hybrid-27/",
-      "start": "2026-05-30T15:30:00.000Z",
-      "end": "2026-05-30T17:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "theater",
-      "id": "10605bc5b95bc791",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Rashi School to Host Family Activities at WBUR Festival Street Fair",
@@ -3447,7 +3081,7 @@
         "id": "patch-needham",
         "name": "Needham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.490Z"
+      "ingestedAt": "2026-05-25T13:32:55.721Z"
     },
     {
       "title": "Hunnewell Fun Fair",
@@ -3468,7 +3102,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Nest Box Workshop at Powisset Farm",
@@ -3488,7 +3122,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.191Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Copy of - Land and Sea Spring",
@@ -3509,7 +3143,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "FAMILY GLASS WORKSHOP: Tack Fusing, Bouquets & Landscapes",
@@ -3530,7 +3164,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Women of Note Presents: Songs of Stage & Screen",
@@ -3550,7 +3184,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.741Z"
     },
     {
       "title": "Women of Note Acapella Chorus Show",
@@ -3571,7 +3205,7 @@
         "id": "patch-westborough",
         "name": "Westborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:32.781Z"
+      "ingestedAt": "2026-05-25T13:32:56.354Z"
     },
     {
       "title": "Grand Opening of The Terrace at Wellesley Free Library",
@@ -3592,7 +3226,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "2026 Needham High Civics Showcase",
@@ -3615,7 +3249,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "2026 Needham High Civics Showcase",
@@ -3638,7 +3272,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.901Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Herman&#8217;s Hermits Starring Peter Noone",
@@ -3659,29 +3293,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.838Z"
-    },
-    {
-      "title": "Mincha Ma'ariv Service (Hybrid)",
-      "description": "Our Mincha Ma’ariv service includes the celebration of the B’Mitzvah of Avery and Marin Frieze. \nRegistration: This event is available in person and via live stream. Registration is not required. Click here to join the live stream at the event start time. \nAbout Avery\nDear TBE Community, my name is Avery Frieze. I love to play all kinds of sports, including fencing, pickleball, soccer, basketball, flag football, golf and tennis. Sports keep me active, strong and it’s fun to get to know new people. \nI am the youngest in my family by a minute. I have two sisters, one is my identical twin and one is my older sister. I have two parents, my mom and dad, and one absolutely adorable dog named Ottie. She is a golden retriever and I love her so much. \nI am in 7th grade at Carroll School, but next year I will join my sister at Beaver Country Day. I like math the best because it is one of my strengths. \nI have made one of my closest friends at school through my parents and TBE. I really like going to Rosh Hashana and Yom Kippur services. I love all of the singing and how everyone’s voices are so good and how everyone is synchronized. I also like the speeches that are low-key funny. \nBeing a leader in my community makes me feel more mature and responsible. Becoming a bat mitzvah means that I am a Jewish adult and I am responsible for living with Jewish values and changing the world by helping people. \nAbout Marin\nDear TBE Community, my name is Marin Frieze. I am a soccer player and I play for my school, my town and my club. My family is the best. I am an identical twin, I have an older sister, two parents and one dog. Even though I am a twin, I am technically the middle child because I was born one minute ahead of my sister. \nI go to Beaver Country Day School and I am in the 7th grade. I like visual arts because it’s a class where we get to make sculptures and have fun. I love hanging out with my friends and playing soccer at recess, and I like math because I think I am good at problem solving. \nWhen I think about TBE, I think about my b’mitzvah tutor, Geoffrey. He is really funny and he has made Hebrew easy and fun to learn. He has been helpful and supportive by making sure I stay on track. \nI am so excited to be a Jewish adult. This means a lot to me because I get to become a leader in our community and set a good example by being a good student, a person who gives back and someone who stays connected to their Judaism. \nFor my bat mitzvah, I collected clothing to donate to Cradles to Crayons and then went and volunteered to sort clothing and make care packages with outfits for teenage girls. It was fun to create all of the different outfits and package them knowing someone would open them and be happy. I also volunteered delivering food to the elderly with Family Table. \n ",
-      "url": "https://tbewellesley.org/event/mincha-maariv-service-hybrid-44/",
-      "start": "2026-05-30T20:00:00.000Z",
-      "end": "2026-05-30T21:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "theater",
-      "id": "81fb75907a1b3620",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:32:14.971Z"
     },
     {
       "title": "Potluck & Trivia Night",
@@ -3702,7 +3314,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "An Evening of Chinese Dance & Cultural Celebration by FJW Dance Studio",
@@ -3722,7 +3334,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.844Z"
+      "ingestedAt": "2026-05-25T13:32:52.773Z"
     },
     {
       "title": "FJW Dance Studio - 10th Anniversary Gala & Showcase",
@@ -3742,7 +3354,7 @@
         "id": "patch-needham",
         "name": "Needham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.491Z"
+      "ingestedAt": "2026-05-25T13:32:55.721Z"
     },
     {
       "title": "Voices of MetroWest presents presents The Evolution of Broadway",
@@ -3763,7 +3375,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -3783,7 +3395,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.367Z"
+      "ingestedAt": "2026-05-25T13:32:56.976Z"
     },
     {
       "title": "Memorial Day Ceremony in Wellesley",
@@ -3804,7 +3416,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "An Evening with Megan Hilty",
@@ -3825,7 +3437,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Colonial Faire",
@@ -3846,28 +3458,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
-    },
-    {
-      "title": "TBE Table (In Person)",
-      "description": "Join TBE Table in providing meals to individuals experiencing food insecurity in our community. Volunteers are needed to shop, get the kitchen ready, prepare the food, cook, pack the meals, and then deliver them to various organizations in our area. \nTo express interest, please click the purple bar above and someone from TBE Table will reach back out to you. \nTBE Table is a member-driven meal production and distribution program located in the TBE kitchen. Our goal is to produce healthy, delicious meals for those facing food insecurity and to build community while working together towards this important goal. Learn more about TBE Table",
-      "url": "https://tbewellesley.org/event/tbe-table-in-person-3/",
-      "start": "2026-05-31T04:00:00.000Z",
-      "end": "2026-06-03T04:00:00.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "food-drink",
-      "id": "0e1080ac95b53ab1",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Adult Tennis Clinic",
@@ -3888,7 +3479,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Lifeguard Recertification Course",
@@ -3909,7 +3500,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Mission MetroWest Road Race: Bring the Community Together for a Cause!",
@@ -3929,7 +3520,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.774Z"
+      "ingestedAt": "2026-05-25T13:32:52.870Z"
     },
     {
       "title": "Plugged In Summer Session Now Enrolling - Classes Start July 6th ",
@@ -3950,7 +3541,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.272Z"
+      "ingestedAt": "2026-05-25T13:32:52.244Z"
     },
     {
       "title": "Hidden Treasures Festival of Nature, Culture & History (All of May)",
@@ -3971,7 +3562,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Westborough Rotary's 5K Run & Kid Dash 2026",
@@ -3992,7 +3583,7 @@
         "id": "patch-westborough",
         "name": "Westborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:32.781Z"
+      "ingestedAt": "2026-05-25T13:32:56.354Z"
     },
     {
       "title": "Spring JamBABY (6mon - 3 yrs)",
@@ -4013,7 +3604,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Spring 9am Soccer (2-3 yrs) - Sundays",
@@ -4034,7 +3625,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Spring Track & Field (3-5 yrs)",
@@ -4055,7 +3646,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Spring 9am Soccer (3-4 yrs) - Sundays (Outdoor Only Class!)",
@@ -4076,7 +3667,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Spring 9am RedBall Tennis (4-5 yrs)",
@@ -4097,7 +3688,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:44.853Z"
+      "ingestedAt": "2026-05-25T13:33:02.061Z"
     },
     {
       "title": "Spring Chess Champs (4-6 yrs)",
@@ -4118,7 +3709,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Worship with Us! Trinity Sunday",
@@ -4139,7 +3730,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.830Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "The Challenge & Promise of Change with First Parish of Sudbury",
@@ -4160,7 +3751,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.595Z"
     },
     {
       "title": "Natick Garden Club Plant Sale",
@@ -4180,7 +3771,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.367Z"
+      "ingestedAt": "2026-05-25T13:32:56.976Z"
     },
     {
       "title": "Natick Garden Club Plant Sale",
@@ -4201,7 +3792,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Spring 10am Soccer (3-4 yrs) - Sundays",
@@ -4222,7 +3813,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring 10am Soccer (2-3 yrs) - Sundays (Outdoor Only Class!)",
@@ -4243,7 +3834,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring Creative Dance (3-5 yrs)",
@@ -4264,7 +3855,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring Pickleball (5-8 yrs)",
@@ -4285,7 +3876,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring Chess Challengers (5-12 yrs) - Sundays",
@@ -4306,7 +3897,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring 10am RedBall Tennis (4-5 yrs)",
@@ -4327,7 +3918,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Jewish Teen Foundation of Greater Boston",
@@ -4348,7 +3939,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "PJ Library Pond Explorers-Cambridge",
@@ -4369,7 +3960,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "HPLF 12th Touch-A-Truck & Food Truck Fundraiser",
@@ -4390,7 +3981,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:21.166Z"
+      "ingestedAt": "2026-05-25T13:32:52.939Z"
     },
     {
       "title": "HPLF's Touch A Truck & Food Truck Fundraiser",
@@ -4411,7 +4002,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:21.166Z"
+      "ingestedAt": "2026-05-25T13:32:52.939Z"
     },
     {
       "title": "&#8220;Gallery Under the Tent&#8221; &#8211; Open Studio and Sale",
@@ -4433,7 +4024,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.901Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Spring 11am Soccer (4-5 yrs) - Sundays",
@@ -4454,7 +4045,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring 11am Soccer (3-4 yrs) - Sundays (Outdoor Only Class!)",
@@ -4475,7 +4066,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring Action Hero Training Camp (4-6 yrs)",
@@ -4496,7 +4087,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring Mixed Sports (4-6 yrs)",
@@ -4517,7 +4108,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring Family Chess (For Caregiver with Child 6 yrs+) - Sundays",
@@ -4538,7 +4129,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring 11am RedBall+ Tennis (Gr. K-2)",
@@ -4559,7 +4150,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:46.493Z"
+      "ingestedAt": "2026-05-25T13:33:02.187Z"
     },
     {
       "title": "Spring 12pm Soccer (5-8 yrs) - Sundays",
@@ -4580,7 +4171,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.118Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Spring 12pm OrangeBall Tennis (Gr. 2-4)",
@@ -4601,7 +4192,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.118Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Spring 1pm Soccer (4-5 yrs) - Sundays",
@@ -4622,7 +4213,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Spring 1pm RedBall+ Tennis (Gr. K-2)",
@@ -4643,7 +4234,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Spring 3D Printing, Coding & Design (Gr. 2-6)",
@@ -4664,7 +4255,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Musical Instrument Petting Zoo",
@@ -4685,7 +4276,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.595Z"
     },
     {
       "title": "Classical Pianist Lucas Kamon performing concert at Wellesley library",
@@ -4705,7 +4296,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Spring 2pm Soccer (3-4 yrs) - Sundays",
@@ -4726,7 +4317,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Spring Basketball (5-8 yrs) - Sundays",
@@ -4747,7 +4338,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Spring Broadway Bootcamp (6-9 yrs)",
@@ -4768,7 +4359,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "An American Musical Experience - Lincoln Sudbury Civic Orchestra",
@@ -4789,7 +4380,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4810,7 +4401,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "The Big Dill Pickleball Bash",
@@ -4831,7 +4422,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.272Z"
+      "ingestedAt": "2026-05-25T13:32:52.244Z"
     },
     {
       "title": "Jane Mecom: Widow Witness to the Revolution",
@@ -4852,7 +4443,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Voices of MetroWest presents The Evolution of Broadway",
@@ -4872,7 +4463,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Spring 3pm Soccer (2-3 yrs) - Sundays",
@@ -4893,7 +4484,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Spring Basketball (4-6 yrs)",
@@ -4914,7 +4505,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Heritage Chorale Spring Concert: America at 250 - Of Thee We Sing",
@@ -4935,7 +4526,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Rock the Blacktop: Community Paint Jams",
@@ -4958,7 +4549,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "Foundations of Ninjutsu and Self-Defense",
@@ -4979,7 +4570,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Craft with Wellesley Middle School Girl Scouts",
@@ -4999,7 +4590,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.023Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Native Communities & The American Revolution",
@@ -5020,7 +4611,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.596Z"
     },
     {
       "title": "Natick Pride Kick off &#8211; Living in Truth",
@@ -5042,7 +4633,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Youth Ninjutsu Program (Ages 12+)",
@@ -5063,7 +4654,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.334Z"
     },
     {
       "title": "Maki Madness Sunday",
@@ -5083,28 +4674,7 @@
         "id": "patch-needham",
         "name": "Needham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.491Z"
-    },
-    {
-      "title": "Birnbaum Memorial Lecture 2026",
-      "description": "Don’t miss the 23rd annual Connie Spear Birnbaum Memorial Lecture featuring Micahel Masters, National Director & CEO of the Secure Community Network (SCN) and former Executive Director of the Department of Homeland Security and Emergency Management for Cook County, Illinois. \nRegistration: For security and planning purposes, advance registration is required for this free event. Click the purple button above to join. \nTBE is an Organizational Sponsor of this year’s Connie Spear Birnbaum Memorial Lecture.",
-      "url": "https://tbewellesley.org/event/birnbaum-memorial-lecture-2026/",
-      "start": "2026-05-31T23:30:00.000Z",
-      "end": "2026-06-01T01:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "lecture",
-      "id": "97829e219e23b883",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:32:55.721Z"
     },
     {
       "title": "Art-based Therapeutic mentorship with Isabella",
@@ -5125,7 +4695,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Arts-based Therapeutic mentorship with Arielle",
@@ -5146,7 +4716,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Bridge: Beyond Beginner",
@@ -5167,7 +4737,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.335Z"
     },
     {
       "title": "EAY Bookclub: Buddha’s Brain by Rick Hanson",
@@ -5188,7 +4758,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.589Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -5208,29 +4778,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.489Z"
-    },
-    {
-      "title": "TBE Bridge Club (In Person)",
-      "description": "Join fellow TBE members for an afternoon of learning, strategy, and connection through the game of bridge. Couples and singles of all skill levels are welcome, from seasoned players to those just getting started. \nWe meet weekly on Mondays from 1:30–3:30 pm for friendly play and shared enjoyment. \nNew to bridge? We’re happy to help you get started. Once there is sufficient interest, we plan to offer an Introduction to Bridge class on Sunday afternoons at TBE. Please contact the event organizers to be added to the interest list. \nRegistration: This event is available in person. Please contact the event organizers Jeffrey Arnold or Robert Nagle at least 72 hours before the event if you are interested in participating.",
-      "url": "https://tbewellesley.org/event/tbe-bridge-club-in-person/2026-06-01/",
-      "start": "2026-06-01T17:30:00.000Z",
-      "end": "2026-06-01T19:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "theater",
-      "id": "2009073c11e94cb8",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:33:00.939Z"
     },
     {
       "title": "Get Ready for Summer- Whole Week June 1-5",
@@ -5251,7 +4799,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
+      "ingestedAt": "2026-05-25T13:33:02.335Z"
     },
     {
       "title": "Get Ready for Summer- Learn to Swim Intensive- Monday",
@@ -5272,29 +4820,7 @@
         "id": "jcc-greater-boston",
         "name": "JCC Greater Boston"
       },
-      "ingestedAt": "2026-05-25T13:12:48.119Z"
-    },
-    {
-      "title": "Text & Texture Ceramics Open Studios (In Person)",
-      "description": "Our open ceramics studio is a space to connect and create in a relaxed and supportive atmosphere. Show up to make and connect alongside friends new and old \nWe’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. \nFeel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! \nWith your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. \nSince ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. \nDates: April 6, April 13, April 27, May 4, May 11, May 18, June 1, June 8, June 15, June 22 \nRegistration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. \nMembers Fee: Sliding scale of $180 / $270 (suggested) / $360 \nNon-members Fee: $450 \nThis fee helps us cover the cost of the kiln and materials. \nBundled Spring Pass | Both Monday Evening & Wednesday Afternoon \nTimes and dates as listed above. \nFee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
-      "url": "https://tbewellesley.org/event/text-texture-ceramics-open-studios-in-person/2026-06-01/",
-      "start": "2026-06-01T22:00:00.000Z",
-      "end": "2026-06-02T01:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "other",
-      "id": "45064f5bdf536f1b",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:33:02.335Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -5313,93 +4839,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
-    },
-    {
-      "title": "TBElle | Laughing Through the Ages: Jewish Humor, Resilience and Survival (Hybrid)",
-      "description": "This engaging course explores how Jewish communities have long turned to humor—rich with wit, irony, and a keen sense of the absurd—as a powerful way to endure hardship and persecution. Through key moments in Jewish history, we’ll discover how laughter has lived alongside suffering, fostering resilience, offering hope, and illuminating the depth and spirit of the Jewish experience. \nDates: April 28, May 5, 12, 19, (May 26 postponed), June 2, 9 \nJoin us for one, two, or however many classes you’d like to participate in! \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
-      "url": "https://tbewellesley.org/event/tbelle-laughing-through-the-ages-jewish-humor-resilience-and-survival-hybrid-2-3/2026-06-02/",
-      "start": "2026-06-02T14:00:00.000Z",
-      "end": "2026-06-02T15:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "other",
-      "id": "4cd01bbf58a019f3",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
-    },
-    {
-      "title": "Postponed: Lunch & Learn | Meet Spike Kraus: Beyond the Voice",
-      "description": "This event has been postponed – date to be determined. Please reach out to Lynn Burke Harrell with any questions. \nYou’ve seen him. You’ve heard him. Now, meet our Cantorial Soloist, Spike Kraus—in person! Join us for an engaging conversation to learn more from him and about him—his experiences, perspectives, and the stories behind the voice. This is a unique opportunity to connect, ask questions, and get to know Spike beyond what you already know. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis event is sponsored by Lunch & Learn, a unique learning program led by fellow congregants who are excited to share their knowledge and interests in a relaxed, fun weekday experience.",
-      "url": "https://tbewellesley.org/event/lunch-learn-meet-spike-kraus-beyond-the-voice/",
-      "start": "2026-06-02T15:30:00.000Z",
-      "end": "2026-06-02T16:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "other",
-      "id": "d7ce8f5d9cdbdfdd",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
-    },
-    {
-      "title": "Lunch & Learn | Intentional Beauty: Jewish Ritual Art from the Collection (Hybrid)",
-      "description": "Join Gloria Fox as she leads us on a visually rich journey through the highlights of the MFA’s Judaica collection, guiding us with a slide presentation that brings these extraordinary treasures to life. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis event is sponsored by Lunch & Learn, a unique learning program led by fellow congregants who are excited to share their knowledge and interests in a relaxed, fun weekday experience.",
-      "url": "https://tbewellesley.org/event/lunch-learn-intentional-beauty-jewish-ritual-art-from-the-collection-hybrid/",
-      "start": "2026-06-02T15:30:00.000Z",
-      "end": "2026-06-02T16:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "MA",
-        "town": "Wellesley",
-        "lat": 42.2964859,
-        "lon": -71.2925571
-      },
-      "type": "other",
-      "id": "f8222cd42a73a7fe",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
-    },
-    {
-      "title": "Dramatic Changes in Christianity’s View of Judaism After the Holocaust (Hybrid)",
-      "description": "In this course, we’ll explore pivotal statements from the Catholic Church and Protestant churches that dramatically reshaped Christianity’s view of Judaism—alongside the Jewish responses to these changes. Together, we’ll consider the lasting impact of these developments and how contemporary issues continue to influence them, including their role in shaping today’s interfaith dialogue. \nDates: Tuesdays, June 2, 9 \nThis course follows a sequential structure, but anyone is welcome to join at any point, or to drop in to any class. If you have questions regarding participation, please contact the program leader. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis program is a part of TBElle (Temple Beth Elohim Lifelong Learning Experience). For over ten years, TBElle has been a vibrant community where congregants learn and grow together. This relaxed and fun experience is led by you—our fellow TBE members—who are eager to share their knowledge, experiences, stories, and talents. Discover new passions, connect with others, and contribute your unique perspective. Come participate and enrich our shared journey!",
-      "url": "https://tbewellesley.org/event/dramatic-changes-in-christianitys-view-of-judaism-after-the-holocaust-hybrid/2026-06-02/",
-      "start": "2026-06-02T16:45:00.000Z",
-      "end": "2026-06-02T18:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "workshop",
-      "id": "bdf451b60de11c6b",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -5418,7 +4858,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Northboro Senior Center Open House",
@@ -5439,7 +4879,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Northborough Senior Center Open House",
@@ -5460,7 +4900,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -5481,7 +4921,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Meditation @ Stress Reduction in Natick - June 2, 9 & 16",
@@ -5502,7 +4942,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Authors on Stage",
@@ -5523,7 +4963,7 @@
         "id": "patch-wellesley",
         "name": "Wellesley Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.844Z"
+      "ingestedAt": "2026-05-25T13:32:52.773Z"
     },
     {
       "title": "Authors on Stage, Wellesley College",
@@ -5545,7 +4985,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "American Legion&#8217;s 107th Anniversary Celebration",
@@ -5566,7 +5006,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Celebrate the American Legion&#8217;s 107th anniversary",
@@ -5586,29 +5026,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
-    },
-    {
-      "title": "Text & Texture Ceramics Open Studios (In Person)",
-      "description": "We’ll use Jewish texts as inspiration for our work, enjoy snacks and drinks, and learn a wide variety of clay hand-building skills as well as decorative and finishing techniques. All pieces will be fired professionally in our TBE kiln. \nFeel free to utilize the full time or drop in for an hour or two. Whether you’re a beginner or have experience with clay, all skill levels are welcome. A trained ceramics guide will be present to support your journey! \nWith your pass to our open studios you can drop in at any time during your chosen pass period. The pass isn’t limited to a set number of sessions; instead, it provides flexible access whenever you’re available. \nSince ceramics is an ongoing process that involves multiple stages—such as building, firing, and glazing—we’re unable to offer special pricing for individual sessions. \nDates: Wednesdays, April 15, 29, May 6, 13, 20, 27, June 3, 10, 17, 24 \nRegistration: This event is available in person. Please click the appropriate purple bar above to register. Registration closes May 23 at 11:59 pm. \nMembers Fee: Sliding scale of $180 / $270 (suggested) / $360 | Non-members: Fee: $450\nThis fee helps us cover the cost of the kiln and materials. \nBundled Spring Pass | Both Monday Evening & Wednesday Afternoon\nTimes and dates as listed above. \nFee: Members: Sliding scale of $300 / $420 (suggested) / $540 | Non-members: $540 \nThis program is part of The Well at TBE, Institute for Integrative Health, Wellness, and Spirituality. The Well at TBE integrates Jewish spiritual practices and modern mindfulness tools and techniques to provide a source of wellbeing through learning, practice, prayer, and support for individuals on their own and in community.",
-      "url": "https://tbewellesley.org/event/text-texture-ceramics-open-studios-in-person-2/2026-06-03/",
-      "start": "2026-06-03T15:30:00.000Z",
-      "end": "2026-06-03T18:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "other",
-      "id": "b9468e6af41aa73d",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -5628,7 +5046,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.487Z"
+      "ingestedAt": "2026-05-25T13:33:00.937Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -5648,7 +5066,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Saint Bridget School - Spring Open House",
@@ -5668,29 +5086,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
-    },
-    {
-      "title": "Slavery in Massachusetts: Then, and Its Legacy Today (Hybrid)",
-      "description": "Massachusetts is widely celebrated as the heart of the abolitionist movement—but there is a deeper, more complicated story that demands to be told. \nAs we mark our nation’s 250th anniversary, TBE’s Racial Justice Initiative invites you to reckon with a history that is rarely acknowledged: the relationship between wealth and bondage in pre-Revolutionary Massachusetts. The Royall House and Slave Quarters in Medford was the plantation home of the Royalls—the largest slaveholding family in the Commonwealth, with at least 60 enslaved men, women, and children—existing in painful tension with Massachusetts’ Revolutionary fervor for freedom from tyranny. \nJoining us is Dr. Kyera Singleton, Executive Director of the Royall House and Slave Quarters, who will share the stories of those enslaved in the Greater Boston area before Massachusetts’ landmark 1783 court decision to abolish slavery. Dr. Singleton will also illuminate the remarkable resistance and activism of the enslaved and free Black people of that era—stories of courage and dignity that deserve to be heard and honored. \nThis is history that lives in our own backyard, and as a community rooted in the values of justice, tzedakah, and repair, we are called to engage with it fully and honestly. \nThis event is the companion experience to our June 7th tour of Royall House and Slave Quarters. Whether or not you attend that event, all are welcome to join us as we learn from Dr. Kyera Signleton. \nRegistration: This event is available in person and online. Please click the appropriate purple bar above to register. \nThis event is sponsored by the Racial Justice Initiative at TBE, which works to increase our understanding and activism to address ongoing discrimination and inequality. \n ",
-      "url": "https://tbewellesley.org/event/slavery-in-massachusetts-then-and-its-legacy-today-hybrid/",
-      "start": "2026-06-03T23:00:00.000Z",
-      "end": "2026-06-04T00:15:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "family",
-      "id": "1c09bba9c78e6fad",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "ArtSpace: Inspired by Nature— An Imaginative Drawing Workshop (Online with Erica Beade)",
@@ -5710,7 +5106,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.830Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -5730,7 +5126,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.492Z"
+      "ingestedAt": "2026-05-25T13:33:00.941Z"
     },
     {
       "title": "Poetry Workshop",
@@ -5751,29 +5147,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
-    },
-    {
-      "title": "Mahjong (In Person)",
-      "description": "Join us for mahjong at TBE on Thursday afternoons! Whether you’re a seasoned player or have just learned how to play, it’s a wonderful opportunity to make new friends or enjoy a game with familiar faces. Beginners are welcome, though sessions for those who have never played before will resume in the spring. While we’d greatly appreciate it if you could sign up in advance to ensure we have enough mahjong sets and tables for everyone, feel free to drop in if your schedule changes at the last minute. \nRegistration: Email the event organizer, Barbara Marx at barbmarx@gmail.com if you’d like to join us!",
-      "url": "https://tbewellesley.org/event/mahjong-thursday-aftenoons/2026-06-04/",
-      "start": "2026-06-04T18:00:00.000Z",
-      "end": "2026-06-04T20:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Temple Beth Elohim",
-        "town": "Wellesley",
-        "address": "10 Bethel Road, Wellesley, MA, 02081",
-        "lat": 42.319317,
-        "lon": -71.2523411
-      },
-      "type": "mahjong",
-      "id": "2db0c2999bd1c4fa",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.741Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Wellesley Pride Celebration",
@@ -5795,29 +5169,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
-    },
-    {
-      "title": "PrideWellesley 2026 Celebration (Offsite)",
-      "description": "Join TBE and our neighbors at PrideWellesley, the inaugural community LGBTQIA+ pride event for the town. It will be an evening of community, music, lawn games, raffle prizes, and food trucks as we celebrate Pride together. Everyone is welcome, invite your family and friends. \nRegistration: This event is available in person (offsite). Please click the appropriate purple bar above to register. \nThis event is sponsored/hosted by World of Wellesley and UU Wellesley Hills, and cosponsored by Temple Beth Elohim, Wellesley Congregational Village Church, Saint Andrew’s Episcopal Church, The Wellesley Freedom Team, and Eliot Church of South Natick. \n ",
-      "url": "https://tbewellesley.org/event/2026-pridewellesley-celebration-offsite/",
-      "start": "2026-06-04T21:00:00.000Z",
-      "end": "2026-06-04T23:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "UU Wellesley Hills",
-        "town": "Wellesley",
-        "address": "309 Washington Street, Wellesley, MA, 02481, United States",
-        "lat": 42.3118825,
-        "lon": -71.2758376
-      },
-      "type": "family",
-      "id": "14f2d84ee5eba215",
-      "source": {
-        "id": "tbe-wellesley",
-        "name": "Temple Beth Elohim Wellesley"
-      },
-      "ingestedAt": "2026-05-25T13:12:49.742Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "The Perfect Pizza Pie – Adult Cooking Class",
@@ -5837,7 +5189,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.191Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "50 Hikes Through History",
@@ -5857,7 +5209,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Charles River Center, Lifeworks and Riverside to host legislative breakfast on June 5",
@@ -5880,7 +5232,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "Open Mic Café at the MAC",
@@ -5901,7 +5253,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Rope by Patrick Hamilton",
@@ -5923,7 +5275,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.836Z"
+      "ingestedAt": "2026-05-25T13:32:14.966Z"
     },
     {
       "title": "Beyond Binaries: Histories of Gender through Time",
@@ -5944,7 +5296,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.298Z"
     },
     {
       "title": "Big Yard Sale",
@@ -5964,7 +5316,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "First Parish in Wayland Yard Sale! ",
@@ -5985,7 +5337,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Town Wide Yard Sale in Westborough",
@@ -6005,7 +5357,7 @@
         "id": "patch-westborough",
         "name": "Westborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:32.782Z"
+      "ingestedAt": "2026-05-25T13:32:56.354Z"
     },
     {
       "title": "ArtSpace: Making Shapes: Online Workshop",
@@ -6025,7 +5377,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.830Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Wellesley Trails Committee Guided Walk—Mini-Grand Tour",
@@ -6048,7 +5400,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Experiencing the Joy of Cycling: Free Adaptive Rail Trail Rides in Sudbury on June 6",
@@ -6069,7 +5421,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.596Z"
     },
     {
       "title": "Splendid Strawberries – Adult Cooking Class",
@@ -6089,7 +5441,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.191Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Encore! Favorite Songs from Recent Seasons",
@@ -6110,7 +5462,7 @@
         "id": "patch-needham",
         "name": "Needham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.491Z"
+      "ingestedAt": "2026-05-25T13:32:55.721Z"
     },
     {
       "title": "Colonial Whiskey Tasting at Jones Tavern",
@@ -6131,7 +5483,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.830Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Reception for Tides of Change",
@@ -6151,7 +5503,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Mano a Mano: Arias in Dialogue",
@@ -6172,7 +5524,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:21.166Z"
+      "ingestedAt": "2026-05-25T13:32:52.939Z"
     },
     {
       "title": "Souldacious Wonders - The Return!",
@@ -6193,7 +5545,7 @@
         "id": "patch-medfield",
         "name": "Medfield Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:28.445Z"
+      "ingestedAt": "2026-05-25T13:32:55.222Z"
     },
     {
       "title": "Worship with Us! Second Sunday after Pentecost",
@@ -6214,7 +5566,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.830Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Art in the Park —Shaw Park",
@@ -6236,7 +5588,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Mosaic Mirror or Heart Workshop",
@@ -6256,7 +5608,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Mosaic Jewelry or Frame Worksop",
@@ -6276,7 +5628,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "“Regenerative Gardening in Today’s World”",
@@ -6297,7 +5649,7 @@
         "id": "patch-needham",
         "name": "Needham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.491Z"
+      "ingestedAt": "2026-05-25T13:32:55.721Z"
     },
     {
       "title": "Spark Fest family-friendly event",
@@ -6317,7 +5669,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "The Boston Scottish Fiddle Orchestra Annual Gala",
@@ -6340,7 +5692,7 @@
         "id": "needham-observer",
         "name": "Needham Observer - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:36.902Z"
+      "ingestedAt": "2026-05-25T13:33:00.440Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -6360,7 +5712,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.490Z"
+      "ingestedAt": "2026-05-25T13:33:00.939Z"
     },
     {
       "title": "Layla Lynn Bober Memorial Foundation 6th Annual Golf Tournament",
@@ -6381,7 +5733,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "Hikes through History &#8211; Coburnville &#038; Tripoli",
@@ -6402,7 +5754,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.302Z"
     },
     {
       "title": "Game Group",
@@ -6423,7 +5775,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Author Talk: “Wildlife Out Your Window” And Westborough Community Land Trust Annual Meeting",
@@ -6444,7 +5796,7 @@
         "id": "patch-westborough",
         "name": "Westborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:32.782Z"
+      "ingestedAt": "2026-05-25T13:32:56.354Z"
     },
     {
       "title": "Coffee Connect at Linden Square",
@@ -6465,7 +5817,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -6484,7 +5836,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -6503,7 +5855,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -6524,7 +5876,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.369Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Needle Felting: Cacti",
@@ -6545,7 +5897,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "TCAN Open Mic",
@@ -6566,7 +5918,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:41.473Z"
+      "ingestedAt": "2026-05-25T13:32:15.100Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -6586,7 +5938,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.488Z"
+      "ingestedAt": "2026-05-25T13:33:00.937Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -6606,7 +5958,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.496Z"
+      "ingestedAt": "2026-05-25T13:33:00.944Z"
     },
     {
       "title": "3D Design Workshop - Sliding lid box",
@@ -6627,7 +5979,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.370Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Let There Be Drums!",
@@ -6648,7 +6000,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.835Z"
+      "ingestedAt": "2026-05-25T13:32:14.965Z"
     },
     {
       "title": "Make-A-Wish Pickleball Classic coming to Natick",
@@ -6668,7 +6020,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -6688,7 +6040,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.493Z"
+      "ingestedAt": "2026-05-25T13:33:00.941Z"
     },
     {
       "title": "The Perfect Pizza Pie – Adult Cooking Class",
@@ -6708,7 +6060,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.191Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Charles River Regional Chamber Women’s Conference",
@@ -6730,7 +6082,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "St. John’s Annual Rummage Sale",
@@ -6751,7 +6103,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:21.166Z"
+      "ingestedAt": "2026-05-25T13:32:52.939Z"
     },
     {
       "title": "Curator Spotlight Talk: Revolutionary Legacies ",
@@ -6772,7 +6124,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Sally's Night Celebration - Free Planetarium Program",
@@ -6793,7 +6145,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.202Z"
     },
     {
       "title": "RENT the Musical",
@@ -6814,7 +6166,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.203Z"
     },
     {
       "title": "Acton Community Chorus Spring Concert: \"Movie Night\"",
@@ -6835,7 +6187,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "St. John’s Annual Rummage Sale",
@@ -6856,7 +6208,7 @@
         "id": "patch-hopkinton",
         "name": "Holliston-Hopkinton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:21.166Z"
+      "ingestedAt": "2026-05-25T13:32:52.939Z"
     },
     {
       "title": "Sudbury Art Association Spring Art Fair",
@@ -6877,7 +6229,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.203Z"
     },
     {
       "title": "Get Creative! Come to Bedford’s Music & Arts Experience 2026",
@@ -6898,7 +6250,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -6919,7 +6271,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Wellesley Trails Committee Guided Walk—Centennial Reservation",
@@ -6941,7 +6293,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Old Hill Burial Ground Walking Tour ",
@@ -6962,7 +6314,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Legally Blonde Jr.",
@@ -6983,7 +6335,7 @@
         "id": "patch-natick",
         "name": "Natick Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.272Z"
+      "ingestedAt": "2026-05-25T13:32:52.244Z"
     },
     {
       "title": "Diplomat in China: Framingham’s Peter Parker &#8211; Virtual Program",
@@ -7004,7 +6356,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:58.002Z"
+      "ingestedAt": "2026-05-25T13:32:33.936Z"
     },
     {
       "title": "Pancake Breakfast",
@@ -7025,7 +6377,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.203Z"
     },
     {
       "title": "PMC Kids Ride Newton-Needham",
@@ -7046,7 +6398,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "ArtSpace: Where to Start? 3 Tips for Beginner Artists and DIYers",
@@ -7067,7 +6419,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Weaving The Wrack Line Workshop",
@@ -7087,7 +6439,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.370Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Second Sunday Open House Tours",
@@ -7108,7 +6460,7 @@
         "id": "patch-weston",
         "name": "Weston Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.774Z"
+      "ingestedAt": "2026-05-25T13:32:52.870Z"
     },
     {
       "title": "Wellesley’s Annual Flag Retirement Day Ceremony",
@@ -7129,7 +6481,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.024Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Knitting Class: Perfect Summer Cardigan",
@@ -7150,7 +6502,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Crochet Class: The Whisper Top",
@@ -7171,7 +6523,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Framingham Repair Cafe",
@@ -7191,7 +6543,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.203Z"
     },
     {
       "title": "Race Amity Day in Needham",
@@ -7213,7 +6565,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "Carbon Leaf",
@@ -7234,7 +6586,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.838Z"
+      "ingestedAt": "2026-05-25T13:32:14.971Z"
     },
     {
       "title": "140Arts Film Festival 2026",
@@ -7253,7 +6605,7 @@
         "id": "patch-westborough",
         "name": "Westborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:32.782Z"
+      "ingestedAt": "2026-05-25T13:32:56.354Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -7273,7 +6625,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.491Z"
+      "ingestedAt": "2026-05-25T13:33:00.939Z"
     },
     {
       "title": "Framingham’s Automotive History &#8211; Special Lecture &#038; Reception",
@@ -7294,7 +6646,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.302Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -7313,7 +6665,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Acrylic Painting Class: Poppy Fields",
@@ -7334,7 +6686,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -7353,7 +6705,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Social Worker Drop-In Hours",
@@ -7374,7 +6726,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.370Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Shawn Colvin",
@@ -7395,7 +6747,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.836Z"
+      "ingestedAt": "2026-05-25T13:32:14.967Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -7415,7 +6767,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.488Z"
+      "ingestedAt": "2026-05-25T13:33:00.938Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -7435,7 +6787,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.496Z"
+      "ingestedAt": "2026-05-25T13:33:00.944Z"
     },
     {
       "title": "ArtSpace: Fabric Art Workshop",
@@ -7455,7 +6807,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -7475,7 +6827,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.493Z"
+      "ingestedAt": "2026-05-25T13:33:00.941Z"
     },
     {
       "title": "Love for Lifesavers",
@@ -7495,7 +6847,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.589Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Poetry Workshop",
@@ -7516,7 +6868,7 @@
         "id": "patch-wayland",
         "name": "Wayland Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.370Z"
+      "ingestedAt": "2026-05-25T13:32:52.817Z"
     },
     {
       "title": "Grill and Gather – Adult Cooking Class",
@@ -7536,7 +6888,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.191Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Concord’s Black History | History Happy Hour",
@@ -7557,7 +6909,7 @@
         "id": "patch-concord",
         "name": "Concord Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.118Z"
+      "ingestedAt": "2026-05-25T13:32:53.699Z"
     },
     {
       "title": "Damn Tall Buildings",
@@ -7578,7 +6930,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:41.470Z"
+      "ingestedAt": "2026-05-25T13:32:15.097Z"
     },
     {
       "title": "3rd Annual Trivia Championship",
@@ -7599,7 +6951,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.294Z"
     },
     {
       "title": "Reading Frederick Douglass &#038; Celebrating Juneteenth",
@@ -7619,7 +6971,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Comfort on the Farm: A Juneteenth Farm Dinner with Comfort Kitchen",
@@ -7639,7 +6991,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.191Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "RENT the Musical",
@@ -7660,7 +7012,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.069Z"
+      "ingestedAt": "2026-05-25T13:32:52.203Z"
     },
     {
       "title": "Booker T. Jones",
@@ -7681,7 +7033,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.839Z"
+      "ingestedAt": "2026-05-25T13:32:14.972Z"
     },
     {
       "title": "Concord Electronics Recycling Event ♻️",
@@ -7702,7 +7054,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.596Z"
     },
     {
       "title": " Discover Millborn Farm: A Community Celebration",
@@ -7722,7 +7074,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.192Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Double Sling Flow",
@@ -7743,7 +7095,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.589Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "All My Sons",
@@ -7765,7 +7117,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.968Z"
     },
     {
       "title": "FREE Live Bollywood Music Concert by Din Check in Northborough, MA",
@@ -7786,7 +7138,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "June Food Day 2026",
@@ -7807,7 +7159,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Southern Avenue",
@@ -7828,7 +7180,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.838Z"
+      "ingestedAt": "2026-05-25T13:32:14.971Z"
     },
     {
       "title": "Bay State Motor Festival",
@@ -7849,7 +7201,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.070Z"
+      "ingestedAt": "2026-05-25T13:32:52.203Z"
     },
     {
       "title": "Tour de Natick – Family Bike Ride 🚴‍♂️",
@@ -7870,7 +7222,7 @@
         "id": "patch-framingham",
         "name": "Framingham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.070Z"
+      "ingestedAt": "2026-05-25T13:32:52.203Z"
     },
     {
       "title": "Tour de Natick cycling event",
@@ -7892,7 +7244,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Father's Day Bluegrass BBQ",
@@ -7912,7 +7264,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.192Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Father's Day concert with Scottish power trio Cantrip",
@@ -7932,7 +7284,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.596Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -7952,7 +7304,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.492Z"
+      "ingestedAt": "2026-05-25T13:33:00.939Z"
     },
     {
       "title": "Nipmuc Lifeways through Framingham Artifacts: Foodways",
@@ -7973,7 +7325,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.207Z"
+      "ingestedAt": "2026-05-25T13:32:31.304Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -7992,7 +7344,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -8011,7 +7363,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "free Creeque Alley folk-rock concert returns to senior center",
@@ -8032,7 +7384,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Strega Nona: Pasta Trouble",
@@ -8053,7 +7405,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.975Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -8073,7 +7425,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.488Z"
+      "ingestedAt": "2026-05-25T13:33:00.938Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -8093,7 +7445,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.496Z"
+      "ingestedAt": "2026-05-25T13:33:00.944Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -8113,7 +7465,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.493Z"
+      "ingestedAt": "2026-05-25T13:33:00.941Z"
     },
     {
       "title": "Cochituate Rail Trail extension celebration in Natick Center",
@@ -8133,7 +7485,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Ribbon cutting for the new Cochituate Rail Trail extension",
@@ -8155,7 +7507,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Thursday Summer Sunsets at Powisset Farm",
@@ -8175,7 +7527,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.192Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Clopener of Framingham’s Collective Journeys",
@@ -8196,7 +7548,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.294Z"
     },
     {
       "title": "Boston Comics",
@@ -8217,7 +7569,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.835Z"
+      "ingestedAt": "2026-05-25T13:32:14.965Z"
     },
     {
       "title": "Acton-Westford Pride Festival 2026!",
@@ -8238,7 +7590,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Great American Campout - NARA Park, Acton!",
@@ -8259,7 +7611,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Teddy Thompson",
@@ -8280,7 +7632,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.836Z"
+      "ingestedAt": "2026-05-25T13:32:14.967Z"
     },
     {
       "title": "Stitching Revolution in Massachusetts: Quilting & Dancing",
@@ -8301,7 +7653,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.300Z"
     },
     {
       "title": "2026 Mornings at the Museum",
@@ -8322,7 +7674,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.294Z"
     },
     {
       "title": "Cloudy With A Chance of Cheeseburgers",
@@ -8343,7 +7695,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.975Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -8363,7 +7715,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.492Z"
+      "ingestedAt": "2026-05-25T13:33:00.940Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -8382,7 +7734,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -8401,7 +7753,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -8421,7 +7773,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.488Z"
+      "ingestedAt": "2026-05-25T13:33:00.938Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -8441,7 +7793,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.496Z"
+      "ingestedAt": "2026-05-25T13:33:00.944Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -8461,7 +7813,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.493Z"
+      "ingestedAt": "2026-05-25T13:33:00.941Z"
     },
     {
       "title": "Acton Celebrates Independence Day!",
@@ -8482,7 +7834,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Natick Friends of the 4th Community Picnic",
@@ -8501,7 +7853,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "High School Summer Program at Babson – Apply Now",
@@ -8522,7 +7874,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "The Trial of the Big Bad Wolf: A New Point of View",
@@ -8543,7 +7895,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.975Z"
     },
     {
       "title": "FREE Basketball Clinic for Kids!",
@@ -8564,7 +7916,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.596Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -8584,7 +7936,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.492Z"
+      "ingestedAt": "2026-05-25T13:33:00.940Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -8603,7 +7955,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -8622,7 +7974,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -8642,7 +7994,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.489Z"
+      "ingestedAt": "2026-05-25T13:33:00.938Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -8662,7 +8014,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.496Z"
+      "ingestedAt": "2026-05-25T13:33:00.944Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -8682,7 +8034,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.493Z"
+      "ingestedAt": "2026-05-25T13:33:00.941Z"
     },
     {
       "title": "Animals - The Maroon 5 Tribute!",
@@ -8703,7 +8055,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Rules of the Ride—bike handling and confidence for 5th to 8th graders",
@@ -8725,7 +8077,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.025Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Black Joe Lewis &#038; The Honeybears",
@@ -8746,7 +8098,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.835Z"
+      "ingestedAt": "2026-05-25T13:32:14.964Z"
     },
     {
       "title": "Shawn Mullins",
@@ -8767,7 +8119,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.835Z"
+      "ingestedAt": "2026-05-25T13:32:14.965Z"
     },
     {
       "title": "James and the Giant Peach",
@@ -8788,7 +8140,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.975Z"
     },
     {
       "title": "FREE Vacation Bible Adventure for Kids!",
@@ -8809,7 +8161,7 @@
         "id": "patch-sudbury",
         "name": "Sudbury Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:19.767Z"
+      "ingestedAt": "2026-05-25T13:32:52.596Z"
     },
     {
       "title": "Hikes through History &#8211; Nobscot",
@@ -8830,7 +8182,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.301Z"
     },
     {
       "title": "Mah Jongg Club at Sherborn Library",
@@ -8850,7 +8202,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.492Z"
+      "ingestedAt": "2026-05-25T13:33:00.940Z"
     },
     {
       "title": "Creative Arts & Movement Camp for Kids 6-10",
@@ -8871,7 +8223,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.589Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Mahjong at Sherborn COA",
@@ -8890,7 +8242,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.495Z"
+      "ingestedAt": "2026-05-25T13:33:00.943Z"
     },
     {
       "title": "Pick-up Mahjong at Tolles Parsons Center",
@@ -8909,7 +8261,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Mah Jongg in the Garden at Elm Bank",
@@ -8929,7 +8281,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.489Z"
+      "ingestedAt": "2026-05-25T13:33:00.938Z"
     },
     {
       "title": "MahJong at Dedham Ames Senior Center",
@@ -8949,7 +8301,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.496Z"
+      "ingestedAt": "2026-05-25T13:33:00.944Z"
     },
     {
       "title": "Mah Jongg at Caryl Center",
@@ -8969,7 +8321,7 @@
         "id": "mahjong-recurring",
         "name": "MetroWest Mah Jongg drop-ins (manual)"
       },
-      "ingestedAt": "2026-05-25T13:12:37.494Z"
+      "ingestedAt": "2026-05-25T13:33:00.942Z"
     },
     {
       "title": "Hikes through History Series: Saxonville",
@@ -8990,7 +8342,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.207Z"
+      "ingestedAt": "2026-05-25T13:32:31.304Z"
     },
     {
       "title": "Haggis X-1",
@@ -9011,7 +8363,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.838Z"
+      "ingestedAt": "2026-05-25T13:32:14.970Z"
     },
     {
       "title": "Eric Hutchinson",
@@ -9032,7 +8384,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:42.663Z"
+      "ingestedAt": "2026-05-25T13:32:15.227Z"
     },
     {
       "title": "MOPO Miler swim at Morses Pond",
@@ -9052,7 +8404,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.025Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Bluebird Improv",
@@ -9073,7 +8425,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.838Z"
+      "ingestedAt": "2026-05-25T13:32:14.970Z"
     },
     {
       "title": "Peter Pan",
@@ -9094,7 +8446,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.975Z"
     },
     {
       "title": "Thursday Summer Sunsets at Powisset Farm",
@@ -9114,7 +8466,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.192Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Shot of Poison - The World's Best Tribute to Poison",
@@ -9135,7 +8487,7 @@
         "id": "patch-acton",
         "name": "Acton Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:20.831Z"
+      "ingestedAt": "2026-05-25T13:32:52.915Z"
     },
     {
       "title": "Band of Brothers",
@@ -9156,7 +8508,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.838Z"
+      "ingestedAt": "2026-05-25T13:32:14.970Z"
     },
     {
       "title": "Art & the Family Archive | Collage as Protest and Portraiture with Ileana Doble Hernandez",
@@ -9177,7 +8529,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.298Z"
     },
     {
       "title": "The Everly Brothers Experience",
@@ -9198,7 +8550,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.833Z"
+      "ingestedAt": "2026-05-25T13:32:14.962Z"
     },
     {
       "title": "The Lorax: A Cautionary Tale",
@@ -9219,7 +8571,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.974Z"
     },
     {
       "title": "Lez Zeppelin",
@@ -9240,7 +8592,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.836Z"
+      "ingestedAt": "2026-05-25T13:32:14.966Z"
     },
     {
       "title": "Paisley Project",
@@ -9261,7 +8613,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.834Z"
+      "ingestedAt": "2026-05-25T13:32:14.964Z"
     },
     {
       "title": "Haley Reinhart",
@@ -9282,7 +8634,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.834Z"
+      "ingestedAt": "2026-05-25T13:32:14.964Z"
     },
     {
       "title": "Princess Picky",
@@ -9303,7 +8655,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.974Z"
     },
     {
       "title": "The James Hunter Six",
@@ -9324,7 +8676,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.967Z"
     },
     {
       "title": "Texas Flood",
@@ -9345,7 +8697,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.836Z"
+      "ingestedAt": "2026-05-25T13:32:14.966Z"
     },
     {
       "title": "Annual Golf Tournament",
@@ -9366,7 +8718,7 @@
         "id": "patch-northborough",
         "name": "Northborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.717Z"
+      "ingestedAt": "2026-05-25T13:32:55.742Z"
     },
     {
       "title": "Duane Betts &#038; Palmetto Motel",
@@ -9387,7 +8739,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.968Z"
     },
     {
       "title": "Bearly Dead",
@@ -9408,7 +8760,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:41.479Z"
+      "ingestedAt": "2026-05-25T13:32:15.104Z"
     },
     {
       "title": "Half Magic: A Twisted Tale of Trickery",
@@ -9429,7 +8781,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.840Z"
+      "ingestedAt": "2026-05-25T13:32:14.974Z"
     },
     {
       "title": "Creative Arts & Movement Camp for Kids 6-10",
@@ -9450,7 +8802,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.590Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Thursday Summer Sunsets at Powisset Farm",
@@ -9470,7 +8822,7 @@
         "id": "patch-dover",
         "name": "Dover Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:24.192Z"
+      "ingestedAt": "2026-05-25T13:32:53.975Z"
     },
     {
       "title": "Larry McCray",
@@ -9491,7 +8843,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.968Z"
     },
     {
       "title": "Spyro Gyra",
@@ -9512,7 +8864,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.968Z"
     },
     {
       "title": "Seven Chances (1925)",
@@ -9533,7 +8885,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.969Z"
     },
     {
       "title": "Ty Burkhardt",
@@ -9554,7 +8906,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.834Z"
+      "ingestedAt": "2026-05-25T13:32:14.963Z"
     },
     {
       "title": "Skerryvore",
@@ -9575,7 +8927,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.968Z"
     },
     {
       "title": "The Infrastructure of Health in Framingham",
@@ -9596,7 +8948,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.297Z"
     },
     {
       "title": "David Nail",
@@ -9617,7 +8969,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.835Z"
+      "ingestedAt": "2026-05-25T13:32:14.965Z"
     },
     {
       "title": "Nourishing Your Changing Body: A Perimenopause & Menopause Workshop",
@@ -9638,7 +8990,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.590Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Tom Rush",
@@ -9659,7 +9011,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:41.479Z"
+      "ingestedAt": "2026-05-25T13:32:15.104Z"
     },
     {
       "title": "Volunteer Appreciation Night with a Special Presentation on Framingham’s Chautauqua Movement",
@@ -9680,7 +9032,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.207Z"
+      "ingestedAt": "2026-05-25T13:32:31.304Z"
     },
     {
       "title": "Parent & Child Partner Aerial Yoga",
@@ -9701,7 +9053,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.590Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "The Bridges of Saxonville",
@@ -9722,7 +9074,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.208Z"
+      "ingestedAt": "2026-05-25T13:32:31.306Z"
     },
     {
       "title": "♨️ Inner Peace: Low Hammock Restorative & Reiki Healing",
@@ -9743,7 +9095,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.590Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "2025 Big Band Music Social Dance",
@@ -9764,7 +9116,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.297Z"
     },
     {
       "title": "SOLD OUT &#8211; 2024 FHC Swing Dance",
@@ -9785,7 +9137,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.301Z"
     },
     {
       "title": "The Bros. Landreth: Tumbling Wild Tour 2026",
@@ -9806,7 +9158,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.969Z"
     },
     {
       "title": "Illusionist Leon Etienne",
@@ -9827,7 +9179,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.834Z"
+      "ingestedAt": "2026-05-25T13:32:14.964Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -9849,7 +9201,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.368Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "The Linda Ronstadt Experience",
@@ -9870,7 +9222,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:41.480Z"
+      "ingestedAt": "2026-05-25T13:32:15.105Z"
     },
     {
       "title": "Five for Fighting with String Quartet",
@@ -9891,7 +9243,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.836Z"
+      "ingestedAt": "2026-05-25T13:32:14.967Z"
     },
     {
       "title": "Hikes through History Series: Coburnville/Tripoli &#8211; SOLD OUT",
@@ -9912,7 +9264,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.207Z"
+      "ingestedAt": "2026-05-25T13:32:31.304Z"
     },
     {
       "title": "Ronnie Earl",
@@ -9933,7 +9285,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.833Z"
+      "ingestedAt": "2026-05-25T13:32:14.963Z"
     },
     {
       "title": "Call for Walkers: Register for the 38th Annual Jimmy Fund Walk for Dana-Farber presented by Hyundai",
@@ -9955,7 +9307,7 @@
         "id": "needham-local",
         "name": "Needham Local - This Week"
       },
-      "ingestedAt": "2026-05-25T13:12:35.710Z"
+      "ingestedAt": "2026-05-25T13:32:59.140Z"
     },
     {
       "title": "Jimmy Fund Walk for Dana-Farber (routes goes through Natick)",
@@ -9975,7 +9327,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.369Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "Jimmy Fund Walk for Dana-Farber (routes go through Wellesley)",
@@ -9995,7 +9347,7 @@
         "id": "swellesley-report",
         "name": "The Swellesley Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:34.025Z"
+      "ingestedAt": "2026-05-25T13:32:57.559Z"
     },
     {
       "title": "Beau Geste (1926)",
@@ -10016,7 +9368,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.969Z"
     },
     {
       "title": "SOLD OUT &#8211; 2024 Hike Through History &#8211; Nipmuc Lifeways",
@@ -10037,7 +9389,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.301Z"
     },
     {
       "title": "Chrissi Poland: Forever Muscle Shoals",
@@ -10058,7 +9410,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.833Z"
+      "ingestedAt": "2026-05-25T13:32:14.963Z"
     },
     {
       "title": "♨️ The Healing Hammock: Restorative Aerial Yoga & Sacred Sound",
@@ -10079,7 +9431,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.590Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "2021 Framingham History Center Virtual House Tour",
@@ -10100,7 +9452,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.209Z"
+      "ingestedAt": "2026-05-25T13:32:31.308Z"
     },
     {
       "title": "All Aboard, an accessible and adaptive cycling program on Cochituate Rail Trail",
@@ -10122,7 +9474,7 @@
         "id": "natick-report",
         "name": "Natick Report - Events"
       },
-      "ingestedAt": "2026-05-25T13:12:33.369Z"
+      "ingestedAt": "2026-05-25T13:32:56.977Z"
     },
     {
       "title": "2025 Hike Through History &#8211; Nipmuc Lifeways",
@@ -10143,7 +9495,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.296Z"
     },
     {
       "title": "Needham High School Artisan Craft Fair and Bake Sale",
@@ -10164,7 +9516,7 @@
         "id": "patch-needham",
         "name": "Needham Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:30.491Z"
+      "ingestedAt": "2026-05-25T13:32:55.721Z"
     },
     {
       "title": "Mike Dawes",
@@ -10185,7 +9537,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:41.472Z"
+      "ingestedAt": "2026-05-25T13:32:15.099Z"
     },
     {
       "title": "Rasputina",
@@ -10206,7 +9558,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.834Z"
+      "ingestedAt": "2026-05-25T13:32:14.963Z"
     },
     {
       "title": "2024 Tag Sale",
@@ -10227,7 +9579,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.301Z"
     },
     {
       "title": "♨️ Inner Peace: Low Hammock Restorative & Reiki Healing",
@@ -10248,7 +9600,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.590Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "“Views of Framingham” &#8211; Howard Street Studios Artist Reception &#038; Community Drawing Event",
@@ -10269,7 +9621,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.300Z"
     },
     {
       "title": "2025 Hike Through History &#8211; Coburnville-Tripoli",
@@ -10290,7 +9642,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.296Z"
     },
     {
       "title": "The Framingham History Center Virtual House Tour",
@@ -10311,7 +9663,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:58.001Z"
+      "ingestedAt": "2026-05-25T13:32:33.935Z"
     },
     {
       "title": "Parent & Child Partner Aerial Yoga",
@@ -10332,7 +9684,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.591Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Art & the Family Archive | Family Fictions with artist Liz Albert",
@@ -10353,7 +9705,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.297Z"
     },
     {
       "title": "Caroling on the Common",
@@ -10374,7 +9726,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.209Z"
+      "ingestedAt": "2026-05-25T13:32:31.307Z"
     },
     {
       "title": "Christa Corrigan McAuliffe, Symbol of Ordinary People Achieving Extraordinary Things",
@@ -10395,7 +9747,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.296Z"
     },
     {
       "title": "When the Clouds Roll By (1919)",
@@ -10416,7 +9768,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.837Z"
+      "ingestedAt": "2026-05-25T13:32:14.969Z"
     },
     {
       "title": "Caroling on the Common",
@@ -10437,7 +9789,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.296Z"
     },
     {
       "title": "Steven Page",
@@ -10458,7 +9810,7 @@
         "id": "tcan",
         "name": "The Center for Arts in Natick (TCAN)"
       },
-      "ingestedAt": "2026-05-25T13:11:39.834Z"
+      "ingestedAt": "2026-05-25T13:32:14.964Z"
     },
     {
       "title": "♨️ The Healing Hammock: Restorative Aerial Yoga & Sacred Sound",
@@ -10479,7 +9831,7 @@
         "id": "patch-marlborough",
         "name": "Marlborough Patch - Calendar"
       },
-      "ingestedAt": "2026-05-25T13:12:27.591Z"
+      "ingestedAt": "2026-05-25T13:32:55.013Z"
     },
     {
       "title": "Art & the Family Archive | The Persistence of Family with Diana Cheren Nygren",
@@ -10500,7 +9852,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.298Z"
     },
     {
       "title": "Craft with History Series",
@@ -10521,7 +9873,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.207Z"
+      "ingestedAt": "2026-05-25T13:32:31.304Z"
     },
     {
       "title": "CLOSED",
@@ -10542,7 +9894,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.208Z"
+      "ingestedAt": "2026-05-25T13:32:31.305Z"
     },
     {
       "title": "Closed",
@@ -10563,7 +9915,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.208Z"
+      "ingestedAt": "2026-05-25T13:32:31.306Z"
     },
     {
       "title": "Art &#038; the Family Archive: Astrid Reischwitz: Embroidery on Photograph",
@@ -10584,7 +9936,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.300Z"
     },
     {
       "title": "50th Anniversary Event: FHC’s Third Grade Program",
@@ -10605,7 +9957,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.204Z"
+      "ingestedAt": "2026-05-25T13:32:31.296Z"
     },
     {
       "title": "Knox Trail 250th Commemorative Program",
@@ -10626,7 +9978,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.295Z"
     },
     {
       "title": "1780 &#8211; 2025 Reclaimed: “A Child of that Next Day”",
@@ -10647,7 +9999,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.300Z"
     },
     {
       "title": "Art & Family Archive: Vivian Poey: Barquito de papel",
@@ -10668,7 +10020,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.300Z"
     },
     {
       "title": "Why Isn’t He Famous? Dr. Solomon Carter Fuller &#038; Friends",
@@ -10689,7 +10041,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.209Z"
+      "ingestedAt": "2026-05-25T13:32:31.307Z"
     },
     {
       "title": "“You Don’t Know Jack’s” Framingham Trivia Championship Night!",
@@ -10710,7 +10062,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.302Z"
     },
     {
       "title": "2025 Annual Meeting &#038; Special Lecture",
@@ -10731,7 +10083,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.299Z"
     },
     {
       "title": "FHC 2026 Annual Meeting & Special Lecture",
@@ -10752,7 +10104,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.295Z"
     },
     {
       "title": "2nd Annual Trivia Championship",
@@ -10773,7 +10125,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.299Z"
     },
     {
       "title": "2023 FHC Annual Meeting",
@@ -10794,7 +10146,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.208Z"
+      "ingestedAt": "2026-05-25T13:32:31.305Z"
     },
     {
       "title": "Book Talk &#038; Signing: “World War II Massachusetts” with Author James L. Parr",
@@ -10815,7 +10167,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.302Z"
     },
     {
       "title": "Frances Lewis Wilson: Letters from Haiti 1843-1870",
@@ -10836,7 +10188,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.209Z"
+      "ingestedAt": "2026-05-25T13:32:31.307Z"
     },
     {
       "title": "Art & Family Archive: Nilou Moochhala: The Sacred Strands of Continuity",
@@ -10857,7 +10209,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.299Z"
     },
     {
       "title": "Spies in Plain Sight: How a Botched Mission Led to Lexington and Concord",
@@ -10878,7 +10230,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.299Z"
     },
     {
       "title": "Celebrate Framingham’s Firefighter History",
@@ -10899,7 +10251,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.299Z"
     },
     {
       "title": "2024 FHC Annual Meeting",
@@ -10920,7 +10272,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.302Z"
     },
     {
       "title": "Hikes through History Series",
@@ -10941,7 +10293,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.208Z"
+      "ingestedAt": "2026-05-25T13:32:31.305Z"
     },
     {
       "title": "Through Their Eyes: Artifacts &#038; Stories of Framingham’s Role in WWII",
@@ -10962,7 +10314,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.206Z"
+      "ingestedAt": "2026-05-25T13:32:31.302Z"
     },
     {
       "title": "2025 Hike Through History &#8211; Weston Aqueduct",
@@ -10983,7 +10335,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.299Z"
     },
     {
       "title": "I Am Every Migrant Child: Reflections of a World War II Orphan",
@@ -11004,7 +10356,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.209Z"
+      "ingestedAt": "2026-05-25T13:32:31.307Z"
     },
     {
       "title": "Hike Through History &#8211; Callahan State Park",
@@ -11025,7 +10377,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.295Z"
     },
     {
       "title": "Hikes through History Series: Downtown",
@@ -11046,7 +10398,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.207Z"
+      "ingestedAt": "2026-05-25T13:32:31.304Z"
     },
     {
       "title": "Revolutionary Networks: Printers, Politics, and the Power of the Press",
@@ -11067,7 +10419,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.298Z"
     },
     {
       "title": "Art & the Family Archive: “Photography and Words – An Ekphrastic Poetry Experience”",
@@ -11088,7 +10440,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.298Z"
     },
     {
       "title": "Framingham’s Top 10",
@@ -11109,7 +10461,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.207Z"
+      "ingestedAt": "2026-05-25T13:32:31.305Z"
     },
     {
       "title": "2026 FHC House Tour",
@@ -11130,7 +10482,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.203Z"
+      "ingestedAt": "2026-05-25T13:32:31.295Z"
     },
     {
       "title": "2025 FHC House Tour",
@@ -11151,7 +10503,7 @@
         "id": "framingham-history",
         "name": "Framingham History Center"
       },
-      "ingestedAt": "2026-05-25T13:11:56.205Z"
+      "ingestedAt": "2026-05-25T13:32:31.300Z"
     }
   ]
 }
