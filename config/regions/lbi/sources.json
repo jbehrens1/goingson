@@ -60,12 +60,18 @@
       "id": "surf-city-hotel",
       "name": "Surf City Hotel",
       "enabled": true,
-      "adapter": "html-generic",
-      "url": "https://surfcityhotel.com/entertainment.html",
+      "adapter": "ical",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "category": "Venue / Hotel + Live Music",
       "town": "Surf City",
-      "notes": "Static custom HTML page on /entertainment.html \u2014 no event plugin, no calendar feed, content appears to be a single edited paragraph rather than structured listings (current page references an October 2023 Halloween show). Disable; use manual-oneoff for specific dated entertainment.",
-      "config": {}
+      "notes": "Static HTML page at /entertainment.html embeds a public Google Calendar. Calendar ID extracted from the embed URL \u2014 we fetch the iCal export directly. excludeTitlePatterns drops the daily 'Bistro Open' / 'Open' entries (which are restaurant operating hours, not events).",
+      "config": {
+        "defaultVenue": "Surf City Hotel",
+        "excludeTitlePatterns": [
+          "^bistro\\s*(open|brunch)$",
+          "^open$"
+        ]
+      }
     },
     {
       "id": "daddyo-lbi",

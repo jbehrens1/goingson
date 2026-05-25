@@ -1912,5 +1912,36 @@
     "lon": -71.236459,
     "displayName": "Garrity's Way, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
     "fetchedAt": "2026-05-25T13:12:50.321Z"
+  },
+  "lbi::surf city hotel, surf city": {
+    "lat": 39.6600366,
+    "lon": -74.1668909,
+    "displayName": "Surf City Hotel, 800, North Long Beach Boulevard, Surf City, Ocean County, New Jersey, 08008, United States",
+    "fetchedAt": "2026-05-25T13:53:30.949Z"
+  },
+  "lbi::beach club, surf city": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T13:53:32.100Z"
+  },
+  "lbi::west dining room, surf city": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T13:53:33.021Z"
+  },
+  "lbi::tent, surf city": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T13:53:34.115Z"
+  },
+  "lbi::open air beach club, surf city": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T13:53:35.239Z"
+  },
+  "lbi::pub bar, surf city": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T13:53:36.381Z"
   }
 }

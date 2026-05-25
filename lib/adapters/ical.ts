@@ -6,11 +6,23 @@ type IcalConfig = {
   /** Fallback venue name when an event has no LOCATION field — covers cases
    *  like Tockify-hosted iCals where ~15% of events ship with no location. */
   defaultVenue?: string;
+  /** Regex patterns matched (case-insensitive) against trimmed SUMMARY. Any
+   *  event whose title matches is dropped. Useful for venues whose Google
+   *  Calendar mixes operating-hours entries ("Bistro Open") with real events. */
+  excludeTitlePatterns?: string[];
 };
 
 export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
   const warnings: string[] = [];
   const cfg = (source.config ?? {}) as IcalConfig;
+  const excludeRegexes = (cfg.excludeTitlePatterns ?? []).map((p) => {
+    try {
+      return new RegExp(p, "i");
+    } catch {
+      warnings.push(`ical: invalid excludeTitlePatterns regex "${p}" — skipping`);
+      return null;
+    }
+  });
   const res = await politeFetch(source.url);
   if (!res.ok) {
     return { events: [], warnings: [`HTTP ${res.status} fetching ${source.url}`] };
@@ -24,9 +36,15 @@ export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> =
     return { events: [], warnings: [`iCal parse failed: ${(err as Error).message}`] };
   }
 
+  let droppedByFilter = 0;
   const events = Object.values(parsed)
     .filter((c): c is nodeIcal.VEvent => c.type === "VEVENT")
     .map((vev) => {
+      const summary = String(vev.summary ?? "Untitled event").trim();
+      if (excludeRegexes.some((r) => r && r.test(summary))) {
+        droppedByFilter++;
+        return null;
+      }
       const start = toIsoOrUndefined(vev.start);
       if (!start) {
         warnings.push(`Skipping event without start: ${vev.summary ?? vev.uid}`);
@@ -38,7 +56,7 @@ export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> =
         (vev.location && String(vev.location).trim()) || cfg.defaultVenue || undefined;
       return buildEvent(source, {
         naturalKey,
-        title: String(vev.summary ?? "Untitled event"),
+        title: summary,
         description: typeof vev.description === "string" ? vev.description : undefined,
         url,
         start,
@@ -53,5 +71,10 @@ export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> =
     })
     .filter((e): e is NonNullable<typeof e> => e !== null);
 
+  if (droppedByFilter > 0) {
+    warnings.push(
+      `ical: dropped ${droppedByFilter} events matching excludeTitlePatterns`,
+    );
+  }
   return { events, warnings };
 };
