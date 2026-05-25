@@ -63,7 +63,6 @@ export function SourcesEditor({
   defaultOpen = false,
 }: Props) {
   const [sources, setSources] = useState<SourceConfig[]>(initialSources);
-  const [editing, setEditing] = useState(false);
   const [isSaving, startSave] = useTransition();
   const [error, setError] = useState<string | null>(null);
   const [okMsg, setOkMsg] = useState<string | null>(null);
@@ -258,16 +257,14 @@ export function SourcesEditor({
             ? `Saved, but auto-rescan failed (${json.rescan.error}). Manually trigger the workflow from GitHub Actions.`
             : "Vercel will redeploy with the new config; events refresh tomorrow on the daily cron.";
         setOkMsg(`Saved · commit ${sha} · ${rescanNote}`);
-        setEditing(false);
       } catch (err) {
         setError((err as Error).message);
       }
     });
   }
 
-  function cancel() {
+  function resetChanges() {
     setSources(initialSources);
-    setEditing(false);
     setError(null);
     setOkMsg(null);
   }
@@ -276,30 +273,33 @@ export function SourcesEditor({
     <div className="sources-editor">
       {canEdit && (
         <div className="sources-editor-toolbar">
-          {!editing ? (
-            <button type="button" className="primary-btn" onClick={() => setEditing(true)}>
-              Edit
-            </button>
-          ) : (
-            <>
-              <button
-                type="button"
-                className="primary-btn"
-                onClick={save}
-                disabled={isSaving || !dirty}
-                title={!dirty ? "No changes" : "Commit changes to GitHub"}
-              >
-                {isSaving ? "Saving…" : "Save (commit to GitHub)"}
-              </button>
-              <button type="button" className="ghost-btn" onClick={cancel} disabled={isSaving}>
-                Cancel
-              </button>
-              <button type="button" className="ghost-btn" onClick={addSource} disabled={isSaving}>
-                + Add source
-              </button>
-              {dirty && <span className="hint">Unsaved changes</span>}
-            </>
-          )}
+          <button
+            type="button"
+            className="primary-btn"
+            onClick={save}
+            disabled={isSaving || !dirty}
+            title={!dirty ? "No changes to save" : "Commit changes to GitHub"}
+          >
+            {isSaving ? "Saving…" : dirty ? "Save changes" : "Saved"}
+          </button>
+          <button
+            type="button"
+            className="ghost-btn"
+            onClick={resetChanges}
+            disabled={isSaving || !dirty}
+            title={!dirty ? "Nothing to reset" : "Discard unsaved changes"}
+          >
+            Reset
+          </button>
+          <button
+            type="button"
+            className="ghost-btn"
+            onClick={addSource}
+            disabled={isSaving}
+          >
+            + Add source
+          </button>
+          {dirty && <span className="hint">Unsaved changes</span>}
           {error && <pre className="hint hint-error">{error}</pre>}
           {okMsg && <span className="hint hint-ok">{okMsg}</span>}
         </div>
@@ -395,100 +395,112 @@ export function SourcesEditor({
                 onChange={(e) => setNotesQuery(e.target.value)}
               />
             </th>
-            {editing && <th></th>}
+            {canEdit && <th></th>}
           </tr>
         </thead>
         <tbody>
           {visibleSources.map(({ source: s, originalIndex: i }) => {
             const count = eventCounts[s.id];
             const h = health[s.id];
-            return (
-              <tr key={`${s.id}-${i}`} className={s.enabled ? "" : "row-disabled"}>
-                <td>
-                  {editing ? (
-                    <input
-                      type="checkbox"
-                      checked={s.enabled}
-                      onChange={(e) => updateSource(i, { enabled: e.target.checked })}
-                    />
-                  ) : s.enabled ? (
-                    "✓"
-                  ) : (
-                    "—"
-                  )}
-                </td>
-                <td>
-                  {editing ? (
-                    <>
-                      <input
-                        value={s.name}
-                        onChange={(e) => updateSource(i, { name: e.target.value })}
-                        placeholder="Display name"
-                      />
-                      <input
-                        value={s.id}
-                        onChange={(e) => updateSource(i, { id: e.target.value })}
-                        placeholder="slug-id"
-                        className="sources-id-input"
-                      />
-                    </>
-                  ) : (
-                    <>
-                      <strong>{s.name}</strong>
-                      <br />
-                      <span className="muted small">{s.id}</span>
-                    </>
-                  )}
-                </td>
-                <td>
-                  {editing ? (
-                    <select
-                      value={s.adapter}
-                      onChange={(e) =>
-                        updateSource(i, { adapter: e.target.value as AdapterType })
-                      }
-                    >
-                      {ADAPTERS.map((a) => (
-                        <option key={a} value={a}>
-                          {a}
-                        </option>
-                      ))}
-                    </select>
-                  ) : (
+            // Read-only view (signed-out / regular users) shows plain text.
+            // Admin / owner sees inline-editable cells — no Edit-mode toggle.
+            if (!canEdit) {
+              return (
+                <tr key={`${s.id}-${i}`} className={s.enabled ? "" : "row-disabled"}>
+                  <td>{s.enabled ? "✓" : "—"}</td>
+                  <td>
+                    <strong>{s.name}</strong>
+                    <br />
+                    <span className="muted small">{s.id}</span>
+                  </td>
+                  <td>
                     <code>{s.adapter}</code>
-                  )}
-                </td>
-                <td className="sources-url-cell">
-                  {editing ? (
-                    <input
-                      value={s.url}
-                      onChange={(e) => updateSource(i, { url: e.target.value })}
-                    />
-                  ) : (
+                  </td>
+                  <td className="sources-url-cell">
                     <a href={s.url} target="_blank" rel="noopener noreferrer">
                       {s.url}
                     </a>
-                  )}
+                  </td>
+                  <td>{s.town ?? "—"}</td>
+                  <td>{s.category ?? "—"}</td>
+                  <td className="sources-count-cell">
+                    {count ?? (s.enabled ? "0" : "—")}
+                  </td>
+                  <td className="sources-notes-cell">
+                    <span className="muted small">{s.notes ?? ""}</span>
+                  </td>
+                </tr>
+              );
+            }
+            return (
+              <tr key={`${s.id}-${i}`} className={s.enabled ? "" : "row-disabled"}>
+                <td>
+                  <input
+                    type="checkbox"
+                    checked={s.enabled}
+                    onChange={(e) => updateSource(i, { enabled: e.target.checked })}
+                  />
                 </td>
                 <td>
-                  {editing ? (
-                    <input
-                      value={s.town ?? ""}
-                      onChange={(e) => updateSource(i, { town: e.target.value })}
-                    />
-                  ) : (
-                    s.town ?? "—"
-                  )}
+                  <input
+                    value={s.name}
+                    onChange={(e) => updateSource(i, { name: e.target.value })}
+                    placeholder="Display name"
+                    className="inline-edit"
+                  />
+                  <input
+                    value={s.id}
+                    onChange={(e) => updateSource(i, { id: e.target.value })}
+                    placeholder="slug-id"
+                    className="inline-edit sources-id-input"
+                  />
                 </td>
                 <td>
-                  {editing ? (
+                  <select
+                    value={s.adapter}
+                    onChange={(e) =>
+                      updateSource(i, { adapter: e.target.value as AdapterType })
+                    }
+                    className="inline-edit"
+                  >
+                    {ADAPTERS.map((a) => (
+                      <option key={a} value={a}>
+                        {a}
+                      </option>
+                    ))}
+                  </select>
+                </td>
+                <td className="sources-url-cell">
+                  <div className="sources-url-wrap">
                     <input
-                      value={s.category ?? ""}
-                      onChange={(e) => updateSource(i, { category: e.target.value })}
+                      value={s.url}
+                      onChange={(e) => updateSource(i, { url: e.target.value })}
+                      className="inline-edit"
                     />
-                  ) : (
-                    s.category ?? "—"
-                  )}
+                    <a
+                      href={s.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="sources-url-open"
+                      title="Open URL in new tab"
+                    >
+                      ↗
+                    </a>
+                  </div>
+                </td>
+                <td>
+                  <input
+                    value={s.town ?? ""}
+                    onChange={(e) => updateSource(i, { town: e.target.value })}
+                    className="inline-edit"
+                  />
+                </td>
+                <td>
+                  <input
+                    value={s.category ?? ""}
+                    onChange={(e) => updateSource(i, { category: e.target.value })}
+                    className="inline-edit"
+                  />
                 </td>
                 <td className="sources-count-cell">
                   {count ?? (s.enabled ? "0" : "—")}
@@ -514,34 +526,29 @@ export function SourcesEditor({
                   )}
                 </td>
                 <td className="sources-notes-cell">
-                  {editing ? (
-                    <textarea
-                      value={s.notes ?? ""}
-                      onChange={(e) => updateSource(i, { notes: e.target.value })}
-                      rows={2}
-                    />
-                  ) : (
-                    <span className="muted small">{s.notes ?? ""}</span>
-                  )}
+                  <textarea
+                    value={s.notes ?? ""}
+                    onChange={(e) => updateSource(i, { notes: e.target.value })}
+                    rows={2}
+                    className="inline-edit"
+                  />
                 </td>
-                {editing && (
-                  <td>
-                    <button
-                      type="button"
-                      className="link-btn"
-                      onClick={() => deleteSource(i)}
-                      title="Delete this source"
-                    >
-                      ×
-                    </button>
-                  </td>
-                )}
+                <td>
+                  <button
+                    type="button"
+                    className="link-btn sources-delete-btn"
+                    onClick={() => deleteSource(i)}
+                    title="Delete this source"
+                  >
+                    ×
+                  </button>
+                </td>
               </tr>
             );
           })}
           {visibleSources.length === 0 && (
             <tr>
-              <td colSpan={editing ? 9 : 8} className="muted small">
+              <td colSpan={canEdit ? 9 : 8} className="muted small">
                 No sources match the current filters.
               </td>
             </tr>

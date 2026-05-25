@@ -813,6 +813,67 @@ footer {
   font-size: 0.78rem;
   margin-top: 0.25rem;
 }
+
+/* Inline-edit inputs — look like plain text until hover/focus so the table
+ * stays readable while every cell is always editable (no Edit-mode toggle). */
+.sources-table .inline-edit {
+  border: 1px solid transparent !important;
+  background: transparent;
+  padding: 0.25rem 0.35rem;
+  border-radius: 4px;
+  transition: background-color 0.1s, border-color 0.1s;
+}
+.sources-table .inline-edit:hover {
+  border-color: var(--border) !important;
+  background: color-mix(in srgb, var(--fg) 3%, transparent);
+}
+.sources-table .inline-edit:focus {
+  outline: none;
+  border-color: var(--accent) !important;
+  background: var(--bg);
+}
+
+/* URL cell: input + external-link icon side-by-side, so users can still
+ * follow the URL while it's editable. */
+.sources-url-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.sources-url-wrap .inline-edit {
+  flex: 1;
+  min-width: 0;
+}
+.sources-url-open {
+  flex-shrink: 0;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  opacity: 0.55;
+  transition: opacity 0.1s, background-color 0.1s;
+}
+.sources-url-open:hover {
+  opacity: 1;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* Delete (×) button: dim by default so it doesn't visually clutter rows;
+ * full red on hover so the action stays discoverable. */
+.sources-delete-btn {
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  transition: color 0.1s, background-color 0.1s;
+  text-decoration: none;
+}
+.sources-delete-btn:hover {
+  color: var(--error-fg);
+  background: var(--error-bg);
+}
 .sources-editor-toolbar {
   display: flex;
   flex-wrap: wrap;
