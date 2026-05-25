@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T13:33:38.743Z",
+  "generatedAt": "2026-05-25T16:13:22.160Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -316,15 +316,6 @@
       "count": 0,
       "warnings": [
         "HTTP 404 fetching https://www.oldcauseway.com/events/?format=json-pretty"
-      ],
-      "probe": {
-        "candidates": []
-      }
-    },
-    "lbi:surf-city-hotel": {
-      "count": 0,
-      "warnings": [
-        "surf-city-hotel: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
       ],
       "probe": {
         "candidates": []

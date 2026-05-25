@@ -1943,5 +1943,17 @@
     "lat": null,
     "lon": null,
     "fetchedAt": "2026-05-25T13:53:36.381Z"
+  },
+  "metrowest::20 lexington rd, concord, ma": {
+    "lat": 42.4598251,
+    "lon": -71.347882,
+    "displayName": "20, Lexington Road, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T16:12:34.056Z"
+  },
+  "metrowest::1100 union st, westborough, ma": {
+    "lat": 42.2698099,
+    "lon": -71.608556,
+    "displayName": "Roche Bros., 1100, Union Street, Baystate Commons, Westborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T16:12:35.117Z"
   }
 }
