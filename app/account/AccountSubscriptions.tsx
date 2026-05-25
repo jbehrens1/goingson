@@ -31,6 +31,19 @@ export function AccountSubscriptions({
   const [globalError, setGlobalError] = useState<string | null>(null);
   const [globalOk, setGlobalOk] = useState<string | null>(null);
   const [isAdding, startAdd] = useTransition();
+  /** Subscription IDs that should render in expanded (edit) mode. Cards are
+   *  collapsed by default; clicking the summary line toggles expansion.
+   *  Newly-added subs are auto-added here so the editor opens immediately. */
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+
+  function toggleExpanded(id: string) {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }
 
   async function addNew() {
     setGlobalError(null);
@@ -58,12 +71,17 @@ export function AccountSubscriptions({
           ok: boolean;
           error?: string;
           state?: NewsletterState;
+          created?: NewsletterSubscription;
         };
         if (!json.ok || !json.state) {
           setGlobalError(json.error ?? "Add failed");
           return;
         }
         setState(json.state);
+        // Auto-open the new card so the user can configure it right away.
+        if (json.created) {
+          setExpanded((prev) => new Set([...prev, json.created!.id]));
+        }
         setGlobalOk("Subscription added.");
       } catch (err) {
         setGlobalError((err as Error).message);
@@ -109,11 +127,33 @@ export function AccountSubscriptions({
             venuesByRegion={venuesByRegion}
             eventTypes={eventTypes}
             onChanged={onSubChanged}
+            expanded={expanded.has(sub.id)}
+            onToggle={() => toggleExpanded(sub.id)}
           />
         ))}
       </div>
     </div>
   );
+}
+
+/** Compact one-line summary used in the collapsed card header. */
+function summarize(
+  s: NewsletterSubscription,
+  eventTypes: EventType[],
+): string {
+  const parts: string[] = [];
+  parts.push(s.region);
+  parts.push(s.schedule === "daily" ? "daily" : "weekly");
+  parts.push(`${s.lookaheadDays}d window`);
+  parts.push(s.types.length === 0 ? "all types" : `${s.types.length} type${s.types.length === 1 ? "" : "s"}`);
+  parts.push(s.venues.length === 0 ? "all venues" : `${s.venues.length} venue${s.venues.length === 1 ? "" : "s"}`);
+  if (s.center && s.radiusMi) {
+    parts.push(`${s.radiusMi}mi of ${s.center.label.split(",")[0]}`);
+  }
+  if (s.surprise !== "never") parts.push(`surprise: ${s.surprise}`);
+  // Silence unused-prop lint without removing the parameter.
+  void eventTypes;
+  return parts.join(" · ");
 }
 
 function SubscriptionCard({
@@ -122,12 +162,16 @@ function SubscriptionCard({
   venuesByRegion,
   eventTypes,
   onChanged,
+  expanded,
+  onToggle,
 }: {
   sub: NewsletterSubscription;
   regions: string[];
   venuesByRegion: Record<string, string[]>;
   eventTypes: EventType[];
   onChanged: (s: NewsletterState) => void;
+  expanded: boolean;
+  onToggle: () => void;
 }) {
   const [draft, setDraft] = useState<NewsletterSubscription>(sub);
   const [centerQuery, setCenterQuery] = useState(sub.center?.label ?? "");
@@ -296,9 +340,39 @@ function SubscriptionCard({
     });
   }
 
+  // Collapsed: a single-line summary with the chevron + name + details.
+  // Click anywhere on the header (except the chevron control) opens the editor.
+  if (!expanded) {
+    return (
+      <article className="sub-card sub-card-collapsed">
+        <button
+          type="button"
+          className="sub-summary-btn"
+          onClick={onToggle}
+          aria-expanded="false"
+        >
+          <span className="sub-summary-chevron">▸</span>
+          <span className="sub-summary-name">{sub.name}</span>
+          <span className="sub-summary-details muted small">
+            {summarize(sub, eventTypes)}
+          </span>
+        </button>
+      </article>
+    );
+  }
+
   return (
-    <article className="sub-card">
+    <article className="sub-card sub-card-expanded">
       <header className="sub-card-head">
+        <button
+          type="button"
+          className="sub-summary-chevron-btn"
+          onClick={onToggle}
+          title="Collapse"
+          aria-expanded="true"
+        >
+          ▾
+        </button>
         <input
           className="sub-name-input"
           value={draft.name}

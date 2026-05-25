@@ -868,6 +868,66 @@ footer {
   margin-top: 0.5rem;
 }
 
+/* Collapsed-card summary line — one click to expand. */
+.sub-card-collapsed {
+  padding: 0;
+}
+.sub-summary-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1rem;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: var(--fg);
+  border-radius: 10px;
+  transition: background-color 0.1s;
+}
+.sub-summary-btn:hover {
+  background: color-mix(in srgb, var(--fg) 4%, transparent);
+}
+.sub-summary-chevron {
+  color: var(--muted);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  transition: transform 0.1s;
+}
+.sub-summary-btn:hover .sub-summary-chevron {
+  color: var(--fg);
+}
+.sub-summary-name {
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.sub-summary-details {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Expanded-card chevron button (closes the card). */
+.sub-summary-chevron-btn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.3rem 0.4rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.sub-summary-chevron-btn:hover {
+  color: var(--fg);
+  background: color-mix(in srgb, var(--fg) 6%, transparent);
+}
+
 .sources-th-sort > th input[type="search"] {
   width: 100%;
   padding: 0.3rem 0.4rem;
