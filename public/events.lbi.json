@@ -20,8 +20,8 @@
       "Barnegat Light, NJ"
     ]
   },
-  "generatedAt": "2026-05-25T18:30:15.827Z",
-  "count": 415,
+  "generatedAt": "2026-05-25T18:39:06.611Z",
+  "count": 416,
   "events": [
     {
       "title": "Live Music with Ted Hammock",
@@ -43,7 +43,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.507Z"
     },
     {
       "title": "Bill & Andy",
@@ -63,7 +63,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - Trevor Baylor",
@@ -84,7 +84,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Live Music In The Garden - Skip Winters",
@@ -105,7 +105,7 @@
         "id": "blackeyed-susans",
         "name": "Black-Eyed Susan's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.840Z"
+      "ingestedAt": "2026-05-25T18:38:56.862Z"
     },
     {
       "title": "Danksters with DJ Dominic",
@@ -125,7 +125,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - turning the tide",
@@ -146,7 +146,28 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
+    },
+    {
+      "title": "Aftershock ",
+      "description": "&nbsp;",
+      "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-47zte-jffl4-ds4d9-y69tx-gys86",
+      "start": "2026-05-25T02:30:00.658Z",
+      "end": "2026-05-25T07:30:00.658Z",
+      "location": {
+        "venue": "Bird & Betty's",
+        "town": "Beach Haven",
+        "lat": 39.5663902,
+        "lon": -74.2443241
+      },
+      "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/6a0b8738f968977125fbad78/1779140430770/",
+      "type": "live-music",
+      "id": "47db46d4a8b518a0",
+      "source": {
+        "id": "bird-and-bettys",
+        "name": "Bird & Betty's"
+      },
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Mike Dougherty",
@@ -166,7 +187,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - hybrid",
@@ -187,7 +208,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -209,7 +230,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Dave Jones",
@@ -229,7 +250,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Mike Matthews",
@@ -249,7 +270,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Live Music with East Two Three",
@@ -271,7 +292,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Mark Sosis",
@@ -291,7 +312,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -312,7 +333,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Trivia on Tap",
@@ -332,7 +353,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Open Mic",
@@ -353,7 +374,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band of Make Believe",
@@ -374,7 +395,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Live Music with Ty Mares",
@@ -396,7 +417,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -416,7 +437,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -437,7 +458,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - No Dead Air",
@@ -458,7 +479,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Kono Nation",
@@ -479,7 +500,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Gypsy Moon",
@@ -499,7 +520,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -520,7 +541,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -542,7 +563,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -562,7 +583,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -583,7 +604,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Joe Faronea",
@@ -603,7 +624,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -624,7 +645,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - open mike",
@@ -645,7 +666,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Sky City Social",
@@ -666,7 +687,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Live Music with Barbara Lin",
@@ -688,7 +709,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -708,7 +729,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -729,7 +750,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -750,7 +771,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "3AM Tokyo ",
@@ -771,7 +792,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Shay Mac",
@@ -791,7 +812,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -812,7 +833,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -834,7 +855,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Rob Connolly",
@@ -854,7 +875,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -875,7 +896,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with Chuck DeBruyn",
@@ -897,7 +918,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -917,7 +938,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -938,7 +959,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - open mike",
@@ -959,7 +980,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "The Benjamins",
@@ -980,7 +1001,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Live Music with East Two Three",
@@ -1002,7 +1023,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Dave Jones",
@@ -1022,7 +1043,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -1043,7 +1064,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band -  the foots",
@@ -1064,7 +1085,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Split Decision ",
@@ -1085,7 +1106,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Preach",
@@ -1105,7 +1126,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -1126,7 +1147,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -1148,7 +1169,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Mike Casey",
@@ -1168,7 +1189,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -1189,7 +1210,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with Scotty Z",
@@ -1211,7 +1232,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Mark Sosis",
@@ -1231,7 +1252,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -1252,7 +1273,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - open mike",
@@ -1273,7 +1294,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Kono Nation ",
@@ -1294,7 +1315,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Live Music with Brother Pete",
@@ -1316,7 +1337,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Tom Pernal",
@@ -1336,7 +1357,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -1357,7 +1378,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "80's Under Cover with DJ Dominic",
@@ -1377,7 +1398,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Band - shallow green",
@@ -1398,7 +1419,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Stealing Savanah ",
@@ -1419,7 +1440,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Brother Pete",
@@ -1439,7 +1460,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -1460,7 +1481,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Trivia on Tap",
@@ -1480,7 +1501,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -1501,7 +1522,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -1522,7 +1543,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Shay Mac",
@@ -1542,7 +1563,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -1563,7 +1584,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -1584,7 +1605,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Harvey Street",
@@ -1605,7 +1626,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.431Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Mike Dougherty",
@@ -1625,7 +1646,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -1646,7 +1667,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Highly Questionable Trivia",
@@ -1667,7 +1688,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.554Z"
     },
     {
       "title": "Band - nerds",
@@ -1688,7 +1709,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Daddy O x Jetty Summer Launch Party",
@@ -1711,7 +1732,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Live Music with Rob Connolly",
@@ -1733,7 +1754,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Dave Jones",
@@ -1753,7 +1774,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -1774,7 +1795,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - karaoke",
@@ -1795,7 +1816,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Live Music with Preach",
@@ -1817,7 +1838,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Mike Casey",
@@ -1837,7 +1858,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -1858,7 +1879,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "The Pickles with DJ Brandon",
@@ -1878,7 +1899,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - steel the sky",
@@ -1899,7 +1920,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Go Go Gadget",
@@ -1920,7 +1941,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Live Music with Matt Fisher",
@@ -1942,7 +1963,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Bill & Andy",
@@ -1962,7 +1983,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -1983,7 +2004,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Danksters & Chevy Lopez with DJ Dominic",
@@ -2003,7 +2024,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -2024,7 +2045,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Gab Cinque  Band",
@@ -2045,7 +2066,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Gypsy Moon",
@@ -2065,7 +2086,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -2086,7 +2107,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -2107,7 +2128,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -2128,7 +2149,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Joe Faronea",
@@ -2148,7 +2169,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -2169,7 +2190,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -2190,7 +2211,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "The Wheeland Brothers",
@@ -2211,7 +2232,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Tommy V",
@@ -2231,7 +2252,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -2252,7 +2273,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Singo-Musical Bingo",
@@ -2272,7 +2293,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -2293,7 +2314,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -2314,7 +2335,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Live Music with Skip Winters",
@@ -2336,7 +2357,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Rob Connolly",
@@ -2356,7 +2377,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -2377,7 +2398,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - karaoke",
@@ -2398,7 +2419,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Amptons Duo",
@@ -2418,7 +2439,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -2439,7 +2460,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Shorty Long & The Jersey Horns with DJ Brandon",
@@ -2459,7 +2480,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -2480,7 +2501,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "My Hero Zero",
@@ -2501,7 +2522,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Live Music with Gypsy Moon",
@@ -2523,7 +2544,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Dave Jones",
@@ -2543,7 +2564,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - hybrid",
@@ -2564,7 +2585,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Triple Rail Turn & DJ Dominic",
@@ -2584,7 +2605,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - nerds",
@@ -2605,7 +2626,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "3AM Tokyo Fireworks Party",
@@ -2626,7 +2647,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Bill & Andy",
@@ -2646,7 +2667,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -2667,7 +2688,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -2688,7 +2709,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -2709,7 +2730,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -2729,7 +2750,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -2750,7 +2771,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -2771,7 +2792,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Short Long & The Jersey Horns",
@@ -2791,7 +2812,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Drifting Roots",
@@ -2812,7 +2833,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Tom Pernal",
@@ -2832,7 +2853,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -2853,7 +2874,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -2874,7 +2895,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -2895,7 +2916,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Dave Jones",
@@ -2915,7 +2936,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -2936,7 +2957,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - karaoke",
@@ -2957,7 +2978,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Live Music with Chuck DeBruyn",
@@ -2979,7 +3000,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -2999,7 +3020,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -3020,7 +3041,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "The Pickles with DJ Brandon",
@@ -3040,7 +3061,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Band - anger management",
@@ -3061,7 +3082,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Split Decision ",
@@ -3082,7 +3103,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Live Music with Justin Jones",
@@ -3104,7 +3125,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Brother Pete",
@@ -3124,7 +3145,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -3145,7 +3166,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Don't Call Me Frances with DJ Dominic",
@@ -3165,7 +3186,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Band - 5 dollar shakes",
@@ -3186,7 +3207,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Gab Cinque  Band ",
@@ -3207,7 +3228,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "The Petti's",
@@ -3227,7 +3248,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -3248,7 +3269,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -3269,7 +3290,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - dueling piano",
@@ -3290,7 +3311,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Jack Mangan",
@@ -3310,7 +3331,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -3331,7 +3352,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -3352,7 +3373,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "SUM SUN with Wim Tapley &amp; The Cannons",
@@ -3373,7 +3394,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Dave Jones",
@@ -3393,7 +3414,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3414,7 +3435,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -3435,7 +3456,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -3456,7 +3477,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with La Stella Brother",
@@ -3478,7 +3499,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Shay Mac",
@@ -3498,7 +3519,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -3519,7 +3540,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - karaoke",
@@ -3540,7 +3561,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with Scotty Z",
@@ -3562,7 +3583,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Mark Sosis",
@@ -3582,7 +3603,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -3603,7 +3624,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Black Tie Groove & No Hard Feelings with DJ Brandon",
@@ -3623,7 +3644,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -3644,7 +3665,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Amish Outlaws",
@@ -3665,7 +3686,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Live Music with Ted Hammock",
@@ -3687,7 +3708,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Mojo Lite",
@@ -3707,7 +3728,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -3728,7 +3749,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Triple Rail Turn with DJ Dominic",
@@ -3748,7 +3769,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - turning the tide",
@@ -3769,7 +3790,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "The Way Outs",
@@ -3790,7 +3811,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Gypsy Moon",
@@ -3810,7 +3831,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -3831,7 +3852,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -3852,7 +3873,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - dueling piano",
@@ -3873,7 +3894,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -3893,7 +3914,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -3914,7 +3935,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -3935,7 +3956,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Rob Benton",
@@ -3956,7 +3977,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Joe Faronea",
@@ -3976,7 +3997,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -3997,7 +4018,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -4018,7 +4039,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -4039,7 +4060,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Live Music with Matt Fisher",
@@ -4061,7 +4082,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -4082,7 +4103,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - karaoke",
@@ -4103,7 +4124,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with Ty Mares",
@@ -4125,7 +4146,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Mike Casey",
@@ -4145,7 +4166,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -4166,7 +4187,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Don't Call Me Frances with DJ Brandon",
@@ -4186,7 +4207,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -4207,7 +4228,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "The Cliffs",
@@ -4228,7 +4249,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Bill & Andy",
@@ -4248,7 +4269,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -4269,7 +4290,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Danksters with DJ Dominic",
@@ -4289,7 +4310,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - steel the sky",
@@ -4310,7 +4331,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Good Noise",
@@ -4331,7 +4352,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Gypsy Moon",
@@ -4351,7 +4372,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -4372,7 +4393,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -4393,7 +4414,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -4414,7 +4435,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -4434,7 +4455,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -4455,7 +4476,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -4476,7 +4497,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Tunnel Vision and Capital Dub",
@@ -4497,7 +4518,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Mark Sosis",
@@ -4517,7 +4538,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -4538,7 +4559,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -4559,7 +4580,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -4580,7 +4601,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Live Music with Rob Connolly",
@@ -4602,7 +4623,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Jack Mangan",
@@ -4622,7 +4643,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -4643,7 +4664,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - karaoke",
@@ -4664,7 +4685,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Live Music with East Two Three",
@@ -4686,7 +4707,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "The Petti's",
@@ -4706,7 +4727,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -4727,7 +4748,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Black Tie Groove with DJ Brandon",
@@ -4747,7 +4768,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Band - porch",
@@ -4768,7 +4789,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Go Go Gadget ",
@@ -4789,7 +4810,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Live Music with Justin Jones",
@@ -4811,7 +4832,7 @@
         "id": "daddyo-lbi",
         "name": "Daddy O LBI"
       },
-      "ingestedAt": "2026-05-25T18:30:00.403Z"
+      "ingestedAt": "2026-05-25T18:38:58.508Z"
     },
     {
       "title": "Brother Pete",
@@ -4831,7 +4852,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -4852,7 +4873,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Sir Rod with DJ Dominic",
@@ -4872,7 +4893,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Band - turning the tide",
@@ -4893,7 +4914,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "3AM Tokyo ",
@@ -4914,7 +4935,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Ned Ryerson Duo",
@@ -4934,7 +4955,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -4955,7 +4976,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -4976,7 +4997,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - dueling piano",
@@ -4997,7 +5018,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Farias Surf Night with Steve Rondo, \"Wrapped in a Feeling.\"",
@@ -5018,7 +5039,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Mark Sosis",
@@ -5038,7 +5059,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -5059,7 +5080,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5080,7 +5101,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Billy Walton Band",
@@ -5101,7 +5122,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Mike Casey",
@@ -5121,7 +5142,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5142,7 +5163,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -5163,7 +5184,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -5184,7 +5205,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Tom Pernal",
@@ -5204,7 +5225,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -5225,7 +5246,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - karaoke",
@@ -5246,7 +5267,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Preach",
@@ -5266,7 +5287,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -5287,7 +5308,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Screaming Broccoli with DJ Brandon",
@@ -5307,7 +5328,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -5328,7 +5349,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Kono Nation ",
@@ -5349,7 +5370,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Gypsy Moon",
@@ -5369,7 +5390,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -5390,7 +5411,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Danksters with DJ Dominic",
@@ -5410,7 +5431,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Band - steel the sky",
@@ -5431,7 +5452,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Aftershock",
@@ -5452,7 +5473,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Brother Pete",
@@ -5472,7 +5493,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -5493,7 +5514,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -5514,7 +5535,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -5535,7 +5556,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Rob Connolly",
@@ -5555,7 +5576,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -5576,7 +5597,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -5597,7 +5618,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "St. Cecilia",
@@ -5618,7 +5639,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "The Saint Cecilia",
@@ -5639,7 +5660,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Tommy V",
@@ -5659,7 +5680,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -5680,7 +5701,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -5701,7 +5722,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -5722,7 +5743,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -5742,7 +5763,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -5763,7 +5784,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - karaoke",
@@ -5784,7 +5805,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -5804,7 +5825,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -5825,7 +5846,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Black Tie Groove with DJ Brandon",
@@ -5845,7 +5866,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Band - porch",
@@ -5866,7 +5887,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Man Down",
@@ -5887,7 +5908,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Bill & Andy",
@@ -5907,7 +5928,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -5928,7 +5949,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Electric Stingray with DJ Dominic",
@@ -5948,7 +5969,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Band - anger management",
@@ -5969,7 +5990,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Stealing Savanah ",
@@ -5990,7 +6011,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Ned Ryerson Duo",
@@ -6010,7 +6031,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -6031,7 +6052,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -6052,7 +6073,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -6073,7 +6094,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Joe Faronea",
@@ -6093,7 +6114,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -6114,7 +6135,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -6135,7 +6156,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Shay Mac",
@@ -6155,7 +6176,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -6176,7 +6197,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -6197,7 +6218,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -6218,7 +6239,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Mark Sosis",
@@ -6238,7 +6259,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -6259,7 +6280,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - karaoke",
@@ -6280,7 +6301,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Rob Connolly",
@@ -6300,7 +6321,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -6321,7 +6342,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -6342,7 +6363,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "3AM Tokyo  ",
@@ -6363,7 +6384,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Brother Pete",
@@ -6383,7 +6404,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -6404,7 +6425,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -6425,7 +6446,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.683Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Good Noise ",
@@ -6446,7 +6467,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Gypsy Moon",
@@ -6466,7 +6487,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -6487,7 +6508,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -6508,7 +6529,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -6529,7 +6550,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -6549,7 +6570,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -6570,7 +6591,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -6591,7 +6612,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Mike Dougherty",
@@ -6611,7 +6632,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -6632,7 +6653,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -6653,7 +6674,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.432Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -6674,7 +6695,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Mark Sosis",
@@ -6694,7 +6715,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -6715,7 +6736,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - karaoke",
@@ -6736,7 +6757,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Mike Casey",
@@ -6756,7 +6777,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -6777,7 +6798,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - shallow green",
@@ -6798,7 +6819,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "The Way Outs ",
@@ -6819,7 +6840,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Amptons Duo",
@@ -6839,7 +6860,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -6860,7 +6881,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -6881,7 +6902,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Sky City Social",
@@ -6902,7 +6923,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Ned Ryerson Duo",
@@ -6922,7 +6943,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -6943,7 +6964,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -6964,7 +6985,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Band - dueling piano",
@@ -6985,7 +7006,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Tom Pernal",
@@ -7005,7 +7026,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -7026,7 +7047,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Band - trivia on tap",
@@ -7047,7 +7068,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Mark Sosis",
@@ -7067,7 +7088,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -7088,7 +7109,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -7109,7 +7130,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Band - nerds",
@@ -7130,7 +7151,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Shay Mac",
@@ -7150,7 +7171,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -7171,7 +7192,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - karaoke",
@@ -7192,7 +7213,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -7212,7 +7233,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -7233,7 +7254,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "The Counterfeiters with DJ Brandon",
@@ -7253,7 +7274,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -7274,7 +7295,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Gab Cinque  Band  ",
@@ -7295,7 +7316,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Gypsy Moon",
@@ -7315,7 +7336,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - chad miller",
@@ -7336,7 +7357,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Triple Rail Turn with DJ Dominic",
@@ -7356,7 +7377,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Band - nerds",
@@ -7377,7 +7398,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Kono Nation ",
@@ -7398,7 +7419,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Bill & Andy",
@@ -7418,7 +7439,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -7439,7 +7460,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Shorty Long & The Jersey Horns",
@@ -7459,7 +7480,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Dave Jones Duo",
@@ -7479,7 +7500,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - ty duo",
@@ -7500,7 +7521,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.735Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -7520,7 +7541,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -7541,7 +7562,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.684Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Mike Casey",
@@ -7561,7 +7582,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -7582,7 +7603,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Trivia on Tap",
@@ -7602,7 +7623,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Band - Friday Sept 11 needs a band, Mike or Anthony can help",
@@ -7623,7 +7644,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.685Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "The Black Ties",
@@ -7644,7 +7665,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -7664,7 +7685,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -7685,7 +7706,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Band - pickles",
@@ -7706,7 +7727,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.733Z"
     },
     {
       "title": "Ridgemont Hight",
@@ -7727,7 +7748,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Joe Faronea",
@@ -7747,7 +7768,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -7768,7 +7789,7 @@
         "id": "joe-pops",
         "name": "Joe Pop's Shore Bar"
       },
-      "ingestedAt": "2026-05-25T18:29:57.686Z"
+      "ingestedAt": "2026-05-25T18:38:56.734Z"
     },
     {
       "title": "Tommy Vodka",
@@ -7788,7 +7809,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -7808,7 +7829,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Halfway to St. Patrick's Day",
@@ -7828,7 +7849,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.251Z"
+      "ingestedAt": "2026-05-25T18:38:58.387Z"
     },
     {
       "title": "Ocean County Emerald Society Pipes & Drums",
@@ -7848,7 +7869,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Shay Mac",
@@ -7868,7 +7889,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Mike Dougherty",
@@ -7888,7 +7909,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Mike Dougherty",
@@ -7908,7 +7929,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Jack Mangan",
@@ -7928,7 +7949,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "The Polish Nannies",
@@ -7949,7 +7970,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Preach",
@@ -7969,7 +7990,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "95 Live",
@@ -7990,7 +8011,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Mark Sosis",
@@ -8010,7 +8031,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Shay Mac",
@@ -8030,7 +8051,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Surf City 2nd Annual Kite Show",
@@ -8050,7 +8071,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Jel &amp; The Kidz",
@@ -8071,7 +8092,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Rob Connolly",
@@ -8091,7 +8112,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Band of Make Believe ",
@@ -8112,7 +8133,7 @@
         "id": "bird-and-bettys",
         "name": "Bird & Betty's"
       },
-      "ingestedAt": "2026-05-25T18:29:57.433Z"
+      "ingestedAt": "2026-05-25T18:38:56.555Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -8132,7 +8153,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -8152,7 +8173,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -8172,7 +8193,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Mark Sosis",
@@ -8192,7 +8213,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Rob Connolly",
@@ -8212,7 +8233,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Mark Sosis",
@@ -8232,7 +8253,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Mike Dougherty",
@@ -8252,7 +8273,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -8272,7 +8293,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Family Halloween Party w/DJ Mike",
@@ -8292,7 +8313,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Mark Sosis",
@@ -8312,7 +8333,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Halloween Party",
@@ -8332,7 +8353,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.260Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -8352,7 +8373,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Trivia on Tap",
@@ -8372,7 +8393,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Mark Sosis",
@@ -8392,7 +8413,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -8412,7 +8433,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -8432,7 +8453,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Shay Mac",
@@ -8452,7 +8473,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Mike Casey",
@@ -8472,7 +8493,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Friendsgiving",
@@ -8492,7 +8513,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Amptons Duo",
@@ -8512,7 +8533,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.393Z"
     },
     {
       "title": "Mark Sosis",
@@ -8532,7 +8553,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.395Z"
     },
     {
       "title": "Christmas Parade Party",
@@ -8552,7 +8573,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.258Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     },
     {
       "title": "Bistro Open Christmas Parade",
@@ -8572,7 +8593,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.248Z"
+      "ingestedAt": "2026-05-25T18:38:58.384Z"
     },
     {
       "title": "Ned Ryerson",
@@ -8592,7 +8613,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.259Z"
+      "ingestedAt": "2026-05-25T18:38:58.394Z"
     },
     {
       "title": "Mark Sosis",
@@ -8612,7 +8633,7 @@
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-25T18:30:00.257Z"
+      "ingestedAt": "2026-05-25T18:38:58.396Z"
     }
   ]
 }

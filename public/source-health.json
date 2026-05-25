@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T18:30:41.347Z",
+  "generatedAt": "2026-05-25T18:39:36.040Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -84,7 +84,10 @@
     },
     "metrowest:pac-metrowest": {
       "count": 0,
-      "warnings": []
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
     },
     "metrowest:amazing-things": {
       "count": 0,
@@ -293,18 +296,6 @@
         "candidates": []
       }
     },
-    "metrowest:natick-report": {
-      "count": 0,
-      "warnings": []
-    },
-    "metrowest:swellesley-report": {
-      "count": 0,
-      "warnings": []
-    },
-    "metrowest:needham-observer": {
-      "count": 0,
-      "warnings": []
-    },
     "metrowest:manual-oneoff": {
       "count": 0,
       "warnings": [],
@@ -332,7 +323,12 @@
     },
     "lbi:thesandpaper": {
       "count": 0,
-      "warnings": []
+      "warnings": [
+        "thesandpaper: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
     },
     "lbi:lbi-lowdown": {
       "count": 0,
