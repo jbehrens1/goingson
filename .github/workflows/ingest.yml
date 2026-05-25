@@ -22,9 +22,9 @@ jobs:
   ingest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
           cache: "npm"
@@ -42,7 +42,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Stage all generated outputs + any auto-applied sources.json fixes.
-          git add public/events.json public/events.*.json public/regions.json public/source-health.json config/regions/*/sources.json data/geocode-cache.json 2>/dev/null || true
+          git add public/events.json public/events.*.json public/regions.json public/source-health.json public/source-history.jsonl public/ingest-history.jsonl config/regions/*/sources.json data/geocode-cache.json 2>/dev/null || true
           if [[ -n "$(git diff --cached --name-only)" ]]; then
             # Flag auto-fixes prominently in the commit message.
             REASON_SUFFIX=""
