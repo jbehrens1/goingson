@@ -1,5 +1,5 @@
 {
-  "$comment": "Long Beach Island, NJ sources. Two confirmed-working venues to start: Bird & Betty's (Squarespace events collection) and Joe Pop's (Squarespace site but the events page embeds a public Google Calendar — we fetch its iCal feed directly). Remaining venues are platforms our existing adapters don't cleanly handle yet; disabled with notes so the auto-probe system can revisit, and so admins can swap them to manual-oneoff if they want to seed dates by hand.",
+  "$comment": "Long Beach Island, NJ sources. Two confirmed-working venues to start: Bird & Betty's (Squarespace events collection) and Joe Pop's (Squarespace site but the events page embeds a public Google Calendar \u2014 we fetch its iCal feed directly). Remaining venues are platforms our existing adapters don't cleanly handle yet; disabled with notes so the auto-probe system can revisit, and so admins can swap them to manual-oneoff if they want to seed dates by hand.",
   "sources": [
     {
       "id": "bird-and-bettys",
@@ -9,7 +9,7 @@
       "url": "https://www.birdandbettys.com/",
       "category": "Venue / Restaurant",
       "town": "Beach Haven",
-      "notes": "Squarespace site — events collection at /events/ (~58 upcoming). Misses daytime-only events because they don't get posted here.",
+      "notes": "Squarespace site \u2014 events collection at /events/ (~58 upcoming). Misses daytime-only events because they don't get posted here.",
       "config": {
         "path": "/events/",
         "defaultVenue": "Bird & Betty's"
@@ -31,7 +31,7 @@
     {
       "id": "blackeyed-susans",
       "name": "Black-Eyed Susan's",
-      "enabled": false,
+      "enabled": true,
       "adapter": "squarespace-events",
       "url": "https://www.blackeyedsusanslbi.com/",
       "category": "Venue / Restaurant",
@@ -45,7 +45,7 @@
     {
       "id": "old-causeway",
       "name": "The Old Causeway Steak & Oyster House",
-      "enabled": false,
+      "enabled": true,
       "adapter": "squarespace-events",
       "url": "https://www.oldcauseway.com/",
       "category": "Venue / Restaurant",
@@ -59,18 +59,18 @@
     {
       "id": "surf-city-hotel",
       "name": "Surf City Hotel",
-      "enabled": false,
+      "enabled": true,
       "adapter": "html-generic",
       "url": "https://surfcityhotel.com/entertainment.html",
       "category": "Venue / Hotel + Live Music",
       "town": "Surf City",
-      "notes": "Static custom HTML page on /entertainment.html — no event plugin, no calendar feed, content appears to be a single edited paragraph rather than structured listings (current page references an October 2023 Halloween show). Disable; use manual-oneoff for specific dated entertainment.",
+      "notes": "Static custom HTML page on /entertainment.html \u2014 no event plugin, no calendar feed, content appears to be a single edited paragraph rather than structured listings (current page references an October 2023 Halloween show). Disable; use manual-oneoff for specific dated entertainment.",
       "config": {}
     },
     {
       "id": "daddyo-lbi",
       "name": "Daddy O LBI",
-      "enabled": false,
+      "enabled": true,
       "adapter": "html-generic",
       "url": "https://www.daddyolbi.com/happenings",
       "category": "Venue / Restaurant + Hotel",
@@ -81,18 +81,18 @@
     {
       "id": "thesandpaper",
       "name": "The Sandpaper",
-      "enabled": false,
+      "enabled": true,
       "adapter": "html-generic",
       "url": "https://www.thesandpaper.net/events/",
       "category": "Local News",
       "town": "Surf City",
-      "notes": "Local LBI newspaper. WordPress + GeoDirectory plugin (CPT gd_event) but their REST endpoints (/wp-json/wp/v2/gd_event, /wp-json/geodir/v2/posts) all 404 — likely behind a paywall or restricted. Their event sitemap (/gd_event-sitemap.xml) lists URLs but the dates in lastmod are stale (2020). Needs a GeoDirectory adapter or sitemap-scrape approach.",
+      "notes": "Local LBI newspaper. WordPress + GeoDirectory plugin (CPT gd_event) but their REST endpoints (/wp-json/wp/v2/gd_event, /wp-json/geodir/v2/posts) all 404 \u2014 likely behind a paywall or restricted. Their event sitemap (/gd_event-sitemap.xml) lists URLs but the dates in lastmod are stale (2020). Needs a GeoDirectory adapter or sitemap-scrape approach.",
       "config": {}
     },
     {
       "id": "lbi-lowdown",
       "name": "LBI Lowdown",
-      "enabled": false,
+      "enabled": true,
       "adapter": "html-generic",
       "url": "https://www.lbilowdown.com/",
       "category": "Aggregator",

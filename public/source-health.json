@@ -1,9 +1,297 @@
 {
-  "generatedAt": "2026-05-24T21:38:40.791Z",
+  "generatedAt": "2026-05-25T02:25:20.695Z",
   "sources": {
+    "metrowest:visitors-bureau-events": {
+      "count": 0,
+      "warnings": [
+        "visitors-bureau-events: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:visitors-bureau-activities": {
+      "count": 0,
+      "warnings": [
+        "visitors-bureau-activities: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:mw-chamber": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://business.metrowest.org/events/ical"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:community-kangaroo-natick": {
+      "count": 0,
+      "warnings": [
+        "community-kangaroo-natick: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:eventbrite-metrowest": {
+      "count": 0,
+      "warnings": [
+        "EVENTBRITE_TOKEN not set — skipping. Set it in .env.local or Actions secrets."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:artsboston": {
+      "count": 0,
+      "warnings": [
+        "artsboston: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:artsboston-bostix": {
+      "count": 0,
+      "warnings": [
+        "artsboston-bostix: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:meet-boston": {
+      "count": 0,
+      "warnings": [
+        "meet-boston: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:boston-calendar": {
+      "count": 0,
+      "warnings": [
+        "boston-calendar: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
     "metrowest:pac-metrowest": {
       "count": 0,
       "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:amazing-things": {
+      "count": 0,
+      "warnings": [
+        "HTTP 422 fetching https://www.atac160.org/events"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:wayside-inn": {
+      "count": 0,
+      "warnings": [
+        "wayside-inn: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:hopkinton-arts": {
+      "count": 0,
+      "warnings": [
+        "hopkinton-arts: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:danforth-museum": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://danforth.framingham.edu/events"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:metrowest-jcc": {
+      "count": 0,
+      "warnings": [
+        "metrowest-jcc: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:choose-framingham-arts": {
+      "count": 0,
+      "warnings": [
+        "choose-framingham-arts: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:framingham-cultural-council": {
+      "count": 0,
+      "warnings": [
+        "framingham-cultural-council: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:community-foundation-mw": {
+      "count": 0,
+      "warnings": [
+        "community-foundation-mw: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:sudbury-chamber": {
+      "count": 0,
+      "warnings": [
+        "sudbury-chamber: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-ashland": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/ashland/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-bellingham": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/bellingham/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-boxborough": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/boxborough/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-franklin": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/franklin/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-holliston": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/holliston/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-hudson": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/hudson/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-lincoln": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/lincoln/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-maynard": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/maynard/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-medway": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/medway/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-milford": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/milford/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-millis": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/millis/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-sherborn": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/sherborn/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-southborough": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/southborough/calendar"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:patch-stow": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://patch.com/massachusetts/stow/calendar"
+      ],
       "probe": {
         "candidates": []
       }
@@ -15,9 +303,81 @@
         "candidates": []
       }
     },
+    "lbi:blackeyed-susans": {
+      "count": 0,
+      "warnings": [
+        "blackeyed-susans: 0 events at https://www.blackeyedsusanslbi.com/happenings/?format=json-pretty (check if events collection exists or season is over)."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "lbi:old-causeway": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://www.oldcauseway.com/events/?format=json-pretty"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "lbi:surf-city-hotel": {
+      "count": 0,
+      "warnings": [
+        "surf-city-hotel: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "lbi:daddyo-lbi": {
+      "count": 0,
+      "warnings": [
+        "daddyo-lbi: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "lbi:thesandpaper": {
+      "count": 0,
+      "warnings": [
+        "thesandpaper: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "lbi:lbi-lowdown": {
+      "count": 0,
+      "warnings": [
+        "lbi-lowdown: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
     "outercape:eastham-gov": {
       "count": 0,
       "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "outercape:what-wellfleet": {
+      "count": 0,
+      "warnings": [
+        "what-wellfleet: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "outercape:snow-library": {
+      "count": 0,
+      "warnings": [
+        "HTTP 404 fetching https://www.snowlibrary.org/events/?format=json-pretty"
+      ],
       "probe": {
         "candidates": []
       }

@@ -1661,5 +1661,233 @@
     "lon": -71.2758376,
     "displayName": "Unitarian Universalist Society of Wellesley Hills, 309, Washington Street, Wellesley Hills, Wellesley, Norfolk County, Massachusetts, 02481, United States",
     "fetchedAt": "2026-05-24T21:34:56.011Z"
+  },
+  "all metrowest": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T02:23:54.263Z"
+  },
+  "metrowest::1019 great plain ave, needham, ma": {
+    "lat": 42.2803981,
+    "lon": -71.2372665,
+    "displayName": "Gari Japanese Fusion Bistro, 1019, Great Plain Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-25T02:23:55.293Z"
+  },
+  "metrowest::40 church st, northborough, ma": {
+    "lat": 42.322021,
+    "lon": -71.6459672,
+    "displayName": "First Parish church, 40, Church Street, Northborough, Worcester County, Massachusetts, 01532, United States",
+    "fetchedAt": "2026-05-25T02:23:56.497Z"
+  },
+  "metrowest::77 ferndale rd, needham, ma": {
+    "lat": 42.2747537,
+    "lon": -71.2434645,
+    "displayName": "High Rock School, 77, Ferndale Road, Needham Junction, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-25T02:23:57.464Z"
+  },
+  "metrowest::37 high st, marlboro, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T02:24:01.605Z"
+  },
+  "metrowest::first church in marlborough, marlborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T02:24:01.923Z"
+  },
+  "metrowest::363 south st, northborough, ma": {
+    "lat": 42.2990094,
+    "lon": -71.6379416,
+    "displayName": "363, South Street, Northborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T02:24:03.229Z"
+  },
+  "metrowest::online via zoom, concord": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T02:24:04.179Z"
+  },
+  "metrowest::1276 main st, concord, ma": {
+    "lat": 42.4557045,
+    "lon": -71.3940044,
+    "displayName": "1276, Main Street, West Concord, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T02:24:05.813Z"
+  },
+  "metrowest::37 powisset st, dover, ma": {
+    "lat": 42.2252007,
+    "lon": -71.2609461,
+    "displayName": "37;39, Powisset Street, Dover, Norfolk County, Massachusetts, 02030, United States",
+    "fetchedAt": "2026-05-25T02:24:06.440Z"
+  },
+  "metrowest::40 stow st, concord, ma": {
+    "lat": 42.4575013,
+    "lon": -71.3524322,
+    "displayName": "The Umbrella Community Arts Center, 40, Stow Street, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T02:24:07.560Z"
+  },
+  "metrowest::1317 main st, concord, ma": {
+    "lat": 42.4546147,
+    "lon": -71.3949924,
+    "displayName": "West Concord Union Church, 1317, Main Street, West Concord, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T02:24:09.376Z"
+  },
+  "metrowest::86 main st, norfolk, ma": {
+    "lat": 42.0706452,
+    "lon": -71.2567096,
+    "displayName": "86, Main Street, North Foxboro, Foxborough, Norfolk County, Massachusetts, 02035, United States",
+    "fetchedAt": "2026-05-25T02:24:10.555Z"
+  },
+  "metrowest::concord, ma": {
+    "lat": 42.4605189,
+    "lon": -71.3488963,
+    "displayName": "Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T02:24:11.414Z"
+  },
+  "454 charles bancroft hwy, litchfield, nh": {
+    "lat": 42.8810052,
+    "lon": -71.4680554,
+    "displayName": "Mel's Funway Park, 454, Charles Bancroft Highway, Litchfield, Hillsborough County, New Hampshire, 03052, United States",
+    "fetchedAt": "2026-05-25T02:24:12.044Z"
+  },
+  "270 bay state rd, boston, ma": {
+    "lat": 42.3507532,
+    "lon": -71.105495,
+    "displayName": "School of Social Work, 270, Bay State Road, Audubon Circle, Fenway, Boston, Suffolk County, Massachusetts, 02215, United States",
+    "fetchedAt": "2026-05-25T02:24:13.232Z"
+  },
+  "55 union st, worcester, ma": {
+    "lat": 42.5565793,
+    "lon": -71.9822416,
+    "displayName": "55, Union Street, South Gardner, Gardner, Worcester County, Massachusetts, 01440, United States",
+    "fetchedAt": "2026-05-25T02:24:14.542Z"
+  },
+  "metrowest::183 w main st, westborough, ma": {
+    "lat": 42.2569075,
+    "lon": -71.6318737,
+    "displayName": "183, West Main Street, Westborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T02:24:15.449Z"
+  },
+  "metrowest::23 main st, northborough, ma": {
+    "lat": 42.3203893,
+    "lon": -71.6404283,
+    "displayName": "Trinity Church, 23, Main Street, Northborough, Worcester County, Massachusetts, 01532, United States",
+    "fetchedAt": "2026-05-25T02:24:16.462Z"
+  },
+  "metrowest::2 lexington rd, concord, ma": {
+    "lat": 42.460036,
+    "lon": -71.3483,
+    "displayName": "2, Lexington Road, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T02:24:17.708Z"
+  },
+  "metrowest::4 valente dr, westborough, ma": {
+    "lat": 42.280058,
+    "lon": -71.6646344,
+    "displayName": "Boroughs Family Branch YMCA, 4, Valente Drive, Westborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T02:24:18.694Z"
+  },
+  "metrowest::17 walden st, concord, ma": {
+    "lat": 42.4593756,
+    "lon": -71.3496248,
+    "displayName": "17, Walden Street, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T02:24:20.499Z"
+  },
+  "metrowest::43 broad st, hudson, ma": {
+    "lat": 42.3888381,
+    "lon": -71.564387,
+    "displayName": "The Landing at Hudson Mills, 43, Broad Street, Hudson, Middlesex County, Massachusetts, 01749, United States",
+    "fetchedAt": "2026-05-25T02:24:21.439Z"
+  },
+  "metrowest::119 bearfoot rd, northborough, ma": {
+    "lat": 42.3408565,
+    "lon": -71.6370325,
+    "displayName": "119, Bearfoot Road, Chapinville, Northborough, Worcester County, Massachusetts, 01532, United States",
+    "fetchedAt": "2026-05-25T02:24:22.019Z"
+  },
+  "metrowest::all over westborough, westborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T02:24:22.943Z"
+  },
+  "metrowest::206 waltham st, newton, ma": {
+    "lat": 42.3598896,
+    "lon": -71.2213777,
+    "displayName": "206, Waltham Street, Nonantum, West Newton, Newton, Middlesex County, Massachusetts, 02465, United States",
+    "fetchedAt": "2026-05-25T02:24:24.330Z"
+  },
+  "metrowest::456 main st, medfield, ma": {
+    "lat": 42.1871089,
+    "lon": -71.3044934,
+    "displayName": "456, Main Street, Medfield, Norfolk County, Massachusetts, 02052, United States",
+    "fetchedAt": "2026-05-25T02:24:25.379Z"
+  },
+  "metrowest::1139 highland ave, needham, ma": {
+    "lat": 42.2879212,
+    "lon": -71.2355769,
+    "displayName": "Needham Free Public Library, 1139, Highland Avenue, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-25T02:24:26.450Z"
+  },
+  "metrowest::rogers rd, westborough, ma": {
+    "lat": 42.2774865,
+    "lon": -71.6045438,
+    "displayName": "Rogers Road, Westborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T02:24:27.487Z"
+  },
+  "metrowest::243 w main st, northborough, ma": {
+    "lat": 42.3085059,
+    "lon": -71.6554688,
+    "displayName": "243;245;247;249;251;255;259;261, West Main Street, Northborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T02:24:28.668Z"
+  },
+  "metrowest::53 cambridge tpke, concord, ma": {
+    "lat": 42.4575501,
+    "lon": -71.3423236,
+    "displayName": "53, Cambridge Turnpike, Meriam's Corner, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-25T02:24:29.836Z"
+  },
+  "75 great rd, bedford, ma": {
+    "lat": 42.4913278,
+    "lon": -71.2799064,
+    "displayName": "First Parish in Bedford Unitarian Universalist, 75, The Great Road, Bedford, Middlesex County, Massachusetts, 01730, United States",
+    "fetchedAt": "2026-05-25T02:24:31.220Z"
+  },
+  "11 french dr, boylston, ma": {
+    "lat": 42.3616083,
+    "lon": -71.7261263,
+    "displayName": "Tower Hill Botanic Garden Library, 11, French Drive, Boylston Center, Boylston, Worcester County, Massachusetts, 01505, United States",
+    "fetchedAt": "2026-05-25T02:24:32.020Z"
+  },
+  "metrowest::120 w main st, westborough, ma": {
+    "lat": 42.263802,
+    "lon": -71.623192,
+    "displayName": "120, West Main Street, West Main Street Historic District, Westborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T02:24:33.665Z"
+  },
+  "metrowest::97 bullard st, sherborn, ma": {
+    "lat": 42.1984779,
+    "lon": -71.3571374,
+    "displayName": "97, Bullard Street, Sherborn, Middlesex County, Massachusetts, 01770, United States",
+    "fetchedAt": "2026-05-25T02:24:34.458Z"
+  },
+  "metrowest::275 turnpike rd, westborough, ma": {
+    "lat": 42.2885697,
+    "lon": -71.6483543,
+    "displayName": "Indian Meadows Golf Course, 275, Turnpike Road, Wessonville, Westborough, Worcester County, Massachusetts, 01581, United States",
+    "fetchedAt": "2026-05-25T02:24:35.268Z"
+  },
+  "metrowest::609 webster st, needham, ma": {
+    "lat": 42.2868365,
+    "lon": -71.231587,
+    "displayName": "Needham High School, 609, Webster Street, Needham Heights, Needham, Norfolk County, Massachusetts, 02494, United States",
+    "fetchedAt": "2026-05-25T02:24:36.687Z"
+  },
+  "powisset farm (trustees), dover": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-25T02:25:19.499Z"
+  },
+  "dover": {
+    "lat": 51.1251275,
+    "lon": 1.3134228,
+    "displayName": "Dover, Kent, England, CT16 1NB, United Kingdom",
+    "fetchedAt": "2026-05-25T02:25:20.369Z"
   }
 }

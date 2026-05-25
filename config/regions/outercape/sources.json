@@ -1,5 +1,5 @@
 {
-  "$comment": "Outer Cape event sources. Starting with the few that work cleanly via existing adapters: PAAM (Tribe), Truro Vineyards (custom WP — disabled until probed), the Trustees of Reservations (statewide MA, covers Outer Cape properties like Lt. Island and Long Point), and the CivicPlus municipal calendars. Most other Outer Cape venues use Squarespace, Wix, or custom platforms that need additional adapter work.",
+  "$comment": "Outer Cape event sources. Starting with the few that work cleanly via existing adapters: PAAM (Tribe), Truro Vineyards (custom WP \u2014 disabled until probed), the Trustees of Reservations (statewide MA, covers Outer Cape properties like Lt. Island and Long Point), and the CivicPlus municipal calendars. Most other Outer Cape venues use Squarespace, Wix, or custom platforms that need additional adapter work.",
   "sources": [
     {
       "id": "paam",
@@ -9,7 +9,7 @@
       "url": "https://www.paam.org/",
       "category": "Venue / Museum",
       "town": "Provincetown",
-      "notes": "Anchor venue. Tribe Events Calendar plugin — wordpress-tribe adapter works directly.",
+      "notes": "Anchor venue. Tribe Events Calendar plugin \u2014 wordpress-tribe adapter works directly.",
       "config": {
         "defaultVenue": "PAAM (Provincetown Art Association and Museum)"
       }
@@ -35,7 +35,7 @@
       "url": "https://www.provincetown-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Provincetown",
-      "notes": "CivicPlus calendar. CivicPlus calendar — RSS at ModID=58&CID=0 (all categories). Confirmed working."
+      "notes": "CivicPlus calendar. CivicPlus calendar \u2014 RSS at ModID=58&CID=0 (all categories). Confirmed working."
     },
     {
       "id": "truro-gov",
@@ -45,7 +45,7 @@
       "url": "https://www.truro-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Truro",
-      "notes": "CivicPlus calendar. CivicPlus calendar — ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
+      "notes": "CivicPlus calendar. CivicPlus calendar \u2014 ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
     },
     {
       "id": "eastham-gov",
@@ -55,7 +55,7 @@
       "url": "https://www.eastham-ma.gov/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Eastham",
-      "notes": "CivicPlus calendar. CivicPlus calendar — ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
+      "notes": "CivicPlus calendar. CivicPlus calendar \u2014 ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
     },
     {
       "id": "orleans-gov",
@@ -65,7 +65,7 @@
       "url": "https://www.town.orleans.ma.us/RSSFeed.aspx?ModID=58&CID=0",
       "category": "Municipal",
       "town": "Orleans",
-      "notes": "CivicPlus calendar. CivicPlus calendar — ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
+      "notes": "CivicPlus calendar. CivicPlus calendar \u2014 ModID=58&CID=0 returns RSS of all calendar events. Confirmed."
     },
     {
       "id": "truro-historical",
@@ -80,12 +80,12 @@
     {
       "id": "what-wellfleet",
       "name": "Wellfleet Harbor Actors Theater (WHAT)",
-      "enabled": false,
+      "enabled": true,
       "adapter": "html-generic",
       "url": "https://what.org/events/",
       "category": "Venue / Theater",
       "town": "Wellfleet",
-      "notes": "WordPress + OvationTix (ticketing). JSON-LD likely on the listing page — wordpress-tribe-list adapter pattern might work."
+      "notes": "WordPress + OvationTix (ticketing). JSON-LD likely on the listing page \u2014 wordpress-tribe-list adapter pattern might work."
     },
     {
       "id": "castle-hill",
@@ -113,7 +113,7 @@
       "url": "https://tockify.com/api/feeds/ics/prezhall",
       "category": "Venue",
       "town": "Wellfleet",
-      "notes": "Squarespace site (www.wellfleetpreservationhall.org) embeds a Tockify calendar (slug: prezhall) instead of using the native Squarespace events collection. Tockify exposes an iCalendar feed at /api/feeds/ics/<slug> — pulls ~550 events directly.",
+      "notes": "Squarespace site (www.wellfleetpreservationhall.org) embeds a Tockify calendar (slug: prezhall) instead of using the native Squarespace events collection. Tockify exposes an iCalendar feed at /api/feeds/ics/<slug> \u2014 pulls ~550 events directly.",
       "config": {
         "defaultVenue": "Wellfleet Preservation Hall"
       }
@@ -149,7 +149,7 @@
     {
       "id": "snow-library",
       "name": "Snow Library (Orleans)",
-      "enabled": false,
+      "enabled": true,
       "adapter": "squarespace-events",
       "url": "https://www.snowlibrary.org/",
       "category": "Venue / Library",
@@ -181,7 +181,7 @@
       "url": "https://trurovineyardsofcapecod.com/events-calendar/",
       "category": "Venue",
       "town": "Truro",
-      "notes": "Custom WordPress theme — no Tribe/MEC/event CPT. Events live on ExploreTock + FareHarbor (both Cloudflare-protected, no scrape). Seeded from /events-calendar/ HTML; update config/regions/outercape/one-off-truro-vineyards.json when new dates appear on their site.",
+      "notes": "Custom WordPress theme \u2014 no Tribe/MEC/event CPT. Events live on ExploreTock + FareHarbor (both Cloudflare-protected, no scrape). Seeded from /events-calendar/ HTML; update config/regions/outercape/one-off-truro-vineyards.json when new dates appear on their site.",
       "config": {
         "file": "one-off-truro-vineyards.json"
       }
