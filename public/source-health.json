@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T18:39:36.040Z",
+  "generatedAt": "2026-05-25T19:56:55.193Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -84,10 +84,7 @@
     },
     "metrowest:pac-metrowest": {
       "count": 0,
-      "warnings": [],
-      "probe": {
-        "candidates": []
-      }
+      "warnings": []
     },
     "metrowest:amazing-things": {
       "count": 0,
@@ -295,6 +292,18 @@
       "probe": {
         "candidates": []
       }
+    },
+    "metrowest:natick-report": {
+      "count": 0,
+      "warnings": []
+    },
+    "metrowest:swellesley-report": {
+      "count": 0,
+      "warnings": []
+    },
+    "metrowest:needham-observer": {
+      "count": 0,
+      "warnings": []
     },
     "metrowest:manual-oneoff": {
       "count": 0,
