@@ -59,7 +59,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Johnny-.png",
-      "type": "other",
+      "type": "live-music",
       "id": "ed8603e13a1a017b",
       "source": {
         "id": "wellfleet-pearl",
@@ -186,7 +186,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "15a9153b75804066",
       "source": {
         "id": "truro-vineyards",
@@ -272,7 +272,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "91460ad62dd5a0ec",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -422,7 +422,7 @@
         "lon": -70.0341306
       },
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1778163151151-PIL4GMQJHL8YN665P5P7/May+2026+Trivia+Night.png",
-      "type": "other",
+      "type": "community",
       "id": "3586f6e4cc826039",
       "source": {
         "id": "wellfleet-library",
@@ -509,7 +509,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/The-Detours.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "c3a7a8ab182e9754",
       "source": {
         "id": "wellfleet-pearl",
@@ -789,7 +789,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Cheap-Voova-e1772914099955.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "a69bc9e4082d0372",
       "source": {
         "id": "wellfleet-pearl",
@@ -856,7 +856,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Riptide-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "f5f4bc119bf8c2d2",
       "source": {
         "id": "wellfleet-pearl",
@@ -1047,7 +1047,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "448534f04913be57",
       "source": {
         "id": "truro-vineyards",
@@ -1133,7 +1133,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "3d490a54ae559094",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -1198,7 +1198,7 @@
         "lat": 41.9306038,
         "lon": -70.0300536
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4de715aab69b95de",
       "source": {
         "id": "wellfleet-pearl",
@@ -1542,7 +1542,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Screen-Shot-2026-03-10-at-2.54.22-PM.png",
-      "type": "other",
+      "type": "live-music",
       "id": "b96b4b1ef55cc2a4",
       "source": {
         "id": "wellfleet-pearl",
@@ -1823,7 +1823,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "b033a613825e7afc",
       "source": {
         "id": "truro-vineyards",
@@ -1888,7 +1888,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "f8b39a3d6a861f53",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -2666,7 +2666,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "b8758fa77caac111",
       "source": {
         "id": "truro-vineyards",
@@ -2752,7 +2752,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "9d7816bb96090850",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -2818,7 +2818,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Sarah-Burrill.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "3bcb9989df3892cf",
       "source": {
         "id": "wellfleet-pearl",
@@ -3186,7 +3186,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Natalie.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "4bdd3a52a3c84a20",
       "source": {
         "id": "wellfleet-pearl",
@@ -3229,7 +3229,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "d5aedf270cb55796",
       "source": {
         "id": "truro-vineyards",
@@ -3420,7 +3420,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Sensible-Shoes-2.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "acfd1bb8b72d2659",
       "source": {
         "id": "wellfleet-pearl",
@@ -3613,7 +3613,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "ef6a1ec9bae686c2",
       "source": {
         "id": "truro-vineyards",
@@ -3677,7 +3677,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "2088f62d23c1b8c3",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -3722,7 +3722,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Double-Trouble.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "e3f141c98200de6f",
       "source": {
         "id": "wellfleet-pearl",
@@ -3743,7 +3743,7 @@
         "lon": -70.0341306
       },
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1763501289062-D1OUJOJ2MMW3N0TSFNS8/June+2026+Trivia+Night.png",
-      "type": "other",
+      "type": "community",
       "id": "02144a3b0967b80b",
       "source": {
         "id": "wellfleet-library",
@@ -3829,7 +3829,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/The-Detours.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "790b86e452cddf53",
       "source": {
         "id": "wellfleet-pearl",
@@ -4173,7 +4173,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Cheap-Voova-e1772914099955.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "97761d498db54cc6",
       "source": {
         "id": "wellfleet-pearl",
@@ -4194,7 +4194,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "981382b8e981030a",
       "source": {
         "id": "truro-vineyards",
@@ -4406,7 +4406,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Dos-Amigos-3-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "f1eec56b5160963e",
       "source": {
         "id": "wellfleet-pearl",
@@ -4514,7 +4514,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Dave-Foley.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "8bcbdc4207d2baad",
       "source": {
         "id": "wellfleet-pearl",
@@ -4535,7 +4535,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "5f94d6eede8a6479",
       "source": {
         "id": "truro-vineyards",
@@ -4643,7 +4643,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "2cebea40c796e804",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -4815,7 +4815,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Johnny-.png",
-      "type": "other",
+      "type": "live-music",
       "id": "d8764168b46c406d",
       "source": {
         "id": "wellfleet-pearl",
@@ -4991,7 +4991,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "fb42c57ab616e49c",
       "source": {
         "id": "truro-vineyards",
@@ -5396,7 +5396,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Coastal-Wreck-Promo-Pic--scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "75207bd9fdc54e31",
       "source": {
         "id": "wellfleet-pearl",
@@ -5417,7 +5417,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "f555af952dfb2af3",
       "source": {
         "id": "truro-vineyards",
@@ -5502,7 +5502,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "632f29733f29c0e4",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -5738,7 +5738,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/The-Detours.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "3238e6a28ddefdc4",
       "source": {
         "id": "wellfleet-pearl",
@@ -6125,7 +6125,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "9c0373ab0de02e8a",
       "source": {
         "id": "truro-vineyards",
@@ -6421,7 +6421,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Dos-Amigos-3-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "92c4c28ff976dd8b",
       "source": {
         "id": "wellfleet-pearl",
@@ -6508,7 +6508,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Sarah-Burrill.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "fa4957712f55fd8f",
       "source": {
         "id": "wellfleet-pearl",
@@ -6529,7 +6529,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "06a54f0e0f5bd442",
       "source": {
         "id": "truro-vineyards",
@@ -6614,7 +6614,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "84eb541229ab887b",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -7003,7 +7003,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Screen-Shot-2024-02-21-at-6.35.52-PM.png",
-      "type": "other",
+      "type": "live-music",
       "id": "47fe7ec6c14bc4b3",
       "source": {
         "id": "wellfleet-pearl",
@@ -7113,7 +7113,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Riptide-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "fceffe1e0c9a2ae2",
       "source": {
         "id": "wellfleet-pearl",
@@ -7134,7 +7134,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "928cf07822b40719",
       "source": {
         "id": "truro-vineyards",
@@ -7560,7 +7560,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "52aed79d13bfed26",
       "source": {
         "id": "truro-vineyards",
@@ -7645,7 +7645,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "22615f3f2cd5e9b8",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -7753,7 +7753,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Summer-Town-Promo-Photo.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "e08f912403d251df",
       "source": {
         "id": "wellfleet-pearl",
@@ -7945,7 +7945,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Johnny-.png",
-      "type": "other",
+      "type": "live-music",
       "id": "543bd4e4645e0f77",
       "source": {
         "id": "wellfleet-pearl",
@@ -8290,7 +8290,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Cheap-Voova-e1772914099955.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "2bddf5b0fb8227e2",
       "source": {
         "id": "wellfleet-pearl",
@@ -8311,7 +8311,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "562f2271f885d820",
       "source": {
         "id": "truro-vineyards",
@@ -8565,7 +8565,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Dos-Amigos-3-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "3479529f3c03f77b",
       "source": {
         "id": "wellfleet-pearl",
@@ -8652,7 +8652,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Dave-Foley.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "f29f311031939369",
       "source": {
         "id": "wellfleet-pearl",
@@ -8673,7 +8673,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "e18acee7051b8e67",
       "source": {
         "id": "truro-vineyards",
@@ -8737,7 +8737,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "34f660565ae757c7",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -9278,7 +9278,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "15918d31aa7670f0",
       "source": {
         "id": "truro-vineyards",
@@ -9532,7 +9532,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Dos-Amigos-3-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "db617d2afcdb0c64",
       "source": {
         "id": "wellfleet-pearl",
@@ -9683,7 +9683,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Dave-Foley.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "ba9eb6960103d2c9",
       "source": {
         "id": "wellfleet-pearl",
@@ -9704,7 +9704,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "9c53fa6ff6f51589",
       "source": {
         "id": "truro-vineyards",
@@ -9726,7 +9726,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "2fba27a6038d94ac",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -9834,7 +9834,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Summer-Town-Promo-Photo.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "bbdfd1ed2d0374e9",
       "source": {
         "id": "wellfleet-pearl",
@@ -10283,7 +10283,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Screen-Shot-2024-02-21-at-6.35.52-PM.png",
-      "type": "other",
+      "type": "live-music",
       "id": "cd295855e2e91173",
       "source": {
         "id": "wellfleet-pearl",
@@ -10392,7 +10392,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "e360a01d23a9a790",
       "source": {
         "id": "truro-vineyards",
@@ -10667,7 +10667,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Sensible-Shoes-2.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "28e6be2a21641d71",
       "source": {
         "id": "wellfleet-pearl",
@@ -10796,7 +10796,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Sarah-Burrill.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "2378c303d3158a53",
       "source": {
         "id": "wellfleet-pearl",
@@ -10817,7 +10817,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "04a7909068bf46ee",
       "source": {
         "id": "truro-vineyards",
@@ -10903,7 +10903,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "a2dd05e2129674c9",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -11119,7 +11119,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Johnny-.png",
-      "type": "other",
+      "type": "live-music",
       "id": "1f669fc9399b2670",
       "source": {
         "id": "wellfleet-pearl",
@@ -11421,7 +11421,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "0a98c32d7f1d09ec",
       "source": {
         "id": "truro-vineyards",
@@ -11654,7 +11654,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Dos-Amigos-3-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "0ee643a6167a1577",
       "source": {
         "id": "wellfleet-pearl",
@@ -11826,7 +11826,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Coastal-Wreck-Promo-Pic--scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "02affb8b8c96eb0b",
       "source": {
         "id": "wellfleet-pearl",
@@ -11847,7 +11847,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "9c88a33a0312b1ca",
       "source": {
         "id": "truro-vineyards",
@@ -11911,7 +11911,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "7ce3b84075f23835",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -12280,7 +12280,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Screen-Shot-2024-02-21-at-6.35.52-PM.png",
-      "type": "other",
+      "type": "live-music",
       "id": "28c8c6b06e9004f1",
       "source": {
         "id": "wellfleet-pearl",
@@ -12346,7 +12346,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Cheap-Voova-e1772914099955.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "8bfbbfc12b2b05f1",
       "source": {
         "id": "wellfleet-pearl",
@@ -12367,7 +12367,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "793d653a6bdd2cb9",
       "source": {
         "id": "truro-vineyards",
@@ -12709,7 +12709,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "6e5270be3b3a6f08",
       "source": {
         "id": "truro-vineyards",
@@ -12752,7 +12752,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d68317d304266c93",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -12817,7 +12817,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Screen-Shot-2026-03-09-at-5.25.36-PM.png",
-      "type": "other",
+      "type": "live-music",
       "id": "f1e1c50ec211f7b4",
       "source": {
         "id": "wellfleet-pearl",
@@ -12946,7 +12946,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/The-Detours.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "3ac70c76c9698ad2",
       "source": {
         "id": "wellfleet-pearl",
@@ -13123,7 +13123,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "fd21dfbc36c68f5b",
       "source": {
         "id": "truro-vineyards",
@@ -13272,7 +13272,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Dos-Amigos-3-scaled.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "599c13c17ce46155",
       "source": {
         "id": "wellfleet-pearl",
@@ -13380,7 +13380,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "workshop",
+      "type": "food-drink",
       "id": "db66b3bc50737fa0",
       "source": {
         "id": "truro-vineyards",
@@ -13402,7 +13402,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "953834aba7dc677b",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -13446,7 +13446,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Johnny-.png",
-      "type": "other",
+      "type": "live-music",
       "id": "5a1f9c15ad295e8a",
       "source": {
         "id": "wellfleet-pearl",
@@ -13750,7 +13750,7 @@
         "lat": 42.0298296,
         "lon": -70.0778722
       },
-      "type": "festival",
+      "type": "food-drink",
       "id": "221319b04f76c0c2",
       "source": {
         "id": "truro-vineyards",
@@ -13946,7 +13946,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "00595cc5b03752b5",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -13969,7 +13969,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Sarah-Burrill.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "466dec62a69cf83c",
       "source": {
         "id": "wellfleet-pearl",
@@ -13992,7 +13992,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/The-Detours.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "a3f86b11ddf64983",
       "source": {
         "id": "wellfleet-pearl",
@@ -14320,7 +14320,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Sensible-Shoes-2.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "c3c9d03001e81341",
       "source": {
         "id": "wellfleet-pearl",
@@ -14342,7 +14342,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "117db839ea532a33",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -14582,7 +14582,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Johnny-.png",
-      "type": "other",
+      "type": "live-music",
       "id": "d48037845f404754",
       "source": {
         "id": "wellfleet-pearl",
@@ -14627,7 +14627,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/04/Rob.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "b4db05fb5be842ee",
       "source": {
         "id": "wellfleet-pearl",
@@ -14692,7 +14692,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "3e81b93c94369c22",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -14715,7 +14715,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2025/03/Double-Trouble.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "0eb553994e62c63b",
       "source": {
         "id": "wellfleet-pearl",
@@ -14848,7 +14848,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Cheap-Voova-e1772914099955.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "9c84352451d3bddd",
       "source": {
         "id": "wellfleet-pearl",
@@ -14935,7 +14935,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/Super-Soul-Shine.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "85cc75fb64ad8165",
       "source": {
         "id": "wellfleet-pearl",
@@ -15000,7 +15000,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "ade2f009f19459a3",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -15023,7 +15023,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Sarah-Burrill.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "c60ed8ea834a6975",
       "source": {
         "id": "wellfleet-pearl",
@@ -15044,7 +15044,7 @@
         "lon": -70.0341306
       },
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775833664814-4GLYPYD0NR3AYFAQTVXM/September+2026+Trivia+Night.png",
-      "type": "other",
+      "type": "community",
       "id": "bdafccb74d83e6f1",
       "source": {
         "id": "wellfleet-library",
@@ -15287,7 +15287,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "0b78ab2e66877159",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -15422,7 +15422,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2024/02/Cheap-Voova-e1772914099955.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "b4802a3f6634de1c",
       "source": {
         "id": "wellfleet-pearl",
@@ -15532,7 +15532,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "daa29a457cf91087",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -15555,7 +15555,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2022/03/Sarah-Burrill.jpeg",
-      "type": "other",
+      "type": "live-music",
       "id": "5088930cf90fa1ae",
       "source": {
         "id": "wellfleet-pearl",
@@ -15578,7 +15578,7 @@
         "lon": -70.0300536
       },
       "imageUrl": "https://wellfleetpearl.com/wp-content/uploads/2026/03/The-Detours.jpg",
-      "type": "other",
+      "type": "live-music",
       "id": "13ee931f07b444af",
       "source": {
         "id": "wellfleet-pearl",
@@ -15777,7 +15777,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d0bc7d6766f53ed2",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -15949,7 +15949,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "547c234e346a8396",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -15970,7 +15970,7 @@
         "lon": -70.0341306
       },
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775833867456-A0SL0X11MZ5SI4X7IBFA/October+2026+Trivia+Night.png",
-      "type": "other",
+      "type": "community",
       "id": "50b7355dbca47a38",
       "source": {
         "id": "wellfleet-library",
@@ -16079,7 +16079,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "3ba743b48c666669",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -16251,7 +16251,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c65ba96c614a7590",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -16360,7 +16360,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "94edd446e9f992b0",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -16402,7 +16402,7 @@
         "lon": -70.0341306
       },
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775833991794-D55LUR4J8HDEL0Y66KHP/November+2026+Trivia+Night.png",
-      "type": "other",
+      "type": "community",
       "id": "13c16d1c28539d3e",
       "source": {
         "id": "wellfleet-library",
@@ -16574,7 +16574,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "e1dde9e3528ca7cf",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -16683,7 +16683,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "9253d7cd32b8cfea",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -16834,7 +16834,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "4e2eff04a414b31b",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -16964,7 +16964,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "59fdcf3bebbc7625",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17094,7 +17094,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "57abc7bbd07a90a5",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17182,7 +17182,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c5c4d4f5848d6131",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17203,7 +17203,7 @@
         "lon": -70.0341306
       },
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e83bc7a3975ab1474382fe7/1775836676642-BN0U0PDSGUYQU7JGIV5T/December+2026+Trivia+Night.png",
-      "type": "other",
+      "type": "community",
       "id": "80d5a7660a46f3f0",
       "source": {
         "id": "wellfleet-library",
@@ -17291,7 +17291,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d477316153181a3b",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17379,7 +17379,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "9e5f6538b2d52f0b",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17467,7 +17467,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c58ef0af8d67a61c",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17555,7 +17555,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "5f3354da25b99ac7",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17643,7 +17643,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "1a58178744c43cdb",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17731,7 +17731,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c531cb716a04bc32",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17819,7 +17819,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "188dda4d70dec789",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17907,7 +17907,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "f1c66faff1cb9042",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -17995,7 +17995,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "490136552c4e2b29",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18104,7 +18104,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "503e5777b4961a0d",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18214,7 +18214,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "31a3cbb5356ea3c0",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18302,7 +18302,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "e14f90f3ce0d425d",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18390,7 +18390,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "49e8f51868e6e280",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18478,7 +18478,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c1a3ed00c65cd3d6",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18566,7 +18566,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "bdfceb050c7a0e5c",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18654,7 +18654,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "29ae667a8f1e791b",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18742,7 +18742,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "1de544133f463d1f",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18830,7 +18830,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "8990da15e04babfc",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -18918,7 +18918,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "23e418e10b2684c1",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19006,7 +19006,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "50a88d5bf5a63624",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19094,7 +19094,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c4f9c732ca8134cb",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19182,7 +19182,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "39550df8c4d64e3f",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19270,7 +19270,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "3b1d32adc9bbf358",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19358,7 +19358,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "b7d435cdd10bc748",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19446,7 +19446,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "14069d09099a985e",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19534,7 +19534,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d14ee87b6291fdd7",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19622,7 +19622,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "917c8d1b9eb78eb2",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19710,7 +19710,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "0a268d4add095457",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19798,7 +19798,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "5e6d346c3a6304ca",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19886,7 +19886,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "f11ecf606d663099",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -19974,7 +19974,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "318e7bea180aadad",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20062,7 +20062,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "7873a60c92146b96",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20150,7 +20150,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "cb4abb5ff1708716",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20238,7 +20238,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "2e50f13c011f2a3f",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20326,7 +20326,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d6819b29e3858d50",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20414,7 +20414,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "af7699c9ae157578",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20502,7 +20502,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "5345cc102ddb93a7",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20590,7 +20590,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "bc0cb3c55ab76a36",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20678,7 +20678,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d618bb8ea692c861",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20766,7 +20766,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "989c50e235033647",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20854,7 +20854,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "e4754c1547bc6dbf",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -20942,7 +20942,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "13fbc8950a84175f",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21030,7 +21030,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "4722dcd93a753242",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21118,7 +21118,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "212b0b36f1037829",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21206,7 +21206,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "62a20df9a5377af9",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21294,7 +21294,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "093052705d2bf7fe",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21382,7 +21382,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "f2df11e6947a0fe3",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21470,7 +21470,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c0cde0963c49f9bf",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21558,7 +21558,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "a1d62749aa7c6e12",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21646,7 +21646,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "784fa4f1348716d1",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21734,7 +21734,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "303af6bfadb07b99",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21822,7 +21822,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "fb16b842248afea2",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21910,7 +21910,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "62662336736dbfbb",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -21998,7 +21998,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "b3ccfb77391b0ae0",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22086,7 +22086,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c5a8dd0a2adac01c",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22174,7 +22174,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "4c7952c3069c5a23",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22262,7 +22262,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "3ce84c71e9fc9150",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22350,7 +22350,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "6b7843e74afb9f29",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22438,7 +22438,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "55035ee2c0cdf921",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22526,7 +22526,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "f0654a0f18318002",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22614,7 +22614,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "dd40b6529364d30a",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22702,7 +22702,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "b4100af742719e8d",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22790,7 +22790,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "c8904266993f9794",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22878,7 +22878,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "04ebdc40fb03f5b6",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -22966,7 +22966,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "f684686356278adc",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -23054,7 +23054,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "1f57afb3c93fa9a0",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -23142,7 +23142,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d3f08c904066f8d1",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -23230,7 +23230,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "43eeb59e6e32c09e",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -23318,7 +23318,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "5a43e0c259f7d972",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -23406,7 +23406,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "b561c88f5238d78c",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -23494,7 +23494,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "d41dad13558e3a6c",
       "source": {
         "id": "wellfleet-preservation-hall",
@@ -23582,7 +23582,7 @@
         "lat": 41.9385095,
         "lon": -70.0324086
       },
-      "type": "other",
+      "type": "fitness",
       "id": "b1c11a05cdb433ae",
       "source": {
         "id": "wellfleet-preservation-hall",

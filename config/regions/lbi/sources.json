@@ -9,7 +9,8 @@
       "url": "https://www.birdandbettys.com/",
       "category": "Venue / Restaurant",
       "town": "Beach Haven",
-      "notes": "Squarespace site \u2014 events collection at /events/ (~58 upcoming). Misses daytime-only events because they don't get posted here.",
+      "notes": "Squarespace site \u2014 events collection at /events/ (~58 upcoming). Misses daytime-only events because they don't get posted here. Titles are just band names, so defaultEventType=\"live-music\" categorizes them correctly.",
+      "defaultEventType": "live-music",
       "config": {
         "path": "/events/",
         "defaultVenue": "Bird & Betty's"
@@ -23,7 +24,8 @@
       "url": "https://calendar.google.com/calendar/ical/07919b74d6e43922cc76627ce10d669077197d20cd0b236f41d5e09356234738%40group.calendar.google.com/public/basic.ics",
       "category": "Venue / Live Music",
       "town": "Ship Bottom",
-      "notes": "Squarespace site (joepops.com), but events live in a public Google Calendar embedded on /events. We fetch the calendar's iCal export directly (~200 events). To update the calendar source, see the data-src attribute on Joe Pop's /events page.",
+      "notes": "Squarespace site (joepops.com), but events live in a public Google Calendar embedded on /events. We fetch the calendar's iCal export directly (~200 events). To update the calendar source, see the data-src attribute on Joe Pop's /events page. Titles are band names + Happy Hour slots, so defaultEventType=\"live-music\" categorizes them correctly.",
+      "defaultEventType": "live-music",
       "config": {
         "defaultVenue": "Joe Pop's Shore Bar"
       }
@@ -64,7 +66,11 @@
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "category": "Venue / Hotel + Live Music",
       "town": "Surf City",
-      "notes": "Static HTML page at /entertainment.html embeds a public Google Calendar. Calendar ID extracted from the embed URL \u2014 we fetch the iCal export directly. excludeTitlePatterns drops the daily 'Bistro Open' / 'Open' entries (which are restaurant operating hours, not events).",
+      "notes": "Static HTML page at /entertainment.html embeds a public Google Calendar. Calendar ID extracted from the embed URL \u2014 we fetch the iCal export directly. excludeTitlePatterns drops the daily 'Bistro Open' / 'Open' entries (which are restaurant operating hours, not events). Titles are band names, so defaultEventType=\"live-music\" categorizes them correctly. titleRules pull Trivia out of the live-music bucket.",
+      "defaultEventType": "live-music",
+      "titleRules": [
+        { "pattern": "^trivia\\b", "type": "community" }
+      ],
       "config": {
         "defaultVenue": "Surf City Hotel",
         "excludeTitlePatterns": [

@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { categorize } from "./categorize";
+import { categorize, typeFromPlatformCategories } from "./categorize";
 import { loadRegion } from "./region";
 import { extractTownInText, findTownIn } from "./towns";
 import type { EventRecord, SourceConfig } from "./types";
@@ -120,14 +120,50 @@ export function buildEvent(
     }
   }
 
+  // Categorization priority (when the caller didn't pin `type` explicitly):
+  //   1. source.titleRules     — surgical per-venue overrides (highest signal)
+  //   2. platform categories   — Tribe/Squarespace/iCal tags carried on the event
+  //   3. categorize(title+desc) — global keyword regex
+  //   4. source.defaultEventType — venue-level fallback (e.g. live-music bar)
+  //   5. "other"
+  let resolvedType: EventRecord["type"] | undefined = type;
+  if (!resolvedType) resolvedType = matchTitleRules(source, rest.title);
+  if (!resolvedType) resolvedType = typeFromPlatformCategories(rest.categories);
+  if (!resolvedType) {
+    const titleType = categorize(rest.title, rest.description);
+    resolvedType = titleType === "other"
+      ? (source.defaultEventType ?? "other")
+      : titleType;
+  }
+
   return {
     ...rest,
     location,
-    type: type ?? categorize(rest.title, rest.description),
+    type: resolvedType,
     id: makeEventId(source.id, naturalKey),
     source: { id: source.id, name: source.name },
     ingestedAt: nowIso(),
   };
+}
+
+/** Apply source.titleRules to a title. First match wins. Returns undefined
+ *  when no rule matches (caller falls through to next strategy). Malformed
+ *  regex sources are silently skipped — we don't want one bad rule to kill
+ *  ingest. */
+function matchTitleRules(
+  source: SourceConfig,
+  title: string,
+): EventRecord["type"] | undefined {
+  const rules = source.titleRules;
+  if (!rules?.length) return undefined;
+  for (const rule of rules) {
+    try {
+      if (new RegExp(rule.pattern, "i").test(title)) return rule.type;
+    } catch {
+      /* skip malformed regex */
+    }
+  }
+  return undefined;
 }
 
 function safeTownIndex() {

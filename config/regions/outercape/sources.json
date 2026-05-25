@@ -168,7 +168,8 @@
       "url": "https://wellfleetpearl.com/",
       "category": "Venue / Live Music",
       "town": "Wellfleet",
-      "notes": "Restaurant + live music venue on Wellfleet harbor. WordPress + The Events Calendar (Tribe) plugin. Tribe REST is open and returns ~150 events with venue data populated.",
+      "notes": "Restaurant + live music venue on Wellfleet harbor. WordPress + The Events Calendar (Tribe) plugin. Tribe REST is open and returns ~150 events with venue data populated. Titles are band names, so defaultEventType=\"live-music\" categorizes them correctly.",
+      "defaultEventType": "live-music",
       "config": {
         "defaultVenue": "The Pearl Wellfleet"
       }

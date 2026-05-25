@@ -24,6 +24,20 @@ export type SourceConfig = {
   category?: string;
   notes?: string;
   config?: Record<string, unknown>;
+  /** Fallback event type applied when categorize() can't classify the title
+   *  (i.e. would return "other"). Useful for venue sources whose events are
+   *  just band names — set to "live-music" and we tag them correctly without
+   *  needing a list of band names in the rules. */
+  defaultEventType?: import("./categorize").EventType;
+  /** Source-specific title overrides applied BEFORE the global categorize()
+   *  regex. First match wins. Use when a venue has a recurring program whose
+   *  title doesn't match (or mismatches) the global rules — e.g. Surf City
+   *  Hotel's "Trivia on Tap" should be community, not live-music.
+   *  pattern is a case-insensitive JS regex source string. */
+  titleRules?: Array<{
+    pattern: string;
+    type: import("./categorize").EventType;
+  }>;
 };
 
 export type SourcesFile = {

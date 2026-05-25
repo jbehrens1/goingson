@@ -54,6 +54,15 @@ export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> =
       const naturalKey = vev.uid ?? `${vev.summary}::${start}`;
       const venue =
         (vev.location && String(vev.location).trim()) || cfg.defaultVenue || undefined;
+      // node-ical parses CATEGORIES into a string[] (or sometimes a single
+      // string for one-value entries). Normalize to string[] so categorize
+      // can use them as platform tags (e.g. iCal "Concert" → live-music).
+      const rawCats = (vev as unknown as { categories?: unknown }).categories;
+      const categories = Array.isArray(rawCats)
+        ? rawCats.filter((c): c is string => typeof c === "string")
+        : typeof rawCats === "string"
+          ? [rawCats]
+          : undefined;
       return buildEvent(source, {
         naturalKey,
         title: summary,
@@ -67,6 +76,7 @@ export const icalAdapter: Adapter = async ({ source }): Promise<AdapterResult> =
           : source.town
             ? { town: source.town }
             : undefined,
+        categories,
       });
     })
     .filter((e): e is NonNullable<typeof e> => e !== null);

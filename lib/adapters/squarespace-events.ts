@@ -42,6 +42,11 @@ type SquarespaceEvent = {
   location?: SquarespaceLocation;
   assetUrl?: string;
   recordTypeLabel?: string;
+  /** Squarespace stores collection categories + tags as string arrays.
+   *  Most venues leave these empty, but when populated they're high-quality
+   *  hints (e.g. "Concert", "Theater") that beat title regex. */
+  categories?: string[];
+  tags?: string[];
 };
 
 type SquarespaceJson = {
@@ -157,6 +162,10 @@ export const squarespaceEventsAdapter: Adapter = async ({ source }): Promise<Ada
         : new URL(ev.fullUrl, source.url).toString()
       : source.url;
 
+    const cats = [
+      ...(Array.isArray(ev.categories) ? ev.categories : []),
+      ...(Array.isArray(ev.tags) ? ev.tags : []),
+    ].filter((c): c is string => typeof c === "string");
     events.push(
       buildEvent(source, {
         naturalKey: ev.id ?? ev.urlId ?? fullUrl,
@@ -173,6 +182,7 @@ export const squarespaceEventsAdapter: Adapter = async ({ source }): Promise<Ada
           lon,
         },
         imageUrl: ev.assetUrl,
+        categories: cats.length ? cats : undefined,
       }),
     );
   }

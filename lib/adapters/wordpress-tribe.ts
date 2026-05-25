@@ -26,6 +26,8 @@ type TribeVenue = {
   zip?: string;
 };
 
+type TribeTerm = { name?: string; slug?: string };
+
 type TribeEvent = {
   id: number;
   url: string;
@@ -41,7 +43,15 @@ type TribeEvent = {
   utc_end_date?: string;
   timezone?: string;
   venue?: TribeVenue | TribeVenue[] | [];
+  categories?: TribeTerm[];
+  tags?: TribeTerm[];
 };
+
+function termNames(terms: TribeTerm[] | undefined): string[] | undefined {
+  if (!terms?.length) return undefined;
+  const names = terms.map((t) => t.name).filter((n): n is string => !!n);
+  return names.length ? names : undefined;
+}
 
 type TribePage = {
   events?: TribeEvent[];
@@ -112,6 +122,13 @@ export const wordpressTribeAdapter: Adapter = async ({ source }): Promise<Adapte
       }
       const venue = firstVenue(ev.venue);
       const image = ev.image && typeof ev.image === "object" ? ev.image.url : undefined;
+      // Tribe exposes categories (taxonomy = tribe_events_cat) and tags. Some
+      // sites populate categories ("Concert", "Theater"), others populate tags
+      // ("live music"). Pass both through to categorize() as platform hints.
+      const cats = [
+        ...(termNames(ev.categories) ?? []),
+        ...(termNames(ev.tags) ?? []),
+      ];
       events.push(
         buildEvent(source, {
           naturalKey: String(ev.id),
@@ -129,6 +146,7 @@ export const wordpressTribeAdapter: Adapter = async ({ source }): Promise<Adapte
               : undefined,
           },
           imageUrl: image,
+          categories: cats.length ? cats : undefined,
         }),
       );
     }

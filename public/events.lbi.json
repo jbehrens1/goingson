@@ -57,7 +57,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0617ca8cbacdd8ed",
       "source": {
         "id": "surf-city-hotel",
@@ -78,7 +78,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7bb36a8431bdbf7a",
       "source": {
         "id": "joe-pops",
@@ -119,7 +119,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8e46e58c86900f94",
       "source": {
         "id": "surf-city-hotel",
@@ -160,7 +160,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "c799d1344c5d5baa",
       "source": {
         "id": "surf-city-hotel",
@@ -181,7 +181,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "89858f4b1bf1000f",
       "source": {
         "id": "joe-pops",
@@ -223,7 +223,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "01c7b6d758939f77",
       "source": {
         "id": "surf-city-hotel",
@@ -243,7 +243,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d82fcd590e4e2f41",
       "source": {
         "id": "joe-pops",
@@ -285,7 +285,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "daac5be5e689813b",
       "source": {
         "id": "surf-city-hotel",
@@ -306,7 +306,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5af54a30104fdc7f",
       "source": {
         "id": "joe-pops",
@@ -326,7 +326,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "community",
       "id": "c2a136b07c33cfca",
       "source": {
         "id": "surf-city-hotel",
@@ -368,7 +368,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9415e4923c00a219d5bd7/1775845810721/",
-      "type": "other",
+      "type": "live-music",
       "id": "a757f8ebae7adf4f",
       "source": {
         "id": "bird-and-bettys",
@@ -410,7 +410,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ebdc5d9b9627da07",
       "source": {
         "id": "surf-city-hotel",
@@ -431,7 +431,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "794c0aa2b4d62ee3",
       "source": {
         "id": "joe-pops",
@@ -473,7 +473,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d943edebfd9d08333e3f13/1775846423364/",
-      "type": "other",
+      "type": "live-music",
       "id": "3a44e9db94ec9a90",
       "source": {
         "id": "bird-and-bettys",
@@ -493,7 +493,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b8d4d2ff734e39e2",
       "source": {
         "id": "surf-city-hotel",
@@ -514,7 +514,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8ba775b1eda70fcc",
       "source": {
         "id": "joe-pops",
@@ -556,7 +556,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "efa26e0d4fc3c414",
       "source": {
         "id": "surf-city-hotel",
@@ -577,7 +577,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8df782b81e05bbb3",
       "source": {
         "id": "joe-pops",
@@ -597,7 +597,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ea7a07ba49670423",
       "source": {
         "id": "surf-city-hotel",
@@ -618,7 +618,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e694babf7986ed23",
       "source": {
         "id": "joe-pops",
@@ -660,7 +660,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d944dd294d3479862a9d9d/1775846663737/",
-      "type": "other",
+      "type": "live-music",
       "id": "e86513103f770fa5",
       "source": {
         "id": "bird-and-bettys",
@@ -702,7 +702,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7d11a05312edcebd",
       "source": {
         "id": "surf-city-hotel",
@@ -723,7 +723,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "dff2b4ca02225a97",
       "source": {
         "id": "joe-pops",
@@ -765,7 +765,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94595bcea3538b736e0fb/1775846949860/",
-      "type": "other",
+      "type": "live-music",
       "id": "7124845bedbccfe2",
       "source": {
         "id": "bird-and-bettys",
@@ -785,7 +785,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "995242bc92b3ac16",
       "source": {
         "id": "surf-city-hotel",
@@ -806,7 +806,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ffd504d58eb25732",
       "source": {
         "id": "joe-pops",
@@ -848,7 +848,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "aeff140f0e0b137c",
       "source": {
         "id": "surf-city-hotel",
@@ -869,7 +869,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4ada262823b33f82",
       "source": {
         "id": "joe-pops",
@@ -911,7 +911,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7b5c91de7b7c8626",
       "source": {
         "id": "surf-city-hotel",
@@ -932,7 +932,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "da13e427c6f2a3ef",
       "source": {
         "id": "joe-pops",
@@ -974,7 +974,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d946733b605831173a18c8/1775847084678/",
-      "type": "other",
+      "type": "live-music",
       "id": "dc655b1692afed1d",
       "source": {
         "id": "bird-and-bettys",
@@ -1016,7 +1016,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "927448f317fbbbde",
       "source": {
         "id": "surf-city-hotel",
@@ -1037,7 +1037,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0e12c057b5d69684",
       "source": {
         "id": "joe-pops",
@@ -1079,7 +1079,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d93e9328efe2379c1c1cbe/1775845033583/",
-      "type": "other",
+      "type": "live-music",
       "id": "c6cea79ca47ba8cd",
       "source": {
         "id": "bird-and-bettys",
@@ -1099,7 +1099,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "06a042578068ef1f",
       "source": {
         "id": "surf-city-hotel",
@@ -1120,7 +1120,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a0f1358611d1f1e0",
       "source": {
         "id": "joe-pops",
@@ -1162,7 +1162,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "dbadc3031e0fe564",
       "source": {
         "id": "surf-city-hotel",
@@ -1183,7 +1183,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e150c7066697df80",
       "source": {
         "id": "joe-pops",
@@ -1225,7 +1225,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "66b08921dd002202",
       "source": {
         "id": "surf-city-hotel",
@@ -1246,7 +1246,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b8887a7c30ba4a3e",
       "source": {
         "id": "joe-pops",
@@ -1288,7 +1288,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9444020399f357b8b47e9/1775846476345/",
-      "type": "other",
+      "type": "live-music",
       "id": "5e49187b8fcce6e6",
       "source": {
         "id": "bird-and-bettys",
@@ -1330,7 +1330,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "2845efe768e93a72",
       "source": {
         "id": "surf-city-hotel",
@@ -1351,7 +1351,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "25c649a71739c59b",
       "source": {
         "id": "joe-pops",
@@ -1371,7 +1371,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9a97500777c6ebb2",
       "source": {
         "id": "surf-city-hotel",
@@ -1413,7 +1413,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9412f28fc037d5c1cbe27/1775845707532/",
-      "type": "other",
+      "type": "live-music",
       "id": "5e6afa5fceeaffcf",
       "source": {
         "id": "bird-and-bettys",
@@ -1433,7 +1433,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6a7a7fe14ad8b4e2",
       "source": {
         "id": "surf-city-hotel",
@@ -1454,7 +1454,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "109df1d505181f21",
       "source": {
         "id": "joe-pops",
@@ -1474,7 +1474,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "community",
       "id": "18c9e7747813db15",
       "source": {
         "id": "surf-city-hotel",
@@ -1495,7 +1495,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "dd68444f12283a0f",
       "source": {
         "id": "joe-pops",
@@ -1536,7 +1536,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "1d64ff05f985134f",
       "source": {
         "id": "surf-city-hotel",
@@ -1557,7 +1557,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "639d3319d012af10",
       "source": {
         "id": "joe-pops",
@@ -1599,7 +1599,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d947753b605831173ab739/1775847330404/",
-      "type": "other",
+      "type": "live-music",
       "id": "b82ecbb9fcef6c04",
       "source": {
         "id": "bird-and-bettys",
@@ -1619,7 +1619,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5a15fff08585839d",
       "source": {
         "id": "surf-city-hotel",
@@ -1640,7 +1640,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "36edefd78ef4a257",
       "source": {
         "id": "joe-pops",
@@ -1661,7 +1661,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94fcfcb5b71685a72d7b2/1775849485915/",
-      "type": "other",
+      "type": "community",
       "id": "9a04447759ea188e",
       "source": {
         "id": "bird-and-bettys",
@@ -1747,7 +1747,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "87cd0a26d05f1f37",
       "source": {
         "id": "surf-city-hotel",
@@ -1768,7 +1768,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e4a5b08fe66ac35e",
       "source": {
         "id": "joe-pops",
@@ -1831,7 +1831,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "c5baddc884ed8f81",
       "source": {
         "id": "surf-city-hotel",
@@ -1852,7 +1852,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ccc99e5a3866fdf8",
       "source": {
         "id": "joe-pops",
@@ -1872,7 +1872,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8146282d7d8d0289",
       "source": {
         "id": "surf-city-hotel",
@@ -1914,7 +1914,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d946cc0f45293b2afabd14/1775847175208/",
-      "type": "other",
+      "type": "live-music",
       "id": "f225f6f4174a78ff",
       "source": {
         "id": "bird-and-bettys",
@@ -1956,7 +1956,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "462cb114af301684",
       "source": {
         "id": "surf-city-hotel",
@@ -1977,7 +1977,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "1d031f38059acea6",
       "source": {
         "id": "joe-pops",
@@ -1997,7 +1997,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "594a726d99e70eae",
       "source": {
         "id": "surf-city-hotel",
@@ -2039,7 +2039,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9366f4c4cb3357d1579a5/1775843043130/",
-      "type": "other",
+      "type": "live-music",
       "id": "b48842c42d53f466",
       "source": {
         "id": "bird-and-bettys",
@@ -2059,7 +2059,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "fe24c7c50e8c1b2f",
       "source": {
         "id": "surf-city-hotel",
@@ -2080,7 +2080,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "faf530780f682708",
       "source": {
         "id": "joe-pops",
@@ -2101,7 +2101,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "315945297c66a5a2",
       "source": {
         "id": "joe-pops",
@@ -2142,7 +2142,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "bef6c7a3c96aeeaf",
       "source": {
         "id": "surf-city-hotel",
@@ -2163,7 +2163,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e13916d6f09c63d3",
       "source": {
         "id": "joe-pops",
@@ -2205,7 +2205,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d947d3d5d3f877fc900030/1775847644746/",
-      "type": "other",
+      "type": "live-music",
       "id": "f038e9f34857cda0",
       "source": {
         "id": "bird-and-bettys",
@@ -2225,7 +2225,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "025c383a28593e63",
       "source": {
         "id": "surf-city-hotel",
@@ -2246,7 +2246,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "1d3d2cbc1e422ddb",
       "source": {
         "id": "joe-pops",
@@ -2287,7 +2287,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9501528fc037d5c230fca/1775849528131/",
-      "type": "other",
+      "type": "community",
       "id": "16c7c4048958fb92",
       "source": {
         "id": "bird-and-bettys",
@@ -2350,7 +2350,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7c53ac21e279501b",
       "source": {
         "id": "surf-city-hotel",
@@ -2371,7 +2371,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8e8fcb0f322d977c",
       "source": {
         "id": "joe-pops",
@@ -2412,7 +2412,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9d912b0d4e23a14d",
       "source": {
         "id": "surf-city-hotel",
@@ -2433,7 +2433,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ad62c6002dcc2f19",
       "source": {
         "id": "joe-pops",
@@ -2453,7 +2453,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5c717802e1ffb1d5",
       "source": {
         "id": "surf-city-hotel",
@@ -2495,7 +2495,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94737ddbdc6182e236fea/1775847277521/",
-      "type": "other",
+      "type": "live-music",
       "id": "a585fced39e48a09",
       "source": {
         "id": "bird-and-bettys",
@@ -2537,7 +2537,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a41f7de17e18a619",
       "source": {
         "id": "surf-city-hotel",
@@ -2558,7 +2558,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8a7ddf55eb9c6601",
       "source": {
         "id": "joe-pops",
@@ -2578,7 +2578,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6f395bf73e682a13",
       "source": {
         "id": "surf-city-hotel",
@@ -2620,7 +2620,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d945296c92b93e1fe66ff2/1775846924836/",
-      "type": "other",
+      "type": "live-music",
       "id": "b2bd7cb60da06809",
       "source": {
         "id": "bird-and-bettys",
@@ -2640,7 +2640,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4bb40fc47c947a05",
       "source": {
         "id": "surf-city-hotel",
@@ -2661,7 +2661,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d4b0f4712a51163a",
       "source": {
         "id": "joe-pops",
@@ -2682,7 +2682,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "361aa2fc1a4e7a75",
       "source": {
         "id": "joe-pops",
@@ -2723,7 +2723,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "bc6a4fc29a2f1642",
       "source": {
         "id": "surf-city-hotel",
@@ -2744,7 +2744,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "67bd99bbada76e9e",
       "source": {
         "id": "joe-pops",
@@ -2785,7 +2785,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "c18db4391baca42b",
       "source": {
         "id": "surf-city-hotel",
@@ -2806,7 +2806,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69e245ae194aba4f0082185a/1777047288614/",
-      "type": "other",
+      "type": "live-music",
       "id": "417141a803690071",
       "source": {
         "id": "bird-and-bettys",
@@ -2826,7 +2826,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "338417a8e9518565",
       "source": {
         "id": "surf-city-hotel",
@@ -2847,7 +2847,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "f1b7e96a62baaee5",
       "source": {
         "id": "joe-pops",
@@ -2868,7 +2868,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d950417dba81259424dcc1/1775849555924/",
-      "type": "other",
+      "type": "community",
       "id": "c5c7b05688441ab8",
       "source": {
         "id": "bird-and-bettys",
@@ -2909,7 +2909,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0b53dfefb1322689",
       "source": {
         "id": "surf-city-hotel",
@@ -2930,7 +2930,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "556200fc438dbabc",
       "source": {
         "id": "joe-pops",
@@ -2993,7 +2993,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a2e0364cde8b8f97",
       "source": {
         "id": "surf-city-hotel",
@@ -3014,7 +3014,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "31034586eef6c3af",
       "source": {
         "id": "joe-pops",
@@ -3034,7 +3034,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "2679aaa13ce3ef29",
       "source": {
         "id": "surf-city-hotel",
@@ -3076,7 +3076,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d93ebb0f45293b2af758ba/1775845234709/",
-      "type": "other",
+      "type": "live-music",
       "id": "27524305d9d85524",
       "source": {
         "id": "bird-and-bettys",
@@ -3118,7 +3118,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "22e4b0d327062f20",
       "source": {
         "id": "surf-city-hotel",
@@ -3139,7 +3139,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "49b103d8352885f5",
       "source": {
         "id": "joe-pops",
@@ -3159,7 +3159,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "37f26756e8554e30",
       "source": {
         "id": "surf-city-hotel",
@@ -3201,7 +3201,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d93da189aa335154570d8f/1775844834831/",
-      "type": "other",
+      "type": "live-music",
       "id": "5c3295ce18ec9b5c",
       "source": {
         "id": "bird-and-bettys",
@@ -3221,7 +3221,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "29c1b8b50a331711",
       "source": {
         "id": "surf-city-hotel",
@@ -3242,7 +3242,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "70577c3555e0c409",
       "source": {
         "id": "joe-pops",
@@ -3263,7 +3263,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ec7d3d7f38a8ab97",
       "source": {
         "id": "joe-pops",
@@ -3304,7 +3304,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b9bdb91322065c5d",
       "source": {
         "id": "surf-city-hotel",
@@ -3325,7 +3325,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6a9f7aad59d03627",
       "source": {
         "id": "joe-pops",
@@ -3367,7 +3367,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69eb95f04bf27d707bdd0b70/1777047071842/",
-      "type": "other",
+      "type": "live-music",
       "id": "a17bff8bbba3c5a5",
       "source": {
         "id": "bird-and-bettys",
@@ -3387,7 +3387,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d171554484a981fc",
       "source": {
         "id": "surf-city-hotel",
@@ -3408,7 +3408,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6c50db9438debc08",
       "source": {
         "id": "joe-pops",
@@ -3429,7 +3429,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9510ecb5b71685a735724/1775849830679/",
-      "type": "other",
+      "type": "community",
       "id": "faad89cd07f1cedb",
       "source": {
         "id": "bird-and-bettys",
@@ -3492,7 +3492,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0a8443cd6604c589",
       "source": {
         "id": "surf-city-hotel",
@@ -3513,7 +3513,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "542c98669991fcdc",
       "source": {
         "id": "joe-pops",
@@ -3576,7 +3576,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8371c029b0b39740",
       "source": {
         "id": "surf-city-hotel",
@@ -3597,7 +3597,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b92ef4887c71b000",
       "source": {
         "id": "joe-pops",
@@ -3617,7 +3617,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7814a07444977ba7",
       "source": {
         "id": "surf-city-hotel",
@@ -3659,7 +3659,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94ed052b007777b14e617/1775849203833/",
-      "type": "other",
+      "type": "live-music",
       "id": "a1c6e7ef74fe6155",
       "source": {
         "id": "bird-and-bettys",
@@ -3701,7 +3701,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5c0a0aaa5456b7e4",
       "source": {
         "id": "surf-city-hotel",
@@ -3722,7 +3722,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "32063c230c53c97f",
       "source": {
         "id": "joe-pops",
@@ -3742,7 +3742,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4108dd54b68a340b",
       "source": {
         "id": "surf-city-hotel",
@@ -3784,7 +3784,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d932d4058c9e4f12bd853c/1775848031052/",
-      "type": "other",
+      "type": "live-music",
       "id": "1a67faa435c07c9b",
       "source": {
         "id": "bird-and-bettys",
@@ -3804,7 +3804,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e4b5773e49707717",
       "source": {
         "id": "surf-city-hotel",
@@ -3825,7 +3825,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "de2176f3e65be6c6",
       "source": {
         "id": "joe-pops",
@@ -3846,7 +3846,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "52e741d4a158dc35",
       "source": {
         "id": "joe-pops",
@@ -3887,7 +3887,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ae9324dc6ec8d9a5",
       "source": {
         "id": "surf-city-hotel",
@@ -3908,7 +3908,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9346a3dae502f6e6",
       "source": {
         "id": "joe-pops",
@@ -3950,7 +3950,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d948192c98c555878b359f/1776437490361/",
-      "type": "other",
+      "type": "live-music",
       "id": "66108dba8178789e",
       "source": {
         "id": "bird-and-bettys",
@@ -3970,7 +3970,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4da564714ee1db5e",
       "source": {
         "id": "surf-city-hotel",
@@ -3991,7 +3991,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b70ec8c904c3b68c",
       "source": {
         "id": "joe-pops",
@@ -4012,7 +4012,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d95059b36d3b7a2f2f8556/1775849883835/",
-      "type": "other",
+      "type": "community",
       "id": "f00f89666ae64f9c",
       "source": {
         "id": "bird-and-bettys",
@@ -4076,7 +4076,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "62fef2f35ca13564",
       "source": {
         "id": "joe-pops",
@@ -4139,7 +4139,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0360947eddb8ab35",
       "source": {
         "id": "surf-city-hotel",
@@ -4160,7 +4160,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "dbbff258b7c79472",
       "source": {
         "id": "joe-pops",
@@ -4180,7 +4180,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5695cfe1a0db4633",
       "source": {
         "id": "surf-city-hotel",
@@ -4222,7 +4222,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94a6e805bc6248dd88f45/1775848081375/",
-      "type": "other",
+      "type": "live-music",
       "id": "3c0c21498536e3b3",
       "source": {
         "id": "bird-and-bettys",
@@ -4242,7 +4242,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "f01ea35df2c00570",
       "source": {
         "id": "surf-city-hotel",
@@ -4263,7 +4263,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5d24ef95bcb106e0",
       "source": {
         "id": "joe-pops",
@@ -4283,7 +4283,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "79485112256743c5",
       "source": {
         "id": "surf-city-hotel",
@@ -4325,7 +4325,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94a96fb9eda02403edabd/1775848122142/",
-      "type": "other",
+      "type": "live-music",
       "id": "dad9ff6d289f77fe",
       "source": {
         "id": "bird-and-bettys",
@@ -4345,7 +4345,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "dc9b9eef2e22f011",
       "source": {
         "id": "surf-city-hotel",
@@ -4366,7 +4366,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a3353bbfffdb40c9",
       "source": {
         "id": "joe-pops",
@@ -4387,7 +4387,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "152be7ce4121b370",
       "source": {
         "id": "joe-pops",
@@ -4428,7 +4428,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "23208e498e78da30",
       "source": {
         "id": "surf-city-hotel",
@@ -4449,7 +4449,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "52e3d4fc2198ff03",
       "source": {
         "id": "joe-pops",
@@ -4491,7 +4491,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69e24651e9ddd35f27cd2f57/1776437022043/",
-      "type": "other",
+      "type": "live-music",
       "id": "b6bac9ed436e1366",
       "source": {
         "id": "bird-and-bettys",
@@ -4511,7 +4511,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "33d5ed4f1dcc0be0",
       "source": {
         "id": "surf-city-hotel",
@@ -4532,7 +4532,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "84072d45ba883f74",
       "source": {
         "id": "joe-pops",
@@ -4553,7 +4553,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9517067e4a64b69f97991/1775849857402/",
-      "type": "other",
+      "type": "community",
       "id": "99e1dd03f84e78d2",
       "source": {
         "id": "bird-and-bettys",
@@ -4616,7 +4616,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9561f068d741d9f2",
       "source": {
         "id": "surf-city-hotel",
@@ -4637,7 +4637,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ee28612c7b13ae39",
       "source": {
         "id": "joe-pops",
@@ -4700,7 +4700,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "645199115715d484",
       "source": {
         "id": "surf-city-hotel",
@@ -4721,7 +4721,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "fb5f1d438176535b",
       "source": {
         "id": "joe-pops",
@@ -4741,7 +4741,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6e93d642a32b46b9",
       "source": {
         "id": "surf-city-hotel",
@@ -4783,7 +4783,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94722ebfd9d08333faf40/1775847214017/",
-      "type": "other",
+      "type": "live-music",
       "id": "0a7f97dc8025dc2d",
       "source": {
         "id": "bird-and-bettys",
@@ -4825,7 +4825,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d5c1b5a48096b308",
       "source": {
         "id": "surf-city-hotel",
@@ -4846,7 +4846,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e2692f87741bf5a4",
       "source": {
         "id": "joe-pops",
@@ -4866,7 +4866,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ff1bb6194b9aaa34",
       "source": {
         "id": "surf-city-hotel",
@@ -4908,7 +4908,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9462bd82f73594fccc491/1775846974185/",
-      "type": "other",
+      "type": "live-music",
       "id": "378126d54002e19a",
       "source": {
         "id": "bird-and-bettys",
@@ -4928,7 +4928,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "619840eb297307e2",
       "source": {
         "id": "surf-city-hotel",
@@ -4949,7 +4949,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a5a9c75bfa8a2b83",
       "source": {
         "id": "joe-pops",
@@ -4970,7 +4970,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "c38ebff0b18b6149",
       "source": {
         "id": "joe-pops",
@@ -5012,7 +5012,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d948728a92aa0ce31ccc3c/1775849321721/",
-      "type": "other",
+      "type": "live-music",
       "id": "f2344571fde1f536",
       "source": {
         "id": "bird-and-bettys",
@@ -5032,7 +5032,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "36595d6757eb6adf",
       "source": {
         "id": "surf-city-hotel",
@@ -5053,7 +5053,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e202c3c732e6665e",
       "source": {
         "id": "joe-pops",
@@ -5095,7 +5095,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d949082318fb307a5deeff/1775847710334/",
-      "type": "other",
+      "type": "live-music",
       "id": "7ee8bc6d42c3c0f2",
       "source": {
         "id": "bird-and-bettys",
@@ -5115,7 +5115,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "bc5488e2cd77ad40",
       "source": {
         "id": "surf-city-hotel",
@@ -5136,7 +5136,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d106ef6145ca1d89",
       "source": {
         "id": "joe-pops",
@@ -5157,7 +5157,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d95071b36d3b7a2f2f868d/1775849597713/",
-      "type": "other",
+      "type": "community",
       "id": "55485a4ceed68946",
       "source": {
         "id": "bird-and-bettys",
@@ -5198,7 +5198,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "25d97389d9caee32",
       "source": {
         "id": "surf-city-hotel",
@@ -5219,7 +5219,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8595e891a8aedb5d",
       "source": {
         "id": "joe-pops",
@@ -5260,7 +5260,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a0a6d4c136e17b91",
       "source": {
         "id": "surf-city-hotel",
@@ -5281,7 +5281,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a8833f859bc8e4f3",
       "source": {
         "id": "joe-pops",
@@ -5301,7 +5301,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d76f0971b0d2d40f",
       "source": {
         "id": "surf-city-hotel",
@@ -5343,7 +5343,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94462ef361f3510b376ac/1775846514604/",
-      "type": "other",
+      "type": "live-music",
       "id": "c8eb3dd79f3e5380",
       "source": {
         "id": "bird-and-bettys",
@@ -5363,7 +5363,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "569bdeecf63e2252",
       "source": {
         "id": "surf-city-hotel",
@@ -5384,7 +5384,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b6839830762b625a",
       "source": {
         "id": "joe-pops",
@@ -5404,7 +5404,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "fe0974bf63078cda",
       "source": {
         "id": "surf-city-hotel",
@@ -5446,7 +5446,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94b0cbcea3538b7395a76/1775848248626/",
-      "type": "other",
+      "type": "live-music",
       "id": "20d1b4c116f19193",
       "source": {
         "id": "bird-and-bettys",
@@ -5466,7 +5466,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e3405584aa1c0dd0",
       "source": {
         "id": "surf-city-hotel",
@@ -5487,7 +5487,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "be5c85c66ec7367e",
       "source": {
         "id": "joe-pops",
@@ -5508,7 +5508,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "c88345dac3447ef1",
       "source": {
         "id": "joe-pops",
@@ -5549,7 +5549,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "51884d800090c1c1",
       "source": {
         "id": "surf-city-hotel",
@@ -5570,7 +5570,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4b197506f14a1e8b",
       "source": {
         "id": "joe-pops",
@@ -5612,7 +5612,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94929d3d3cf1e9936410b/1775849082145/",
-      "type": "other",
+      "type": "live-music",
       "id": "eb0895e93529dbe0",
       "source": {
         "id": "bird-and-bettys",
@@ -5633,7 +5633,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69e2486cad4a6c3c19925e76/1776437543131/",
-      "type": "other",
+      "type": "live-music",
       "id": "32f25972e636aa49",
       "source": {
         "id": "bird-and-bettys",
@@ -5653,7 +5653,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "94d6be589bf5866d",
       "source": {
         "id": "surf-city-hotel",
@@ -5674,7 +5674,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0831ffb2005d3bfb",
       "source": {
         "id": "joe-pops",
@@ -5695,7 +5695,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d950fdef361f3510b9135e/1775850082334/",
-      "type": "other",
+      "type": "community",
       "id": "18714869864f6c4c",
       "source": {
         "id": "bird-and-bettys",
@@ -5736,7 +5736,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d50b60038da0d62c",
       "source": {
         "id": "surf-city-hotel",
@@ -5757,7 +5757,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "2c87f6955e70a60e",
       "source": {
         "id": "joe-pops",
@@ -5798,7 +5798,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "76d8204a60b0e4b6",
       "source": {
         "id": "surf-city-hotel",
@@ -5819,7 +5819,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "3ad722eb77573339",
       "source": {
         "id": "joe-pops",
@@ -5839,7 +5839,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b5e309664c4e0477",
       "source": {
         "id": "surf-city-hotel",
@@ -5881,7 +5881,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94b48ddbdc6182e251695/1775848315631/",
-      "type": "other",
+      "type": "live-music",
       "id": "dab4e2f1ce99685e",
       "source": {
         "id": "bird-and-bettys",
@@ -5901,7 +5901,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "503316010e1ae25e",
       "source": {
         "id": "surf-city-hotel",
@@ -5922,7 +5922,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "46ae49c15f0751d5",
       "source": {
         "id": "joe-pops",
@@ -5942,7 +5942,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4b7798a228224f75",
       "source": {
         "id": "surf-city-hotel",
@@ -5984,7 +5984,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94107054250543999c3c5/1775845668946/",
-      "type": "other",
+      "type": "live-music",
       "id": "5b3cd5200e048768",
       "source": {
         "id": "bird-and-bettys",
@@ -6004,7 +6004,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "602d219808fa0435",
       "source": {
         "id": "surf-city-hotel",
@@ -6025,7 +6025,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "f18c8c0ecdb50af6",
       "source": {
         "id": "joe-pops",
@@ -6046,7 +6046,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "26f0ff4ba8f145bb",
       "source": {
         "id": "joe-pops",
@@ -6087,7 +6087,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7d5568fbbe3f3169",
       "source": {
         "id": "surf-city-hotel",
@@ -6108,7 +6108,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "f45360a387c87819",
       "source": {
         "id": "joe-pops",
@@ -6149,7 +6149,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "c4a4673318df2967",
       "source": {
         "id": "surf-city-hotel",
@@ -6170,7 +6170,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5cc9e3f6590e7c71",
       "source": {
         "id": "joe-pops",
@@ -6191,7 +6191,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d950b3bcea3538b73bd304/1775849667991/",
-      "type": "other",
+      "type": "community",
       "id": "12ddd4f9f7ea726a",
       "source": {
         "id": "bird-and-bettys",
@@ -6232,7 +6232,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "142dc3012166f8de",
       "source": {
         "id": "surf-city-hotel",
@@ -6253,7 +6253,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0747b83b7653fc6a",
       "source": {
         "id": "joe-pops",
@@ -6294,7 +6294,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ad60a65c81b52b2a",
       "source": {
         "id": "surf-city-hotel",
@@ -6315,7 +6315,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "deedc7677223b3e7",
       "source": {
         "id": "joe-pops",
@@ -6357,7 +6357,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9465870edd178a5f7afee/1775847014263/",
-      "type": "other",
+      "type": "live-music",
       "id": "335e123e0e54f689",
       "source": {
         "id": "bird-and-bettys",
@@ -6377,7 +6377,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7099245c7649c366",
       "source": {
         "id": "surf-city-hotel",
@@ -6398,7 +6398,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d128225de0322631",
       "source": {
         "id": "joe-pops",
@@ -6440,7 +6440,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94ad5ec81e86bd67e4e1c/1775848186461/",
-      "type": "other",
+      "type": "live-music",
       "id": "4ab57d8d28a507af",
       "source": {
         "id": "bird-and-bettys",
@@ -6460,7 +6460,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "66241f1cbc0faa0b",
       "source": {
         "id": "surf-city-hotel",
@@ -6481,7 +6481,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7591e10e8d84120b",
       "source": {
         "id": "joe-pops",
@@ -6502,7 +6502,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0a847533c972db99",
       "source": {
         "id": "joe-pops",
@@ -6543,7 +6543,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9ca2a14b94a1327e",
       "source": {
         "id": "surf-city-hotel",
@@ -6564,7 +6564,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4fd44190bb8084d5",
       "source": {
         "id": "joe-pops",
@@ -6605,7 +6605,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "2604804c55088887",
       "source": {
         "id": "surf-city-hotel",
@@ -6626,7 +6626,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "13b911b998a298ac",
       "source": {
         "id": "joe-pops",
@@ -6647,7 +6647,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d9526cdca2827f577aa8ff/1775850101040/",
-      "type": "other",
+      "type": "community",
       "id": "084ed589af96e9fd",
       "source": {
         "id": "bird-and-bettys",
@@ -6688,7 +6688,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9231eed1fbbdc8aa",
       "source": {
         "id": "surf-city-hotel",
@@ -6709,7 +6709,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "635be1be7e3f18d1",
       "source": {
         "id": "joe-pops",
@@ -6750,7 +6750,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "74e97b743013fbe2",
       "source": {
         "id": "surf-city-hotel",
@@ -6771,7 +6771,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "b4d6e52f0a58e631",
       "source": {
         "id": "joe-pops",
@@ -6813,7 +6813,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94b93d3d3cf1e9936fa45/1775848357650/",
-      "type": "other",
+      "type": "live-music",
       "id": "5bafe46373f7376a",
       "source": {
         "id": "bird-and-bettys",
@@ -6833,7 +6833,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "09888d5d0dbc9043",
       "source": {
         "id": "surf-city-hotel",
@@ -6854,7 +6854,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "754b183b33319268",
       "source": {
         "id": "joe-pops",
@@ -6896,7 +6896,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/6a0b8774a1d30b73373b4c89/1779140492560/",
-      "type": "other",
+      "type": "live-music",
       "id": "14e0469e4e86c3eb",
       "source": {
         "id": "bird-and-bettys",
@@ -6916,7 +6916,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6ace246164b5c026",
       "source": {
         "id": "surf-city-hotel",
@@ -6937,7 +6937,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5dd4975699b6742a",
       "source": {
         "id": "joe-pops",
@@ -6958,7 +6958,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8231f08c77018861",
       "source": {
         "id": "joe-pops",
@@ -6999,7 +6999,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "1c0dc631cf0a27a6",
       "source": {
         "id": "surf-city-hotel",
@@ -7020,7 +7020,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "62c63d2b8837b6b6",
       "source": {
         "id": "joe-pops",
@@ -7061,7 +7061,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "da328228edff9145",
       "source": {
         "id": "surf-city-hotel",
@@ -7082,7 +7082,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "466b4c4c34b49191",
       "source": {
         "id": "joe-pops",
@@ -7103,7 +7103,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d950d14923c00a21a34d91/1775849691343/",
-      "type": "other",
+      "type": "community",
       "id": "4964075796ad4762",
       "source": {
         "id": "bird-and-bettys",
@@ -7144,7 +7144,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e6630cf4a3d630af",
       "source": {
         "id": "surf-city-hotel",
@@ -7165,7 +7165,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "3dce360a69660a21",
       "source": {
         "id": "joe-pops",
@@ -7206,7 +7206,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "2a6df6d544aff8c4",
       "source": {
         "id": "surf-city-hotel",
@@ -7227,7 +7227,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "37bd8fc968d8153a",
       "source": {
         "id": "joe-pops",
@@ -7247,7 +7247,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "3052a9322d6b1eff",
       "source": {
         "id": "surf-city-hotel",
@@ -7289,7 +7289,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d93de6294d3479862757df/1775844865489/",
-      "type": "other",
+      "type": "live-music",
       "id": "e81b265b9b685bf9",
       "source": {
         "id": "bird-and-bettys",
@@ -7309,7 +7309,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "efebf7bad38d9d99",
       "source": {
         "id": "surf-city-hotel",
@@ -7330,7 +7330,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "89a889ada2a78ed5",
       "source": {
         "id": "joe-pops",
@@ -7350,7 +7350,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "a289fa348e1dbb57",
       "source": {
         "id": "surf-city-hotel",
@@ -7392,7 +7392,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d944967dba8125941fdfcd/1775846571335/",
-      "type": "other",
+      "type": "live-music",
       "id": "eb51bedc297dd696",
       "source": {
         "id": "bird-and-bettys",
@@ -7412,7 +7412,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e277260c9a2def5a",
       "source": {
         "id": "surf-city-hotel",
@@ -7433,7 +7433,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "02645e66b022549c",
       "source": {
         "id": "joe-pops",
@@ -7453,7 +7453,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d23194cb47a461ab",
       "source": {
         "id": "surf-city-hotel",
@@ -7473,7 +7473,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4d2b0b8175512614",
       "source": {
         "id": "surf-city-hotel",
@@ -7494,7 +7494,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7f411143ea2268e1",
       "source": {
         "id": "joe-pops",
@@ -7514,7 +7514,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "37c112a9fb069d5d",
       "source": {
         "id": "surf-city-hotel",
@@ -7535,7 +7535,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "e8dd715e845ad0ee",
       "source": {
         "id": "joe-pops",
@@ -7555,7 +7555,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d2d185aed5d0669d",
       "source": {
         "id": "surf-city-hotel",
@@ -7576,7 +7576,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9016da4e2fe6b199",
       "source": {
         "id": "joe-pops",
@@ -7596,7 +7596,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "community",
       "id": "2cdcee7394998be9",
       "source": {
         "id": "surf-city-hotel",
@@ -7638,7 +7638,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94bf42c98c555878cba41/1775848504136/",
-      "type": "other",
+      "type": "live-music",
       "id": "48bc83077f9bab9d",
       "source": {
         "id": "bird-and-bettys",
@@ -7658,7 +7658,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "bbb06c39b5074236",
       "source": {
         "id": "surf-city-hotel",
@@ -7679,7 +7679,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "01a87ca9329bf80c",
       "source": {
         "id": "joe-pops",
@@ -7721,7 +7721,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94c4392b5a73fab6e9f7b/1775848544288/",
-      "type": "other",
+      "type": "live-music",
       "id": "1d0204e79de6ca57",
       "source": {
         "id": "bird-and-bettys",
@@ -7741,7 +7741,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5ee0f1d431f64451",
       "source": {
         "id": "surf-city-hotel",
@@ -7762,7 +7762,7 @@
         "lat": 39.6428,
         "lon": -74.1842
       },
-      "type": "other",
+      "type": "live-music",
       "id": "66a7d173bd539fe7",
       "source": {
         "id": "joe-pops",
@@ -7782,7 +7782,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "ec18dcc8cf76a7de",
       "source": {
         "id": "surf-city-hotel",
@@ -7802,7 +7802,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d31730e985fc0cae",
       "source": {
         "id": "surf-city-hotel",
@@ -7822,7 +7822,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "5bf543c580625ae9",
       "source": {
         "id": "surf-city-hotel",
@@ -7842,7 +7842,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9ecdb10cecd1787d",
       "source": {
         "id": "surf-city-hotel",
@@ -7862,7 +7862,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "aee26b76b73c6de0",
       "source": {
         "id": "surf-city-hotel",
@@ -7882,7 +7882,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6e9cdbcea8499eb8",
       "source": {
         "id": "surf-city-hotel",
@@ -7902,7 +7902,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "39fff7f5f70de479",
       "source": {
         "id": "surf-city-hotel",
@@ -7922,7 +7922,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "97aad9000589c099",
       "source": {
         "id": "surf-city-hotel",
@@ -7943,7 +7943,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94c6d89aa3351545d95fa/1775848614553/",
-      "type": "other",
+      "type": "live-music",
       "id": "f60af47e805f6e2c",
       "source": {
         "id": "bird-and-bettys",
@@ -7963,7 +7963,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "83cbffd9be447a36",
       "source": {
         "id": "surf-city-hotel",
@@ -7984,7 +7984,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94cb6294d3479862d9306/1775848660000/",
-      "type": "other",
+      "type": "live-music",
       "id": "49e3205f1061cb22",
       "source": {
         "id": "bird-and-bettys",
@@ -8004,7 +8004,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8768d1483806664e",
       "source": {
         "id": "surf-city-hotel",
@@ -8024,7 +8024,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "8451445c62522a6d",
       "source": {
         "id": "surf-city-hotel",
@@ -8044,7 +8044,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4dd6bc17eb303443",
       "source": {
         "id": "surf-city-hotel",
@@ -8065,7 +8065,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94cde3b605831173d71cd/1775848694835/",
-      "type": "other",
+      "type": "live-music",
       "id": "e3b71cd69b370691",
       "source": {
         "id": "bird-and-bettys",
@@ -8085,7 +8085,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "05596710c27132d7",
       "source": {
         "id": "surf-city-hotel",
@@ -8106,7 +8106,7 @@
         "lon": -74.2443241
       },
       "imageUrl": "https://static1.squarespace.com/static/5cb8f52165a707955012039f/5cc742c70c7b94000128f644/69d94d0cbd73ec76ed0f05ae/1779140520121/",
-      "type": "other",
+      "type": "live-music",
       "id": "0e28d7b72948e1b4",
       "source": {
         "id": "bird-and-bettys",
@@ -8126,7 +8126,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "35b048c7ea902609",
       "source": {
         "id": "surf-city-hotel",
@@ -8146,7 +8146,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "2568e2008cee590b",
       "source": {
         "id": "surf-city-hotel",
@@ -8166,7 +8166,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "84629c55575dfc06",
       "source": {
         "id": "surf-city-hotel",
@@ -8186,7 +8186,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "bdc0dd47434e85d0",
       "source": {
         "id": "surf-city-hotel",
@@ -8206,7 +8206,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4a9e4cd3e55607b8",
       "source": {
         "id": "surf-city-hotel",
@@ -8226,7 +8226,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "17e3ccfbf79bae7c",
       "source": {
         "id": "surf-city-hotel",
@@ -8246,7 +8246,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "868c90943e0f8dcb",
       "source": {
         "id": "surf-city-hotel",
@@ -8266,7 +8266,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "54f7601ec30da4c1",
       "source": {
         "id": "surf-city-hotel",
@@ -8306,7 +8306,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "4e020c756991120a",
       "source": {
         "id": "surf-city-hotel",
@@ -8326,7 +8326,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "c4c40c781e6f3451",
       "source": {
         "id": "surf-city-hotel",
@@ -8346,7 +8346,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "332f44589e2eea03",
       "source": {
         "id": "surf-city-hotel",
@@ -8366,7 +8366,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "community",
       "id": "bb182a877aa97e32",
       "source": {
         "id": "surf-city-hotel",
@@ -8386,7 +8386,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "87f2d71fef2ffa29",
       "source": {
         "id": "surf-city-hotel",
@@ -8406,7 +8406,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "620ddeea03905f86",
       "source": {
         "id": "surf-city-hotel",
@@ -8426,7 +8426,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "1b1c68a612b4428e",
       "source": {
         "id": "surf-city-hotel",
@@ -8446,7 +8446,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "0e8cf94692fd9ef9",
       "source": {
         "id": "surf-city-hotel",
@@ -8466,7 +8466,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9ae1e3030d7e50a9",
       "source": {
         "id": "surf-city-hotel",
@@ -8486,7 +8486,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "7b6b78413e31c940",
       "source": {
         "id": "surf-city-hotel",
@@ -8506,7 +8506,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "6604b27638c25eb2",
       "source": {
         "id": "surf-city-hotel",
@@ -8526,7 +8526,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "872f773daf1d98ab",
       "source": {
         "id": "surf-city-hotel",
@@ -8546,7 +8546,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "73298e2bd361d91a",
       "source": {
         "id": "surf-city-hotel",
@@ -8566,7 +8566,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "bb46a47452419af4",
       "source": {
         "id": "surf-city-hotel",
@@ -8586,7 +8586,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "d915b01c35086874",
       "source": {
         "id": "surf-city-hotel",
@@ -8606,7 +8606,7 @@
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "other",
+      "type": "live-music",
       "id": "9598db8cd0c470db",
       "source": {
         "id": "surf-city-hotel",
