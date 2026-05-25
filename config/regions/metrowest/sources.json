@@ -188,7 +188,7 @@
       "url": "https://framinghamhistory.org/",
       "category": "Venue / Museum",
       "town": "Framingham",
-      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Adapter scrapes /wp-json/wp/v2/mec-events and parses event dates from content.rendered HTML (MEC doesn't expose structured start_date via REST). Programming is local history lectures/exhibits — defaultEventType=\"museum\" catches entries whose titles don't have museum/history keywords (e.g. \"Beyond Binaries\", \"The Bridges of Saxonville\").",
+      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Adapter scrapes /wp-json/wp/v2/mec-events and parses event dates from content.rendered HTML (MEC doesn't expose structured start_date via REST). Programming is local history lectures/exhibits \u2014 defaultEventType=\"museum\" catches entries whose titles don't have museum/history keywords (e.g. \"Beyond Binaries\", \"The Bridges of Saxonville\").",
       "defaultEventType": "museum",
       "config": {
         "defaultVenue": "Framingham History Center",
@@ -254,6 +254,7 @@
       "category": "Town Calendar (Patch)",
       "town": "Framingham",
       "notes": "Templated patch.com calendar.",
+      "defaultEventType": "community",
       "config": {
         "townSlug": "framingham"
       }
@@ -268,7 +269,8 @@
       "town": "Natick",
       "config": {
         "townSlug": "natick"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-sudbury",
@@ -280,7 +282,8 @@
       "town": "Sudbury",
       "config": {
         "townSlug": "sudbury"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-wellesley",
@@ -292,7 +295,8 @@
       "town": "Wellesley",
       "config": {
         "townSlug": "wellesley"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-wayland",
@@ -304,7 +308,8 @@
       "town": "Wayland",
       "config": {
         "townSlug": "wayland"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-weston",
@@ -316,7 +321,8 @@
       "town": "Weston",
       "config": {
         "townSlug": "weston"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-acton",
@@ -328,7 +334,8 @@
       "town": "Acton",
       "config": {
         "townSlug": "acton"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-hopkinton",
@@ -341,7 +348,8 @@
       "config": {
         "townSlug": "holliston-hopkinton"
       },
-      "notes": "Patch bundles Hopkinton+Holliston into one regional calendar."
+      "notes": "Patch bundles Hopkinton+Holliston into one regional calendar.",
+      "defaultEventType": "community"
     },
     {
       "id": "patch-ashland",
@@ -353,7 +361,8 @@
       "town": "Ashland",
       "config": {
         "townSlug": "ashland"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-bellingham",
@@ -365,7 +374,8 @@
       "town": "Bellingham",
       "config": {
         "townSlug": "bellingham"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-boxborough",
@@ -377,7 +387,8 @@
       "town": "Boxborough",
       "config": {
         "townSlug": "boxborough"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-concord",
@@ -389,7 +400,8 @@
       "town": "Concord",
       "config": {
         "townSlug": "concord"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-dover",
@@ -401,7 +413,8 @@
       "town": "Dover",
       "config": {
         "townSlug": "dover"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-franklin",
@@ -413,7 +426,8 @@
       "town": "Franklin",
       "config": {
         "townSlug": "franklin"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-holliston",
@@ -425,7 +439,8 @@
       "town": "Holliston",
       "config": {
         "townSlug": "holliston"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-hudson",
@@ -437,7 +452,8 @@
       "town": "Hudson",
       "config": {
         "townSlug": "hudson"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-lincoln",
@@ -449,7 +465,8 @@
       "town": "Lincoln",
       "config": {
         "townSlug": "lincoln"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-marlborough",
@@ -461,7 +478,8 @@
       "town": "Marlborough",
       "config": {
         "townSlug": "marlborough"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-maynard",
@@ -473,7 +491,8 @@
       "town": "Maynard",
       "config": {
         "townSlug": "maynard"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-medfield",
@@ -485,7 +504,8 @@
       "town": "Medfield",
       "config": {
         "townSlug": "medfield"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-medway",
@@ -497,7 +517,8 @@
       "town": "Medway",
       "config": {
         "townSlug": "medway"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-milford",
@@ -509,7 +530,8 @@
       "town": "Milford",
       "config": {
         "townSlug": "milford"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-millis",
@@ -521,7 +543,8 @@
       "town": "Millis",
       "config": {
         "townSlug": "millis"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-needham",
@@ -533,7 +556,8 @@
       "town": "Needham",
       "config": {
         "townSlug": "needham"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-northborough",
@@ -545,7 +569,8 @@
       "town": "Northborough",
       "config": {
         "townSlug": "northborough"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-sherborn",
@@ -557,7 +582,8 @@
       "town": "Sherborn",
       "config": {
         "townSlug": "sherborn"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-southborough",
@@ -569,7 +595,8 @@
       "town": "Southborough",
       "config": {
         "townSlug": "southborough"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-stow",
@@ -581,7 +608,8 @@
       "town": "Stow",
       "config": {
         "townSlug": "stow"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "patch-westborough",
@@ -593,7 +621,8 @@
       "town": "Westborough",
       "config": {
         "townSlug": "westborough"
-      }
+      },
+      "defaultEventType": "community"
     },
     {
       "id": "natick-report",
@@ -683,8 +712,14 @@
       "notes": "WordPress + The Events Calendar (Tribe) plugin. REST API exposes only ~7 featured events, but /calendar/list/ shows the full calendar in JSON-LD with pagination. wordpress-tribe-list adapter scrapes those pages. titleRules catch the recurring Karishim youth-swim and Pre-Swim entries as family; defaultEventType=\"community\" covers the JCC's mixed adult programming.",
       "defaultEventType": "community",
       "titleRules": [
-        { "pattern": "^karishim\\b|pre-?swim|swim lessons?", "type": "family" },
-        { "pattern": "newton elc|application & deposit", "type": "community" }
+        {
+          "pattern": "^karishim\\b|pre-?swim|swim lessons?",
+          "type": "family"
+        },
+        {
+          "pattern": "newton elc|application & deposit",
+          "type": "community"
+        }
       ],
       "config": {
         "basePath": "/calendar/list/",
