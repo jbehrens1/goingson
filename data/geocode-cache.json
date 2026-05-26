@@ -2118,5 +2118,112 @@
     "lon": -71.2580196,
     "displayName": "Brandeis University, 415, South Street, Angleside, Waltham, Middlesex County, Massachusetts, 02453, United States",
     "fetchedAt": "2026-05-26T21:30:39.771Z"
+  },
+  "metrowest::35 andrew ave, wayland": {
+    "lat": 42.3644465,
+    "lon": -71.3691391,
+    "displayName": "25;29;31;35;39, Andrew Avenue, Wayland Town Center, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:13.956Z"
+  },
+  "metrowest::children’s room, wayland free public library, wayland": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:46:14.670Z"
+  },
+  "metrowest::teen loft, wayland free public library, wayland": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:46:16.124Z"
+  },
+  "metrowest::raytheon room, wayland free public library / zoom, wayland": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:46:17.193Z"
+  },
+  "metrowest::one cochituate road, wayland": {
+    "lat": 42.339999,
+    "lon": -71.3592577,
+    "displayName": "Cochituate Road, Cochituate, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:18.316Z"
+  },
+  "metrowest::raytheon room, wayland free public library, wayland": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:46:19.008Z"
+  },
+  "metrowest::310 boston post road, wayland, ma": {
+    "lat": 42.3633121,
+    "lon": -71.3653197,
+    "displayName": "310, Boston Post Road, Wayland Center Historic District, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:20.183Z"
+  },
+  "metrowest::258 old connecticut path, wayland": {
+    "lat": 42.341007,
+    "lon": -71.370823,
+    "displayName": "258, Old Connecticut Path, Cochituate, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:21.251Z"
+  },
+  "metrowest::wayland hs auditorium, wayland": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:46:22.722Z"
+  },
+  "metrowest::5 concord road": {
+    "lat": 42.4998323,
+    "lon": -71.1150636,
+    "displayName": "5, Concord Road, Stoneham, Middlesex County, Massachusetts, 02180, United States",
+    "fetchedAt": "2026-05-26T21:46:23.574Z"
+  },
+  "metrowest::62 boston post rd, wayland, ma": {
+    "lat": 42.3630347,
+    "lon": -71.3893863,
+    "displayName": "Boston Post Road, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:24.618Z"
+  },
+  "metrowest::35 andrew ln, holliston, ma": {
+    "lat": 42.1898399,
+    "lon": -71.465414,
+    "displayName": "35, Andrew Lane, Holliston, Middlesex County, Massachusetts, 01746, United States",
+    "fetchedAt": "2026-05-26T21:46:26.042Z"
+  },
+  "metrowest::229 boston post rd, wayland, ma": {
+    "lat": 42.3630347,
+    "lon": -71.3893863,
+    "displayName": "Boston Post Road, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:27.323Z"
+  },
+  "metrowest::62 morse road, sudbury": {
+    "lat": 42.3947391,
+    "lon": -71.4117349,
+    "displayName": "62, Morse Road, North Sudbury, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-26T21:46:28.331Z"
+  },
+  "metrowest::8 andrew avenue, wayland": {
+    "lat": 42.3648679,
+    "lon": -71.3684793,
+    "displayName": "8, Andrew Avenue, Wayland Town Center, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:28.968Z"
+  },
+  "metrowest::dudley woods trail, pond drive and doran road, wayland": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:46:30.433Z"
+  },
+  "metrowest::round room, wayland free public library, wayland": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:46:31.637Z"
+  },
+  "tokyo, japan, tokyo": {
+    "lat": 35.6568765,
+    "lon": 139.696933,
+    "displayName": "LAUREL TOKYO, 道玄坂一丁目, 道玄坂, 渋谷区, 東京都, 150-0043, 日本",
+    "fetchedAt": "2026-05-26T21:46:32.712Z"
+  },
+  "metrowest::97 boston post road": {
+    "lat": 42.3593668,
+    "lon": -71.3377902,
+    "displayName": "Vokes Theatre, 97, Boston Post Road, Wayland Center Historic District, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T21:46:33.375Z"
   }
 }
