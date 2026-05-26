@@ -163,6 +163,20 @@
       "config": {}
     },
     {
+      "id": "buckalews",
+      "name": "Buckalew's",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://buckalews.com/entertainment",
+      "category": "Venue / Restaurant + Live Music",
+      "town": "Beach Haven",
+      "notes": "Restaurant + entertainment venue in Beach Haven. Wix-hosted site; aggressively bot-blocks all dev IPs and even Anthropic's WebFetch (HTTP 403). Wix internal API endpoints also 403. Testing whether GitHub Actions' IP range gets through; if not, fall back to capturing Buckalew's weekly schedule via the LBI Lowdown's Live Music section (where it's published reliably each Thursday).",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Buckalew's"
+      }
+    },
+    {
       "id": "tuckers-tavern",
       "name": "Tuckers Tavern",
       "enabled": true,
