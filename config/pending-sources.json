@@ -1,16 +1,4 @@
 {
   "$comment": "Pending venue suggestions queued via /suggest. Approved entries move to config/regions/<region>/sources.json; rejected entries are removed. Managed via /sources/pending UI.",
-  "pending": [
-    {
-      "id": "0c39aa58-3488-48e0-a615-1fe691cca7f8",
-      "submittedAt": "2026-05-26T17:08:10.214Z",
-      "submittedBy": "jeff@adviza.com",
-      "name": "Shell Resort",
-      "url": "https://calendar.google.com/calendar/u/0/embed?ctz=America/New_York&src=g4ssoon0tv9dt98a6s00lfnq4o@group.calendar.google.com",
-      "regionId": "lbi",
-      "probe": {
-        "candidates": []
-      }
-    }
-  ]
+  "pending": []
 }
