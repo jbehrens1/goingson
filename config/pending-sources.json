@@ -2,17 +2,6 @@
   "$comment": "Pending venue suggestions queued via /suggest. Approved entries move to config/regions/<region>/sources.json; rejected entries are removed. Managed via /sources/pending UI.",
   "pending": [
     {
-      "id": "2d94f870-d7f5-4ded-9c65-da581dabe752",
-      "submittedAt": "2026-05-26T20:14:06.721Z",
-      "submittedBy": "jeff@adviza.com",
-      "name": "Nardis Tavern",
-      "url": "https://www.nardistavern.com/band-schedule?view=calendar&month=05-2026",
-      "regionId": "lbi",
-      "probe": {
-        "candidates": []
-      }
-    },
-    {
       "id": "1e28126d-73dd-4af5-b547-a2021b6e57d9",
       "submittedAt": "2026-05-26T20:15:57.643Z",
       "submittedBy": "jeff@adviza.com",
