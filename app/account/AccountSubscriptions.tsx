@@ -190,7 +190,13 @@ function SubscriptionCard({
 
   const venues = venuesByRegion[draft.region] ?? [];
   const typeOptions = useMemo(
-    () => eventTypes.map((t) => ({ key: t, label: TYPE_LABELS[t], count: 0 })),
+    // EVENT_TYPES is in priority/specificity order for the categorizer; sort
+    // by display label here so the picker matches the alphabetized one on
+    // the main events page.
+    () =>
+      eventTypes
+        .map((t) => ({ key: t, label: TYPE_LABELS[t], count: 0 }))
+        .sort((a, b) => a.label.localeCompare(b.label)),
     [eventTypes],
   );
   const venueOptions = useMemo(
