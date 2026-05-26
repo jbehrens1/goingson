@@ -110,10 +110,22 @@
       "url": "https://www.lbilowdown.com/",
       "category": "Aggregator",
       "town": "Long Beach Township",
-      "notes": "Weekly Beehiiv newsletter ('this week on LBI: M/D/YY'). Adapter finds the most recent /p/this-week-on-lbi-* post via sitemap.xml, then parses the 'Things to Do' and 'Family Fun' sections (skipping 'Live Music' since we already aggregate that from venue feeds). Each event is a triplet: <emoji> <Title>, <Venue> | <Town>, <Day>, <Mon> <Day> | <Time>. Multi-day events emit one record per occurrence.",
+      "notes": "Weekly Beehiiv newsletter ('this week on LBI: M/D/YY'). Adapter finds the most recent /p/this-week-on-lbi-* post via sitemap.xml, then parses Things to Do, Family Fun, AND the Live Music section. Live Music section rows are filtered against skipLiveMusicVenues so we don't double-count venues that have their own direct source (joe-pops, surf-city-hotel, bird-and-bettys, daddy-o, sea-shell-resort, tuckers, black-eyed-susan's, old-causeway). This is how we capture Buckalew's, Black Whale, Hollow Pines, Nardi's, and other Wix-blocked / unscrapeable venues.",
       "config": {
         "defaultTimeZone": "America/New_York",
-        "maxPosts": 2
+        "maxPosts": 2,
+        "skipLiveMusicVenues": [
+          "joe pop",
+          "surf city hotel",
+          "bird & betty",
+          "bird and betty",
+          "daddy o",
+          "sea shell",
+          "tuckers tavern",
+          "black-eyed susan",
+          "blackeyed susan",
+          "old causeway"
+        ]
       }
     },
     {

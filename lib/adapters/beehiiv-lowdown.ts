@@ -15,8 +15,15 @@ import { buildEvent, naiveToUtcIso, politeFetch } from "../util";
 //   👪️ Family Fun
 //   ...same triplets
 //
-//   🎶 Live Music & Entertainment   ← skipped (we already aggregate live music
-//                                     from venue ical/REST sources + SandPaper)
+//   🎶 Live Music & Entertainment
+//   Thursday the 30th
+//   <Venue> | <Performer> | <Time>
+//   <Venue> | <Performer> | <Time>
+//   Friday the 1st
+//   ...
+//   Each row → one event titled with the performer, located at the venue.
+//   The skipVenues config drops venues we have a direct source for so
+//   we don't double-count (e.g. Joe Pop's, Surf City Hotel, Tuckers).
 //
 // Strategy: pull the most recent "/p/this-week-on-lbi-*" post from sitemap.xml,
 // strip HTML, then split each section by emoji-anchored event chunks. Each
@@ -26,6 +33,10 @@ type LowdownConfig = {
   defaultTimeZone?: string;
   /** Max number of past sitemap posts to consider. Default 4. */
   maxPosts?: number;
+  /** Venue names (case-insensitive substring match) to skip in the Live
+   *  Music section. Use for venues we already have direct sources for, to
+   *  avoid duplicating their events. */
+  skipLiveMusicVenues?: string[];
 };
 
 const MONTHS: Record<string, number> = {
@@ -279,6 +290,93 @@ function naiveIso(
   return `${date.y}-${pad(date.m)}-${pad(date.d)}T${t}:00`;
 }
 
+type LiveMusicEvent = {
+  venue: string;
+  performer: string;
+  date: { y: number; m: number; d: number };
+  startTime?: { h: number; min: number };
+};
+
+const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+/** Find the date in the post's week (anchor ± 7 days) that matches a given
+ *  weekday + day-of-month from the Live Music section ("Friday the 1st").
+ *  Returns null when no such date exists in the surrounding window. */
+function resolveDayHeader(
+  weekdayShort: string,
+  dayOfMonth: number,
+  postDate: Date,
+): { y: number; m: number; d: number } | null {
+  const targetWd = WEEKDAYS.findIndex(
+    (w) => w.toLowerCase() === weekdayShort.slice(0, 3).toLowerCase(),
+  );
+  if (targetWd < 0) return null;
+  // Search 0..+10 days from the post date. Live Music section covers the
+  // current week and the next ~3 days into the following week.
+  for (let offset = 0; offset <= 10; offset++) {
+    const d = new Date(postDate.getTime() + offset * 86400_000);
+    if (d.getUTCDay() === targetWd && d.getUTCDate() === dayOfMonth) {
+      return {
+        y: d.getUTCFullYear(),
+        m: d.getUTCMonth() + 1,
+        d: d.getUTCDate(),
+      };
+    }
+  }
+  return null;
+}
+
+/** Parse the Live Music section. The HTML often jams the section title, the
+ *  first day header, and the first event row onto a single rendered line.
+ *  Approach: collapse whitespace, then SPLIT on day-header patterns (capturing
+ *  groups so we keep them in the result). That gives us
+ *  [prelude, weekday, dom, chunk-of-events, weekday, dom, chunk, ...]. For
+ *  each (weekday, dom, chunk) triple, resolve the date and harvest all
+ *  "Venue | Performer | Time" patterns from the chunk. */
+function parseLiveMusicSection(
+  section: string,
+  postDate: Date,
+  skipVenues: string[],
+): LiveMusicEvent[] {
+  if (!section.trim()) return [];
+  const skipLower = skipVenues.map((s) => s.toLowerCase());
+  const out: LiveMusicEvent[] = [];
+
+  const flat = section.replace(/\s+/g, " ").trim();
+  const dayHeaderRe =
+    /(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\s+the\s+(\d+)(?:st|nd|rd|th)?/gi;
+  const parts = flat.split(dayHeaderRe);
+  // parts = [pre, wd, dom, chunk, wd, dom, chunk, ...] when there's at least
+  // one day header. The leading "pre" before the first day header is ignored.
+  if (parts.length < 4) return [];
+
+  // Event row regex: "Venue | Performer | TimeSpec" where TimeSpec ends at
+  // PM/AM (the last segment of every Lowdown live-music time). Use lazy
+  // matching on venue + performer so multi-pipe entries split correctly.
+  const rowRe = /([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([0-9][^|]*?(?:am|pm))(?=\s|$)/gi;
+
+  for (let i = 1; i + 2 <= parts.length; i += 3) {
+    const wd = parts[i];
+    const dom = parseInt(parts[i + 1], 10);
+    const chunk = parts[i + 2] ?? "";
+    const date = resolveDayHeader(wd, dom, postDate);
+    if (!date) continue;
+
+    let m: RegExpExecArray | null;
+    rowRe.lastIndex = 0;
+    while ((m = rowRe.exec(chunk))) {
+      const venue = m[1].trim();
+      const performer = m[2].trim();
+      const timeRaw = m[3].trim();
+      if (!venue || !performer) continue;
+      if (skipLower.some((sv) => venue.toLowerCase().includes(sv))) continue;
+      const time = parseTimeRange(timeRaw).start;
+      out.push({ venue, performer, date, startTime: time });
+    }
+  }
+  return out;
+}
+
 export const beehiivLowdownAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
   const warnings: string[] = [];
   const cfg = (source.config ?? {}) as LowdownConfig;
@@ -322,11 +420,46 @@ export const beehiivLowdownAdapter: Adapter = async ({ source }): Promise<Adapte
       "Eat & Drink",
       "Weather",
     ]);
+    const liveMusic = extractSection(body, SECTION_MARKERS.liveMusic, [
+      "Eat & Drink",
+      "Weather",
+    ]);
 
     const chunks: string[] = [
       ...splitIntoEventBlocks(thingsToDo),
       ...splitIntoEventBlocks(familyFun),
     ];
+
+    // Live Music section: one event per "<Venue> | <Performer> | <Time>" row.
+    // Filtered by source.config.skipLiveMusicVenues so we don't double-count
+    // venues we already have direct sources for.
+    const skip = cfg.skipLiveMusicVenues ?? [];
+    const liveMusicEvents = parseLiveMusicSection(liveMusic, postDate, skip);
+    for (const lm of liveMusicEvents) {
+      const startIso = naiveToUtcIso(naiveIso(lm.date, lm.startTime), tz);
+      if (new Date(startIso).getTime() < cutoff) continue;
+      const naturalKey = [
+        entry.url.split("/p/")[1] ?? "",
+        "lm",
+        lm.venue.toLowerCase().replace(/\s+/g, "-"),
+        lm.performer.toLowerCase().replace(/\s+/g, "-"),
+        `${lm.date.y}-${lm.date.m}-${lm.date.d}`,
+        lm.startTime ? `${lm.startTime.h}${lm.startTime.min}` : "ad",
+      ].join("::");
+      events.push(
+        buildEvent(source, {
+          naturalKey,
+          title: lm.performer,
+          url: entry.url,
+          start: startIso,
+          allDay: !lm.startTime,
+          location: { venue: lm.venue, town: source.town },
+          // Force live-music type — the Lowdown's Live Music section is
+          // unambiguously music, even when titles are just band names.
+          type: "live-music",
+        }),
+      );
+    }
 
     for (const chunk of chunks) {
       const parsed = parseEventChunk(chunk, refYear);
