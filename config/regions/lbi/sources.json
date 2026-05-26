@@ -119,7 +119,7 @@
     {
       "id": "southern-ocean-county-chamber-of-commerc",
       "name": "Southern Ocean County Chamber of Commerce – Events Calendar",
-      "enabled": false,
+      "enabled": true,
       "adapter": "html-generic",
       "url": "https://visitlbiregion.com/events/",
       "category": "aggregator",
