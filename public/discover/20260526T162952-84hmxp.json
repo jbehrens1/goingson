@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "region": "lbi",
+  "requestId": "20260526T162952-84hmxp",
+  "completedAt": "2026-05-26T16:31:22.413Z",
+  "durationMs": 64807,
+  "candidates": [
+    {
+      "candidateId": "c_0_visitlbiregion.com",
+      "name": "Southern Ocean County Chamber of Commerce – Events Calendar",
+      "url": "https://visitlbiregion.com/events/",
+      "kind": "aggregator",
+      "town": "Ship Bottom",
+      "suggestedAdapter": "html-generic",
+      "rationale": "The regional Chamber of Commerce visitor site publishes a running events calendar for the entire LBI area, including live concerts, seasonal festivals, and community happenings. Found at visitlbiregion.com/events/.",
+      "duplicate": false
+    }
+  ],
+  "proposedCount": 1,
+  "usage": {
+    "input_tokens": 96392,
+    "output_tokens": 1699
+  }
+}
