@@ -7,19 +7,14 @@
 // { ok: true, status: "pending" } until then.
 
 import { NextResponse } from "next/server";
-import { requireRole } from "@/lib/auth";
 
 export const runtime = "nodejs";
 export const maxDuration = 15;
 
+// No auth required — see middleware.ts comment. The polled result file is
+// keyed by an opaque request ID (timestamp + random suffix). The expensive
+// dispatch action that actually triggers the workflow remains admin-gated.
 export async function GET(req: Request) {
-  try {
-    await requireRole("admin");
-  } catch (res) {
-    if (res instanceof Response) return res;
-    throw res;
-  }
-
   const url = new URL(req.url);
   const requestId = (url.searchParams.get("requestId") ?? "").trim();
   if (!requestId || !/^[A-Za-z0-9_-]+$/.test(requestId)) {

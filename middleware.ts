@@ -16,11 +16,16 @@ const isProtectedRoute = createRouteMatcher([
 ]);
 
 // Endpoints that must remain public for third-party callers (Resend webhook,
-// Vercel Cron, and one-click unsubscribe from email clients).
+// Vercel Cron, and one-click unsubscribe from email clients). Discover-status
+// is also here: the actual discovery action is admin-gated on dispatch, the
+// polled result file is opaque-ID-keyed, and removing auth eliminates a
+// Clerk-middleware "Unauthenticated → 404" race that the polling client
+// otherwise sees as a missing route.
 const isAlwaysPublic = createRouteMatcher([
   "/api/webhooks/(.*)",
   "/api/cron/(.*)",
   "/api/unsubscribe(.*)",
+  "/api/admin/discover/status(.*)",
 ]);
 
 const clerkConfigured = Boolean(
