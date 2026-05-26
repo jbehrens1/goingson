@@ -132,8 +132,14 @@
       "name": "The Sea Shell Resort",
       "enabled": true,
       "adapter": "ical",
-      "url": "https://theseashellresort.com/events",
-      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
+      "url": "https://calendar.google.com/calendar/ical/g4ssoon0tv9dt98a6s00lfnq4o%40group.calendar.google.com/public/basic.ics",
+      "category": "Venue / Hotel + Live Music",
+      "town": "Beach Haven",
+      "notes": "Beachfront hotel + restaurant in Beach Haven. theseashellresort.com/events embeds a public Google Calendar — we pull the calendar's iCal export directly (~920 events, mostly live music across the Martini Bar, Beach Stage, Tiki Bar, and Fire Pit stages). Titles are band names, so defaultEventType=\"live-music\" categorizes them correctly. Added via /suggest by jeff@adviza.com on 2026-05-26.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Sea Shell Resort"
+      }
     }
   ]
 }
