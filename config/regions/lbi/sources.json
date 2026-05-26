@@ -128,11 +128,11 @@
       "config": {}
     },
     {
-      "id": "shell-resort",
-      "name": "Shell Resort",
+      "id": "the-sea-shell-resort",
+      "name": "The Sea Shell Resort",
       "enabled": true,
       "adapter": "ical",
-      "url": "https://calendar.google.com/calendar/u/0/embed?ctz=America/New_York&src=g4ssoon0tv9dt98a6s00lfnq4o@group.calendar.google.com",
+      "url": "https://theseashellresort.com/events",
       "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
