@@ -132,12 +132,14 @@
       "id": "southern-ocean-county-chamber-of-commerc",
       "name": "Southern Ocean County Chamber of Commerce – Events Calendar",
       "enabled": true,
-      "adapter": "html-generic",
-      "url": "https://visitlbiregion.com/events/",
-      "category": "aggregator",
+      "adapter": "growthzone-calendar",
+      "url": "https://business.visitlbiregion.com/community-calendar",
+      "category": "Aggregator",
       "town": "Ship Bottom",
-      "notes": "Discovered via /admin/discover. The regional Chamber of Commerce visitor site publishes a running events calendar for the entire LBI area, including live concerts, seasonal festivals, and community happenings. Found at visitlbiregion.com/events/.",
-      "config": {}
+      "notes": "Chamber of Commerce community calendar (~123 events: theater, festivals, fundraisers, dance parties, library programs across the entire LBI region). Built on GrowthZone/ChamberMaster — server-renders each event as a schema.org Event microdata card. The /events page on the public site (visitlbiregion.com/events/) is just a hand-curated marketing page; the real calendar lives at business.visitlbiregion.com/community-calendar.",
+      "config": {
+        "defaultTimeZone": "America/New_York"
+      }
     },
     {
       "id": "the-sea-shell-resort",
