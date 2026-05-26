@@ -1,0 +1,60 @@
+{
+  "$comment": "Manual one-off events for LBI — dated events spotted on venue websites that don't appear on any scrapeable calendar. Add new entries as you find them. start/end times are wall-clock in America/New_York.",
+  "events": [
+    {
+      "title": "Full Moon Party",
+      "description": "Annual 'Scandalous Extravaganza' — when the moon is bigger so are our drinks. Band on the beach, DJ inside the club. Look for the spotlights in the sky to guide you in!",
+      "url": "https://theseashellresort.com/events",
+      "venue": "Sea Shell Resort",
+      "town": "Beach Haven",
+      "address": "10 South Atlantic Ave, Beach Haven, NJ 08008",
+      "start": "2026-07-11T21:00:00",
+      "end": "2026-07-12T01:00:00",
+      "category": "live-music"
+    },
+    {
+      "title": "White Out Party",
+      "description": "Annual White Out Party — wear white clothes and accessories! Band on the beach stage.",
+      "url": "https://theseashellresort.com/events",
+      "venue": "Sea Shell Resort",
+      "town": "Beach Haven",
+      "address": "10 South Atlantic Ave, Beach Haven, NJ 08008",
+      "start": "2026-08-01T21:00:00",
+      "end": "2026-08-02T01:00:00",
+      "category": "live-music"
+    },
+    {
+      "title": "Striped Bass Derby (Day 1)",
+      "description": "28th annual Striped Bass Fishing Derby — three-day tournament drawing anglers from up and down the East Coast in search of the elusive 'big one'. Has raised more than $800,000 to date for local organizations.",
+      "url": "https://theseashellresort.com/events",
+      "venue": "Sea Shell Resort",
+      "town": "Beach Haven",
+      "address": "10 South Atlantic Ave, Beach Haven, NJ 08008",
+      "start": "2026-10-23T06:00:00",
+      "end": "2026-10-23T22:00:00",
+      "category": "fitness"
+    },
+    {
+      "title": "Striped Bass Derby (Day 2)",
+      "description": "Day 2 of the 28th annual Striped Bass Fishing Derby. See Day 1 for tournament details.",
+      "url": "https://theseashellresort.com/events",
+      "venue": "Sea Shell Resort",
+      "town": "Beach Haven",
+      "address": "10 South Atlantic Ave, Beach Haven, NJ 08008",
+      "start": "2026-10-24T06:00:00",
+      "end": "2026-10-24T22:00:00",
+      "category": "fitness"
+    },
+    {
+      "title": "Striped Bass Derby (Day 3)",
+      "description": "Day 3 of the 28th annual Striped Bass Fishing Derby. See Day 1 for tournament details.",
+      "url": "https://theseashellresort.com/events",
+      "venue": "Sea Shell Resort",
+      "town": "Beach Haven",
+      "address": "10 South Atlantic Ave, Beach Haven, NJ 08008",
+      "start": "2026-10-25T06:00:00",
+      "end": "2026-10-25T22:00:00",
+      "category": "fitness"
+    }
+  ]
+}

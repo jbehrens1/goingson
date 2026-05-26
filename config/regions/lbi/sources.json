@@ -140,6 +140,28 @@
       "config": {
         "defaultVenue": "Sea Shell Resort"
       }
+    },
+    {
+      "id": "lbi-recurring",
+      "name": "LBI Manual Recurring",
+      "enabled": true,
+      "adapter": "manual-recurring",
+      "url": "internal://config/regions/lbi/recurring.json",
+      "category": "Manual",
+      "town": "All LBI",
+      "notes": "Region-wide bucket for recurring events at LBI venues that aren't on any scrapeable calendar — find them in venue website body text (e.g. 'Every Thursday 10pm-2am from May to September') and add an entry to recurring.json. Seeded with Sea Shell Resort's Thunder Thursday.",
+      "config": {}
+    },
+    {
+      "id": "lbi-one-off",
+      "name": "LBI Manual One-Off",
+      "enabled": true,
+      "adapter": "manual-oneoff",
+      "url": "internal://config/regions/lbi/one-off.json",
+      "category": "Manual",
+      "town": "All LBI",
+      "notes": "Region-wide bucket for dated one-off events at LBI venues that aren't on any scrapeable calendar — find them in venue website body text and add an entry to one-off.json. Seeded with Sea Shell Resort's Full Moon Party, White Out Party, and Striped Bass Derby.",
+      "config": {}
     }
   ]
 }

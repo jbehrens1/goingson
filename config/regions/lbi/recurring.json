@@ -1,0 +1,19 @@
+{
+  "$comment": "Manual recurring events for LBI venues whose recurring schedule isn't published on a scrapeable calendar. Each entry materializes the next N occurrences (default 12) starting from today, skipping anything past endDate. Add entries here when a venue lists a 'every Thursday' style series only on their website body text.",
+  "events": [
+    {
+      "title": "Thunder Thursday",
+      "description": "Drink-special night with DJ on the beach + inside the club. $1 Coors Lights, $2 Miller Lites, $3 Blue Moons, $4 White Claws, $1 kamikaze & jello shots. Runs from 10pm to 2am.",
+      "url": "https://theseashellresort.com/events",
+      "venue": "Sea Shell Resort",
+      "town": "Beach Haven",
+      "address": "10 South Atlantic Ave, Beach Haven, NJ 08008",
+      "weekday": "Thu",
+      "startTime": "22:00",
+      "category": "live-music",
+      "startDate": "2026-05-14",
+      "endDate": "2026-09-03",
+      "occurrences": 20
+    }
+  ]
+}
