@@ -16,3 +16,9 @@ next-env.d.ts.bak
 # gitignore it for now to keep the repo small. If you want historical
 # analytics, remove this line.
 public/newsletter-events.jsonl
+
+# Dropbox sync conflict files — created when Dropbox detects a write race
+# while syncing the repo (e.g. between an editor save and a git checkout).
+# Pattern: `<name> (<user>'s conflicted copy YYYY-MM-DD[ HH-MM-SS]).<ext>`.
+# Harmless on disk but easy to commit by accident if you `git add .`.
+*conflicted copy*
