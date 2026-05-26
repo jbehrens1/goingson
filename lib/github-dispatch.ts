@@ -8,25 +8,16 @@
 //                   (Contents R/W is already required for the commit path)
 //   GITHUB_REPO   - "owner/repo" form
 
-export async function dispatchIngestWorkflow(opts: {
-  regionId?: string;
-  reason?: string;
-}): Promise<{ ok: boolean; error?: string }> {
+async function dispatchWorkflow(
+  workflowFile: string,
+  inputs: Record<string, string>,
+): Promise<{ ok: boolean; error?: string }> {
   const token = process.env.GITHUB_TOKEN;
   const repo = process.env.GITHUB_REPO;
   if (!token || !repo) {
     return { ok: false, error: "GITHUB_TOKEN or GITHUB_REPO not configured" };
   }
-
-  const url = `https://api.github.com/repos/${repo}/actions/workflows/ingest.yml/dispatches`;
-  const body = {
-    ref: "main",
-    inputs: {
-      ...(opts.regionId ? { region: opts.regionId } : {}),
-      ...(opts.reason ? { reason: opts.reason } : {}),
-    },
-  };
-
+  const url = `https://api.github.com/repos/${repo}/actions/workflows/${workflowFile}/dispatches`;
   const res = await fetch(url, {
     method: "POST",
     headers: {
@@ -35,9 +26,8 @@ export async function dispatchIngestWorkflow(opts: {
       "User-Agent": "goingson-editor",
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(body),
+    body: JSON.stringify({ ref: "main", inputs }),
   });
-
   if (!res.ok) {
     const text = await res.text();
     return {
@@ -45,6 +35,25 @@ export async function dispatchIngestWorkflow(opts: {
       error: `Dispatch failed: HTTP ${res.status} ${text.slice(0, 200)}`,
     };
   }
-  // 204 No Content on success — nothing to parse.
   return { ok: true };
+}
+
+export async function dispatchIngestWorkflow(opts: {
+  regionId?: string;
+  reason?: string;
+}): Promise<{ ok: boolean; error?: string }> {
+  const inputs: Record<string, string> = {};
+  if (opts.regionId) inputs.region = opts.regionId;
+  if (opts.reason) inputs.reason = opts.reason;
+  return dispatchWorkflow("ingest.yml", inputs);
+}
+
+export async function dispatchDiscoverWorkflow(opts: {
+  region: string;
+  requestId: string;
+}): Promise<{ ok: boolean; error?: string }> {
+  return dispatchWorkflow("discover.yml", {
+    region: opts.region,
+    requestId: opts.requestId,
+  });
 }

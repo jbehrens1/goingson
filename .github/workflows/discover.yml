@@ -1,0 +1,56 @@
+name: Source discovery
+
+# Triggered by the admin UI via workflow_dispatch (POST /api/admin/discover
+# from the app). Runs Claude + web search to find new event sources, then
+# commits the result JSON to public/discover/<requestId>.json so the admin
+# UI can poll for it.
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: "Region id (e.g. 'lbi', 'metrowest', 'outercape')"
+        required: true
+        type: string
+      requestId:
+        description: "Caller-generated request id used as the result filename"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    # 5 minutes is plenty — discovery typically takes 1-2 min. No Vercel cap.
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Run discovery
+        env:
+          REGION: ${{ inputs.region }}
+          REQUEST_ID: ${{ inputs.requestId }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npx tsx scripts/discover.ts
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "public/discover/${{ inputs.requestId }}.json" 2>/dev/null || true
+          if [[ -n "$(git diff --cached --name-only)" ]]; then
+            git commit -m "discover: ${{ inputs.region }} request ${{ inputs.requestId }} [skip ci]"
+            git push
+          else
+            echo "No discovery result file produced — aborting."
+            exit 1
+          fi

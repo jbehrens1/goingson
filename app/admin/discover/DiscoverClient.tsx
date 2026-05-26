@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type Candidate = {
   candidateId: string;
@@ -13,8 +13,23 @@ type Candidate = {
   duplicate?: boolean;
 };
 
-type DiscoverResponse =
-  | { ok: true; candidates: Candidate[]; proposedCount: number; usage?: { input_tokens: number; output_tokens: number } }
+type DiscoverResult = {
+  ok: boolean;
+  candidates?: Candidate[];
+  proposedCount?: number;
+  usage?: { input_tokens: number; output_tokens: number };
+  durationMs?: number;
+  completedAt?: string;
+  error?: string;
+};
+
+type DispatchResponse =
+  | { ok: true; requestId: string; region: string; workflowRunUrl?: string }
+  | { ok: false; error: string };
+
+type StatusResponse =
+  | { ok: true; status: "pending" }
+  | { ok: true; status: "complete"; result: DiscoverResult }
   | { ok: false; error: string };
 
 type AddResponse =
@@ -27,61 +42,136 @@ type AddResponse =
     }
   | { ok: false; error: string; rejected?: Array<{ name?: string; reason: string }> };
 
+const POLL_INTERVAL_MS = 5000;
+const MAX_POLL_DURATION_MS = 5 * 60 * 1000; // 5 minutes
+
 export function DiscoverClient({ regions }: { regions: string[] }) {
   const [region, setRegion] = useState<string>(regions[0] ?? "");
+  const [requestId, setRequestId] = useState<string | null>(null);
+  const [workflowUrl, setWorkflowUrl] = useState<string | null>(null);
+  const [pollStartedAt, setPollStartedAt] = useState<number | null>(null);
+  const [statusText, setStatusText] = useState<string>("");
   const [loading, setLoading] = useState(false);
   const [candidates, setCandidates] = useState<Candidate[]>([]);
   const [proposedCount, setProposedCount] = useState<number | null>(null);
-  const [usage, setUsage] = useState<{ input_tokens: number; output_tokens: number } | null>(null);
+  const [usage, setUsage] = useState<DiscoverResult["usage"] | null>(null);
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [adding, setAdding] = useState(false);
   const [addResult, setAddResult] = useState<AddResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const pollTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Clean up any in-flight poll when unmounting.
+  useEffect(() => {
+    return () => {
+      if (pollTimer.current) clearTimeout(pollTimer.current);
+    };
+  }, []);
+
+  function resetResults() {
+    setCandidates([]);
+    setProposedCount(null);
+    setUsage(null);
+    setSelected(new Set());
+    setAddResult(null);
+  }
+
+  async function pollOnce(rid: string, startedAt: number): Promise<void> {
+    try {
+      const res = await fetch(
+        `/api/admin/discover/status?requestId=${encodeURIComponent(rid)}`,
+        { cache: "no-store" },
+      );
+      const raw = await res.text();
+      let data: StatusResponse;
+      try {
+        data = JSON.parse(raw) as StatusResponse;
+      } catch {
+        setError(`Status check returned non-JSON (HTTP ${res.status}): ${raw.slice(0, 200)}`);
+        setLoading(false);
+        return;
+      }
+      if (!data.ok) {
+        setError(data.error);
+        setLoading(false);
+        return;
+      }
+      if (data.status === "complete") {
+        const result = data.result;
+        if (!result.ok) {
+          setError(result.error ?? "Discovery failed in the workflow");
+          setLoading(false);
+          return;
+        }
+        setCandidates(result.candidates ?? []);
+        setProposedCount(result.proposedCount ?? null);
+        setUsage(result.usage ?? null);
+        const pre = new Set(
+          (result.candidates ?? []).filter((c) => !c.duplicate).map((c) => c.candidateId),
+        );
+        setSelected(pre);
+        setStatusText(
+          `Done in ${Math.round((result.durationMs ?? 0) / 1000)}s. Found ${result.candidates?.length ?? 0} candidates.`,
+        );
+        setLoading(false);
+        return;
+      }
+      // Still pending — schedule next poll.
+      const elapsed = Date.now() - startedAt;
+      if (elapsed > MAX_POLL_DURATION_MS) {
+        setError(
+          `Discovery still hasn't completed after ${Math.round(elapsed / 1000)}s. Check the workflow logs.`,
+        );
+        setLoading(false);
+        return;
+      }
+      setStatusText(`Running on GitHub Actions… (${Math.round(elapsed / 1000)}s elapsed)`);
+      pollTimer.current = setTimeout(() => pollOnce(rid, startedAt), POLL_INTERVAL_MS);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+      setLoading(false);
+    }
+  }
 
   async function runDiscovery() {
     setLoading(true);
     setError(null);
-    setAddResult(null);
-    setCandidates([]);
-    setSelected(new Set());
-    setProposedCount(null);
-    setUsage(null);
+    setStatusText("Dispatching workflow…");
+    resetResults();
+    setRequestId(null);
+    setWorkflowUrl(null);
+    setPollStartedAt(null);
+    if (pollTimer.current) clearTimeout(pollTimer.current);
+
     try {
       const res = await fetch("/api/admin/discover", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ region }),
       });
-      // Read as text first so we can surface non-JSON responses (Vercel
-      // function timeouts / crashes return an HTML error page).
       const raw = await res.text();
-      let data: DiscoverResponse;
+      let data: DispatchResponse;
       try {
-        data = JSON.parse(raw) as DiscoverResponse;
+        data = JSON.parse(raw) as DispatchResponse;
       } catch {
-        const snippet = raw.slice(0, 300).replace(/\s+/g, " ").trim();
-        setError(
-          `HTTP ${res.status}: server returned non-JSON response. ` +
-            (res.status === 504 || res.status === 408
-              ? "This is usually a Vercel function timeout (Hobby tier caps at 60s). "
-              : "") +
-            `Response: ${snippet}`,
-        );
+        setError(`Dispatch returned non-JSON (HTTP ${res.status}): ${raw.slice(0, 200)}`);
+        setLoading(false);
         return;
       }
       if (!data.ok) {
         setError(data.error);
-      } else {
-        setCandidates(data.candidates);
-        setProposedCount(data.proposedCount);
-        setUsage(data.usage ?? null);
-        // Pre-select non-duplicates
-        const pre = new Set(data.candidates.filter((c) => !c.duplicate).map((c) => c.candidateId));
-        setSelected(pre);
+        setLoading(false);
+        return;
       }
+      setRequestId(data.requestId);
+      setWorkflowUrl(data.workflowRunUrl ?? null);
+      const startedAt = Date.now();
+      setPollStartedAt(startedAt);
+      setStatusText("Workflow dispatched. Polling for results…");
+      // First poll after a short delay to give the workflow time to start.
+      pollTimer.current = setTimeout(() => pollOnce(data.requestId, startedAt), 8000);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
-    } finally {
       setLoading(false);
     }
   }
@@ -107,10 +197,16 @@ export function DiscoverClient({ regions }: { regions: string[] }) {
           })),
         }),
       });
-      const data = (await res.json()) as AddResponse;
+      const raw = await res.text();
+      let data: AddResponse;
+      try {
+        data = JSON.parse(raw) as AddResponse;
+      } catch {
+        setAddResult({ ok: false, error: `HTTP ${res.status}: ${raw.slice(0, 200)}` });
+        return;
+      }
       setAddResult(data);
       if (data.ok && data.addedIds.length > 0) {
-        // Remove successfully-added candidates from the list
         const addedNames = new Set(picks.slice(0, data.added).map((c) => c.name));
         setCandidates((cs) => cs.filter((c) => !addedNames.has(c.name)));
         setSelected(new Set());
@@ -132,10 +228,12 @@ export function DiscoverClient({ regions }: { regions: string[] }) {
   }
 
   const selectableCount = candidates.filter((c) => !c.duplicate).length;
+  const elapsedSec = pollStartedAt
+    ? Math.round((Date.now() - pollStartedAt) / 1000)
+    : 0;
 
   return (
     <div>
-      {/* Region picker + run button */}
       <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", marginBottom: "1rem" }}>
         <label style={{ fontWeight: 600 }}>Region:</label>
         <select
@@ -162,7 +260,7 @@ export function DiscoverClient({ regions }: { regions: string[] }) {
             cursor: loading ? "wait" : "pointer",
           }}
         >
-          {loading ? "Searching the web…" : "Discover sources"}
+          {loading ? `Running… ${elapsedSec}s` : "Discover sources"}
         </button>
         {usage && (
           <span style={{ color: "var(--muted)", fontSize: "0.85rem", marginLeft: "auto" }}>
@@ -173,14 +271,50 @@ export function DiscoverClient({ regions }: { regions: string[] }) {
 
       {loading && (
         <div style={{ padding: "1rem", background: "#fff8e1", borderRadius: 6, marginBottom: "1rem" }}>
-          Searching for local sources in <strong>{region}</strong>… This usually takes 30–60 seconds while
-          Claude searches the web for venues, libraries, museums, and aggregators not already in your list.
+          <div>
+            <strong>{statusText}</strong>
+          </div>
+          {requestId && (
+            <div style={{ fontSize: "0.85rem", color: "var(--muted)", marginTop: "0.4rem" }}>
+              Request: <code>{requestId}</code>
+              {workflowUrl && (
+                <>
+                  {" · "}
+                  <a href={workflowUrl} target="_blank" rel="noopener noreferrer">
+                    Watch the workflow run
+                  </a>
+                </>
+              )}
+            </div>
+          )}
+          <div style={{ fontSize: "0.85rem", marginTop: "0.5rem", color: "var(--muted)" }}>
+            Discovery runs as a GitHub Actions workflow (typically 60–120 seconds). Results appear here when ready.
+          </div>
+        </div>
+      )}
+
+      {!loading && statusText && candidates.length > 0 && (
+        <div style={{ marginBottom: "0.75rem", fontSize: "0.85rem", color: "var(--muted)" }}>
+          {statusText}
         </div>
       )}
 
       {error && (
         <div style={{ padding: "0.75rem 1rem", background: "#fde2e2", color: "#7a1f1f", borderRadius: 6, marginBottom: "1rem" }}>
           <strong>Error:</strong> {error}
+          {requestId && (
+            <div style={{ fontSize: "0.85rem", marginTop: "0.3rem" }}>
+              Request: <code>{requestId}</code>
+              {workflowUrl && (
+                <>
+                  {" · "}
+                  <a href={workflowUrl} target="_blank" rel="noopener noreferrer">
+                    Check workflow logs
+                  </a>
+                </>
+              )}
+            </div>
+          )}
         </div>
       )}
 
@@ -198,7 +332,7 @@ export function DiscoverClient({ regions }: { regions: string[] }) {
           >
             <div>
               <strong>{candidates.length}</strong> candidate{candidates.length === 1 ? "" : "s"}
-              {proposedCount && proposedCount !== candidates.length && (
+              {proposedCount !== null && proposedCount !== candidates.length && (
                 <span style={{ color: "var(--muted)" }}> ({proposedCount} proposed, deduped)</span>
               )}
               <span style={{ color: "var(--muted)" }}>

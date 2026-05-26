@@ -162,19 +162,22 @@ WHAT TO SKIP:
   - Sources already in the existing list (any URL whose hostname matches an existing one)
   - Anything outside the region's towns
 
-HOW TO WORK (budget: 6 web searches, ~30 seconds of wall-clock time):
-  1. Plan a small number of high-yield queries. Examples:
+HOW TO WORK (budget: up to 12 web searches):
+  1. Plan queries across towns AND kinds. Examples:
        "<region name> events calendar"
-       "<largest town> library events"
+       "<town> library events"
        "<region name> live music venues"
        "<region name> historical society"
-       "<region name> arts center calendar"
-  2. Each web_search call returns ~10 results — extract MULTIPLE candidates per search before moving on.
-  3. For each promising hit, call propose_source immediately. Don't re-search to verify — the URL and your inferred kind/town are enough.
+       "<region name> arts center"
+       "<region name> town hall calendar"
+       "<region name> church events"
+       "<region name> newsletter local"
+  2. For each search, extract multiple candidates before moving on.
+  3. Call propose_source for each distinct, valid candidate.
   4. Skip anything whose hostname matches an existing source. Skip anything outside the listed towns.
-  5. Aim for 8-12 candidates total. Stop searching once you have them.
+  5. Aim for 10-15 candidates total. Quality matters more than quantity — but more candidates give the admin more options.
 
-OUTPUT: only call propose_source — no summary text. Make every search count.`;
+OUTPUT: only call propose_source — no summary text.`;
 }
 
 function safeHost(u: string): string | null {
@@ -268,10 +271,8 @@ export async function discoverSourcesForRegion(
       max_tokens: 8192,
       system: systemPrompt,
       tools: [
-        // Cap web searches so we stay within Vercel's 60s function timeout —
-        // each web_search iteration takes 2-5s, so 6 caps the worst case at
-        // ~30s before the model has to consolidate.
-        { type: "web_search_20260209", name: "web_search", max_uses: 6 },
+        // Runs in GitHub Actions (5min job timeout) — generous budget OK.
+        { type: "web_search_20260209", name: "web_search", max_uses: 12 },
         // Custom tool — must be a plain object literal (Tool type is custom-only).
         PROPOSE_SOURCE_TOOL,
       ],
