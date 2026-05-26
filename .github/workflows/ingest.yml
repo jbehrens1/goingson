@@ -38,6 +38,12 @@ jobs:
           REGION: ${{ inputs.region }}
 
       - name: Commit results
+        # Pipe the reason through an env var so its quotes don't get inlined
+        # into bash. Without this, a reason like `jeff approved "Foo"` becomes
+        # `if [[ -n "jeff approved "Foo"" ]]` and bash errors with a syntax
+        # error in the conditional — silently failing every dispatched ingest.
+        env:
+          REASON: ${{ inputs.reason }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,8 +52,8 @@ jobs:
           if [[ -n "$(git diff --cached --name-only)" ]]; then
             # Flag auto-fixes prominently in the commit message.
             REASON_SUFFIX=""
-            if [[ -n "${{ inputs.reason }}" ]]; then
-              REASON_SUFFIX=" (${{ inputs.reason }})"
+            if [[ -n "$REASON" ]]; then
+              REASON_SUFFIX=" ($REASON)"
             fi
             if git diff --cached --name-only | grep -q "config/regions/.*/sources.json"; then
               MSG="chore: refresh events + auto-fixed source configs${REASON_SUFFIX} [skip ci]"

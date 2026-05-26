@@ -132,30 +132,49 @@ export async function POST(req: Request) {
     );
   }
 
-  // 2) Remove from pending and commit
-  const nextPending = {
-    ...pendingFile,
-    pending: pendingFile.pending.filter((p) => p.id !== suggestionId),
-  };
-  const commitPending = await commitFileToGitHub({
-    path: pendingFilePath(),
-    content: serializePending(nextPending),
-    message: `pending: remove "${item.name}" (approved)`,
-    authorName: user?.fullName ?? reviewer,
-    authorEmail: reviewer.includes("@") ? reviewer : "noreply@goingson.co",
-  });
-  if (!commitPending.ok) {
-    return NextResponse.json(
-      {
-        ok: false,
-        error: `Source added but pending removal failed: ${commitPending.error}`,
-      },
-      { status: 500 },
+  // 2) Remove from pending and commit. The first commit already succeeded
+  //    (source is live in sources.json), so a failure here shouldn't fail
+  //    the whole approve — that just leaves the user with a wrong-looking
+  //    pending list and no recourse. Retry once with a fresh SHA read; if
+  //    it still fails, return 200 with a `pendingRemoval` warning so the UI
+  //    can surface it.
+  let pendingRemoval: { ok: boolean; error?: string } = { ok: true };
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const freshPendingFile =
+      attempt === 1 ? pendingFile : await readPending(process.cwd());
+    const stillThere = freshPendingFile.pending.some(
+      (p) => p.id === suggestionId,
     );
+    if (!stillThere) {
+      // Someone (maybe a parallel approve) already removed it. Done.
+      pendingRemoval = { ok: true };
+      break;
+    }
+    const nextPending = {
+      ...freshPendingFile,
+      pending: freshPendingFile.pending.filter((p) => p.id !== suggestionId),
+    };
+    const result = await commitFileToGitHub({
+      path: pendingFilePath(),
+      content: serializePending(nextPending),
+      message: `pending: remove "${item.name}" (approved)`,
+      authorName: user?.fullName ?? reviewer,
+      authorEmail: reviewer.includes("@") ? reviewer : "noreply@goingson.co",
+    });
+    if (result.ok) {
+      pendingRemoval = { ok: true };
+      break;
+    }
+    pendingRemoval = { ok: false, error: result.error };
+    // Brief backoff before retry — covers transient SHA-conflict races
+    // (when ingest cron or another admin commit lands between our reads).
+    if (attempt === 1) await new Promise((r) => setTimeout(r, 600));
   }
 
   // Kick off an immediate ingest of the target region so the newly approved
-  // source's events show up on the live site in ~2 min.
+  // source's events show up on the live site in ~2 min. Reason is passed
+  // through GitHub workflow_dispatch inputs — its content is plumbed into
+  // bash via an env var (not interpolated), so quotes here are safe.
   const dispatch = await dispatchIngestWorkflow({
     regionId: item.regionId,
     reason: `${reviewer} approved "${item.name}"`,
@@ -164,6 +183,7 @@ export async function POST(req: Request) {
   return NextResponse.json({
     ok: true,
     sourceId: newId,
+    pendingRemoval,
     rescan: dispatch.ok
       ? { triggered: true }
       : { triggered: false, error: dispatch.error },
