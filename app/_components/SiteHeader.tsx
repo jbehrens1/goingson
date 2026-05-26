@@ -38,13 +38,43 @@ export async function SiteHeader() {
           <Link href="/suggest">Suggest a venue</Link>
           {userId && <Link href="/account">Newsletter</Link>}
           {isAdmin && (
-            <Link href="/sources/pending">
-              Pending{pendingCount > 0 && <span className="header-badge">{pendingCount}</span>}
-            </Link>
+            // Consolidates the per-admin destinations behind one dropdown.
+            // <details> gives us a click-to-open menu without needing a
+            // client component; the rest of the header stays server-rendered.
+            <details className="header-dropdown">
+              <summary>
+                Admin
+                {pendingCount > 0 && (
+                  <span
+                    className="header-badge"
+                    title={`${pendingCount} pending suggestion${pendingCount === 1 ? "" : "s"}`}
+                  >
+                    {pendingCount}
+                  </span>
+                )}
+                <span className="header-dropdown-caret" aria-hidden>▾</span>
+              </summary>
+              <div className="header-dropdown-menu" role="menu">
+                {isOwner && (
+                  <Link href="/admin" role="menuitem">
+                    Users
+                  </Link>
+                )}
+                <Link href="/admin/discover" role="menuitem">
+                  Discover
+                </Link>
+                <Link href="/sources/pending" role="menuitem">
+                  Pending
+                  {pendingCount > 0 && (
+                    <span className="header-badge">{pendingCount}</span>
+                  )}
+                </Link>
+                <Link href="/admin/qc" role="menuitem">
+                  QC
+                </Link>
+              </div>
+            </details>
           )}
-          {isAdmin && <Link href="/admin/qc">QC</Link>}
-          {isAdmin && <Link href="/admin/discover">Discover</Link>}
-          {isOwner && <Link href="/admin">Admin</Link>}
         </div>
         <div className="site-header-auth">
           {!configured ? (

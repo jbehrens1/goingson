@@ -629,6 +629,65 @@ footer {
 .site-header-links a:hover {
   color: var(--fg);
 }
+
+/* Admin dropdown in the header. <details> click-to-open menu with a small
+ * floating panel of links. The panel is positioned absolute so it overlays
+ * the page content below the header. */
+.header-dropdown {
+  position: relative;
+}
+.header-dropdown > summary {
+  list-style: none;
+  cursor: pointer;
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  user-select: none;
+}
+.header-dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+.header-dropdown > summary:hover {
+  color: var(--fg);
+}
+.header-dropdown[open] > summary {
+  color: var(--fg);
+}
+.header-dropdown-caret {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+.header-dropdown[open] .header-dropdown-caret {
+  transform: rotate(180deg);
+}
+.header-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  min-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 24px -8px rgba(0, 0, 0, 0.25);
+  padding: 0.3rem 0;
+  z-index: 30;
+}
+.header-dropdown-menu a {
+  padding: 0.45rem 0.85rem;
+  color: var(--fg);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+.header-dropdown-menu a:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--fg);
+}
 .site-header-auth {
   margin-left: auto;
   display: flex;
