@@ -73,9 +73,36 @@ function firstVenue(v: TribeEvent["venue"]): TribeVenue | undefined {
   return v;
 }
 
+function decodeEntities(s: string): string {
+  // Tribe REST sometimes returns titles/venues with raw HTML numeric entities
+  // (`&#8211;`, `&#8217;`, `&amp;`) — that's e.g. Payomet's "Payomet &#8211;
+  // Performing Arts Center" venue string, which would otherwise show literally
+  // and fragment the venue dropdown into duplicates.
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;|&#039;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    // Numeric entities (decimal): &#8211; etc.
+    .replace(/&#(\d+);/g, (_, n) => {
+      const code = parseInt(n, 10);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : "";
+    })
+    // Numeric entities (hex): &#x2014; etc.
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => {
+      const code = parseInt(h, 16);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : "";
+    });
+}
+
 function stripHtml(s: string | undefined): string | undefined {
   if (!s) return undefined;
-  return s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() || undefined;
+  return (
+    decodeEntities(s.replace(/<[^>]+>/g, "")).replace(/\s+/g, " ").trim() ||
+    undefined
+  );
 }
 
 type WordpressTribeConfig = {
@@ -139,7 +166,12 @@ export const wordpressTribeAdapter: Adapter = async ({ source }): Promise<Adapte
           end: parseUtcNaive(ev.utc_end_date) ?? toIsoOrUndefined(ev.end_date),
           allDay: !!ev.all_day,
           location: {
-            venue: venue?.venue ?? cfg.defaultVenue,
+            // Decode HTML entities in venue name too — Tribe REST returns
+            // e.g. "Payomet &#8211; Performing Arts Center" verbatim, which
+            // would otherwise duplicate the venue in the venue dropdown.
+            venue: venue?.venue
+              ? decodeEntities(venue.venue)
+              : cfg.defaultVenue,
             town: venue?.city ?? source.town,
             address: venue
               ? [venue.address, venue.city, venue.state].filter(Boolean).join(", ") || undefined

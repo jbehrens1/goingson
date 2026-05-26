@@ -1,0 +1,14 @@
+{
+  "$comment": "Per-region venue aliases. Each entry maps a canonical venue name to its known variant spellings — anything in `aliases` (case-insensitive) gets rewritten to the `name` at ingest time. Useful when a source publishes the same place under inconsistent strings.",
+  "venues": [
+    {
+      "name": "Payomet Performing Arts Center",
+      "aliases": [
+        "Payomet – Performing Arts Center",
+        "Payomet - Performing Arts Center",
+        "Payomet PAC",
+        "Payomet"
+      ]
+    }
+  ]
+}
