@@ -126,6 +126,14 @@
       "town": "Ship Bottom",
       "notes": "Discovered via /admin/discover. The regional Chamber of Commerce visitor site publishes a running events calendar for the entire LBI area, including live concerts, seasonal festivals, and community happenings. Found at visitlbiregion.com/events/.",
       "config": {}
+    },
+    {
+      "id": "shell-resort",
+      "name": "Shell Resort",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://calendar.google.com/calendar/u/0/embed?ctz=America/New_York&src=g4ssoon0tv9dt98a6s00lfnq4o@group.calendar.google.com",
+      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
 }
