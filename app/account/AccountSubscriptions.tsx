@@ -500,8 +500,14 @@ function SubscriptionCard({
         </label>
       </div>
 
-      <div className="account-row">
-        <div className="account-picker">
+      {/* Compact layout: label + picker inline on a single line each, matching
+          the main events page's column dropdowns. Helper text becomes a title
+          tooltip on the label so the row stays terse. */}
+      <div className="account-row account-row-pickers">
+        <div
+          className="account-picker-inline"
+          title="Leave empty to include all types"
+        >
           <label className="account-label">Event types</label>
           <MultiSelectPicker
             label="types"
@@ -510,10 +516,12 @@ function SubscriptionCard({
             onChange={(next) => patch({ types: [...next] as EventType[] })}
             options={typeOptions}
           />
-          <span className="muted small">Empty = include all types</span>
         </div>
 
-        <div className="account-picker">
+        <div
+          className="account-picker-inline"
+          title="Leave empty to include all venues"
+        >
           <label className="account-label">Venues</label>
           <MultiSelectPicker
             label="venues"
@@ -522,7 +530,6 @@ function SubscriptionCard({
             onChange={(next) => patch({ venues: [...next] })}
             options={venueOptions}
           />
-          <span className="muted small">Empty = include all venues</span>
         </div>
       </div>
 

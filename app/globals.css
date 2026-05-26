@@ -791,6 +791,27 @@ footer {
   flex: 1 1 14rem;
   min-width: 14rem;
 }
+/* Compact, single-line picker layout: label + dropdown side by side,
+ * mirroring the column-header pickers on the main events page. */
+.account-picker-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1 1 14rem;
+  min-width: 14rem;
+}
+.account-picker-inline > .account-label {
+  margin: 0;
+  white-space: nowrap;
+}
+.account-picker-inline > details.col-multi {
+  flex: 1;
+  min-width: 0;
+}
+.account-row-pickers {
+  align-items: center;
+}
 .account-label {
   font-size: 0.85rem;
   color: var(--muted);
