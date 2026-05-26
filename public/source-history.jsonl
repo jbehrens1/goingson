@@ -730,3 +730,11 @@
 {"ts":"2026-05-26T13:05:45.343Z","regionId":"outercape","sourceId":"wellfleet-pearl","adapter":"wordpress-tribe","url":"https://wellfleetpearl.com/","count":146}
 {"ts":"2026-05-26T13:05:45.343Z","regionId":"outercape","sourceId":"truro-vineyards","adapter":"manual-oneoff","url":"https://trurovineyardsofcapecod.com/events-calendar/","count":77}
 {"ts":"2026-05-26T13:05:45.343Z","regionId":"outercape","sourceId":"truro-vineyards-2","adapter":"ical","url":"https://trurovineyardsofcapecod.com/","count":0}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"bird-and-bettys","adapter":"squarespace-events","url":"https://www.birdandbettys.com/","count":57}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"joe-pops","adapter":"ical","url":"https://calendar.google.com/calendar/ical/07919b74d6e43922cc76627ce10d669077197d20cd0b236f41d5e09356234738%40group.calendar.google.com/public/basic.ics","count":207}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"blackeyed-susans","adapter":"squarespace-events","url":"https://www.blackeyedsusanslbi.com/","count":30}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"old-causeway","adapter":"squarespace-events","url":"https://www.oldcauseway.com/","count":0,"warnings":["HTTP 404 fetching https://www.oldcauseway.com/events/?format=json-pretty"]}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"surf-city-hotel","adapter":"ical","url":"https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics","count":1134,"warnings":["ical: dropped 81 events matching excludeTitlePatterns"]}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"daddyo-lbi","adapter":"elfsight-events","url":"https://www.daddyolbi.com/happenings","count":50}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"thesandpaper","adapter":"wordpress-geodir","url":"https://www.thesandpaper.net/","count":12097}
+{"ts":"2026-05-26T14:19:14.769Z","regionId":"lbi","sourceId":"lbi-lowdown","adapter":"html-generic","url":"https://www.lbilowdown.com/","count":0,"warnings":["lbi-lowdown: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."]}
