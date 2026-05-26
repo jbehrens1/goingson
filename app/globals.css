@@ -549,6 +549,7 @@ header .muted,
 .type-food-drink { background: #ffd7c1; color: #7a3d12; }
 .type-fitness { background: #cfe9ff; color: #134e7e; }
 .type-mahjong { background: #d4f3df; color: #16603d; }
+.type-cards { background: #cfe7e3; color: #1d4d48; }
 .type-community { background: #e8e3d3; color: #514428; }
 .type-sale { background: #ffd0d0; color: #842121; }
 
@@ -566,6 +567,7 @@ header .muted,
   .type-food-drink { background: #4a2410; color: #fbc2a3; }
   .type-fitness { background: #0f3050; color: #b3d3fb; }
   .type-community { background: #3a3220; color: #d6cdb5; }
+  .type-cards { background: #1a4845; color: #c4e0dc; }
   .type-sale { background: #4d1818; color: #fbb5b5; }
 }
 

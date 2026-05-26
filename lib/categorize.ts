@@ -12,6 +12,7 @@ export const EVENT_TYPES = [
   "food-drink",
   "fitness",
   "mahjong",
+  "cards",
   "community",
   "sale",
   "other",
@@ -33,6 +34,7 @@ export const TYPE_LABELS: Record<EventType, string> = {
   "food-drink": "Food & drink",
   fitness: "Fitness / outdoor",
   mahjong: "Mah Jongg",
+  cards: "Cards",
   community: "Community",
   sale: "Sale / fundraiser",
   other: "Other",
@@ -47,6 +49,10 @@ export const TYPE_LABELS: Record<EventType, string> = {
 const RULES: Array<[EventType, RegExp]> = [
   // Mahjong first so beginner sessions don't drift into workshop.
   ["mahjong", /\b(mah[- ]?jongg?|mahjong)\b/i],
+  // Cards next: other card games — keep separate from mahjong since the user
+  // splits them as distinct categories on the events page. Picked before
+  // workshop/community/family so library card-night events don't dilute.
+  ["cards", /\b(canasta|poker|bridge club|bridge night|gin rummy|cribbage|euchre|pinochle|hearts night|spades night|blackjack|card game|card night|playing cards)\b/i],
   // Comedy is tightened to require a comedy-specific phrase, not bare
   // "comedy" (which collides with "musical comedy", "romantic comedy",
   // "comedy of errors" in theater descriptions).
@@ -107,6 +113,7 @@ function platformTagToType(raw: string): EventType | undefined {
   if (/^(food|drink|wine|beer|brewery|tasting|brunch|dinner|culinary)\b/.test(t)) return "food-drink";
   if (/^(yoga|fitness|outdoors?|hike|hiking|running|race|workout|pilates|zumba|barre|meditation|tai chi)\b/.test(t)) return "fitness";
   if (/^(mahjongg?|mah[- ]?jongg?)\b/.test(t)) return "mahjong";
+  if (/^(cards?|card games?|canasta|poker|bridge|cribbage|euchre|pinochle)\b/.test(t)) return "cards";
   if (/^(community|civic|volunteer|town hall|trivia|bingo|game night|religious services?|worship|prayer)\b/.test(t)) return "community";
   if (/^(sales?|fundraisers?|craft fair|holiday market|tag sale|yard sale|bake sale|book sale)\b/.test(t)) return "sale";
 

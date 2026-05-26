@@ -48,6 +48,12 @@ type GdEvent = {
   region?: string;
   zip?: string;
   venue?: string;
+  /** GeoDir uses this field for the host business/place name when an event
+   *  isn't tied to a registered directory listing. In practice it's where
+   *  every "Library Offers …" SandPaper event stores the actual venue
+   *  ("Beach Haven Public Library", "Waretown Branch of the Ocean County
+   *  Library"). The plain `venue` field is almost always empty. */
+  business_name_not_in_directory?: string;
   latitude?: string | number;
   longitude?: string | number;
   default_category?: GdCategory | string | number;
@@ -185,6 +191,7 @@ export const wordpressGeodirAdapter: Adapter = async ({ source }): Promise<Adapt
 
       const venue =
         (ev.venue && String(ev.venue).trim()) ||
+        (ev.business_name_not_in_directory && ev.business_name_not_in_directory.trim()) ||
         cfg.defaultVenue ||
         undefined;
       const town = ev.city?.trim() || source.town;
