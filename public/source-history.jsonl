@@ -814,3 +814,4 @@
 {"ts":"2026-05-26T18:26:01.954Z","regionId":"lbi","sourceId":"lbi-recurring","adapter":"manual-recurring","url":"internal://config/regions/lbi/recurring.json","count":15}
 {"ts":"2026-05-26T18:26:01.954Z","regionId":"lbi","sourceId":"lbi-one-off","adapter":"manual-oneoff","url":"internal://config/regions/lbi/one-off.json","count":5}
 {"ts":"2026-05-26T18:26:01.954Z","regionId":"lbi","sourceId":"tuckers-tavern","adapter":"ical","url":"https://tuckerstavern-lbi.com/news_events.php","count":0}
+{"ts":"2026-05-26T18:32:45.444Z","regionId":"lbi","sourceId":"tuckers-tavern","adapter":"elfsight-events","url":"https://tuckerstavern-lbi.com/news_events.php","count":53}

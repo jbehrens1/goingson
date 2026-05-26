@@ -20,8 +20,8 @@
       "Barnegat Light, NJ"
     ]
   },
-  "generatedAt": "2026-05-26T18:26:35.373Z",
-  "count": 1056,
+  "generatedAt": "2026-05-26T18:32:46.011Z",
+  "count": 1084,
   "events": [
     {
       "title": "Chris Guastelle- Beach Stage",
@@ -762,6 +762,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Just Bob",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-05-28T19:00:00",
+      "end": "2026-05-28T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/5gx8nQNd/Just-Bob.jpg",
+      "type": "live-music",
+      "id": "3446d2dd440e1f6d",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Dave Jones",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-05-28T20:00:00.000Z",
@@ -992,6 +1014,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Tom Pernal",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-05-29T19:00:00",
+      "end": "2026-05-29T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/ym8yCP41/Tom-Pernal.jpg",
+      "type": "live-music",
+      "id": "0ec23dc4997919a8",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Mark Sosis",
@@ -1312,6 +1356,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Ted Hammock",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-05-30T19:00:00",
+      "end": "2026-05-30T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/gLrpbSD3/Ted-Hammock.jpg",
+      "type": "live-music",
+      "id": "58cdbc1275f1506f",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -2611,6 +2677,28 @@
       "ingestedAt": "2026-05-26T18:26:08.586Z"
     },
     {
+      "title": "Live Music with Preach",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-05T19:00:00",
+      "end": "2026-06-05T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/DHVMGKN1/Preach.jpg",
+      "type": "live-music",
+      "id": "f24077839703b2c6",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Vince Bergamo",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-05T19:00:00.000Z",
@@ -3009,6 +3097,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Ted Hammock",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-06T19:00:00",
+      "end": "2026-06-06T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/gLrpbSD3/Ted-Hammock.jpg",
+      "type": "live-music",
+      "id": "0a564c309028ee6a",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -4052,6 +4162,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Ty Mares",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-11T18:00:00",
+      "end": "2026-06-11T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/FbgsZBY3/Ty-Mares.jpg",
+      "type": "live-music",
+      "id": "4522076a0f7a80f6",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Rob Connolly",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-11T20:00:00.000Z",
@@ -4258,6 +4390,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Rob Connolly",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-12T18:00:00",
+      "end": "2026-06-12T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/Qvvn2MrY/Rob-Connolly.jpg",
+      "type": "live-music",
+      "id": "0f3b5bb024a473a1",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Scott Zimmerman",
@@ -4633,6 +4787,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with The Pettis",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-13T19:00:00",
+      "end": "2026-06-13T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/KpPHf3zf/The-Pettis.jpg",
+      "type": "live-music",
+      "id": "a931a0dc7e07b80b",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Dave Jones",
@@ -5836,6 +6012,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Matt Fisher",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-18T18:00:00",
+      "end": "2026-06-18T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/x8YVXyjp/Matt-Fisher.jpg",
+      "type": "live-music",
+      "id": "595adc27d69cd092",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Mike Casey",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-18T19:00:00.000Z",
@@ -6117,6 +6315,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with East Two Three",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-19T18:00:00",
+      "end": "2026-06-19T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/xt1FS8yK/East-Two-Three.jpg",
+      "type": "live-music",
+      "id": "beee2f2e6efe43b0",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Mark Sosis",
@@ -6472,6 +6692,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Gypsy Moon",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-20T19:00:00",
+      "end": "2026-06-20T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/xSY5jnFv/Gypsy-Moon.jpg",
+      "type": "live-music",
+      "id": "75744e3c1f470e39",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Tom Pernal",
@@ -8066,6 +8308,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Chuck DeBruyn",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-25T18:00:00",
+      "end": "2026-06-25T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/NdnnQ2hL/Chuck-De-Bruyn.jpg",
+      "type": "live-music",
+      "id": "d7fb2bc40670b4ae",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Dave Jones",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-25T19:00:00.000Z",
@@ -8345,6 +8609,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Ty Mares",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-26T18:00:00",
+      "end": "2026-06-26T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/FbgsZBY3/Ty-Mares.jpg",
+      "type": "live-music",
+      "id": "30a0e2ad1b687f2b",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Mike Casey",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-26T19:00:00.000Z",
@@ -8618,6 +8904,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Ted Hammock",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-06-27T19:00:00",
+      "end": "2026-06-27T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/gLrpbSD3/Ted-Hammock.jpg",
+      "type": "live-music",
+      "id": "1c1d0128c52fe70f",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Bill & Andy",
@@ -9689,6 +9997,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Tom Pernal",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-02T18:00:00",
+      "end": "2026-07-02T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/ym8yCP41/Tom-Pernal.jpg",
+      "type": "live-music",
+      "id": "5ff42746b8abdb1f",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Rob Connolly",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-02T19:00:00.000Z",
@@ -9871,6 +10201,28 @@
       "ingestedAt": "2026-05-26T18:26:17.894Z"
     },
     {
+      "title": "Live Music with Barbara Lin",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-03T18:00:00",
+      "end": "2026-07-03T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/CKPccP4t/Barbara-Lin.jpg",
+      "type": "live-music",
+      "id": "95fa18f3f90785ab",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Amptons Duo",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-03T19:00:00.000Z",
@@ -10044,6 +10396,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Chris Guzman",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-04T19:00:00",
+      "end": "2026-07-04T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/LDzP8Fj3/Chris-Guzman.jpg",
+      "type": "live-music",
+      "id": "eba0a940abec6ca7",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Dave Jones",
@@ -10743,6 +11117,28 @@
       "ingestedAt": "2026-05-26T18:26:21.272Z"
     },
     {
+      "title": "Live Music with Matt Fisher",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-09T18:00:00",
+      "end": "2026-07-09T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/x8YVXyjp/Matt-Fisher.jpg",
+      "type": "live-music",
+      "id": "4a23382a0f202f2e",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Dave Jones",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-09T19:00:00.000Z",
@@ -10895,6 +11291,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with La Stella Brothers",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-10T18:00:00",
+      "end": "2026-07-10T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/gZcQgwf8/La-Stella-Brothers.jpg",
+      "type": "live-music",
+      "id": "abc656dc05944363",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Capt. Bill Brucato",
@@ -11120,6 +11538,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Gypsy Moon",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-11T19:00:00",
+      "end": "2026-07-11T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/xSY5jnFv/Gypsy-Moon.jpg",
+      "type": "live-music",
+      "id": "b1ee8df4e1d66ab2",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Brother Pete",
@@ -12067,6 +12507,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Chuck DeBruyn",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-16T18:00:00",
+      "end": "2026-07-16T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/NdnnQ2hL/Chuck-De-Bruyn.jpg",
+      "type": "live-music",
+      "id": "8e3feaa6b19f4eb4",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Shay Mac",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-16T19:00:00.000Z",
@@ -12219,6 +12681,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with East Two Three",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-17T18:00:00",
+      "end": "2026-07-17T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/xt1FS8yK/East-Two-Three.jpg",
+      "type": "live-music",
+      "id": "671543ed851ffe44",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
     },
     {
       "title": "Mark Sosis",
@@ -13395,6 +13879,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Mary Buck",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-23T18:00:00",
+      "end": "2026-07-23T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/WvTz9GF2/Mary-Buck.jpg",
+      "type": "live-music",
+      "id": "0a6b127e8204ae97",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.588Z"
+    },
+    {
       "title": "Dylan Willits",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-23T19:00:00.000Z",
@@ -13599,6 +14105,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Brother Pete",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-24T18:00:00",
+      "end": "2026-07-24T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/wZ8tGsjH/Brother-Pete.jpg",
+      "type": "live-music",
+      "id": "cc7927f2ed14b26a",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.589Z"
+    },
+    {
       "title": "Mike Casey",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-24T19:00:00.000Z",
@@ -13800,6 +14328,28 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T18:26:21.275Z"
+    },
+    {
+      "title": "Live Music with Matt Fisher",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-25T19:00:00",
+      "end": "2026-07-25T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/x8YVXyjp/Matt-Fisher.jpg",
+      "type": "live-music",
+      "id": "f79907305524603b",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.589Z"
     },
     {
       "title": "Bill & Andy",
@@ -14676,6 +15226,28 @@
       "ingestedAt": "2026-05-26T18:26:04.944Z"
     },
     {
+      "title": "Live Music with Ty Mares",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-30T18:00:00",
+      "end": "2026-07-30T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/FbgsZBY3/Ty-Mares.jpg",
+      "type": "live-music",
+      "id": "8bc7068e9571f818",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.589Z"
+    },
+    {
       "title": "Jack Mangan",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-30T19:00:00.000Z",
@@ -14853,6 +15425,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Preach",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-07-31T18:00:00",
+      "end": "2026-07-31T21:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/DHVMGKN1/Preach.jpg",
+      "type": "live-music",
+      "id": "18d494335fd56811",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.589Z"
     },
     {
       "title": "The Petti's",
@@ -15078,6 +15672,28 @@
         "name": "Daddy O LBI"
       },
       "ingestedAt": "2026-05-26T18:26:04.944Z"
+    },
+    {
+      "title": "Live Music with Gypsy Moon",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "start": "2026-08-01T19:00:00",
+      "end": "2026-08-01T22:00:00",
+      "allDay": false,
+      "location": {
+        "venue": "Tuckers Tavern",
+        "town": "Beach Haven",
+        "address": "101 S. West Ave, Beach Haven, NJ 08008",
+        "lat": 39.5647193,
+        "lon": -74.2454414
+      },
+      "imageUrl": "https://i.ibb.co/xSY5jnFv/Gypsy-Moon.jpg",
+      "type": "live-music",
+      "id": "f460fd2d269aaf39",
+      "source": {
+        "id": "tuckers-tavern",
+        "name": "Tuckers Tavern"
+      },
+      "ingestedAt": "2026-05-26T18:32:45.589Z"
     },
     {
       "title": "Brother Pete",
