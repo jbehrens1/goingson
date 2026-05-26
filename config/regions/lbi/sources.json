@@ -165,12 +165,12 @@
     {
       "id": "buckalews",
       "name": "Buckalew's",
-      "enabled": true,
+      "enabled": false,
       "adapter": "html-generic",
       "url": "https://buckalews.com/entertainment",
       "category": "Venue / Restaurant + Live Music",
       "town": "Beach Haven",
-      "notes": "Restaurant + entertainment venue in Beach Haven. Wix-hosted site; aggressively bot-blocks all dev IPs and even Anthropic's WebFetch (HTTP 403). Wix internal API endpoints also 403. Testing whether GitHub Actions' IP range gets through; if not, fall back to capturing Buckalew's weekly schedule via the LBI Lowdown's Live Music section (where it's published reliably each Thursday).",
+      "notes": "DISABLED — Wix-hosted site bot-blocks every angle we've tried: direct curl, Anthropic's WebFetch, Wix's own _api/wix-events-* endpoints, AND GitHub Actions' runner IPs all get HTTP 403. Their weekly schedule does appear in the LBI Lowdown's Live Music section, so the cleanest path forward is to extend the beehiiv-lowdown adapter to parse that section (currently skipped). Until then, you can also add Buckalew's shows manually to lbi/recurring.json or lbi/one-off.json.",
       "defaultEventType": "live-music",
       "config": {
         "defaultVenue": "Buckalew's"
