@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T13:06:10.934Z",
+  "generatedAt": "2026-05-26T20:59:16.387Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -321,11 +321,16 @@
         "candidates": []
       }
     },
-    "lbi:lbi-lowdown": {
+    "lbi:marlin": {
       "count": 0,
-      "warnings": [
-        "lbi-lowdown: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
-      ],
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "lbi:nardis-tavern": {
+      "count": 0,
+      "warnings": [],
       "probe": {
         "candidates": []
       }

@@ -2083,5 +2083,29 @@
     "lat": null,
     "lon": null,
     "fetchedAt": "2026-05-26T20:24:00.975Z"
+  },
+  "metrowest::88 south st, medfield, ma": {
+    "lat": 42.1836377,
+    "lon": -71.2986695,
+    "displayName": "88, South Street, Medfield, Norfolk County, Massachusetts, 02052, United States",
+    "fetchedAt": "2026-05-26T20:58:05.599Z"
+  },
+  "metrowest::57 andrew ave, wayland, ma": {
+    "lat": 42.3646328,
+    "lon": -71.3682586,
+    "displayName": "57;61;63;65, Andrew Avenue, Wayland Town Center, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T20:58:06.477Z"
+  },
+  "metrowest::12 cochituate rd, wayland, ma": {
+    "lat": 42.3642543,
+    "lon": -71.3607441,
+    "displayName": "12, Cochituate Road, Wayland Center Historic District, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T20:58:07.367Z"
+  },
+  "metrowest::14 e central st, natick, ma": {
+    "lat": 42.2846114,
+    "lon": -71.345821,
+    "displayName": "Morse Institute Library, 14, East Central Street, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-26T20:58:08.551Z"
   }
 }
