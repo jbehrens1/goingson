@@ -191,11 +191,11 @@
       }
     },
     {
-      "id": "nardis-tavern",
-      "name": "Nardis Tavern",
+      "id": "marlin",
+      "name": "Marlin",
       "enabled": true,
       "adapter": "ical",
-      "url": "https://www.nardistavern.com/band-schedule?view=calendar&month=05-2026",
+      "url": "https://www.marlinlbi.com/",
       "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
