@@ -96,14 +96,17 @@
     },
     {
       "id": "thesandpaper",
-      "name": "The Sandpaper",
+      "name": "The Sandpaper Events",
       "enabled": true,
-      "adapter": "html-generic",
-      "url": "https://www.thesandpaper.net/events/",
-      "category": "Local News",
+      "adapter": "wordpress-geodir",
+      "url": "https://www.thesandpaper.net/",
+      "category": "Aggregator",
       "town": "Surf City",
-      "notes": "Local LBI newspaper. WordPress + GeoDirectory plugin (CPT gd_event) but their REST endpoints (/wp-json/wp/v2/gd_event, /wp-json/geodir/v2/posts) all 404 \u2014 likely behind a paywall or restricted. Their event sitemap (/gd_event-sitemap.xml) lists URLs but the dates in lastmod are stale (2020). Needs a GeoDirectory adapter or sitemap-scrape approach.",
-      "config": {}
+      "notes": "Local LBI newspaper running WordPress + GeoDirectory plugin. The plugin exposes events at /wp-json/geodir/v2/events (NOT the wp/v2 namespace) with 700+ events including LBI venues, libraries, churches, and town events. Adapter expands recurring_dates into separate event records. Categories on each event (Activities, Music, Theater, Religious Services, Comedy) feed the categorize pipeline.",
+      "config": {
+        "defaultTimeZone": "America/New_York",
+        "maxPages": 12
+      }
     },
     {
       "id": "lbi-lowdown",

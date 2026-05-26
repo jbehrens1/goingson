@@ -7,6 +7,7 @@ export type AdapterType =
   | "wordpress-tribe-list"
   | "wordpress-mc"
   | "wordpress-mec"
+  | "wordpress-geodir"
   | "squarespace-events"
   | "elfsight-events"
   | "trustees"
