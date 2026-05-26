@@ -1,4 +1,17 @@
 {
   "$comment": "Pending venue suggestions queued via /suggest. Approved entries move to config/regions/<region>/sources.json; rejected entries are removed. Managed via /sources/pending UI.",
-  "pending": []
+  "pending": [
+    {
+      "id": "9b0f839b-9b9e-449b-a8cc-83237a1514e6",
+      "submittedAt": "2026-05-26T21:10:39.072Z",
+      "submittedBy": "jeff@adviza.com",
+      "name": "Post Office Cabaret",
+      "url": "https://postofficecafecabaret.thundertix.com/",
+      "town": "Provincetown",
+      "regionId": "outercape",
+      "probe": {
+        "candidates": []
+      }
+    }
+  ]
 }
