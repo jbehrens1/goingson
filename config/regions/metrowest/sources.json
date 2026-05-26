@@ -1,5 +1,5 @@
 {
-  "$comment": "MetroWest event sources. Most start disabled \u2014 flip `enabled: true` one at a time and tune via `INGEST_ONLY=<id> npm run ingest:dry`. See README for guidance per adapter.",
+  "$comment": "MetroWest event sources. Most start disabled — flip `enabled: true` one at a time and tune via `INGEST_ONLY=<id> npm run ingest:dry`. See README for guidance per adapter.",
   "sources": [
     {
       "id": "visitors-bureau-events",
@@ -29,7 +29,7 @@
       "url": "https://business.metrowest.org/events/ical",
       "category": "Regional Hub",
       "town": "All MetroWest",
-      "notes": "GrowthZone/ChamberMaster platform \u2014 try /events/ical or /events.ics. May need a different path."
+      "notes": "GrowthZone/ChamberMaster platform — try /events/ical or /events.ics. May need a different path."
     },
     {
       "id": "trustees",
@@ -49,7 +49,7 @@
       "url": "https://communitykangaroo.com/natick/calendar/",
       "category": "Regional Hub",
       "town": "Natick, Wellesley, Wayland, Weston, Sudbury, Framingham, Newton, Needham, Dover, Sherborn",
-      "notes": "Family-oriented aggregator. Check ToS \u2014 already aggregates content."
+      "notes": "Family-oriented aggregator. Check ToS — already aggregates content."
     },
     {
       "id": "metrowest-daily-news",
@@ -59,7 +59,7 @@
       "url": "https://metrowestdaily.com/feed/",
       "category": "Regional News",
       "town": "All MetroWest",
-      "notes": "News rather than structured events. Low priority \u2014 would need NLP to extract events."
+      "notes": "News rather than structured events. Low priority — would need NLP to extract events."
     },
     {
       "id": "eventbrite-metrowest",
@@ -69,7 +69,7 @@
       "url": "https://www.eventbrite.com/d/ma--natick/metrowest/",
       "category": "Ticketing Platform",
       "town": "All MetroWest",
-      "notes": "Requires EVENTBRITE_TOKEN env var. Public Search API was restricted ~2020 \u2014 may need per-organizer endpoint.",
+      "notes": "Requires EVENTBRITE_TOKEN env var. Public Search API was restricted ~2020 — may need per-organizer endpoint.",
       "config": {
         "location": "Natick, MA",
         "withinMiles": 15
@@ -188,7 +188,7 @@
       "url": "https://framinghamhistory.org/",
       "category": "Venue / Museum",
       "town": "Framingham",
-      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Adapter scrapes /wp-json/wp/v2/mec-events and parses event dates from content.rendered HTML (MEC doesn't expose structured start_date via REST). Programming is local history lectures/exhibits \u2014 defaultEventType=\"museum\" catches entries whose titles don't have museum/history keywords (e.g. \"Beyond Binaries\", \"The Bridges of Saxonville\").",
+      "notes": "WordPress + Modern Events Calendar (MEC) plugin. Adapter scrapes /wp-json/wp/v2/mec-events and parses event dates from content.rendered HTML (MEC doesn't expose structured start_date via REST). Programming is local history lectures/exhibits — defaultEventType=\"museum\" catches entries whose titles don't have museum/history keywords (e.g. \"Beyond Binaries\", \"The Bridges of Saxonville\").",
       "defaultEventType": "museum",
       "config": {
         "defaultVenue": "Framingham History Center",
@@ -213,7 +213,7 @@
       "url": "https://www.chooseframingham.com/83/Visual-and-Performing-Arts",
       "category": "City / Cultural Council",
       "town": "Framingham",
-      "notes": "Directory rather than event feed \u2014 use to discover sub-sources."
+      "notes": "Directory rather than event feed — use to discover sub-sources."
     },
     {
       "id": "framingham-cultural-council",
@@ -223,7 +223,7 @@
       "url": "https://massculturalcouncil.org/local-council/framingham/",
       "category": "Cultural Council",
       "town": "Framingham",
-      "notes": "Every MetroWest town has an MCC local council page \u2014 replace town slug."
+      "notes": "Every MetroWest town has an MCC local council page — replace town slug."
     },
     {
       "id": "community-foundation-mw",
@@ -735,6 +735,33 @@
       "category": "Venue / Religious",
       "town": "Wellesley",
       "notes": "Reform synagogue in Wellesley running WordPress + The Events Calendar (Tribe) plugin. Tribe REST API is fully open (287 events), iCal feed at /events/?ical=1 also works. Use the wordpress-tribe adapter.\n[auto-fix 2026-05-24] iCal feed at /events/?ical=1 yields 30 events."
+    },
+    {
+      "id": "natick-community-organic-farm",
+      "name": "Natick Community Organic Farm",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://calendar.google.com/calendar/ical/c_954f4f220c8e9685dda11a68557cd1dd6eda4b3e0659a45f206c07e10fbd3fd3%40group.calendar.google.com/public/basic.ics",
+      "category": "Venue / Farm + Education",
+      "town": "Natick",
+      "notes": "Working organic farm w/ classes, workshops, seasonal events. natickfarm.org/events embeds a public Google Calendar — we pull the calendar's iCal export directly (~137 events).",
+      "config": {
+        "defaultVenue": "Natick Community Organic Farm"
+      }
+    },
+    {
+      "id": "brandeis-concerts",
+      "name": "Brandeis University Concerts",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://calendar.google.com/calendar/ical/5adfc74ad6f2ca70543da1bfc541e9e9766112ddf20076ed68db7f432a4c46a5%40group.calendar.google.com/public/basic.ics",
+      "category": "Venue / University Concert Series",
+      "town": "Waltham",
+      "notes": "Music Department concert series at Brandeis. brandeis.edu/concerts embeds a public Google Calendar — we pull the iCal export (~49 events). Bulk of programming is chamber music, jazz, faculty/student recitals.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Brandeis University"
+      }
     }
   ]
 }
