@@ -171,7 +171,6 @@
       "category": "Venue / Restaurant + Live Music",
       "town": "Beach Haven",
       "notes": "DISABLED — Wix-hosted site bot-blocks every angle we've tried: direct curl, Anthropic's WebFetch, Wix's own _api/wix-events-* endpoints, AND GitHub Actions' runner IPs all get HTTP 403. Their weekly schedule does appear in the LBI Lowdown's Live Music section, so the cleanest path forward is to extend the beehiiv-lowdown adapter to parse that section (currently skipped). Until then, you can also add Buckalew's shows manually to lbi/recurring.json or lbi/one-off.json.",
-      "defaultEventType": "live-music",
       "config": {
         "defaultVenue": "Buckalew's"
       }
@@ -185,12 +184,19 @@
       "category": "Venue / Restaurant",
       "town": "Beach Haven",
       "notes": "Restaurant + bar in Beach Haven (101 S West Ave). The /news_events.php page embeds an Elfsight 'Event Calendar' widget — widget ID discovered by inspecting the page HTML. Adapter hits Elfsight's boot endpoint directly (~53 events: weekly specials, live music, holiday events). Added via /suggest by jeff@adviza.com on 2026-05-26.",
-      "defaultEventType": "live-music",
       "config": {
         "widgetId": "5bb8c0b5-65ab-4f10-bd9c-0d33e239f616",
         "pageUrl": "https://tuckerstavern-lbi.com/news_events.php",
         "defaultVenue": "Tuckers Tavern"
       }
+    },
+    {
+      "id": "nardis-tavern",
+      "name": "Nardis Tavern",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://www.nardistavern.com/band-schedule?view=calendar&month=05-2026",
+      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
 }
