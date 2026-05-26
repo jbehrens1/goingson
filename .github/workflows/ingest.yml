@@ -10,6 +10,10 @@ on:
         description: "Optional region id (e.g. 'metrowest' or 'outercape'). Empty = all regions."
         required: false
         type: string
+      onlySource:
+        description: "Optional source id to ingest only that one source (REGION must also be set)."
+        required: false
+        type: string
       reason:
         description: "Optional note shown in the commit message (e.g. 'admin edit')."
         required: false
@@ -36,6 +40,7 @@ jobs:
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
           REGION: ${{ inputs.region }}
+          INGEST_ONLY: ${{ inputs.onlySource }}
 
       - name: Commit results
         # Pipe the reason through an env var so its quotes don't get inlined

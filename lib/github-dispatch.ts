@@ -41,10 +41,14 @@ async function dispatchWorkflow(
 export async function dispatchIngestWorkflow(opts: {
   regionId?: string;
   reason?: string;
+  /** When set, the workflow runs ingest with INGEST_ONLY=<sourceId> so only
+   *  that source is re-fetched. Region is required alongside it. */
+  onlySource?: string;
 }): Promise<{ ok: boolean; error?: string }> {
   const inputs: Record<string, string> = {};
   if (opts.regionId) inputs.region = opts.regionId;
   if (opts.reason) inputs.reason = opts.reason;
+  if (opts.onlySource) inputs.onlySource = opts.onlySource;
   return dispatchWorkflow("ingest.yml", inputs);
 }
 

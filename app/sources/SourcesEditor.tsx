@@ -208,6 +208,46 @@ export function SourcesEditor({
     if (!confirm(`Delete source "${sources[idx].name}"?`)) return;
     setSources((prev) => prev.filter((_, i) => i !== idx));
   }
+
+  // Per-source refresh: dispatches an ingest workflow on GitHub Actions
+  // with INGEST_ONLY pinned to one source. Surfaces success/failure inline
+  // via the existing error/okMsg banners so admins don't need to hop tabs.
+  // Disabled when the row has unsaved edits — refreshing would just pull
+  // the persisted version, not what the admin sees on screen.
+  const [refreshingId, setRefreshingId] = useState<string | null>(null);
+  async function refreshSource(id: string, name: string) {
+    setError(null);
+    setOkMsg(null);
+    setRefreshingId(id);
+    try {
+      const res = await fetch("/api/sources/refresh", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ regionId: region, sourceId: id }),
+      });
+      const raw = await res.text();
+      let json:
+        | { ok: true; workflowRunUrl?: string }
+        | { ok: false; error: string };
+      try {
+        json = JSON.parse(raw) as typeof json;
+      } catch {
+        setError(`HTTP ${res.status}: ${raw.slice(0, 200)}`);
+        return;
+      }
+      if (!json.ok) {
+        setError(json.error);
+        return;
+      }
+      setOkMsg(
+        `Refresh dispatched for "${name}". Results land in ~1–2 min after the workflow finishes.`,
+      );
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setRefreshingId(null);
+    }
+  }
   function addSource() {
     const newId = `new-source-${Date.now().toString(36).slice(-4)}`;
     setSources((prev) => [
@@ -534,14 +574,30 @@ export function SourcesEditor({
                   />
                 </td>
                 <td>
-                  <button
-                    type="button"
-                    className="link-btn sources-delete-btn"
-                    onClick={() => deleteSource(i)}
-                    title="Delete this source"
-                  >
-                    ×
-                  </button>
+                  <div style={{ display: "flex", gap: "0.3rem", alignItems: "center" }}>
+                    <button
+                      type="button"
+                      className="link-btn"
+                      onClick={() => refreshSource(s.id, s.name)}
+                      disabled={refreshingId === s.id || isSaving || dirty}
+                      title={
+                        dirty
+                          ? "Save your edits first — refresh re-ingests the persisted source."
+                          : `Refresh "${s.name}" — runs ingest for just this source on GitHub Actions (~1–2 min).`
+                      }
+                      style={{ fontSize: "1.05rem" }}
+                    >
+                      {refreshingId === s.id ? "…" : "↻"}
+                    </button>
+                    <button
+                      type="button"
+                      className="link-btn sources-delete-btn"
+                      onClick={() => deleteSource(i)}
+                      title="Delete this source"
+                    >
+                      ×
+                    </button>
+                  </div>
                 </td>
               </tr>
             );
