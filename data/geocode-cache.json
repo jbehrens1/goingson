@@ -2107,5 +2107,16 @@
     "lon": -71.345821,
     "displayName": "Morse Institute Library, 14, East Central Street, Natick, Middlesex County, Massachusetts, 01760, United States",
     "fetchedAt": "2026-05-26T20:58:08.551Z"
+  },
+  "metrowest::natick community organic farm, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T21:30:38.830Z"
+  },
+  "brandeis university, waltham": {
+    "lat": 42.3665095,
+    "lon": -71.2580196,
+    "displayName": "Brandeis University, 415, South Street, Angleside, Waltham, Middlesex County, Massachusetts, 02453, United States",
+    "fetchedAt": "2026-05-26T21:30:39.771Z"
   }
 }
