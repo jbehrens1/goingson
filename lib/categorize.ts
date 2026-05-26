@@ -13,6 +13,7 @@ export const EVENT_TYPES = [
   "fitness",
   "mahjong",
   "cards",
+  "circus",
   "community",
   "sale",
   "other",
@@ -35,6 +36,7 @@ export const TYPE_LABELS: Record<EventType, string> = {
   fitness: "Fitness / outdoor",
   mahjong: "Mah Jongg",
   cards: "Cards",
+  circus: "Circus",
   community: "Community",
   sale: "Sale / fundraiser",
   other: "Other",
@@ -53,6 +55,9 @@ const RULES: Array<[EventType, RegExp]> = [
   // splits them as distinct categories on the events page. Picked before
   // workshop/community/family so library card-night events don't dilute.
   ["cards", /\b(canasta|poker|bridge club|bridge night|gin rummy|cribbage|euchre|pinochle|hearts night|spades night|blackjack|card game|card night|playing cards)\b/i],
+  // Circus before family so "Teen Intensive Circus Camp" lands in circus
+  // rather than family (more-specific match wins).
+  ["circus", /\b(circus|cirque|aerial silks?|trapeze|jugglers?|juggling|acrobats?|acrobatics|tightrope|big top|clown show|contortion|stilt walk)\b/i],
   // Comedy is tightened to require a comedy-specific phrase, not bare
   // "comedy" (which collides with "musical comedy", "romantic comedy",
   // "comedy of errors" in theater descriptions).

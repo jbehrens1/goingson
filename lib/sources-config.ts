@@ -112,9 +112,23 @@ export function serializeSources(file: SourcesFile): string {
 
 function orderSource(src: SourceConfig): SourceConfig {
   // Keep the same field order as the hand-edited sources.json files so diffs
-  // stay readable.
+  // stay readable. CRITICAL: include EVERY SourceConfig field — leaving one
+  // out here means /sources saves silently strip it (caused a major data
+  // loss when defaultEventType and titleRules got wiped from every source
+  // the first time an admin clicked Save).
   const out: Record<string, unknown> = {};
-  for (const k of ["id", "name", "enabled", "adapter", "url", "category", "town", "notes"]) {
+  for (const k of [
+    "id",
+    "name",
+    "enabled",
+    "adapter",
+    "url",
+    "category",
+    "town",
+    "notes",
+    "defaultEventType",
+    "titleRules",
+  ]) {
     if (src[k as keyof SourceConfig] !== undefined) out[k] = src[k as keyof SourceConfig];
   }
   if (src.config !== undefined) out.config = src.config;

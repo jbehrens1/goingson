@@ -13,7 +13,8 @@
       "config": {
         "path": "/events/",
         "defaultVenue": "Bird & Betty's"
-      }
+      },
+      "defaultEventType": "live-music"
     },
     {
       "id": "joe-pops",
@@ -26,7 +27,8 @@
       "notes": "Squarespace site (joepops.com), but events live in a public Google Calendar embedded on /events. We fetch the calendar's iCal export directly (~200 events). To update the calendar source, see the data-src attribute on Joe Pop's /events page. Titles are band names + Happy Hour slots, so defaultEventType=\"live-music\" categorizes them correctly.",
       "config": {
         "defaultVenue": "Joe Pop's Shore Bar"
-      }
+      },
+      "defaultEventType": "live-music"
     },
     {
       "id": "blackeyed-susans",
@@ -71,7 +73,14 @@
           "^bistro\\s*(open|brunch)$",
           "^open$"
         ]
-      }
+      },
+      "defaultEventType": "live-music",
+      "titleRules": [
+        {
+          "pattern": "^trivia\\b",
+          "type": "community"
+        }
+      ]
     },
     {
       "id": "daddyo-lbi",
@@ -138,7 +147,10 @@
       "town": "Ship Bottom",
       "notes": "Chamber of Commerce community calendar (~123 events: theater, festivals, fundraisers, dance parties, library programs across the entire LBI region). Built on GrowthZone/ChamberMaster — server-renders each event as a schema.org Event microdata card. The /events page on the public site (visitlbiregion.com/events/) is just a hand-curated marketing page; the real calendar lives at business.visitlbiregion.com/community-calendar. titleRules cover Surflight Theatre's productions (the chamber lists them by show name without 'theater' keywords).",
       "titleRules": [
-        { "pattern": "^(cinderella|wizard of oz|snow white|guys and dolls|ghost the musical|pretty woman|vanities|a grand night for singing|grease|annie|chicago|hairspray|matilda|frozen)\\b", "type": "theater" }
+        {
+          "pattern": "^(cinderella|wizard of oz|snow white|guys and dolls|ghost the musical|pretty woman|vanities|a grand night for singing|grease|annie|chicago|hairspray|matilda|frozen)\\b",
+          "type": "theater"
+        }
       ],
       "config": {
         "defaultTimeZone": "America/New_York"
@@ -155,7 +167,8 @@
       "notes": "Beachfront hotel + restaurant in Beach Haven. theseashellresort.com/events embeds a public Google Calendar — we pull the calendar's iCal export directly (~920 events, mostly live music across the Martini Bar, Beach Stage, Tiki Bar, and Fire Pit stages). Titles are band names, so defaultEventType=\"live-music\" categorizes them correctly. Added via /suggest by jeff@adviza.com on 2026-05-26.",
       "config": {
         "defaultVenue": "Sea Shell Resort"
-      }
+      },
+      "defaultEventType": "live-music"
     },
     {
       "id": "lbi-recurring",
@@ -205,7 +218,8 @@
         "widgetId": "5bb8c0b5-65ab-4f10-bd9c-0d33e239f616",
         "pageUrl": "https://tuckerstavern-lbi.com/news_events.php",
         "defaultVenue": "Tuckers Tavern"
-      }
+      },
+      "defaultEventType": "live-music"
     },
     {
       "id": "marlin",
