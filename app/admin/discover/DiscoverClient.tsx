@@ -52,7 +52,23 @@ export function DiscoverClient({ regions }: { regions: string[] }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ region }),
       });
-      const data = (await res.json()) as DiscoverResponse;
+      // Read as text first so we can surface non-JSON responses (Vercel
+      // function timeouts / crashes return an HTML error page).
+      const raw = await res.text();
+      let data: DiscoverResponse;
+      try {
+        data = JSON.parse(raw) as DiscoverResponse;
+      } catch {
+        const snippet = raw.slice(0, 300).replace(/\s+/g, " ").trim();
+        setError(
+          `HTTP ${res.status}: server returned non-JSON response. ` +
+            (res.status === 504 || res.status === 408
+              ? "This is usually a Vercel function timeout (Hobby tier caps at 60s). "
+              : "") +
+            `Response: ${snippet}`,
+        );
+        return;
+      }
       if (!data.ok) {
         setError(data.error);
       } else {

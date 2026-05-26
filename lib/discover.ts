@@ -162,14 +162,19 @@ WHAT TO SKIP:
   - Sources already in the existing list (any URL whose hostname matches an existing one)
   - Anything outside the region's towns
 
-HOW TO WORK:
-  1. Run web searches like: "<town name> events calendar", "<town name> live music", "<town name> library events", "<town name> historical society", "<region name> arts venues"
-  2. Vary your searches across the towns and across kinds (venue, library, museum, newspaper, etc.)
-  3. For each promising hit, verify it has events and is local
-  4. Call propose_source for each distinct, valid candidate — aim for 8-15 total
-  5. Briefly cite why in the rationale
+HOW TO WORK (budget: 6 web searches, ~30 seconds of wall-clock time):
+  1. Plan a small number of high-yield queries. Examples:
+       "<region name> events calendar"
+       "<largest town> library events"
+       "<region name> live music venues"
+       "<region name> historical society"
+       "<region name> arts center calendar"
+  2. Each web_search call returns ~10 results — extract MULTIPLE candidates per search before moving on.
+  3. For each promising hit, call propose_source immediately. Don't re-search to verify — the URL and your inferred kind/town are enough.
+  4. Skip anything whose hostname matches an existing source. Skip anything outside the listed towns.
+  5. Aim for 8-12 candidates total. Stop searching once you have them.
 
-OUTPUT: only call propose_source — don't write a summary. Stop calling propose_source when you've returned 8-15 strong candidates.`;
+OUTPUT: only call propose_source — no summary text. Make every search count.`;
 }
 
 function safeHost(u: string): string | null {
@@ -263,7 +268,10 @@ export async function discoverSourcesForRegion(
       max_tokens: 8192,
       system: systemPrompt,
       tools: [
-        { type: "web_search_20260209", name: "web_search" },
+        // Cap web searches so we stay within Vercel's 60s function timeout —
+        // each web_search iteration takes 2-5s, so 6 caps the worst case at
+        // ~30s before the model has to consolidate.
+        { type: "web_search_20260209", name: "web_search", max_uses: 6 },
         // Custom tool — must be a plain object literal (Tool type is custom-only).
         PROPOSE_SOURCE_TOOL,
       ],

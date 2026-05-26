@@ -11,9 +11,9 @@ import { requireRole } from "@/lib/auth";
 import { discoverSourcesForRegion } from "@/lib/discover";
 
 export const runtime = "nodejs";
-// Claude + web search + tool use can take 30-60s; let Vercel run the function
-// for up to 90s. Hobby tier caps at 60s; Pro tier supports 300s.
-export const maxDuration = 90;
+// Claude + web search + tool use can take 30-60s. Stay at 60s so Vercel Hobby
+// tier accepts the function. On Pro you can raise to 300.
+export const maxDuration = 60;
 
 export async function POST(req: Request) {
   try {
