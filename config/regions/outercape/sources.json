@@ -201,6 +201,19 @@
       "url": "https://trurovineyardsofcapecod.com/",
       "town": "Truro",
       "notes": "Added via /suggest by jeff@adviza.com on 2026-05-24."
+    },
+    {
+      "id": "payomet",
+      "name": "Payomet Performing Arts Center",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://payomet.org/",
+      "category": "Venue / Live Music",
+      "town": "Truro",
+      "notes": "Performing arts center in North Truro (tent venue at Highland Center). WordPress + The Events Calendar (Tribe) plugin. REST endpoint at /wp-json/tribe/events/v1/events returns ~75 upcoming events: concerts, comedy, theater, circus arts. Categories on events feed the platform-tag categorizer.",
+      "config": {
+        "defaultVenue": "Payomet Performing Arts Center"
+      }
     }
   ]
 }
