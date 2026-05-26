@@ -166,9 +166,17 @@
       "id": "tuckers-tavern",
       "name": "Tuckers Tavern",
       "enabled": true,
-      "adapter": "ical",
+      "adapter": "elfsight-events",
       "url": "https://tuckerstavern-lbi.com/news_events.php",
-      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
+      "category": "Venue / Restaurant",
+      "town": "Beach Haven",
+      "notes": "Restaurant + bar in Beach Haven (101 S West Ave). The /news_events.php page embeds an Elfsight 'Event Calendar' widget — widget ID discovered by inspecting the page HTML. Adapter hits Elfsight's boot endpoint directly (~53 events: weekly specials, live music, holiday events). Added via /suggest by jeff@adviza.com on 2026-05-26.",
+      "defaultEventType": "live-music",
+      "config": {
+        "widgetId": "5bb8c0b5-65ab-4f10-bd9c-0d33e239f616",
+        "pageUrl": "https://tuckerstavern-lbi.com/news_events.php",
+        "defaultVenue": "Tuckers Tavern"
+      }
     }
   ]
 }

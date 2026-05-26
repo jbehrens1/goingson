@@ -13,6 +13,7 @@ import { icalAdapter } from "./adapters/ical";
 import { rssAdapter } from "./adapters/rss";
 import { wordpressTribeAdapter } from "./adapters/wordpress-tribe";
 import { squarespaceEventsAdapter } from "./adapters/squarespace-events";
+import { elfsightEventsAdapter } from "./adapters/elfsight-events";
 import { politeFetch } from "./util";
 
 export type ProbeCandidate = {
@@ -31,6 +32,7 @@ const VERIFY_ADAPTERS: Partial<Record<AdapterType, Adapter>> = {
   rss: rssAdapter,
   "wordpress-tribe": wordpressTribeAdapter,
   "squarespace-events": squarespaceEventsAdapter,
+  "elfsight-events": elfsightEventsAdapter,
 };
 
 // ---------------------------------------------------------------------------
@@ -63,6 +65,16 @@ function detectTribe(html: string): boolean {
       html,
     )
   );
+}
+
+function detectElfsight(html: string): { widgetId: string } | null {
+  // Elfsight embeds reveal the widget UUID via `elfsight-app-<uuid>` div ids
+  // (and the platform.js include). The boot endpoint takes that id verbatim
+  // and returns the event payload.
+  const m = html.match(
+    /elfsight-app-([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})/i,
+  );
+  return m ? { widgetId: m[1] } : null;
 }
 
 // ---------------------------------------------------------------------------
@@ -179,6 +191,26 @@ export async function probeSource(source: SourceConfig): Promise<ProbeCandidate[
       url: `https://www.eventbrite.com/o/${eventbrite.organizerId}`,
       evidence: `Eventbrite organizer ID ${eventbrite.organizerId} found; configure eventbrite adapter manually.`,
     });
+  }
+
+  const elfsight = html ? detectElfsight(html) : null;
+  if (elfsight && source.adapter !== "elfsight-events") {
+    const cfg = {
+      widgetId: elfsight.widgetId,
+      pageUrl: finalUrl,
+      defaultVenue: source.config?.defaultVenue ?? source.name,
+    };
+    const count = await verify(source, "elfsight-events", source.url, cfg);
+    if (count > 0) {
+      candidates.push({
+        confidence: count > 5 ? "high" : "medium",
+        verifiedCount: count,
+        adapter: "elfsight-events",
+        url: source.url,
+        config: cfg,
+        evidence: `Elfsight event-widget embed found (widgetId=${elfsight.widgetId.slice(0, 8)}…); boot endpoint yields ${count} events.`,
+      });
+    }
   }
 
   const libcal = html ? detectLibCal(html) : null;
