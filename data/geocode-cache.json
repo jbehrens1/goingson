@@ -2067,5 +2067,21 @@
     "lat": null,
     "lon": null,
     "fetchedAt": "2026-05-26T19:32:52.843Z"
+  },
+  "lbi::nardi’s, long beach township": {
+    "lat": 39.5922588,
+    "lon": -74.2186547,
+    "displayName": "Nardi's, East 118th Street Colorado Avenue, Haven Beach, Long Beach Township, Ocean County, New Jersey, 08008, United States",
+    "fetchedAt": "2026-05-26T20:23:58.784Z"
+  },
+  "lbi::the shell, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T20:23:59.870Z"
+  },
+  "lbi::ship bottom brewery, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T20:24:00.975Z"
   }
 }
