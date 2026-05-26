@@ -815,3 +815,4 @@
 {"ts":"2026-05-26T18:26:01.954Z","regionId":"lbi","sourceId":"lbi-one-off","adapter":"manual-oneoff","url":"internal://config/regions/lbi/one-off.json","count":5}
 {"ts":"2026-05-26T18:26:01.954Z","regionId":"lbi","sourceId":"tuckers-tavern","adapter":"ical","url":"https://tuckerstavern-lbi.com/news_events.php","count":0}
 {"ts":"2026-05-26T18:32:45.444Z","regionId":"lbi","sourceId":"tuckers-tavern","adapter":"elfsight-events","url":"https://tuckerstavern-lbi.com/news_events.php","count":53}
+{"ts":"2026-05-26T19:32:43.003Z","regionId":"outercape","sourceId":"payomet","adapter":"wordpress-tribe","url":"https://payomet.org/","count":75}

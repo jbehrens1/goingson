@@ -2039,5 +2039,33 @@
     "lon": -74.2454414,
     "displayName": "Tuckers Tavern LBI, 101, South West Avenue, Beach Haven, Ocean County, New Jersey, 08008, United States",
     "fetchedAt": "2026-05-26T18:32:45.985Z"
+  },
+  "outercape::payomet performing arts center, truro": {
+    "lat": 42.0313307,
+    "lon": -70.0558894,
+    "displayName": "Payomet Performing Arts Center, 29, Old Dewline Road, Truro, Barnstable County, Massachusetts, 02652, United States",
+    "fetchedAt": "2026-05-26T19:32:48.384Z"
+  },
+  "outercape::29 old dewline road, truro, ma": {
+    "lat": 42.0313307,
+    "lon": -70.0558894,
+    "displayName": "Payomet Performing Arts Center, 29, Old Dewline Road, Truro, Barnstable County, Massachusetts, 02652, United States",
+    "fetchedAt": "2026-05-26T19:32:49.471Z"
+  },
+  "outercape::2357 state highway route 6, wellfleet": {
+    "lat": 41.915537,
+    "lon": -69.9878296,
+    "displayName": "Welcome to Wellfleet, Old State Highway, South Wellfleet, Wellfleet, Barnstable County, Massachusetts, 02663, United States",
+    "fetchedAt": "2026-05-26T19:32:50.696Z"
+  },
+  "outercape::2357 state highway route 6, wellfleet, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T19:32:51.782Z"
+  },
+  "outercape::wellfleet harbor actors theater, wellfleet": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T19:32:52.843Z"
   }
 }
