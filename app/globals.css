@@ -794,23 +794,39 @@ footer {
 /* Compact, single-line picker layout: label + dropdown side by side,
  * mirroring the column-header pickers on the main events page. */
 .account-picker-inline {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
-  flex: 1 1 14rem;
-  min-width: 14rem;
+  gap: 0.4rem;
+  /* Don't grow — keep the picker tight against its label. The .col-multi
+   * popover floats above the page so the trigger doesn't need to expand
+   * to fit the option list. */
+  flex: 0 0 auto;
 }
 .account-picker-inline > .account-label {
   margin: 0;
   white-space: nowrap;
 }
-.account-picker-inline > details.col-multi {
-  flex: 1;
-  min-width: 0;
+/* Cap the trigger width so a 17-line type list doesn't stretch the
+ * summary chip; the popover itself sets its own width. */
+.account-picker-inline > details.col-multi > summary {
+  min-width: 9rem;
 }
 .account-row-pickers {
   align-items: center;
+  gap: 1.5rem;
+}
+
+/* The MultiSelectPicker renders option rows as <label class="col-multi-item">.
+ * The .account-row stylesheet sets `label { flex-direction: column }` for
+ * the form labels in the same row, which inadvertently stacks the checkbox,
+ * name, and count vertically inside the picker's popover. Force the popover
+ * items back to row layout. */
+.account-row label.col-multi-item {
+  display: flex;
+  flex-direction: row;
+  flex: initial;
+  min-width: 0;
 }
 .account-label {
   font-size: 0.85rem;
