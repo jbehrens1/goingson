@@ -43,7 +43,9 @@ type AddResponse =
   | { ok: false; error: string; rejected?: Array<{ name?: string; reason: string }> };
 
 const POLL_INTERVAL_MS = 5000;
-const MAX_POLL_DURATION_MS = 5 * 60 * 1000; // 5 minutes
+// Match the workflow's 12-min timeout-minutes; the client gives up shortly
+// after the workflow itself would.
+const MAX_POLL_DURATION_MS = 13 * 60 * 1000;
 
 export function DiscoverClient({ regions }: { regions: string[] }) {
   const [region, setRegion] = useState<string>(regions[0] ?? "");

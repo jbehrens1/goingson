@@ -162,22 +162,24 @@ WHAT TO SKIP:
   - Sources already in the existing list (any URL whose hostname matches an existing one)
   - Anything outside the region's towns
 
-HOW TO WORK (budget: up to 12 web searches):
-  1. Plan queries across towns AND kinds. Examples:
+HOW TO WORK (BUDGET: up to 8 web searches, target ~3 min wall time):
+  1. Plan 6-8 high-yield queries covering different towns AND different kinds.
+     Don't burn searches on near-duplicates. Good queries:
        "<region name> events calendar"
-       "<town> library events"
+       "<largest town> library events"
        "<region name> live music venues"
        "<region name> historical society"
-       "<region name> arts center"
+       "<region name> art gallery OR arts center"
+       "<region name> church OR temple events"
        "<region name> town hall calendar"
-       "<region name> church events"
-       "<region name> newsletter local"
-  2. For each search, extract multiple candidates before moving on.
-  3. Call propose_source for each distinct, valid candidate.
+       "<region name> weekly newsletter"
+  2. Extract multiple candidates per search — search results lists are dense.
+  3. Call propose_source for each distinct, valid candidate IMMEDIATELY as you find it.
+     Do not batch them up at the end.
   4. Skip anything whose hostname matches an existing source. Skip anything outside the listed towns.
-  5. Aim for 10-15 candidates total. Quality matters more than quantity — but more candidates give the admin more options.
+  5. Aim for 8-12 candidates. STOP searching once you have 8+ good ones, even if you have searches left.
 
-OUTPUT: only call propose_source — no summary text.`;
+OUTPUT: only call propose_source — no summary text, no "I'll now search" preamble. Start searching.`;
 }
 
 function safeHost(u: string): string | null {
@@ -271,8 +273,10 @@ export async function discoverSourcesForRegion(
       max_tokens: 8192,
       system: systemPrompt,
       tools: [
-        // Runs in GitHub Actions (5min job timeout) — generous budget OK.
-        { type: "web_search_20260209", name: "web_search", max_uses: 12 },
+        // 8 searches is the sweet spot — enough to cover multiple towns and
+        // venue kinds, low enough to keep wall time bounded. Higher caps
+        // make Claude chase diminishing returns and occasionally hang.
+        { type: "web_search_20260209", name: "web_search", max_uses: 8 },
         // Custom tool — must be a plain object literal (Tool type is custom-only).
         PROPOSE_SOURCE_TOOL,
       ],
