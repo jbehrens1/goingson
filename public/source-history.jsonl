@@ -818,3 +818,17 @@
 {"ts":"2026-05-26T19:32:43.003Z","regionId":"outercape","sourceId":"payomet","adapter":"wordpress-tribe","url":"https://payomet.org/","count":75}
 {"ts":"2026-05-26T19:42:21.948Z","regionId":"outercape","sourceId":"payomet","adapter":"wordpress-tribe","url":"https://payomet.org/","count":75}
 {"ts":"2026-05-26T19:56:29.560Z","regionId":"lbi","sourceId":"buckalews","adapter":"html-generic","url":"https://buckalews.com/entertainment","count":0,"warnings":["HTTP 403 fetching https://buckalews.com/entertainment"]}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"bird-and-bettys","adapter":"squarespace-events","url":"https://www.birdandbettys.com/","count":57}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"joe-pops","adapter":"ical","url":"https://calendar.google.com/calendar/ical/07919b74d6e43922cc76627ce10d669077197d20cd0b236f41d5e09356234738%40group.calendar.google.com/public/basic.ics","count":207}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"blackeyed-susans","adapter":"squarespace-events","url":"https://www.blackeyedsusanslbi.com/","count":30}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"old-causeway","adapter":"squarespace-events","url":"https://www.oldcauseway.com/","count":0,"warnings":["HTTP 404 fetching https://www.oldcauseway.com/events/?format=json-pretty"]}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"surf-city-hotel","adapter":"ical","url":"https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics","count":1135,"warnings":["ical: dropped 81 events matching excludeTitlePatterns"]}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"daddyo-lbi","adapter":"elfsight-events","url":"https://www.daddyolbi.com/happenings","count":50}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"thesandpaper","adapter":"wordpress-geodir","url":"https://www.thesandpaper.net/","count":12043}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"lbi-lowdown","adapter":"beehiiv-lowdown","url":"https://www.lbilowdown.com/","count":3}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"southern-ocean-county-chamber-of-commerc","adapter":"html-generic","url":"https://visitlbiregion.com/events/","count":0,"warnings":["southern-ocean-county-chamber-of-commerc: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."]}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"the-sea-shell-resort","adapter":"ical","url":"https://calendar.google.com/calendar/ical/g4ssoon0tv9dt98a6s00lfnq4o%40group.calendar.google.com/public/basic.ics","count":595}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"lbi-recurring","adapter":"manual-recurring","url":"internal://config/regions/lbi/recurring.json","count":15}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"lbi-one-off","adapter":"manual-oneoff","url":"internal://config/regions/lbi/one-off.json","count":5}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"tuckers-tavern","adapter":"elfsight-events","url":"https://tuckerstavern-lbi.com/news_events.php","count":53}
+{"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"marlin","adapter":"ical","url":"https://www.marlinlbi.com/","count":0}
