@@ -832,3 +832,4 @@
 {"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"lbi-one-off","adapter":"manual-oneoff","url":"internal://config/regions/lbi/one-off.json","count":5}
 {"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"tuckers-tavern","adapter":"elfsight-events","url":"https://tuckerstavern-lbi.com/news_events.php","count":53}
 {"ts":"2026-05-26T20:18:06.571Z","regionId":"lbi","sourceId":"marlin","adapter":"ical","url":"https://www.marlinlbi.com/","count":0}
+{"ts":"2026-05-26T20:20:09.839Z","regionId":"lbi","sourceId":"lbi-lowdown","adapter":"beehiiv-lowdown","url":"https://www.lbilowdown.com/","count":3}
