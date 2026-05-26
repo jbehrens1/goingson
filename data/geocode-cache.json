@@ -2027,5 +2027,11 @@
     "lon": -74.2366321,
     "displayName": "The Sea Shell Resort & Beach Club, South Atlantic Avenue, Beach Haven, Ocean County, New Jersey, 08008, United States",
     "fetchedAt": "2026-05-26T17:28:02.555Z"
+  },
+  "lbi::10 south atlantic ave, beach haven, nj 08008": {
+    "lat": 39.5622805,
+    "lon": -74.2371425,
+    "displayName": "10, South Atlantic Avenue, Beach Haven, Ocean County, New Jersey, 08008, United States",
+    "fetchedAt": "2026-05-26T17:39:01.445Z"
   }
 }
