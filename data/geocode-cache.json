@@ -1955,5 +1955,50 @@
     "lon": -71.608556,
     "displayName": "Roche Bros., 1100, Union Street, Baystate Commons, Westborough, Worcester County, Massachusetts, 01581, United States",
     "fetchedAt": "2026-05-25T16:12:35.117Z"
+  },
+  "weir river farm (trustees), hingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T13:05:09.199Z"
+  },
+  "hingham": {
+    "lat": 42.2417669,
+    "lon": -70.8897676,
+    "displayName": "Hingham, Plymouth County, Massachusetts, 02043, United States",
+    "fetchedAt": "2026-05-26T13:05:10.234Z"
+  },
+  "metrowest::258 old connecticut path, wayland, ma": {
+    "lat": 42.339721,
+    "lon": -71.371848,
+    "displayName": "258, Old Connecticut Path, Cochituate, Wayland, Middlesex County, Massachusetts, 01778, United States",
+    "fetchedAt": "2026-05-26T13:05:11.433Z"
+  },
+  "185 lyman st, waltham, ma": {
+    "lat": 42.3831516,
+    "lon": -71.2309673,
+    "displayName": "185, Lyman Street, Waltham, Middlesex County, Massachusetts, 02452, United States",
+    "fetchedAt": "2026-05-26T13:05:12.413Z"
+  },
+  "metrowest::bu beach, needham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T13:05:13.637Z"
+  },
+  "metrowest::377 north ave, weston, ma": {
+    "lat": 42.396149,
+    "lon": -71.2940814,
+    "displayName": "Methodist Church of Weston, 377, North Avenue, Kendal Green, Weston, Middlesex County, Massachusetts, 02493, United States",
+    "fetchedAt": "2026-05-26T13:05:14.300Z"
+  },
+  "metrowest::181 boston post rd w, marlboro, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T13:05:16.437Z"
+  },
+  "metrowest::best western royal plaza hotel & trade center, marlborough": {
+    "lat": 42.3423612,
+    "lon": -71.5906563,
+    "displayName": "Best Western Royal Plaza Hotel & Trade Center, 181, Boston Post Road West, West Village, Marlborough, Middlesex County, Massachusetts, 01752, United States",
+    "fetchedAt": "2026-05-26T13:05:16.718Z"
   }
 }

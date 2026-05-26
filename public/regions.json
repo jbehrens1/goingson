@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T19:56:55.193Z",
+  "generatedAt": "2026-05-26T13:06:10.933Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -25,9 +25,9 @@
         "Marlborough, MA",
         "Concord, MA"
       ],
-      "eventCount": 445,
+      "eventCount": 495,
       "eventsPath": "/events.metrowest.json",
-      "generatedAt": "2026-05-25T19:56:16.281Z"
+      "generatedAt": "2026-05-26T13:05:16.787Z"
     },
     {
       "id": "lbi",
@@ -49,9 +49,9 @@
         "Harvey Cedars, NJ",
         "Barnegat Light, NJ"
       ],
-      "eventCount": 415,
+      "eventCount": 1022,
       "eventsPath": "/events.lbi.json",
-      "generatedAt": "2026-05-25T19:56:27.899Z"
+      "generatedAt": "2026-05-26T13:05:45.343Z"
     },
     {
       "id": "outercape",
@@ -73,9 +73,9 @@
         "Eastham, MA",
         "Orleans, MA"
       ],
-      "eventCount": 1088,
+      "eventCount": 1090,
       "eventsPath": "/events.outercape.json",
-      "generatedAt": "2026-05-25T19:56:55.193Z"
+      "generatedAt": "2026-05-26T13:06:10.933Z"
     }
   ]
 }
