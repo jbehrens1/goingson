@@ -57,7 +57,7 @@ const RULES: Array<[EventType, RegExp]> = [
   // "comedy" (which collides with "musical comedy", "romantic comedy",
   // "comedy of errors" in theater descriptions).
   ["comedy", /\b(stand-?up|comedian|improv|comedy show|comedy night|comedy club|comedy hour|sketch comedy)\b/i],
-  ["live-music", /\b(concert|live music|live band|symphony|orchestra|recital|jazz|rock band|folk music|bluegrass|acoustic|open mic|singer-songwriter|chamber music|chorus|choir|karaoke|dj set|dj night|tribute band|cover band|tribute to|the .+ tribute|sing[- ]?a[- ]?long|ukulele|music & arts)\b/i],
+  ["live-music", /\b(concerts?|live music|live band|symphony|orchestra|recital|jazz|rock band|folk music|bluegrass|acoustic|open mic|singer-songwriter|chamber music|chorus|choir|karaoke|dj set|dj night|tribute band|cover band|tribute to|the .+ tribute|sing[- ]?a[- ]?long|ukulele|music & arts|island singers|dance party|retro dance)\b/i],
   // Film before theater so "Movie Matinee: <Musical>" lands in film rather
   // than getting pulled into theater by a "Musical" tag in the description.
   ["film", /\b(films?|movies?|screenings?|cinema|documentary|movie matinee|film matinee)\b/i],
@@ -66,14 +66,14 @@ const RULES: Array<[EventType, RegExp]> = [
   ["theater", /\b(stage play|one-act|play by|the play\b|theater|theatre|musicals?|drama|broadway|opera|playwright|monologue)\b/i],
   ["art-gallery", /\b(exhibit|exhibition|gallery|art show|opening reception|paintings?|sculpture|art walk|mural)\b/i],
   ["museum", /\b(museum|history center|historical society|heritage)\b/i],
-  ["festival", /\b(festival|fair|carnival|fest\b)\b/i],
+  ["festival", /\b(festival|fair|carnival|fest\b|parade|founder's day|founders day)\b/i],
   ["lecture", /\b(lectures?|talks?|panels?|forum|book reading|book signing|author|book club|discussions?|symposium|presentations?)\b/i],
-  ["workshop", /\b(workshops?|class(es)?\b|seminar|tutorial|how to|hands-on|cooking class|art class|language lessons?|spanish lessons?|french lessons?|mentorship|knitting|crochet|crocheting|quilting|sewing|needlepoint|junk journal|stem-related|stem program|sand art)\b/i],
-  ["family", /\b(kids|family|children|storytime|story time|toddler|teens?|youth|baby|family feud)\b/i],
-  ["food-drink", /\b(food|drink|tasting|wine|beer|brewery|brunch|dinner|supper|pancake|coffee|tea\b|spaghetti|cookout|barbecue|bbq)\b/i],
-  ["fitness", /\b(yoga|fitness|runs?\b|race\b|hikes?\b|walks?\b|workout|pilates|tai chi|meditation|zumba|barre|spin class|cycling|pickleball|tennis tournament|golf tournament|campout|surf fishing|fishing tournament|birding)\b/i],
+  ["workshop", /\b(workshops?|class(es)?\b|seminar|tutorial|how to|hands-on|cooking class|art class|language lessons?|spanish lessons?|french lessons?|mentorship|knitting|crochet|crocheting|quilting|sewing|needlepoint|junk journal|stem-related|stem program|sand art|create a |decorate a |make a |learn about|container garden)\b/i],
+  ["family", /\b(kids|family|children|storytime|story time|toddler|teens?|youth|baby|family feud|scavenger hunt|puzzle pack|pj party|meet a (firefighter|police|nurse)|story explorers|dinosaur)\b/i],
+  ["food-drink", /\b(food|drink|tasting|wine|beer|brewery|brunch|dinner|supper|pancake|coffee|tea\b|spaghetti|cookout|barbecue|bbq|farmers? market)\b/i],
+  ["fitness", /\b(yoga|fitness|runs?\b|race\b|hikes?\b|walks?\b|workout|pilates|tai chi|meditation|zumba|barre|spin class|cycling|pickleball|tennis tournament|golf tournament|campout|surf fishing|fishing tournament|birding|night climb|lighthouse climb|qi gong|power of qi)\b/i],
   ["sale", /\b(yard sale|plant sale|bake sale|fundraiser|book sale|tag sale|garage sale|craft fair|holiday market|donations?|recycling event|rummage sale|raffle|sweepstakes)\b/i],
-  ["community", /\b(town hall|volunteer|cleanup|clean-up|meeting\b|forum|civic|pride|memorial day|veterans|town meeting|trivia|bingo|game night|worship|sunday service|sabbath|study group|conversational|conversation club|french club|spanish club|open house|drop[- ]in|social group|senior center|celebrates|celebration|community supper|community|prayer|religious service|mass\b|sermon|rosary|caregiver support)\b/i],
+  ["community", /\b(town hall|volunteer|cleanup|clean-up|meeting\b|forum|civic|pride|memorial day|veterans|town meeting|trivia|bingo|game night|worship|sunday service|sabbath|study group|conversational|conversation club|french club|spanish club|open house|drop[- ]in|social group|senior center|celebrates|celebration|community supper|community|prayer|religious service|mass\b|sermon|rosary|caregiver support|firepit|fire pit|women in business|watch party|networking)\b/i],
 ];
 
 export function categorize(title: string, description?: string): EventType {

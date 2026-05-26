@@ -136,7 +136,10 @@
       "url": "https://business.visitlbiregion.com/community-calendar",
       "category": "Aggregator",
       "town": "Ship Bottom",
-      "notes": "Chamber of Commerce community calendar (~123 events: theater, festivals, fundraisers, dance parties, library programs across the entire LBI region). Built on GrowthZone/ChamberMaster — server-renders each event as a schema.org Event microdata card. The /events page on the public site (visitlbiregion.com/events/) is just a hand-curated marketing page; the real calendar lives at business.visitlbiregion.com/community-calendar.",
+      "notes": "Chamber of Commerce community calendar (~123 events: theater, festivals, fundraisers, dance parties, library programs across the entire LBI region). Built on GrowthZone/ChamberMaster — server-renders each event as a schema.org Event microdata card. The /events page on the public site (visitlbiregion.com/events/) is just a hand-curated marketing page; the real calendar lives at business.visitlbiregion.com/community-calendar. titleRules cover Surflight Theatre's productions (the chamber lists them by show name without 'theater' keywords).",
+      "titleRules": [
+        { "pattern": "^(cinderella|wizard of oz|snow white|guys and dolls|ghost the musical|pretty woman|vanities|a grand night for singing|grease|annie|chicago|hairspray|matilda|frozen)\\b", "type": "theater" }
+      ],
       "config": {
         "defaultTimeZone": "America/New_York"
       }
