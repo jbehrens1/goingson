@@ -1,16 +1,4 @@
 {
   "$comment": "Pending venue suggestions queued via /suggest. Approved entries move to config/regions/<region>/sources.json; rejected entries are removed. Managed via /sources/pending UI.",
-  "pending": [
-    {
-      "id": "80e56249-ba48-4e32-bd07-cb4d5d83b919",
-      "submittedAt": "2026-05-26T18:08:50.548Z",
-      "submittedBy": "jeff@adviza.com",
-      "name": "Tuckers Tavern",
-      "url": "https://tuckerstavern-lbi.com/news_events.php",
-      "regionId": "lbi",
-      "probe": {
-        "candidates": []
-      }
-    }
-  ]
+  "pending": []
 }
