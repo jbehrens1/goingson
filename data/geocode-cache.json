@@ -2000,5 +2000,26 @@
     "lon": -71.5906563,
     "displayName": "Best Western Royal Plaza Hotel & Trade Center, 181, Boston Post Road West, West Village, Marlborough, Middlesex County, Massachusetts, 01752, United States",
     "fetchedAt": "2026-05-26T13:05:16.718Z"
+  },
+  "lbi::thriving wellness, beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T14:39:42.223Z"
+  },
+  "lbi::barnegat lighthouse, barnegat light": {
+    "lat": 39.7643444,
+    "lon": -74.1062076,
+    "displayName": "Barnegat Lighthouse, Maritime Forest Trail, Barnegat Light, Ocean County, New Jersey, 08006, United States",
+    "fetchedAt": "2026-05-26T14:39:43.215Z"
+  },
+  "lbi::lbi library, surf city": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T14:39:44.241Z"
+  },
+  "lbi::lbi historical museum, beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-26T14:39:45.537Z"
   }
 }
