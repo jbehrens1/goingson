@@ -396,6 +396,33 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
   if (!opts.dryRun) {
     await mkdir(path.join(opts.rootDir, "public"), { recursive: true });
     outputPath = eventsOutputPath(region);
+
+    // Single-source mode (INGEST_ONLY=<id>): MERGE with existing events from
+    // other sources instead of overwriting the whole file. Without this,
+    // running a one-off refresh from the /sources UI silently wipes every
+    // other source's events from the region.
+    let eventsToWrite: EventRecord[] = filteredEvents;
+    if (opts.onlySourceId) {
+      try {
+        const raw = await readFile(outputPath, "utf8");
+        const prev = JSON.parse(raw) as { events?: EventRecord[] };
+        const keptFromOthers = (prev.events ?? []).filter(
+          (e) => e?.source?.id !== opts.onlySourceId,
+        );
+        // Concatenate then sort by start time so the merged file stays
+        // chronological (matches what a full ingest would produce).
+        eventsToWrite = [...keptFromOthers, ...filteredEvents].sort((a, b) =>
+          a.start.localeCompare(b.start),
+        );
+        console.log(
+          `[ingest] ${region.config.id}: single-source mode — merged ${filteredEvents.length} new + ${keptFromOthers.length} preserved`,
+        );
+      } catch {
+        // No existing file (or unparseable). Treat as fresh — the one-source
+        // output stands on its own.
+      }
+    }
+
     const payload = {
       region: {
         id: region.config.id,
@@ -409,8 +436,8 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
         centerSuggestions: region.config.centerSuggestions,
       },
       generatedAt: nowIso(),
-      count: filteredEvents.length,
-      events: filteredEvents,
+      count: eventsToWrite.length,
+      events: eventsToWrite,
     };
     const serialized = JSON.stringify(payload, null, 2) + "\n";
     await writeFile(outputPath, serialized, "utf8");
