@@ -762,6 +762,281 @@
       "config": {
         "defaultVenue": "Brandeis University"
       }
+    },
+    {
+      "id": "wellesley-college-events",
+      "name": "Wellesley College Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.wellesley.edu/events",
+      "category": "Greater Boston Calendar",
+      "town": "Wellesley",
+      "notes": "College-wide events calendar (lectures, concerts, athletics, exhibits). No JSON-LD found in initial probe — yields 0 until selectors are tuned or a feed URL is discovered.",
+      "config": {}
+    },
+    {
+      "id": "babson-college",
+      "name": "Babson College Campus & Community Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.babson.edu/campus-and-community-events/",
+      "category": "Greater Boston Calendar",
+      "town": "Wellesley",
+      "notes": "JS-rendered events listing. Probably needs a custom adapter or a published RSS/iCal feed. Currently yields 0.",
+      "config": {}
+    },
+    {
+      "id": "brandeis-concerts-page",
+      "name": "Brandeis Concerts (HTML)",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.brandeis.edu/concerts/series/index.html",
+      "category": "Venue / University Concert Series",
+      "town": "Waltham",
+      "notes": "Backup HTML source — the brandeis-concerts source already pulls the same data via the embedded Google Calendar iCal feed. Kept in case the page lists shows the cal doesn't.",
+      "config": {}
+    },
+    {
+      "id": "brandeis-rose-art-museum",
+      "name": "Rose Art Museum (Brandeis)",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.brandeis.edu/rose/",
+      "category": "Venue / Museum",
+      "town": "Waltham",
+      "notes": "Contemporary art museum at Brandeis. No JSON-LD; likely needs JS rendering or a dedicated events URL.",
+      "config": {}
+    },
+    {
+      "id": "bell-forge",
+      "name": "Bell Forge Music Hall",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://bellforge.org/events/",
+      "category": "Venue / Live Music",
+      "town": "Cambridge",
+      "notes": "WordPress site, no Tribe REST or JSON-LD events found. Yields 0 until selectors are tuned.",
+      "config": {}
+    },
+    {
+      "id": "bc-events",
+      "name": "Boston College Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.bc.edu/bc-web/bcnews/campus-community/announcements/events-calendar.html",
+      "category": "Greater Boston Calendar",
+      "town": "Chestnut Hill",
+      "notes": "BC events index page. JS-rendered; yields 0 from html-generic.",
+      "config": {}
+    },
+    {
+      "id": "needham-library",
+      "name": "Needham Public Library — Art & Exhibitions",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://needhamlibrary.org/services/general-services/art-and-exhibitions/",
+      "category": "Venue / Library",
+      "town": "Needham",
+      "notes": "Single-page exhibitions listing rather than a true calendar. Yields 0 — would need a more structured source or scraping the WP API for events post type.",
+      "config": {}
+    },
+    {
+      "id": "needham-open-studios",
+      "name": "Needham Open Studios",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.needhamopenstudios.com/",
+      "category": "Annual Event",
+      "town": "Needham",
+      "notes": "Wix-hosted (bot-block risk like Buckalew's). Annual open-studios tour rather than ongoing calendar. Yields 0 — admin can add date manually each year via lbi-style one-off.",
+      "config": {}
+    },
+    {
+      "id": "native-plant-trust",
+      "name": "Native Plant Trust — Garden in the Woods",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.nativeplanttrust.org/visit/garden-woods/",
+      "category": "Venue / Garden + Education",
+      "town": "Framingham",
+      "notes": "JS-rendered. Plant garden hosts walks, classes, lectures. Yields 0 from html-generic.",
+      "config": {}
+    },
+    {
+      "id": "wellesley-neighbors",
+      "name": "Wellesley Neighbors (ClubExpress)",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://wn.clubexpress.com/content.aspx?page_id=0&club_id=357998",
+      "category": "Community",
+      "town": "Wellesley",
+      "notes": "ClubExpress-hosted member portal. Public events page may be limited to members; yields 0 initially.",
+      "config": {}
+    },
+    {
+      "id": "bosse",
+      "name": "BOSSE",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://bosse.net/upcoming-events/",
+      "category": "Community",
+      "town": "All MetroWest",
+      "notes": "WordPress; no Tribe or JSON-LD events found in initial probe. Yields 0 until tuned.",
+      "config": {}
+    },
+    {
+      "id": "newton-open-studios",
+      "name": "Newton Open Studios",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://newtonopenstudios.org/",
+      "category": "Annual Event",
+      "town": "Newton",
+      "notes": "Annual studios tour. WordPress homepage; no events feed found. Best path is manual one-off entries.",
+      "config": {}
+    },
+    {
+      "id": "natick-art-association",
+      "name": "Natick Art Association",
+      "enabled": true,
+      "adapter": "squarespace-events",
+      "url": "https://www.natickartassociation.org/",
+      "category": "Community / Art",
+      "town": "Natick",
+      "notes": "Squarespace site. /events/ collection is currently empty; ingest yields 0 until they populate it.",
+      "config": {}
+    },
+    {
+      "id": "marlborough-summer-concerts",
+      "name": "Marlborough — Summer Concerts",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.marlborough-ma.gov/358/Summer-Concerts",
+      "category": "Town Government",
+      "town": "Marlborough",
+      "notes": "CivicPlus content page. Real calendar feed is at /calendar.aspx?CID=15 (Summer Concerts category). Yields 0 from html-generic until we either point at the calendar URL or build a CivicPlus adapter.",
+      "config": {}
+    },
+    {
+      "id": "framingham-newsflash",
+      "name": "Framingham — News Flash",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "http://www.framinghamma.gov/m/newsflash/Home/Detail/3220",
+      "category": "Town Government",
+      "town": "Framingham",
+      "notes": "Single news-flash page rather than a calendar. Yields 0; town's events live elsewhere (CivicPlus calendar feed).",
+      "config": {}
+    },
+    {
+      "id": "wayland-post",
+      "name": "Wayland Post",
+      "enabled": true,
+      "adapter": "rss",
+      "url": "https://www.waylandpost.org/feed/",
+      "category": "Regional News",
+      "town": "Wayland",
+      "notes": "Local newsletter site. RSS feed has full articles; need NLP to extract dated events. For now ingests as 'news' until a structured events feed exists.",
+      "config": {}
+    },
+    {
+      "id": "boston-central-concerts",
+      "name": "Boston Central — Summer Concerts",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.bostoncentral.com/boston-summer-concerts",
+      "category": "Greater Boston Calendar",
+      "town": "Greater Boston",
+      "notes": "Aggregator listing summer concerts across Greater Boston. Static editorial page rather than live calendar. Yields 0; revisit if/when they expose a structured feed.",
+      "config": {}
+    },
+    {
+      "id": "bringfido-framingham",
+      "name": "BringFido — Framingham Dog Attractions",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.bringfido.com/attraction/city/framingham_ma_us/",
+      "category": "Pet-Friendly Listings",
+      "town": "Framingham",
+      "notes": "Listings of dog-friendly venues (not dated events). Probably contributes 0 to the events feed; kept for completeness.",
+      "config": {}
+    },
+    {
+      "id": "commonwealth-adventures-unbound",
+      "name": "Adventures Unbound — Commonwealth",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://commonwealth.adventuresunbound.com/",
+      "category": "Outdoor Adventure",
+      "town": "All MetroWest",
+      "notes": "Guided outdoor adventures listing. Custom CMS; yields 0 from html-generic.",
+      "config": {}
+    },
+    {
+      "id": "belocal-on-water",
+      "name": "BeLocal MetroWest — On the Water",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.belocalpub.com/locations/metrowest-belocal-2fae/articles/on-the-water-86e79c/",
+      "category": "Regional Magazine",
+      "town": "All MetroWest",
+      "notes": "BeLocal magazine article on water activities. Static article — 0 events.",
+      "config": {}
+    },
+    {
+      "id": "visit-ma-water-sports",
+      "name": "VisitMA — Boats & Water Sports",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.visitma.com/things-to-do/sports-outdoors/boats-and-water-sports/",
+      "category": "State Tourism",
+      "town": "All MetroWest",
+      "notes": "Massachusetts state tourism site, water-sports vertical. Listings page rather than events feed.",
+      "config": {}
+    },
+    {
+      "id": "bandsintown",
+      "name": "Bandsintown",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.bandsintown.com/",
+      "category": "Ticketing Platform",
+      "town": "All MetroWest",
+      "notes": "Bandsintown is a massive concert aggregator with a real API but it requires an app key. html-generic won't work; replace with a custom adapter when an API key + token is available.",
+      "config": {}
+    },
+    {
+      "id": "wgbh-culture-show",
+      "name": "WGBH — The Culture Show",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.wgbh.org/shows/the-culture-show",
+      "category": "Radio Show",
+      "town": "Greater Boston",
+      "notes": "WGBH radio show page — not an event calendar. Kept tracked but yields 0.",
+      "config": {}
+    },
+    {
+      "id": "axios-boston-things-to-do",
+      "name": "Axios Local Boston — Things to Do",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.axios.com/local/boston/things-to-do",
+      "category": "Regional News",
+      "town": "Greater Boston",
+      "notes": "Axios Local Boston weekly things-to-do roundup. Static article; not a structured feed.",
+      "config": {}
+    },
+    {
+      "id": "sherborn-events",
+      "name": "Sherborn — Town Calendar",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://sherbornma.assabetinteractive.com/calendar/",
+      "category": "Town Government",
+      "town": "Sherborn",
+      "notes": "Sherborn town calendar on Assabet Interactive. URL stripped to /calendar/ root (user-shared link was to one event detail page).",
+      "config": {}
     }
   ]
 }
