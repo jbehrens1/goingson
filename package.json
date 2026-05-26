@@ -10,6 +10,7 @@
     "ingest:dry": "DRY_RUN=1 tsx scripts/ingest.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.98.0",
     "@clerk/nextjs": "^7.4.1",
     "@react-email/components": "^1.0.12",
     "@react-email/render": "^2.0.8",

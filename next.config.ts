@@ -18,6 +18,7 @@ const nextConfig: NextConfig = {
       "./public/events.*.json",
       "./config/**",
     ],
+    "/api/admin/**": ["./config/**"],
     "/api/sources/**": ["./config/**"],
     "/api/suggest/**": ["./config/**"],
     "/api/cron/**": ["./public/**", "./config/**"],

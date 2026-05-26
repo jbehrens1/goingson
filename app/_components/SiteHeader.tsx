@@ -43,6 +43,7 @@ export async function SiteHeader() {
             </Link>
           )}
           {isAdmin && <Link href="/admin/qc">QC</Link>}
+          {isAdmin && <Link href="/admin/discover">Discover</Link>}
           {isOwner && <Link href="/admin">Admin</Link>}
         </div>
         <div className="site-header-auth">
