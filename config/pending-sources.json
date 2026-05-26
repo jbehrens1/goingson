@@ -11,6 +11,17 @@
       "probe": {
         "candidates": []
       }
+    },
+    {
+      "id": "c2f885a1-9436-4f00-ab8e-579f589ff093",
+      "submittedAt": "2026-05-26T17:09:34.379Z",
+      "submittedBy": "jeff@adviza.com",
+      "name": "The Sea Shell Resort",
+      "url": "https://theseashellresort.com/events",
+      "regionId": "lbi",
+      "probe": {
+        "candidates": []
+      }
     }
   ]
 }
