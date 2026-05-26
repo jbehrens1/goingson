@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "region": "lbi",
+  "requestId": "20260526T154832-il05px",
+  "completedAt": "2026-05-26T15:51:01.006Z",
+  "durationMs": 126056,
+  "candidates": [
+    {
+      "candidateId": "c_0_beachhavenlibrary.org",
+      "name": "Beach Haven Public Library",
+      "url": "https://www.beachhavenlibrary.org/events",
+      "kind": "library",
+      "town": "Beach Haven",
+      "suggestedAdapter": "html-generic",
+      "rationale": "Public library in Beach Haven hosting regular author talks, story times, holiday programs, and community events, with a dedicated events page. Found at beachhavenlibrary.org/events.",
+      "duplicate": false
+    }
+  ],
+  "proposedCount": 1,
+  "usage": {
+    "input_tokens": 230734,
+    "output_tokens": 3209
+  }
+}
