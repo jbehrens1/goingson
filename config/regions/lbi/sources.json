@@ -136,7 +136,6 @@
       "category": "Venue / Hotel + Live Music",
       "town": "Beach Haven",
       "notes": "Beachfront hotel + restaurant in Beach Haven. theseashellresort.com/events embeds a public Google Calendar — we pull the calendar's iCal export directly (~920 events, mostly live music across the Martini Bar, Beach Stage, Tiki Bar, and Fire Pit stages). Titles are band names, so defaultEventType=\"live-music\" categorizes them correctly. Added via /suggest by jeff@adviza.com on 2026-05-26.",
-      "defaultEventType": "live-music",
       "config": {
         "defaultVenue": "Sea Shell Resort"
       }
@@ -162,6 +161,14 @@
       "town": "All LBI",
       "notes": "Region-wide bucket for dated one-off events at LBI venues that aren't on any scrapeable calendar — find them in venue website body text and add an entry to one-off.json. Seeded with Sea Shell Resort's Full Moon Party, White Out Party, and Striped Bass Derby.",
       "config": {}
+    },
+    {
+      "id": "tuckers-tavern",
+      "name": "Tuckers Tavern",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://tuckerstavern-lbi.com/news_events.php",
+      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
 }
