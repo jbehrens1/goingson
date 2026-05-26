@@ -632,7 +632,7 @@
       "url": "https://www.natickreport.com/",
       "category": "Local News",
       "town": "Natick",
-      "notes": "Local news blog with The Events Calendar plugin."
+      "notes": "Local news blog with The Events Calendar plugin. [2026-05-26 deep probe] Confirmed working — /wp-json/tribe/events/v1/events?per_page=3 returns real future-dated events (Memorial Day Parade, TCAN movie screenings, Voices of MetroWest, etc.)."
     },
     {
       "id": "swellesley-report",
@@ -801,21 +801,23 @@
       "name": "Rose Art Museum (Brandeis)",
       "enabled": true,
       "adapter": "html-generic",
-      "url": "https://www.brandeis.edu/rose/",
+      "url": "https://www.brandeis.edu/rose/programs/",
       "category": "Venue / Museum",
       "town": "Waltham",
-      "notes": "Contemporary art museum at Brandeis. No JSON-LD; likely needs JS rendering or a dedicated events URL.",
+      "notes": "[2026-05-26 deep probe] Static HTML site, no calendar feed. /rose/events/ 302-redirects to /rose/error/. The /rose/programs/ index lists individual program pages (e.g. /rose/programs/2026/yoga-at-the-rose-june.html) which carry the dates in <time> tags. html-generic may yield 0; would need a small custom scraper that walks /rose/programs/{year}/*.html. Low priority — Rose is exhibitions-driven (long-running) more than dated programming.",
+      "defaultEventType": "museum",
       "config": {}
     },
     {
       "id": "bell-forge",
-      "name": "Bell Forge Music Hall",
+      "name": "Bellforge Arts Center",
       "enabled": true,
       "adapter": "html-generic",
-      "url": "https://bellforge.org/events/",
-      "category": "Venue / Live Music",
-      "town": "Cambridge",
-      "notes": "WordPress site, no Tribe REST or JSON-LD events found. Yields 0 until selectors are tuned.",
+      "url": "https://bellforge.org/events",
+      "category": "Venue / Arts",
+      "town": "Medway",
+      "notes": "[2026-05-26 deep probe] Correct domain is bellforge.org (not .com). WordPress + Uncode theme with a custom /event/ post type — NOT The Events Calendar (Tribe), no /wp-json/tribe REST. Events listing page renders cards with h3>a href to /event/<slug>/ and a date string in div.t-entry-cf-detail-*. No structured JSON-LD. html-generic will partially work (titles + URLs) but date parsing will miss. Custom adapter could parse the entry-text blocks. Bellforge is an arts venue in Medway, not Cambridge — fixed.",
+      "defaultEventType": "live-music",
       "config": {}
     },
     {
@@ -843,12 +845,13 @@
     {
       "id": "needham-open-studios",
       "name": "Needham Open Studios",
-      "enabled": true,
+      "enabled": false,
       "adapter": "html-generic",
-      "url": "https://www.needhamopenstudios.com/",
+      "url": "https://www.needhamopenstudios.com/activities-schedule",
       "category": "Annual Event",
       "town": "Needham",
-      "notes": "Wix-hosted (bot-block risk like Buckalew's). Annual open-studios tour rather than ongoing calendar. Yields 0 — admin can add date manually each year via lbi-style one-off.",
+      "notes": "[2026-05-26 deep probe] Wix-hosted. /blog-feed.xml does return a valid RSS feed (HTTP 200, 14KB) but it's historical news posts (latest = Nov 2025) not dated events. /activities-schedule is the actual upcoming-tour page but is JS-rendered behind Wix's thunderbolt runtime — no scrapeable HTML. Disabled — admin should add the annual tour dates via one-off.json when published. Switch back to enabled if a Wix Events app appears (would expose /_api/wix-events).",
+      "defaultEventType": "art-gallery",
       "config": {}
     },
     {
@@ -856,10 +859,11 @@
       "name": "Native Plant Trust — Garden in the Woods",
       "enabled": true,
       "adapter": "html-generic",
-      "url": "https://www.nativeplanttrust.org/visit/garden-woods/",
+      "url": "https://www.nativeplanttrust.org/visit/events/",
       "category": "Venue / Garden + Education",
       "town": "Framingham",
-      "notes": "JS-rendered. Plant garden hosts walks, classes, lectures. Yields 0 from html-generic.",
+      "notes": "[2026-05-26 deep probe] Corrected URL — /visit/garden-woods/ was wrong; canonical events listing is /visit/events/. Site runs a custom 'society.css' CMS (not WP/Squarespace/Wix); no JSON-LD, no iCal, no RSS, no public JSON endpoint. Event list is server-rendered as <li class=\"event\"><p class=\"type\">…<p class=\"title\"><a href=\"/events/<slug>/\"><p class=\"date\">. html-generic may extract titles + URLs but date parsing is fragile (\"May 30, 2026\" and \"June 6, 2026—August 29, 2026\" forms). Would benefit from a custom adapter targeting li.event.",
+      "defaultEventType": "workshop",
       "config": {}
     },
     {
@@ -910,11 +914,12 @@
       "id": "marlborough-summer-concerts",
       "name": "Marlborough — Summer Concerts",
       "enabled": true,
-      "adapter": "html-generic",
-      "url": "https://www.marlborough-ma.gov/358/Summer-Concerts",
+      "adapter": "rss",
+      "url": "https://www.marlborough-ma.gov/RSSFeed.aspx?ModID=58&CID=15",
       "category": "Town Government",
       "town": "Marlborough",
-      "notes": "CivicPlus content page. Real calendar feed is at /calendar.aspx?CID=15 (Summer Concerts category). Yields 0 from html-generic until we either point at the calendar URL or build a CivicPlus adapter.",
+      "notes": "[2026-05-26 deep probe] CivicPlus calendar exposes RSS at RSSFeed.aspx?ModID=58&CID=15 (CID 15 = Summer Concerts category). Feed validates as RSS 2.0 but currently has no <item> entries — town hasn't published this summer's series yet. Switched from html-generic to rss; will pick up events automatically once posted.",
+      "defaultEventType": "live-music",
       "config": {}
     },
     {
@@ -932,11 +937,11 @@
       "id": "wayland-post",
       "name": "Wayland Post",
       "enabled": true,
-      "adapter": "rss",
-      "url": "https://www.waylandpost.org/feed/",
-      "category": "Regional News",
+      "adapter": "wordpress-tribe",
+      "url": "https://www.waylandpost.org/",
+      "category": "Local News",
       "town": "Wayland",
-      "notes": "Local newsletter site. RSS feed has full articles; need NLP to extract dated events. For now ingests as 'news' until a structured events feed exists.",
+      "notes": "[2026-05-26 deep probe] Site runs WordPress + The Events Calendar (Tribe). /wp-json/tribe/events/v1/events returns real future-dated events (Memorial Day, member exhibits, etc.). Switched from RSS feed adapter.",
       "config": {}
     },
     {
