@@ -112,12 +112,15 @@
       "id": "lbi-lowdown",
       "name": "LBI Lowdown",
       "enabled": true,
-      "adapter": "html-generic",
+      "adapter": "beehiiv-lowdown",
       "url": "https://www.lbilowdown.com/",
       "category": "Aggregator",
       "town": "Long Beach Township",
-      "notes": "Existing local-events aggregator. WordPress but the wp-json REST endpoint 302-redirects (probably to login). Aggregators often don't want to be re-aggregated; consider reaching out for partnership before scraping.",
-      "config": {}
+      "notes": "Weekly Beehiiv newsletter ('this week on LBI: M/D/YY'). Adapter finds the most recent /p/this-week-on-lbi-* post via sitemap.xml, then parses the 'Things to Do' and 'Family Fun' sections (skipping 'Live Music' since we already aggregate that from venue feeds). Each event is a triplet: <emoji> <Title>, <Venue> | <Town>, <Day>, <Mon> <Day> | <Time>. Multi-day events emit one record per occurrence.",
+      "config": {
+        "defaultTimeZone": "America/New_York",
+        "maxPosts": 2
+      }
     }
   ]
 }

@@ -8,6 +8,7 @@ export type AdapterType =
   | "wordpress-mc"
   | "wordpress-mec"
   | "wordpress-geodir"
+  | "beehiiv-lowdown"
   | "squarespace-events"
   | "elfsight-events"
   | "trustees"

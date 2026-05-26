@@ -10,6 +10,7 @@ import { wordpressTribeListAdapter } from "./adapters/wordpress-tribe-list";
 import { wordpressMcAdapter } from "./adapters/wordpress-mc";
 import { wordpressMecAdapter } from "./adapters/wordpress-mec";
 import { wordpressGeodirAdapter } from "./adapters/wordpress-geodir";
+import { beehiivLowdownAdapter } from "./adapters/beehiiv-lowdown";
 import { squarespaceEventsAdapter } from "./adapters/squarespace-events";
 import { elfsightEventsAdapter } from "./adapters/elfsight-events";
 import { trusteesAdapter } from "./adapters/trustees";
@@ -44,6 +45,7 @@ const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   "wordpress-mc": wordpressMcAdapter,
   "wordpress-mec": wordpressMecAdapter,
   "wordpress-geodir": wordpressGeodirAdapter,
+  "beehiiv-lowdown": beehiivLowdownAdapter,
   "squarespace-events": squarespaceEventsAdapter,
   "elfsight-events": elfsightEventsAdapter,
   trustees: trusteesAdapter,
