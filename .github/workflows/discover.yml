@@ -47,10 +47,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "public/discover/${{ inputs.requestId }}.json" 2>/dev/null || true
-          if [[ -n "$(git diff --cached --name-only)" ]]; then
-            git commit -m "discover: ${{ inputs.region }} request ${{ inputs.requestId }} [skip ci]"
-            git push
-          else
+          if [[ -z "$(git diff --cached --name-only)" ]]; then
             echo "No discovery result file produced — aborting."
             exit 1
           fi
+          # Concurrent discovery runs can race on push. Retry with a rebase
+          # if the remote has new commits (typically a parallel discover run
+          # or another bot commit landing between our checkout and push).
+          # Do NOT include "[skip ci]" — Vercel sees that token and SKIPS
+          # the deploy, which would mean newly-added routes are never live.
+          git commit -m "discover: ${{ inputs.region }} request ${{ inputs.requestId }}"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push attempt $attempt rejected — rebasing and retrying..."
+            git pull --rebase origin main
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "Failed to push after 5 attempts"
+          exit 1
