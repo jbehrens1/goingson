@@ -848,3 +848,4 @@
 {"ts":"2026-05-26T20:23:27.129Z","regionId":"lbi","sourceId":"tuckers-tavern","adapter":"elfsight-events","url":"https://tuckerstavern-lbi.com/news_events.php","count":53}
 {"ts":"2026-05-26T20:23:27.129Z","regionId":"lbi","sourceId":"marlin","adapter":"ical","url":"https://www.marlinlbi.com/","count":0}
 {"ts":"2026-05-26T20:23:27.129Z","regionId":"lbi","sourceId":"nardis-tavern","adapter":"ical","url":"https://www.nardistavern.com/band-schedule?view=calendar&month=05-2026","count":0}
+{"ts":"2026-05-26T20:39:03.341Z","regionId":"lbi","sourceId":"southern-ocean-county-chamber-of-commerc","adapter":"growthzone-calendar","url":"https://business.visitlbiregion.com/community-calendar","count":123}

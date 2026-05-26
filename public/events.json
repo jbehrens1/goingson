@@ -20,9 +20,28 @@
       "Barnegat Light, NJ"
     ]
   },
-  "generatedAt": "2026-05-26T20:24:01.287Z",
-  "count": 1088,
+  "generatedAt": "2026-05-26T20:39:04.126Z",
+  "count": 1211,
   "events": [
+    {
+      "title": "Surflight Theatre - A Grand Night For Singing",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/surflight-theatre-a-grand-night-for-singing-1577721?sourceTypeId=Website",
+      "start": "2026-05-24T00:00:00.000Z",
+      "end": "2026-06-07T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_2580,w_2999,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765474239/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/b9e48e11fcd7440da4439c67b26dded9/A-Grand-Night-for-Singing.jpg",
+      "type": "theater",
+      "id": "f5f232288680f490",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.031Z"
+    },
     {
       "title": "Chris Guastelle- Beach Stage",
       "url": "https://calendar.google.com/calendar/ical/g4ssoon0tv9dt98a6s00lfnq4o%40group.calendar.google.com/public/basic.ics",
@@ -816,6 +835,25 @@
       "ingestedAt": "2026-05-26T20:23:34.258Z"
     },
     {
+      "title": "Join Us for Free Pickleball & Retirement Tips",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/join-us-for-free-pickleball-retirement-tips-1732324?sourceTypeId=Website",
+      "start": "2026-05-28T13:00:00.000Z",
+      "end": "2026-05-28T15:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1185,w_1080,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1778526277/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/153189b9422b44508f0048fe41ca66c7/Barnegat-Bay-Capital-Management-Open-Play-Social.png",
+      "type": "fitness",
+      "id": "477aeb4bb91b546e",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.034Z"
+    },
+    {
       "title": "Live Music with The Pickles",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-05-28T18:00:00",
@@ -898,6 +936,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Retro Dance Party",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/retro-dance-party-1732526?sourceTypeId=Website",
+      "start": "2026-05-28T23:00:00.000Z",
+      "end": "2026-05-29T03:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1018,w_1517,x_196,y_21/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1778530151/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/7fa6ccea3c504d589a74e56341dc9474/666518583-10231571102955951-7483497766629590477-n.jpg",
+      "type": "other",
+      "id": "81bb62a992bb8758",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.036Z"
     },
     {
       "title": "Thunder Thursday",
@@ -1153,6 +1210,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "SURF & TURF BINGO with Interfaith",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/surf-turf-bingo-with-interfaith-1727618?sourceTypeId=Website",
+      "start": "2026-05-29T21:00:00.000Z",
+      "end": "2026-05-30T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1410,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1778003729/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/d7492d046b6149fc91f09c037053591e/surf-turf.jpg",
+      "type": "community",
+      "id": "4819104df717b049",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.037Z"
     },
     {
       "title": "Trivia on Tap",
@@ -3133,6 +3209,25 @@
       "ingestedAt": "2026-05-26T20:23:37.192Z"
     },
     {
+      "title": "Hope Sheds Light BBQ",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/hope-sheds-light-bbq-1746498?sourceTypeId=Website",
+      "start": "2026-06-06T15:30:00.000Z",
+      "end": "2026-06-06T18:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1080,w_1080,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1779808796/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/551bc8df4367493fb60e0930f07cec8a/Hope-Sheds-Light-BBQ.jpg",
+      "type": "food-drink",
+      "id": "b924dc094c78eaae",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.038Z"
+    },
+    {
       "title": "Dale & Amy Duo- Beach Stage",
       "url": "https://calendar.google.com/calendar/ical/g4ssoon0tv9dt98a6s00lfnq4o%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-06T17:00:00.000Z",
@@ -3450,6 +3545,25 @@
       "ingestedAt": "2026-05-26T20:23:37.233Z"
     },
     {
+      "title": "NJ Boating Safety Certificate Class at Causeway Marine",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/nj-boating-safety-certificate-class-at-causeway-marine-1709909?sourceTypeId=Website",
+      "start": "2026-06-07T12:00:00.000Z",
+      "end": "2026-06-07T21:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1088,w_1088,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776276986/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/222fa22dc368461db5d3bddbce56ffc6/Causeway-Marine.jpg",
+      "type": "workshop",
+      "id": "8881483da7f81939",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.038Z"
+    },
+    {
       "title": "Shay Mac",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-07T19:00:00.000Z",
@@ -3468,6 +3582,24 @@
         "name": "Surf City Hotel"
       },
       "ingestedAt": "2026-05-26T20:23:29.300Z"
+    },
+    {
+      "title": "The Island Singers presents \"United Through Song\"",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/the-island-singers-presents-united-through-song-1736505?sourceTypeId=Website",
+      "start": "2026-06-07T20:00:00.000Z",
+      "end": "2026-06-07T21:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "85ccb77375b3274e",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.039Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -3639,6 +3771,24 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:37.261Z"
+    },
+    {
+      "title": "Take Control of Your Health: Hypertension & Diabetes Seminar for seniors 60+ in Ocean County",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/take-control-of-your-health-hypertension-diabetes-seminar-for-seniors-60-in-ocean-county-1726178?sourceTypeId=Website",
+      "start": "2026-06-08T16:00:00.000Z",
+      "end": "2026-06-08T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "workshop",
+      "id": "135eac64750db33c",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.040Z"
     },
     {
       "title": "Lifeguard in Training (LIT) Prep Clinic",
@@ -3991,6 +4141,25 @@
       "ingestedAt": "2026-05-26T20:23:37.328Z"
     },
     {
+      "title": "Lighthouse International Film Festival",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/lighthouse-international-film-festival-1703221?sourceTypeId=Website",
+      "start": "2026-06-10T04:00:00.000Z",
+      "end": "2026-06-14T04:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_526,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775665556/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/39d19e28028247f599c81f05ba265dc6/LIFF-Event.jpg",
+      "type": "film",
+      "id": "6cdf90255e59c03f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.040Z"
+    },
+    {
       "title": "Lifeguard in Training (LIT) Prep Clinic",
       "description": "Session Dates: May 5-28 and June 2-25 $165 per session Instructors Name: Mike and Maggie The LIT/Lifeguard Prep Class is designed to prepare youth and teens for future participation in the Lifeguard in Training program and eventual lifeguard certification. This class focuses on developing swim endurance, physical readiness, water confidence, and foundational rescue knowledge in a structured, supportive environment. This is a preparatory, non-certifying program intended to build skills and confidence before formal LIT or lifeguard certification courses. Register at front desk or online at stfrancisparishlbi.org",
       "url": "https://www.thesandpaper.net/events/lifeguard-in-training-lit-prep-clinic/",
@@ -4214,6 +4383,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:37.363Z"
+    },
+    {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710344?sourceTypeId=Website",
+      "start": "2026-06-11T13:00:00.000Z",
+      "end": "2026-06-11T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "4cc10f568d2260c4",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.041Z"
     },
     {
       "title": "Live Music with The Pickles",
@@ -4823,6 +5011,25 @@
       "ingestedAt": "2026-05-26T20:23:37.425Z"
     },
     {
+      "title": "Stafford Township Founder's Day Parade 2026",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/stafford-township-founder-s-day-parade-2026-1728546?sourceTypeId=Website",
+      "start": "2026-06-13T04:00:00.000Z",
+      "end": "2026-06-14T00:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1999,w_1544,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1778080963/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/831514b02df041be87c0a2ad263f931c/FOUNDERS-DAY-2026.jpg",
+      "type": "other",
+      "id": "425fa56191d0b91d",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.041Z"
+    },
+    {
       "title": "NO WEDDINGS- OPEN FULLY TO THE PUBLIC",
       "url": "https://calendar.google.com/calendar/ical/g4ssoon0tv9dt98a6s00lfnq4o%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-13T15:30:00.000Z",
@@ -4946,6 +5153,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Southern Ocean World Kickoff  Watch Party Weekend",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/southern-ocean-world-kickoff-watch-party-weekend-1691514?sourceTypeId=Website",
+      "start": "2026-06-13T21:15:00.000Z",
+      "end": "2026-06-14T22:15:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_2000,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1778858813/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/79947efcd5214efd90efadfceb918494/6-13-and-6-14-Square.png",
+      "type": "other",
+      "id": "6642e5b048d77262",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.042Z"
     },
     {
       "title": "Steamboat Messiah- Beach Stage",
@@ -6066,6 +6292,25 @@
       "ingestedAt": "2026-05-26T20:23:40.422Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710756?sourceTypeId=Website",
+      "start": "2026-06-18T13:00:00.000Z",
+      "end": "2026-06-18T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "e62f5c178e64f8fc",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.043Z"
+    },
+    {
       "title": "Live Music with The Pickles",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-06-18T18:00:00",
@@ -6108,6 +6353,25 @@
         "name": "Tuckers Tavern"
       },
       "ingestedAt": "2026-05-26T20:23:58.328Z"
+    },
+    {
+      "title": "Guys And Dolls",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/guys-and-dolls-1589142?sourceTypeId=Website",
+      "start": "2026-06-18T18:00:00.000Z",
+      "end": "2026-07-05T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765916726/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/c07ad4dd52324cf8b0f399f40476e89c/surflight-profile-pic.jpg",
+      "type": "other",
+      "id": "a8b30d3ec04fd035",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.043Z"
     },
     {
       "title": "Mike Casey",
@@ -7689,6 +7953,25 @@
       "ingestedAt": "2026-05-26T20:23:27.530Z"
     },
     {
+      "title": "June Women in Business",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/june-women-in-business-1716514?sourceTypeId=Website",
+      "start": "2026-06-23T21:00:00.000Z",
+      "end": "2026-06-23T22:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2100,w_2100,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776878177/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/f8ade39ac0424c6a964b207642693946/Program-Logos-Women-in-Business-1color.png",
+      "type": "other",
+      "id": "cc59f6e769cae568",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.044Z"
+    },
+    {
       "title": "Band - trivia on tap",
       "description": "Live Band",
       "url": "https://calendar.google.com/calendar/ical/07919b74d6e43922cc76627ce10d669077197d20cd0b236f41d5e09356234738%40group.calendar.google.com/public/basic.ics",
@@ -8006,6 +8289,25 @@
       "ingestedAt": "2026-05-26T20:23:43.041Z"
     },
     {
+      "title": "2026 Garden Party by the Sea",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/2026-garden-party-by-the-sea-1711252?sourceTypeId=Website",
+      "start": "2026-06-24T17:00:00.000Z",
+      "end": "2026-06-24T20:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_755,w_747,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776283487/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/f7903f16735d4a44b78be963508b5b20/garden-partty-2026.png",
+      "type": "other",
+      "id": "d237229e4b01065c",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.044Z"
+    },
+    {
       "title": "Mike Dougherty",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-24T19:00:00.000Z",
@@ -8045,6 +8347,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Cinderella",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/cinderella-1589585?sourceTypeId=Website",
+      "start": "2026-06-24T22:00:00.000Z",
+      "end": "2026-06-28T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921265/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/0703c52f397341e283a7c5dde5f109c2/Surflight.jpg",
+      "type": "other",
+      "id": "b05e7fd4801f470f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.045Z"
     },
     {
       "title": "Highly Questionable Trivia",
@@ -8339,6 +8660,25 @@
       "ingestedAt": "2026-05-26T20:23:43.075Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710757?sourceTypeId=Website",
+      "start": "2026-06-25T13:00:00.000Z",
+      "end": "2026-06-25T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "14e32d39a5153e86",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.046Z"
+    },
+    {
       "title": "Daddy O x Jetty Summer Launch Party",
       "description": "<div>Join us to celebrate the launch of our limited-edition 2026 t-shirt collab in The Garden at Daddy O, celebrating our 20th summer!</div><br><div>A ticket includes a complimentary beverage and a raffle ticket for your chance to win a beach cruiser bike and other great prizes. $1 of every ticket is being donated to the Jetty Rock Foundation.</div><br><div>Come kick off the summer with Jetty &amp; Daddy O, as we begin our 20th year in LBI!</div>",
       "url": "https://www.daddyolbi.com/happenings",
@@ -8424,6 +8764,25 @@
         "name": "Surf City Hotel"
       },
       "ingestedAt": "2026-05-26T20:23:29.298Z"
+    },
+    {
+      "title": "Golden Hour at The Farm On Main",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/golden-hour-at-the-farm-on-main-1723715?sourceTypeId=Website",
+      "start": "2026-06-25T20:00:00.000Z",
+      "end": "2026-06-26T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1125,w_900,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1777562033/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/247b80b6d67d4d90ae71ea1ce3206746/golden-hour.jpg",
+      "type": "other",
+      "id": "ad17442a4902f2c6",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.046Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -8663,6 +9022,24 @@
       "ingestedAt": "2026-05-26T20:23:43.082Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714073?sourceTypeId=Website",
+      "start": "2026-06-26T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_788,w_940,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776704448/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/39fc102053e94a0d830d619371eebf27/Farmers-Market.png",
+      "type": "other",
+      "id": "05065e0f41627d6f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.047Z"
+    },
+    {
       "title": "Live Music with Preach",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-06-26T18:00:00",
@@ -8746,6 +9123,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703405?sourceTypeId=Website",
+      "start": "2026-06-26T23:00:00.000Z",
+      "end": "2026-06-27T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "7e0479291e7ab933",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.047Z"
+    },
+    {
+      "title": "Comedy Night",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/comedy-night-1589257?sourceTypeId=Website",
+      "start": "2026-06-27T00:30:00.000Z",
+      "end": "2026-06-27T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918593/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/ee167b3964d348998a91a1e607ef396b/surflight-profile-pic.jpg",
+      "type": "comedy",
+      "id": "429a5eb2c5d3221e",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.048Z"
     },
     {
       "title": "The Pickles with DJ Brandon",
@@ -9045,6 +9460,25 @@
       "ingestedAt": "2026-05-26T20:23:27.530Z"
     },
     {
+      "title": "Summer Night Climb - Barnegat Lighthouse",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-night-climb-barnegat-lighthouse-1739920?sourceTypeId=Website",
+      "start": "2026-06-27T23:00:00.000Z",
+      "end": "2026-06-28T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1200,w_1200,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1779130392/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/8bd62d08463d415b9be8980e80c8cecc/Barnegat-Lighthouse-for-Edible.png",
+      "type": "other",
+      "id": "eb54b1acb0c178b5",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.048Z"
+    },
+    {
       "title": "Danksters & Chevy Lopez with DJ Dominic",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-28T01:00:00.000Z",
@@ -9282,6 +9716,25 @@
       "ingestedAt": "2026-05-26T20:23:43.138Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701198?sourceTypeId=Website",
+      "start": "2026-06-28T16:00:00.000Z",
+      "end": "2026-06-28T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "ab90fcba535d616a",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.048Z"
+    },
+    {
       "title": "Gypsy Moon",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-06-28T19:00:00.000Z",
@@ -9492,6 +9945,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Beginnings - Chicago Tribute Band",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/beginnings-chicago-tribute-band-1589453?sourceTypeId=Website",
+      "start": "2026-06-29T21:00:00.000Z",
+      "end": "2026-06-30T01:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765920405/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/66753b4d54ff4297a3b709b2b44a0f80/Surflight.jpg",
+      "type": "live-music",
+      "id": "e54586aea8b76e55",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.049Z"
     },
     {
       "title": "Band - dueling piano",
@@ -9889,6 +10361,25 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "Wizard Of Oz",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/wizard-of-oz-1589596?sourceTypeId=Website",
+      "start": "2026-07-01T22:00:00.000Z",
+      "end": "2026-07-05T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921327/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/5ca0dd6381144b509a58d2020833ac8a/Surflight.jpg",
+      "type": "other",
+      "id": "0e3433dff402dc55",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.049Z"
+    },
+    {
       "title": "Singo-Musical Bingo",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-02T00:00:00.000Z",
@@ -10049,6 +10540,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:43.034Z"
+    },
+    {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710758?sourceTypeId=Website",
+      "start": "2026-07-02T13:00:00.000Z",
+      "end": "2026-07-02T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "7c10e62c1d74c26f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.050Z"
     },
     {
       "title": "Live Music with Skip Winters",
@@ -10277,6 +10787,23 @@
       "ingestedAt": "2026-05-26T20:23:43.034Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714075?sourceTypeId=Website",
+      "start": "2026-07-03T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "da3691cb1fae2fad",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.050Z"
+    },
+    {
       "title": "Live Music with Barbara Lin",
       "url": "https://tuckerstavern-lbi.com/news_events.php",
       "start": "2026-07-03T18:00:00",
@@ -10338,6 +10865,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703412?sourceTypeId=Website",
+      "start": "2026-07-03T23:00:00.000Z",
+      "end": "2026-07-04T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "4ebae026a08dcb12",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.051Z"
     },
     {
       "title": "Shorty Long & The Jersey Horns with DJ Brandon",
@@ -10649,6 +11195,25 @@
       "ingestedAt": "2026-05-26T20:23:43.034Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701200?sourceTypeId=Website",
+      "start": "2026-07-05T16:00:00.000Z",
+      "end": "2026-07-05T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "811456ffd2dcd59f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.051Z"
+    },
+    {
       "title": "Bill & Andy",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-05T19:00:00.000Z",
@@ -10709,6 +11274,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717592?sourceTypeId=Website",
+      "start": "2026-07-06T22:30:00.000Z",
+      "end": "2026-07-07T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "07380be08609b033",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.052Z"
     },
     {
       "title": "Band - dueling piano",
@@ -10867,6 +11451,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Young Frankenstein",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/young-frankenstein-1589150?sourceTypeId=Website",
+      "start": "2026-07-08T00:00:00.000Z",
+      "end": "2026-07-26T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918948/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/b3ee6c079bd449d98cc423609d0e5c62/surflight-profile-pic.jpg",
+      "type": "other",
+      "id": "bce15e34f823b134",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.053Z"
     },
     {
       "title": "Short Long & The Jersey Horns",
@@ -11051,6 +11654,44 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "Snow White",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/snow-white-1589619?sourceTypeId=Website",
+      "start": "2026-07-08T22:00:00.000Z",
+      "end": "2026-07-12T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921359/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bc7103c4ce0449408b951048f53b6207/Surflight.jpg",
+      "type": "other",
+      "id": "89f501ef6621acd3",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.053Z"
+    },
+    {
+      "title": "Harvey Cedars Summer Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/harvey-cedars-summer-concerts-1702548?sourceTypeId=Website",
+      "start": "2026-07-08T22:30:00.000Z",
+      "end": "2026-07-09T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_207,w_482,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775593969/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/3fa0d6f097404db7be3ace782cd42422/HC-townSeal.png",
+      "type": "other",
+      "id": "bf3a78c3252b2dd3",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.053Z"
+    },
+    {
       "title": "Highly Questionable Trivia ",
       "description": "&nbsp;",
       "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-p85kb-bp9fa-663mg-h3m3k",
@@ -11191,6 +11832,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:46.190Z"
+    },
+    {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710759?sourceTypeId=Website",
+      "start": "2026-07-09T13:00:00.000Z",
+      "end": "2026-07-09T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "d05c58ce4447fc53",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.054Z"
     },
     {
       "title": "Live Music with Matt Fisher",
@@ -11347,6 +12007,23 @@
       "ingestedAt": "2026-05-26T20:23:46.190Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714076?sourceTypeId=Website",
+      "start": "2026-07-10T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "2896e447054bbdad",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.054Z"
+    },
+    {
       "title": "Live Music with Chuck DeBruyn",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-07-10T18:00:00",
@@ -11430,6 +12107,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703413?sourceTypeId=Website",
+      "start": "2026-07-10T23:00:00.000Z",
+      "end": "2026-07-11T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "d3520b82caf3b097",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.055Z"
     },
     {
       "title": "The Pickles with DJ Brandon",
@@ -11837,6 +12533,44 @@
       "ingestedAt": "2026-05-26T20:23:46.191Z"
     },
     {
+      "title": "NJ Boating Safety Certificate Class at Causeway Marine",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/nj-boating-safety-certificate-class-at-causeway-marine-1709912?sourceTypeId=Website",
+      "start": "2026-07-12T12:00:00.000Z",
+      "end": "2026-07-12T21:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1088,w_1088,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776276970/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/facb901f9ec2442b9ab8d669f895e87a/Causeway-Marine.jpg",
+      "type": "workshop",
+      "id": "4871c3d3a0ee4009",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.055Z"
+    },
+    {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701201?sourceTypeId=Website",
+      "start": "2026-07-12T16:00:00.000Z",
+      "end": "2026-07-12T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "a677b391bcfdd9bf",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.056Z"
+    },
+    {
       "title": "The Petti's",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-12T19:00:00.000Z",
@@ -11947,6 +12681,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Just Sixties",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/just-sixties-1589464?sourceTypeId=Website",
+      "start": "2026-07-13T21:00:00.000Z",
+      "end": "2026-07-14T01:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918888/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/a7a650fed3534133a816d92afeaa2e08/surflight-profile-pic.jpg",
+      "type": "other",
+      "id": "59ba7ca41ca0182d",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.056Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717596?sourceTypeId=Website",
+      "start": "2026-07-13T22:30:00.000Z",
+      "end": "2026-07-14T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "c8fe240a4bad4b81",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.057Z"
     },
     {
       "title": "Band - dueling piano",
@@ -12353,6 +13125,25 @@
       "ingestedAt": "2026-05-26T20:23:46.191Z"
     },
     {
+      "title": "Ocean County Fair",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/ocean-county-fair-1745914?sourceTypeId=Website",
+      "start": "2026-07-15T15:00:00.000Z",
+      "end": "2026-07-19T21:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1024,w_1024,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1779556049/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/f132c9f2fe88445fba7c1ada9d5accee/Ocean-County-Fair.jpg",
+      "type": "festival",
+      "id": "709f7731176fe9b4",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.057Z"
+    },
+    {
       "title": "Dave Jones",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-15T19:00:00.000Z",
@@ -12392,6 +13183,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Peter Pan",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/peter-pan-1589644?sourceTypeId=Website",
+      "start": "2026-07-15T22:00:00.000Z",
+      "end": "2026-07-19T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921395/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/0ed1207c28d34dd1855b42c7d061e661/Surflight.jpg",
+      "type": "other",
+      "id": "ea7c67755ec34efa",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.058Z"
+    },
+    {
+      "title": "Harvey Cedars Summer Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/harvey-cedars-summer-concerts-1702551?sourceTypeId=Website",
+      "start": "2026-07-15T22:30:00.000Z",
+      "end": "2026-07-16T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_207,w_482,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775593969/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/3fa0d6f097404db7be3ace782cd42422/HC-townSeal.png",
+      "type": "other",
+      "id": "94e320e089ebdfbe",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.058Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -12559,6 +13388,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:46.191Z"
+    },
+    {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710760?sourceTypeId=Website",
+      "start": "2026-07-16T13:00:00.000Z",
+      "end": "2026-07-16T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "bf4b88a14676cfa2",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.059Z"
     },
     {
       "title": "Live Music with La Stella Brother",
@@ -12737,6 +13585,23 @@
       "ingestedAt": "2026-05-26T20:23:43.037Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714077?sourceTypeId=Website",
+      "start": "2026-07-17T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "5757e5718da0ff02",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.059Z"
+    },
+    {
       "title": "Live Music with Scotty Z",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-07-17T18:00:00",
@@ -12820,6 +13685,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703414?sourceTypeId=Website",
+      "start": "2026-07-17T23:00:00.000Z",
+      "end": "2026-07-18T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "2656440692b75f9e",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.060Z"
+    },
+    {
+      "title": "Comedy Night",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/comedy-night-1589267?sourceTypeId=Website",
+      "start": "2026-07-18T00:30:00.000Z",
+      "end": "2026-07-18T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918769/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/2dcc2dfd310e47e6b2c14fa366e6913b/surflight-profile-pic.jpg",
+      "type": "comedy",
+      "id": "e46d29756082420d",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.060Z"
     },
     {
       "title": "Black Tie Groove & No Hard Feelings with DJ Brandon",
@@ -12982,6 +13885,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:46.191Z"
+    },
+    {
+      "title": "Barnegat Fire Company Car & Truck Show & Family Fun Day",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-fire-company-car-truck-show-family-fun-day-1732497?sourceTypeId=Website",
+      "start": "2026-07-18T14:00:00.000Z",
+      "end": "2026-07-18T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1189,w_1181,x_-2,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1778529310/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/cd77a17abae247b2b827d6c6516cd4c5/barnegat-fire-car-show.jpg",
+      "type": "family",
+      "id": "4eaf3d036ac917f9",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.061Z"
     },
     {
       "title": "Live Music with Ted Hammock",
@@ -13184,6 +14106,25 @@
       "ingestedAt": "2026-05-26T20:23:46.191Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701202?sourceTypeId=Website",
+      "start": "2026-07-19T16:00:00.000Z",
+      "end": "2026-07-19T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "b53b5133af72ae6f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.061Z"
+    },
+    {
       "title": "Gypsy Moon",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-19T19:00:00.000Z",
@@ -13294,6 +14235,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717597?sourceTypeId=Website",
+      "start": "2026-07-20T22:30:00.000Z",
+      "end": "2026-07-21T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "edc4ecad9c78e3af",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.062Z"
     },
     {
       "title": "Band - dueling piano",
@@ -13440,6 +14400,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:46.440Z"
+    },
+    {
+      "title": "St. Mary’s Nights of Summer Carnival",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/st-mary-s-nights-of-summer-carnival-1729362?sourceTypeId=Website",
+      "start": "2026-07-21T04:00:00.000Z",
+      "end": "2026-07-27T00:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_2000,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1778164361/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/27dca1fa382c441a8dc8fe547968163d/Untitled-10-x-10-in.png",
+      "type": "festival",
+      "id": "96a8593428a0c9c3",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.063Z"
     },
     {
       "title": "Chuck DeBruyn",
@@ -13716,6 +14695,25 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "Harvey Cedars Summer Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/harvey-cedars-summer-concerts-1702552?sourceTypeId=Website",
+      "start": "2026-07-22T22:30:00.000Z",
+      "end": "2026-07-23T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_207,w_482,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775593969/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/3fa0d6f097404db7be3ace782cd42422/HC-townSeal.png",
+      "type": "other",
+      "id": "a496164dbef5390e",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.063Z"
+    },
+    {
       "title": "Highly Questionable Trivia ",
       "description": "&nbsp;",
       "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-p85kb-bp9fa-663mg-4ykab",
@@ -13931,6 +14929,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:46.513Z"
+    },
+    {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710761?sourceTypeId=Website",
+      "start": "2026-07-23T13:00:00.000Z",
+      "end": "2026-07-23T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "ba55500bba18778d",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.064Z"
     },
     {
       "title": "Live Music with Matt Fisher",
@@ -14159,6 +15176,23 @@
       "ingestedAt": "2026-05-26T20:23:46.440Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714078?sourceTypeId=Website",
+      "start": "2026-07-24T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "01269cb5325c8f73",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.064Z"
+    },
+    {
       "title": "Live Music with Ty Mares",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-07-24T18:00:00",
@@ -14242,6 +15276,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703415?sourceTypeId=Website",
+      "start": "2026-07-24T23:00:00.000Z",
+      "end": "2026-07-25T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "392ec8e6ed48a741",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.065Z"
     },
     {
       "title": "Don't Call Me Frances with DJ Brandon",
@@ -14469,6 +15522,25 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "Summer Night Climb - Barnegat Lighthouse",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-night-climb-barnegat-lighthouse-1741043?sourceTypeId=Website",
+      "start": "2026-07-25T22:30:00.000Z",
+      "end": "2026-07-26T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_800,w_1200,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1779205857/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/723f61fb98c04cf3821ef8ee4edda13a/Barnegat-Light-House.jpg",
+      "type": "other",
+      "id": "81e4d868549b20bd",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.065Z"
+    },
+    {
       "title": "Danksters with DJ Dominic",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-26T01:00:00.000Z",
@@ -14606,6 +15678,25 @@
       "ingestedAt": "2026-05-26T20:23:46.192Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701203?sourceTypeId=Website",
+      "start": "2026-07-26T16:00:00.000Z",
+      "end": "2026-07-26T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "3d200fad27d21d64",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.066Z"
+    },
+    {
       "title": "Gypsy Moon",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-07-26T19:00:00.000Z",
@@ -14691,6 +15782,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717598?sourceTypeId=Website",
+      "start": "2026-07-27T22:30:00.000Z",
+      "end": "2026-07-28T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "72d66829a326a380",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.066Z"
     },
     {
       "title": "Band - dueling piano",
@@ -14855,6 +15965,25 @@
       "ingestedAt": "2026-05-26T20:23:27.532Z"
     },
     {
+      "title": "St Francis Festival of the Sea",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/st-francis-festival-of-the-sea-1711046?sourceTypeId=Website",
+      "start": "2026-07-28T22:00:00.000Z",
+      "end": "2026-07-29T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1313,w_1439,x_0,y_116/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776276911/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/54d9431271654a49a172825f7b5214dd/St-francis-festical-2026.jpg",
+      "type": "festival",
+      "id": "882ac9e0765a5493",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.067Z"
+    },
+    {
       "title": "Band - trivia on tap",
       "description": "Live Band",
       "url": "https://calendar.google.com/calendar/ical/07919b74d6e43922cc76627ce10d669077197d20cd0b236f41d5e09356234738%40group.calendar.google.com/public/basic.ics",
@@ -14874,6 +16003,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Pretty Woman: The Musical",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/pretty-woman-the-musical-1589158?sourceTypeId=Website",
+      "start": "2026-07-29T00:00:00.000Z",
+      "end": "2026-08-16T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918458/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/225a33dd76e84cc4a09785bf21b12747/surflight-profile-pic.jpg",
+      "type": "theater",
+      "id": "73a57783a08e53d9",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.067Z"
     },
     {
       "title": "Tunnel Vision and Capital Dub",
@@ -15088,6 +16236,44 @@
       "ingestedAt": "2026-05-26T20:23:27.532Z"
     },
     {
+      "title": "St Francis Festival of the Sea",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/st-francis-festival-of-the-sea-1711050?sourceTypeId=Website",
+      "start": "2026-07-29T22:00:00.000Z",
+      "end": "2026-07-30T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1313,w_1439,x_0,y_116/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776276911/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/54d9431271654a49a172825f7b5214dd/St-francis-festical-2026.jpg",
+      "type": "festival",
+      "id": "89e0a71901ba4960",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.068Z"
+    },
+    {
+      "title": "Harvey Cedars Summer Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/harvey-cedars-summer-concerts-1702553?sourceTypeId=Website",
+      "start": "2026-07-29T22:30:00.000Z",
+      "end": "2026-07-30T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_207,w_482,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775593969/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/3fa0d6f097404db7be3ace782cd42422/HC-townSeal.png",
+      "type": "other",
+      "id": "a67bcd343c785a75",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.068Z"
+    },
+    {
       "title": "Highly Questionable Trivia   ",
       "description": "&nbsp;",
       "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-p85kb-bp9fa-663mg-yhf8x-2ksks-athx5",
@@ -15280,6 +16466,25 @@
       "ingestedAt": "2026-05-26T20:23:49.304Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710762?sourceTypeId=Website",
+      "start": "2026-07-30T13:00:00.000Z",
+      "end": "2026-07-30T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "9fe18bcb59f35a54",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.069Z"
+    },
+    {
       "title": "Live Music with Rob Connolly",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-07-30T18:00:00",
@@ -15363,6 +16568,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "St Francis Festival of the Sea",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/st-francis-festival-of-the-sea-1711051?sourceTypeId=Website",
+      "start": "2026-07-30T22:00:00.000Z",
+      "end": "2026-07-31T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1313,w_1439,x_0,y_116/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776276911/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/54d9431271654a49a172825f7b5214dd/St-francis-festical-2026.jpg",
+      "type": "festival",
+      "id": "acd56f24232d30e3",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.069Z"
     },
     {
       "title": "Band - karaoke",
@@ -15481,6 +16705,23 @@
       "ingestedAt": "2026-05-26T20:23:46.593Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714079?sourceTypeId=Website",
+      "start": "2026-07-31T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "3d80c041fec08ff8",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.070Z"
+    },
+    {
       "title": "Live Music with East Two Three",
       "url": "https://www.daddyolbi.com/happenings",
       "start": "2026-07-31T18:00:00",
@@ -15564,6 +16805,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "St Francis Festival of the Sea",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/st-francis-festival-of-the-sea-1711052?sourceTypeId=Website",
+      "start": "2026-07-31T22:00:00.000Z",
+      "end": "2026-08-01T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1313,w_1439,x_0,y_116/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776276911/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/54d9431271654a49a172825f7b5214dd/St-francis-festical-2026.jpg",
+      "type": "festival",
+      "id": "4a4724722756a040",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.070Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703416?sourceTypeId=Website",
+      "start": "2026-07-31T23:00:00.000Z",
+      "end": "2026-08-01T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "8e465d0d6ec090c7",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.071Z"
     },
     {
       "title": "Black Tie Groove with DJ Brandon",
@@ -15813,6 +17092,25 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "St Francis Festival of the Sea",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/st-francis-festival-of-the-sea-1711053?sourceTypeId=Website",
+      "start": "2026-08-01T22:00:00.000Z",
+      "end": "2026-08-02T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1313,w_1439,x_0,y_116/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776276911/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/54d9431271654a49a172825f7b5214dd/St-francis-festical-2026.jpg",
+      "type": "festival",
+      "id": "bdf68d5fb29cbb4a",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.072Z"
+    },
+    {
       "title": "Sir Rod with DJ Dominic",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-02T01:00:00.000Z",
@@ -15971,6 +17269,25 @@
       "ingestedAt": "2026-05-26T20:23:46.593Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701204?sourceTypeId=Website",
+      "start": "2026-08-02T16:00:00.000Z",
+      "end": "2026-08-02T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "f4c03b4964b8cfdb",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.072Z"
+    },
+    {
       "title": "Ned Ryerson Duo",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-02T19:00:00.000Z",
@@ -16056,6 +17373,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Back To The Garden 1969 - Woodstock Tribute Show",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/back-to-the-garden-1969-woodstock-tribute-show-1589467?sourceTypeId=Website",
+      "start": "2026-08-03T21:00:00.000Z",
+      "end": "2026-08-04T01:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918353/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/00de22dc2c0a4cf0bb2db2ad33838fc0/surflight-profile-pic.jpg",
+      "type": "live-music",
+      "id": "41450bb4a2083ebe",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.073Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717599?sourceTypeId=Website",
+      "start": "2026-08-03T22:30:00.000Z",
+      "end": "2026-08-04T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "d79a1dc1f62475bb",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.073Z"
     },
     {
       "title": "Band - dueling piano",
@@ -16424,6 +17779,44 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "Cinderella",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/cinderella-1589590?sourceTypeId=Website",
+      "start": "2026-08-05T22:00:00.000Z",
+      "end": "2026-08-09T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921428/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/ec5e0b817bd842f4a286cf690cdfa803/Surflight.jpg",
+      "type": "other",
+      "id": "cb4323da108259c2",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.074Z"
+    },
+    {
+      "title": "Harvey Cedars Summer Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/harvey-cedars-summer-concerts-1702554?sourceTypeId=Website",
+      "start": "2026-08-05T22:30:00.000Z",
+      "end": "2026-08-06T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_207,w_482,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775593969/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/3fa0d6f097404db7be3ace782cd42422/HC-townSeal.png",
+      "type": "other",
+      "id": "29c390f60a77dd34",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.074Z"
+    },
+    {
       "title": "Highly Questionable Trivia ",
       "description": "&nbsp;",
       "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-p85kb-bp9fa-663mg-mk2g6",
@@ -16591,6 +17984,25 @@
       "ingestedAt": "2026-05-26T20:23:49.418Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710763?sourceTypeId=Website",
+      "start": "2026-08-06T13:00:00.000Z",
+      "end": "2026-08-06T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "77fb4bb372022714",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.075Z"
+    },
+    {
       "title": "Tom Pernal",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-06T19:00:00.000Z",
@@ -16698,6 +18110,42 @@
       "ingestedAt": "2026-05-26T20:23:43.034Z"
     },
     {
+      "title": "National Lighthouse Day at Barnegat Lighthouse",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/national-lighthouse-day-at-barnegat-lighthouse-1741024?sourceTypeId=Website",
+      "start": "2026-08-07T04:00:00.000Z",
+      "end": "2026-08-08T00:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1536,w_1676,x_628,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1779205230/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/a265e67ec0194641a4e9af5e5fa4650c/NJ-LBI-Lighthouse-08a-June-2004.jpg",
+      "type": "other",
+      "id": "e98c9aec2ee28a59",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.075Z"
+    },
+    {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714080?sourceTypeId=Website",
+      "start": "2026-08-07T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "d88b878617ae9e04",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.076Z"
+    },
+    {
       "title": "Preach",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-07T19:00:00.000Z",
@@ -16737,6 +18185,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703417?sourceTypeId=Website",
+      "start": "2026-08-07T23:00:00.000Z",
+      "end": "2026-08-08T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "09367f34fe9e890f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.076Z"
+    },
+    {
+      "title": "Comedy Night",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/comedy-night-1589276?sourceTypeId=Website",
+      "start": "2026-08-08T00:30:00.000Z",
+      "end": "2026-08-08T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918142/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/9baa25aa97b5468d8c5a9baf7ce1d23b/surflight-profile-pic.jpg",
+      "type": "comedy",
+      "id": "9fe4999d1da1c684",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.076Z"
     },
     {
       "title": "Screaming Broccoli with DJ Brandon",
@@ -17079,6 +18565,25 @@
       "ingestedAt": "2026-05-26T20:23:46.594Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701205?sourceTypeId=Website",
+      "start": "2026-08-09T16:00:00.000Z",
+      "end": "2026-08-09T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "f66ba828860925ac",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.077Z"
+    },
+    {
       "title": "Brother Pete",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-09T19:00:00.000Z",
@@ -17191,6 +18696,44 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "Taylor Mason - Family Comedy Night",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/taylor-mason-family-comedy-night-1589474?sourceTypeId=Website",
+      "start": "2026-08-10T22:00:00.000Z",
+      "end": "2026-08-10T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918290/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/a9f04cf1ee3245e583a4f252e6d1c0dd/surflight-profile-pic.jpg",
+      "type": "comedy",
+      "id": "0fb9a6a210c63f2a",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.077Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717600?sourceTypeId=Website",
+      "start": "2026-08-10T22:30:00.000Z",
+      "end": "2026-08-11T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "1de1b475fb2588fa",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.078Z"
+    },
+    {
       "title": "Band - dueling piano",
       "description": "Live Band",
       "url": "https://calendar.google.com/calendar/ical/07919b74d6e43922cc76627ce10d669077197d20cd0b236f41d5e09356234738%40group.calendar.google.com/public/basic.ics",
@@ -17210,6 +18753,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Mike Marino",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/mike-marino-1589484?sourceTypeId=Website",
+      "start": "2026-08-11T00:30:00.000Z",
+      "end": "2026-08-11T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918404/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/0c4228163a434c12bd6ed09315061ff3/surflight-profile-pic.jpg",
+      "type": "other",
+      "id": "c7e2ccd901e58b78",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.078Z"
     },
     {
       "title": "Knitting Group Meets at Beach Haven Library",
@@ -17557,6 +19119,25 @@
       "ingestedAt": "2026-05-26T20:23:27.532Z"
     },
     {
+      "title": "Harvey Cedars Summer Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/harvey-cedars-summer-concerts-1702555?sourceTypeId=Website",
+      "start": "2026-08-12T22:30:00.000Z",
+      "end": "2026-08-13T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_207,w_482,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775593969/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/3fa0d6f097404db7be3ace782cd42422/HC-townSeal.png",
+      "type": "other",
+      "id": "cd13a8bac1cfa74f",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.079Z"
+    },
+    {
       "title": "Highly Questionable Trivia  ",
       "description": "&nbsp;",
       "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-p85kb-bp9fa-663mg-yhf8x-8ydzm",
@@ -17699,6 +19280,25 @@
       "ingestedAt": "2026-05-26T20:23:46.594Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710764?sourceTypeId=Website",
+      "start": "2026-08-13T13:00:00.000Z",
+      "end": "2026-08-13T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "5dc25b4215b2f92a",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.079Z"
+    },
+    {
       "title": "Chuck DeBruyn",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-13T19:00:00.000Z",
@@ -17831,6 +19431,23 @@
       "ingestedAt": "2026-05-26T20:23:46.594Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714081?sourceTypeId=Website",
+      "start": "2026-08-14T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "3e8eaa01dadaf029",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.080Z"
+    },
+    {
       "title": "Capt. Bill Brucato",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-14T19:00:00.000Z",
@@ -17870,6 +19487,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703418?sourceTypeId=Website",
+      "start": "2026-08-14T23:00:00.000Z",
+      "end": "2026-08-15T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "e03debb2df7066cc",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.080Z"
     },
     {
       "title": "Black Tie Groove with DJ Brandon",
@@ -18237,6 +19873,25 @@
       "ingestedAt": "2026-05-26T20:23:49.560Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701206?sourceTypeId=Website",
+      "start": "2026-08-16T16:00:00.000Z",
+      "end": "2026-08-16T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "947d921de24a91c6",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.081Z"
+    },
+    {
       "title": "Ned Ryerson Duo",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-16T19:00:00.000Z",
@@ -18297,6 +19952,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717601?sourceTypeId=Website",
+      "start": "2026-08-17T22:30:00.000Z",
+      "end": "2026-08-18T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "3e1f168794d786b9",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.081Z"
     },
     {
       "title": "Band - dueling piano",
@@ -18455,6 +20129,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "1776",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/1776-1589164?sourceTypeId=Website",
+      "start": "2026-08-19T00:00:00.000Z",
+      "end": "2026-08-30T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918160/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/54504619ca4748deaa3cb7e044a1f54f/surflight-profile-pic.jpg",
+      "type": "other",
+      "id": "2a24221ce0e1a372",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.082Z"
     },
     {
       "title": "Kiwanis of LBI Meets",
@@ -18648,6 +20341,25 @@
       "ingestedAt": "2026-05-26T20:23:27.531Z"
     },
     {
+      "title": "Wizard Of Oz",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/wizard-of-oz-1589605?sourceTypeId=Website",
+      "start": "2026-08-19T22:00:00.000Z",
+      "end": "2026-08-23T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921441/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/0e95d7c97e1441b98b1f81c34e7321c5/Surflight.jpg",
+      "type": "other",
+      "id": "326aeb3c8bc1a38e",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.082Z"
+    },
+    {
       "title": "Highly Questionable Trivia ",
       "description": "&nbsp;",
       "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-p85kb-bp9fa-663mg-4gmw2",
@@ -18815,6 +20527,25 @@
       "ingestedAt": "2026-05-26T20:23:49.645Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710765?sourceTypeId=Website",
+      "start": "2026-08-20T13:00:00.000Z",
+      "end": "2026-08-20T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "91fefeb695b06f1d",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.083Z"
+    },
+    {
       "title": "Mark Sosis",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-20T19:00:00.000Z",
@@ -18947,6 +20678,23 @@
       "ingestedAt": "2026-05-26T20:23:49.602Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714082?sourceTypeId=Website",
+      "start": "2026-08-21T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "5f030488ecbe93ab",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.083Z"
+    },
+    {
       "title": "Rob Connolly",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-21T19:00:00.000Z",
@@ -18986,6 +20734,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703419?sourceTypeId=Website",
+      "start": "2026-08-21T23:00:00.000Z",
+      "end": "2026-08-22T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "11b84fc8d22e8ba4",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.083Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -19313,6 +21080,25 @@
       "ingestedAt": "2026-05-26T20:23:49.688Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701207?sourceTypeId=Website",
+      "start": "2026-08-23T16:00:00.000Z",
+      "end": "2026-08-23T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "1389226d063b1929",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.084Z"
+    },
+    {
       "title": "Gypsy Moon",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-23T19:00:00.000Z",
@@ -19352,6 +21138,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Comedy Night Fundraiser for JCC of LBI",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/comedy-night-fundraiser-for-jcc-of-lbi-1589492?sourceTypeId=Website",
+      "start": "2026-08-24T00:00:00.000Z",
+      "end": "2026-08-24T01:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918546/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/86b49655f3034b3d92dad300f3a341f4/surflight-profile-pic.jpg",
+      "type": "comedy",
+      "id": "94670772e408d174",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.084Z"
     },
     {
       "title": "Winslow Eagles Tribute Band Performs at Surflight Theatre",
@@ -19398,6 +21203,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Winslow Eagles Tribute Band",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/winslow-eagles-tribute-band-1589497?sourceTypeId=Website",
+      "start": "2026-08-24T21:00:00.000Z",
+      "end": "2026-08-25T01:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918702/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/c612e53d5c5841c292b1a362ea4253d7/surflight-profile-pic.jpg",
+      "type": "live-music",
+      "id": "4703172be183124e",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.085Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717602?sourceTypeId=Website",
+      "start": "2026-08-24T22:30:00.000Z",
+      "end": "2026-08-25T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "b0da31b183bb2916",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.085Z"
     },
     {
       "title": "Band - dueling piano",
@@ -19724,6 +21567,25 @@
       "ingestedAt": "2026-05-26T20:23:27.530Z"
     },
     {
+      "title": "Snow White",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/snow-white-1589635?sourceTypeId=Website",
+      "start": "2026-08-26T22:00:00.000Z",
+      "end": "2026-08-30T23:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/9ebd360d17c640b887f2342ef33160c2/Surflight.jpg",
+      "type": "other",
+      "id": "6ac40af4ad573262",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.086Z"
+    },
+    {
       "title": "Highly Questionable Trivia   ",
       "description": "&nbsp;",
       "url": "https://www.birdandbettys.com/events/wtpc63helyl945b-26sx9-zfncy-389s2-xbdh9-t9g5z-b78aj-bezez-c9x2z-cnayc-n87x9-6bewg-7ykey-x3znh-5g98w-57ssd-hdk94-g6855-5y548-p85kb-bp9fa-663mg-yhf8x-8ydzm-jxkdk",
@@ -19866,6 +21728,25 @@
       "ingestedAt": "2026-05-26T20:23:49.603Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710766?sourceTypeId=Website",
+      "start": "2026-08-27T13:00:00.000Z",
+      "end": "2026-08-27T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "82b289a2db28df42",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.086Z"
+    },
+    {
       "title": "Mark Sosis",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-27T19:00:00.000Z",
@@ -19973,6 +21854,23 @@
       "ingestedAt": "2026-05-26T20:23:43.036Z"
     },
     {
+      "title": "Tuckerton Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/tuckerton-farmers-market-1714083?sourceTypeId=Website",
+      "start": "2026-08-28T13:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "type": "other",
+      "id": "6f5cbe75b83c41b7",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.087Z"
+    },
+    {
       "title": "Mike Casey",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-28T19:00:00.000Z",
@@ -20012,6 +21910,44 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.530Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703420?sourceTypeId=Website",
+      "start": "2026-08-28T23:00:00.000Z",
+      "end": "2026-08-29T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "db7303234be53509",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.087Z"
+    },
+    {
+      "title": "Comedy Night",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/comedy-night-1589281?sourceTypeId=Website",
+      "start": "2026-08-29T00:30:00.000Z",
+      "end": "2026-08-29T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918200/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/9c90bf839c314b24a09d0c628a5433ff/surflight-profile-pic.jpg",
+      "type": "comedy",
+      "id": "03d70adcf5e09f18",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.088Z"
     },
     {
       "title": "Band - shallow green",
@@ -20156,6 +22092,44 @@
       "ingestedAt": "2026-05-26T20:23:49.603Z"
     },
     {
+      "title": "Fired Up Car Show",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/fired-up-car-show-1721435?sourceTypeId=Website",
+      "start": "2026-08-29T14:00:00.000Z",
+      "end": "2026-08-29T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_862,w_961,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1777405648/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/2d6d9e545b9342a2982a65d21d7ca105/stvfc-car-show-2026.png",
+      "type": "other",
+      "id": "6e6ad345454c3b72",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.088Z"
+    },
+    {
+      "title": "Sea Change 100 Waves for Recovery",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/sea-change-100-waves-for-recovery-1703161?sourceTypeId=Website",
+      "start": "2026-08-29T15:00:00.000Z",
+      "end": "2026-08-29T19:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1080,w_1080,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775664118/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/e9ac4b831b774e828a2740a6517ca77a/sea-change-rco.jpg",
+      "type": "other",
+      "id": "d1e884a0729baca0",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.088Z"
+    },
+    {
       "title": "Amptons Duo",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-29T19:00:00.000Z",
@@ -20195,6 +22169,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Summer Night Climb - Barnegat Lighthouse",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-night-climb-barnegat-lighthouse-1741035?sourceTypeId=Website",
+      "start": "2026-08-29T22:30:00.000Z",
+      "end": "2026-08-30T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_800,w_1200,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1779205647/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/c55610acc0854daca884116515422c0e/Barnegat-Light-House.jpg",
+      "type": "other",
+      "id": "ac425a149e124724",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.089Z"
     },
     {
       "title": "Band - ned ryerson band",
@@ -20314,6 +22307,25 @@
       "ingestedAt": "2026-05-26T20:23:49.604Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701208?sourceTypeId=Website",
+      "start": "2026-08-30T16:00:00.000Z",
+      "end": "2026-08-30T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "2fa76a88fc16fc18",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.089Z"
+    },
+    {
       "title": "Ned Ryerson Duo",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-08-30T19:00:00.000Z",
@@ -20374,6 +22386,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Summer Concert Series at Manahawkin Lake",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/summer-concert-series-at-manahawkin-lake-1717603?sourceTypeId=Website",
+      "start": "2026-08-31T22:30:00.000Z",
+      "end": "2026-09-01T00:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_2000,w_1545,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776958474/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/78188857bbff4847b5a036cf1ad9b9ec/Manahawkin-Lake-Summer-Concerts.jpg",
+      "type": "live-music",
+      "id": "bafd6a2899e0c435",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.090Z"
     },
     {
       "title": "Band - dueling piano",
@@ -20507,6 +22538,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.532Z"
+    },
+    {
+      "title": "Ghost The Musical",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/ghost-the-musical-1589167?sourceTypeId=Website",
+      "start": "2026-09-02T00:00:00.000Z",
+      "end": "2026-09-20T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918272/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/5d4c09f9fca5478798727e2d505e5d04/surflight-profile-pic.jpg",
+      "type": "theater",
+      "id": "8a9e1b49f4455506",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.090Z"
     },
     {
       "title": "Kiwanis of LBI Meets",
@@ -20767,6 +22817,25 @@
       "ingestedAt": "2026-05-26T20:23:52.506Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710767?sourceTypeId=Website",
+      "start": "2026-09-03T13:00:00.000Z",
+      "end": "2026-09-03T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "9d27c3d502a8b007",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.091Z"
+    },
+    {
       "title": "Shay Mac",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-09-03T19:00:00.000Z",
@@ -20938,6 +23007,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "Long Beach Township Firepit Friday",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-firepit-friday-1703421?sourceTypeId=Website",
+      "start": "2026-09-04T23:00:00.000Z",
+      "end": "2026-09-05T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_1800,w_1391,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775670111/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/83f96b96e6084a06ab3939b48a412cb0/FIREPIT-FRIDAYS.jpg",
+      "type": "other",
+      "id": "759eb93ffe40c7c9",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.091Z"
     },
     {
       "title": "The Counterfeiters with DJ Brandon",
@@ -21230,6 +23318,25 @@
       "ingestedAt": "2026-05-26T20:23:52.507Z"
     },
     {
+      "title": "Long Beach Township Sunday Concerts",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/long-beach-township-sunday-concerts-1701209?sourceTypeId=Website",
+      "start": "2026-09-06T16:00:00.000Z",
+      "end": "2026-09-06T18:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_431,w_477,x_200,y_-1/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1775500398/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/4211d3b2130c4d8d8404a0270cb4bde8/lbtlogo.png",
+      "type": "other",
+      "id": "0fea9385ab9d2fde",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.092Z"
+    },
+    {
       "title": "Bill & Andy",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-09-06T19:00:00.000Z",
@@ -21457,6 +23564,25 @@
       "ingestedAt": "2026-05-26T20:23:52.507Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710768?sourceTypeId=Website",
+      "start": "2026-09-10T13:00:00.000Z",
+      "end": "2026-09-10T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "f0d826eefe6734fd",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.092Z"
+    },
+    {
       "title": "Chuck DeBruyn",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-09-10T20:00:00.000Z",
@@ -21562,6 +23688,25 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-26T20:23:27.531Z"
+    },
+    {
+      "title": "An Evening with Groucho",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/an-evening-with-groucho-1589543?sourceTypeId=Website",
+      "start": "2026-09-11T22:00:00.000Z",
+      "end": "2026-09-11T23:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765920902/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/0871f31da9154ee8bc9772cc3710a709/Surflight.jpg",
+      "type": "other",
+      "id": "50d14783448ce4b9",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.093Z"
     },
     {
       "title": "Trivia on Tap",
@@ -22000,6 +24145,25 @@
       "ingestedAt": "2026-05-26T20:23:52.508Z"
     },
     {
+      "title": "Barnegat Farmers Market",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/barnegat-farmers-market-1710769?sourceTypeId=Website",
+      "start": "2026-09-17T13:00:00.000Z",
+      "end": "2026-09-17T17:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/f_auto/c_crop,h_453,w_526,x_0,y_0/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1776210219/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/bea3399da55d45508336af43dc5ad11a/Barnegat-2026-Market.jpg",
+      "type": "other",
+      "id": "08a7dec88c6019ec",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.093Z"
+    },
+    {
       "title": "Tommy Vodka",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-09-17T20:00:00.000Z",
@@ -22295,6 +24459,25 @@
       "ingestedAt": "2026-05-26T20:23:52.663Z"
     },
     {
+      "title": "Vanities: The Musical",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/vanities-the-musical-1589188?sourceTypeId=Website",
+      "start": "2026-09-23T18:00:00.000Z",
+      "end": "2026-10-04T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918218/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/dcb5bded7be04706a342d79b45236e4d/surflight-profile-pic.jpg",
+      "type": "theater",
+      "id": "a4765aa5e2134ab9",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.094Z"
+    },
+    {
       "title": "Surflight Theatre Presents ‘Vanities: The Musical’",
       "description": "Vanities: The Musical Vanities: The Musical chronicles the life-affirming journey of three vivacious Texas teens from cheerleaders to sorority sisters to housewives to liberated women and beyond. This musical captures a snapshot-sharp portrait of the lives, loves, disappointments, and dreams of these young women growing up during the turbulent sixties and seventies and reconnecting in the late 1980s. With a tunefully evocative score by David Kirshenbaum (Summer of ’42) and Jack Heifner’s hilarious adaptation of his long-running Off-Broadway smash, Vanities: The Musical is a funny and poignant look at three best friends who discover that, through thirty years of rapidly changing times, the one thing they can rely on is each other. September 23, 24, 27, 29, 30, October 1, 4 at 2:00 p.m. September 23, 24, 26, October 1, 2, 3 at 7:30 p.m. All shows, dates, times. are subject to change For tickets visit surflight.org",
       "url": "https://www.thesandpaper.net/events/surflight-theatre-presents-vanities-the-musical/",
@@ -22358,6 +24541,25 @@
         "name": "Surf City Hotel"
       },
       "ingestedAt": "2026-05-26T20:23:29.300Z"
+    },
+    {
+      "title": "Comedy Night",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/comedy-night-1589282?sourceTypeId=Website",
+      "start": "2026-09-25T23:30:00.000Z",
+      "end": "2026-09-26T01:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921058/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/60bf6f7539d04a2b8ebd3e49e5c8b45e/Surflight.jpg",
+      "type": "comedy",
+      "id": "caf5bb060c9550c7",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.094Z"
     },
     {
       "title": "The Polish Nannies",
@@ -22987,6 +25189,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:52.713Z"
+    },
+    {
+      "title": "Deceived",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/deceived-1589195?sourceTypeId=Website",
+      "start": "2026-10-07T18:00:00.000Z",
+      "end": "2026-10-11T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765918235/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/77e346bd764c4701b0d671faf209547b/surflight-profile-pic.jpg",
+      "type": "other",
+      "id": "75da4232ed896cf9",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.094Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Deceived’",
@@ -23738,6 +25959,25 @@
       "ingestedAt": "2026-05-26T20:23:29.299Z"
     },
     {
+      "title": "Comedy Night Fundraiser for BHVFC",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/comedy-night-fundraiser-for-bhvfc-1589546?sourceTypeId=Website",
+      "start": "2026-11-08T00:30:00.000Z",
+      "end": "2026-11-08T02:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921012/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/3a6e3ec4a09344579a8a4debf5cc2c34/Surflight.jpg",
+      "type": "comedy",
+      "id": "18d519d52879501a",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.095Z"
+    },
+    {
       "title": "Barnegat Quakers Hold Weekly Worship",
       "description": "Weekly Worship For an hour every Sunday at 10 am, the Barnegat Quakers gather in the living silence, as others have done on our Meeting’s benches for hundreds of years. In that quiet space we feel the peace that refreshes and renews us. As moved, we share our thoughts - our vocal ministry. After worship we enjoy each other’s company, and those who are available continue the fellowship over a breakfast out together. Newcomers are our guests. Monthly - Friends, Food and Fellowship The Barnegat Friends host an open house brunch the fourth Sunday every month. We worship at 10 am, then enjoy fellowship from 11 am until the last person leaves. &nbsp;",
       "url": "https://www.thesandpaper.net/events/barnegat-quakers-hold-weekly-worship/",
@@ -23876,6 +26116,25 @@
         "name": "Surf City Hotel"
       },
       "ingestedAt": "2026-05-26T20:23:29.299Z"
+    },
+    {
+      "title": "La Traviata by Center Stage Opera Co.",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/la-traviata-by-center-stage-opera-co-1589555?sourceTypeId=Website",
+      "start": "2026-11-15T00:30:00.000Z",
+      "end": "2026-11-15T03:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921503/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/e36cad6ea863424480cd86576d8aefe9/Surflight.jpg",
+      "type": "theater",
+      "id": "c76104d26c5426c7",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.095Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -24068,6 +26327,25 @@
       "ingestedAt": "2026-05-26T20:23:54.510Z"
     },
     {
+      "title": "Holidays with The Duprees",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/holidays-with-the-duprees-1589559?sourceTypeId=Website",
+      "start": "2026-11-22T19:00:00.000Z",
+      "end": "2026-11-22T20:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921732/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/f10e119b2c4949b3a39561e742158f12/Surflight.jpg",
+      "type": "other",
+      "id": "c1c81047336cea57",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.096Z"
+    },
+    {
       "title": "Knitting Group Meets at Beach Haven Library",
       "description": "Knitting group meets every Tuesday. Bring your current project, enjoy good company and spend time with fellow knitters at the library. If you have any questions please call us at 609-492-7081.",
       "url": "https://www.thesandpaper.net/events/knitting-group-meets-at-beach-haven-library-3/",
@@ -24181,6 +26459,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:54.516Z"
+    },
+    {
+      "title": "Holiday Inn",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/holiday-inn-1589204?sourceTypeId=Website",
+      "start": "2026-11-28T19:00:00.000Z",
+      "end": "2026-12-20T21:30:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765916771/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/68bd2658dccf41afb1a208e9ad904ee8/surflight-profile-pic.jpg",
+      "type": "other",
+      "id": "caefcb7973aed097",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.096Z"
     },
     {
       "title": "Mark Sosis",
@@ -25107,6 +27404,25 @@
         "name": "The Sandpaper Events"
       },
       "ingestedAt": "2026-05-26T20:23:54.648Z"
+    },
+    {
+      "title": "New Year's Eve Bubbly Bash with The Rave-Ons",
+      "url": "https://business.visitlbiregion.com/community-calendar/Details/new-year-s-eve-bubbly-bash-with-the-rave-ons-1589566?sourceTypeId=Website",
+      "start": "2026-12-31T22:00:00.000Z",
+      "end": "2027-01-01T03:00:00.000Z",
+      "location": {
+        "town": "Ship Bottom",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "imageUrl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_948,w_960,x_0,y_0/f_auto/q_auto/f_auto/c_limit,h_100,w_250/q_auto/v1765921760/tenants/d95d39f8-fe65-448f-b5cb-a0cf1cb4e532/df20621b9ab74139b593502ce969f007/Surflight.jpg",
+      "type": "other",
+      "id": "96507edf6d5a6eb7",
+      "source": {
+        "id": "southern-ocean-county-chamber-of-commerc",
+        "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
+      },
+      "ingestedAt": "2026-05-26T20:39:04.097Z"
     },
     {
       "title": "Kiwanis of LBI Meets",
