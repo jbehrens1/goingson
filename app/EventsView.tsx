@@ -274,14 +274,20 @@ export default function EventsView({
   }, [facets, colVenues]);
 
   const columnTypeOptions = useMemo(() => {
+    // EVENT_TYPES is in priority/specificity order (mahjong > comedy >
+    // live-music ...) — that order matters for categorize() but is wrong
+    // for the user-facing picker. Sort by display label so the dropdown
+    // matches Town and Venue (which are alphabetized).
     return EVENT_TYPES.filter((t) => {
       const count = facets.typeCounts.get(t) ?? 0;
       return count > 0 || selectedTypes.has(t);
-    }).map((t) => ({
-      key: t,
-      label: TYPE_LABELS[t],
-      count: facets.typeCounts.get(t) ?? 0,
-    }));
+    })
+      .map((t) => ({
+        key: t,
+        label: TYPE_LABELS[t],
+        count: facets.typeCounts.get(t) ?? 0,
+      }))
+      .sort((a, b) => a.label.localeCompare(b.label));
   }, [facets, selectedTypes]);
 
   const filtered = useMemo(() => {
