@@ -209,6 +209,14 @@
       "adapter": "ical",
       "url": "https://www.marlinlbi.com/",
       "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
+    },
+    {
+      "id": "nardis-tavern",
+      "name": "Nardis Tavern",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://www.nardistavern.com/band-schedule?view=calendar&month=05-2026",
+      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
 }
