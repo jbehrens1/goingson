@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import { SiteHeader } from "./_components/SiteHeader";
@@ -10,6 +10,15 @@ export const metadata: Metadata = {
     template: "Goings On — %s",
   },
   description: "Local events aggregated from venues, towns, and calendars across the region.",
+};
+
+// Viewport meta tag — critical for mobile. Without `width=device-width`,
+// iOS/Android browsers fall back to a 980px-wide layout viewport and shrink
+// the page to fit, making everything render at ~37% scale (illegible).
+// `maximumScale` is intentionally omitted so users can still pinch-zoom.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
