@@ -1132,3 +1132,21 @@
 {"ts":"2026-05-26T21:43:39.642Z","regionId":"metrowest","sourceId":"wgbh-culture-show","adapter":"html-generic","url":"https://www.wgbh.org/shows/the-culture-show","count":0,"warnings":["wgbh-culture-show: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."]}
 {"ts":"2026-05-26T21:43:39.642Z","regionId":"metrowest","sourceId":"axios-boston-things-to-do","adapter":"html-generic","url":"https://www.axios.com/local/boston/things-to-do","count":0,"warnings":["HTTP 403 fetching https://www.axios.com/local/boston/things-to-do"]}
 {"ts":"2026-05-26T21:43:39.642Z","regionId":"metrowest","sourceId":"sherborn-events","adapter":"html-generic","url":"https://sherbornma.assabetinteractive.com/calendar/","count":40}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"paam","adapter":"ical","url":"https://paam.org/events/?ical=1","count":27}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"trustees","adapter":"trustees","url":"https://thetrustees.org/events/","count":6}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"ptown-gov","adapter":"rss","url":"https://www.provincetown-ma.gov/RSSFeed.aspx?ModID=58&CID=0","count":17}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"truro-gov","adapter":"rss","url":"https://www.truro-ma.gov/RSSFeed.aspx?ModID=58&CID=0","count":3}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"eastham-gov","adapter":"rss","url":"https://www.eastham-ma.gov/RSSFeed.aspx?ModID=58&CID=0","count":0}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"orleans-gov","adapter":"rss","url":"https://www.town.orleans.ma.us/RSSFeed.aspx?ModID=58&CID=0","count":24}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"truro-historical","adapter":"html-generic","url":"https://trurohistoricalsociety.org/events/","count":12}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"what-wellfleet","adapter":"html-generic","url":"https://what.org/events/","count":0,"warnings":["what-wellfleet: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."]}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"castle-hill","adapter":"squarespace-events","url":"https://castlehill.org/","count":197,"warnings":["castle-hill: 0 events at https://castlehill.org/events/?format=json-pretty (check if events collection exists or season is over)."]}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"wellfleet-preservation-hall","adapter":"ical","url":"https://tockify.com/api/feeds/ics/prezhall","count":551}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"wellfleet-library","adapter":"squarespace-events","url":"https://wellfleetlibrary.org/","count":139}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"provincetown-library","adapter":"squarespace-events","url":"https://www.provincetownlibrary.org/","count":26}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"snow-library","adapter":"squarespace-events","url":"https://www.snowlibrary.org/","count":0,"warnings":["HTTP 404 fetching https://www.snowlibrary.org/events/?format=json-pretty"]}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"wellfleet-pearl","adapter":"wordpress-tribe","url":"https://wellfleetpearl.com/","count":145}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"truro-vineyards","adapter":"manual-oneoff","url":"https://trurovineyardsofcapecod.com/events-calendar/","count":77}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"truro-vineyards-2","adapter":"ical","url":"https://trurovineyardsofcapecod.com/","count":0}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"payomet","adapter":"wordpress-tribe","url":"https://payomet.org/","count":75}
+{"ts":"2026-05-27T00:21:49.455Z","regionId":"outercape","sourceId":"post-office-cabaret","adapter":"ical","url":"https://postofficecafecabaret.thundertix.com/","count":0}
