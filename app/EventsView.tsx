@@ -483,6 +483,31 @@ export default function EventsView({
 
   const hasMultipleRegions = !!manifest && manifest.regions.length > 1;
 
+  // One-line summary for the collapsible filter chip on mobile. Pulls together
+  // the center, distance, and date-range so the user can see what's set
+  // without expanding. On desktop the chip is hidden by CSS — the full
+  // filter card is always visible there.
+  const filterSummary = (() => {
+    const parts: string[] = [];
+    if (center.mode === "resolved") {
+      parts.push(`${center.label} · ${distanceMi}mi`);
+    } else if (center.mode === NO_LOCATION) {
+      parts.push("No location");
+    } else {
+      parts.push("Anywhere");
+    }
+    const fmt = (iso: string) =>
+      new Date(iso + "T12:00:00").toLocaleDateString(region.locale, {
+        month: "short",
+        day: "numeric",
+        timeZone: region.timeZone,
+      });
+    if (fromDate && toDate) parts.push(`${fmt(fromDate)}–${fmt(toDate)}`);
+    else if (fromDate) parts.push(`from ${fmt(fromDate)}`);
+    else if (toDate) parts.push(`until ${fmt(toDate)}`);
+    return parts.join(" · ");
+  })();
+
   return (
     <main>
       <header>
@@ -513,6 +538,15 @@ export default function EventsView({
         {regionError && <p className="error">Region load failed: {regionError}</p>}
       </header>
 
+      {/* Mobile: collapsible disclosure (default closed) so the dense filter
+       * card doesn't push the events below the fold. Desktop: CSS hides the
+       * <summary> and force-shows the body, so the layout is unchanged. */}
+      <details className="filters-collapsible">
+        <summary className="filters-summary">
+          <span className="filters-summary-label">Filters</span>
+          <span className="filters-summary-text">{filterSummary}</span>
+          <span className="filters-summary-caret" aria-hidden>▾</span>
+        </summary>
       <section className="filters">
         <div className="filter-row">
           <label className="grow">
@@ -608,6 +642,7 @@ export default function EventsView({
           )}
         </div>
       </section>
+      </details>
 
       {refreshError && <p className="error">Refresh failed: {refreshError}</p>}
 

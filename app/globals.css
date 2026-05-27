@@ -108,6 +108,25 @@ header .muted,
   background: color-mix(in srgb, var(--bg) 80%, var(--pill-bg));
 }
 
+/* Collapsible wrapper around the filter card. The <details> element is used
+ * so the disclosure works without JS. On DESKTOP (default cascade here) we
+ * hide the summary chip entirely and force the filter body to render
+ * regardless of the [open] state — the disclosure becomes invisible plumbing.
+ * On MOBILE the @media block below restores native <details> behavior:
+ * summary is shown, body collapses when not [open]. Default is closed. */
+.filters-collapsible {
+  display: block;
+}
+.filters-summary {
+  display: none;
+}
+.filters-collapsible > .filters {
+  /* Override the user-agent rule `details > :not(summary) { display: none }`
+   * that hides children when the <details> is collapsed. On desktop the
+   * body must always be visible — the disclosure is a no-op there. */
+  display: flex !important;
+}
+
 .filter-row {
   display: flex;
   flex-wrap: wrap;
@@ -1639,6 +1658,77 @@ footer {
   }
   header h1 {
     font-size: 1.4rem;
+  }
+
+  /* --- Collapsible filter disclosure ---
+   * On mobile, the dense Center-on/Within/From/To/Refresh block is hidden
+   * behind a one-line summary chip. Default state is closed so the events
+   * list is immediately visible below the header. Tapping the summary
+   * expands the full filter card; the chip rotates its caret to ▴.
+   * The summary text comes from EventsView ("Anywhere · from May 26", etc.)
+   * so the user knows their current filter without expanding.
+   * The desktop-cascade rule `.filters-collapsible > .filters { display: flex !important }`
+   * is overridden inside the [not-open] selector below — and we re-enable
+   * the UA hide so the body collapses with the disclosure. */
+  .filters-collapsible {
+    margin: 1.25rem 0 0;
+  }
+  .filters-summary {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--bg) 80%, var(--pill-bg));
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+  .filters-summary::-webkit-details-marker {
+    display: none;
+  }
+  .filters-summary-label {
+    font-weight: 600;
+    color: var(--fg);
+    flex-shrink: 0;
+  }
+  .filters-summary-text {
+    flex: 1;
+    min-width: 0;
+    color: var(--muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .filters-summary-caret {
+    color: var(--muted);
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+  }
+  details.filters-collapsible[open] .filters-summary-caret {
+    transform: rotate(180deg);
+  }
+  /* When expanded, merge the summary chip visually with the filter card
+   * below it (shared border, no double-border in the seam). */
+  details.filters-collapsible[open] .filters-summary {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+  }
+  /* Default-collapsed: hide the body, overriding the desktop !important
+   * rule. The chip stands alone until tapped. */
+  details.filters-collapsible:not([open]) > .filters {
+    display: none !important;
+  }
+  details.filters-collapsible[open] > .filters {
+    /* Cap top corners flat so it joins the summary chip. */
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 
   /* --- Top filter card: stack labels vertically --- */
