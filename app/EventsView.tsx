@@ -870,8 +870,13 @@ export default function EventsView({
                       {isIcsUrl(ev.url) ? (
                         // Title link would just download an .ics file — not
                         // useful as a description. Route the title click to
-                        // the add-to-calendar widget instead. No second icon.
-                        <AddToCalendar event={ev} triggerLabel={ev.title} />
+                        // the add-to-calendar widget. Always render the
+                        // standalone calendar icon too so every event has a
+                        // consistent action affordance.
+                        <>
+                          <AddToCalendar event={ev} triggerLabel={ev.title} />
+                          <AddToCalendar event={ev} />
+                        </>
                       ) : (
                         <>
                           <a
@@ -934,7 +939,10 @@ export default function EventsView({
                     <td className="col-event">
                       <span className="event-title-row">
                         {isIcsUrl(ev.url) ? (
-                          <AddToCalendar event={ev} triggerLabel={ev.title} />
+                          <>
+                            <AddToCalendar event={ev} triggerLabel={ev.title} />
+                            <AddToCalendar event={ev} />
+                          </>
                         ) : (
                           <>
                             <a
