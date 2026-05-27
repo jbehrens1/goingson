@@ -653,6 +653,15 @@ export default function EventsView({
         )}
       </div>
 
+      {/* Inner disclosure: Center-on/dates/Refresh defaults COLLAPSED so the
+       * filter card doesn't show every input by default. Most users browsing
+       * a region don't need to change the date range or set a location —
+       * those are advanced filters. Click "Location & dates" to expand. */}
+      <details className="filters-loc">
+        <summary className="filters-loc-summary">
+          <span className="filters-loc-label">Location &amp; dates</span>
+          <span className="filters-loc-caret" aria-hidden>▾</span>
+        </summary>
       <section className="filters">
         <div className="filter-row">
           <label className="grow">
@@ -748,6 +757,7 @@ export default function EventsView({
           )}
         </div>
       </section>
+      </details>
       </details>
 
       {refreshError && <p className="error">Refresh failed: {refreshError}</p>}

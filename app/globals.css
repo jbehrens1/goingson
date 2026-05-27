@@ -120,17 +120,60 @@ header .muted,
 .filters-summary {
   display: none;
 }
-.filters-collapsible > .filters {
+.filters-collapsible > .filters-loc {
   /* Override the user-agent rule `details > :not(summary) { display: none }`
-   * that hides children when the <details> is collapsed. On desktop the
-   * body must always be visible — the disclosure is a no-op there. */
-  display: flex !important;
+   * that hides the inner Location-disclosure when the OUTER filter card
+   * is collapsed. On desktop the outer is a no-op (always open), so this
+   * just ensures the inner disclosure renders. */
+  display: block !important;
 }
 /* The mobile-only quick-filter pickers (Types/Towns/Venues/Title) live
  * inside the disclosure for narrow screens. On desktop they're redundant
  * with the column-header row and stay hidden regardless of [open]. */
 .filters-pickers {
   display: none;
+}
+
+/* Inner disclosure for Center-on / Within / From / To / Refresh. Defaults
+ * collapsed on both mobile and desktop so the dense input grid doesn't
+ * dominate the page. Click "Location & dates" to expand. */
+.filters-loc {
+  margin-top: 0.85rem;
+}
+.filters-loc-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  font-size: 0.85rem;
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+}
+.filters-loc-summary::-webkit-details-marker {
+  display: none;
+}
+.filters-loc-summary:hover {
+  color: var(--fg);
+  border-color: var(--accent);
+}
+.filters-loc-label {
+  font-weight: 600;
+}
+.filters-loc-caret {
+  font-size: 0.7rem;
+  transition: transform 0.15s ease;
+}
+details.filters-loc[open] > .filters-loc-summary .filters-loc-caret {
+  transform: rotate(180deg);
+}
+details.filters-loc[open] > .filters {
+  /* When opened, give it a top margin so it sits below the summary chip. */
+  margin-top: 0.5rem;
 }
 
 .filter-row {
