@@ -226,6 +226,14 @@
       "url": "https://postofficecafecabaret.thundertix.com/",
       "town": "Provincetown",
       "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
+    },
+    {
+      "id": "provicetown-independent",
+      "name": "Provicetown Independent",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://provincetownindependent.org/category/indies-choice/",
+      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
 }
