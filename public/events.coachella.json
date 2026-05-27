@@ -24,8 +24,8 @@
       "Desert Hot Springs, CA"
     ]
   },
-  "generatedAt": "2026-05-27T02:55:17.858Z",
-  "count": 146,
+  "generatedAt": "2026-05-27T12:10:50.790Z",
+  "count": 185,
   "events": [
     {
       "title": "Walking Club",
@@ -120,6 +120,23 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-27T02:54:37.921Z"
+    },
+    {
+      "title": "Dummy // Locust",
+      "description": "(((folkYEAH!))) Presents:\nHarmony Index\nSupporting Talent: Harmony Index\nRock\nAll Ages · $23.00-$27.00",
+      "url": "https://wl.seetickets.us/event/dummy-locust/684930?afflky=pappyandharriets",
+      "start": "2026-05-29T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "54cf820362725437",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.878Z"
     },
     {
       "title": "Palm Springs 70mm Fest",
@@ -229,6 +246,23 @@
       "ingestedAt": "2026-05-27T02:54:37.923Z"
     },
     {
+      "title": "Karma Dealers",
+      "description": "Pappy & Harriet’s Presents:\nThe Kearns Family, Hammer of the Ozz\nSupporting Talent: The Kearns Family, Hammer of the Ozz\nRock\nAll Ages · $20.00",
+      "url": "https://wl.seetickets.us/event/karma-dealers/689950?afflky=pappyandharriets",
+      "start": "2026-05-30T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "family",
+      "id": "b56e01e5f53301f8",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.880Z"
+    },
+    {
       "title": "Frey House II Tour + Museum Day Pass",
       "description": "Tour the longtime residence of acclaimed midcentury architect Albert Frey. Perched on the hillside above Palm Springs Art Museum, the modern abode is a study in simplicity and Frey’s desire to commune with nature and is perhaps best known for the boulder that juts through one window. Home tour tickets provide complimentary access to the Palm Springs Art Museum and Architecture and Design Center. Saturday Tours: Through May 30, 2026",
       "url": "https://www.palmspringslife.com/event/frey-house-ii-tour-museum-day-pass/2026-05-30/",
@@ -330,6 +364,23 @@
       "ingestedAt": "2026-05-27T02:54:54.635Z"
     },
     {
+      "title": "Black Crystal Wolf Kids",
+      "description": "Pappy & Harriet’s Presents:\nThe Pretty Flowers\nSupporting Talent: The Pretty Flowers\nRock\nAll Ages · $21.00-$26.00",
+      "url": "https://wl.seetickets.us/event/black-crystal-wolf-kids/684964?afflky=pappyandharriets",
+      "start": "2026-05-31T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "family",
+      "id": "26b8ae69292cdd47",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.881Z"
+    },
+    {
       "title": "Maná at Acrisure Arena",
       "description": "Following overwhelming fan response, Maná has added a second Greater Palm Springs date to its Vivir Sin Aire Tour, arriving May 31 at Acrisure Arena. The iconic band—known for boundary-pushing rock and a long-standing commitment to environmental advocacy—now offers audiences two opportunities to catch the tour locally, with an additional performance scheduled for September 26. For a group celebrated worldwide, this added date is less an encore than a testament to enduring appeal.",
       "url": "https://www.palmspringslife.com/event/mana-at-acrisure-arena/",
@@ -389,6 +440,40 @@
       "ingestedAt": "2026-05-27T02:54:38.179Z"
     },
     {
+      "title": "5th Annual – Beneath The Desert Sky Benefit Concert",
+      "description": "Joshua Tree National Park Association Presents:\nft: Sin City All Stars // The Ghost Notes // Long Duk Dong\nSupporting Talent: Long Duk Dong, The Ghost Notes\nRock\nAll Ages · $26.00-$36.00",
+      "url": "https://wl.seetickets.us/event/5th-annual-beneath-the-desert-sky-benefit-concert/684947?afflky=pappyandharriets",
+      "start": "2026-06-01T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "7ddd48017bb69c65",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.884Z"
+    },
+    {
+      "title": "Alain Whyte Band",
+      "description": "Pappy & Harriet’s Presents:\nYour Arsenal Tour\nRock\nAll Ages · $26.00-$31.00",
+      "url": "https://wl.seetickets.us/event/alain-whyte-band/684819?afflky=pappyandharriets",
+      "start": "2026-06-03T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "b7456120d254f6a9",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.885Z"
+    },
+    {
       "title": "Kimberly Cofer and the Tumbleweeds",
       "description": "Kimberly Cofer and the Tumbleweeds perform at the Cascade Lounge at Agua Caliente Casino Palm Springs on June 3. The Coachella Valley artist blends Americana, folk, and country in a set rooted in storytelling and desert influence.",
       "url": "https://www.palmspringslife.com/event/kimberly-cofer-and-the-tumbleweeds/",
@@ -413,6 +498,23 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "Camera Obscura",
+      "description": "Pappy & Harriet’s Presents:\nLouis Abbott from Admiral Fallow\nSupporting Talent: Louis Abbott\nRock\nAll Ages · $36.00-$41.00",
+      "url": "https://wl.seetickets.us/event/camera-obscura/685232?afflky=pappyandharriets",
+      "start": "2026-06-04T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "efdd82fd374a8372",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.885Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -537,6 +639,23 @@
       "ingestedAt": "2026-05-27T02:54:37.927Z"
     },
     {
+      "title": "Allah-Las",
+      "description": "Pappy & Harriet’s Presents:\nSam Blasucci\nSupporting Talent: Sam Blasucci\nRock\nAll Ages · $35.00-$105.00",
+      "url": "https://wl.seetickets.us/event/allah-las/680654?afflky=pappyandharriets",
+      "start": "2026-06-06T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "043a417edadaf217",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.885Z"
+    },
+    {
       "title": "House Party PS: Pink Saturday 4",
       "description": "House Party PS: Pink Saturday 4 returns as a fundraiser for the Mizell Center’s Meals on Wheels program, presented by the Richmond/Ermet Aid Foundation. The evening features an open bar, silent auction, and performances by Keisha D, Steve Knill, Sheri Ray Parker, A Cabbello men’s chorus, and DJ Galazy, with Bella Da Ball emceeing.",
       "url": "https://www.palmspringslife.com/event/house-party-ps-pink-saturday-4-2/",
@@ -562,6 +681,23 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "Dave Catching’s 65th Birthday Celebration",
+      "description": "Pappy & Harriet’s Presents:\nFT: Gnarltones, Dave Catching, Quintron & Miss Pussycat\nRock\nAll Ages · $10.00",
+      "url": "https://wl.seetickets.us/event/dave-catchings-65th-birthday-celebration/685389?afflky=pappyandharriets",
+      "start": "2026-06-07T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "community",
+      "id": "6ebafac9b3048415",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.885Z"
     },
     {
       "title": "Tribute to Heart",
@@ -612,6 +748,23 @@
         "name": "The Living Desert Zoo & Gardens"
       },
       "ingestedAt": "2026-05-27T02:54:38.507Z"
+    },
+    {
+      "title": "The Messthetics",
+      "description": "Pappy & Harriet’s Presents:\nJames Brandon Lewis, Chris Forsyth\nSupporting Talent: James Brandon Lewis, Chris Forsyth\nRock\nAll Ages · $20.00-$25.00",
+      "url": "https://wl.seetickets.us/event/the-messthetics/684251?afflky=pappyandharriets",
+      "start": "2026-06-10T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "e224b97961e0d812",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.886Z"
     },
     {
       "title": "The Juke Joint Preachers",
@@ -838,6 +991,23 @@
       "ingestedAt": "2026-05-27T02:54:40.861Z"
     },
     {
+      "title": "Sir Woman",
+      "description": "Pappy & Harriet’s Presents:\nSummer Tour 2026\nRock\nAll Ages · $25.00-$30.00",
+      "url": "https://wl.seetickets.us/event/sir-woman/688080?afflky=pappyandharriets",
+      "start": "2026-06-12T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "5897a9336715c9cd",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.886Z"
+    },
+    {
       "title": "Edith Márquez at Fantasy Springs Resort Casino",
       "description": "Mexican music icon Edith Márquez brings her powerhouse vocals to the Special Events Center at Fantasy Springs Resort Casino, showcasing decades of pop, bolero, and ranchera hits.",
       "url": "https://www.palmspringslife.com/event/edith-marquez-at-fantasy-springs-resort-casino/",
@@ -970,6 +1140,23 @@
       "ingestedAt": "2026-05-27T02:54:37.928Z"
     },
     {
+      "title": "Three Bad Jacks",
+      "description": "Pappy & Harriet’s Presents:\nCliff Roman’s Weirdos // The Maraschinos\nSupporting Talent: The Maraschinos, Cliff Roman, The Weirdos\nRock\nAll Ages · $16.00-$21.00",
+      "url": "https://wl.seetickets.us/event/three-bad-jacks/693095?afflky=pappyandharriets",
+      "start": "2026-06-13T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "4a4cb8707fa99473",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.886Z"
+    },
+    {
       "title": "Gene Simmons Band at Fantasy Springs Resort Casino",
       "description": "Rock legend Gene Simmons brings KISS classics to Fantasy Springs Resort Casino with the Gene Simmons Band, delivering electrifying hits like “Rock and Roll All Night” and “Shout It Out Loud.”",
       "url": "https://www.palmspringslife.com/event/gene-simmons-band-at-fantasy-springs-resort-casino/",
@@ -1048,6 +1235,23 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Moonsville Collective",
+      "description": "Pappy & Harriet’s Presents:\nPat Tumbler\nSupporting Talent: Pat Tumbler\nRock\nAll Ages · $15.00-$20.00",
+      "url": "https://wl.seetickets.us/event/moonsville-collective/688962?afflky=pappyandharriets",
+      "start": "2026-06-14T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "7d68af6201704da4",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.887Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1156,6 +1360,23 @@
       "ingestedAt": "2026-05-27T02:54:38.179Z"
     },
     {
+      "title": "Chayce Beckham",
+      "description": "Pappy & Harriet’s Presents:\nCountry\nAll Ages · $28.50-$33.50",
+      "url": "https://wl.seetickets.us/event/chayce-beckham/691312?afflky=pappyandharriets",
+      "start": "2026-06-18T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "6199db39ced8aaee",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.887Z"
+    },
+    {
       "title": "Summer ZooCamp 2026",
       "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-18/",
       "start": "2026-06-18T15:00:00.000Z",
@@ -1250,6 +1471,23 @@
       "ingestedAt": "2026-05-27T02:54:40.861Z"
     },
     {
+      "title": "AK’CHAMEL, THE GIVER OF ILLNESS",
+      "description": "Desert Daze + Pappy & Harriet’s Present:\nNT Fan // Derek Monypeny\nSupporting Talent: Secret Chiefs 3, Derek Monypeny, NT Fan\nRock\nAll Ages · $20.00-$25.00",
+      "url": "https://wl.seetickets.us/event/akchamel-the-giver-of-illness/682941?afflky=pappyandharriets",
+      "start": "2026-06-19T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "e7336aa8d912fc9f",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.887Z"
+    },
+    {
       "title": "Juneteenth Comedy Showcase featuring Ralph Porter",
       "description": "Celebrate Juneteenth with an evening of bold, culture-driven comedy as Ralph Porter headlines a dynamic showcase at Agua Caliente Casino Palm Springs. Featuring a curated lineup of Black comedians, the night blends sharp storytelling, high-energy sets, and powerful perspectives in a lively, community-centered celebration.",
       "url": "https://www.palmspringslife.com/event/juneteenth-comedy-showcase-featuring-ralph-porter/",
@@ -1329,6 +1567,23 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "The Builders and the Butchers",
+      "description": "Pappy & Harriet’s Presents:\nYes Ma’am, Little Foot\nSupporting Talent: Yes Ma’am, Little Foot\nRock\nAll Ages · $20.00-$25.00",
+      "url": "https://wl.seetickets.us/event/the-builders-and-the-butchers/681912?afflky=pappyandharriets",
+      "start": "2026-06-20T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "ca5cdba3fd950e63",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.888Z"
     },
     {
       "title": "Bob Dylan at Acrisure Arena",
@@ -1438,6 +1693,23 @@
         "name": "Acrisure Arena"
       },
       "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "The Rare Occasions",
+      "description": "Pappy & Harriet’s Presents:\nGirl Tones\nSupporting Talent: Girl Tones\nRock\nAll Ages · $20.00-$35.00",
+      "url": "https://wl.seetickets.us/event/the-rare-occasions/688224?afflky=pappyandharriets",
+      "start": "2026-06-21T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "8012a4efdc9b2a48",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.888Z"
     },
     {
       "title": "World Giraffe Day 2026",
@@ -1659,6 +1931,23 @@
       "ingestedAt": "2026-05-27T02:54:40.861Z"
     },
     {
+      "title": "Whitewater",
+      "description": "Dunes Booking Presents:\nFever Dog, Whiskey & Knives\nSupporting Talent: Fever Dog, Whiskey & Knives\nRock\nAll Ages · $10.00-$15.00",
+      "url": "https://wl.seetickets.us/event/whitewater/692331?afflky=pappyandharriets",
+      "start": "2026-06-26T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "a6cec62c9593e3fc",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.890Z"
+    },
+    {
       "title": "Sarper Güven Comedy Show at Cascade Lounge",
       "description": "Sarper Güven, known for his stint on the reality-TV show 90 Day Fiancé, will perform a stand-up comedy show focused on love and relationships at Agua Caliente Casino Palm Springs’ Cascade Lounge.",
       "url": "https://www.palmspringslife.com/event/sarper-guven-comedy-show/",
@@ -1684,6 +1973,57 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Monolord",
+      "description": "Pappy & Harriet’s Presents:\nMizmor\nSupporting Talent: Mizmor\nRock\nAll Ages · $30.00-$35.00",
+      "url": "https://wl.seetickets.us/event/monolord/672815?afflky=pappyandharriets",
+      "start": "2026-06-27T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "fd04069209af31ae",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.890Z"
+    },
+    {
+      "title": "Gia Margaret",
+      "description": "Sid The Cat Presents:\nwith: Brendan Eder Ensemble\nSupporting Talent: Brendan Eder, Brendan Eder Ensemble\nRock\nAll Ages · $25.00",
+      "url": "https://wl.seetickets.us/event/gia-margaret/680123?afflky=pappyandharriets",
+      "start": "2026-06-28T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "cb220523312f7c7f",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.890Z"
+    },
+    {
+      "title": "Khemmis",
+      "description": "Pappy & Harriet’s Presents:\nNecrofier, Wretched\nSupporting Talent: Necrofier, Wretched\nRock\nAll Ages · $26.00-$31.00",
+      "url": "https://wl.seetickets.us/event/khemmis/687477?afflky=pappyandharriets",
+      "start": "2026-06-29T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "2493c6a6481d8d7a",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.891Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1872,6 +2212,23 @@
       "ingestedAt": "2026-05-27T02:54:54.635Z"
     },
     {
+      "title": "Pearl Charles",
+      "description": "Pappy & Harriet’s Presents:\nCarson McHone\nSupporting Talent: Carson McHone\nRock\nAll Ages · $21.00-$26.00",
+      "url": "https://wl.seetickets.us/event/pearl-charles/687918?afflky=pappyandharriets",
+      "start": "2026-07-08T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "4bcb4fb667f11723",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.891Z"
+    },
+    {
       "title": "VillageFest every Thursday",
       "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
       "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-07-09/",
@@ -1892,6 +2249,40 @@
         "name": "VillageFest"
       },
       "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Toody Cole (of Dead Moon) & Her Band",
+      "description": "Desert Daze // Pappy & Harriet’s Presents:\nCissi TV\nSupporting Talent: Cissi TV\nRock\nAll Ages · $21.00-$26.00",
+      "url": "https://wl.seetickets.us/event/toody-cole-of-dead-moon-and-her-band/684830?afflky=pappyandharriets",
+      "start": "2026-07-12T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "ad8f22454d73c4e0",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.891Z"
+    },
+    {
+      "title": "Beats Antique",
+      "description": "Pappy & Harriet’s Presents:\nRock\nAll Ages · $29.50-$34.50",
+      "url": "https://wl.seetickets.us/event/beats-antique/682630?afflky=pappyandharriets",
+      "start": "2026-07-16T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "9e8cf8336f0085b9",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.892Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -1916,6 +2307,57 @@
       "ingestedAt": "2026-05-27T02:54:40.861Z"
     },
     {
+      "title": "Reverend Horton Heat",
+      "description": "Pappy & Harriet’s Presents:\nw/ Special Guests: The Rhythm Shakers\nSupporting Talent: The Rhythm Shakers\nRock\nAll Ages · $35.00-$40.00",
+      "url": "https://wl.seetickets.us/event/reverend-horton-heat/687648?afflky=pappyandharriets",
+      "start": "2026-07-17T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "80b7354a85a42b8b",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.893Z"
+    },
+    {
+      "title": "Starcrawler",
+      "description": "Pappy & Harriet’s Presents:\nSluttony\nSupporting Talent: Sluttony\nRock\nAll Ages · $21.00-$26.00",
+      "url": "https://wl.seetickets.us/event/starcrawler/688237?afflky=pappyandharriets",
+      "start": "2026-07-18T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "e0e1c216a5f2b530",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.894Z"
+    },
+    {
+      "title": "James McMurtry",
+      "description": "Pappy & Harriet’s Presents:\nBettySoo\nSupporting Talent: BettySoo\nRock\nAll Ages · $30.00-$35.00",
+      "url": "https://wl.seetickets.us/event/james-mcmurtry/685638?afflky=pappyandharriets",
+      "start": "2026-07-19T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "83c63fd43273ffb1",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.895Z"
+    },
+    {
       "title": "VillageFest every Thursday",
       "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
       "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-07-23/",
@@ -1936,6 +2378,40 @@
         "name": "VillageFest"
       },
       "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Hawthorne Heights [2 Day Pass]",
+      "description": "Pappy & Harriet’s Presents:\nEmery\nSupporting Talent: Emery\nRock\nAll Ages · $70.00",
+      "url": "https://wl.seetickets.us/event/hawthorne-heights-2-day-pass/686841?afflky=pappyandharriets",
+      "start": "2026-07-24T03:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "bc840937f580bb0b",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.895Z"
+    },
+    {
+      "title": "Hawthorne Heights – [Night 1]",
+      "description": "Pappy & Harriet’s Presents:\nEmery\nSupporting Talent: Emery\nRock\nAll Ages · $35.00-$40.00",
+      "url": "https://wl.seetickets.us/event/hawthorne-heights-night-1/686510?afflky=pappyandharriets",
+      "start": "2026-07-24T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "3bd059753374a5e5",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.895Z"
     },
     {
       "title": "Teachers Gone Bad Comedy Show",
@@ -1964,6 +2440,23 @@
       "ingestedAt": "2026-05-27T02:54:37.929Z"
     },
     {
+      "title": "Hawthorne Heights – [Night 2 Acoustic]",
+      "description": "Pappy & Harriet’s Presents:\nEmery\nSupporting Talent: Emery\nRock\nAll Ages · $35.00-$40.00",
+      "url": "https://wl.seetickets.us/event/hawthorne-heights-night-2-acoustic/686522?afflky=pappyandharriets",
+      "start": "2026-07-25T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "b58d973ea98e680c",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.896Z"
+    },
+    {
       "title": "Cole Swindell at Fantasy Springs Resort Casino",
       "description": "Country hitmaker Cole Swindell brings his chart-topping anthems to the Special Events Center at Fantasy Springs Resort Casino for a high-energy summer night of modern country.",
       "url": "https://www.palmspringslife.com/event/cole-swindell-at-fantasy-springs-resort-casino/",
@@ -1989,6 +2482,40 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "Dinosaur Pile‐Up",
+      "description": "Pappy & Harriet’s Presents:\nUntitled\nSupporting Talent: untitled (halo)\nRock\nAll Ages · $20.00-$25.00",
+      "url": "https://wl.seetickets.us/event/dinosaur-pileup/692137?afflky=pappyandharriets",
+      "start": "2026-07-27T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "family",
+      "id": "c45e8d3d77bc819d",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.897Z"
+    },
+    {
+      "title": "Boris Brejcha",
+      "description": "Pappy & Harriet’s Presents:\nUSA Tour 2026\nDJ/Dance\nAll Ages · $50.00-$100.00",
+      "url": "https://wl.seetickets.us/event/boris-brejcha/679241?afflky=pappyandharriets",
+      "start": "2026-07-28T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "d59c9e1f25101711",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.897Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2040,6 +2567,23 @@
       "ingestedAt": "2026-05-27T02:54:37.930Z"
     },
     {
+      "title": "Tortoise",
+      "description": "Pappy & Harriet’s Presents:\nRock\nAll Ages · $31.00-$101.00",
+      "url": "https://wl.seetickets.us/event/tortoise/692492?afflky=pappyandharriets",
+      "start": "2026-08-01T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "8275832915d6e71a",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.897Z"
+    },
+    {
       "title": "Dancing with the Stars Con 2026",
       "description": "DANCING WITH THE STARS CON 2026 THE ULTIMATE DWTS FAN CONVENTION AND LIVE SHOW A CELEBRATION OF ALL THINGS DANCING WITH THE STARS 3-Day Early Bird tickets start at $199 +Fees *All tickets are three-day tickets and provide access to the full weekend FEATURING MIRRORBALL CHAMPIONS & FAN FAVORITES BRANDON ARMSTRONG, LINDSAY ARNOLD, RYLEE ARNOLD, ALAN BERSTEN, HAILEY BILLS, HANNAH BROWN, SHARNA BURGESS, WITNEY CARSON, VAL CHMERKOVSKIY, SASHA FARBER, DANIELLE FISHEL, XOCHITL GOMEZ, JOEY GRAZIADEI, ELAINE HENDRIX, RASHAD JENNINGS, JENNA JOHNSON, DANIELLA KARAGACH, AMANDA KLOOTS, WHITNEY LEAVITT, PHAEDRA PARKS, PASHA PASHKOV, JAN RAVNIK, GLEB SAVCHENKO, JOJO SIWA, EMMA SLATER, EZRA SOSA, BRITT STEWART, JOHNNY WEIR, RUMER WILLIS, KRISTI YAMAGUCHI, GINGER ZEE, AND LEGENDARY DWTS JUDGES CARRIE ANN INABA AND BRUNO TONIOLI LIVE DANCE PERFORMANCES, LIVE PANELS, INTERACTIVE PHOTO EXPERIENCES, EXHIBITS AND SO MUCH MORE! Fans of Dancing with the Stars will get up close to all the action, when we bring the ballroom to life at the first ever Dancing with the Stars Con! The Ultimate DWTS Fan Convention and Live Show makes its dazzling debut in Palm Springs, California, from July 31 through August 2 at Acrisure Arena. TICKETS: Tickets will be available starting Saturday, February 14 at 10am PST at ticketmaster.com, the official ticketing provider of Acrisure Arena. Designed to celebrate the iconic television series and its passionate fan base, Dancing with the Stars Con will offer two live dance performances featured on the ballroom floor, interactive live panels with your DWTS favorites, interactive photo experiences, exhibits, Q&A sessions, exclusive merchandise and unique fan experiences inspired by the hit show that’s just celebrated 20 years on air!",
       "url": "https://acrisurearena.com/event/dancing-stars-2026-08-01/",
@@ -2070,6 +2614,23 @@
       "ingestedAt": "2026-05-27T02:54:38.179Z"
     },
     {
+      "title": "Tennessee Jet",
+      "description": "Pappy & Harriet’s Presents:\nRock\nAll Ages · $20.00-$25.00",
+      "url": "https://wl.seetickets.us/event/tennessee-jet/689500?afflky=pappyandharriets",
+      "start": "2026-08-02T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "0fddaa4b6205ee23",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.897Z"
+    },
+    {
       "title": "Dancing with the Stars Con 2026",
       "description": "DANCING WITH THE STARS CON 2026 THE ULTIMATE DWTS FAN CONVENTION AND LIVE SHOW A CELEBRATION OF ALL THINGS DANCING WITH THE STARS 3-Day Early Bird tickets start at $199 +Fees *All tickets are three-day tickets and provide access to the full weekend FEATURING MIRRORBALL CHAMPIONS & FAN FAVORITES BRANDON ARMSTRONG, LINDSAY ARNOLD, RYLEE ARNOLD, ALAN BERSTEN, HAILEY BILLS, HANNAH BROWN, SHARNA BURGESS, WITNEY CARSON, VAL CHMERKOVSKIY, SASHA FARBER, DANIELLE FISHEL, XOCHITL GOMEZ, JOEY GRAZIADEI, ELAINE HENDRIX, RASHAD JENNINGS, JENNA JOHNSON, DANIELLA KARAGACH, AMANDA KLOOTS, WHITNEY LEAVITT, PHAEDRA PARKS, PASHA PASHKOV, JAN RAVNIK, GLEB SAVCHENKO, JOJO SIWA, EMMA SLATER, EZRA SOSA, BRITT STEWART, JOHNNY WEIR, RUMER WILLIS, KRISTI YAMAGUCHI, GINGER ZEE, AND LEGENDARY DWTS JUDGES CARRIE ANN INABA AND BRUNO TONIOLI LIVE DANCE PERFORMANCES, LIVE PANELS, INTERACTIVE PHOTO EXPERIENCES, EXHIBITS AND SO MUCH MORE! Fans of Dancing with the Stars will get up close to all the action, when we bring the ballroom to life at the first ever Dancing with the Stars Con! The Ultimate DWTS Fan Convention and Live Show makes its dazzling debut in Palm Springs, California, from July 31 through August 2 at Acrisure Arena. TICKETS: Tickets will be available starting Saturday, February 14 at 10am PST at ticketmaster.com, the official ticketing provider of Acrisure Arena. Designed to celebrate the iconic television series and its passionate fan base, Dancing with the Stars Con will offer two live dance performances featured on the ballroom floor, interactive live panels with your DWTS favorites, interactive photo experiences, exhibits, Q&A sessions, exclusive merchandise and unique fan experiences inspired by the hit show that’s just celebrated 20 years on air!",
       "url": "https://acrisurearena.com/event/dancing-stars-2026-08-02/",
@@ -2098,6 +2659,57 @@
         "name": "Acrisure Arena"
       },
       "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "Los Straitjackets",
+      "description": "Pappy & Harriet’s Presents:\nRock\nAll Ages · $26.00-$31.00",
+      "url": "https://wl.seetickets.us/event/los-straitjackets/690887?afflky=pappyandharriets",
+      "start": "2026-08-03T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "6e0a4d8430bf5277",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.898Z"
+    },
+    {
+      "title": "Parcels – [Night 1]",
+      "description": "Pappy & Harriet’s Presents:\nLOVED TOUR 2026\nRock\nAll Ages · $49.50-$109.50",
+      "url": "https://wl.seetickets.us/event/parcels-night-1/686121?afflky=pappyandharriets",
+      "start": "2026-08-04T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "255243c4f885f410",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.898Z"
+    },
+    {
+      "title": "Parcels – [Night 2]",
+      "description": "Pappy & Harriet’s Presents:\nLOVED TOUR 2026\nRock\nAll Ages · $49.50-$109.50",
+      "url": "https://wl.seetickets.us/event/parcels-night-2/686131?afflky=pappyandharriets",
+      "start": "2026-08-05T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "a2a5e0e0ca4725cb",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.898Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2149,6 +2761,23 @@
       "ingestedAt": "2026-05-27T02:54:37.930Z"
     },
     {
+      "title": "Briscoe",
+      "description": "Pappy & Harriet’s Presents:\nAlec Shaw\nSupporting Talent: Alec Shaw\nCountry\nAll Ages · $21.00-$26.00",
+      "url": "https://wl.seetickets.us/event/briscoe/688732?afflky=pappyandharriets",
+      "start": "2026-08-08T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "a4073715906ea4a4",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.898Z"
+    },
+    {
       "title": "Lionel Richie and Earth, Wind & Fire at Acrisure Arena",
       "description": "Lionel Richie and Earth, Wind & Fire bring their Sing A Song All Night Long tour to Acrisure Arena on Aug. 8. Richie, an international superstar with more than 125 million albums sold, an Oscar, a Golden Globe, and four Grammys, continues to define longevity at the highest level. Meanwhile, Earth, Wind & Fire—founded in 1969 by Maurice White—remain one of the best-selling bands of all time, with a sound rooted in soul and shaped by decades of influence.",
       "url": "https://www.palmspringslife.com/event/lionel-richie-and-earth-wind-fire-at-acrisure-arena/",
@@ -2176,6 +2805,23 @@
       "ingestedAt": "2026-05-27T02:54:37.930Z"
     },
     {
+      "title": "Osees",
+      "description": "(((folkYEAH!))) Presents:\nBrigid Dawson, Earth Girl Helen Brown\nSupporting Talent: Brigid Dawson, Earth Girl Helen Brown\nRock\nAll Ages · $50.00",
+      "url": "https://wl.seetickets.us/event/osees/685792?afflky=pappyandharriets",
+      "start": "2026-08-09T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "6dbaf647e5754e24",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.899Z"
+    },
+    {
       "title": "Lionel Richie and Earth, Wind & Fire",
       "description": "Legendary singer, songwriter and producer Lionel Richie and one of the best-selling bands of all time, Earth, Wind & Fire announced their 2026 North American Tour. General onsale beginning Friday, January 30 at 10am local time at ticketmaster.com. International superstar Lionel Richie boasts a discography of albums and singles that is second to none. With more than 125 million albums sold worldwide, an Oscar®, Golden Globe®, and four Grammy Awards®, Richie has been honored with distinctions including 2016 MusiCares Person of the Year, and the 2017 Kennedy Center Honors. Earth, Wind & Fire are a music institution. In 1969, music legend Maurice White birthed the music force named after the elements from his very own astrological charts. With soul as deep as the plant, Earth, Wind & Fire charted a history that will live on forever. EVENT LAYOUT",
       "url": "https://acrisurearena.com/event/lionel-richie/",
@@ -2201,6 +2847,23 @@
         "name": "Acrisure Arena"
       },
       "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "Anthony Green",
+      "description": "Pappy & Harriet’s Presents:\nKeith Goodwin\nSupporting Talent: Keith Goodwin\nRock\nAll Ages · $30.00-$35.00",
+      "url": "https://wl.seetickets.us/event/anthony-green/691409?afflky=pappyandharriets",
+      "start": "2026-08-12T03:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "9d2d5a9eb3c9319a",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-27T03:04:38.899Z"
     },
     {
       "title": "VillageFest every Thursday",

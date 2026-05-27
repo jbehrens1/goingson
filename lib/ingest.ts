@@ -12,6 +12,8 @@ import { wordpressMecAdapter } from "./adapters/wordpress-mec";
 import { wordpressGeodirAdapter } from "./adapters/wordpress-geodir";
 import { beehiivLowdownAdapter } from "./adapters/beehiiv-lowdown";
 import { growthzoneCalendarAdapter } from "./adapters/growthzone-calendar";
+import { seeticketsListAdapter } from "./adapters/seetickets-list";
+import { ticketmasterAdapter } from "./adapters/ticketmaster";
 import { squarespaceEventsAdapter } from "./adapters/squarespace-events";
 import { elfsightEventsAdapter } from "./adapters/elfsight-events";
 import { trusteesAdapter } from "./adapters/trustees";
@@ -48,6 +50,8 @@ const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   "wordpress-geodir": wordpressGeodirAdapter,
   "beehiiv-lowdown": beehiivLowdownAdapter,
   "growthzone-calendar": growthzoneCalendarAdapter,
+  "seetickets-list": seeticketsListAdapter,
+  ticketmaster: ticketmasterAdapter,
   "squarespace-events": squarespaceEventsAdapter,
   "elfsight-events": elfsightEventsAdapter,
   trustees: trusteesAdapter,

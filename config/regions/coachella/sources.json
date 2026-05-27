@@ -107,34 +107,44 @@
     {
       "id": "mccallum-theatre",
       "name": "McCallum Theatre",
-      "enabled": false,
-      "adapter": "html-generic",
+      "enabled": true,
+      "adapter": "ticketmaster",
       "url": "https://mccallumtheatre.org/",
       "category": "Venue / Theater",
       "town": "Palm Desert",
-      "notes": "DISABLED — site returned 403 to our user-agent (bot-blocked). Largest event load in the valley per Bandsintown (~98 shows). Look for a published iCal/RSS endpoint or contact directly. Broadway-style productions, big-name talent."
+      "notes": "[2026-05-26 probe + 2026-05-26 follow-up] mccallumtheatre.org sits behind Kemo bot-challenge (JS gate at ?ki-cf-botcl=1) — uncircumventable server-side without a headless browser. Pivoted to Ticketmaster Discovery API which carries their full season. Requires TICKETMASTER_API_KEY env var; yields 0 events with a warning until set. After setting the key, look up the exact venueId: https://app.ticketmaster.com/discovery/v2/venues?apikey=KEY&keyword=McCallum and replace `keyword` below with `venueId` for tighter matching.",
+      "defaultEventType": "theater",
+      "config": {
+        "keyword": "McCallum Theatre"
+      }
     },
     {
       "id": "fantasy-springs",
       "name": "Fantasy Springs Resort Casino",
       "enabled": true,
-      "adapter": "html-generic",
+      "adapter": "ticketmaster",
       "url": "https://www.fantasyspringsresort.com/entertainment",
       "category": "Venue / Casino",
       "town": "Indio",
-      "notes": "[2026-05-26 probe] WordPress, no Tribe REST. Concerts and comedy. html-generic best-effort.",
-      "defaultEventType": "live-music"
+      "notes": "[2026-05-26 probe] WordPress event page, no Tribe REST and html-generic yielded 0 (no JSON-LD). Switched to Ticketmaster Discovery API. Requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Fantasy+Springs and replace `keyword` below with `venueId` for accuracy.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "Fantasy Springs"
+      }
     },
     {
       "id": "agua-caliente-the-show",
       "name": "The Show at Agua Caliente Casino",
-      "enabled": false,
-      "adapter": "html-generic",
+      "enabled": true,
+      "adapter": "ticketmaster",
       "url": "https://www.aguacalientecasinos.com/",
       "category": "Venue / Casino",
       "town": "Rancho Mirage",
-      "notes": "DISABLED — site returned 403 to our user-agent (bot-blocked). Concerts and tribute shows. Find a Ticketmaster/AXS organizer ID for an alternate scrape path.",
-      "defaultEventType": "live-music"
+      "notes": "[2026-05-26 probe + follow-up] aguacalientecasinos.com returns 403 to all non-browser UAs (likely Akamai or Cloudflare). The Show venue's full schedule is on Ticketmaster. Requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Agua+Caliente and replace `keyword` below with `venueId`.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "Agua Caliente"
+      }
     },
     {
       "id": "spotlight-29",
@@ -151,25 +161,29 @@
       "id": "morongo-casino",
       "name": "Morongo Casino Resort & Spa",
       "enabled": true,
-      "adapter": "html-generic",
+      "adapter": "ticketmaster",
       "url": "https://www.morongocasinoresort.com/entertainment/",
       "category": "Venue / Casino",
       "town": "Cabazon",
-      "notes": "[2026-05-26 probe] Ticketmaster-backed. Use Ticketmaster API if/when a key is available; html-generic best-effort otherwise.",
-      "defaultEventType": "live-music"
+      "notes": "[2026-05-26 probe + follow-up] Ticketmaster-backed concerts. Switched from html-generic to ticketmaster adapter. Requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Morongo and replace `keyword` below with `venueId` for tighter matching.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "Morongo"
+      }
     },
     {
       "id": "pappy-harriets",
       "name": "Pappy & Harriet's",
       "enabled": true,
-      "adapter": "html-generic",
+      "adapter": "seetickets-list",
       "url": "https://pappyandharriets.com/calendar/",
       "category": "Venue / Roadhouse + Live Music",
       "town": "Pioneertown",
-      "notes": "[2026-05-26 probe] WordPress + See Tickets plugin (V35.3.1b). /calendar/ page renders events server-side as .seetickets-list-event-container blocks with .title a, .date (\"Thu May 28\"), .venue, .doortime-showtime, .headliners, .ages, .price, .genre. No JSON-LD. Custom adapter could parse these cleanly — for now html-generic best-effort. Iconic roadhouse, often the valley's busiest music venue.",
+      "notes": "[2026-05-26 probe + adapter build] WordPress + See Tickets plugin (V35.3.1b). Custom seetickets-list adapter parses .seetickets-list-event-container blocks: title from p.title a, date from p.date (\"Thu May 28\" — year inferred), showtime from .see-showtime (falls back to .see-doortime). Title link goes to wl.seetickets.us product page (preserved — not an .ics file). Iconic roadhouse, often the valley's busiest music venue.",
       "defaultEventType": "live-music",
       "config": {
-        "defaultVenue": "Pappy & Harriet's"
+        "defaultVenue": "Pappy & Harriet's",
+        "defaultTimeZone": "America/Los_Angeles"
       }
     },
     {

@@ -10,6 +10,8 @@ export type AdapterType =
   | "wordpress-geodir"
   | "beehiiv-lowdown"
   | "growthzone-calendar"
+  | "seetickets-list"
+  | "ticketmaster"
   | "squarespace-events"
   | "elfsight-events"
   | "trustees"

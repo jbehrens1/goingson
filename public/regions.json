@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T02:55:59.230Z",
+  "generatedAt": "2026-05-27T12:12:06.413Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -101,9 +101,9 @@
         "Coachella, CA",
         "Desert Hot Springs, CA"
       ],
-      "eventCount": 146,
+      "eventCount": 185,
       "eventsPath": "/events.coachella.json",
-      "generatedAt": "2026-05-27T02:55:17.858Z"
+      "generatedAt": "2026-05-27T12:10:50.790Z"
     }
   ]
 }
