@@ -45,8 +45,13 @@ const CUSTOM = "__custom__";
 // Sentinel key in the venue picker for "events with no venue."
 const NO_VENUE = "__no_venue__";
 
-function dayKey(iso: string): string {
-  return iso.slice(0, 10);
+function dayKey(iso: string, tz: string): string {
+  // YYYY-MM-DD in the region's local timezone. Slicing the raw ISO string
+  // would bucket events to the UTC date, so a 9 PM EDT show (stored as
+  // 01:00 UTC the next day) ended up under tomorrow's heading. Use the
+  // "en-CA" locale because it formats dates as YYYY-MM-DD, the exact key
+  // shape we want. `tz` should be region.timeZone, e.g. "America/New_York".
+  return new Date(iso).toLocaleDateString("en-CA", { timeZone: tz });
 }
 
 function todayLocalIso(): string {
@@ -360,13 +365,13 @@ export default function EventsView({
     if (sortedFlat) return null; // flat sort suppresses day grouping
     const map = new Map<string, typeof filtered>();
     for (const item of filtered) {
-      const k = dayKey(item.ev.start);
+      const k = dayKey(item.ev.start, region.timeZone);
       const list = map.get(k) ?? [];
       list.push(item);
       map.set(k, list);
     }
     return map;
-  }, [filtered, sortedFlat]);
+  }, [filtered, sortedFlat, region.timeZone]);
 
   function handleRefresh() {
     setRefreshError(null);
