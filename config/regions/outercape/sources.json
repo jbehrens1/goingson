@@ -130,7 +130,10 @@
       "notes": "Squarespace; events at /calendar/ (137 upcoming, not at /events). Library programming is mostly recurring adult groups (Spanish lessons, French club, study groups) — defaultEventType=\"community\" handles entries that don't match a specific keyword; titleRules pull kids' programs into family.",
       "defaultEventType": "community",
       "titleRules": [
-        { "pattern": "animal ambassadors|whale|jumping frogs|science heroes|storytime|kids|children", "type": "family" }
+        {
+          "pattern": "animal ambassadors|whale|jumping frogs|science heroes|storytime|kids|children",
+          "type": "family"
+        }
       ],
       "config": {
         "path": "/calendar/",
@@ -214,6 +217,15 @@
       "config": {
         "defaultVenue": "Payomet Performing Arts Center"
       }
+    },
+    {
+      "id": "post-office-cabaret",
+      "name": "Post Office Cabaret",
+      "enabled": true,
+      "adapter": "ical",
+      "url": "https://postofficecafecabaret.thundertix.com/",
+      "town": "Provincetown",
+      "notes": "Added via /suggest by jeff@adviza.com on 2026-05-26."
     }
   ]
 }
