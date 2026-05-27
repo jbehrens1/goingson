@@ -126,6 +126,12 @@ header .muted,
    * body must always be visible — the disclosure is a no-op there. */
   display: flex !important;
 }
+/* The mobile-only quick-filter pickers (Types/Towns/Venues/Title) live
+ * inside the disclosure for narrow screens. On desktop they're redundant
+ * with the column-header row and stay hidden regardless of [open]. */
+.filters-pickers {
+  display: none;
+}
 
 .filter-row {
   display: flex;
@@ -1764,41 +1770,24 @@ footer {
     padding: 0.55rem 0.85rem; /* ~44px tap height with 16px font */
   }
 
-  /* --- Per-column filter row: wrap to two lines ---
-   * Time stays small on its own; the rest each take ~half-width and wrap
-   * naturally. Drop the sticky positioning so it scrolls with the page —
-   * sticky+wrapping creates a giant header band that eats screen height. */
+  /* --- Per-column filter row: hidden on mobile ---
+   * The Types/Towns/Venues/Title pickers (without sort buttons) are
+   * rendered inside the collapsible filter card via `.filters-pickers`
+   * so users have a single place to manage every filter. Hiding the
+   * desktop column-header row entirely keeps the events list close to
+   * the top of the screen. */
   .col-filter-row {
-    flex-wrap: wrap;
-    gap: 0.5rem 0.5rem;
-    position: static;
-    padding: 0.5rem 0;
-  }
-  .col-filter.col-time {
-    /* Time column header is mostly redundant in the stacked event cards
-     * (each card shows its own date/time). Hide it to claim space. */
     display: none;
   }
-  .col-filter.col-town,
-  .col-filter.col-venue,
-  .col-filter.col-type {
-    flex: 1 1 calc(50% - 0.25rem);
-    min-width: 0;
-  }
-  .col-filter.col-event {
-    flex: 1 1 100%;
-  }
-  .col-filter-clear {
-    flex-basis: 100%;
-    text-align: right;
-  }
+  /* Popover: pin to the screen with a small horizontal margin so it never
+   * gets clipped under the column it overflows past. Applies to whichever
+   * MultiSelectPicker the user opens — both the (hidden) column row and
+   * the in-disclosure picker share these styles. */
   .col-multi > summary {
     min-height: 38px;
     font-size: 0.95rem;
     padding: 0.4rem 0.6rem;
   }
-  /* Popover: pin to the screen with a small horizontal margin so it never
-   * gets clipped under the column it overflows past. */
   .col-multi-popover {
     width: calc(100vw - 1.6rem);
     max-width: none;
@@ -1807,6 +1796,57 @@ footer {
   .col-multi-item {
     padding: 0.5rem 0.85rem;
     font-size: 0.95rem;
+  }
+
+  /* --- In-disclosure quick-filter pickers (mobile only) ---
+   * Stacked rows of `Label : <picker|input>`. Each row uses the label as
+   * a flex container so the picker fills available width — matching the
+   * Center/From/To inputs visually. */
+  details.filters-collapsible[open] > .filters-pickers {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.85rem 0.85rem 0;
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    background: color-mix(in srgb, var(--bg) 80%, var(--pill-bg));
+  }
+  .filters-picker-row {
+    display: flex;
+    flex-direction: column !important;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .filters-picker-row > span {
+    font-weight: 600;
+  }
+  .filters-picker-row > input[type="search"] {
+    padding: 0.45rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--fg);
+    font: inherit;
+    font-size: 16px;
+  }
+  .filters-picker-row .col-multi {
+    /* Picker fills the row width inside the disclosure */
+    flex: 1;
+    width: 100%;
+  }
+  .filters-picker-clear {
+    align-self: flex-end;
+    margin-top: -0.25rem;
+  }
+  /* Drop the .filters card's top border/radius since .filters-pickers
+   * already provides the visual container above it. Result: pickers,
+   * then center/dates/refresh, all inside one continuous box. */
+  details.filters-collapsible[open] > .filters-pickers + .filters {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+    padding-top: 1rem;
   }
 
   /* --- Events list: reflow each row into a stacked card ---

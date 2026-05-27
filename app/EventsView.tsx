@@ -483,18 +483,42 @@ export default function EventsView({
 
   const hasMultipleRegions = !!manifest && manifest.regions.length > 1;
 
+  // Mobile: filter disclosure defaults closed. Desktop: defaults open.
+  // Why useState+useEffect instead of pure CSS: the native <details> element
+  // takes non-summary children OUT of normal flow when [open] is false, so
+  // CSS `display: flex !important` makes them render visually but they don't
+  // push subsequent siblings down — the col-filter-row ends up overlapping
+  // the filters card. Forcing `open` on desktop solves this cleanly.
+  // SSR default `true` keeps desktop flicker-free; mobile gets a brief
+  // (~50ms hydration window) expand→collapse that's barely perceptible.
+  // Uses matchMedia (not window.innerWidth) so it matches the same CSS
+  // breakpoint exactly, including under devtools viewport emulation where
+  // innerWidth reports the outer-window width.
+  const [filtersOpen, setFiltersOpen] = useState(true);
+  useEffect(() => {
+    if (typeof window !== "undefined" &&
+        window.matchMedia("(max-width: 720px)").matches) {
+      setFiltersOpen(false);
+    }
+  }, []);
+
   // One-line summary for the collapsible filter chip on mobile. Pulls together
-  // the center, distance, and date-range so the user can see what's set
-  // without expanding. On desktop the chip is hidden by CSS — the full
-  // filter card is always visible there.
+  // every active filter (types, towns, venues, title text, center+distance,
+  // date range) so the user can see what's set without expanding. On desktop
+  // the chip is hidden by CSS — the full filter card is always visible there.
+  // Order: most-specific facets first (types/towns/venues/title), then
+  // location, then dates. Long values are truncated by CSS ellipsis.
   const filterSummary = (() => {
     const parts: string[] = [];
+    const plural = (n: number, s: string) => `${n} ${s}${n === 1 ? "" : "s"}`;
+    if (selectedTypes.size > 0) parts.push(plural(selectedTypes.size, "type"));
+    if (colTowns.size > 0) parts.push(plural(colTowns.size, "town"));
+    if (colVenues.size > 0) parts.push(plural(colVenues.size, "venue"));
+    if (colTitle) parts.push(`"${colTitle}"`);
     if (center.mode === "resolved") {
       parts.push(`${center.label} · ${distanceMi}mi`);
     } else if (center.mode === NO_LOCATION) {
       parts.push("No location");
-    } else {
-      parts.push("Anywhere");
     }
     const fmt = (iso: string) =>
       new Date(iso + "T12:00:00").toLocaleDateString(region.locale, {
@@ -505,8 +529,15 @@ export default function EventsView({
     if (fromDate && toDate) parts.push(`${fmt(fromDate)}–${fmt(toDate)}`);
     else if (fromDate) parts.push(`from ${fmt(fromDate)}`);
     else if (toDate) parts.push(`until ${fmt(toDate)}`);
-    return parts.join(" · ");
+    return parts.length === 0 ? "All events" : parts.join(" · ");
   })();
+
+  const hasActiveFilters =
+    selectedTypes.size > 0 ||
+    colTowns.size > 0 ||
+    colVenues.size > 0 ||
+    !!colTitle ||
+    !!sortBy;
 
   return (
     <main>
@@ -541,12 +572,80 @@ export default function EventsView({
       {/* Mobile: collapsible disclosure (default closed) so the dense filter
        * card doesn't push the events below the fold. Desktop: CSS hides the
        * <summary> and force-shows the body, so the layout is unchanged. */}
-      <details className="filters-collapsible">
+      <details
+        className="filters-collapsible"
+        open={filtersOpen}
+        onToggle={(e) => setFiltersOpen(e.currentTarget.open)}
+      >
         <summary className="filters-summary">
           <span className="filters-summary-label">Filters</span>
           <span className="filters-summary-text">{filterSummary}</span>
           <span className="filters-summary-caret" aria-hidden>▾</span>
         </summary>
+
+      {/* Mobile-only quick-filter pickers. Mirror the column-header row
+       * (which is hidden on mobile) so users can adjust Types/Towns/Venues
+       * /Title without scrolling past the filter card. Order: Types first
+       * because event-type is the most common filter. State is shared
+       * with the column-header pickers — both render the same selection. */}
+      <div className="filters-pickers">
+        <label className="filters-picker-row">
+          <span>Types</span>
+          <MultiSelectPicker
+            label="types"
+            singularLabel="type"
+            selected={selectedTypes}
+            onChange={setSelectedTypes}
+            options={columnTypeOptions}
+          />
+        </label>
+        <label className="filters-picker-row">
+          <span>Towns</span>
+          <MultiSelectPicker
+            label="towns"
+            singularLabel="town"
+            selected={colTowns}
+            onChange={setColTowns}
+            options={columnTownOptions.map((t) => ({ key: t.name, label: t.name, count: t.count }))}
+          />
+        </label>
+        <label className="filters-picker-row">
+          <span>Venues</span>
+          <MultiSelectPicker
+            label="venues"
+            singularLabel="venue"
+            selected={colVenues}
+            onChange={setColVenues}
+            options={columnVenueOptions}
+          />
+        </label>
+        <label className="filters-picker-row">
+          <span>Title</span>
+          <input
+            type="search"
+            placeholder="Title / description…"
+            aria-label="Filter by event title or description"
+            value={colTitle}
+            onChange={(e) => setColTitle(e.target.value)}
+          />
+        </label>
+        {hasActiveFilters && (
+          <button
+            type="button"
+            className="link-btn filters-picker-clear"
+            onClick={() => {
+              setSelectedTypes(new Set());
+              setColTowns(new Set());
+              setColVenues(new Set());
+              setColTitle("");
+              clearSort();
+            }}
+          >
+            clear filters &amp; sort
+          </button>
+        )}
+      </div>
+
       <section className="filters">
         <div className="filter-row">
           <label className="grow">
