@@ -94,20 +94,32 @@ export function DateRangePicker({
     };
   }, []);
 
-  const selected: DateRange | undefined = (() => {
-    const from = parseYmd(fromDate);
-    const to = parseYmd(toDate);
-    if (!from && !to) return undefined;
-    return { from, to };
-  })();
+  // Local-to-this-popover range. Distinct from the parent's fromDate/toDate
+  // (which represent the currently APPLIED filter and may have a default
+  // `from = today`). When the user opens the picker we reset this to
+  // undefined so their first click is unambiguously a NEW start date —
+  // otherwise react-day-picker's range mode would treat the click as
+  // completing a range that started at today's date.
+  const [localRange, setLocalRange] = useState<DateRange | undefined>(undefined);
+
+  function handleToggle(e: React.SyntheticEvent<HTMLDetailsElement>) {
+    if (e.currentTarget.open) {
+      // Picker just opened — clear the internal selection. Parent state
+      // (and the trigger button label) still shows whatever filter is
+      // currently applied; only the in-picker highlights are blanked.
+      setLocalRange(undefined);
+    }
+  }
 
   function handleSelect(range: DateRange | undefined) {
-    // react-day-picker's range mode handles all three click states for us:
-    //   click 1 (no range)       → range = { from: <clicked>, to: undefined }
-    //   click 2 (from set)       → range = { from: <earlier>, to: <later>   }
-    //   click 3 (both set)       → range = { from: <clicked>, to: undefined } (reset)
-    // We just forward the new range to parent state and leave the popover
-    // open. The user closes it explicitly via outside-click, Escape, or Done.
+    // Within an open session, react-day-picker's range mode handles all
+    // three click states for us:
+    //   click 1 (selected=undefined)   → range = { from: <clicked>, to: undefined }
+    //   click 2 (only from set)        → range = { from: <earlier>, to: <later>   }
+    //   click 3 (both set)             → range = { from: <clicked>, to: undefined } (reset)
+    // We mirror the new range to both local state (for visual highlight)
+    // and parent state (which drives the events filter immediately).
+    setLocalRange(range);
     if (!range) {
       onChange({ fromDate: "", toDate: "" });
       return;
@@ -121,12 +133,13 @@ export function DateRangePicker({
   function clearRange(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
+    setLocalRange(undefined);
     onChange({ fromDate: "", toDate: "" });
     if (detailsRef.current) detailsRef.current.open = false;
   }
 
   return (
-    <details className="daterange" ref={detailsRef}>
+    <details className="daterange" ref={detailsRef} onToggle={handleToggle}>
       <summary className="daterange-trigger" aria-label={label}>
         <span className="daterange-label">{formatRangeLabel(fromDate, toDate, locale)}</span>
         <span className="daterange-caret" aria-hidden>▾</span>
@@ -134,7 +147,7 @@ export function DateRangePicker({
       <div className="daterange-popover" role="dialog" aria-label={label}>
         <DayPicker
           mode="range"
-          selected={selected}
+          selected={localRange}
           onSelect={handleSelect}
           numberOfMonths={showTwoMonths ? 2 : 1}
           showOutsideDays
