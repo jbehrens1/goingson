@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T13:01:24.234Z",
+  "generatedAt": "2026-05-27T20:34:03.722Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -104,6 +104,38 @@
       "eventCount": 1174,
       "eventsPath": "/events.outercape.json",
       "generatedAt": "2026-05-27T13:01:24.234Z"
+    },
+    {
+      "id": "sandiego",
+      "displayName": "San Diego County",
+      "tagline": "Events from downtown San Diego, North County coast, East County, South Bay, and everywhere in between.",
+      "defaultCenter": {
+        "label": "San Diego, CA",
+        "lat": 32.7157,
+        "lon": -117.1611
+      },
+      "defaultRadiusMi": 25,
+      "timeZone": "America/Los_Angeles",
+      "locale": "en-US",
+      "language": "en",
+      "centerSuggestions": [
+        "San Diego, CA",
+        "La Jolla, CA",
+        "Pacific Beach, CA",
+        "Coronado, CA",
+        "Chula Vista, CA",
+        "El Cajon, CA",
+        "La Mesa, CA",
+        "Encinitas, CA",
+        "Carlsbad, CA",
+        "Oceanside, CA",
+        "Escondido, CA",
+        "Del Mar, CA",
+        "Solana Beach, CA"
+      ],
+      "eventCount": 1932,
+      "eventsPath": "/events.sandiego.json",
+      "generatedAt": "2026-05-27T20:34:03.715Z"
     }
   ]
 }

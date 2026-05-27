@@ -1,0 +1,4 @@
+{
+  "$comment": "San Diego County venue aliases. Empty for now — add entries as source data exposes inconsistent spellings (e.g. 'The Shout House' vs 'Shouse' vs 'Shout House Dueling Pianos', 'Snapdragon' vs 'Snapdragon Stadium').",
+  "venues": []
+}

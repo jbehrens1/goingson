@@ -1,0 +1,930 @@
+{
+  "$comment": "San Diego County event sources. Compiled from a 77-source curated list across 11 categories. The strongest sources are 12 confirmed WordPress + The Events Calendar (Tribe) installs (ica-sd, madhouse-comedy, pacific-beach, pechanga-arena, sd-tech-scene, sdmart, shouse, startup-sd, tcs-rockets, balboa-park, north-park-ms, sd-chamber) plus Casbah on See Tickets (62 events on the homepage). Ticketmaster-backed venues (Belly Up, Humphreys, Observatory North Park, Rady Shell, SD Symphony, The Sound, SD Wave, SD FC, SD Gulls) use the ticketmaster adapter and need TICKETMASTER_API_KEY. Squarespace and Drupal sites land on html-generic best-effort. Sources known to be bot-blocked, AXS-backed (no adapter yet), or Shopify storefronts without a calendar are disabled.",
+  "sources": [
+    {
+      "id": "sd-tourism",
+      "name": "San Diego Tourism Authority",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.sandiego.org/events-festivals",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] Cloudflare 403 to all non-browser UAs (retried with Safari UA — still 403). Official DMO calendar covers major cultural/recreational/festival events region-wide. DISABLED until a custom adapter or headless browser proxy lands."
+    },
+    {
+      "id": "sd-city",
+      "name": "City of San Diego — Events Calendar",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.sandiego.gov/events/calendar",
+      "category": "City / Civic",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Drupal-based. No Tribe/MEC/CivicPlus RSS surfaces detected. Municipal calendar of city-sponsored and permitted public events. html-generic best-effort; revisit if 0."
+    },
+    {
+      "id": "sd-reader",
+      "name": "San Diego Reader — Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.sandiegoreader.com/events/search/",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] Webflow site behind Cloudflare. Alternative newsweekly with comprehensive searchable listings across all categories. html-generic best-effort — revisit for a custom adapter if signal is high."
+    },
+    {
+      "id": "sd-magazine",
+      "name": "San Diego Magazine — Community Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://sandiegomagazine.com/community-events/",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Lifestyle magazine community calendar. html-generic best-effort."
+    },
+    {
+      "id": "kpbs",
+      "name": "KPBS Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.kpbs.org/events/all",
+      "category": "Local News / Public Media",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] Custom CMS with Ticketmaster widget references. Public media events calendar focused on arts/culture/community. html-generic best-effort."
+    },
+    {
+      "id": "daylight-sd",
+      "name": "Daylight San Diego",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.daylightsandiego.org/events-calendar/",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] Custom site, no fingerprint detected, no Tribe REST. Neighborhood-focused local happenings. html-generic best-effort."
+    },
+    {
+      "id": "mycityscene",
+      "name": "MyCityScene San Diego",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://mycityscene.com/sandiego/",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] Custom platform, no obvious fingerprint. Local event discovery covering arts/food/music/nightlife. html-generic best-effort."
+    },
+    {
+      "id": "eventbrite-sd",
+      "name": "Eventbrite — San Diego",
+      "enabled": false,
+      "adapter": "eventbrite",
+      "url": "https://www.eventbrite.com/d/ca--san-diego/events/",
+      "category": "Ticketing Platform",
+      "town": "All San Diego County",
+      "notes": "DISABLED — the regional /d/ca--san-diego/events/ feed has no organizer ID, so the eventbrite adapter (organizer-scoped) cannot consume it directly. Replace with one entry per organizer once we identify the top SD organizers. Requires EVENTBRITE_TOKEN."
+    },
+    {
+      "id": "dosd",
+      "name": "Do San Diego (DOSD)",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://dosd.com/",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] Aggregator with embedded Eventbrite/See Tickets/Ticketmaster widgets. No clean upstream REST. html-generic best-effort; revisit if a single embedded organizer dominates."
+    },
+    {
+      "id": "sd-tech-scene",
+      "name": "SD Tech Scene",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://sdtechscene.org/",
+      "category": "Business / Tech",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress + The Events Calendar (Tribe) confirmed via /wp-json/tribe/events/v1/events. Real future-dated tech meetups and workshops returned. Strong source for SD's tech/startup ecosystem.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "meetup-sd",
+      "name": "Meetup — San Diego Networking",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.meetup.com/find/us--ca--san-diego/networking/",
+      "category": "Networking Platform",
+      "town": "All San Diego County",
+      "notes": "DISABLED — Meetup requires an API key (or per-group iCal URLs) for structured access. html-generic against the find/ search page won't extract anything useful. Replace with a custom meetup adapter or per-group iCal entries."
+    },
+    {
+      "id": "sd-street-fairs",
+      "name": "San Diego Street Fairs",
+      "enabled": false,
+      "adapter": "wordpress-tribe",
+      "url": "https://sdstreetfairs.com/",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed, but the REST endpoint returns events:[] (total:0). Calendar appears unmaintained at the moment. DISABLED until the operator starts posting again — re-probe periodically."
+    },
+    {
+      "id": "19hz",
+      "name": "19hz — San Diego Electronic Music",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://19hz.info/",
+      "category": "Regional Aggregator",
+      "town": "All San Diego County",
+      "notes": "DISABLED — 3KB JS-only landing page; the SD listings are loaded client-side via JS that html-generic cannot execute. Electronic/EDM/underground dance database. Revisit with a headless adapter or scraping the city-specific .html endpoint if discoverable."
+    },
+    {
+      "id": "la-jolla-playhouse",
+      "name": "La Jolla Playhouse",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://lajollaplayhouse.org/",
+      "category": "Venue / Theater",
+      "town": "La Jolla",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Tony Award-winning regional theater on the UCSD campus, known for world-premieres. html-generic best-effort.",
+      "defaultEventType": "theater",
+      "config": {
+        "defaultVenue": "La Jolla Playhouse"
+      }
+    },
+    {
+      "id": "old-globe",
+      "name": "The Old Globe Theatre",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.theoldglobe.org/",
+      "category": "Venue / Theater",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Custom CMS behind Cloudflare, no Tribe/wp-json. Acclaimed Balboa Park repertory theater; one of the oldest professional theaters in the US. html-generic best-effort.",
+      "defaultEventType": "theater",
+      "config": {
+        "defaultVenue": "The Old Globe Theatre"
+      }
+    },
+    {
+      "id": "sd-theatres",
+      "name": "San Diego Theatres (Civic + California Center)",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.sandiegotheatres.org/",
+      "category": "Venue / Theater",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Tiny (~14KB) custom site, no fingerprint. Nonprofit operator of Civic Theatre + California Center for the Arts; presents Broadway tours. html-generic best-effort.",
+      "defaultEventType": "theater"
+    },
+    {
+      "id": "sd-symphony",
+      "name": "San Diego Symphony",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://www.sandiegosymphony.org/",
+      "category": "Venue / Orchestra",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Custom site with Ticketmaster ticketing. Premier orchestral organization with year-round classical, pops, and special concerts. Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=San+Diego+Symphony and replace keyword below with venueId.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "San Diego Symphony"
+      }
+    },
+    {
+      "id": "rady-shell",
+      "name": "The Rady Shell at Jacobs Park",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://www.theshell.org/",
+      "category": "Venue / Amphitheater",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Custom site with Ticketmaster ticketing. Outdoor waterfront amphitheater operated by SD Symphony — summer concert destination on the bay. Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Rady+Shell and replace keyword below with venueId.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "Rady Shell"
+      }
+    },
+    {
+      "id": "comedy-store-lj",
+      "name": "The Comedy Store La Jolla",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://thecomedystore.com/la-jolla/",
+      "category": "Venue / Comedy",
+      "town": "La Jolla",
+      "notes": "[2026-05-27 probe] Custom site, no Tribe REST. La Jolla outpost of the legendary West Coast comedy club. html-generic best-effort.",
+      "defaultEventType": "comedy",
+      "config": {
+        "defaultVenue": "The Comedy Store La Jolla"
+      }
+    },
+    {
+      "id": "american-comedy",
+      "name": "American Comedy Co.",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://americancomedyco.com/",
+      "category": "Venue / Comedy",
+      "town": "San Diego",
+      "notes": "DISABLED — Shopify storefront, no calendar surface detected. Gaslamp Quarter stand-up + improv club. Revisit if they expose a /events or /shows page with JSON-LD.",
+      "defaultEventType": "comedy"
+    },
+    {
+      "id": "madhouse-comedy",
+      "name": "Madhouse Comedy Club",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://madhousecomedyclub.com/",
+      "category": "Venue / Comedy",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed. Real future-dated open mics and stand-up shows returned. Solid auto-ingest candidate.",
+      "defaultEventType": "comedy",
+      "config": {
+        "defaultVenue": "Madhouse Comedy Club"
+      }
+    },
+    {
+      "id": "national-comedy",
+      "name": "National Comedy Theatre",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://nationalcomedy.com/",
+      "category": "Venue / Improv",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Long-running improv theater offering interactive shows and classes. html-generic best-effort.",
+      "defaultEventType": "comedy",
+      "config": {
+        "defaultVenue": "National Comedy Theatre"
+      }
+    },
+    {
+      "id": "mic-drop-comedy",
+      "name": "Mic Drop Comedy",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.micdropcomedy.com/",
+      "category": "Venue / Comedy",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Custom site, no fingerprint. Local production company + venue hosting stand-up showcases across SD. html-generic best-effort.",
+      "defaultEventType": "comedy"
+    },
+    {
+      "id": "casbah",
+      "name": "The Casbah",
+      "enabled": true,
+      "adapter": "seetickets-list",
+      "url": "https://www.casbahmusic.com/",
+      "category": "Venue / Live Music",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + See Tickets plugin confirmed. 62 .seetickets-list-event-container blocks on the homepage. Iconic Mission Hills indie rock venue since 1989. Same adapter that handles Pappy & Harriet's (built at coachella commit 8298078).",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "The Casbah",
+        "defaultTimeZone": "America/Los_Angeles"
+      }
+    },
+    {
+      "id": "soda-bar",
+      "name": "Soda Bar",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://sodabarmusic.com/",
+      "category": "Venue / Live Music",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe + follow-up] WordPress, no Tribe REST. /shows/ 404s; events render on homepage. Mid-size City Heights indie music venue. html-generic best-effort against /.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Soda Bar"
+      }
+    },
+    {
+      "id": "observatory-np",
+      "name": "Observatory North Park",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://www.observatorysd.com/",
+      "category": "Venue / Live Music",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Ticketmaster-backed site, no on-page event REST. Mid-capacity multi-room music hall (rock/pop/EDM/hip-hop). Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Observatory+North+Park and replace keyword below with venueId.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "Observatory North Park"
+      }
+    },
+    {
+      "id": "music-box",
+      "name": "Music Box SD",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://musicboxsd.com/",
+      "category": "Venue / Live Music",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Versatile Barrio Logan music venue. html-generic best-effort.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Music Box SD"
+      }
+    },
+    {
+      "id": "belly-up",
+      "name": "Belly Up Tavern",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://bellyup.com/",
+      "category": "Venue / Live Music",
+      "town": "Solana Beach",
+      "notes": "[2026-05-27 probe] WordPress site without a Tribe REST surface, but every event card links to ticketmaster.com/event/<id>. Beloved Solana Beach club with eclectic programming (rock/jazz/world). Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Belly+Up&stateCode=CA and replace keyword below with venueId.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "Belly Up Tavern"
+      }
+    },
+    {
+      "id": "humphreys",
+      "name": "Humphrey's Concerts by the Bay",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://www.humphreysconcerts.com/",
+      "category": "Venue / Amphitheater",
+      "town": "Point Loma",
+      "notes": "[2026-05-27 probe] Cloudflare-fronted, Ticketmaster ticketing. Scenic outdoor waterfront amphitheater on Shelter Island — summer-only series. Requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Humphreys&stateCode=CA and replace keyword below with venueId.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "Humphreys Concerts by the Bay"
+      }
+    },
+    {
+      "id": "the-sound",
+      "name": "The Sound",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://thesoundsd.com/",
+      "category": "Venue / Live Music",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress site with Ticketmaster ticketing. Downtown San Diego music venue and bar. Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=The+Sound+San+Diego and replace keyword below with venueId.",
+      "defaultEventType": "live-music",
+      "config": {
+        "keyword": "The Sound San Diego"
+      }
+    },
+    {
+      "id": "shouse",
+      "name": "The Shout House",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://theshouthouse.com/",
+      "category": "Venue / Live Music",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed. Future-dated dueling pianos / live music shows returned. Gaslamp Quarter dueling-piano bar (the spreadsheet typo'd 'The Shouse' but the actual venue is The Shout House).",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "The Shout House"
+      }
+    },
+    {
+      "id": "nova-sd",
+      "name": "Nova SD",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://novasd.com/",
+      "category": "Venue / Nightclub",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress with embedded Eventbrite widgets. No native Tribe REST. Electronic music-focused nightclub. html-generic best-effort; revisit if a single dominant Eventbrite organizer ID becomes clear.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Nova SD"
+      }
+    },
+    {
+      "id": "spin-nightclub",
+      "name": "Spin Nightclub",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://spinnightclub.com/",
+      "category": "Venue / Nightclub",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + embedded Eventbrite/Shopify. No Tribe REST. Popular Hillcrest LGBTQ+ nightclub with DJ programming. html-generic best-effort.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Spin Nightclub"
+      }
+    },
+    {
+      "id": "parq",
+      "name": "Parq Nightclub",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://parqsd.com/",
+      "category": "Venue / Nightclub",
+      "town": "San Diego",
+      "notes": "DISABLED — main site links out to wl.seetickets.us/parq for tickets, but the events page on parqsd.com itself surfaces no event blocks. Try seetickets-list against https://wl.seetickets.us/parq directly in a follow-up; until then html-generic yields nothing.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Parq Nightclub"
+      }
+    },
+    {
+      "id": "onyx-room",
+      "name": "The Onyx Room",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.onyxroom.com/",
+      "category": "Venue / Nightclub",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Underground Gaslamp club focused on house/techno/electronic. html-generic best-effort.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "The Onyx Room"
+      }
+    },
+    {
+      "id": "sd-museum-council",
+      "name": "San Diego Museum Council",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://sandiegomuseumcouncil.org/events/",
+      "category": "Regional Aggregator / Museums",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Umbrella organization for 30+ Balboa Park museums; aggregates exhibitions and cultural events. html-generic best-effort."
+    },
+    {
+      "id": "balboa-park",
+      "name": "Balboa Park",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://balboapark.org/",
+      "category": "Regional Aggregator / Park",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed via REST. 1,200-acre cultural park housing 17 museums, performing arts venues, gardens. Likely the single richest source of Balboa Park-area events.",
+      "config": {
+        "defaultVenue": "Balboa Park"
+      }
+    },
+    {
+      "id": "sd-nat",
+      "name": "San Diego Natural History Museum (The Nat)",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.sdnat.org/",
+      "category": "Venue / Museum",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Custom CMS behind Cloudflare, no Tribe REST. Natural history museum in Balboa Park (films, exhibitions, education). html-generic best-effort — likely overlap with balboa-park.",
+      "defaultEventType": "family",
+      "config": {
+        "defaultVenue": "San Diego Natural History Museum"
+      }
+    },
+    {
+      "id": "sdmart",
+      "name": "San Diego Museum of Art",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://www.sdmart.org/",
+      "category": "Venue / Museum",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed. Largest visual art museum in the region, presenting major exhibitions and community events.",
+      "defaultEventType": "art-gallery",
+      "config": {
+        "defaultVenue": "San Diego Museum of Art"
+      }
+    },
+    {
+      "id": "ica-sd",
+      "name": "Institute of Contemporary Art San Diego (ICA)",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://icasandiego.org/",
+      "category": "Venue / Museum",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed via REST despite a wixsite reference in markup (probably an embedded widget). Contemporary art museum with galleries in La Jolla and downtown.",
+      "defaultEventType": "art-gallery",
+      "config": {
+        "defaultVenue": "Institute of Contemporary Art San Diego"
+      }
+    },
+    {
+      "id": "gaslamp",
+      "name": "Gaslamp Quarter Association",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://gaslamp.org/events/",
+      "category": "Neighborhood BID",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Drupal core with embedded Squarespace/Eventbrite/Shopify widgets behind Cloudflare. BID for SD's historic entertainment district (Taste of Gaslamp, seasonal events). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "little-italy",
+      "name": "Little Italy Association",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.littleitalysd.com/events",
+      "category": "Neighborhood BID",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Custom site, no fingerprint. BID for Little Italy (Arrivederci festival, Farmers Market, street events). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "hillcrest-bia",
+      "name": "Hillcrest Business Improvement Association",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.hillcrestbia.org/",
+      "category": "Neighborhood BID",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe + follow-up] Squarespace site but no /events collection (returns 404). Content is bespoke pages — /pride-promenade, /openhouse, /freetomembers. BID for the Hillcrest LGBTQ+ hub. DISABLED until an events collection slug is identified or a custom parser of their bespoke pages is built.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "north-park-ms",
+      "name": "North Park Main Street",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://northparkmainstreet.com/",
+      "category": "Neighborhood BID",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed via REST. BID for North Park (arts/craft beer/live music). Real future events returned.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "adams-avenue",
+      "name": "Adams Avenue Business Association",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.adamsavenuebusiness.com/",
+      "category": "Neighborhood BID",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST despite cloudflare/wp-json fingerprint. BID for Adams Avenue corridor in Normal Heights (Adams Avenue Street Fair). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "pacific-beach",
+      "name": "Pacific Beach Business Association",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://www.pacificbeach.org/",
+      "category": "Neighborhood BID",
+      "town": "Pacific Beach",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed via REST. BID representing the Pacific Beach community.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "ocean-beach",
+      "name": "Ocean Beach Business Improvement District",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://oceanbeachsandiego.com/events",
+      "category": "Neighborhood BID",
+      "town": "Ocean Beach",
+      "notes": "[2026-05-27 probe] Drupal-based with /node/ URL pattern. BID for Ocean Beach (OB Farmers Market, community events). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "la-jolla-village",
+      "name": "La Jolla Village Merchants Association",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://lajollabythesea.com/",
+      "category": "Neighborhood BID",
+      "town": "La Jolla",
+      "notes": "[2026-05-27 probe] WordPress with embedded Eventbrite. No Tribe REST. BID for La Jolla village (Art & Wine Festival, seasonal events). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "encinitas-101",
+      "name": "Encinitas 101 Main Street Association",
+      "enabled": true,
+      "adapter": "squarespace-events",
+      "url": "https://www.encinitas101.com/",
+      "category": "Neighborhood BID",
+      "town": "Encinitas",
+      "notes": "[2026-05-27 probe] Squarespace-hosted. BID for Encinitas coastal town (street fairs, markets, community events). squarespace-events adapter targets /events/.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "carlsbad-village",
+      "name": "Carlsbad Village Association",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.carlsbad-village.com/",
+      "category": "Neighborhood BID",
+      "town": "Carlsbad",
+      "notes": "[2026-05-27 probe] Custom site, no fingerprint. BID for historic Carlsbad Village (village festivals, community programming). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "la-mesa-village",
+      "name": "La Mesa Village Association",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.lamesavillageassociation.org/",
+      "category": "Neighborhood BID",
+      "town": "La Mesa",
+      "notes": "[2026-05-27 probe] Custom HTML site (no WP/Tribe). BID for La Mesa Village (Oktoberfest, cruises, seasonal events). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "padres",
+      "name": "San Diego Padres (MLB)",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.mlb.com/padres/schedule",
+      "category": "Sports / MLB",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] mlb.com schedule page is heavily JS-rendered; structured-data extraction is uncertain. MLB has its own JSON API but no adapter wired up. html-generic best-effort; if 0, consider manual one-off entries for major series.",
+      "defaultEventType": "sport",
+      "config": {
+        "defaultVenue": "Petco Park"
+      }
+    },
+    {
+      "id": "sd-wave",
+      "name": "San Diego Wave FC (NWSL)",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://sandiegowavefc.com/",
+      "category": "Sports / NWSL",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress site with Ticketmaster ticketing for home games. NWSL team plays at Snapdragon Stadium. Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Snapdragon and pin the keyword to 'San Diego Wave' to filter to home matches.",
+      "defaultEventType": "sport",
+      "config": {
+        "keyword": "San Diego Wave"
+      }
+    },
+    {
+      "id": "sd-fc",
+      "name": "San Diego FC (MLS)",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://www.sandiegofc.com/",
+      "category": "Sports / MLS",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Custom site with Ticketmaster ticketing. MLS expansion team playing at Snapdragon Stadium. Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Snapdragon and replace keyword below with 'San Diego FC' or venueId.",
+      "defaultEventType": "sport",
+      "config": {
+        "keyword": "San Diego FC"
+      }
+    },
+    {
+      "id": "sd-gulls",
+      "name": "San Diego Gulls (AHL)",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://www.sandiegogulls.com/",
+      "category": "Sports / AHL",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Tiny (~19KB) custom page, JS-rendered. AHL affiliate playing at Pechanga Arena. Switched to ticketmaster adapter; requires TICKETMASTER_API_KEY. Filter on 'San Diego Gulls' keyword.",
+      "defaultEventType": "sport",
+      "config": {
+        "keyword": "San Diego Gulls"
+      }
+    },
+    {
+      "id": "sd-seals",
+      "name": "San Diego Seals (NLL)",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.sealslax.com/",
+      "category": "Sports / NLL",
+      "town": "San Diego",
+      "notes": "DISABLED — site ticketing is AXS-only (no axs adapter in registry). NLL lacrosse at Pechanga Arena. Build an axs adapter or re-enable via ticketmaster if the schedule is also listed there.",
+      "defaultEventType": "sport"
+    },
+    {
+      "id": "sd-legion",
+      "name": "San Diego Legion (MLR)",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://legion.rugby/",
+      "category": "Sports / MLR",
+      "town": "San Diego",
+      "notes": "DISABLED — Shopify storefront for merchandise; the actual schedule isn't surfaced here. Re-enable when a dedicated schedule URL with JSON-LD or RSS is identified.",
+      "defaultEventType": "sport"
+    },
+    {
+      "id": "snapdragon",
+      "name": "Snapdragon Stadium",
+      "enabled": true,
+      "adapter": "ticketmaster",
+      "url": "https://www.snapdragonstadium.com/",
+      "category": "Venue / Stadium",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] Minimal (~11KB) landing page, JS-only. Multi-purpose stadium in Mission Valley hosting soccer + concerts. Switched to ticketmaster adapter for events broader than just FC/Wave home matches; requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Snapdragon and replace keyword below with venueId.",
+      "config": {
+        "keyword": "Snapdragon Stadium"
+      }
+    },
+    {
+      "id": "pechanga-arena",
+      "name": "Pechanga Arena San Diego",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://pechangaarenasd.com/",
+      "category": "Venue / Arena",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed via REST despite AXS/Ticketmaster ticket links in markup. Real future-dated events returned (PFL San Diego etc.). Native Tribe is preferred over ticketmaster to avoid dedupe with other TM sources.",
+      "config": {
+        "defaultVenue": "Pechanga Arena San Diego"
+      }
+    },
+    {
+      "id": "del-mar-thoroughbred",
+      "name": "Del Mar Thoroughbred Club",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.dmtc.com/",
+      "category": "Venue / Racing",
+      "town": "Del Mar",
+      "notes": "[2026-05-27 probe] Custom site, no fingerprint. Historic horse racing track presenting live racing and special events (summer + fall meets). html-generic best-effort; likely needs a manual one-off entry for the meet windows.",
+      "defaultEventType": "sport",
+      "config": {
+        "defaultVenue": "Del Mar Thoroughbred Club"
+      }
+    },
+    {
+      "id": "sd-chamber",
+      "name": "San Diego Regional Chamber of Commerce",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://sdchamber.org/",
+      "category": "Business / Networking",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed via REST. Networking events, forums, professional development.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "startup-sd",
+      "name": "Startup San Diego",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://startupsd.org/",
+      "category": "Business / Networking",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed. Real future-dated events including SDSU Angel Conference. Strong source for tech/startup community.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "downtown-sd",
+      "name": "Downtown San Diego Partnership",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://downtownsandiego.org/",
+      "category": "Business / BID",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST despite wp-content/wp-json fingerprint. BID for the downtown core (events, activations, programming). html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "sd-beer",
+      "name": "SD Beer (San Diego Beer)",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.sdbeer.com/",
+      "category": "Beer & Nightlife",
+      "town": "All San Diego County",
+      "notes": "DISABLED — no fingerprint, ~63KB site (probably mostly content/blog). Craft beer guide for SD. Revisit if they expose an /events feed."
+    },
+    {
+      "id": "sd-beer-news",
+      "name": "San Diego Beer News",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://sandiegobeer.news/",
+      "category": "Beer & Nightlife",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress with embedded Eventbrite, no Tribe REST. News + events for SD's craft beer industry. html-generic best-effort."
+    },
+    {
+      "id": "king-of-hh",
+      "name": "King of Happy Hour San Diego",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://kingofhappyhour.com/san-diego",
+      "category": "Beer & Nightlife",
+      "town": "All San Diego County",
+      "notes": "DISABLED — content is recurring happy-hour listings (not dated events). Not a good fit for an event ingest. Re-enable if they start a one-off events section."
+    },
+    {
+      "id": "hh-in-pb",
+      "name": "Happy Hours in PB",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://happyhoursinpb.com/",
+      "category": "Beer & Nightlife",
+      "town": "Pacific Beach",
+      "notes": "DISABLED — same reason as king-of-hh: recurring happy-hour content, not dated events."
+    },
+    {
+      "id": "sunset-trivia",
+      "name": "Sunset Trivia",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://sunsettrivia.com/",
+      "category": "Trivia & Games",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] Custom Cloudflare-fronted site, no fingerprint. Pub trivia company running weekly trivia nights at SD venues. html-generic best-effort — many of these may be recurring."
+    },
+    {
+      "id": "game-night-live",
+      "name": "Game Night Live San Diego",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://gamenightlive.com/california-san-diego/",
+      "category": "Trivia & Games",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Live game show events at SD bars/restaurants. html-generic best-effort."
+    },
+    {
+      "id": "trivia-goat",
+      "name": "Trivia Goat",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://triviagoat.com/",
+      "category": "Trivia & Games",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Trivia company hosting weekly events at SD venues. html-generic best-effort."
+    },
+    {
+      "id": "geeks-who-drink",
+      "name": "Geeks Who Drink",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.geekswhodrink.com/",
+      "category": "Trivia & Games",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. National pub quiz company with SD venues. html-generic best-effort — may need a city filter on their venue locator."
+    },
+    {
+      "id": "sd-craft",
+      "name": "San Diego Craft Board Games",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://sandiegocraft.org/",
+      "category": "Trivia & Games",
+      "town": "All San Diego County",
+      "notes": "[2026-05-27 probe] WordPress with embedded wix.com widget. Board game community + events. html-generic best-effort."
+    },
+    {
+      "id": "off-the-shelf",
+      "name": "Off the Shelf Games",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://offtheshelfgames.com/",
+      "category": "Trivia & Games",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress, no Tribe REST. Board game café + events space (game nights, tournaments). html-generic best-effort.",
+      "config": {
+        "defaultVenue": "Off the Shelf Games"
+      }
+    },
+    {
+      "id": "game-empire",
+      "name": "Game Empire San Diego",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.gameempire.com/",
+      "category": "Trivia & Games",
+      "town": "San Diego",
+      "notes": "DISABLED — kemo bot-challenge on a tiny (~8KB) Shopify storefront; no calendar surface to ingest. Premier SD board game / hobby store. Re-enable if they add a /events page accessible to bots."
+    },
+    {
+      "id": "bards-and-cards",
+      "name": "Bards & Cards",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://bardsandcards.com/",
+      "category": "Trivia & Games",
+      "town": "San Diego",
+      "notes": "DISABLED — Shopify storefront behind kemo bot-challenge. Game café + event venue (card games, RPGs, social events). Re-enable if they expose a separate scheduling URL."
+    },
+    {
+      "id": "tcs-rockets",
+      "name": "TCS Rockets",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://tcsrockets.com/",
+      "category": "Trivia & Games",
+      "town": "San Diego",
+      "notes": "[2026-05-27 probe] WordPress + Tribe confirmed via REST. SD gaming + social events organization (Casual Commander etc.).",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "on-board-gaming",
+      "name": "On-Board Gaming",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://on-boardgaming.com/",
+      "category": "Trivia & Games",
+      "town": "San Diego",
+      "notes": "DISABLED — large (~3MB) Shopify storefront behind kemo + Cloudflare; no calendar surface. Board game community in SD. Re-enable when an event endpoint is identified."
+    },
+    {
+      "id": "manual-oneoff",
+      "name": "San Diego one-off events (manual)",
+      "enabled": true,
+      "adapter": "manual-oneoff",
+      "url": "https://www.example.com/",
+      "category": "Manual",
+      "town": "All San Diego County",
+      "notes": "Specific dated events curated by hand in config/regions/sandiego/one-off.json. Use for Padres home stands, Del Mar racing meets, Comic-Con dates, and any venue that can't be auto-scraped.",
+      "config": {
+        "file": "one-off.json"
+      }
+    }
+  ]
+}

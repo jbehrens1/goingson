@@ -2410,5 +2410,763 @@
     "lon": -116.5462526,
     "displayName": "Plaza Theatre, 128, South Palm Canyon Drive, Palm Springs, Riverside County, California, 92262, United States",
     "fetchedAt": "2026-05-27T02:53:03.937Z"
+  },
+  "sandiego::1788 el prado, balboa park, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:14:45.685Z"
+  },
+  "sandiego::san diego natural history museum (the nat), san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:14:46.264Z"
+  },
+  "virtual, all san diego county": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:14:47.447Z"
+  },
+  "all san diego county": {
+    "lat": 32.8038452,
+    "lon": -117.1432552,
+    "displayName": "Alley, Serra Mesa, San Diego, San Diego County, California, 92123, United States",
+    "fetchedAt": "2026-05-27T20:14:48.544Z"
+  },
+  "sandiego::12841 el camino real suite 208, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:14:49.844Z"
+  },
+  "sandiego::parfait paris, san diego": {
+    "lat": 32.8463868,
+    "lon": -117.2746251,
+    "displayName": "Parfait Paris, Girard Avenue, Village of La Jolla, La Jolla, San Diego, San Diego County, California, 92037, United States",
+    "fetchedAt": "2026-05-27T20:14:50.746Z"
+  },
+  "sandiego::7670 opportunity rd #255, san diego, ca": {
+    "lat": 32.8257561,
+    "lon": -117.1569458,
+    "displayName": "7670, Opportunity Road, Convoy District, Kearny Mesa, San Diego, San Diego County, California, 92111, United States",
+    "fetchedAt": "2026-05-27T20:14:52.235Z"
+  },
+  "sandiego::1800 el prado, san diego, ca": {
+    "lat": 32.7313768,
+    "lon": -117.1484999,
+    "displayName": "1800, El Prado, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:14:53.009Z"
+  },
+  "sandiego::7670 opportunity rd, san diego, ca": {
+    "lat": 32.8257561,
+    "lon": -117.1569458,
+    "displayName": "7670, Opportunity Road, Convoy District, Kearny Mesa, San Diego, San Diego County, California, 92111, United States",
+    "fetchedAt": "2026-05-27T20:14:53.877Z"
+  },
+  "sandiego::5040 cass st, san diego, ca": {
+    "lat": 32.806476,
+    "lon": -117.254984,
+    "displayName": "5040, Cass Street, Pacific Beach, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-27T20:14:55.265Z"
+  },
+  "sandiego::2598 state st, carlsbad, ca": {
+    "lat": 33.1638265,
+    "lon": -117.3520597,
+    "displayName": "2598, State Street, Downtown Carlsbad, Carlsbad, San Diego County, California, 92008, United States",
+    "fetchedAt": "2026-05-27T20:14:56.334Z"
+  },
+  "sandiego::9510 innovation ln, room 208, la jolla, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:14:57.501Z"
+  },
+  "sandiego::ucsd design & innovation building, la jolla": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:14:58.423Z"
+  },
+  "rsvp for location, all san diego county": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:14:59.521Z"
+  },
+  "sandiego::1640 camino del rio n suite 341, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:01.850Z"
+  },
+  "sandiego::novo brazil brewing mission valley, san diego": {
+    "lat": 32.7683894,
+    "lon": -117.1469827,
+    "displayName": "Novo Brazil Brewing, 1640, Camino del Rio North, Westfield Mission Valley, Mission Valley, San Diego, San Diego County, California, 92108, United States",
+    "fetchedAt": "2026-05-27T20:15:02.192Z"
+  },
+  "sandiego::10401 roselle street, san diego, ca": {
+    "lat": 32.893781,
+    "lon": -117.2178489,
+    "displayName": "10401, Roselle Street, Sorrento Valley, San Diego, San Diego County, California, 92121, United States",
+    "fetchedAt": "2026-05-27T20:15:03.178Z"
+  },
+  "sandiego::655 4th ave, san diego, ca": {
+    "lat": 32.627997,
+    "lon": -117.078696,
+    "displayName": "655, 4th Avenue, Chula Vista, San Diego County, California, 91910, United States",
+    "fetchedAt": "2026-05-27T20:15:04.473Z"
+  },
+  "sandiego::801 4th ave, historic gaslamp quarter, san diego, ca": {
+    "lat": 32.7107154,
+    "lon": -117.1610411,
+    "displayName": "4th Avenue, Asian Pacific Thematic Historic District, Gaslamp Quarter, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:05.588Z"
+  },
+  "sandiego::1875 el prado, san diego, ca": {
+    "lat": 32.7309728,
+    "lon": -117.147406,
+    "displayName": "Reuben H. Fleet Space Theater, 1875, El Prado, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:06.657Z"
+  },
+  "sandiego::san diego museum of art, san diego": {
+    "lat": 32.7321695,
+    "lon": -117.1504503,
+    "displayName": "San Diego Museum of Art, 1450, El Prado, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:15:07.875Z"
+  },
+  "sandiego::10550 craftsman way ste 187, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:09.108Z"
+  },
+  "sandiego::mostra coffee, san diego": {
+    "lat": 32.9832771,
+    "lon": -117.075468,
+    "displayName": "Mostra Coffee, 12045, Carmel Mountain Road, Carmel Mountain Ranch, San Diego, San Diego County, California, 92128, United States",
+    "fetchedAt": "2026-05-27T20:15:09.720Z"
+  },
+  "sandiego::555 broadway, (broadway & h/i st), chula vista, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:11.351Z"
+  },
+  "sandiego::panera bread, chula vista": {
+    "lat": 32.6220265,
+    "lon": -116.9676082,
+    "displayName": "Panera Bread, 2015, Birch Road, Otay Ranch, Chula Vista, San Diego County, California, 91915, United States",
+    "fetchedAt": "2026-05-27T20:15:11.930Z"
+  },
+  "sandiego::6455 lusk blvd, san diego, ca": {
+    "lat": 32.9029663,
+    "lon": -117.201045,
+    "displayName": "Qualcomm Cafe Q, 6455, Lusk Boulevard, Sorrento Valley, San Diego, San Diego County, California, 92121, United States",
+    "fetchedAt": "2026-05-27T20:15:13.277Z"
+  },
+  "sandiego::2688 e mission bay dr., san diego, ca": {
+    "lat": 32.7898367,
+    "lon": -117.2091652,
+    "displayName": "2688, East Mission Bay Drive, Bay Park, Old Town, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-27T20:15:14.386Z"
+  },
+  "sandiego::6075 aztec circle dr, san diego, ca": {
+    "lat": 32.7765885,
+    "lon": -117.0693415,
+    "displayName": "Aztec Circle Drive, Montezuma Mesa, Mid-City, Del Cerro, San Diego, San Diego County, California, 92182, United States",
+    "fetchedAt": "2026-05-27T20:15:15.486Z"
+  },
+  "sandiego::4438 ingraham st, san diego, ca": {
+    "lat": 32.7985986,
+    "lon": -117.2407589,
+    "displayName": "Point Loma Electric, Plumbing, Drains, and Water Heaters, 4438, Ingraham Street, Pacific Beach, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-27T20:15:16.375Z"
+  },
+  "sandiego::1200 fox point farms lane, encinitas": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:17.671Z"
+  },
+  "sandiego::fox point farms, encinitas": {
+    "lat": 33.0676519,
+    "lon": -117.2784378,
+    "displayName": "Fox Point Farms, Encinitas, San Diego County, California, United States",
+    "fetchedAt": "2026-05-27T20:15:18.726Z"
+  },
+  "sandiego::4502 cass st., san diego, ca": {
+    "lat": 32.797606,
+    "lon": -117.252211,
+    "displayName": "4502, Cass Street, Pacific Beach, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-27T20:15:19.918Z"
+  },
+  "sandiego::2215 pan american road east, san diego, ca": {
+    "lat": 32.7301063,
+    "lon": -117.1499784,
+    "displayName": "Tea Pavilion, 2215, Pan American Road East, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:20.786Z"
+  },
+  "sandiego::san diego, ca": {
+    "lat": 32.7174202,
+    "lon": -117.162772,
+    "displayName": "San Diego, San Diego County, California, United States",
+    "fetchedAt": "2026-05-27T20:15:22.323Z"
+  },
+  "sandiego::363 old globe way, san diego, ca": {
+    "lat": 32.7329019,
+    "lon": -117.1493301,
+    "displayName": "Old Globe Way, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:15:23.167Z"
+  },
+  "sandiego::2100 park blvd, san diego, ca": {
+    "lat": 32.7272089,
+    "lon": -117.1495749,
+    "displayName": "WorldBeat Cultural Center, 2100, Park Boulevard, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:24.212Z"
+  },
+  "sandiego::engineering building unit 2, la jolla, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:25.644Z"
+  },
+  "sandiego::ucsd, engineering building unit 2, la jolla": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:26.326Z"
+  },
+  "sandiego::balboa park boulevard and presidents way lawn park boulevard, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:27.703Z"
+  },
+  "sandiego::park boulevard and presidents way lawn, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:28.483Z"
+  },
+  "sandiego::house of finland, san diego": {
+    "lat": 32.7286848,
+    "lon": -117.1525264,
+    "displayName": "House of Finland, Pan American Place, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:15:29.653Z"
+  },
+  "sandiego::9460 russell ln, la jolla, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:30.885Z"
+  },
+  "sandiego::student services center, la jolla": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:32.027Z"
+  },
+  "sandiego::comic-con museum, san diego": {
+    "lat": 32.7272342,
+    "lon": -117.1523502,
+    "displayName": "Comic-Con Museum, 2131, Pan American Plaza, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:33.126Z"
+  },
+  "sandiego::1550 s el camino real, encinitas, ca": {
+    "lat": 33.0278582,
+    "lon": -117.2575715,
+    "displayName": "1550, South El Camino Real, Olivenhain, Encinitas, San Diego County, California, 92024, United States",
+    "fetchedAt": "2026-05-27T20:15:34.335Z"
+  },
+  "sandiego::1350 el prado, balboa park, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:35.537Z"
+  },
+  "sandiego::museum of us, san diego": {
+    "lat": 32.7314635,
+    "lon": -117.1526486,
+    "displayName": "Museum of Us, 1350, El Prado, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:36.249Z"
+  },
+  "sandiego::spreckels organ pavilion, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:37.434Z"
+  },
+  "sandiego::atkinson hall, uc san diego campus, 9500 gilman dr, la jolla, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:38.526Z"
+  },
+  "sandiego::qualcomm institute (qi), la jolla": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:39.469Z"
+  },
+  "sandiego::1495 pacific hwy, san diego, ca": {
+    "lat": 32.720324,
+    "lon": -117.170485,
+    "displayName": "1495, Pacific Highway, Little Italy, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:40.894Z"
+  },
+  "sandiego::2004 park blvd, san diego, ca": {
+    "lat": 32.7277354,
+    "lon": -117.1486572,
+    "displayName": "Centro Cultural de la Raza, 2004, Park Boulevard, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:15:41.722Z"
+  },
+  "sandiego::6750 paseo del norte, carlsbad, ca": {
+    "lat": 33.1079341,
+    "lon": -117.3087763,
+    "displayName": "6750, Paseo del Norte, Ponto, Carlsbad, San Diego County, California, 92011, United States",
+    "fetchedAt": "2026-05-27T20:15:43.003Z"
+  },
+  "sandiego::3343 adams ave, san diego, ca": {
+    "lat": 32.7632306,
+    "lon": -117.1219992,
+    "displayName": "Lestat's Coffee House, 3343, Adams Avenue, Normal Heights, North Park, San Diego, San Diego County, California, 92116, United States",
+    "fetchedAt": "2026-05-27T20:15:44.225Z"
+  },
+  "sandiego::3349 adams avenue, san diego, ca": {
+    "lat": 32.7630998,
+    "lon": -117.1219101,
+    "displayName": "Maya Moon, 3349, Adams Avenue, Normal Heights, North Park, San Diego, San Diego County, California, 92116, United States",
+    "fetchedAt": "2026-05-27T20:15:45.663Z"
+  },
+  "sandiego::1613 lake dr, encinitas, ca": {
+    "lat": 33.0282812,
+    "lon": -117.2652114,
+    "displayName": "1613, Lake Drive, Cardiff-by-the-Sea, Encinitas, San Diego County, California, 92024, United States",
+    "fetchedAt": "2026-05-27T20:15:46.379Z"
+  },
+  "sandiego::3139 university ave, san diego, ca": {
+    "lat": 32.7483101,
+    "lon": -117.1263491,
+    "displayName": "3139, University Avenue, Corridor, North Park, San Diego, San Diego County, California, 92104, United States",
+    "fetchedAt": "2026-05-27T20:15:47.422Z"
+  },
+  "sandiego::1334 rocky point dr, san diego, ca": {
+    "lat": 33.2134336,
+    "lon": -117.2926255,
+    "displayName": "1334, Rocky Point Drive, Oceanside, San Diego County, California, 92056, United States",
+    "fetchedAt": "2026-05-27T20:15:48.428Z"
+  },
+  "sandiego::17190 bernardo center dr suite 200, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:49.742Z"
+  },
+  "sandiego::kiln rancho bernardo, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:50.667Z"
+  },
+  "hybrid, all san diego county": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:51.544Z"
+  },
+  "sandiego::1775 e mission bay dr., san diego, ca": {
+    "lat": 32.7791932,
+    "lon": -117.2108018,
+    "displayName": "San Diego Mission Bay Resort, 1775, East Mission Bay Drive, Bay Park, Old Town, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-27T20:15:52.727Z"
+  },
+  "sandiego::camino hall, university of san diego, san diego, ca": {
+    "lat": 32.771435,
+    "lon": -117.19281,
+    "displayName": "Camino Hall, Camino Way, Morena, Old Town, San Diego, San Diego County, California, 92110, United States",
+    "fetchedAt": "2026-05-27T20:15:54.250Z"
+  },
+  "sandiego::2201 san dieguito dr suite d, del mar, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:15:55.193Z"
+  },
+  "sandiego::viewpoint brewing company, del mar": {
+    "lat": 32.9700013,
+    "lon": -117.261918,
+    "displayName": "Viewpoint Brewing Company, 2201, San Dieguito Drive, Del Mar, San Diego County, California, 92014, United States",
+    "fetchedAt": "2026-05-27T20:15:56.006Z"
+  },
+  "sandiego::9990 alesmith ct, san diego, ca": {
+    "lat": 32.8884623,
+    "lon": -117.1498996,
+    "displayName": "AleSmight Brewing Company, 9990, AleSmith Court, Miramar, San Diego, San Diego County, California, 92126, United States",
+    "fetchedAt": "2026-05-27T20:15:57.113Z"
+  },
+  "ca": {
+    "lat": 61.0666922,
+    "lon": -107.991707,
+    "displayName": "Canada",
+    "fetchedAt": "2026-05-27T20:15:58.164Z"
+  },
+  "sandiego::2800 torrey pines scenic dr, la jolla, ca": {
+    "lat": 32.890815,
+    "lon": -117.2509418,
+    "displayName": "2800, Torrey Pines Scenic Drive, Torrey Pines, San Diego, San Diego County, California, 92037, United States",
+    "fetchedAt": "2026-05-27T20:15:59.628Z"
+  },
+  "sandiego::750 e st, chula vista, ca": {
+    "lat": 32.6398616,
+    "lon": -117.0989619,
+    "displayName": "750, E Street, Chula Vista, San Diego County, California, 91910, United States",
+    "fetchedAt": "2026-05-27T20:16:01.681Z"
+  },
+  "sandiego::7530 fay ave, san diego, ca": {
+    "lat": 32.8407729,
+    "lon": -117.2742382,
+    "displayName": "Flower Pot Cafe, 7530, Fay Avenue, Village of La Jolla, La Jolla, San Diego, San Diego County, California, 92037, United States",
+    "fetchedAt": "2026-05-27T20:16:02.062Z"
+  },
+  "sandiego::1450 el prado, san diego, ca": {
+    "lat": 32.7321695,
+    "lon": -117.1504503,
+    "displayName": "San Diego Museum of Art, 1450, El Prado, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:16:03.346Z"
+  },
+  "sandiego::10918 technology place, san diego, ca": {
+    "lat": 33.0105389,
+    "lon": -117.0945613,
+    "displayName": "10918, Technology Place, San Diego, San Diego County, California, 92127, United States",
+    "fetchedAt": "2026-05-27T20:16:04.236Z"
+  },
+  "sandiego::8820 judicial dr, san diego, ca": {
+    "lat": 32.8676429,
+    "lon": -117.1991316,
+    "displayName": "North University Community Branch San Diego Public Library, 8820, Judicial Drive, University City, San Diego, San Diego County, California, 92122, United States",
+    "fetchedAt": "2026-05-27T20:16:05.205Z"
+  },
+  "sandiego::4108 adams ave, san diego": {
+    "lat": 32.7633309,
+    "lon": -117.107035,
+    "displayName": "4108, Adams Avenue, Kensington, City Heights, San Diego, San Diego County, California, 92116, United States",
+    "fetchedAt": "2026-05-27T20:16:06.586Z"
+  },
+  "sandiego::house of denmark, san diego": {
+    "lat": 32.7290685,
+    "lon": -117.1526823,
+    "displayName": "House of Denmark, Pan American Road West, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:16:07.476Z"
+  },
+  "sandiego::10475 san diego mission rd, san diego, ca": {
+    "lat": 32.7850096,
+    "lon": -117.110985,
+    "displayName": "10475, San Diego Mission Road, Grantville, San Diego, San Diego County, California, 92108, United States",
+    "fetchedAt": "2026-05-27T20:16:08.735Z"
+  },
+  "sandiego::8283 ronson road, san diego, ca": {
+    "lat": 32.8290266,
+    "lon": -117.145347,
+    "displayName": "8283, Ronson Road, Convoy District, Kearny Mesa, San Diego, San Diego County, California, 92111, United States",
+    "fetchedAt": "2026-05-27T20:16:09.759Z"
+  },
+  "sandiego::500 hotel cir n, san diego, ca": {
+    "lat": 32.7639143,
+    "lon": -117.1665425,
+    "displayName": "500, Hotel Circle North, Hillcrest, San Diego, San Diego County, California, 92108, United States",
+    "fetchedAt": "2026-05-27T20:16:10.961Z"
+  },
+  "sandiego::2330-36 30th st, san diego, ca": {
+    "lat": 32.7472327,
+    "lon": -117.1300977,
+    "displayName": "30th Street, Altadena, North Park, San Diego, San Diego County, California, 92104, United States",
+    "fetchedAt": "2026-05-27T20:16:11.961Z"
+  },
+  "sandiego::809 w harbor dr unit e4-a, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:14.369Z"
+  },
+  "sandiego::mike hess brewing, seaport village 2, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:14.582Z"
+  },
+  "sandiego::5863 mission gorge rd, san diego, ca": {
+    "lat": 32.7820926,
+    "lon": -117.1001416,
+    "displayName": "5863, Mission Gorge Road, Grantville, Allied Gardens, San Diego, San Diego County, California, 92120, United States",
+    "fetchedAt": "2026-05-27T20:16:15.779Z"
+  },
+  "sandiego::1495 pacific hwy #300, san diego, ca": {
+    "lat": 32.720324,
+    "lon": -117.170485,
+    "displayName": "1495, Pacific Highway, Little Italy, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:17.462Z"
+  },
+  "sandiego::1851 garnet ave., san diego, ca": {
+    "lat": 32.8007229,
+    "lon": -117.236212,
+    "displayName": "1851, Garnet Avenue, Pacific Beach, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-27T20:16:18.230Z"
+  },
+  "sandiego::balboa park, san diego": {
+    "lat": 32.7316771,
+    "lon": -117.1465253,
+    "displayName": "Balboa Park, San Diego, San Diego County, California, United States",
+    "fetchedAt": "2026-05-27T20:16:19.159Z"
+  },
+  "sandiego::la jolla shores, san diego, ca": {
+    "lat": 32.8556028,
+    "lon": -117.2536479,
+    "displayName": "La Jolla Shores, La Jolla, San Diego, San Diego County, California, 02037, United States",
+    "fetchedAt": "2026-05-27T20:16:20.277Z"
+  },
+  "sandiego::2880 torrey pines scenic drive, san diego, ca": {
+    "lat": 32.8880056,
+    "lon": -117.2455389,
+    "displayName": "2880, Torrey Pines Scenic Drive, Torrey Pines, San Diego, San Diego County, California, 92037, United States",
+    "fetchedAt": "2026-05-27T20:16:21.193Z"
+  },
+  "sandiego::1649 el prado, suite #3, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:22.528Z"
+  },
+  "sandiego::san diego history center, san diego": {
+    "lat": 32.7311591,
+    "lon": -117.148272,
+    "displayName": "San Diego History Center, 1649, El Prado, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:16:23.375Z"
+  },
+  "sandiego::1770 village pl, san diego, ca": {
+    "lat": 32.7340791,
+    "lon": -117.1476305,
+    "displayName": "Art Studios 12-19, 1770, Village Place, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:24.629Z"
+  },
+  "sandiego::1649 el prado, san diego, ca": {
+    "lat": 32.7311591,
+    "lon": -117.148272,
+    "displayName": "San Diego History Center, 1649, El Prado, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:16:25.922Z"
+  },
+  "sandiego::1439 el prado, san diego, ca": {
+    "lat": 32.7310117,
+    "lon": -117.1510312,
+    "displayName": "Mingei International Museum, 1439, El Prado, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:26.878Z"
+  },
+  "sandiego::1753 garnet ave, san diego, ca": {
+    "lat": 32.800208,
+    "lon": -117.237738,
+    "displayName": "1753, Garnet Avenue, Pacific Beach, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-27T20:16:28.067Z"
+  },
+  "sandiego::2920 zoo dr, san diego, ca": {
+    "lat": 32.7359874,
+    "lon": -117.1506542,
+    "displayName": "San Diego Zoo, 2920, Zoo Drive, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:29.192Z"
+  },
+  "sandiego::2294 pan american plaza, san diego": {
+    "lat": 32.727638,
+    "lon": -117.1533511,
+    "displayName": "Pan American Plaza, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:16:30.431Z"
+  },
+  "sandiego::3777 la jolla drive, la jolla, ca": {
+    "lat": 32.8505085,
+    "lon": -117.2542933,
+    "displayName": "La Jolla Shores Drive, Hidden Valley, La Jolla Shores, La Jolla, San Diego, San Diego County, California, 02037, United States",
+    "fetchedAt": "2026-05-27T20:16:31.220Z"
+  },
+  "sandiego::10265 science center drive, san diego, ca": {
+    "lat": 32.890489,
+    "lon": -117.230862,
+    "displayName": "10265, Science Center Drive, Torrey Pines, San Diego, San Diego County, California, 92121, United States",
+    "fetchedAt": "2026-05-27T20:16:32.528Z"
+  },
+  "sandiego::3794 30th st, san diego, ca": {
+    "lat": 32.7471771,
+    "lon": -117.1303671,
+    "displayName": "Swami's Cafe, 3794, 30th Street, Altadena, North Park, San Diego, San Diego County, California, 92104, United States",
+    "fetchedAt": "2026-05-27T20:16:33.575Z"
+  },
+  "sandiego::455 n quince st, escondido, ca": {
+    "lat": 33.122024,
+    "lon": -117.091646,
+    "displayName": "455, North Quince Street, Escondido, San Diego County, California, 92025, United States",
+    "fetchedAt": "2026-05-27T20:16:34.476Z"
+  },
+  "sandiego::441 saxony rd, encinitas, ca": {
+    "lat": 33.058998,
+    "lon": -117.282871,
+    "displayName": "441, Saxony Road, Leucadia, Encinitas, San Diego County, California, 92024, United States",
+    "fetchedAt": "2026-05-27T20:16:35.472Z"
+  },
+  "sandiego::5328 banks st a, san diego, ca": {
+    "lat": 32.7642608,
+    "lon": -117.199202,
+    "displayName": "5328, Banks Street, Morena, Old Town, San Diego, San Diego County, California, 92110, United States",
+    "fetchedAt": "2026-05-27T20:16:36.804Z"
+  },
+  "sandiego::2602 transportation ave suite a, national city, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:38.088Z"
+  },
+  "sandiego::steal and escape, national city": {
+    "lat": 32.6599978,
+    "lon": -117.102584,
+    "displayName": "Steal and Escape, 2602, Transportation Avenue, National City, San Diego County, California, 91950, United States",
+    "fetchedAt": "2026-05-27T20:16:38.913Z"
+  },
+  "sandiego::671 turquoise st., san diego": {
+    "lat": 32.8082591,
+    "lon": -117.2605996,
+    "displayName": "671, Turquoise Street, Bird Rock, Pacific Beach, San Diego, San Diego County, California, 92037, United States",
+    "fetchedAt": "2026-05-27T20:16:39.909Z"
+  },
+  "sandiego::camino san diego, san diego, ca": {
+    "lat": 32.7719829,
+    "lon": -117.1867848,
+    "displayName": "Camino San Diego, Morena, Old Town, San Diego, San Diego County, California, 92110, United States",
+    "fetchedAt": "2026-05-27T20:16:41.084Z"
+  },
+  "uc san diego park & market, 1100 market st, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:42.841Z"
+  },
+  "uc san diego park & market, 1100 market st": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:43.643Z"
+  },
+  "1100 market st": {
+    "lat": 37.7808481,
+    "lon": -122.4125251,
+    "displayName": "San Francisco Proper Hotel, 1100, Market Street, West SoMa, Tenderloin, South of Market, San Francisco, California, 94102, United States",
+    "fetchedAt": "2026-05-27T20:16:46.147Z"
+  },
+  "sandiego::international cottages lawn area, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:46.587Z"
+  },
+  "sandiego::san diego automotive museum, san diego": {
+    "lat": 32.7275434,
+    "lon": -117.153839,
+    "displayName": "San Diego Automotive Museum, 2080, Pan American Plaza, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:47.647Z"
+  },
+  "sandiego::timken museum of art, san diego": {
+    "lat": 32.7318504,
+    "lon": -117.1496291,
+    "displayName": "Timken Museum of Art, 1500, El Prado, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:48.713Z"
+  },
+  "sandiego::5811 amaya dr ste 100, la mesa, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:50.127Z"
+  },
+  "sandiego::la mesa cowork (lmcw), la mesa": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:50.894Z"
+  },
+  "sandiego::1650 el prado #208, san diego, ca": {
+    "lat": 32.7313719,
+    "lon": -117.1492013,
+    "displayName": "1650, El Prado, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:52.616Z"
+  },
+  "sandiego::4667 mission gorge pl, san diego": {
+    "lat": 32.7823067,
+    "lon": -117.0925522,
+    "displayName": "SD CoLab, 4667, Mission Gorge Place, Grantville, Allied Gardens, San Diego, San Diego County, California, 92182, United States",
+    "fetchedAt": "2026-05-27T20:16:53.178Z"
+  },
+  "sandiego::3500 sports arena blvd, san diego, ca": {
+    "lat": 32.7553042,
+    "lon": -117.2122696,
+    "displayName": "Pechanga Arena, 3500, Sports Arena Boulevard, Midway District, San Diego, San Diego County, California, 92110, United States",
+    "fetchedAt": "2026-05-27T20:16:54.227Z"
+  },
+  "sandiego::755 front st., san diego, ca": {
+    "lat": 32.7131227,
+    "lon": -117.1645858,
+    "displayName": "755, Front Street, Marina, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:16:55.403Z"
+  },
+  "sandiego::house of usa, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:56.412Z"
+  },
+  "sandiego::536 13th st #1, imperial beach, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:58.193Z"
+  },
+  "sandiego::bramble bay venue, imperial beach": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:16:58.511Z"
+  },
+  "sandiego::house of france, san diego": {
+    "lat": 32.7288794,
+    "lon": -117.1522097,
+    "displayName": "House of France, Pan American Place, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:17:00.069Z"
+  },
+  "sandiego::402 west broadway, suite 1000, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:17:01.004Z"
+  },
+  "sandiego::san diego regional chamber of commerce boardroom, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:17:01.993Z"
+  },
+  "sandiego::1889 zoo pl, san diego, ca": {
+    "lat": 32.7350531,
+    "lon": -117.1486723,
+    "displayName": "1889, Zoo Place, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:17:03.077Z"
+  },
+  "sandiego::house of peru, san diego": {
+    "lat": 32.7286906,
+    "lon": -117.153083,
+    "displayName": "House of Peru, Pan American Road West, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:17:04.304Z"
+  },
+  "sandiego::house of colombia, san diego": {
+    "lat": 32.7288294,
+    "lon": -117.1522209,
+    "displayName": "House of Colombia, Pan American Place, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:17:05.403Z"
+  },
+  "sandiego::house of israel, san diego": {
+    "lat": 32.7287757,
+    "lon": -117.1523032,
+    "displayName": "House of Israel, Pan American Place, Banker's Hill, San Diego, San Diego County, California, 92134, United States",
+    "fetchedAt": "2026-05-27T20:17:06.370Z"
+  },
+  "sandiego::550 w b st, san diego, ca": {
+    "lat": 32.7178495,
+    "lon": -117.1678376,
+    "displayName": "550, West B Street, Core-Columbia, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-27T20:17:07.659Z"
+  },
+  "sandiego::17750 old coach road, poway, ca": {
+    "lat": 33.038344,
+    "lon": -117.025616,
+    "displayName": "Maderas Golf Club, 17750, Old Coach Road, Poway, San Diego County, California, 92064, United States",
+    "fetchedAt": "2026-05-27T20:17:08.478Z"
+  },
+  "sandiego::950 hotel circle north, san diego, ca": {
+    "lat": 32.7612511,
+    "lon": -117.1724992,
+    "displayName": "Handlery Hotel San Diego, 950, Hotel Circle North, Uptown Medical Complex, Mission Hills, San Diego, San Diego County, California, 92108, United States",
+    "fetchedAt": "2026-05-27T20:17:09.560Z"
+  },
+  "sandiego::pechanga arena san diego, san diego": {
+    "lat": 32.7553042,
+    "lon": -117.2122696,
+    "displayName": "Pechanga Arena, 3500, Sports Arena Boulevard, Midway District, San Diego, San Diego County, California, 92110, United States",
+    "fetchedAt": "2026-05-27T20:17:10.782Z"
+  },
+  "sandiego::3760 glenn h curtiss rd ste., san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-27T20:17:11.908Z"
+  },
+  "sandiego::hangar 858, san diego": {
+    "lat": 33.1327545,
+    "lon": -117.258295,
+    "displayName": "Velo Hangar, 2719, Loker Avenue West, Bressi Ranch, Carlsbad, San Diego County, California, 92010, United States",
+    "fetchedAt": "2026-05-27T20:17:13.128Z"
   }
 }

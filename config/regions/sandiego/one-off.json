@@ -1,0 +1,4 @@
+{
+  "$comment": "Manually curated one-off events for San Diego County. Use for Padres home stands, Del Mar racing meets (summer/fall), San Diego Comic-Con, Pride parade, and any signature event that can't be auto-scraped. Format mirrors Coachella + LBI one-off.json files.",
+  "events": []
+}
