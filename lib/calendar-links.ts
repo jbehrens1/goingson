@@ -4,7 +4,7 @@
 // templates or share-link routes.
 
 import type { EventRecord } from "./types";
-import { cleanDescription } from "./util";
+import { cleanDescription } from "./clean-text";
 
 /** Detect URLs that point at a raw .ics file or a Google iCal feed.
  *  These are useless as a click-through for end users (browsers will either

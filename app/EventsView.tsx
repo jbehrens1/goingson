@@ -894,10 +894,16 @@ export default function EventsView({
       {!sortedFlat &&
         byDay &&
         [...byDay.entries()].map(([day, list]) => (
-          <section key={day} className="day-group">
-            <h2 className="day-heading">
+          // Each day is a <details> so clicking the date heading collapses
+          // that day's events. Defaults open. The chevron indicator and
+          // count badge are added via CSS (.day-heading::before / ::after).
+          <details key={day} className="day-group" open>
+            <summary className="day-heading">
               {formatDayHeading(day, region.timeZone, region.locale)}
-            </h2>
+              <span className="day-heading-count">
+                {list.length} {list.length === 1 ? "event" : "events"}
+              </span>
+            </summary>
             <table className="events-table">
               <tbody>
                 {list.map(({ ev, distance }) => (
@@ -945,7 +951,7 @@ export default function EventsView({
                 ))}
               </tbody>
             </table>
-          </section>
+          </details>
         ))}
 
       <footer>

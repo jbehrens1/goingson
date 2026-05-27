@@ -269,7 +269,15 @@ header .muted,
   margin: 2rem 0 0;
 }
 
+/* The day-heading is the <summary> of a <details> element so each day's
+ * events collapse when the user taps the date. Styling matches the
+ * previous <h2> look (uppercase, muted, bottom border) with a small
+ * chevron prefix that rotates on open and an event-count badge at the
+ * right. */
 .day-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -278,6 +286,38 @@ header .muted,
   margin: 0 0 0.5rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+}
+.day-heading::-webkit-details-marker {
+  display: none;
+}
+/* Chevron indicator — rotates from ▸ (collapsed) to ▾ (open). */
+.day-heading::before {
+  content: "▸";
+  display: inline-block;
+  font-size: 0.7rem;
+  color: var(--muted);
+  transition: transform 0.12s ease;
+  flex-shrink: 0;
+}
+details.day-group[open] > .day-heading::before {
+  transform: rotate(90deg);
+}
+.day-heading:hover {
+  color: var(--fg);
+}
+.day-heading:hover::before {
+  color: var(--fg);
+}
+.day-heading-count {
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .events-table {
