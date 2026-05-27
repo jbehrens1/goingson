@@ -1,0 +1,351 @@
+{
+  "$comment": "Coachella Valley event sources. Verified WordPress + Tribe Events Calendar sources land first (palm-springs-life, acrisure-arena, living-desert, villagefest) — these are ENABLED on day one. Other big-name venues (Pappy & Harriet's via See Tickets, Fantasy Springs, Spotlight 29 via Eventbrite/Ticketmaster widgets, McCallum + Agua Caliente which bot-block) are stubbed in but disabled until probed individually or until a custom adapter is built. Aggregator sites (Visit Greater Palm Springs, KESQ events, etc.) are html-generic best-effort and may need tuning.",
+  "sources": [
+    {
+      "id": "palm-springs-life",
+      "name": "Palm Springs Life — The Calendar",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://www.palmspringslife.com/",
+      "category": "Regional Aggregator",
+      "town": "All Coachella Valley",
+      "notes": "[2026-05-26 probe] WordPress + The Events Calendar (Tribe) confirmed via /wp-json/tribe/events/v1/events. Real future events returned (Palm Springs Brew Crew, Los Chicos Del Mambo Orchestra, …). Strongest single source for valley-wide coverage.",
+      "config": {}
+    },
+    {
+      "id": "acrisure-arena",
+      "name": "Acrisure Arena",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://acrisurearena.com/",
+      "category": "Venue / Arena",
+      "town": "Thousand Palms",
+      "notes": "[2026-05-26 probe] WordPress + Tribe confirmed. ~19 events on first REST page. Big touring acts (MANÁ, SHAKIRA), Coachella Valley Firebirds (AHL), Coachella Valley Lakers (NBA G League). 11,000-cap arena.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Acrisure Arena"
+      }
+    },
+    {
+      "id": "living-desert",
+      "name": "The Living Desert Zoo & Gardens",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://www.livingdesert.org/",
+      "category": "Venue / Zoo + Gardens",
+      "town": "Palm Desert",
+      "notes": "[2026-05-26 probe] WordPress + Tribe confirmed via REST. Walking Club, family events, seasonal WildLights. ~6 events visible on first REST page.",
+      "defaultEventType": "family",
+      "config": {
+        "defaultVenue": "The Living Desert Zoo & Gardens"
+      }
+    },
+    {
+      "id": "villagefest",
+      "name": "VillageFest",
+      "enabled": true,
+      "adapter": "wordpress-tribe",
+      "url": "https://villagefest.org/",
+      "category": "Recurring Street Fair",
+      "town": "Palm Springs",
+      "notes": "[2026-05-26 probe] WordPress + Tribe confirmed. Weekly Thursday street fair on Palm Canyon Dr. (October-May full schedule, June-September reduced). Art, food, entertainment.",
+      "defaultEventType": "festival",
+      "config": {
+        "defaultVenue": "Downtown Palm Springs"
+      }
+    },
+    {
+      "id": "visit-greater-palm-springs",
+      "name": "Visit Greater Palm Springs — Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.visitgreaterpalmsprings.com/events/",
+      "category": "Regional Aggregator",
+      "town": "All Coachella Valley",
+      "notes": "[2026-05-26 probe] Simpleview CMS — no Tribe/MEC REST. Official DMO calendar. html-generic may yield events if JSON-LD is present; revisit if 0. Includes Coachella, Stagecoach, Modernism Week, BNP Paribas Open, PSIFF, etc."
+    },
+    {
+      "id": "palm-springs-post",
+      "name": "The Palm Springs Post — Events Calendar",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://thepalmspringspost.com/eventscalendar/",
+      "category": "Regional Aggregator",
+      "town": "All Coachella Valley",
+      "notes": "[2026-05-26 probe] WordPress but no Tribe REST (404). Community-focused calendar; events submitted free by users so grass-roots coverage is good. May be a different plugin — re-probe for MEC / Sugar Calendar."
+    },
+    {
+      "id": "kesq-events",
+      "name": "KESQ Events Calendar",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://kesq.com/events/",
+      "category": "Local News",
+      "town": "All Coachella Valley",
+      "notes": "[2026-05-26 probe] WordPress, no Tribe REST. Local news station's events feed. html-generic best-effort."
+    },
+    {
+      "id": "palmsprings-com",
+      "name": "PalmSprings.com Calendar of Events",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.palmsprings.com/calendar_of_events/",
+      "category": "Regional Aggregator",
+      "town": "All Coachella Valley",
+      "notes": "Broad calendar including recurring staples like VillageFest. Probe for actual platform if html-generic yields 0."
+    },
+    {
+      "id": "bandsintown-palm-desert",
+      "name": "Bandsintown — Palm Desert",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.bandsintown.com/c/palm-desert-ca",
+      "category": "Ticketing Platform",
+      "town": "All Coachella Valley",
+      "notes": "DISABLED — Bandsintown requires an API key for structured data. html-generic won't extract anything useful. Replace with a custom bandsintown adapter when an API key is available."
+    },
+    {
+      "id": "mccallum-theatre",
+      "name": "McCallum Theatre",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://mccallumtheatre.org/",
+      "category": "Venue / Theater",
+      "town": "Palm Desert",
+      "notes": "DISABLED — site returned 403 to our user-agent (bot-blocked). Largest event load in the valley per Bandsintown (~98 shows). Look for a published iCal/RSS endpoint or contact directly. Broadway-style productions, big-name talent."
+    },
+    {
+      "id": "fantasy-springs",
+      "name": "Fantasy Springs Resort Casino",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.fantasyspringsresort.com/entertainment",
+      "category": "Venue / Casino",
+      "town": "Indio",
+      "notes": "[2026-05-26 probe] WordPress, no Tribe REST. Concerts and comedy. html-generic best-effort.",
+      "defaultEventType": "live-music"
+    },
+    {
+      "id": "agua-caliente-the-show",
+      "name": "The Show at Agua Caliente Casino",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.aguacalientecasinos.com/",
+      "category": "Venue / Casino",
+      "town": "Rancho Mirage",
+      "notes": "DISABLED — site returned 403 to our user-agent (bot-blocked). Concerts and tribute shows. Find a Ticketmaster/AXS organizer ID for an alternate scrape path.",
+      "defaultEventType": "live-music"
+    },
+    {
+      "id": "spotlight-29",
+      "name": "Spotlight 29 Casino",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://spotlight29.com/",
+      "category": "Venue / Casino",
+      "town": "Coachella",
+      "notes": "[2026-05-26 probe] WordPress with Eventbrite + Ticketmaster widgets embedded. No native event REST. html-generic best-effort.",
+      "defaultEventType": "live-music"
+    },
+    {
+      "id": "morongo-casino",
+      "name": "Morongo Casino Resort & Spa",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.morongocasinoresort.com/entertainment/",
+      "category": "Venue / Casino",
+      "town": "Cabazon",
+      "notes": "[2026-05-26 probe] Ticketmaster-backed. Use Ticketmaster API if/when a key is available; html-generic best-effort otherwise.",
+      "defaultEventType": "live-music"
+    },
+    {
+      "id": "pappy-harriets",
+      "name": "Pappy & Harriet's",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://pappyandharriets.com/calendar/",
+      "category": "Venue / Roadhouse + Live Music",
+      "town": "Pioneertown",
+      "notes": "[2026-05-26 probe] WordPress + See Tickets plugin (V35.3.1b). /calendar/ page renders events server-side as .seetickets-list-event-container blocks with .title a, .date (\"Thu May 28\"), .venue, .doortime-showtime, .headliners, .ages, .price, .genre. No JSON-LD. Custom adapter could parse these cleanly — for now html-generic best-effort. Iconic roadhouse, often the valley's busiest music venue.",
+      "defaultEventType": "live-music",
+      "config": {
+        "defaultVenue": "Pappy & Harriet's"
+      }
+    },
+    {
+      "id": "date-shed",
+      "name": "The Date Shed",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.thedateshed.com/",
+      "category": "Venue / Live Music",
+      "town": "Indio",
+      "notes": "DISABLED — domain returned connection failure during probe. Re-check URL; live music room, smaller capacity than the casinos.",
+      "defaultEventType": "live-music"
+    },
+    {
+      "id": "ps-art-museum",
+      "name": "Palm Springs Art Museum",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.psmuseum.org/events/",
+      "category": "Venue / Museum",
+      "town": "Palm Springs",
+      "notes": "[2026-05-26 probe] Custom CMS, no Tribe/MEC fingerprints. Exhibitions plus Cabaret 88 series, Annenberg Theater programming. html-generic best-effort.",
+      "defaultEventType": "art-gallery",
+      "config": {
+        "defaultVenue": "Palm Springs Art Museum"
+      }
+    },
+    {
+      "id": "ps-cultural-center",
+      "name": "Palm Springs Cultural Center / Camelot Theatres",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.psculturalcenter.org/",
+      "category": "Venue / Film + Performance",
+      "town": "Palm Springs",
+      "notes": "[2026-05-26 probe] Eventbrite + Ticketmaster widgets embedded. Three-screen movie house at 2300 E Baristo Rd. Get an Eventbrite organizer ID for cleaner ingest.",
+      "defaultEventType": "film",
+      "config": {
+        "defaultVenue": "Palm Springs Cultural Center"
+      }
+    },
+    {
+      "id": "desert-theatreworks",
+      "name": "Desert TheatreWorks",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.deserttheatreworks.org/",
+      "category": "Venue / Community Theater",
+      "town": "Indio",
+      "notes": "DISABLED — needs URL probe to confirm domain + adapter. Community theater productions.",
+      "defaultEventType": "theater"
+    },
+    {
+      "id": "galen-artists-center",
+      "name": "The Galen / Artists Center",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.cvartscenter.org/",
+      "category": "Venue / Arts Council",
+      "town": "Palm Desert",
+      "notes": "DISABLED — needs URL probe. Local arts council exhibitions and markets.",
+      "defaultEventType": "art-gallery"
+    },
+    {
+      "id": "plaza-theatre",
+      "name": "Plaza Theatre",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.theplazatheatre.org/",
+      "category": "Venue / Historic Theater",
+      "town": "Palm Springs",
+      "notes": "DISABLED — domain returned connection failure during probe. Valley's historic downtown theater. Re-check URL.",
+      "defaultEventType": "theater"
+    },
+    {
+      "id": "modernism-week",
+      "name": "Modernism Week",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://modernismweek.com/",
+      "category": "Signature Festival",
+      "town": "Palm Springs",
+      "notes": "[2026-05-26 probe] AXS ticketing platform. February signature event with a Fall Preview. Mostly a single annual event with sub-program listings.",
+      "defaultEventType": "festival"
+    },
+    {
+      "id": "ps-film-fest",
+      "name": "Palm Springs International Film Festival & ShortFest",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.psfilmfest.org/",
+      "category": "Signature Festival",
+      "town": "Palm Springs",
+      "notes": "[2026-05-26 probe] Custom site, no obvious platform fingerprint. January film festival + June ShortFest.",
+      "defaultEventType": "film"
+    },
+    {
+      "id": "desert-x",
+      "name": "Desert X",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://desertx.org/",
+      "category": "Signature Festival",
+      "town": "All Coachella Valley",
+      "notes": "[2026-05-26 probe] Small site (21KB), no fingerprint. Biennial outdoor art installations across the valley.",
+      "defaultEventType": "art-gallery"
+    },
+    {
+      "id": "bnp-paribas-open",
+      "name": "BNP Paribas Open",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://bnpparibasopen.com/",
+      "category": "Signature Festival",
+      "town": "Indian Wells",
+      "notes": "[2026-05-26 probe] Custom site. March tennis tournament at Indian Wells Tennis Garden. Mostly a single annual event window.",
+      "defaultEventType": "fitness",
+      "config": {
+        "defaultVenue": "Indian Wells Tennis Garden"
+      }
+    },
+    {
+      "id": "coachella-stagecoach",
+      "name": "Coachella & Stagecoach Festivals",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.coachella.com/",
+      "category": "Signature Festival",
+      "town": "Indio",
+      "notes": "DISABLED — single-event-per-year, won't add useful daily data. Empire Polo Field. Add manual one-off entries instead.",
+      "defaultEventType": "festival"
+    },
+    {
+      "id": "greater-palm-springs-pride",
+      "name": "Greater Palm Springs Pride",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.pspride.org/",
+      "category": "Community / LGBTQ+",
+      "town": "Palm Springs",
+      "notes": "[2026-05-26 probe] Wix-hosted (bot-block risk). AXS ticketing for some events. November signature event + year-round programming. html-generic best-effort.",
+      "defaultEventType": "community"
+    },
+    {
+      "id": "annenberg-theater",
+      "name": "Annenberg Theater (PS Art Museum)",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.psmuseum.org/events/",
+      "category": "Venue / Theater",
+      "town": "Palm Springs",
+      "notes": "DISABLED — events should be captured by ps-art-museum source above; enabling would dedupe-collide. Re-enable with a venue-filter if needed. 430-seat venue: jazz, symphony, Broadway, dance, film, talks.",
+      "defaultEventType": "live-music"
+    },
+    {
+      "id": "ps-downtown",
+      "name": "Downtown Palm Springs — Events",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.palmspringsdowntown.org/events",
+      "category": "City / Civic",
+      "town": "Palm Springs",
+      "notes": "DISABLED — domain returned connection failure during probe. Re-check URL."
+    },
+    {
+      "id": "manual-oneoff",
+      "name": "Coachella Valley one-off events (manual)",
+      "enabled": true,
+      "adapter": "manual-oneoff",
+      "url": "https://www.example.com/",
+      "category": "Manual",
+      "town": "All Coachella Valley",
+      "notes": "Specific dated events curated by hand in config/regions/coachella/one-off.json. Use for signature festivals (Coachella, Stagecoach, BNP Paribas Open dates) and venues that can't be auto-scraped.",
+      "config": {
+        "file": "one-off.json"
+      }
+    }
+  ]
+}

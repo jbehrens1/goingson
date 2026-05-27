@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T20:59:16.387Z",
+  "generatedAt": "2026-05-27T02:55:59.230Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -76,6 +76,34 @@
       "eventCount": 1175,
       "eventsPath": "/events.outercape.json",
       "generatedAt": "2026-05-26T20:59:16.387Z"
+    },
+    {
+      "id": "coachella",
+      "displayName": "Coachella Valley",
+      "tagline": "Events from Palm Springs, Palm Desert, Indio, Cathedral City, La Quinta, Rancho Mirage, and the rest of the Coachella Valley.",
+      "defaultCenter": {
+        "label": "Palm Springs, CA",
+        "lat": 33.8303,
+        "lon": -116.5453
+      },
+      "defaultRadiusMi": 25,
+      "timeZone": "America/Los_Angeles",
+      "locale": "en-US",
+      "language": "en",
+      "centerSuggestions": [
+        "Palm Springs, CA",
+        "Palm Desert, CA",
+        "Indio, CA",
+        "La Quinta, CA",
+        "Rancho Mirage, CA",
+        "Cathedral City, CA",
+        "Indian Wells, CA",
+        "Coachella, CA",
+        "Desert Hot Springs, CA"
+      ],
+      "eventCount": 146,
+      "eventsPath": "/events.coachella.json",
+      "generatedAt": "2026-05-27T02:55:17.858Z"
     }
   ]
 }

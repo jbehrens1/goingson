@@ -1,0 +1,4 @@
+{
+  "$comment": "Coachella Valley venue aliases. Empty for now — add entries as source data exposes inconsistent spellings (e.g. 'Acrisure Arena' vs 'Acrisure' vs 'Acrisure Arena, Thousand Palms').",
+  "venues": []
+}

@@ -1,0 +1,21 @@
+{
+  "$comment": "Coachella Valley town centroids. Used for title-extraction (event titles often mention towns), venue/town normalization, and distance filtering. Aliases handle the common 'Greater Palm Springs', 'Pioneertown', 'Thousand Palms' spellings that appear in source data.",
+  "towns": [
+    { "name": "Palm Springs", "lat": 33.8303, "lon": -116.5453, "aliases": ["Greater Palm Springs"] },
+    { "name": "Palm Desert", "lat": 33.7222, "lon": -116.3744 },
+    { "name": "Indio", "lat": 33.7206, "lon": -116.2156 },
+    { "name": "La Quinta", "lat": 33.6634, "lon": -116.3100 },
+    { "name": "Rancho Mirage", "lat": 33.7397, "lon": -116.4128 },
+    { "name": "Cathedral City", "lat": 33.7797, "lon": -116.4664 },
+    { "name": "Indian Wells", "lat": 33.7175, "lon": -116.3411 },
+    { "name": "Coachella", "lat": 33.6803, "lon": -116.1739 },
+    { "name": "Desert Hot Springs", "lat": 33.9611, "lon": -116.5017 },
+    { "name": "Thousand Palms", "lat": 33.8203, "lon": -116.3906 },
+    { "name": "Bermuda Dunes", "lat": 33.7428, "lon": -116.2906 },
+    { "name": "Mecca", "lat": 33.5722, "lon": -116.0775 },
+    { "name": "Cabazon", "lat": 33.9156, "lon": -116.7872 },
+    { "name": "Morongo Valley", "lat": 34.0489, "lon": -116.5814 },
+    { "name": "Pioneertown", "lat": 34.1606, "lon": -116.4983 },
+    { "name": "Banning", "lat": 33.9256, "lon": -116.8764 }
+  ]
+}

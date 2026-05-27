@@ -1,0 +1,31 @@
+{
+  "id": "coachella",
+  "displayName": "Coachella Valley",
+  "tagline": "Events from Palm Springs, Palm Desert, Indio, Cathedral City, La Quinta, Rancho Mirage, and the rest of the Coachella Valley.",
+  "defaultCenter": {
+    "label": "Palm Springs, CA",
+    "lat": 33.8303,
+    "lon": -116.5453
+  },
+  "defaultRadiusMi": 25,
+  "timeZone": "America/Los_Angeles",
+  "locale": "en-US",
+  "language": "en",
+  "boundingBox": {
+    "minLat": 33.50,
+    "maxLat": 34.05,
+    "minLon": -116.95,
+    "maxLon": -116.10
+  },
+  "centerSuggestions": [
+    "Palm Springs, CA",
+    "Palm Desert, CA",
+    "Indio, CA",
+    "La Quinta, CA",
+    "Rancho Mirage, CA",
+    "Cathedral City, CA",
+    "Indian Wells, CA",
+    "Coachella, CA",
+    "Desert Hot Springs, CA"
+  ]
+}

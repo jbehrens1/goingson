@@ -1,0 +1,3649 @@
+{
+  "region": {
+    "id": "coachella",
+    "displayName": "Coachella Valley",
+    "tagline": "Events from Palm Springs, Palm Desert, Indio, Cathedral City, La Quinta, Rancho Mirage, and the rest of the Coachella Valley.",
+    "defaultCenter": {
+      "label": "Palm Springs, CA",
+      "lat": 33.8303,
+      "lon": -116.5453
+    },
+    "defaultRadiusMi": 25,
+    "timeZone": "America/Los_Angeles",
+    "locale": "en-US",
+    "language": "en",
+    "centerSuggestions": [
+      "Palm Springs, CA",
+      "Palm Desert, CA",
+      "Indio, CA",
+      "La Quinta, CA",
+      "Rancho Mirage, CA",
+      "Cathedral City, CA",
+      "Indian Wells, CA",
+      "Coachella, CA",
+      "Desert Hot Springs, CA"
+    ]
+  },
+  "generatedAt": "2026-05-27T02:55:17.858Z",
+  "count": 146,
+  "events": [
+    {
+      "title": "Walking Club",
+      "url": "https://www.livingdesert.org/events/walking-club-3/2026-05-28/",
+      "start": "2026-05-28T15:00:00.000Z",
+      "end": "2026-05-28T16:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/09/TLD_WalkingClub_TaraHoward-10-scaled-e1747947513211.jpg",
+      "categories": [
+        "Members Only"
+      ],
+      "type": "family",
+      "id": "200b0245d09c9101",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.507Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-31/2026-05-28/",
+      "start": "2026-05-29T01:00:00.000Z",
+      "end": "2026-05-29T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "d00cfd225c0f6bfa",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Palm Springs VillageFest",
+      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-05-28/",
+      "start": "2026-05-29T01:00:00.000Z",
+      "end": "2026-05-29T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
+      "type": "festival",
+      "id": "3c874a4dc40e40b7",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.634Z"
+    },
+    {
+      "title": "Los Chicos Del Mambo Orchestra",
+      "description": "Los Chicos Del Mambo Orchestra performs at the Cascade Lounge at Agua Caliente Casino Palm Springs on May 28. The high-energy ensemble delivers cumbia, salsa, merengue, and mambo with brass, percussion, and rhythms that turn the room into a dance floor.",
+      "url": "https://www.palmspringslife.com/event/los-chicos-del-mambo-orchestra/",
+      "start": "2026-05-29T02:00:00.000Z",
+      "end": "2026-05-29T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06190006/ps-casino.png",
+      "categories": [
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "1fba4b51609037ee",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.921Z"
+    },
+    {
+      "title": "Palm Springs 70mm Fest",
+      "description": "Palm Springs 70mm Fest runs May 29–31 at the Palm Springs Cultural Center’s historic Camelot Theatre, presenting large-format screenings of Close Encounters of the Third Kind, The Searchers, 2001: A Space Odyssey, Boogie Nights, Lawrence of Arabia, and West Side Story.",
+      "url": "https://www.palmspringslife.com/event/palm-springs-70mm-fest/",
+      "start": "2026-05-29T07:00:00.000Z",
+      "end": "2026-06-01T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Camelot Theatres",
+        "town": "Palm Springs",
+        "address": "2300 E. Baristo Rd., Palm Springs, CA",
+        "lat": 33.8200816,
+        "lon": -116.5210299
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/17191747/2026-70MM-Calendar-Image.jpg",
+      "categories": [
+        "Fairs, Festivals &amp; Markets",
+        "Film"
+      ],
+      "type": "film",
+      "id": "17be5abd41ddedf9",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.922Z"
+    },
+    {
+      "title": "Mikael Healey’s Baby Grand: Construction Zone",
+      "description": "If most jazz performances are carefully drafted blueprints, Construction Zone is the rare site where you can watch the building go up in real time. Pianist Mikael Healey and tenor saxophonist Aaron Mercado abandon setlists and rehearsed arrangements in favor of pure, in-the-moment composition—every note shaped by instinct, chemistry, and the audience itself. Centered around a white baby grand and intimate, in-the-round seating, the experience is as immersive as it is unpredictable. Healey, an internationally respected musical director with a star on the Palm Springs Walk of Fame, brings a refined sensibility; Mercado answers with bold, expressive improvisation. Tickets include dinner.",
+      "url": "https://www.palmspringslife.com/event/mikael-healeys-baby-grand-construction-zone/",
+      "start": "2026-05-29T07:00:00.000Z",
+      "end": "2026-05-30T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spirit Animal",
+        "town": "Palm Springs",
+        "address": "150 S Indian Canyon Drive Suite B, Palm Springs",
+        "lat": 33.8221104,
+        "lon": -116.5451167
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21192101/Screenshot-2026-04-04-at-5.20.00-PM.png",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "65a376f480cddf5b",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.922Z"
+    },
+    {
+      "title": "Girl Talk Comedy Show",
+      "description": "Girl Talk Comedy Show featuring Heather Pasternak and Jessica Keenan takes the stage at the Cascade Lounge at Agua Caliente Casino Palm Springs. The stand-up showcase delivers sharp, modern comedy through personal storytelling and bold perspectives from two seasoned performers.",
+      "url": "https://www.palmspringslife.com/event/girl-talk-comedy-show/",
+      "start": "2026-05-29T07:00:00.000Z",
+      "end": "2026-05-30T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/02/11012456/Screenshot-2026-02-10-at-5.23.54-PM.png",
+      "categories": [
+        "Comedy"
+      ],
+      "type": "comedy",
+      "id": "c329d3446d57a00a",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.922Z"
+    },
+    {
+      "title": "Greater Palm Springs Restaurant Week",
+      "description": "Need an excuse not to cook after work? Restaurants throughout the Coachella Valley will offer screaming deals and delicious prix-fixe menus for lunch and dinner this week. Meals start at $15 — a great opportunity to give newer desert dining joints a try, including celebrity chef Richard Blais’ Kestrel, an airy spot for American food at the Indian Wells Golf Resort, and Palm Desert’s Shorebird, where dinner pairs well with wine.",
+      "url": "https://www.palmspringslife.com/event/greater-palm-springs-restaurant-week-2/",
+      "start": "2026-05-29T07:00:00.000Z",
+      "end": "2026-06-08T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Various Coachella Valley Venues",
+        "town": "Coachella Valley",
+        "address": "Coachella Valley, CA",
+        "lat": 33.7672351,
+        "lon": -116.3560439
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22194126/restaurant-week.png",
+      "categories": [
+        "Fairs, Festivals &amp; Markets",
+        "Food &amp; Drink"
+      ],
+      "type": "food-drink",
+      "id": "2ae9fabfaee121df",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.923Z"
+    },
+    {
+      "title": "Frey House II Tour + Museum Day Pass",
+      "description": "Tour the longtime residence of acclaimed midcentury architect Albert Frey. Perched on the hillside above Palm Springs Art Museum, the modern abode is a study in simplicity and Frey’s desire to commune with nature and is perhaps best known for the boulder that juts through one window. Home tour tickets provide complimentary access to the Palm Springs Art Museum and Architecture and Design Center. Saturday Tours: Through May 30, 2026",
+      "url": "https://www.palmspringslife.com/event/frey-house-ii-tour-museum-day-pass/2026-05-30/",
+      "start": "2026-05-30T07:00:00.000Z",
+      "end": "2026-05-31T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Palm Springs Art Museum (Frey House II Tour)",
+        "town": "Palm Springs",
+        "address": "101 Museum Drive, Palm Springs, CA",
+        "lat": 33.8241906,
+        "lon": -116.5499893
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2025/12/24174542/freyII_feb2025_900x500_header_image.jpg",
+      "categories": [
+        "Design"
+      ],
+      "type": "museum",
+      "id": "f1a889414d72f094",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.923Z"
+    },
+    {
+      "title": "A Night of Motown: Dinner Show",
+      "description": "Nostalgia arrives on a groove you can’t quite resist. A Night of Motown is a spirited dinner show that revisits the enduring sound of a generation, from the velvet harmonies of The Temptations to Stevie Wonder and Marvin Gaye, to the elegance of Smokey Robinson, and the powerhouse delivery of The Four Tops. At the center is vocalist Terrell Edwards, whose rich, expressive voice and magnetic stage presence anchor the evening. Ticket includes an entrée of your choice.",
+      "url": "https://www.palmspringslife.com/event/a-night-of-motown-dinner-show/",
+      "start": "2026-05-30T07:00:00.000Z",
+      "end": "2026-05-31T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spirit Animal",
+        "town": "Palm Springs",
+        "address": "150 S Indian Canyon Drive Suite B, Palm Springs",
+        "lat": 33.8221104,
+        "lon": -116.5451167
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21192502/Screenshot-2026-04-04-at-5.32.01-PM.png",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "food-drink",
+      "id": "fa4922507c3c6179",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.924Z"
+    },
+    {
+      "title": "Marilyn 100 After Party at Hunters Palm Springs",
+      "description": "The Marilyn 100 After Party takes over Hunters Palm Springs on May 30 with a high-energy celebration dedicated to Marilyn Monroe and her enduring pop-culture mystique. Guests can strike their best Monroe-inspired pose for the Marilyn Look-Alike Photo Contest, with three $100 Hunters gift cards up for grabs. To enter, attendees must snap a photo at the venue, post it to Facebook or Instagram, tag @HuntersPS, use the event hashtags, and tag at least five friends.",
+      "url": "https://www.palmspringslife.com/event/marilyn-100-after-party-at-hunters-palm-springs/",
+      "start": "2026-05-30T07:00:00.000Z",
+      "end": "2026-05-31T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Hunters Palm Springs",
+        "town": "Palm Springs",
+        "address": "302 E. Arenas Road, Palm Springs",
+        "lat": 33.8214022,
+        "lon": -116.5439757
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/18234841/b32bcd1d-f872-4780-befb-c265a3bfff90.png",
+      "categories": [
+        "Entertainment"
+      ],
+      "type": "community",
+      "id": "92335baeef4f81c5",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.925Z"
+    },
+    {
+      "title": "Palm Springs Certified Farmers Market",
+      "description": "The Palm Springs Certified Market features the freshest produce the region has to offer, artisan cheese, locally grown flowers, humanely raised meat and wild seafood, handmade baked goods, and much …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-certified-farmers-market-coachella-valley/2026-05-30/",
+      "start": "2026-05-30T15:00:00.000Z",
+      "end": "2026-05-30T20:00:00.000Z",
+      "location": {
+        "venue": "Palm Springs Pavilion",
+        "address": "401 S Pavilion Way, Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8171927,
+        "lon": -116.5247563
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/farmers-market-palm-springs-palm-desert-la-quinta-coachella-valley-e1689957862207.jpg",
+      "type": "food-drink",
+      "id": "a30d322450690dfe",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "Maná at Acrisure Arena",
+      "description": "Following overwhelming fan response, Maná has added a second Greater Palm Springs date to its Vivir Sin Aire Tour, arriving May 31 at Acrisure Arena. The iconic band—known for boundary-pushing rock and a long-standing commitment to environmental advocacy—now offers audiences two opportunities to catch the tour locally, with an additional performance scheduled for September 26. For a group celebrated worldwide, this added date is less an encore than a testament to enduring appeal.",
+      "url": "https://www.palmspringslife.com/event/mana-at-acrisure-arena/",
+      "start": "2026-05-31T07:00:00.000Z",
+      "end": "2026-06-01T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Road, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21231737/Static_Digital-Website_1920x1080_Mana_2026_Regional_AcrisureArena_0926.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "82677947d175fc26",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.926Z"
+    },
+    {
+      "title": "MANÁ New Show Added",
+      "description": "Due to popular demand, Maná has announced they will play another show at Acrisure Arena on May 31, 2026. Now, fans have two chances to see them in the Greater Palm Springs Area: May 31 and September 26. Debido a la alta demanda, Maná ha anunciado que agregará otro concierto en el Acrisure Arena el 31 de Mayo de 2026. Ahora los fans tendrán dos oportunidades para verlos en el área del Greater Palm Springs: el 31 de Mayo y 26 de Septiembre. Iconic Mexican rock band MANÁ – celebrated worldwide for their boundary-breaking music and long-standing environmental advocacy – has announced an additional show Greater Palm Springs date on their massively successful Vivir Sin Aire Tour due to incredible fan demand. The newly added show will take place at Acrisure Arena on May 31, 2026, in addition to the previously announced show on September 26, 2026. La banda icónica de rock MANÁ—reconocidos a nivel mundial por su música que rompe barreras y su activismo medioambiental de larga trayectoria—ha anunciado una segunda fecha en Greater Palm Springs como parte de su exitoso Vivir Sin Aire Tour debido a la increíble demanda de los fans. El nuevo show se llevará a cabo en el Acrisure Arena el 31 de mayo de 2026, además del show previamente anunciado para el 26 de septiembre. TICKETS: Tickets for the newly added date will be available starting Friday, March 6 at 10 a.m. PT at Ticketmaster, the official ticketing provider of Acrisure Arena. BOLETOS: Los boletos para la nueva fecha estarán disponibles a partir de este viernes 6 de marzo a las 10 a.m. PT en www.ticketmaster.com The second leg of the Vivir Sin Aire Tour kicked off last week with sold-out shows at Belmont Park and in Brooklyn, setting the tone for another unforgettable run. The tour continues this Friday at MGM National Harbor in Washington, DC, before heading to Philadelphia, Costa Rica, and multi-night stops in Puerto Rico, Miami, and Anaheim, along with additional cities. La segunda etapa del Vivir Sin Aire Tour arrancó la semana pasada con presentaciones completamente agotadas en Belmont Park y Brooklyn, marcando el esperado regreso de esta memorable gira. El tour continúa este viernes en el MGM National Harbor en Washington, DC, y seguirá por Filadelfia, Costa Rica y fechas dobles en Puerto Rico, Miami y Anaheim, además de otras ciudades, extendiéndose hasta finales de noviembre. TICKETS: Tickets for the newly added dates will be available starting Friday, December 5 at 10am local time at mana.com.mx. ENTRADAS: Los boletos para las nuevas fechas estarán disponibles a partir del viernes 5 de diciembre a las 10 a.m. (hora local) en www.livenation.com",
+      "url": "https://acrisurearena.com/event/mana-2/",
+      "start": "2026-06-01T03:30:00.000Z",
+      "end": "2026-06-01T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/03/Static_Digital-Website_1920x1080_Mana_2026_Regional_AcrisureArena_0926.jpg",
+      "categories": [
+        "Concerts",
+        "Stand Together Series",
+        "Acrisure Arena",
+        "Greater Palm Springs",
+        "latin",
+        "latin music",
+        "Stand Together Music Series"
+      ],
+      "type": "live-music",
+      "id": "881d48c930c787a1",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "Kimberly Cofer and the Tumbleweeds",
+      "description": "Kimberly Cofer and the Tumbleweeds perform at the Cascade Lounge at Agua Caliente Casino Palm Springs on June 3. The Coachella Valley artist blends Americana, folk, and country in a set rooted in storytelling and desert influence.",
+      "url": "https://www.palmspringslife.com/event/kimberly-cofer-and-the-tumbleweeds/",
+      "start": "2026-06-04T02:00:00.000Z",
+      "end": "2026-06-04T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06190006/ps-casino.png",
+      "categories": [
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "653ae2415a40e217",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "Palm Springs VillageFest",
+      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-06-04/",
+      "start": "2026-06-05T01:00:00.000Z",
+      "end": "2026-06-05T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
+      "type": "festival",
+      "id": "8449852f769b919a",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "Carey Frank Organ Trio",
+      "description": "Carey Frank Organ Trio performs at the Cascade Lounge at Agua Caliente Casino Palm Springs on June 4. Doors open at 6 p.m.; show at 7 p.m. The set showcases Hammond-driven jazz, blending groove, improvisation, and modern flair rooted in tradition.",
+      "url": "https://www.palmspringslife.com/event/carey-frank-organ-trio/",
+      "start": "2026-06-05T02:00:00.000Z",
+      "end": "2026-06-05T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06190006/ps-casino.png",
+      "categories": [
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "cd4c59c0827ed974",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "Nita Whitaker: Sophisticated Lady – Songs of Natalie Cole",
+      "description": "Get ready to be transported to a bygone era of glamour, sophistication, and pure musical magic as Nita Whitaker brings her show, Sophisticated Lady – Songs of Natalie Cole, paying tribute to Natalie Cole. Through her mesmerizing vocals and unparalleled stage presence, Nita sings Natalie’s most beloved hits, including “Unforgettable,” “This Will Be,” “Our Love,” and many more. With her soulful renditions and heartfelt interpretations, Nita celebrates the essence of Natalie Cole’s music and reminds us all why she remains an icon in the world of jazz and pop.",
+      "url": "https://www.palmspringslife.com/event/coachella-valley-repertory-nita-whitaker-sophisticated-lady-songs-of-natalie-cole/",
+      "start": "2026-06-05T02:00:00.000Z",
+      "end": "2026-06-05T03:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Coachella Valley Repertory",
+        "town": "Cathedral City",
+        "address": "68510 East Palm Canyon Drive, Cathedral City, CA",
+        "lat": 33.7797,
+        "lon": -116.4664
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/15230105/Screenshot-2026-05-15-at-3.56.12-PM.png",
+      "categories": [
+        "Entertainment"
+      ],
+      "type": "live-music",
+      "id": "b0fe6f015fedda7a",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-06-04/",
+      "start": "2026-06-05T02:00:00.000Z",
+      "end": "2026-06-05T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "0f2e59c4871805fc",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Lavender Festival",
+      "description": "Cherry Valley’s 123 Farm (located about 40 minutes from downtown Palm Springs) is home to probably the finest-smelling festival in SoCal. The months-long event includes farm tours, purple-hued photo ops, and tons of flower-infused treats, including lavender-marinated steak and lavender cheesecake and ice cream. You can also explore the farm’s sourdough bread hall, learn how lavender essential oils are distilled, and shop for lavender-scented personal care products.",
+      "url": "https://www.palmspringslife.com/event/lavender-festival/",
+      "start": "2026-06-05T07:00:00.000Z",
+      "end": "2026-07-20T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "123 Farm",
+        "town": "Cherry Valley",
+        "address": "10600 Highland Springs Ave., Cherry Valley",
+        "lat": 33.964353,
+        "lon": -116.945249
+      },
+      "imageUrl": "https://www.palmspringslife.com/wp-content/uploads/2025/04/lavender-festival.png",
+      "categories": [
+        "Fairs, Festivals &amp; Markets"
+      ],
+      "type": "festival",
+      "id": "b16633bef4444f21",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "House Party PS: Pink Saturday 4",
+      "description": "House Party PS: Pink Saturday 4 returns as a fundraiser for the Mizell Center’s Meals on Wheels program, presented by the Richmond/Ermet Aid Foundation. The evening features an open bar, silent auction, and performances by Keisha D, Steve Knill, Sheri Ray Parker, A Cabbello men’s chorus, and DJ Galazy, with Bella Da Ball emceeing.",
+      "url": "https://www.palmspringslife.com/event/house-party-ps-pink-saturday-4-2/",
+      "start": "2026-06-07T00:00:00.000Z",
+      "end": "2026-06-07T03:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Private address to be provided with ticket purchase",
+        "town": "Palm Springs",
+        "address": "Palm Springs, CA",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/09032344/kiOgjpInGUi30QWzsVLmRA.large-2.jpg",
+      "categories": [
+        "Charity",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "69d7ecb8fd56c5bb",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "Tribute to Heart",
+      "description": "Classic rock gets a faithful revival when Dog & Butterfly brings its tribute to Heart to Hunters Palm Springs on June 7. Billed as the only Heart tribute endorsed by Ann and Nancy Wilson, the production recreates the band’s soaring vocals, hard-rock edge. Expect a crowd-ready set packed with hits including “Crazy on You,” “These Dreams,” “Alone,” and “Barracuda.”",
+      "url": "https://www.palmspringslife.com/event/tribute-to-heart/",
+      "start": "2026-06-07T07:00:00.000Z",
+      "end": "2026-06-08T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Hunter’s Nightclub",
+        "town": "Palm Springs",
+        "address": "302 E. Arenas Road, Palm Springs, CA",
+        "lat": 33.8214022,
+        "lon": -116.5439757
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/15180334/Untitled-design-2026-05-14T135215.881.png",
+      "categories": [
+        "Entertainment"
+      ],
+      "type": "live-music",
+      "id": "08bd41c4eab8b4bf",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-09/",
+      "start": "2026-06-09T15:00:00.000Z",
+      "end": "2026-06-09T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "a31d0f72cbd8e9c9",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.507Z"
+    },
+    {
+      "title": "The Juke Joint Preachers",
+      "description": "The Juke Joint Preachers bring the blues spirit to The Cascade Lounge at Agua Caliente Casino Palm Springs on June 10, delivering a high-energy set rooted in the genre’s emotional core. Known for a sound that resonates with devoted blues audiences, the band leans into both the joys and sorrows that define the tradition, channeling its history through performance. Doors open at 6 p.m., with the show at 7.",
+      "url": "https://www.palmspringslife.com/event/the-juke-joint-preachers/",
+      "start": "2026-06-10T07:00:00.000Z",
+      "end": "2026-06-11T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22174156/Juke-Joint-Preachers.png",
+      "categories": [
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "f58c6bd13d6a94c8",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.927Z"
+    },
+    {
+      "title": "Terry Fator at Fantasy Springs Resort Casino",
+      "description": "Terry Fator returns to the Fantasy Springs Resort Casino on Wednesday, June 20 with the kind of show that refuses to sit neatly in one category. The America’s Got Talent winner blends ventriloquism, comedy, and powerhouse vocals into a fast-moving, crowd-pleasing performance that has defined his career.",
+      "url": "https://www.palmspringslife.com/event/terry-fator-at-fantasy-springs-resort-casino/",
+      "start": "2026-06-10T07:00:00.000Z",
+      "end": "2026-06-11T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22195211/TerryFator_DigitalAd_1200x666.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "d2b2e20adf0e9bd6",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-10/",
+      "start": "2026-06-10T15:00:00.000Z",
+      "end": "2026-06-10T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "575ff717ef780161",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "XOXO Palm Springs",
+      "description": "XOXO Palm Springs unfolds as a 12-day citywide festival celebrating the arts, culture, and creative identity of the desert community. Set across theaters, galleries, hotels, and public spaces, the event highlights film, music, dance, architecture, and immersive experiences while honoring the cultural legacy of the Agua Caliente Band of Cahuilla Indians. Visit visitpalmsprings.com/xoxo-palm-springs for the full lineup.",
+      "url": "https://www.palmspringslife.com/event/xoxo-palm-springs/",
+      "start": "2026-06-11T07:00:00.000Z",
+      "end": "2026-06-23T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Various Palm Springs Venues",
+        "town": "Palm Springs",
+        "address": "Palm Springs, CA",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/27002306/xoxo-palm-springs.png",
+      "categories": [
+        "Art",
+        "Fairs, Festivals &amp; Markets"
+      ],
+      "type": "film",
+      "id": "0ad116434c82e8e7",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-11/",
+      "start": "2026-06-11T15:00:00.000Z",
+      "end": "2026-06-11T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "e0bfc23d355629d9",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Where Were You In 1976?: A Star Is Born",
+      "description": "A Star Is Born screens as part of the XOXO Palm Springs Citywide Arts, Culture, and Music Festival, presented by Deserted Films, the Palm Springs Public Library, and the Palm Springs Cultural Center. The 1976 Frank Pierson film starring Barbra Streisand and Kris Kristofferson is paired with archival shorts and pre-show programming inspired by the Bicentennial era.",
+      "url": "https://www.palmspringslife.com/event/where-were-you-in-1976-a-look-back-at-bicentennial-cinema-a-star-is-born-1976/",
+      "start": "2026-06-12T01:00:00.000Z",
+      "end": "2026-06-12T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Palm Springs Cultural Center",
+        "town": "Palm Springs",
+        "address": "2300 E. Baristo Road, Palm Springs, CA",
+        "lat": 33.8200816,
+        "lon": -116.5210299
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/08231229/PSLife_Star.png",
+      "categories": [
+        "Film"
+      ],
+      "type": "film",
+      "id": "caf2e32b6c4699c8",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Palm Springs VillageFest",
+      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-06-11/",
+      "start": "2026-06-12T01:00:00.000Z",
+      "end": "2026-06-12T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
+      "type": "festival",
+      "id": "6c6b4589ef28b4e8",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "Feels So Good: The Chuck Mangione Experience",
+      "description": "Feels So Good: The Chuck Mangione Experience takes place June 11 at the Cascade Lounge at Agua Caliente Casino Palm Springs, led by Tom Marino and Grant Geissman. The concert revisits Mangione’s catalog through a live jazz performance.",
+      "url": "https://www.palmspringslife.com/event/feels-so-good-the-chuck-mangione-experience/",
+      "start": "2026-06-12T02:00:00.000Z",
+      "end": "2026-06-12T03:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06190006/ps-casino.png",
+      "categories": [
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "41a418029b1d1a04",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-06-11/",
+      "start": "2026-06-12T02:00:00.000Z",
+      "end": "2026-06-12T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "5a769f9656800d72",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Edith Márquez at Fantasy Springs Resort Casino",
+      "description": "Mexican music icon Edith Márquez brings her powerhouse vocals to the Special Events Center at Fantasy Springs Resort Casino, showcasing decades of pop, bolero, and ranchera hits.",
+      "url": "https://www.palmspringslife.com/event/edith-marquez-at-fantasy-springs-resort-casino/",
+      "start": "2026-06-12T07:00:00.000Z",
+      "end": "2026-06-13T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/04001346/EdithMarquez_DigitalAd_1200x666.jpg",
+      "categories": [
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "a3801569e42d1eeb",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Hush-Hush: A Variety Show of the Highest Class and Caliber",
+      "description": "Step into a glittering throwback to vintage Las Vegas as Bobbi DeCarlo leads a dazzling revue of live music, comedy, and rotating specialty acts. Backed by a swingin’ band, this intimate cabaret blends old-school glamour with modern edge, delivering powerhouse vocals, storytelling, and showstopping moments in an elegant lounge setting.",
+      "url": "https://www.palmspringslife.com/event/hush-hush-a-variety-show-of-the-highest-class-and-caliber/",
+      "start": "2026-06-12T07:00:00.000Z",
+      "end": "2026-06-13T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/16211345/Screenshot-2026-04-03-at-3.25.57-PM.png",
+      "categories": [
+        "Entertainment"
+      ],
+      "type": "live-music",
+      "id": "7caac37f7f523333",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Don Hefty at Spotlight 29 Casino",
+      "description": "Catch Don Hefty for a night of sharp, high-energy comedy rooted in relatable, everyday moments. With quick wit, strong crowd work, and an easy, conversational style, Hefty turns personal stories and awkward truths into big laughs, delivering a fun, engaging set that keeps audiences hooked from start to finish.",
+      "url": "https://www.palmspringslife.com/event/don-hefty-at-spotlight-29-casino/",
+      "start": "2026-06-12T07:00:00.000Z",
+      "end": "2026-06-13T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spotlight 29 Casino",
+        "town": "Coachella",
+        "address": "46200 Harrison Place, Coachella, CA",
+        "lat": 33.712246,
+        "lon": -116.1823881
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/20210242/Screenshot-2026-04-03-at-3.57.43-PM.png",
+      "categories": [
+        "Comedy",
+        "Entertainment"
+      ],
+      "type": "community",
+      "id": "80b11e800bf7afd9",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Mikael Healey’s Baby Grand: Broken Broadway",
+      "description": "Led by pianist Mikael Healey, this high-energy, audience-driven performance invites you to call out your favorite show tunes—only to hear them promptly deconstructed, reimagined, and set loose in entirely new forms. A ballad might swing, a power anthem may dissolve into a smoky lounge number, and a showstopper could veer into full improvisational chaos. Staged in an intimate, in-the-round setting with a white baby grand at its center, the experience is immersive, unpredictable, and never repeated. Dinner is included; expectations, best left at the door.",
+      "url": "https://www.palmspringslife.com/event/mikael-healeys-baby-grand-broken-broadway-2/",
+      "start": "2026-06-12T07:00:00.000Z",
+      "end": "2026-06-13T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spirit Animal",
+        "town": "Palm Springs",
+        "address": "150 S Indian Canyon Drive Suite B, Palm Springs",
+        "lat": 33.8221104,
+        "lon": -116.5451167
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21193147/Screenshot-2026-04-04-at-5.59.14-PM.png",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "theater",
+      "id": "8b9f45169859c8dd",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "The Truck Stop Art Fair",
+      "description": "This renegade art fair will be open for two nights only June 12 and June 13, 2026 from 6:30 p.m.–9:30 p.m. as part of the XOXO Festival of the Arts. Located at the Downtown Park near the Marilyn Monroe statue along Museum Way and Belardo. Parking is nearby including at the Palm Springs Art Museum and in the downtown parking garage. The Truck Stop Art Fair is organized by two artists, Anne Bedrick and Kathleen Strukoff, both Palm Springs residents, who wanted to find a way to participate in the XOXO Palm Springs event. Come check out these mobile art galleries.",
+      "url": "https://www.palmspringslife.com/event/the-truck-stop-art-fair/",
+      "start": "2026-06-13T01:30:00.000Z",
+      "end": "2026-06-14T04:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Downtown Park Palm Springs",
+        "town": "Palm Springs",
+        "address": "101 N. Musuem Dr., Palm Springs",
+        "lat": 33.8245152,
+        "lon": -116.5486633
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/05025128/Truck-Stop-Art-Fair.png",
+      "categories": [
+        "Art"
+      ],
+      "type": "museum",
+      "id": "6dd546765d9f654f",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Gene Simmons Band at Fantasy Springs Resort Casino",
+      "description": "Rock legend Gene Simmons brings KISS classics to Fantasy Springs Resort Casino with the Gene Simmons Band, delivering electrifying hits like “Rock and Roll All Night” and “Shout It Out Loud.”",
+      "url": "https://www.palmspringslife.com/event/gene-simmons-band-at-fantasy-springs-resort-casino/",
+      "start": "2026-06-13T07:00:00.000Z",
+      "end": "2026-06-14T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/04000204/GeneSimmons_DigitalAd_1200x666.jpg",
+      "categories": [
+        "Entertainment",
+        "Magic"
+      ],
+      "type": "other",
+      "id": "eeb55942e7163078",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Avery Pearson’s Comedian Rhapsody ft. Josh Wolf",
+      "description": "This cocktail-fueled edition of Comedian Rhapsody leans fully into its anything-can-happen ethos. Host Avery Pearson (Dr. Phil Live, Netflix) once again orchestrates the collision of stand-up and live music, as comics deliver brisk sets before improvising original songs with the audience in real time—no script, no repeats, no safety net. Joining the lineup is Josh Wolf, known for Chelsea Lately and his podcast Hey Maaan, bringing sharp storytelling and disarming candor to the stage. Two cocktails are included with your ticket.",
+      "url": "https://www.palmspringslife.com/event/avery-pearsons-comedian-rhapsody-ft-josh-wolf/",
+      "start": "2026-06-13T07:00:00.000Z",
+      "end": "2026-06-14T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spirit Animal",
+        "town": "Palm Springs",
+        "address": "150 S Indian Canyon Drive Suite B, Palm Springs",
+        "lat": 33.8221104,
+        "lon": -116.5451167
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21195904/6.13-Eventbrite.jpg",
+      "categories": [
+        "Comedy",
+        "Entertainment"
+      ],
+      "type": "comedy",
+      "id": "d470a311b6c3c336",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Second Saturday Book Swap at Materias Primas",
+      "description": "Materias Primas invites readers and creatives to its Second Saturday Book Swap, a monthly gathering dedicated to art, design, and architecture. Guests are encouraged to bring a well-loved book to exchange with fellow attendees (in gently loved condition) — or, at the owner’s discretion, with the shop itself. Complimentary drinks and light snacks set the tone for an easygoing afternoon of conversation and discovery. Free and open to the public, the swap celebrates shared ideas, thoughtful curation, and the joy of passing along books meant to inspire.",
+      "url": "https://www.palmspringslife.com/event/second-saturday-bookswap-at-materias-primas/2026-06-13/",
+      "start": "2026-06-13T15:00:00.000Z",
+      "end": "2026-06-14T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Materias Primas",
+        "town": "Cathedral City",
+        "address": "68895 Perez Road, Building I, Suite 10, Cathedral City, CA",
+        "lat": 33.7797,
+        "lon": -116.4664
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2025/12/20225443/BookSwapPress1920x1080.jpg",
+      "categories": [
+        "Art"
+      ],
+      "type": "community",
+      "id": "46e7f5ff45d3390f",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-16/",
+      "start": "2026-06-16T15:00:00.000Z",
+      "end": "2026-06-16T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "1fe40c0acd1712d8",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Shakira at Acrisure Arena",
+      "description": "Shakira brings her Las Mujeres Ya No Lloran World Tour 2026 to Acrisure Arena on June 17, delivering the kind of high-voltage performance that has defined her career. Widely regarded as one of the most influential artists in contemporary music, Shakira is known for a stage presence that is as dynamic as her catalog is expansive. Expect a setlist that spans global hits alongside material from her latest album, Las Mujeres Ya No Lloran.",
+      "url": "https://www.palmspringslife.com/event/shakira-at-acrisure-arena/",
+      "start": "2026-06-17T07:00:00.000Z",
+      "end": "2026-06-18T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Road, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21232134/Static_Social_1600x900_Shakira_2026_Regional_AcrisureArena_0616.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "a8e36b595f3942f0",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-17/",
+      "start": "2026-06-17T15:00:00.000Z",
+      "end": "2026-06-17T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "55849ea68040a51f",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "SHAKIRA",
+      "description": "One of the most influential and celebrated artists in the world, Shakira’s show in the Coachella Valley promises an unforgettable night filled with global hits and her signature high-energy stage presence. Fans can expect a dynamic show featuring chart-topping songs from across her iconic career, along with music from her most recent album, Las Mujeres Ya No Lloran. SHAKIRA is taking over Acrisure Arena with Las Mujeres Ya No Lloran World Tour 2026. Get ready for an unforgettable night of hits and pure energy. Sign up to join the Artist Presale by Sun, April 5 at 7PM PT at SHAKIRA.COM SHAKIRA llega a Acrisure Arena con Las Mujeres Ya No Lloran World Tour. Prepárate para una noche inolvidable llena de éxitos y pura energía. Inscríbete a la Preventa de Artista desde ahora hasta el Domingo 5 de Abril a las 7PM PT en SHAKIRA.COM",
+      "url": "https://acrisurearena.com/event/shakira/",
+      "start": "2026-06-18T02:30:00.000Z",
+      "end": "2026-06-18T02:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2024/04/Static_Social_1600x900_Shakira_2026_Regional_AcrisureArena_0616.jpg",
+      "categories": [
+        "Concerts",
+        "Stand Together Series",
+        "Acrisure Arena",
+        "Concert",
+        "latin music",
+        "Shakira"
+      ],
+      "type": "live-music",
+      "id": "0761348e5f83df32",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-18/",
+      "start": "2026-06-18T15:00:00.000Z",
+      "end": "2026-06-18T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "3351680199920457",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Where Were You In 1976?: The Bad News Bears",
+      "description": "Deserted Films, the Palm Springs Public Library, and the Palm Springs Cultural Center present The Bad News Bears as part of the XOXO Palm Springs Citywide Arts, Culture, and Music Festival. The 1976 Michael Ritchie comedy screens alongside archival shorts and pre-show programming reflecting the cultural mood and cinematic landscape of the Bicentennial era.",
+      "url": "https://www.palmspringslife.com/event/where-were-you-in-1976-a-look-back-at-bicentennial-cinema-the-bad-news-bears-1976/",
+      "start": "2026-06-19T01:00:00.000Z",
+      "end": "2026-06-19T03:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Palm Springs Cultural Center",
+        "town": "Palm Springs",
+        "address": "2300 E. Baristo Road, Palm Springs, CA",
+        "lat": 33.8200816,
+        "lon": -116.5210299
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/08232346/PSLife_film_BadNewsBears.png",
+      "categories": [
+        "Film"
+      ],
+      "type": "film",
+      "id": "552222db75492514",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Palm Springs VillageFest",
+      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-06-18/",
+      "start": "2026-06-19T01:00:00.000Z",
+      "end": "2026-06-19T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
+      "type": "festival",
+      "id": "c7909220b322c2ba",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-06-18/",
+      "start": "2026-06-19T02:00:00.000Z",
+      "end": "2026-06-19T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "de301a0e858cb607",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Juneteenth Comedy Showcase featuring Ralph Porter",
+      "description": "Celebrate Juneteenth with an evening of bold, culture-driven comedy as Ralph Porter headlines a dynamic showcase at Agua Caliente Casino Palm Springs. Featuring a curated lineup of Black comedians, the night blends sharp storytelling, high-energy sets, and powerful perspectives in a lively, community-centered celebration.",
+      "url": "https://www.palmspringslife.com/event/juneteenth-comedy-showcase-featuring-ralph-porter/",
+      "start": "2026-06-19T07:00:00.000Z",
+      "end": "2026-06-20T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/16215245/Screenshot-2026-04-03-at-3.31.57-PM.png",
+      "categories": [
+        "Comedy",
+        "Entertainment"
+      ],
+      "type": "community",
+      "id": "2af67943f033d6a0",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.928Z"
+    },
+    {
+      "title": "Forrest Shaw Live: A Night of Smart, Sharp, Fearlessly Funny Comedy",
+      "description": "Catch Forrest Shaw for a night of sharp, fearless stand-up blending cultural insight, personal storytelling, and quick-fire wit. Known for appearances on Conan and The Late Late Show with James Corden, Shaw delivers an intimate, high-energy set packed with smart humor and memorable punchlines.",
+      "url": "https://www.palmspringslife.com/event/forrest-shaw-live-a-night-of-smart-sharp-fearlessly-funny-comedy/",
+      "start": "2026-06-19T07:00:00.000Z",
+      "end": "2026-06-20T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spotlight 29 Casino",
+        "town": "Coachella",
+        "address": "46200 Harrison Place, Coachella, CA",
+        "lat": 33.712246,
+        "lon": -116.1823881
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/16234611/Screenshot-2026-04-03-at-3.40.09-PM.png",
+      "categories": [
+        "Comedy",
+        "Entertainment"
+      ],
+      "type": "comedy",
+      "id": "ddb24648465c4b6d",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Billy L’Amour & The Love Notes",
+      "description": "Billy L’Amour & The Love Notes deliver a dinner show steeped in vintage glamour, where romance is dialed up and the energy rarely dips. At the center is Billy L’Amour—a singer, dancer, and drag performer whose style draws from old-school Las Vegas showgirls and the polished allure of Parisian revues. Expect live vocals, theatrical flair, and a knowing sense of humor, all backed by a full band.",
+      "url": "https://www.palmspringslife.com/event/billy-lamour-the-love-notes-3/",
+      "start": "2026-06-19T07:00:00.000Z",
+      "end": "2026-06-20T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spirit Animal",
+        "town": "Palm Springs",
+        "address": "150 S Indian Canyon Drive Suite B, Palm Springs",
+        "lat": 33.8221104,
+        "lon": -116.5451167
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21182239/Screenshot-2026-04-04-at-5.05.23-PM.png",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "food-drink",
+      "id": "22196eb5c721d1a0",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Bob Dylan at Acrisure Arena",
+      "description": "Bob Dylan takes the stage at Acrisure Arena on June 20, bringing with him a body of work that spans nearly six decades—and a reputation for never standing still. Rather than lean on nostalgia, Dylan continues to reshape his material, treating each performance as something alive and evolving. The result is less a greatest-hits set than an evening of constant reinvention. He’s joined by Lucinda Williams and The John Doe Folk Trio, making this a night rooted in songwriting and craft.",
+      "url": "https://www.palmspringslife.com/event/bob-dylan-at-acrisure-arena/",
+      "start": "2026-06-20T07:00:00.000Z",
+      "end": "2026-06-21T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Road, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21233310/0620-PalmDesertCA_BobDylan_2026_1920x1080.png",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "301e3337aaa85ed4",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Where Were You In 1976?: Escape to Witch Mountain",
+      "description": "Deserted Films, the Palm Springs Public Library, and the Palm Springs Cultural Center present Escape to Witch Mountain, a free, ticketed all-ages matinee screening as part of the XOXO Palm Springs Citywide Arts, Culture, and Music Festival. The 1975 Disney film is accompanied by archival shorts and pre-show programming inspired by the Bicentennial era.",
+      "url": "https://www.palmspringslife.com/event/where-were-you-in-1976-a-look-back-at-bicentennial-cinema-escape-to-witch-mountain-1975/",
+      "start": "2026-06-20T21:00:00.000Z",
+      "end": "2026-06-20T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Palm Springs Cultural Center",
+        "town": "Palm Springs",
+        "address": "2300 E. Baristo Road, Palm Springs, CA",
+        "lat": 33.8200816,
+        "lon": -116.5210299
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/08233134/PSLife_film_Escape.png",
+      "categories": [
+        "Film"
+      ],
+      "type": "film",
+      "id": "fe655e5392390306",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Juneteenth: Celebrating Freedom Through History and Culture",
+      "description": "As part of XOXO Festival Weekend, the Sunset Music and Education Foundation brings Juneteenth to Revolution Stage Company for an afternoon centered on storytelling, music, poetry, and community. Led by Sweet Baby J’ai, the gathering features spoken word, live music, cultural presentations, and performances from SMARTS Initiative students, all designed to celebrate freedom, resilience, and creative expression. Admission is free with a ticket.",
+      "url": "https://www.palmspringslife.com/event/juneteenth-celebrating-freedom-through-history-and-culture/",
+      "start": "2026-06-20T21:00:00.000Z",
+      "end": "2026-06-20T23:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Revolution Stage Company",
+        "town": "Palm Springs",
+        "address": "611 S. Palm Canyon Drive, Suite 16, Palm Springs, CA",
+        "lat": 33.8303,
+        "lon": -116.5453
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/15224708/74bfd195-17db-4bd7-8584-7320dd67756a.jpg",
+      "categories": [
+        "Entertainment"
+      ],
+      "type": "live-music",
+      "id": "80c70e13ff2bd67d",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Bob Dylan",
+      "description": "Bob Dylan will perform at Acrisure Arena in Palm Desert, CA on Saturday, June 20, 2026, with Lucinda Williams and The John Doe Folk Trio. Bob Dylan’s career has lasted the better part of SIXTY years now. He has never gotten by on sentimentality or nostalgia. He has never repeated his successes. Dylan has always pushed his work ahead. TICKETS: Presale begins this Thursday, March 26 and goes from 10 am – 10 pm PT. Tickets go on sale to the general public on Friday, March 27 at 10 a.m. local time and can be purchased at Ticketmaster.",
+      "url": "https://acrisurearena.com/event/bob-dylan/",
+      "start": "2026-06-21T02:00:00.000Z",
+      "end": "2026-06-21T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/03/0620-PalmDesertCA_BobDylan_2026_1920x1080.png",
+      "categories": [
+        "Concerts",
+        "Stand Together Series",
+        "bob dylan",
+        "lucinda williams",
+        "the john doe folk trio"
+      ],
+      "type": "live-music",
+      "id": "6ea7514a4c38904a",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "World Giraffe Day 2026",
+      "url": "https://www.livingdesert.org/events/world-giraffe-day-2026/",
+      "start": "2026-06-21T14:00:00.000Z",
+      "end": "2026-06-21T16:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2025/06/Giraffe-The-Living-Desert-Zoo-and-Gardens-WIDE-copy.jpg",
+      "categories": [
+        "Free with Admission"
+      ],
+      "type": "family",
+      "id": "dc2ecdb92c863679",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Palm Springs International ShortFest",
+      "description": "Love a movie that can make the most of a tight runtime? Head to ShortFest, the largest showcase of short films in the world. This festival — which has been a launching pad for filmmakers like Ava DuVernay, the highest-grossing Black woman film director in US history, and Lulu Wang, who directed the 2019 Golden Globe nominee The Farewell — screens more than 300 Academy Award–eligible movies in themed, 90-minute blocks and offers attendees a chance to meet many of the creative minds behind them.",
+      "url": "https://www.palmspringslife.com/event/palm-springs-international-shortfest/",
+      "start": "2026-06-23T07:00:00.000Z",
+      "end": "2026-06-30T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Various Coachella Valley Venues",
+        "town": "Coachella Valley",
+        "address": "Coachella Valley, CA",
+        "lat": 33.7672351,
+        "lon": -116.3560439
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22194513/shortfest.png",
+      "categories": [
+        "Fairs, Festivals &amp; Markets",
+        "Film"
+      ],
+      "type": "film",
+      "id": "ad810b2bf1cef651",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-23/",
+      "start": "2026-06-23T15:00:00.000Z",
+      "end": "2026-06-23T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "71abb484d4392c4b",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-24/",
+      "start": "2026-06-24T15:00:00.000Z",
+      "end": "2026-06-24T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "ff6fd353ddaf8f3c",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Sasha Berliner at Agua Caliente Casino Palm Springs",
+      "description": "San Francisco-born vibraphonist, composer, and bandleader Sasha Berliner takes the stage at the Cascade Lounge inside Agua Caliente Casino Palm Springs. With a sharp sound that blends harmony, edge, and intention, this is one jazz night worth marking your calendar for.",
+      "url": "https://www.palmspringslife.com/event/sasha-berliner-at-agua-caliente-casino-palm-springs/",
+      "start": "2026-06-25T07:00:00.000Z",
+      "end": "2026-06-26T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06190006/ps-casino.png",
+      "categories": [
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "3e9ac469e4867e82",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-25/",
+      "start": "2026-06-25T15:00:00.000Z",
+      "end": "2026-06-25T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "d7af9f4aac4ee857",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Where Were You In 1976?: Assault on Precinct 13",
+      "description": "John Carpenter’s Assault on Precinct 13 anchors an evening of Bicentennial-era cinema presented by Deserted Films, the Palm Springs Public Library, and the Palm Springs Cultural Center. The 1976 thriller screens alongside archival footage and short films examining the mood, anxieties, and cultural landscape surrounding America’s Bicentennial year.",
+      "url": "https://www.palmspringslife.com/event/where-were-you-in-1976-a-look-back-at-bicentennial-cinema-assault-on-precinct-13-1976/",
+      "start": "2026-06-26T01:00:00.000Z",
+      "end": "2026-06-26T03:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Palm Springs Cultural Center",
+        "town": "Palm Springs",
+        "address": "2300 E. Baristo Road, Palm Springs, CA",
+        "lat": 33.8200816,
+        "lon": -116.5210299
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/08233511/PSLife_Assault.png",
+      "categories": [
+        "Film"
+      ],
+      "type": "film",
+      "id": "fe535e4f9c3d9ea6",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Palm Springs VillageFest",
+      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-06-25/",
+      "start": "2026-06-26T01:00:00.000Z",
+      "end": "2026-06-26T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
+      "type": "festival",
+      "id": "e053e7b34963faf2",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-06-25/",
+      "start": "2026-06-26T02:00:00.000Z",
+      "end": "2026-06-26T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "5c233dccafbfb1b8",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Sarper Güven Comedy Show at Cascade Lounge",
+      "description": "Sarper Güven, known for his stint on the reality-TV show 90 Day Fiancé, will perform a stand-up comedy show focused on love and relationships at Agua Caliente Casino Palm Springs’ Cascade Lounge.",
+      "url": "https://www.palmspringslife.com/event/sarper-guven-comedy-show/",
+      "start": "2026-06-26T07:00:00.000Z",
+      "end": "2026-06-27T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06001505/Screenshot-2026-03-05-at-3.59.45-PM.png",
+      "categories": [
+        "Comedy",
+        "Entertainment"
+      ],
+      "type": "comedy",
+      "id": "94d0bd224835cbf4",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-06-30/",
+      "start": "2026-06-30T15:00:00.000Z",
+      "end": "2026-06-30T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "00e924cb8683d4be",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-07-01/",
+      "start": "2026-07-01T15:00:00.000Z",
+      "end": "2026-07-01T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "86b25a985a7f9010",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Summer ZooCamp 2026",
+      "url": "https://www.livingdesert.org/events/summer-zoocamp-2026/2026-07-02/",
+      "start": "2026-07-02T15:00:00.000Z",
+      "end": "2026-07-02T19:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Living Desert Zoo & Gardens",
+        "town": "Palm Desert",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/05/Spring-ZooCamp-The-Living-Desert-Zoo-and-Gardens-2022-01-e1715356298178.webp",
+      "categories": [
+        "Education Program"
+      ],
+      "type": "workshop",
+      "id": "633a36b0756c2f6a",
+      "source": {
+        "id": "living-desert",
+        "name": "The Living Desert Zoo & Gardens"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.510Z"
+    },
+    {
+      "title": "Where Were You In 1976?: Nashville",
+      "description": "Nashville screens as part of a Bicentennial-themed film series presented by Deserted Films, the Palm Springs Public Library, and the Palm Springs Cultural Center. The May 1975 Robert Altman film is paired with archival shorts and ephemera exploring American culture and cinema during the nation’s 1976 Bicentennial era.",
+      "url": "https://www.palmspringslife.com/event/where-were-you-in-1976-a-look-back-at-bicentennial-cinema-nashville-1975/",
+      "start": "2026-07-03T01:00:00.000Z",
+      "end": "2026-07-03T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Palm Springs Cultural Center",
+        "town": "Palm Springs",
+        "address": "2300 E. Baristo Road, Palm Springs, CA",
+        "lat": 33.8200816,
+        "lon": -116.5210299
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/08234005/PSLife_film_Nashville.png",
+      "categories": [
+        "Film"
+      ],
+      "type": "film",
+      "id": "90c5346836ce5280",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Palm Springs VillageFest",
+      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-07-02/",
+      "start": "2026-07-03T01:00:00.000Z",
+      "end": "2026-07-03T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
+      "type": "festival",
+      "id": "67c80b239c91547a",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-07-02/",
+      "start": "2026-07-03T02:00:00.000Z",
+      "end": "2026-07-03T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "48cbed2f5d9c7b6a",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "4th of July Palm Springs 2026",
+      "description": "Fourth of July Weekend in Palm Springs 2026 - Details to be announced. Power Baseball: The all stars collegiate summer game starts at 6pm. (to be confirmed). 4th of July …\n\\n",
+      "url": "https://www.palmsprings.com/event/4th-of-july-palm-springs/",
+      "start": "2026-07-04T22:00:00.000Z",
+      "end": "2026-07-05T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/4th-of-july-palm-springs.jpg",
+      "type": "other",
+      "id": "5837f0809d290a61",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "4th of July Palm Desert &#8211; Independence Day Celebration 2026",
+      "description": "4th of July Palm Desert 2026 > Palm Desert Independence Day Celebration 2026 - Details to be confirmed / announced! FREE Concert of pop favorites kicking off at 7:30pm and …\n\\n",
+      "url": "https://www.palmsprings.com/event/4th-of-july-palm-desert/",
+      "start": "2026-07-05T02:30:00.000Z",
+      "end": "2026-07-05T05:00:00.000Z",
+      "location": {
+        "venue": "Palm Desert Civic Center Park",
+        "address": "43900 San Pablo Ave, Palm Desert, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.734285,
+        "lon": -116.382398
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/4th-of-july-palm-desert.jpg",
+      "type": "live-music",
+      "id": "136107aefd208aee",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-27T02:54:54.635Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-07-09/",
+      "start": "2026-07-10T02:00:00.000Z",
+      "end": "2026-07-10T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "4140da21d3161b0b",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-07-16/",
+      "start": "2026-07-17T02:00:00.000Z",
+      "end": "2026-07-17T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "c0223a8414f41d6d",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-07-23/",
+      "start": "2026-07-24T02:00:00.000Z",
+      "end": "2026-07-24T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "e015ecebf8270e5c",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Teachers Gone Bad Comedy Show",
+      "description": "Class is in session at the Chairman’s Lounge inside Spotlight 29 Casino in Coachella! Real-life educators turned comedians trade lesson plans for punchlines in this hilarious, no-filter night of stand-up.",
+      "url": "https://www.palmspringslife.com/event/teachers-gone-bad-comedy-show/",
+      "start": "2026-07-24T07:00:00.000Z",
+      "end": "2026-07-25T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Spotlight 29 Casino",
+        "town": "Coachella",
+        "address": "46200 Harrison Place, Coachella, CA",
+        "lat": 33.712246,
+        "lon": -116.1823881
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06001750/Screenshot-2026-03-05-at-4.02.08-PM.png",
+      "categories": [
+        "Comedy"
+      ],
+      "type": "comedy",
+      "id": "b40c43f0175155a1",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.929Z"
+    },
+    {
+      "title": "Cole Swindell at Fantasy Springs Resort Casino",
+      "description": "Country hitmaker Cole Swindell brings his chart-topping anthems to the Special Events Center at Fantasy Springs Resort Casino for a high-energy summer night of modern country.",
+      "url": "https://www.palmspringslife.com/event/cole-swindell-at-fantasy-springs-resort-casino/",
+      "start": "2026-07-25T07:00:00.000Z",
+      "end": "2026-07-26T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/04000156/ColeSwindell_DigitalAd_1200x666.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "d194ed245015e569",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-07-30/",
+      "start": "2026-07-31T02:00:00.000Z",
+      "end": "2026-07-31T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "db1f81009c85e96e",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Dancing with the Stars Con 2026",
+      "description": "Dancing with the Stars Con 2026, the first-ever fan convention and live show inspired by Dancing with the Stars, arrives at Acrisure Arena. Across three days, fans step directly into the action with live dance performances, panels, interactive photo experiences, and immersive exhibits. The lineup reads like a roll call of mirrorball champions and fan favorites, including Val Chmerkovskiy, Witney Carson, JoJo Siwa, and Kristi Yamaguchi, alongside judges Carrie Ann Inaba and Bruno Tonioli. All tickets grant full weekend access.",
+      "url": "https://www.palmspringslife.com/event/dancing-with-the-stars-con-2026/",
+      "start": "2026-07-31T07:00:00.000Z",
+      "end": "2026-08-03T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Road, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21234230/260731_DWTS_WEB-1920x1080-1.png",
+      "categories": [
+        "Dance",
+        "Entertainment"
+      ],
+      "type": "lecture",
+      "id": "d53853826a3d6f80",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "Dancing with the Stars Con 2026",
+      "description": "DANCING WITH THE STARS CON 2026 THE ULTIMATE DWTS FAN CONVENTION AND LIVE SHOW A CELEBRATION OF ALL THINGS DANCING WITH THE STARS 3-Day Early Bird tickets start at $199 +Fees *All tickets are three-day tickets and provide access to the full weekend FEATURING MIRRORBALL CHAMPIONS & FAN FAVORITES BRANDON ARMSTRONG, LINDSAY ARNOLD, RYLEE ARNOLD, ALAN BERSTEN, HAILEY BILLS, HANNAH BROWN, SHARNA BURGESS, WITNEY CARSON, VAL CHMERKOVSKIY, SASHA FARBER, DANIELLE FISHEL, XOCHITL GOMEZ, JOEY GRAZIADEI, ELAINE HENDRIX, RASHAD JENNINGS, JENNA JOHNSON, DANIELLA KARAGACH, AMANDA KLOOTS, WHITNEY LEAVITT, PHAEDRA PARKS, PASHA PASHKOV, JAN RAVNIK, GLEB SAVCHENKO, JOJO SIWA, EMMA SLATER, EZRA SOSA, BRITT STEWART, JOHNNY WEIR, RUMER WILLIS, KRISTI YAMAGUCHI, GINGER ZEE, AND LEGENDARY DWTS JUDGES CARRIE ANN INABA AND BRUNO TONIOLI LIVE DANCE PERFORMANCES, LIVE PANELS, INTERACTIVE PHOTO EXPERIENCES, EXHIBITS AND SO MUCH MORE! Fans of Dancing with the Stars will get up close to all the action, when we bring the ballroom to life at the first ever Dancing with the Stars Con! The Ultimate DWTS Fan Convention and Live Show makes its dazzling debut in Palm Springs, California, from July 31 through August 2 at Acrisure Arena. TICKETS: Tickets will be available starting Saturday, February 14 at 10am PST at ticketmaster.com, the official ticketing provider of Acrisure Arena. Designed to celebrate the iconic television series and its passionate fan base, Dancing with the Stars Con will offer two live dance performances featured on the ballroom floor, interactive live panels with your DWTS favorites, interactive photo experiences, exhibits, Q&A sessions, exclusive merchandise and unique fan experiences inspired by the hit show that’s just celebrated 20 years on air!",
+      "url": "https://acrisurearena.com/event/dancing-stars-2026-08-01/",
+      "start": "2026-08-01T18:00:00.000Z",
+      "end": "2026-08-02T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/02/260731_DWTS_WEB-1920x1080-1.png",
+      "categories": [
+        "Events",
+        "Acrisure Arena",
+        "Coachella Valley",
+        "dancing",
+        "Dancing With The Stars"
+      ],
+      "type": "lecture",
+      "id": "b9f7dc5f64979336",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "Dancing with the Stars Con 2026",
+      "description": "DANCING WITH THE STARS CON 2026 THE ULTIMATE DWTS FAN CONVENTION AND LIVE SHOW A CELEBRATION OF ALL THINGS DANCING WITH THE STARS 3-Day Early Bird tickets start at $199 +Fees *All tickets are three-day tickets and provide access to the full weekend FEATURING MIRRORBALL CHAMPIONS & FAN FAVORITES BRANDON ARMSTRONG, LINDSAY ARNOLD, RYLEE ARNOLD, ALAN BERSTEN, HAILEY BILLS, HANNAH BROWN, SHARNA BURGESS, WITNEY CARSON, VAL CHMERKOVSKIY, SASHA FARBER, DANIELLE FISHEL, XOCHITL GOMEZ, JOEY GRAZIADEI, ELAINE HENDRIX, RASHAD JENNINGS, JENNA JOHNSON, DANIELLA KARAGACH, AMANDA KLOOTS, WHITNEY LEAVITT, PHAEDRA PARKS, PASHA PASHKOV, JAN RAVNIK, GLEB SAVCHENKO, JOJO SIWA, EMMA SLATER, EZRA SOSA, BRITT STEWART, JOHNNY WEIR, RUMER WILLIS, KRISTI YAMAGUCHI, GINGER ZEE, AND LEGENDARY DWTS JUDGES CARRIE ANN INABA AND BRUNO TONIOLI LIVE DANCE PERFORMANCES, LIVE PANELS, INTERACTIVE PHOTO EXPERIENCES, EXHIBITS AND SO MUCH MORE! Fans of Dancing with the Stars will get up close to all the action, when we bring the ballroom to life at the first ever Dancing with the Stars Con! The Ultimate DWTS Fan Convention and Live Show makes its dazzling debut in Palm Springs, California, from July 31 through August 2 at Acrisure Arena. TICKETS: Tickets will be available starting Saturday, February 14 at 10am PST at ticketmaster.com, the official ticketing provider of Acrisure Arena. Designed to celebrate the iconic television series and its passionate fan base, Dancing with the Stars Con will offer two live dance performances featured on the ballroom floor, interactive live panels with your DWTS favorites, interactive photo experiences, exhibits, Q&A sessions, exclusive merchandise and unique fan experiences inspired by the hit show that’s just celebrated 20 years on air!",
+      "url": "https://acrisurearena.com/event/dancing-stars-2026-08-02/",
+      "start": "2026-08-02T18:00:00.000Z",
+      "end": "2026-08-03T00:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/02/260731_DWTS_WEB-1920x1080-1.png",
+      "categories": [
+        "Events",
+        "Acrisure Arena",
+        "Coachella Valley",
+        "dancing",
+        "Dancing With The Stars"
+      ],
+      "type": "lecture",
+      "id": "af094b527e3c3e43",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-08-06/",
+      "start": "2026-08-07T02:00:00.000Z",
+      "end": "2026-08-07T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "9c8d656a4c6a927e",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Splash House Weekend 1",
+      "description": "By day, this locally founded, two-weekend electronic music festival (which counts iconic artists like Kygo, Odesza, and John Summit among its alums) is a massive pool party spread across three Palm Springs hotels: the Saguaro, the Renaissance, and Hilton. By night, the tunes keep bumping at the Palm Springs Air Museum, where attendees boogie under retro aircraft. Most ticket-holders stay at the hosting hotels, so it’s easy to make friends with fellow EDM lovers.",
+      "url": "https://www.palmspringslife.com/event/splash-house-weekend-1/",
+      "start": "2026-08-07T07:00:00.000Z",
+      "end": "2026-08-10T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Various Coachella Valley Venues",
+        "town": "Coachella Valley",
+        "address": "Coachella Valley, CA",
+        "lat": 33.7672351,
+        "lon": -116.3560439
+      },
+      "imageUrl": "https://www.palmspringslife.com/wp-content/uploads/2025/05/w1-splash-house.png",
+      "categories": [
+        "Fairs, Festivals &amp; Markets",
+        "Music"
+      ],
+      "type": "museum",
+      "id": "fc3d3a4d60f8dd44",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "Lionel Richie and Earth, Wind & Fire at Acrisure Arena",
+      "description": "Lionel Richie and Earth, Wind & Fire bring their Sing A Song All Night Long tour to Acrisure Arena on Aug. 8. Richie, an international superstar with more than 125 million albums sold, an Oscar, a Golden Globe, and four Grammys, continues to define longevity at the highest level. Meanwhile, Earth, Wind & Fire—founded in 1969 by Maurice White—remain one of the best-selling bands of all time, with a sound rooted in soul and shaped by decades of influence.",
+      "url": "https://www.palmspringslife.com/event/lionel-richie-and-earth-wind-fire-at-acrisure-arena/",
+      "start": "2026-08-08T07:00:00.000Z",
+      "end": "2026-08-09T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Road, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21235434/ConcertVision_1920x1080_LionelRichie_2026_Regional_AcrisureArena_0808.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "f36f7a19508c84f8",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "Lionel Richie and Earth, Wind & Fire",
+      "description": "Legendary singer, songwriter and producer Lionel Richie and one of the best-selling bands of all time, Earth, Wind & Fire announced their 2026 North American Tour. General onsale beginning Friday, January 30 at 10am local time at ticketmaster.com. International superstar Lionel Richie boasts a discography of albums and singles that is second to none. With more than 125 million albums sold worldwide, an Oscar®, Golden Globe®, and four Grammy Awards®, Richie has been honored with distinctions including 2016 MusiCares Person of the Year, and the 2017 Kennedy Center Honors. Earth, Wind & Fire are a music institution. In 1969, music legend Maurice White birthed the music force named after the elements from his very own astrological charts. With soul as deep as the plant, Earth, Wind & Fire charted a history that will live on forever. EVENT LAYOUT",
+      "url": "https://acrisurearena.com/event/lionel-richie/",
+      "start": "2026-08-09T02:30:00.000Z",
+      "end": "2026-08-09T03:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/01/ConcertVision_1920x1080_LionelRichie_2026_Regional_AcrisureArena_0808.jpg",
+      "categories": [
+        "Concerts",
+        "Stand Together Series"
+      ],
+      "type": "live-music",
+      "id": "9d690f0ac9f2783a",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-08-13/",
+      "start": "2026-08-14T02:00:00.000Z",
+      "end": "2026-08-14T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "53008deb4f0afdda",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "The Australian Pink Floyd Show at Fantasy Springs Resort Casino",
+      "description": "World-renowned tribute act The Australian Pink Floyd Show recreates the iconic sound and spectacle of Pink Floyd at the Special Events Center at Fantasy Springs Resort Casino, complete with lasers, inflatables, and note-perfect precision.",
+      "url": "https://www.palmspringslife.com/event/the-australian-pink-floyd-show-at-fantasy-springs-resort-casino/",
+      "start": "2026-08-14T07:00:00.000Z",
+      "end": "2026-08-15T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/04000139/AUSPinkFloyd_DigitalAd_1200x666.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "1abb02c6ce12b7c9",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "Splash House Weekend 2",
+      "description": "By day, this locally founded, two-weekend electronic music festival (which counts iconic artists like Kygo, Odesza, and John Summit among its alums) is a massive pool party spread across three Palm Springs hotels: the Saguaro, the Renaissance, and Hilton. By night, the tunes keep bumping at the Palm Springs Air Museum, where attendees boogie under retro aircraft. Most ticket-holders stay at the hosting hotels, so it’s easy to make friends with fellow EDM lovers.",
+      "url": "https://www.palmspringslife.com/event/splash-house-weekend-2/",
+      "start": "2026-08-14T07:00:00.000Z",
+      "end": "2026-08-17T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Various Coachella Valley Venues",
+        "town": "Coachella Valley",
+        "address": "Coachella Valley, CA",
+        "lat": 33.7672351,
+        "lon": -116.3560439
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2021/08/26192925/splash-house-palm-springs-2021.jpg",
+      "categories": [
+        "Fairs, Festivals &amp; Markets",
+        "Music"
+      ],
+      "type": "museum",
+      "id": "206ca7ca697c60c3",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "Brantley Gilbert: The Real American Tour at Fantasy Springs Resort Casino",
+      "description": "Brantley Gilbert brings The Real American Tour to the Fantasy Springs Resort Casino on Saturday, Aug. 15 and delivers a high-energy set that pushes country firmly into rock territory. He blends country, rock, and rap influences into a sound that has defined his career for more than a decade. With more than 8 billion career streams, he fills the night with chart-topping anthems like “Bottoms Up” and “Country Must Be Country Wide.”",
+      "url": "https://www.palmspringslife.com/event/brantley-gilbert-the-real-american-tour-at-fantasy-springs-resort-casino/",
+      "start": "2026-08-15T07:00:00.000Z",
+      "end": "2026-08-16T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22190738/855458452-brantleygilbert_digitalad_1200x666.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "a840d178faefc48d",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-08-20/",
+      "start": "2026-08-21T02:00:00.000Z",
+      "end": "2026-08-21T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "f7a183ef706cad83",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Jason Stuart Comedy Show",
+      "description": "Jason Stuart takes the stage at the Cascade Lounge at Agua Caliente Casino Palm Springs, Aug. 21. The veteran comedian delivers sharp, personal stand-up shaped by decades of work across HBO, Showtime, and top comedy clubs, blending humor with insight on identity, relationships, and modern life.",
+      "url": "https://www.palmspringslife.com/event/jason-stuart-comedy-show/",
+      "start": "2026-08-21T07:00:00.000Z",
+      "end": "2026-08-22T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Agua Caliente Casino Palm Springs",
+        "town": "Palm Springs",
+        "address": "401 E Amado Road, Palm Springs",
+        "lat": 33.8255177,
+        "lon": -116.5428819
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/02/11012712/Screenshot-2026-02-06-at-4.29.45-PM.png",
+      "categories": [
+        "Comedy"
+      ],
+      "type": "comedy",
+      "id": "63a7d0d8f42b4d79",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:37.930Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-08-27/",
+      "start": "2026-08-28T02:00:00.000Z",
+      "end": "2026-08-28T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "2bb738fa2bbd33be",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Ramon Ayala at Acrisure Arena",
+      "description": "Ramón Ayala brings more than half a century of musical influence to Acrisure Arena on Aug. 29 with Historia de un Final. Widely known as the “King of the Accordion,” Ayala has shaped regional Mexican music with a catalog that spans generations—and continues to resonate just as strongly today. His live shows lean into that legacy, pairing heartfelt ballads with high-energy norteño anthems, all anchored by his unmistakable sound.",
+      "url": "https://www.palmspringslife.com/event/ramon-ayala-at-acrisure-arena/",
+      "start": "2026-08-29T07:00:00.000Z",
+      "end": "2026-08-30T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Road, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21235726/260829_Ramon-Ayala_Acrisure-Arena_1920x1080.png",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "theater",
+      "id": "105e401e4a186129",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.002Z"
+    },
+    {
+      "title": "Ramon Ayala",
+      "description": "Widely known as the “King of the Accordion,” Ayala has been a defining force in regional Mexican music for more than 50 years. With an unmatched catalog of beloved songs and a legacy that spans generations, his live performances continue to draw passionate crowds across the country. Fans can expect an unforgettable night filled with classic hits, powerful storytelling, and the unmistakable rhythms that have made Ayala a household name. From heartfelt ballads to high-energy norteño anthems, this performance promises to celebrate the rich tradition of Mexican music. TICKETS: Tickets go on sale to the general public on Friday, April 10 at 10AM local time via Ticketmaster.com. EVENT LAYOUT",
+      "url": "https://acrisurearena.com/event/ramon-ayala/",
+      "start": "2026-08-30T03:30:00.000Z",
+      "end": "2026-08-30T03:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/04/260829_Ramon-Ayala_Acrisure-Arena_1920x1080.png",
+      "categories": [
+        "Concerts",
+        "Stand Together Series",
+        "Acrisure Arena",
+        "Banda Machos",
+        "latin music",
+        "Ramon Ayala"
+      ],
+      "type": "live-music",
+      "id": "3fbc1c598cb83a51",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "Chicago Styx at Acrisure Arena",
+      "description": "Two pillars of classic rock share the stage as Chicago and Styx bring The Windy Cities Tour to Acrisure Arena on Sept. 2. Chicago, a Rock and Roll Hall of Fame inductee, returns with a catalog that spans decades of chart-topping hits, while Styx adds its own brand of arena-ready spectacle to the evening.",
+      "url": "https://www.palmspringslife.com/event/chicago-styx-at-acrisure-arena/",
+      "start": "2026-09-02T07:00:00.000Z",
+      "end": "2026-09-03T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Road, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22000645/Static_Social_1200x630_Chicago_Styx_2026_Regional_AcrisureArena_0902.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "2076657078f65ba8",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.002Z"
+    },
+    {
+      "title": "Chicago Styx",
+      "description": "Rock and Roll Hall of Famers Chicago return to Acrisure Arena for a the Windy Cities Tour, featuring Styx, on Wednesday, September 2, 2026. Get ready for an unforgettable night featuring decades of chart-topping hits from two of America’s most beloved bands sharing one stage. Tickets go on sale this Friday, December 5 at 10am.",
+      "url": "https://acrisurearena.com/event/chicago-styx/",
+      "start": "2026-09-03T02:00:00.000Z",
+      "end": "2026-09-03T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2025/11/Static_Social_1200x630_Chicago_Styx_2026_Regional_AcrisureArena_0902.jpg",
+      "categories": [
+        "Concerts",
+        "Events",
+        "Stand Together Series",
+        "Acrisure Arena",
+        "Chicago",
+        "Concert",
+        "Event",
+        "styx"
+      ],
+      "type": "live-music",
+      "id": "f73592dc3f19cdec",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.179Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-09-03/",
+      "start": "2026-09-04T02:00:00.000Z",
+      "end": "2026-09-04T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "1513434154d3e00c",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-09-10/",
+      "start": "2026-09-11T02:00:00.000Z",
+      "end": "2026-09-11T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "51f7ef7e7fcd6320",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Weird Al Yankovic",
+      "description": "“WEIRD AL” YANKOVIC THE BIGGER & WEIRDER 2026 TOUR Weird Al brings his legendary full-production multimedia comedy rock show back to the concert stage with the BIGGER & WEIRDER 2026 Tour, playing his iconic hits as well as some never-performed-live-before fan favorites. Al’s long-time band is joined by four additional players to create a super-sized concert experience. “Weird Al” Yankovic is the biggest-selling comedy recording artist in history. A 5-time Grammy Award winner, he is best known for his parodies of the biggest musical artists over the last 4 decades, including Madonna, Michael Jackson, Taylor Swift, Queen, U2 and Lady Gaga, all with their personal blessings. His many hits include “Amish Paradise,” “Eat It,” “Like a Surgeon,” “Smells Like Nirvana,” “Word Crimes,” and the platinum-selling “White & Nerdy.” His last album Mandatory Fun is the only comedy album in history to debut at #1 on the Billboard Top 200. Yankovic’s live shows have entertained audiences across the globe for generations, including appearances at such iconic venues as Radio City Music Hall, The Hollywood Bowl, Red Rocks, Carnegie Hall, Wolf Trap, The Kennedy Center and Madison Square Garden. In 2022, Yankovic produced and co-wrote the Emmy-winning biopic WEIRD: The Al Yankovic Story, starring Daniel Radcliffe in the title role. VIP Meet & Greet and Backstage Tour Packages are available for this show. Click here for more information on VIP packages. Special Guest: PUDDLES PITY PARTY Puddles Pity Party, the 7-foot sad clown whose golden voice is “comparable to any Grammy winner” (Los Angeles Times), has amassed over 900K YouTube subscribers and performed sold out shows around the globe including San Francisco’s Palace of Fine Arts, London’s Soho Theatre and a residency at Caesars Palace in Las Vegas. He has performed on stage with such legends as Eric Idle, Nick Offerman, Jack Black, Maynard James Keenan and Primus. Puddles’ one-of-a-kind “textured voice laced with melancholy” (NY Times) has been hailed as “operatic” (Boston Globe) and his show both “life-affirming” (Herald Scotland) and “hysterically funny” (LA Weekly). Event Layout",
+      "url": "https://acrisurearena.com/event/weird-al-yankovic/",
+      "start": "2026-09-14T02:30:00.000Z",
+      "end": "2026-09-14T02:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2025/11/Static_Digital-Website_1920x1080_WeirdAl_2026_Regional_AcrisureArena_0913.jpg",
+      "categories": [
+        "Comedy",
+        "Events",
+        "Acrisure Arena",
+        "Comedy",
+        "Event",
+        "weird al"
+      ],
+      "type": "live-music",
+      "id": "59ec2be625393046",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.180Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-09-17/",
+      "start": "2026-09-18T02:00:00.000Z",
+      "end": "2026-09-18T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "0511d63fe1f281b3",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-09-24/",
+      "start": "2026-09-25T02:00:00.000Z",
+      "end": "2026-09-25T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "869ae9ffa6c096be",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Disney Worlds Collide Concert Tour",
+      "description": "Today, Disney Concerts, Disney+ and AEG Presents jointly revealed tour dates and on-sale information for the next “Worlds Collide Concert Tour” of North America coming to Acrisure Arena on September 25th, 2026, featuring stars from the “Descendants,” “ZOMBIES” and “Camp Rock” film franchises including Malachi Barton, Liamani Segura, Dara Reneé, Mekonnen Knife, Hudson Stone, Swayam Bhatia, Kiara Romero and Alexandro Byrd. This year’s “Worlds Collide Concert Tour” visits 48 arenas across the U.S., Canada and Mexico starting September 25th at Acrisure Arena in Palm Desert, CA and wraps on December 13th at Arena CDMX in Mexico City, MX. An exclusive Disney+ Perks presale will be available beginning Monday, March 23 at 10 am Local Time. Disney+ subscribers in the U.S. and Canada should visit www.Disneyplus.com/perks for more information*. The public on-sale will begin on March 27 at 10 am Local Time and various VIP packages including opportunities to be part of the tour’s cast Q&A will be available: www.WorldsCollideTour.com. Tickets can be purchased on Ticketmaster or by stopping by the Ticketmaster Box Office at Acrisure Arena.",
+      "url": "https://acrisurearena.com/event/disney-worlds-collide/",
+      "start": "2026-09-26T02:00:00.000Z",
+      "end": "2026-09-26T02:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/03/2026-Disney-Acrisure-Arena-1920x1080-1.jpg",
+      "categories": [
+        "Family Shows",
+        "Stand Together Series",
+        "Camp Rock. Acrisure Arena",
+        "descendents",
+        "Disney",
+        "Palm Desert",
+        "Worlds Collide Tour",
+        "Zombies"
+      ],
+      "type": "live-music",
+      "id": "ac8751317e1b94fb",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.180Z"
+    },
+    {
+      "title": "MANÁ",
+      "description": "Formed in 1986 in Guadalajara, Jalisco, MANÁ brought Spanish-language rock to the mainstream, blending classic rock, reggae, and pop with Latin rhythms. With 11 albums and over 50 million copies sold, an astounding 1.3 billion streams a year on Spotify and a remarkable 12.1 billion all time views on YouTube , MANÁ has set the standard for Latin rock. Formado en 1986 en Guadalajara, Jalisco, MANÁ llevó el rock en español al público mainstream, fusionando rock clásico, reggae y pop con ritmos latinos. Con 11 álbumes y más de 50 millones de copias vendidas, 1.3 mil millones de reproducciones al año en Spotify y la impresionante cifra de 12.1 mil millones de vistas acumuladas en YouTube, MANÁ ha establecido el estándar del rock latino. Their groundbreaking album Dónde Jugarán los Niños is the best-selling Latin rock album of all time. For nearly 40 years, the band’s tireless passion for live performances has taken them to over 30 countries, leaving behind a trail of unforgettable, history-making moments. Su innovador álbum Dónde Jugarán los Niños es el disco de rock latino más vendido de la historia. Durante casi 40 años, la incansable pasión de la banda por los shows en vivo los ha llevado a más de 30 países, dejando una estela de momentos inolvidables y trascendentales. Iconic Mexican rock band MANÁ—celebrated worldwide for their boundary-breaking music and long-standing environmental advocacy—has announced 19 new dates for the 2026 leg of their massively successful Vivir Sin Aire Tour. The newly added shows introduce fresh stops in Puerto Rico, Washington, DC; New Orleans; Palm Springs; Austin; and Anaheim (their first Anaheim performance in 10 years), along with returns to key markets including Denver, Phoenix, and Chicago. La icónica banda de rock en español MANÁ—celebrada en todo el mundo por su música innovadora y su larga trayectoria en defensa del medio ambiente—ha anunciado 19 nuevas fechas de su exitosísima gira Vivir Sin Aire para el 2026. Las fechas recién añadidas incluyen nuevas paradas en Puerto Rico (2 fechas), Washington, DC; Nuevo Orleans; Palm Springs; Austin; y Anaheim (su primera presentación en 10 años), y regresan a ciudades como Denver, Phoenix y Chicago. TICKETS: Tickets for the newly added dates will be available starting Friday, December 5 at 10am local time at mana.com.mx. ENTRADAS: Los boletos para las nuevas fechas estarán disponibles a partir del viernes 5 de diciembre a las 10 a.m. (hora local) en www.livenation.com The band will also add two more Los Angeles dates on September 18 and 19, 2026—their first-ever performances at the Intuit Dome—bringing their total LA shows on this tour to seven and marking an astonishing 47 Los Angeles arena performances overall. MANÁ currently holds the record for the most arena performances in Los Angeles history, recently surpassing Bruce Springsteen’s long-standing milestone. In addition, they will return to Houston’s Toyota Center, where they continue to hold the venue’s record for most performances by any artist. La banda también sumará dos fechas más en Los Ángeles, el 18 y 19 de septiembre del 2026—que serán sus primeras presentaciones en el Intuit Dome—llevando a un total de siete shows en LA durante esta gira y marcando un asombroso total de 47 presentaciones en arenas de Los Ángeles a lo largo de su carrera. MANÁ ostenta actualmente el récord de más presentaciones en arenas en la historia de Los Ángeles, superando recientemente el hito establecido por Bruce Springsteen. Además, regresarán al Toyota Center de Houston, donde continúan manteniendo el récord del artista con más presentaciones en ese recinto.",
+      "url": "https://acrisurearena.com/event/mana/",
+      "start": "2026-09-27T03:30:00.000Z",
+      "end": "2026-09-27T03:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/03/Static_Digital-Website_1920x1080_Mana_2026_Regional_AcrisureArena_0926.jpg",
+      "categories": [
+        "Concerts",
+        "Events",
+        "Stand Together Series",
+        "Acrisure Arena",
+        "Concert",
+        "latin",
+        "Mana"
+      ],
+      "type": "live-music",
+      "id": "f45b7f4f535bc388",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.180Z"
+    },
+    {
+      "title": "The Dinah",
+      "description": "Founded in 1991 by Mariah Hansen and recently procured by longtime Dinah operations manager Bella Barkow and seasoned Dinah emcee and reality TV personality Rose Garcia, this weeklong extravaganza of star-studded pool parties and after-dark bashes is the biggest queer women’s event in the world, drawing more than 15,000 LGBTQ+ attendees to various locations in Palm Springs. Fondly called The Dinah (after the Dinah Shore golf championship it used to align with), it’s also a top-notch music festival in its own right — past Dinah headliners include now-legendary artists like Katy Perry, Lady Gaga, Meghan Trainor, Ke$ha, and 2025 Grammy winner Doechii.",
+      "url": "https://www.palmspringslife.com/event/the-dinah-2/",
+      "start": "2026-09-30T07:00:00.000Z",
+      "end": "2026-10-05T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Various Coachella Valley Venues",
+        "town": "Coachella Valley",
+        "address": "Coachella Valley, CA",
+        "lat": 33.7672351,
+        "lon": -116.3560439
+      },
+      "imageUrl": "https://www.palmspringslife.com/wp-content/uploads/2025/05/dinah.png",
+      "categories": [
+        "Fairs, Festivals &amp; Markets",
+        "LGBTQ+"
+      ],
+      "type": "festival",
+      "id": "f8910b70ef84e791",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.002Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-10-01/",
+      "start": "2026-10-02T01:00:00.000Z",
+      "end": "2026-10-02T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "82e383146ed55280",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "The Phil Collins Story",
+      "description": "The Phil Collins Story arrives at Fantasy Springs Resort Casino on Friday, Oct. 2 and traces the career of Phil Collins with a format that blends concert and documentary. The production moves from his chart-topping work with Genesis to his solo hits, using immersive storytelling, visuals, and live musicianship to bring the catalog into focus. Created by Dean Elliott, the show forms part of a 55-city North American tour.",
+      "url": "https://www.palmspringslife.com/event/the-phil-collins-story/",
+      "start": "2026-10-02T07:00:00.000Z",
+      "end": "2026-10-03T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22190739/PCS_DigitalAd_1200x666.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "4b97e90c1de9acc4",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.002Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-10-08/",
+      "start": "2026-10-09T01:00:00.000Z",
+      "end": "2026-10-09T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "1c23f0c7d93a7f47",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "20th Anniversary Paint El Paseo Pink",
+      "description": "Community, at its most effective, shows up. The 20th Anniversary of Paint El Paseo Pink invites the Coachella Valley to do exactly that—step by step—in support of Desert Cancer Foundation. More than a walk, the event channels collective effort into tangible impact, raising funds that provide critical financial assistance to local residents facing cancer. Since its founding, the foundation has helped more than 9,050 individuals, funding over $121 million in care. Participants can join individually or form teams, amplifying both awareness and support.",
+      "url": "https://www.palmspringslife.com/event/20th-anniversary-paint-el-paseo-pink-3/",
+      "start": "2026-10-10T14:00:00.000Z",
+      "end": "2026-10-10T16:30:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "The Gardens on El Paseo",
+        "town": "Palm Desert",
+        "address": "73545 El Paseo, Palm Desert, CA",
+        "lat": 33.7222,
+        "lon": -116.3744
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/02184132/2024-Paint-El-Paseo-Pink-Aerial-View2.png",
+      "categories": [
+        "Charity",
+        "El Paseo"
+      ],
+      "type": "fitness",
+      "id": "522a9a4ae9647aae",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.002Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-10-15/",
+      "start": "2026-10-16T01:00:00.000Z",
+      "end": "2026-10-16T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "f00ef49b3890d1e2",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-10-22/",
+      "start": "2026-10-23T01:00:00.000Z",
+      "end": "2026-10-23T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "c8492b94a0131ed9",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Marisela at Fantasy Springs Resort Casino",
+      "description": "Marisela takes the stage at Fantasy Springs Resort Casino on Sunday, Oct. 25, delivering a night built on decades of enduring appeal. Known internationally as “La Dama de Hierro,” she commands the room with a powerful voice and a catalog of romantic hits that have defined her career for more than 30 years. She leans into that legacy without slowing the pace, moving confidently through the songs that have kept audiences returning across generations.",
+      "url": "https://www.palmspringslife.com/event/marisela-at-fantasy-springs-resort-casino/",
+      "start": "2026-10-25T07:00:00.000Z",
+      "end": "2026-10-26T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "town": "Indio",
+        "address": "84245 Indio Springs Pkwy., Indio, CA",
+        "lat": 33.7278665,
+        "lon": -116.1983668
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22190735/Marisela_DigitalAd_1200x666.jpg",
+      "categories": [
+        "Entertainment",
+        "Music"
+      ],
+      "type": "live-music",
+      "id": "b9681ff8d3da9204",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.002Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-10-29/",
+      "start": "2026-10-30T01:00:00.000Z",
+      "end": "2026-10-30T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "b0e321a63c54f694",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.861Z"
+    },
+    {
+      "title": "Bare at The Plaza Theatre",
+      "description": "Pulitzer Prize-nominated photojournalist and filmmaker Robin Layton presents her newest book bare at The Plaza Theatre in Palm Springs. This immersive visual event celebrates the male body in all its humor, vulnerability, and beauty — featuring 150 stunning photographs set against breathtaking landscapes. Billboard Top Ten guitarist Todd Boston performs live in front of Robin’s artwork and videos, making for a one-of-a-kind evening of art, music, and raw human connection.",
+      "url": "https://www.palmspringslife.com/event/bare-at-the-plaza-theatre/",
+      "start": "2026-11-05T08:00:00.000Z",
+      "end": "2026-11-06T07:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The Plaza Theatre",
+        "town": "Palm Springs",
+        "address": "128 S. Palm Canyon Drive, Palm Springs",
+        "lat": 33.8225723,
+        "lon": -116.5462526
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/31231507/for-palm-springs-lifestyle-mag-promo_Robin-Layton_Bubbles_DSC_89613.jpg",
+      "categories": [
+        "Art"
+      ],
+      "type": "theater",
+      "id": "f40d284b4c4854b1",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.002Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-11-05/",
+      "start": "2026-11-06T02:00:00.000Z",
+      "end": "2026-11-06T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "43557393506dce8c",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-11-12/",
+      "start": "2026-11-13T02:00:00.000Z",
+      "end": "2026-11-13T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "e2ab0fa0a8fae24e",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "Los Tigres del Norte",
+      "description": "Los Tigres del Norte will perform at Acrisure Arena on Friday, November 13, 8:00pm. Tickets onsale at Ticketmaster.com, the official ticketing provider of Acrisure Arena. The global phenomenon is coming your way. From Mexico to the world, Los Tigres del Norte bring their powerful new tour Los Tigres del Mundo to Acrisure Arena. Tickets go on sale February 27. Be there when history takes the stage. Porque el norte no es un lugar… el norte es historia. El rugido llega a Palm Desert este 13 de Noviembre en Acrisure Arena. De México para el mundo, Los Tigres del Norte presentan su nueva gira: Los Tigres del Mundo. ¡Prepárate para cantar esos himnos que han marcado generaciones! Event Layout",
+      "url": "https://acrisurearena.com/event/los-tigres-del-norte/",
+      "start": "2026-11-14T04:00:00.000Z",
+      "end": "2026-11-14T07:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2025/02/11.13.26-LOS-TIGRES-DEL-NORTE_TVH.jpg",
+      "categories": [
+        "Concerts",
+        "Stand Together Series",
+        "freddy hernandez",
+        "hernan hernandez",
+        "jorge hernandez",
+        "los tigres del norte",
+        "luis hernandez",
+        "raul hernandez"
+      ],
+      "type": "live-music",
+      "id": "4ec8ff2418f41611",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.180Z"
+    },
+    {
+      "title": "90’s Corridos Tour",
+      "description": "The 90’s Corridos Tour is bringing an unforgettable night of regional Mexican music to the desert this fall, with a stop in Palm Desert. This high-energy concert will feature legendary and fan-favorite performances from Lupillo Rivera, Jorge Gamboa, and many more special guests. Fans can expect a powerful celebration of 90’s corridos, combining classic storytelling, nostalgic hits, and the raw energy that defined an era of regional Mexican music. It’s set to be a must-see night for longtime fans and new listeners alike in Palm Desert.",
+      "url": "https://acrisurearena.com/event/90s-corridos/",
+      "start": "2026-11-15T03:00:00.000Z",
+      "end": "2026-11-15T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Acrisure Arena",
+        "town": "Palm Desert",
+        "address": "75702 Varner Rd, Palm Desert, CA",
+        "lat": 33.7797941,
+        "lon": -116.340545
+      },
+      "imageUrl": "https://acrisurearena.com/wp-content/uploads/2026/05/261114_90s-Corridos_1920x1080-1.png",
+      "categories": [
+        "Concerts",
+        "Stand Together Series",
+        "90s corridos tour",
+        "Acrisure Arena",
+        "Greater Palm Springs",
+        "latin music"
+      ],
+      "type": "live-music",
+      "id": "e6199aaeea92a240",
+      "source": {
+        "id": "acrisure-arena",
+        "name": "Acrisure Arena"
+      },
+      "ingestedAt": "2026-05-27T02:54:38.180Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-11-19/",
+      "start": "2026-11-20T02:00:00.000Z",
+      "end": "2026-11-20T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "ccb1a1289c0f1aec",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-11-26/",
+      "start": "2026-11-27T02:00:00.000Z",
+      "end": "2026-11-27T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "95ec8293f4c97728",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-12-03/",
+      "start": "2026-12-04T02:00:00.000Z",
+      "end": "2026-12-04T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "4fefcb93fc408e4a",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-12-10/",
+      "start": "2026-12-11T02:00:00.000Z",
+      "end": "2026-12-11T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "f91e124d0c103093",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-12-17/",
+      "start": "2026-12-18T02:00:00.000Z",
+      "end": "2026-12-18T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "27347eefb8b8fc99",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-12-24/",
+      "start": "2026-12-25T02:00:00.000Z",
+      "end": "2026-12-25T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "e7ef9cfbf9a7477b",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2026-12-31/",
+      "start": "2027-01-01T02:00:00.000Z",
+      "end": "2027-01-01T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "b4cbb0158fe8cf1c",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-01-07/",
+      "start": "2027-01-08T02:00:00.000Z",
+      "end": "2027-01-08T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "70f33f4baebbec27",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-01-14/",
+      "start": "2027-01-15T02:00:00.000Z",
+      "end": "2027-01-15T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "1d7dd537e0859887",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-01-21/",
+      "start": "2027-01-22T02:00:00.000Z",
+      "end": "2027-01-22T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "b5120d2866b3f044",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-01-28/",
+      "start": "2027-01-29T02:00:00.000Z",
+      "end": "2027-01-29T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "befcb297a8cf7b3d",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-02-04/",
+      "start": "2027-02-05T02:00:00.000Z",
+      "end": "2027-02-05T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "513e84cc6ef46765",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-02-11/",
+      "start": "2027-02-12T02:00:00.000Z",
+      "end": "2027-02-12T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "4b55166a52cd33db",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-02-18/",
+      "start": "2027-02-19T02:00:00.000Z",
+      "end": "2027-02-19T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "feb9c9f69679a6fa",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-02-25/",
+      "start": "2027-02-26T02:00:00.000Z",
+      "end": "2027-02-26T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "491746d8f2a5f6ca",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-03-04/",
+      "start": "2027-03-05T02:00:00.000Z",
+      "end": "2027-03-05T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "fe49dc282d38577e",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-03-11/",
+      "start": "2027-03-12T02:00:00.000Z",
+      "end": "2027-03-12T06:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "ad4b413755cdeaad",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-03-18/",
+      "start": "2027-03-19T01:00:00.000Z",
+      "end": "2027-03-19T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "7a16c9ff3e353df9",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-03-25/",
+      "start": "2027-03-26T01:00:00.000Z",
+      "end": "2027-03-26T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "697d2feed5a5e04b",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-04-01/",
+      "start": "2027-04-02T01:00:00.000Z",
+      "end": "2027-04-02T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "e77895aa978ccd84",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-04-08/",
+      "start": "2027-04-09T01:00:00.000Z",
+      "end": "2027-04-09T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "59c203e2d0b5f545",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-04-15/",
+      "start": "2027-04-16T01:00:00.000Z",
+      "end": "2027-04-16T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "f26757e3ad793bc4",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-04-22/",
+      "start": "2027-04-23T01:00:00.000Z",
+      "end": "2027-04-23T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "6336e4ed77b9a875",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-04-29/",
+      "start": "2027-04-30T01:00:00.000Z",
+      "end": "2027-04-30T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "249046ede21ea59b",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-05-06/",
+      "start": "2027-05-07T01:00:00.000Z",
+      "end": "2027-05-07T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "f6c5e91d61452c44",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:40.862Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-05-13/",
+      "start": "2027-05-14T01:00:00.000Z",
+      "end": "2027-05-14T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "67bcc84a42400d2c",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:42.824Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-05-20/",
+      "start": "2027-05-21T01:00:00.000Z",
+      "end": "2027-05-21T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "6b189d41481d9c34",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:42.824Z"
+    },
+    {
+      "title": "VillageFest every Thursday",
+      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
+      "url": "https://villagefest.org/event/villagefest-every-thursday-32/2027-05-27/",
+      "start": "2027-05-28T01:00:00.000Z",
+      "end": "2027-05-28T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Main Street Palm Springs",
+        "town": "Palm Springs",
+        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
+        "lat": 33.8229257,
+        "lon": -116.5466056
+      },
+      "type": "festival",
+      "id": "cafac63536adca9b",
+      "source": {
+        "id": "villagefest",
+        "name": "VillageFest"
+      },
+      "ingestedAt": "2026-05-27T02:54:42.824Z"
+    }
+  ]
+}

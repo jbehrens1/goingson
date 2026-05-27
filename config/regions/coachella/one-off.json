@@ -1,0 +1,4 @@
+{
+  "$comment": "Manually curated one-off events for Coachella Valley. Use for signature festival dates (Coachella weekends, Stagecoach, BNP Paribas Open, Modernism Week) and any venue that can't be auto-scraped. Format mirrors LBI + Outer Cape one-off.json files.",
+  "events": []
+}
