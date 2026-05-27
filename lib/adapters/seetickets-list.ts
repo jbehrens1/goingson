@@ -128,13 +128,16 @@ export const seeticketsListAdapter: Adapter = async (ctx): Promise<AdapterResult
     const $info = $card.find(".event-info-block");
     if ($info.length === 0) return;
 
-    const title = $info.find("p.title a").first().text().trim()
-      || $info.find("p.title").first().text().trim();
-    const ticketUrl = $info.find("p.title a").first().attr("href")
+    // Theme variants: Pappy & Harriet's uses p.title / p.date; Casbah uses
+    // p.event-title / p.event-date. Try both.
+    const $titleEl = $info.find("p.title, p.event-title").first();
+    const title = $titleEl.find("a").first().text().trim()
+      || $titleEl.text().trim();
+    const ticketUrl = $titleEl.find("a").first().attr("href")
       || $card.find(".seetickets-list-view-event-image-container a").first().attr("href");
     if (!title || !ticketUrl) return;
 
-    const rawDate = $info.find("p.date").first().text().trim();
+    const rawDate = $info.find("p.date, p.event-date").first().text().trim();
     const date = parseFlexibleDate(rawDate, now);
     if (!date) {
       warnings.push(`${ctx.source.id}: couldn't parse date "${rawDate}" for "${title}"`);
