@@ -7,6 +7,7 @@ import type { EventRecord } from "@/lib/types";
 import { SortButtons } from "./_components/SortButtons";
 import { MultiSelectPicker } from "./_components/MultiSelectPicker";
 import { AddToCalendar } from "./_components/AddToCalendar";
+import { DateRangePicker } from "./_components/DateRangePicker";
 import { isIcsUrl } from "@/lib/calendar-links";
 
 type RegionPayload = {
@@ -46,6 +47,27 @@ const CUSTOM = "__custom__";
 
 // Sentinel key in the venue picker for "events with no venue."
 const NO_VENUE = "__no_venue__";
+
+/** Whitespace-AND substring match against title + description + venue + town.
+ *
+ *  Splits the user's query on whitespace and requires every non-empty token
+ *  to appear (case-insensitively) somewhere in the haystack. So "shorty long"
+ *  matches "Shorty Long & The Jersey Horns" the same as "long shorty" does,
+ *  and "pappy" matches events at "Pappy & Harriet's" even when the band name
+ *  is the only thing in the title.
+ *
+ *  Empty query returns true (no filter applied). */
+function matchesTitleQuery(
+  query: string,
+  ev: { title: string; description?: string; location?: { venue?: string; town?: string } },
+): boolean {
+  const tokens = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  if (tokens.length === 0) return true;
+  const hay = (
+    `${ev.title} ${ev.description ?? ""} ${ev.location?.venue ?? ""} ${ev.location?.town ?? ""}`
+  ).toLowerCase();
+  return tokens.every((t) => hay.includes(t));
+}
 
 function dayKey(iso: string, tz: string): string {
   // YYYY-MM-DD in the region's local timezone. Slicing the raw ISO string
@@ -179,11 +201,7 @@ export default function EventsView({
         const matched = v ? colVenues.has(v) : colVenues.has(NO_VENUE);
         if (!matched) return false;
       }
-      if (colTitle) {
-        const q = colTitle.toLowerCase();
-        const hay = `${ev.title} ${ev.description ?? ""}`.toLowerCase();
-        if (!hay.includes(q)) return false;
-      }
+      if (colTitle && !matchesTitleQuery(colTitle, ev)) return false;
       const hasCoords = ev.location?.lat != null && ev.location?.lon != null;
       if (filterNoLocation) return !hasCoords;
       if (filterDistance) {
@@ -325,11 +343,7 @@ export default function EventsView({
           const matched = v ? colVenues.has(v) : colVenues.has(NO_VENUE);
           if (!matched) return false;
         }
-        if (colTitle) {
-          const q = colTitle.toLowerCase();
-          const hay = `${ev.title} ${ev.description ?? ""}`.toLowerCase();
-          if (!hay.includes(q)) return false;
-        }
+        if (colTitle && !matchesTitleQuery(colTitle, ev)) return false;
         if (filterNoLocation) return !hasCoords;
         if (filterDistance) {
           if (!hasCoords) return false;
@@ -630,7 +644,7 @@ export default function EventsView({
           <span>Title</span>
           <input
             type="search"
-            placeholder="Title / description…"
+            placeholder="Title, description, venue, town…"
             aria-label="Filter by event title or description"
             value={colTitle}
             onChange={(e) => setColTitle(e.target.value)}
@@ -732,17 +746,16 @@ export default function EventsView({
           </label>
 
           <label>
-            <span>From</span>
-            <input
-              type="date"
-              value={fromDate}
-              onChange={(e) => setFromDate(e.target.value)}
+            <span>Dates</span>
+            <DateRangePicker
+              fromDate={fromDate}
+              toDate={toDate}
+              onChange={({ fromDate: f, toDate: t }) => {
+                setFromDate(f);
+                setToDate(t);
+              }}
+              locale={region.locale}
             />
-          </label>
-
-          <label>
-            <span>To</span>
-            <input type="date" value={toDate} onChange={(e) => setToDate(e.target.value)} />
           </label>
 
           {canRefresh && (
@@ -801,7 +814,7 @@ export default function EventsView({
           <SortButtons col="title" sortBy={sortBy} sortDir={sortDir} onToggle={toggleSort} />
           <input
             type="search"
-            placeholder="Title / description…"
+            placeholder="Title, description, venue, town…"
             aria-label="Filter by event title or description"
             value={colTitle}
             onChange={(e) => setColTitle(e.target.value)}

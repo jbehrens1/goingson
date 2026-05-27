@@ -1534,6 +1534,93 @@ footer {
   opacity: 0.55;
 }
 
+/* ---------- DateRangePicker (hotel-booking style) ----------
+ * Wraps react-day-picker. The trigger is a <summary>-styled chip that
+ * shows the current range; clicking opens a popover with the calendar.
+ * Calendar styles come from react-day-picker/style.css (imported by the
+ * component) — we just style the trigger and popover wrapper. */
+.daterange {
+  position: relative;
+  display: inline-block;
+}
+.daterange-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  min-width: 11rem;
+}
+.daterange-trigger::-webkit-details-marker {
+  display: none;
+}
+.daterange[open] > .daterange-trigger {
+  border-color: var(--accent);
+}
+.daterange-trigger:hover {
+  border-color: var(--accent);
+}
+.daterange-label {
+  flex: 1;
+  min-width: 0;
+}
+.daterange-caret {
+  color: var(--muted);
+  font-size: 0.75rem;
+  transition: transform 0.15s ease;
+}
+.daterange[open] > .daterange-trigger .daterange-caret {
+  transform: rotate(180deg);
+}
+.daterange-popover {
+  position: absolute;
+  z-index: 30;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 28px -8px rgba(0, 0, 0, 0.3);
+  padding: 0.6rem 0.75rem;
+}
+.daterange-popover .rdp {
+  /* react-day-picker's default font/color overrides via CSS variables */
+  --rdp-accent-color: var(--accent);
+  --rdp-background-color: color-mix(in srgb, var(--accent) 12%, transparent);
+  font-size: 0.85rem;
+  margin: 0;
+}
+.daterange-popover .rdp button:not([disabled]):hover {
+  background-color: color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.daterange-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+@media (max-width: 720px) {
+  .daterange-popover {
+    /* On mobile, pin to viewport edges so a wide calendar doesn't get
+     * clipped under the filter card. */
+    left: 0;
+    right: auto;
+    max-width: calc(100vw - 2rem);
+    overflow-x: auto;
+  }
+}
+
 /* ---------- /admin newsletter-subscription detail rows ---------- */
 .admin-sub-toggle {
   display: inline-flex;

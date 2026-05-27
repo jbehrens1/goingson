@@ -15,9 +15,11 @@
     "@react-email/components": "^1.0.12",
     "@react-email/render": "^2.0.8",
     "cheerio": "^1.0.0",
+    "date-fns": "^4.3.0",
     "next": "^15.1.0",
     "node-ical": "^0.20.1",
     "react": "^19.0.0",
+    "react-day-picker": "^10.0.1",
     "react-dom": "^19.0.0",
     "resend": "^6.12.3",
     "rss-parser": "^3.13.0"

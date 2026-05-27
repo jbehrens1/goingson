@@ -2226,200 +2226,189 @@
     "displayName": "Vokes Theatre, 97, Boston Post Road, Wayland Center Historic District, Wayland, Middlesex County, Massachusetts, 01778, United States",
     "fetchedAt": "2026-05-26T21:46:33.375Z"
   },
-  "metrowest::280 old connecticut path, framingham, ma": {
-    "lat": 42.3077578,
-    "lon": -71.4020773,
-    "displayName": "Metrowest YMCA, 280, Old Connecticut Path, Framingham, Middlesex County, Massachusetts, 01701, United States",
-    "fetchedAt": "2026-05-27T12:58:47.996Z"
-  },
-  "metrowest::online webinar, sudbury": {
-    "lat": null,
-    "lon": null,
-    "fetchedAt": "2026-05-27T12:58:48.959Z"
-  },
   "coachella::the living desert zoo & gardens, palm desert": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T12:59:40.976Z"
+    "fetchedAt": "2026-05-27T02:52:29.042Z"
   },
   "coachella::100 s. palm canyon drive, palm springs, ca": {
     "lat": 33.8229257,
     "lon": -116.5466056,
     "displayName": "Palm Springs Visitors Center at Welwood Murray Memorial Library, 100, South Palm Canyon Drive, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T12:59:41.839Z"
+    "fetchedAt": "2026-05-27T02:52:30.032Z"
   },
   "palm springs, ca": {
     "lat": 33.8246269,
     "lon": -116.540303,
     "displayName": "Palm Springs, Riverside County, California, United States",
-    "fetchedAt": "2026-05-27T12:59:42.697Z"
+    "fetchedAt": "2026-05-27T02:52:30.972Z"
   },
   "coachella::401 e amado road, palm springs": {
     "lat": 33.8255177,
     "lon": -116.5428819,
     "displayName": "Agua Calliente Casino, 401, East Amado Road, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T12:59:44.020Z"
+    "fetchedAt": "2026-05-27T02:52:31.967Z"
   },
   "coachella::2300 e. baristo rd., palm springs, ca": {
     "lat": 33.8200816,
     "lon": -116.5210299,
     "displayName": "2300, East Baristo Road, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T12:59:45.031Z"
+    "fetchedAt": "2026-05-27T02:52:33.096Z"
   },
   "coachella::150 s indian canyon drive suite b, palm springs": {
     "lat": 33.8221104,
     "lon": -116.5451167,
     "displayName": "Sirocco, 150, South Indian Canyon Drive, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T12:59:46.242Z"
+    "fetchedAt": "2026-05-27T02:52:34.206Z"
   },
   "coachella valley, ca": {
     "lat": 33.7672351,
     "lon": -116.3560439,
     "displayName": "Coachella Valley, Palm Desert, Riverside County, California, 92211, United States",
-    "fetchedAt": "2026-05-27T12:59:47.238Z"
+    "fetchedAt": "2026-05-27T02:52:35.052Z"
   },
   "71560 san jacinto dr, rancho mirage, ca": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T12:59:48.549Z"
+    "fetchedAt": "2026-05-27T02:52:36.456Z"
   },
   "rancho mirage community park, all coachella valley": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T12:59:49.284Z"
+    "fetchedAt": "2026-05-27T02:52:37.486Z"
   },
   "all coachella valley": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T12:59:50.539Z"
+    "fetchedAt": "2026-05-27T02:52:38.552Z"
   },
   "coachella::101 museum drive, palm springs, ca": {
     "lat": 33.8241906,
     "lon": -116.5499893,
     "displayName": "Palm Springs Art Museum, 101, North Museum Drive, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T12:59:51.844Z"
+    "fetchedAt": "2026-05-27T02:52:39.843Z"
   },
   "coachella::302 e. arenas road, palm springs": {
     "lat": 33.8214022,
     "lon": -116.5439757,
     "displayName": "Hunters Nightclub, 302, East Arenas Road, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T12:59:52.829Z"
+    "fetchedAt": "2026-05-27T02:52:40.768Z"
   },
   "401 s pavilion way, palm springs, ca": {
     "lat": 33.8171927,
     "lon": -116.5247563,
     "displayName": "Palm Springs Parks & Recreation, 401, South Pavilion Way, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T12:59:53.858Z"
+    "fetchedAt": "2026-05-27T02:52:41.858Z"
   },
   "coachella::75702 varner road, palm desert, ca": {
     "lat": 33.7797941,
     "lon": -116.340545,
     "displayName": "Acrisure Arena, 75702, Varner Road, Palm Desert, Riverside County, California, 92211, United States",
-    "fetchedAt": "2026-05-27T12:59:55.005Z"
+    "fetchedAt": "2026-05-27T02:52:42.812Z"
   },
   "coachella::75702 varner rd, palm desert, ca": {
     "lat": 33.7797941,
     "lon": -116.340545,
     "displayName": "Acrisure Arena, 75702, Varner Road, Palm Desert, Riverside County, California, 92211, United States",
-    "fetchedAt": "2026-05-27T12:59:55.932Z"
+    "fetchedAt": "2026-05-27T02:52:44.154Z"
   },
   "coachella::68510 east palm canyon drive, cathedral city, ca": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T12:59:57.134Z"
+    "fetchedAt": "2026-05-27T02:52:45.366Z"
   },
   "coachella::coachella valley repertory, cathedral city": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T12:59:58.039Z"
+    "fetchedAt": "2026-05-27T02:52:46.284Z"
   },
   "10600 highland springs ave., cherry valley": {
     "lat": 33.964353,
     "lon": -116.945249,
     "displayName": "10600, Highland Springs Avenue, Highland Springs, Cherry Valley, Riverside County, California, 92220, United States",
-    "fetchedAt": "2026-05-27T12:59:59.351Z"
+    "fetchedAt": "2026-05-27T02:52:47.330Z"
   },
   "coachella::palm springs, ca": {
     "lat": 33.8246269,
     "lon": -116.540303,
     "displayName": "Palm Springs, Riverside County, California, United States",
-    "fetchedAt": "2026-05-27T13:00:01.243Z"
+    "fetchedAt": "2026-05-27T02:52:48.629Z"
   },
   "coachella::302 e. arenas road, palm springs, ca": {
     "lat": 33.8214022,
     "lon": -116.5439757,
     "displayName": "Hunters Nightclub, 302, East Arenas Road, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T13:00:01.791Z"
+    "fetchedAt": "2026-05-27T02:52:49.456Z"
   },
   "coachella::84245 indio springs pkwy., indio, ca": {
     "lat": 33.7278665,
     "lon": -116.1983668,
     "displayName": "Indio Springs Parkway, Indio, Riverside County, California, 92201, United States",
-    "fetchedAt": "2026-05-27T13:00:02.790Z"
+    "fetchedAt": "2026-05-27T02:52:50.780Z"
   },
   "coachella::2300 e. baristo road, palm springs, ca": {
     "lat": 33.8200816,
     "lon": -116.5210299,
     "displayName": "2300, East Baristo Road, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T13:00:03.764Z"
+    "fetchedAt": "2026-05-27T02:52:51.834Z"
   },
   "coachella::46200 harrison place, coachella, ca": {
     "lat": 33.712246,
     "lon": -116.1823881,
     "displayName": "Spotlight Showroom, 46200, Harrison Place, Coachella, Riverside County, California, 92236, United States",
-    "fetchedAt": "2026-05-27T13:00:05.031Z"
+    "fetchedAt": "2026-05-27T02:52:52.718Z"
   },
   "coachella::101 n. musuem dr., palm springs": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T13:00:06.396Z"
+    "fetchedAt": "2026-05-27T02:52:54.019Z"
   },
   "coachella::downtown park palm springs, palm springs": {
     "lat": 33.8245152,
     "lon": -116.5486633,
     "displayName": "Downtown Park, 230, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T13:00:07.084Z"
+    "fetchedAt": "2026-05-27T02:52:55.197Z"
   },
   "coachella::68895 perez road, building i, suite 10, cathedral city, ca": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T13:00:09.910Z"
+    "fetchedAt": "2026-05-27T02:52:56.258Z"
   },
   "coachella::materias primas, cathedral city": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T13:00:10.369Z"
+    "fetchedAt": "2026-05-27T02:52:57.092Z"
   },
   "coachella::611 s. palm canyon drive, suite 16, palm springs, ca": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T13:00:11.863Z"
+    "fetchedAt": "2026-05-27T02:52:58.381Z"
   },
   "coachella::revolution stage company, palm springs": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T13:00:12.437Z"
+    "fetchedAt": "2026-05-27T02:52:59.556Z"
   },
   "43900 san pablo ave, palm desert, ca": {
     "lat": 33.734285,
     "lon": -116.382398,
     "displayName": "43900, San Pablo Avenue, Palm Desert, Riverside County, California, 92260, United States",
-    "fetchedAt": "2026-05-27T13:00:13.647Z"
+    "fetchedAt": "2026-05-27T02:53:00.706Z"
   },
   "coachella::73545 el paseo, palm desert, ca": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T13:00:15.061Z"
+    "fetchedAt": "2026-05-27T02:53:02.107Z"
   },
   "coachella::the gardens on el paseo, palm desert": {
     "lat": null,
     "lon": null,
-    "fetchedAt": "2026-05-27T13:00:16.065Z"
+    "fetchedAt": "2026-05-27T02:53:02.975Z"
   },
   "coachella::128 s. palm canyon drive, palm springs": {
     "lat": 33.8225723,
     "lon": -116.5462526,
     "displayName": "Plaza Theatre, 128, South Palm Canyon Drive, Palm Springs, Riverside County, California, 92262, United States",
-    "fetchedAt": "2026-05-27T13:00:17.164Z"
+    "fetchedAt": "2026-05-27T02:53:03.937Z"
   }
 }
