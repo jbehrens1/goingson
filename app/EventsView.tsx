@@ -6,6 +6,8 @@ import { haversineMiles } from "@/lib/towns";
 import type { EventRecord } from "@/lib/types";
 import { SortButtons } from "./_components/SortButtons";
 import { MultiSelectPicker } from "./_components/MultiSelectPicker";
+import { AddToCalendar } from "./_components/AddToCalendar";
+import { isIcsUrl } from "@/lib/calendar-links";
 
 type RegionPayload = {
   id: string;
@@ -854,14 +856,26 @@ export default function EventsView({
                     <span className={`type-pill type-${ev.type}`}>{TYPE_LABELS[ev.type]}</span>
                   </td>
                   <td className="col-event">
-                    <a
-                      href={ev.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="event-title"
-                    >
-                      {ev.title}
-                    </a>
+                    <span className="event-title-row">
+                      {isIcsUrl(ev.url) ? (
+                        // Title link would just download an .ics file — not
+                        // useful as a description. Route the title click to
+                        // the add-to-calendar widget instead. No second icon.
+                        <AddToCalendar event={ev} triggerLabel={ev.title} />
+                      ) : (
+                        <>
+                          <a
+                            href={ev.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="event-title"
+                          >
+                            {ev.title}
+                          </a>
+                          <AddToCalendar event={ev} />
+                        </>
+                      )}
+                    </span>
                     {ev.description && (
                       <p className="event-description">
                         {ev.description.length > 200
@@ -902,14 +916,23 @@ export default function EventsView({
                       <span className={`type-pill type-${ev.type}`}>{TYPE_LABELS[ev.type]}</span>
                     </td>
                     <td className="col-event">
-                      <a
-                        href={ev.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="event-title"
-                      >
-                        {ev.title}
-                      </a>
+                      <span className="event-title-row">
+                        {isIcsUrl(ev.url) ? (
+                          <AddToCalendar event={ev} triggerLabel={ev.title} />
+                        ) : (
+                          <>
+                            <a
+                              href={ev.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="event-title"
+                            >
+                              {ev.title}
+                            </a>
+                            <AddToCalendar event={ev} />
+                          </>
+                        )}
+                      </span>
                       {ev.description && (
                         <p className="event-description">
                           {ev.description.length > 200

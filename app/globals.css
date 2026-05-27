@@ -615,6 +615,96 @@ header .muted,
   opacity: 0.82;
 }
 
+/* ---------- Add-to-calendar widget ----------
+ * Tiny <details> button next to each event title. The trigger is either
+ * a calendar icon (when the title link already goes to a description
+ * page) or the title text itself (when the original URL is an .ics file,
+ * in which case the title click should open the widget too). */
+.event-title-row {
+  display: inline;
+}
+.event-title-row .event-title {
+  /* Keep the title and the trailing icon on the same line, with a thin gap. */
+  margin-right: 0.35rem;
+}
+.atc {
+  display: inline-block;
+  position: relative;
+  vertical-align: baseline;
+}
+.atc > summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--muted);
+  /* Pad enough that it's tappable on a phone (~28px square min) without
+   * pushing the inline title line height. */
+  padding: 0.1rem 0.25rem;
+  border-radius: 4px;
+  transition: color 0.1s, background-color 0.1s;
+}
+.atc > summary::-webkit-details-marker {
+  display: none;
+}
+.atc > summary:hover {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+.atc[open] > summary {
+  color: var(--accent);
+}
+/* When the trigger is the event title text (no description URL case),
+ * style it like the existing .event-title link so the UI looks consistent. */
+.atc-trigger-label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--accent);
+  line-height: 1.35;
+}
+.atc-trigger-label:hover {
+  text-decoration: underline;
+}
+/* The icon trigger keeps its inherited (muted) color so it doesn't compete
+ * with the title text next to it. Hover lifts to accent (handled above). */
+
+.atc-menu {
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  /* Anchor by default to the LEFT of the trigger so most events on the
+   * right side of the row don't blow out of the viewport. Override per-row
+   * if needed via .atc[data-align="right"]. */
+  left: 0;
+  z-index: 30;
+  min-width: 11rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 24px -8px rgba(0, 0, 0, 0.25);
+  padding: 0.25rem 0;
+}
+.atc-menu a {
+  padding: 0.5rem 0.85rem;
+  color: var(--fg);
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.88rem;
+}
+.atc-menu a:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: var(--fg);
+  text-decoration: none;
+}
+.atc-muted {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin-left: 0.15rem;
+}
+
 footer {
   margin-top: 3rem;
   font-size: 0.8rem;
@@ -1908,6 +1998,17 @@ footer {
   }
   .event-row .event-description {
     font-size: 0.88rem;
+  }
+
+  /* Add-to-calendar dropdown on mobile: anchor to the right edge of the
+   * card so it doesn't overflow off-screen on a 375px viewport. */
+  .event-row .atc-menu {
+    left: auto;
+    right: 0;
+  }
+  /* Slightly larger tap target than desktop. */
+  .atc > summary {
+    padding: 0.3rem 0.45rem;
   }
 
   .day-heading {
