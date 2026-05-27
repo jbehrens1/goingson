@@ -1533,6 +1533,90 @@ footer {
 .sources-table tr.row-disabled {
   opacity: 0.55;
 }
+
+/* ---------- /admin newsletter-subscription detail rows ---------- */
+.admin-sub-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+}
+.admin-sub-caret {
+  font-size: 0.65rem;
+  opacity: 0.7;
+}
+.admin-sub-detail-row > td {
+  /* Expanded detail panel sits directly under its trigger row, in a tinted
+   * panel so the boundary is obvious. */
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
+  border-top: 1px solid var(--border);
+  padding: 1rem 1.25rem 1.25rem !important;
+}
+.admin-sub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.admin-sub-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.75rem 0.9rem;
+}
+.admin-sub-card-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.85rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px dashed var(--border);
+}
+.admin-sub-card-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--fg);
+}
+.admin-sub-card-region {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+}
+.admin-sub-card-schedule {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-left: auto;
+}
+.admin-sub-card-grid {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 0.3rem 0.85rem;
+  margin: 0;
+  font-size: 0.85rem;
+}
+.admin-sub-card-grid dt {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+.admin-sub-card-grid dd {
+  margin: 0;
+  color: var(--fg);
+}
+@media (max-width: 720px) {
+  .admin-sub-card-grid {
+    grid-template-columns: 5rem 1fr;
+  }
+  .admin-sub-card-schedule {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+}
 .sources-table input,
 .sources-table select,
 .sources-table textarea {
