@@ -102,6 +102,12 @@ export function DateRangePicker({
   })();
 
   function handleSelect(range: DateRange | undefined) {
+    // react-day-picker's range mode handles all three click states for us:
+    //   click 1 (no range)       → range = { from: <clicked>, to: undefined }
+    //   click 2 (from set)       → range = { from: <earlier>, to: <later>   }
+    //   click 3 (both set)       → range = { from: <clicked>, to: undefined } (reset)
+    // We just forward the new range to parent state and leave the popover
+    // open. The user closes it explicitly via outside-click, Escape, or Done.
     if (!range) {
       onChange({ fromDate: "", toDate: "" });
       return;
@@ -110,10 +116,6 @@ export function DateRangePicker({
       fromDate: range.from ? toYmd(range.from) : "",
       toDate: range.to ? toYmd(range.to) : "",
     });
-    // Auto-close when both ends are picked.
-    if (range.from && range.to && detailsRef.current) {
-      detailsRef.current.open = false;
-    }
   }
 
   function clearRange(e: React.MouseEvent) {
