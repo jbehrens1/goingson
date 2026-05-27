@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T12:12:06.413Z",
+  "generatedAt": "2026-05-27T13:01:24.234Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -25,57 +25,9 @@
         "Marlborough, MA",
         "Concord, MA"
       ],
-      "eventCount": 501,
+      "eventCount": 1038,
       "eventsPath": "/events.metrowest.json",
-      "generatedAt": "2026-05-26T20:58:08.716Z"
-    },
-    {
-      "id": "lbi",
-      "displayName": "LBI",
-      "tagline": "Events on Long Beach Island, NJ — from Barnegat Light south to Holgate.",
-      "defaultCenter": {
-        "label": "Ship Bottom, NJ",
-        "lat": 39.6428,
-        "lon": -74.1842
-      },
-      "defaultRadiusMi": 8,
-      "timeZone": "America/New_York",
-      "locale": "en-US",
-      "language": "en",
-      "centerSuggestions": [
-        "Ship Bottom, NJ",
-        "Beach Haven, NJ",
-        "Surf City, NJ",
-        "Harvey Cedars, NJ",
-        "Barnegat Light, NJ"
-      ],
-      "eventCount": 1211,
-      "eventsPath": "/events.lbi.json",
-      "generatedAt": "2026-05-26T20:58:41.414Z"
-    },
-    {
-      "id": "outercape",
-      "displayName": "Outer Cape",
-      "tagline": "Events from Wellfleet, Provincetown, Truro, Eastham, and Orleans.",
-      "defaultCenter": {
-        "label": "Provincetown, MA",
-        "lat": 42.0584,
-        "lon": -70.1788
-      },
-      "defaultRadiusMi": 15,
-      "timeZone": "America/New_York",
-      "locale": "en-US",
-      "language": "en",
-      "centerSuggestions": [
-        "Provincetown, MA",
-        "Truro, MA",
-        "Wellfleet, MA",
-        "Eastham, MA",
-        "Orleans, MA"
-      ],
-      "eventCount": 1175,
-      "eventsPath": "/events.outercape.json",
-      "generatedAt": "2026-05-26T20:59:16.387Z"
+      "generatedAt": "2026-05-27T12:58:49.364Z"
     },
     {
       "id": "coachella",
@@ -103,7 +55,55 @@
       ],
       "eventCount": 185,
       "eventsPath": "/events.coachella.json",
-      "generatedAt": "2026-05-27T12:10:50.790Z"
+      "generatedAt": "2026-05-27T13:00:17.192Z"
+    },
+    {
+      "id": "lbi",
+      "displayName": "LBI",
+      "tagline": "Events on Long Beach Island, NJ — from Barnegat Light south to Holgate.",
+      "defaultCenter": {
+        "label": "Ship Bottom, NJ",
+        "lat": 39.6428,
+        "lon": -74.1842
+      },
+      "defaultRadiusMi": 8,
+      "timeZone": "America/New_York",
+      "locale": "en-US",
+      "language": "en",
+      "centerSuggestions": [
+        "Ship Bottom, NJ",
+        "Beach Haven, NJ",
+        "Surf City, NJ",
+        "Harvey Cedars, NJ",
+        "Barnegat Light, NJ"
+      ],
+      "eventCount": 1201,
+      "eventsPath": "/events.lbi.json",
+      "generatedAt": "2026-05-27T13:00:47.888Z"
+    },
+    {
+      "id": "outercape",
+      "displayName": "Outer Cape",
+      "tagline": "Events from Wellfleet, Provincetown, Truro, Eastham, and Orleans.",
+      "defaultCenter": {
+        "label": "Provincetown, MA",
+        "lat": 42.0584,
+        "lon": -70.1788
+      },
+      "defaultRadiusMi": 15,
+      "timeZone": "America/New_York",
+      "locale": "en-US",
+      "language": "en",
+      "centerSuggestions": [
+        "Provincetown, MA",
+        "Truro, MA",
+        "Wellfleet, MA",
+        "Eastham, MA",
+        "Orleans, MA"
+      ],
+      "eventCount": 1174,
+      "eventsPath": "/events.outercape.json",
+      "generatedAt": "2026-05-27T13:01:24.234Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T20:59:16.387Z",
+  "generatedAt": "2026-05-27T13:01:24.235Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -312,6 +312,355 @@
         "candidates": []
       }
     },
+    "metrowest:wellesley-college-events": {
+      "count": 0,
+      "warnings": [
+        "wellesley-college-events: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:babson-college": {
+      "count": 0,
+      "warnings": [
+        "babson-college: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:brandeis-concerts-page": {
+      "count": 0,
+      "warnings": [
+        "brandeis-concerts-page: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 0,
+            "adapter": "eventbrite",
+            "url": "https://www.eventbrite.com/o/66040529213",
+            "evidence": "Eventbrite organizer ID 66040529213 found; configure eventbrite adapter manually."
+          }
+        ]
+      }
+    },
+    "metrowest:brandeis-rose-art-museum": {
+      "count": 0,
+      "warnings": [
+        "brandeis-rose-art-museum: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:bell-forge": {
+      "count": 0,
+      "warnings": [
+        "bell-forge: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:bc-events": {
+      "count": 0,
+      "warnings": [
+        "bc-events: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:needham-library": {
+      "count": 0,
+      "warnings": [
+        "needham-library: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:native-plant-trust": {
+      "count": 0,
+      "warnings": [
+        "native-plant-trust: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:wellesley-neighbors": {
+      "count": 0,
+      "warnings": [
+        "wellesley-neighbors: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:bosse": {
+      "count": 0,
+      "warnings": [
+        "bosse: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:newton-open-studios": {
+      "count": 0,
+      "warnings": [
+        "newton-open-studios: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:natick-art-association": {
+      "count": 0,
+      "warnings": [
+        "natick-art-association: 0 events at https://www.natickartassociation.org/events/?format=json-pretty (check if events collection exists or season is over)."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:marlborough-summer-concerts": {
+      "count": 0,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:framingham-newsflash": {
+      "count": 0,
+      "warnings": [
+        "framingham-newsflash: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:boston-central-concerts": {
+      "count": 0,
+      "warnings": [
+        "boston-central-concerts: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:bringfido-framingham": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://www.bringfido.com/attraction/city/framingham_ma_us/"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:commonwealth-adventures-unbound": {
+      "count": 0,
+      "warnings": [
+        "commonwealth-adventures-unbound: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "medium",
+            "verifiedCount": 2,
+            "adapter": "ical",
+            "url": "https://commonwealth.adventuresunbound.com/events/?ical=1",
+            "evidence": "iCal feed at /events/?ical=1 yields 2 events."
+          }
+        ]
+      }
+    },
+    "metrowest:belocal-on-water": {
+      "count": 0,
+      "warnings": [
+        "belocal-on-water: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:visit-ma-water-sports": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://www.visitma.com/things-to-do/sports-outdoors/boats-and-water-sports/"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:bandsintown": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://www.bandsintown.com/"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:wgbh-culture-show": {
+      "count": 0,
+      "warnings": [
+        "wgbh-culture-show: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:axios-boston-things-to-do": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://www.axios.com/local/boston/things-to-do"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:visit-greater-palm-springs": {
+      "count": 0,
+      "warnings": [
+        "visit-greater-palm-springs: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:palm-springs-post": {
+      "count": 0,
+      "warnings": [
+        "palm-springs-post: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:kesq-events": {
+      "count": 0,
+      "warnings": [
+        "kesq-events: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:mccallum-theatre": {
+      "count": 0,
+      "warnings": [
+        "mccallum-theatre: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:fantasy-springs": {
+      "count": 0,
+      "warnings": [
+        "fantasy-springs: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:agua-caliente-the-show": {
+      "count": 0,
+      "warnings": [
+        "agua-caliente-the-show: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:spotlight-29": {
+      "count": 0,
+      "warnings": [
+        "spotlight-29: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:morongo-casino": {
+      "count": 0,
+      "warnings": [
+        "morongo-casino: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:ps-art-museum": {
+      "count": 0,
+      "warnings": [
+        "ps-art-museum: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:ps-cultural-center": {
+      "count": 0,
+      "warnings": [
+        "ps-cultural-center: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:modernism-week": {
+      "count": 0,
+      "warnings": [
+        "modernism-week: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:ps-film-fest": {
+      "count": 0,
+      "warnings": []
+    },
+    "coachella:desert-x": {
+      "count": 0,
+      "warnings": [
+        "desert-x: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:bnp-paribas-open": {
+      "count": 0,
+      "warnings": [
+        "bnp-paribas-open: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:greater-palm-springs-pride": {
+      "count": 0,
+      "warnings": [
+        "greater-palm-springs-pride: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "coachella:manual-oneoff": {
+      "count": 0,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
     "lbi:old-causeway": {
       "count": 0,
       "warnings": [
@@ -363,6 +712,22 @@
     "outercape:truro-vineyards-2": {
       "count": 0,
       "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "outercape:post-office-cabaret": {
+      "count": 0,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "outercape:provicetown-independent": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://provincetownindependent.org/category/indies-choice/"
+      ],
       "probe": {
         "candidates": []
       }
