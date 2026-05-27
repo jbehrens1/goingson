@@ -4,6 +4,7 @@
 // templates or share-link routes.
 
 import type { EventRecord } from "./types";
+import { cleanDescription } from "./util";
 
 /** Detect URLs that point at a raw .ics file or a Google iCal feed.
  *  These are useless as a click-through for end users (browsers will either
@@ -50,25 +51,12 @@ function formatLocation(ev: EventRecord): string {
   return parts.join(", ");
 }
 
-/** Strip HTML tags + decode the handful of entities that show up most
- *  often in our description field (the upstream feeds frequently embed
- *  partly-escaped HTML). Calendar widgets render plain text.
- *  Order matters: decode entities FIRST so that escaped tags like
- *  `&lt;p&gt;` become `<p>` and get stripped by the next pass. */
+/** Shared text-cleaner from lib/util. As of the ingest-time sanitization
+ *  pass, descriptions in events.<region>.json should already be clean,
+ *  but we re-run it here so the widget is robust against any escape
+ *  noise that slips through (e.g. data fetched before the cleanup landed). */
 function plainDescription(ev: EventRecord): string {
-  const raw = ev.description ?? "";
-  return raw
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&hellip;/g, "…")
-    .replace(/&#x?[0-9a-f]+;/gi, "") // remaining numeric entities
-    .replace(/<[^>]*>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+  return cleanDescription(ev.description) ?? "";
 }
 
 // --- Per-provider URL builders ----------------------------------------------
