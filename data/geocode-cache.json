@@ -3251,5 +3251,231 @@
     "lon": -117.0945613,
     "displayName": "10918, Technology Place, San Diego, San Diego County, California, 92127, United States",
     "fetchedAt": "2026-05-28T13:32:26.852Z"
+  },
+  "metrowest::117 east central st": {
+    "lat": 42.2850532,
+    "lon": -71.3378099,
+    "displayName": "Natick Community-Senior Center, 117, East Central Street, South Natick, Natick, Middlesex County, Massachusetts, 01760, United States",
+    "fetchedAt": "2026-05-28T13:59:51.310Z"
+  },
+  "minton stable community garden (trustees), jamaica plain": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:00:01.658Z"
+  },
+  "jamaica plain": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:00:17.502Z"
+  },
+  "9 spring st, waltham, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:00:48.198Z"
+  },
+  "hovey players, waltham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:01:03.283Z"
+  },
+  "waltham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:01:18.798Z"
+  },
+  "metrowest::zoom, marlborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:01:34.313Z"
+  },
+  "metrowest::50 kingsbury st., wellesley, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:01:50.229Z"
+  },
+  "metrowest::wellesley middle school, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:05.689Z"
+  },
+  "metrowest::online event, sudbury": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:05.707Z"
+  },
+  "metrowest::169 great plain ave., wellesley, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:06.807Z"
+  },
+  "metrowest::wellesley rdf, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:07.907Z"
+  },
+  "metrowest::129 commonwealth ave, concord, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:09.007Z"
+  },
+  "66 wesson st, grafton, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:10.106Z"
+  },
+  "angel hair alpacas, grafton": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:11.205Z"
+  },
+  "grafton": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:12.305Z"
+  },
+  "metrowest::195 western ave, sherborn, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:13.405Z"
+  },
+  "metrowest::silverwood organic farm, sherborn": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:14.505Z"
+  },
+  "metrowest::natick, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:15.606Z"
+  },
+  "metrowest::the frame shop, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:16.707Z"
+  },
+  "metrowest::14 pine st, milford, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:17.807Z"
+  },
+  "metrowest::morin’s studio & camera shop, milford": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:18.905Z"
+  },
+  "metrowest::virtual, marlborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:20.005Z"
+  },
+  "metrowest::farmers market on the natick common, natick": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:21.106Z"
+  },
+  "metrowest::online webinar, sudbury": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:02:22.207Z"
+  },
+  "lbi::the picklr, manahawkin": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:00.050Z"
+  },
+  "lbi::arlington, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:01.134Z"
+  },
+  "lbi::black whale, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:02.233Z"
+  },
+  "lbi::bird & bettys, beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:03.334Z"
+  },
+  "lbi::engleside sandbar, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:04.435Z"
+  },
+  "lbi::mud city crab house, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:05.536Z"
+  },
+  "lbi::port hole, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:06.635Z"
+  },
+  "lbi::fourchette, beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:07.736Z"
+  },
+  "lbi::buckalew’s, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:08.837Z"
+  },
+  "lbi::bayview park, brant beach": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:09.937Z"
+  },
+  "whittingham coffee house, north beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:11.038Z"
+  },
+  "north beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:12.138Z"
+  },
+  "lbi::town hall, brant beach": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:13.238Z"
+  },
+  "lbi::northside, long beach township": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:14.338Z"
+  },
+  "lbi::yoga bohemia, surf city": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:15.438Z"
+  },
+  "lbi::bay ave., beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:16.537Z"
+  },
+  "st. francis community center, long beach": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:17.636Z"
+  },
+  "long beach": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:18.737Z"
+  },
+  "lbi::beach haven school, beach haven": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:19.836Z"
+  },
+  "lbi::ame fitness, ship bottom": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T14:04:20.935Z"
   }
 }

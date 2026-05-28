@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T13:01:24.235Z",
+  "generatedAt": "2026-05-28T14:10:46.991Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -122,7 +122,15 @@
         "HTTP 404 fetching https://danforth.framingham.edu/events"
       ],
       "probe": {
-        "candidates": []
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 5,
+            "adapter": "html-generic",
+            "url": "https://danforth.framingham.edu/wp-json/wp/v2/event",
+            "evidence": "WP custom post type \"event\" exposes 5 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
       }
     },
     "metrowest:metrowest-jcc": {
@@ -158,7 +166,15 @@
         "community-foundation-mw: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
       ],
       "probe": {
-        "candidates": []
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 7,
+            "adapter": "html-generic",
+            "url": "https://www.communityfoundationmw.org/wp-json/wp/v2/event",
+            "evidence": "WP custom post type \"event\" exposes 7 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
       }
     },
     "metrowest:sudbury-chamber": {
@@ -292,6 +308,13 @@
       "warnings": [
         "HTTP 404 fetching https://patch.com/massachusetts/stow/calendar"
       ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "metrowest:needham-gov": {
+      "count": 2,
+      "warnings": [],
       "probe": {
         "candidates": []
       }
@@ -469,6 +492,13 @@
       ],
       "probe": {
         "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 4,
+            "adapter": "html-generic",
+            "url": "https://commonwealth.adventuresunbound.com/wp-json/wp/v2/tribe_events",
+            "evidence": "WP custom post type \"tribe_events\" exposes 4 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          },
           {
             "confidence": "medium",
             "verifiedCount": 2,
@@ -728,6 +758,534 @@
       "warnings": [
         "HTTP 403 fetching https://provincetownindependent.org/category/indies-choice/"
       ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-city": {
+      "count": 0,
+      "warnings": [
+        "sd-city: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-reader": {
+      "count": 0,
+      "warnings": [
+        "sd-reader: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-magazine": {
+      "count": 0,
+      "warnings": [
+        "sd-magazine: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 10,
+            "adapter": "html-generic",
+            "url": "https://sandiegomagazine.com/wp-json/wp/v2/magazine-event",
+            "evidence": "WP custom post type \"magazine-event\" exposes 10 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          },
+          {
+            "confidence": "low",
+            "verifiedCount": 5,
+            "adapter": "html-generic",
+            "url": "https://sandiegomagazine.com/wp-json/wp/v2/community-event",
+            "evidence": "WP custom post type \"community-event\" exposes 5 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
+      }
+    },
+    "sandiego:kpbs": {
+      "count": 0,
+      "warnings": [
+        "kpbs: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:daylight-sd": {
+      "count": 0,
+      "warnings": [
+        "daylight-sd: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:mycityscene": {
+      "count": 0,
+      "warnings": [
+        "mycityscene: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:dosd": {
+      "count": 0,
+      "warnings": [
+        "dosd: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:la-jolla-playhouse": {
+      "count": 0,
+      "warnings": [
+        "la-jolla-playhouse: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:old-globe": {
+      "count": 0,
+      "warnings": [
+        "old-globe: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-theatres": {
+      "count": 0,
+      "warnings": [
+        "sd-theatres: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-symphony": {
+      "count": 0,
+      "warnings": [
+        "sd-symphony: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:rady-shell": {
+      "count": 0,
+      "warnings": [
+        "rady-shell: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:comedy-store-lj": {
+      "count": 0,
+      "warnings": [
+        "comedy-store-lj: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:national-comedy": {
+      "count": 1,
+      "warnings": [],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:comedy-heights": {
+      "count": 0,
+      "warnings": [
+        "comedy-heights: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 4,
+            "adapter": "html-generic",
+            "url": "https://www.comedyheights.com/wp-json/wp/v2/etn",
+            "evidence": "WP custom post type \"etn\" exposes 4 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
+      }
+    },
+    "sandiego:grand-comedy": {
+      "count": 0,
+      "warnings": [
+        "grand-comedy: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 5,
+            "adapter": "html-generic",
+            "url": "https://www.grandcomedyclub.com/wp-json/wp/v2/gc-event",
+            "evidence": "WP custom post type \"gc-event\" exposes 5 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
+      }
+    },
+    "sandiego:soda-bar": {
+      "count": 0,
+      "warnings": [
+        "soda-bar: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:observatory-np": {
+      "count": 0,
+      "warnings": [
+        "observatory-np: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:music-box": {
+      "count": 0,
+      "warnings": [
+        "music-box: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 1,
+            "adapter": "html-generic",
+            "url": "https://musicboxsd.com/wp-json/wp/v2/events",
+            "evidence": "WP custom post type \"events\" exposes 1 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
+      }
+    },
+    "sandiego:belly-up": {
+      "count": 0,
+      "warnings": [
+        "belly-up: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:humphreys": {
+      "count": 0,
+      "warnings": [
+        "humphreys: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:the-sound": {
+      "count": 0,
+      "warnings": [
+        "the-sound: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:nova-sd": {
+      "count": 0,
+      "warnings": [
+        "nova-sd: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:spin-nightclub": {
+      "count": 0,
+      "warnings": [
+        "spin-nightclub: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:onyx-room": {
+      "count": 0,
+      "warnings": [
+        "onyx-room: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-museum-council": {
+      "count": 0,
+      "warnings": [
+        "sd-museum-council: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-nat": {
+      "count": 0,
+      "warnings": [
+        "sd-nat: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:ica-sd": {
+      "count": 3,
+      "warnings": [],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "medium",
+            "verifiedCount": 3,
+            "adapter": "ical",
+            "url": "https://icasandiego.org/events/?ical=1",
+            "evidence": "iCal feed at /events/?ical=1 yields 3 events."
+          }
+        ]
+      }
+    },
+    "sandiego:gaslamp": {
+      "count": 0,
+      "warnings": [
+        "gaslamp: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 5,
+            "adapter": "html-generic",
+            "url": "https://gaslamp.org/wp-json/wp/v2/ajde_events",
+            "evidence": "WP custom post type \"ajde_events\" exposes 5 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
+      }
+    },
+    "sandiego:little-italy": {
+      "count": 0,
+      "warnings": [
+        "little-italy: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:adams-avenue": {
+      "count": 0,
+      "warnings": [
+        "adams-avenue: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:pacific-beach": {
+      "count": 3,
+      "warnings": [],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "medium",
+            "verifiedCount": 3,
+            "adapter": "ical",
+            "url": "https://www.pacificbeach.org/events/?ical=1",
+            "evidence": "iCal feed at /events/?ical=1 yields 3 events."
+          }
+        ]
+      }
+    },
+    "sandiego:ocean-beach": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://oceanbeachsandiego.com/events"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:la-jolla-village": {
+      "count": 0,
+      "warnings": [
+        "la-jolla-village: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 5,
+            "adapter": "html-generic",
+            "url": "https://lajollabythesea.com/wp-json/wp/v2/vibemap_event",
+            "evidence": "WP custom post type \"vibemap_event\" exposes 5 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
+      }
+    },
+    "sandiego:carlsbad-village": {
+      "count": 0,
+      "warnings": [
+        "carlsbad-village: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:la-mesa-village": {
+      "count": 0,
+      "warnings": [
+        "la-mesa-village: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:padres": {
+      "count": 0,
+      "warnings": [
+        "padres: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-wave": {
+      "count": 0,
+      "warnings": [
+        "sd-wave: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-fc": {
+      "count": 0,
+      "warnings": [
+        "sd-fc: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-gulls": {
+      "count": 0,
+      "warnings": [
+        "sd-gulls: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:snapdragon": {
+      "count": 0,
+      "warnings": [
+        "snapdragon: TICKETMASTER_API_KEY env var not set — adapter disabled. Get a free key at https://developer.ticketmaster.com/ then set the env var."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:del-mar-thoroughbred": {
+      "count": 0,
+      "warnings": [
+        "del-mar-thoroughbred: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:downtown-sd": {
+      "count": 0,
+      "warnings": [
+        "downtown-sd: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-beer-news": {
+      "count": 0,
+      "warnings": [
+        "sd-beer-news: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sunset-trivia": {
+      "count": 0,
+      "warnings": [
+        "HTTP 403 fetching https://sunsettrivia.com/"
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:game-night-live": {
+      "count": 0,
+      "warnings": [
+        "game-night-live: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:trivia-goat": {
+      "count": 0,
+      "warnings": [
+        "trivia-goat: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:geeks-who-drink": {
+      "count": 0,
+      "warnings": [
+        "geeks-who-drink: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:sd-craft": {
+      "count": 0,
+      "warnings": [
+        "sd-craft: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+      ],
+      "probe": {
+        "candidates": []
+      }
+    },
+    "sandiego:off-the-shelf": {
+      "count": 0,
+      "warnings": [],
+      "probe": {
+        "candidates": [
+          {
+            "confidence": "low",
+            "verifiedCount": 5,
+            "adapter": "html-generic",
+            "url": "https://offtheshelfgames.com/wp-json/wp/v2/ajde_events",
+            "evidence": "WP custom post type \"ajde_events\" exposes 5 entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume."
+          }
+        ]
+      }
+    },
+    "sandiego:manual-oneoff": {
+      "count": 0,
+      "warnings": [],
       "probe": {
         "candidates": []
       }
