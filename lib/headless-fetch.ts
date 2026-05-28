@@ -24,7 +24,29 @@ const HEADLESS_TIMEOUT_MS = 30_000;
  *  resulting HTML. Returns null (with a console.warn) when HEADLESS_FETCH_URL
  *  is unset so callers can fall through to politeFetch. */
 export async function headlessFetch(url: string): Promise<string | null> {
-  const endpoint = process.env.HEADLESS_FETCH_URL?.trim();
+  const rawEnv = process.env.HEADLESS_FETCH_URL;
+  const endpoint = rawEnv?.trim();
+
+  // TEMP debug: surface safe diagnostics so we can figure out why this URL
+  // sometimes fails to parse. Only logs the URL prefix (before the token),
+  // not the suffix where the secret lives. char codes for first/last 4 bytes
+  // surface hidden whitespace/control chars.
+  if (rawEnv) {
+    const firstCharCodes = Array.from(rawEnv.slice(0, 4)).map((c) => c.charCodeAt(0));
+    const lastCharCodes = Array.from(rawEnv.slice(-4)).map((c) => c.charCodeAt(0));
+    // Strip the query string to get just origin + path; that's never sensitive.
+    const safePrefix = rawEnv.includes("?")
+      ? rawEnv.slice(0, rawEnv.indexOf("?"))
+      : rawEnv.slice(0, 60);
+    console.warn(
+      `[headless-fetch][debug] env_len=${rawEnv.length} ` +
+        `trim_len=${endpoint?.length} ` +
+        `prefix=${JSON.stringify(safePrefix)} ` +
+        `first4_codes=${JSON.stringify(firstCharCodes)} ` +
+        `last4_codes=${JSON.stringify(lastCharCodes)}`,
+    );
+  }
+
   if (!endpoint) {
     console.warn(
       `[headless-fetch] HEADLESS_FETCH_URL not set; cannot render ${url}. ` +
