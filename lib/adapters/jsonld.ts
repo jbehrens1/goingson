@@ -32,13 +32,31 @@ function isEventNode(node: JsonLdNode): boolean {
   return types.some((x) => typeof x === "string" && x.toLowerCase().endsWith("event"));
 }
 
+// Standard schema.org properties that nest event objects under a parent
+// (Place, Organization, Event, ItemList). Plus the non-standard "Events"
+// some sites (e.g. micdropcomedysandiego.com) use to list events under a
+// Place root.
+const EVENT_CONTAINER_KEYS = [
+  "@graph",
+  "event",
+  "Event",
+  "events",
+  "Events",
+  "subEvent",
+  "subEvents",
+  "itemListElement",
+];
+
 function flatten(nodes: unknown[]): JsonLdNode[] {
   const out: JsonLdNode[] = [];
   for (const raw of nodes) {
     if (!raw || typeof raw !== "object") continue;
     const node = raw as JsonLdNode;
     out.push(node);
-    if (Array.isArray(node["@graph"])) out.push(...flatten(node["@graph"]));
+    for (const key of EVENT_CONTAINER_KEYS) {
+      const child = (node as Record<string, unknown>)[key];
+      if (Array.isArray(child)) out.push(...flatten(child));
+    }
   }
   return out;
 }
