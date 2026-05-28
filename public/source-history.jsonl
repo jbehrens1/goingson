@@ -1658,3 +1658,4 @@
 {"ts":"2026-05-28T14:54:42.656Z","regionId":"sandiego","sourceId":"grand-comedy","adapter":"woocommerce-shows","url":"https://www.grandcomedyclub.com/product-category/comedyevents/","count":20}
 {"ts":"2026-05-28T14:54:42.656Z","regionId":"sandiego","sourceId":"american-comedy","adapter":"shopify-products","url":"https://americancomedyco.com/","count":104}
 {"ts":"2026-05-28T14:54:42.656Z","regionId":"sandiego","sourceId":"laugh-factory-sd","adapter":"eventbrite-page","url":"https://www.laughfactory.com/san-diego","count":56}
+{"ts":"2026-05-28T15:16:05.421Z","regionId":"coachella","sourceId":"mccallum-theatre","adapter":"html-generic","url":"https://www.mccallumtheatre.org/season","count":0,"warnings":["HTTP ? fetching https://www.mccallumtheatre.org/season"]}
