@@ -112,10 +112,11 @@
       "url": "https://mccallumtheatre.org/",
       "category": "Venue / Theater",
       "town": "Palm Desert",
-      "notes": "[2026-05-26 probe + 2026-05-26 follow-up] mccallumtheatre.org sits behind Kemo bot-challenge (JS gate at ?ki-cf-botcl=1) — uncircumventable server-side without a headless browser. Pivoted to Ticketmaster Discovery API which carries their full season. Requires TICKETMASTER_API_KEY env var; yields 0 events with a warning until set. After setting the key, look up the exact venueId: https://app.ticketmaster.com/discovery/v2/venues?apikey=KEY&keyword=McCallum and replace `keyword` below with `venueId` for tighter matching.",
+      "notes": "[2026-05-26 probe + 2026-05-28 venueId lookup] mccallumtheatre.org sits behind Kemo bot-challenge (JS gate at ?ki-cf-botcl=1) — uncircumventable server-side without a headless browser. Initially hoped Ticketmaster Discovery API would cover them, but /discovery/v2/venues?keyword=McCallum returned 0 results — McCallum is NOT listed on Ticketmaster. They likely use AXS or in-house ticketing. Two paths forward: (1) configure HEADLESS_FETCH_URL env var and set useHeadless:true here to get past Kemo (see lib/headless-fetch.ts), or (2) find their AXS organizer ID and write an axs adapter. For now this source yields 0 events. McCallum carries ~98 shows/season per Bandsintown — the biggest single venue in the valley.",
       "defaultEventType": "theater",
+      "enabled": false,
       "config": {
-        "keyword": "McCallum Theatre"
+        "useHeadless": true
       }
     },
     {
@@ -126,10 +127,10 @@
       "url": "https://www.fantasyspringsresort.com/entertainment",
       "category": "Venue / Casino",
       "town": "Indio",
-      "notes": "[2026-05-26 probe] WordPress event page, no Tribe REST and html-generic yielded 0 (no JSON-LD). Switched to Ticketmaster Discovery API. Requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Fantasy+Springs and replace `keyword` below with `venueId` for accuracy.",
+      "notes": "[2026-05-26 probe + 2026-05-28 venueId lookup] WordPress event page, no Tribe REST and html-generic yielded 0 (no JSON-LD). Switched to Ticketmaster Discovery API. Requires TICKETMASTER_API_KEY. Exact venueId KovZpa9WXe = Fantasy Springs Casino, Indio (confirmed via /discovery/v2/venues?keyword=Fantasy+Springs).",
       "defaultEventType": "live-music",
       "config": {
-        "keyword": "Fantasy Springs"
+        "venueId": "KovZpa9WXe"
       }
     },
     {
@@ -140,10 +141,10 @@
       "url": "https://www.aguacalientecasinos.com/",
       "category": "Venue / Casino",
       "town": "Rancho Mirage",
-      "notes": "[2026-05-26 probe + follow-up] aguacalientecasinos.com returns 403 to all non-browser UAs (likely Akamai or Cloudflare). The Show venue's full schedule is on Ticketmaster. Requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Agua+Caliente and replace `keyword` below with `venueId`.",
+      "notes": "[2026-05-26 probe + 2026-05-28 venueId lookup] aguacalientecasinos.com returns 403 to all non-browser UAs (likely Akamai or Cloudflare). The Show venue's full schedule is on Ticketmaster. Requires TICKETMASTER_API_KEY. Exact venueId KovZ917A2Af = The Show at Agua Caliente Casino Resort, Rancho Mirage. (Other Agua Caliente stages — Cascade Lounge, Cahuilla Ballroom, Cathedral City, Palm Springs — have separate venueIds; add more sources if needed.)",
       "defaultEventType": "live-music",
       "config": {
-        "keyword": "Agua Caliente"
+        "venueId": "KovZ917A2Af"
       }
     },
     {
@@ -165,10 +166,10 @@
       "url": "https://www.morongocasinoresort.com/entertainment/",
       "category": "Venue / Casino",
       "town": "Cabazon",
-      "notes": "[2026-05-26 probe + follow-up] Ticketmaster-backed concerts. Switched from html-generic to ticketmaster adapter. Requires TICKETMASTER_API_KEY. Look up venueId via /discovery/v2/venues?keyword=Morongo and replace `keyword` below with `venueId` for tighter matching.",
+      "notes": "[2026-05-26 probe + 2026-05-28 venueId lookup] Ticketmaster-backed concerts. Switched from html-generic to ticketmaster adapter. Requires TICKETMASTER_API_KEY. Exact venueId KovZpZAaaaEA = Morongo Casino Resort and Spa, Cabazon, CA (confirmed via /discovery/v2/venues?keyword=Morongo). Yields 29 events on first ingest.",
       "defaultEventType": "live-music",
       "config": {
-        "keyword": "Morongo"
+        "venueId": "KovZpZAaaaEA"
       }
     },
     {
