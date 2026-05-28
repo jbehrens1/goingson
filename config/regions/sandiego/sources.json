@@ -257,11 +257,50 @@
       "name": "Mic Drop Comedy",
       "enabled": true,
       "adapter": "html-generic",
-      "url": "https://www.micdropcomedy.com/",
+      "url": "https://www.micdropcomedysandiego.com/",
       "category": "Venue / Comedy",
       "town": "San Diego",
-      "notes": "[2026-05-27 probe] Custom site, no fingerprint. Local production company + venue hosting stand-up showcases across SD. html-generic best-effort.",
+      "notes": "[2026-05-27 probe + 2026-05-28 follow-up] Original URL micdropcomedy.com had no fingerprint and yielded 0. Switched to the SD-specific micdropcomedysandiego.com (8878 Clairemont Mesa Blvd), which embeds a single JSON-LD block with @type:Place containing a non-standard `Events` array of 342 event objects. Required enhancing lib/adapters/jsonld.ts to recurse into nested event-container properties (event/Events/subEvent/itemListElement) — see prior commit.",
+      "defaultEventType": "comedy",
+      "config": {
+        "defaultVenue": "Mic Drop Comedy"
+      }
+    },
+    {
+      "id": "laugh-factory-sd",
+      "name": "Laugh Factory San Diego",
+      "enabled": false,
+      "adapter": "html-generic",
+      "url": "https://www.laughfactory.com/san-diego",
+      "category": "Venue / Comedy",
+      "town": "San Diego",
+      "notes": "[2026-05-28 probe] Custom CMS behind Cloudflare with embedded Eventbrite/Ticketmaster/Tixr/AJAX widgets. The /san-diego page loads shows client-side via AJAX (no JSON-LD or static event blocks). Eventbrite organizer reference is for the Hollywood club, not SD. /sandiego and /clubs/san-diego both 404. DISABLED until a custom adapter targets the upstream AJAX endpoint (look at /js/themes-calendar/ XHR calls) or a Ticketmaster venueId is identified.",
       "defaultEventType": "comedy"
+    },
+    {
+      "id": "comedy-heights",
+      "name": "Comedy Heights",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.comedyheights.com/coming-up/",
+      "category": "Venue / Comedy",
+      "town": "San Diego",
+      "notes": "[2026-05-28 probe] WordPress site, blog-style content (no Tribe REST, no JSON-LD events). Shows are announced via individual blog posts under /category/shows/. /coming-up/ aggregates the most recent. html-generic best-effort against /coming-up/ — likely 0 until they add structured data or we wire a WP REST posts adapter.",
+      "defaultEventType": "comedy"
+    },
+    {
+      "id": "grand-comedy",
+      "name": "Grand Comedy Club",
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.grandcomedyclub.com/grand-comedy-club-calendar/",
+      "category": "Venue / Comedy",
+      "town": "Escondido",
+      "notes": "[2026-05-28 probe] WordPress + WooCommerce. /grand-comedy-club-calendar/ links to ~6 /product/<show-slug>/ pages (each show is a product). No Tribe REST and no JSON-LD Event on either the calendar page or the product pages themselves. html-generic best-effort against the calendar page — likely 0 until WooCommerce adds Product/Event JSON-LD or a custom adapter follows product links.",
+      "defaultEventType": "comedy",
+      "config": {
+        "defaultVenue": "Grand Comedy Club"
+      }
     },
     {
       "id": "casbah",

@@ -3168,5 +3168,88 @@
     "lon": -117.258295,
     "displayName": "Velo Hangar, 2719, Loker Avenue West, Bressi Ranch, Carlsbad, San Diego County, California, 92010, United States",
     "fetchedAt": "2026-05-27T20:17:13.128Z"
+  },
+  "sandiego::3517 camino del rio s suite 215, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T13:32:11.138Z"
+  },
+  "sandiego::downtown works – coworking office space mission valley, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T13:32:12.308Z"
+  },
+  "sandiego::4655 executive dr suite #1100, san diego, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T13:32:13.649Z"
+  },
+  "sandiego::kpmg llp, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T13:32:14.459Z"
+  },
+  "2007 san elijo ave, cardiff by the sea, ca": {
+    "lat": 33.0223427,
+    "lon": -117.2831469,
+    "displayName": "2007, San Elijo Avenue, Cardiff-by-the-Sea, Encinitas, San Diego County, California, 92007, United States",
+    "fetchedAt": "2026-05-28T13:32:15.364Z"
+  },
+  "sandiego::kiln, san diego": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T13:32:16.733Z"
+  },
+  "sandiego::9510 innovation ln, la jolla, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T13:32:18.042Z"
+  },
+  "sandiego::design and innovation building, la jolla": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-28T13:32:18.925Z"
+  },
+  "sandiego::3117 university ave, san diego, ca": {
+    "lat": 32.7483084,
+    "lon": -117.1266447,
+    "displayName": "Original 40 Brewing Company, 3117, University Avenue, Corridor, North Park, San Diego, San Diego County, California, 92104, United States",
+    "fetchedAt": "2026-05-28T13:32:20.242Z"
+  },
+  "sandiego::8878 clairemont mesa blvd , san diego, ca": {
+    "lat": 32.8321501,
+    "lon": -117.1372746,
+    "displayName": "Refill Pantry SD, 8878, Clairemont Mesa Boulevard, Kearny Mesa, San Diego, San Diego County, California, 92123, United States",
+    "fetchedAt": "2026-05-28T13:32:20.985Z"
+  },
+  "sandiego::1410 vantage ct, vista, ca": {
+    "lat": 33.136773,
+    "lon": -117.224034,
+    "displayName": "1410, Vantage Court, Vista, San Diego County, California, 92078, United States",
+    "fetchedAt": "2026-05-28T13:32:22.158Z"
+  },
+  "sandiego::100 park boulevard, san diego, ca": {
+    "lat": 32.7071874,
+    "lon": -117.156913,
+    "displayName": "Petco Park, 100, Park Boulevard, East Village, Golden Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-28T13:32:23.186Z"
+  },
+  "sandiego::solana beach, ca": {
+    "lat": 32.9919141,
+    "lon": -117.2678124,
+    "displayName": "Solana Beach, San Diego County, California, 92075, United States",
+    "fetchedAt": "2026-05-28T13:32:24.226Z"
+  },
+  "sandiego::moonlight bch trl, encinitas, ca": {
+    "lat": 33.0481563,
+    "lon": -117.2953431,
+    "displayName": "Moonlight Beach Trail, Encinitas, San Diego County, California, 92924, United States",
+    "fetchedAt": "2026-05-28T13:32:25.456Z"
+  },
+  "sandiego::10918 technology pl, san diego": {
+    "lat": 33.0105389,
+    "lon": -117.0945613,
+    "displayName": "10918, Technology Place, San Diego, San Diego County, California, 92127, United States",
+    "fetchedAt": "2026-05-28T13:32:26.852Z"
   }
 }
