@@ -1660,3 +1660,4 @@
 {"ts":"2026-05-28T14:54:42.656Z","regionId":"sandiego","sourceId":"laugh-factory-sd","adapter":"eventbrite-page","url":"https://www.laughfactory.com/san-diego","count":56}
 {"ts":"2026-05-28T15:16:05.421Z","regionId":"coachella","sourceId":"mccallum-theatre","adapter":"html-generic","url":"https://www.mccallumtheatre.org/season","count":0,"warnings":["HTTP ? fetching https://www.mccallumtheatre.org/season"]}
 {"ts":"2026-05-28T15:26:57.972Z","regionId":"coachella","sourceId":"mccallum-theatre","adapter":"html-generic","url":"https://www.mccallumtheatre.org/season","count":0,"warnings":["HTTP ? fetching https://www.mccallumtheatre.org/season"]}
+{"ts":"2026-05-28T15:52:57.985Z","regionId":"coachella","sourceId":"mccallum-theatre","adapter":"html-generic","url":"https://www.mccallumtheatre.org/season","count":0,"warnings":["HTTP ? fetching https://www.mccallumtheatre.org/season"]}
