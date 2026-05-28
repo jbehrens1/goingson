@@ -24,8 +24,8 @@
       "Desert Hot Springs, CA"
     ]
   },
-  "generatedAt": "2026-05-28T14:39:58.334Z",
-  "count": 187,
+  "generatedAt": "2026-05-28T14:43:27.218Z",
+  "count": 216,
   "events": [
     {
       "title": "Walking Club",
@@ -282,6 +282,26 @@
         "name": "Pappy & Harriet's"
       },
       "ingestedAt": "2026-05-28T14:03:00.409Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-05-29-2026/event/090064A14F90AF71",
+      "start": "2026-05-30T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "fd0f80f8fbf923f4",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.779Z"
     },
     {
       "title": "Frey House II Tour + Museum Day Pass",
@@ -677,6 +697,46 @@
       "ingestedAt": "2026-05-28T14:03:00.413Z"
     },
     {
+      "title": "Banda Carnaval",
+      "description": "Banda Carnaval a Latin Grammy-nominated banda from Mazatlan. Known for hits like\"Vas a Estar Bien\" and \"Como No Adorarla\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nBanda Carnaval a Latin Grammy-nominated banda from Mazatlan. Known for hits like\"Vas a Estar Bien\" and \"Como No Adorarla\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Banda Carnaval\n\nLatin / Latin",
+      "url": "https://www.ticketmaster.com/banda-carnaval-cabazon-california-06-05-2026/event/0900643DE344D0B6",
+      "start": "2026-06-06T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "6757d5bc9046b64c",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.780Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-06-05-2026/event/090064A1508BB083",
+      "start": "2026-06-06T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "3bece98807308356",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.780Z"
+    },
+    {
       "title": "House Party PS: Pink Saturday 4",
       "description": "House Party PS: Pink Saturday 4 returns as a fundraiser for the Mizell Center’s Meals on Wheels program, presented by the Richmond/Ermet Aid Foundation. The evening features an open bar, silent auction, and performances by Keisha D, Steve Knill, Sheri Ray Parker, A Cabbello men’s chorus, and DJ Galazy, with Bella Da Ball emceeing.",
       "url": "https://www.palmspringslife.com/event/house-party-ps-pink-saturday-4-2/",
@@ -772,6 +832,26 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-28T14:02:23.742Z"
+    },
+    {
+      "title": "Breakfast with the Beatles Hosted by Chris Carter",
+      "description": "Food & Drink / Food & Drink",
+      "url": "https://www.ticketmaster.com/breakfast-with-the-beatles-hosted-by-cabazon-california-06-07-2026/event/09006481C7B0D185",
+      "start": "2026-06-07T16:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "1d552c2b32657c65",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.780Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1186,6 +1266,26 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-28T14:02:23.743Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-06-12-2026/event/090064A100A1B1F1",
+      "start": "2026-06-13T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "3187c7e51f5ab526",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.780Z"
     },
     {
       "title": "Three Bad Jacks",
@@ -1617,6 +1717,46 @@
       "ingestedAt": "2026-05-28T14:02:23.743Z"
     },
     {
+      "title": "E-40",
+      "description": "Join us in celebrating Juneteenth with E-40! E-40 is a platinum-selling rapper and actor Known for hit songs like \"Captain Save a Hoe\" and \"Tell Me When to Go\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nJoin us in celebrating Juneteenth with E-40! E-40 is a platinum-selling rapper and actor Known for hit songs like \"Captain Save a Hoe\" and \"Tell Me When to Go\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: E-40\n\nHip-Hop/Rap / Trap",
+      "url": "https://www.ticketmaster.com/e40-cabazon-california-06-19-2026/event/09006396B7077F81",
+      "start": "2026-06-20T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "048c1630d049238d",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-06-19-2026/event/090064A2E7D51BFA",
+      "start": "2026-06-20T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "686884b6a8d429b0",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
       "title": "The Builders and the Butchers",
       "description": "Pappy & Harriet’s Presents:\nYes Ma’am, Little Foot\nSupporting Talent: Yes Ma’am, Little Foot\nRock\nAll Ages · $20.00-$25.00",
       "url": "https://wl.seetickets.us/event/the-builders-and-the-butchers/681912?afflky=pappyandharriets",
@@ -2023,6 +2163,26 @@
       "ingestedAt": "2026-05-28T14:02:23.744Z"
     },
     {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-06-26-2026/event/090064A2E96D1FF1",
+      "start": "2026-06-27T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "b7ad9cbdf0dbcc92",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
       "title": "Monolord",
       "description": "Pappy & Harriet’s Presents:\nMizmor\nSupporting Talent: Mizmor\nRock\nAll Ages · $30.00-$35.00",
       "url": "https://wl.seetickets.us/event/monolord/672815?afflky=pappyandharriets",
@@ -2216,6 +2376,26 @@
       "ingestedAt": "2026-05-28T14:02:28.515Z"
     },
     {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-07-03-2026/event/090064A2EA6821E8",
+      "start": "2026-07-04T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "e070ea340c05f736",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
       "title": "4th of July Palm Springs 2026",
       "description": "Fourth of July Weekend in Palm Springs 2026 - Details to be announced. Power Baseball: The all stars collegiate summer game starts at 6pm. (to be confirmed). 4th of July …\n\\n",
       "url": "https://www.palmsprings.com/event/4th-of-july-palm-springs/",
@@ -2299,6 +2479,46 @@
       "ingestedAt": "2026-05-28T14:02:28.515Z"
     },
     {
+      "title": "Dareyes de La Sierra",
+      "description": "Dareyes De La Sierra is a popular Mexican band known for Corridos and sinaloense music. Known for hit songs like \"Poco a Poco\" and \"De Fresa y Coco\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nDareyes De La Sierra is a popular Mexican band known for Corridos and sinaloense music. Known for hit songs like \"Poco a Poco\" and \"De Fresa y Coco\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Dareyes de La Sierra\n\nLatin / Latin",
+      "url": "https://www.ticketmaster.com/dareyes-de-la-sierra-cabazon-california-07-10-2026/event/09006426EEE3A98A",
+      "start": "2026-07-11T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "e05da69197a8abee",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-07-10-2026/event/090064A2EB7524B5",
+      "start": "2026-07-11T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "6cd3c79c65cc56c8",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
       "title": "Toody Cole (of Dead Moon) & Her Band",
       "description": "Desert Daze // Pappy & Harriet’s Presents:\nCissi TV\nSupporting Talent: Cissi TV\nRock\nAll Ages · $21.00-$26.00",
       "url": "https://wl.seetickets.us/event/toody-cole-of-dead-moon-and-her-band/684830?afflky=pappyandharriets",
@@ -2372,6 +2592,46 @@
       "ingestedAt": "2026-05-28T14:03:00.424Z"
     },
     {
+      "title": "Australias Thunder From Down Under",
+      "description": "Australia's Thunder from Down Under is an Australian male revue who perform in Las Vegas and tour internationally. This event is 18 and over. Everyone must have a ticket for entry. No outside food or drinks allowed into venue. Some seats in sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No backpacks or oversized purses. Management reserves all rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nAustralia's Thunder from Down Under is an Australian male revue who perform in Las Vegas and tour internationally. This event is 18 and over. Everyone must have a ticket for entry. No outside food or drinks allowed into venue. Some seats in sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No backpacks or oversized purses. Management reserves all rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Australias Thunder From Down Under\n\nDance / Dance",
+      "url": "https://www.ticketmaster.com/australias-thunder-from-down-under-cabazon-california-07-17-2026/event/0900647898315814",
+      "start": "2026-07-18T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "363cddbfbac518ba",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-07-17-2026/event/090064A2ECBF280E",
+      "start": "2026-07-18T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "6974a4413ddb7062",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
       "title": "Starcrawler",
       "description": "Pappy & Harriet’s Presents:\nSluttony\nSupporting Talent: Sluttony\nRock\nAll Ages · $21.00-$26.00",
       "url": "https://wl.seetickets.us/event/starcrawler/688237?afflky=pappyandharriets",
@@ -2387,6 +2647,26 @@
         "name": "Pappy & Harriet's"
       },
       "ingestedAt": "2026-05-28T14:03:00.424Z"
+    },
+    {
+      "title": "Midland",
+      "description": "Midland is an American country music group formed in 2014 in Dripping Springs, Texas. Known for hits like \"Drinkin Problem\" and \"Marlboro Man\". All ages minors to be accompanied by an adult (Everyone including children must have a ticket) No Outside Food or Drinks Allowed into Venue. Some Seats in Section A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nMidland is an American country music group formed in 2014 in Dripping Springs, Texas. Known for hits like \"Drinkin Problem\" and \"Marlboro Man\". All ages minors to be accompanied by an adult (Everyone including children must have a ticket) No Outside Food or Drinks Allowed into Venue. Some Seats in Section A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Midland\n\nCountry / Country",
+      "url": "https://www.ticketmaster.com/midland-cabazon-california-07-18-2026/event/09006443E3E89B84",
+      "start": "2026-07-19T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "5f242fdeaae87152",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
     },
     {
       "title": "James McMurtry",
@@ -2486,6 +2766,26 @@
         "name": "Palm Springs Life — The Calendar"
       },
       "ingestedAt": "2026-05-28T14:02:23.744Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-07-24-2026/event/090064A2F092331D",
+      "start": "2026-07-25T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "b3f8cfed247e18a7",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
     },
     {
       "title": "Hawthorne Heights – [Night 2 Acoustic]",
@@ -2630,6 +2930,26 @@
         "name": "Pappy & Harriet's"
       },
       "ingestedAt": "2026-05-28T14:03:00.429Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-07-31-2026/event/090064A2F15F35B9",
+      "start": "2026-08-01T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "dabd7dec238cdba0",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
     },
     {
       "title": "Dancing with the Stars Con 2026",
@@ -2809,6 +3129,46 @@
       "ingestedAt": "2026-05-28T14:02:23.744Z"
     },
     {
+      "title": "La Fiera De Ojinaga",
+      "description": "Regional Mexicano Known for hit songs like \"No Paras de Hacerme Feliz\" and \"Te Vas a Acordar de Mi\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nRegional Mexicano Known for hit songs like \"No Paras de Hacerme Feliz\" and \"Te Vas a Acordar de Mi\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: La Fiera De Ojinaga\n\nLatin / Latin",
+      "url": "https://www.ticketmaster.com/la-fiera-de-ojinaga-cabazon-california-08-07-2026/event/0900642DEB4FDC4A",
+      "start": "2026-08-08T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "98dd8288d37727b3",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.781Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-08-07-2026/event/090064A2F2DC38DA",
+      "start": "2026-08-08T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "94ec0f44bc2af770",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
+    },
+    {
       "title": "Briscoe",
       "description": "Pappy & Harriet’s Presents:\nAlec Shaw\nSupporting Talent: Alec Shaw\nCountry\nAll Ages · $21.00-$26.00",
       "url": "https://wl.seetickets.us/event/briscoe/688732?afflky=pappyandharriets",
@@ -2895,6 +3255,26 @@
         "name": "Acrisure Arena"
       },
       "ingestedAt": "2026-05-28T14:02:25.036Z"
+    },
+    {
+      "title": "Chico Bean",
+      "description": "Chico Bean is an American comedian known from Wildin Out and 85 South Show This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nChico Bean is an American comedian known from Wildin Out and 85 South Show This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Chico Bean\n\nComedy / Comedy",
+      "url": "https://www.ticketmaster.com/chico-bean-cabazon-california-08-08-2026/event/0900643FE039FCB8",
+      "start": "2026-08-09T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "comedy",
+      "id": "be61151260d21ec7",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
     },
     {
       "title": "Anthony Green",
@@ -2990,6 +3370,26 @@
       "ingestedAt": "2026-05-28T14:02:23.744Z"
     },
     {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-08-14-2026/event/090064A2F3B03ACD",
+      "start": "2026-08-15T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "4cfe93fc3ed7a520",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
+    },
+    {
       "title": "Brantley Gilbert: The Real American Tour at Fantasy Springs Resort Casino",
       "description": "Brantley Gilbert brings The Real American Tour to the Fantasy Springs Resort Casino on Saturday, Aug. 15 and delivers a high-energy set that pushes country firmly into rock territory. He blends country, rock, and rap influences into a sound that has defined his career for more than a decade. With more than 8 billion career streams, he fills the night with chart-topping anthems like “Bottoms Up” and “Country Must Be Country Wide.”",
       "url": "https://www.palmspringslife.com/event/brantley-gilbert-the-real-american-tour-at-fantasy-springs-resort-casino/",
@@ -3065,6 +3465,66 @@
       "ingestedAt": "2026-05-28T14:02:24.296Z"
     },
     {
+      "title": "Asia featuring John Payne",
+      "description": "Asia Ft John Payne is a rock group formed in '07 following a schism in the lineup of Asia. The band is a continuation of John Payne's career, performing songs recorded before and during this time. No pictures or recording of the show is allowed. Known for hits like \"Who Will Stop the Rain\" and \"Days Like These\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No outside food or drinks allowed in venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nAsia Ft John Payne is a rock group formed in '07 following a schism in the lineup of Asia. The band is a continuation of John Payne's career, performing songs recorded before and during this time. No pictures or recording of the show is allowed. Known for hits like \"Who Will Stop the Rain\" and \"Days Like These\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No outside food or drinks allowed in venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Asia featuring John Payne\n\nRock / Pop",
+      "url": "https://www.ticketmaster.com/asia-featuring-john-payne-cabazon-california-08-21-2026/event/0900647B95A09284",
+      "start": "2026-08-22T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "db65645622d12ffd",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-08-21-2026/event/090064A2F72D44AF",
+      "start": "2026-08-22T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "011b80178d4af914",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
+    },
+    {
+      "title": "Walker Hayes",
+      "description": "Walker Hayes is an American country pop singer and songwriter. Best known for songs like \"Fancy Like\" and \"Country Stuff\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWalker Hayes is an American country pop singer and songwriter. Best known for songs like \"Fancy Like\" and \"Country Stuff\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Walker Hayes\n\nCountry / Country",
+      "url": "https://www.ticketmaster.com/walker-hayes-cabazon-california-08-22-2026/event/09006436E8D7AC6C",
+      "start": "2026-08-23T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "b07c0013e2c8825e",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
+    },
+    {
       "title": "VillageFest every Thursday",
       "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
       "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-08-27/",
@@ -3085,6 +3545,26 @@
         "name": "VillageFest"
       },
       "ingestedAt": "2026-05-28T14:02:28.515Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-08-28-2026/event/090064A203D06EEA",
+      "start": "2026-08-29T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "206e698848047701",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
     },
     {
       "title": "Ramon Ayala at Acrisure Arena",
@@ -3227,6 +3707,26 @@
       "ingestedAt": "2026-05-28T14:02:28.516Z"
     },
     {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-09-04-2026/event/090064A20B488865",
+      "start": "2026-09-05T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "b177d4d485735646",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
+    },
+    {
       "title": "VillageFest every Thursday",
       "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
       "url": "https://villagefest.org/event/villagefest-every-thursday-27-2/2026-09-10/",
@@ -3247,6 +3747,26 @@
         "name": "VillageFest"
       },
       "ingestedAt": "2026-05-28T14:02:28.516Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-09-11-2026/event/090064A20BDC89ED",
+      "start": "2026-09-12T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "41996f361b844f58",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
     },
     {
       "title": "Weird Al Yankovic",
@@ -3300,6 +3820,46 @@
         "name": "VillageFest"
       },
       "ingestedAt": "2026-05-28T14:02:28.516Z"
+    },
+    {
+      "title": "Flamingo Friday",
+      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
+      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-09-18-2026/event/090064A20D7E9016",
+      "start": "2026-09-19T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "food-drink",
+      "id": "c0785ef0fd998b4f",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
+    },
+    {
+      "title": "Annabelle Louie and Chi Kwong Chiang",
+      "description": "Annabelle Louie is a Hong Kong singer, actress and host. She debuted in the early 1980s with the song \"When People Are Tears on the Road\", and then became famous with \"Don't Remember the Old Dreams\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nAnnabelle Louie is a Hong Kong singer, actress and host. She debuted in the early 1980s with the song \"When People Are Tears on the Road\", and then became famous with \"Don't Remember the Old Dreams\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: Annabelle Louie, Ram Chiang\n\nWorld / World",
+      "url": "https://www.ticketmaster.com/annabelle-louie-and-chi-kwong-chiang-cabazon-california-09-19-2026/event/090064A5AEF6DE1D",
+      "start": "2026-09-20T03:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "aeaf90161d975e06",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3556,6 +4116,26 @@
         "name": "VillageFest"
       },
       "ingestedAt": "2026-05-28T14:02:28.516Z"
+    },
+    {
+      "title": "UB40",
+      "description": "UB40 The Unstoppable Tour 2026 UB40 are an English reggae band, formed in Birmingham, England. Known for hits like \"Red Red Wine\" and \"I Cant Help Falling in Love\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nUB40 The Unstoppable Tour 2026 UB40 are an English reggae band, formed in Birmingham, England. Known for hits like \"Red Red Wine\" and \"I Cant Help Falling in Love\" This event is all ages minors to be accompanied by an adult. Everyone including children must have a ticket. No Outside Food or Drinks Allowed into Venue. Some Seats in Sections A & D have obstructed views. If handicap accessible seating is required, please purchase Section A or D Row 1 and/ or any aisle seats. No refunds will be given for any tickets purchased from a third party site or verified resale tickets off of Ticketmaster. No Backpacks or oversized purses. Management Reserves All Rights. For more information please contact Morongo Entertainment at (951) 849-3080 Ext 27002 - Reward Card Members receive a discount when purchasing tickets over the phone through the Morongo Box Office.\n\nWith: UB40\n\nReggae / Reggae",
+      "url": "https://www.ticketmaster.com/ub40-cabazon-california-10-24-2026/event/090064349DCD880D",
+      "start": "2026-10-25T04:00:00Z",
+      "location": {
+        "venue": "Morongo Casino Resort and Spa",
+        "address": "49500 Seminole Dr",
+        "town": "Cabazon",
+        "lat": 33.9220127,
+        "lon": -116.8012179
+      },
+      "type": "family",
+      "id": "2cede7cce8a03311",
+      "source": {
+        "id": "morongo-casino",
+        "name": "Morongo Casino Resort & Spa"
+      },
+      "ingestedAt": "2026-05-28T14:43:26.782Z"
     },
     {
       "title": "Marisela at Fantasy Springs Resort Casino",
