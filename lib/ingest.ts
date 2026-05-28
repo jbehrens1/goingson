@@ -30,8 +30,13 @@ import {
 import { findTownIn } from "./towns";
 import type { Adapter, EventRecord, SourceConfig, SourcesFile } from "./types";
 import { nowIso } from "./util";
-import { probeSource, shouldAutoApply, type ProbeCandidate } from "./probe";
-import { appendHistory, type HistoryRow } from "./source-history";
+import {
+  LOW_YIELD_THRESHOLD,
+  probeSource,
+  shouldAutoApply,
+  type ProbeCandidate,
+} from "./probe";
+import { appendHistory, readHistory, type HistoryRow } from "./source-history";
 import {
   ALL_REGIONS_KEY,
   appendIngestHistory,
@@ -156,6 +161,17 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
   const historyRows: HistoryRow[] = [];
   const runStartedAt = new Date().toISOString();
 
+  // Read history once up-front so we can detect first-time sources (no prior
+  // ingest with count > 0). First-timers get the "deep" probe mode — they're
+  // the case where we don't yet know which adapter or URL is correct.
+  const priorHistory = await readHistory(opts.rootDir);
+  const everSucceeded = new Set<string>();
+  for (const row of priorHistory) {
+    if (row.regionId === region.config.id && row.count > 0) {
+      everSucceeded.add(row.sourceId);
+    }
+  }
+
   for (const source of enabled) {
     const adapter = ADAPTERS[source.adapter];
     if (!adapter) {
@@ -202,13 +218,21 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
       continue;
     }
 
-    // Low-yield probe: if we got ≤1 events, look for a better config.
+    // Low-yield probe: if the source returned fewer than LOW_YIELD_THRESHOLD
+    // events (currently 5), look for a better config. First-time sources (no
+    // prior successful ingest in history) get the more expensive "deep" mode,
+    // which tries more detectors + alt paths. Established sources that had a
+    // bad day get the cheaper "light" mode.
     let probe: SourceReport["probe"];
-    if (result.events.length <= 1) {
+    if (result.events.length < LOW_YIELD_THRESHOLD) {
+      const isFirstTime = !everSucceeded.has(source.id);
+      const mode: "deep" | "light" = isFirstTime ? "deep" : "light";
       console.log(
-        `[ingest] ${source.id}: low yield (${result.events.length}), running probe...`,
+        `[ingest] ${source.id}: low yield (${result.events.length}), running ${mode} probe${
+          isFirstTime ? " (first-time source)" : ""
+        }...`,
       );
-      const candidates = await probeSource(activeSource);
+      const candidates = await probeSource(activeSource, mode);
       probe = { candidates };
       const best = candidates[0];
       if (best && shouldAutoApply(best, result.events.length)) {
