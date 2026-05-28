@@ -3500,5 +3500,17 @@
     "lon": -117.1604199,
     "displayName": "The Keating Hotel, 432, F Street, Gaslamp Quarter, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
     "fetchedAt": "2026-05-28T14:22:47.003Z"
+  },
+  "sandiego::3343 adams ave, san diego, ca 92116, united states": {
+    "lat": 32.7632306,
+    "lon": -117.1219992,
+    "displayName": "Lestat's Coffee House, 3343, Adams Avenue, Normal Heights, North Park, San Diego, San Diego County, California, 92116, United States",
+    "fetchedAt": "2026-05-28T15:00:34.370Z"
+  },
+  "sandiego::lestat's coffee house, san diego": {
+    "lat": 32.7632306,
+    "lon": -117.1219992,
+    "displayName": "Lestat's Coffee House, 3343, Adams Avenue, Normal Heights, North Park, San Diego, San Diego County, California, 92116, United States",
+    "fetchedAt": "2026-05-28T15:00:35.437Z"
   }
 }

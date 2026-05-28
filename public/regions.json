@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T14:43:05.919Z",
+  "generatedAt": "2026-05-28T15:01:14.516Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -133,9 +133,9 @@
         "Del Mar, CA",
         "Solana Beach, CA"
       ],
-      "eventCount": 2478,
+      "eventCount": 2689,
       "eventsPath": "/events.sandiego.json",
-      "generatedAt": "2026-05-28T14:43:05.911Z"
+      "generatedAt": "2026-05-28T15:01:14.511Z"
     }
   ]
 }

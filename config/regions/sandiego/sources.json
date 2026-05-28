@@ -291,12 +291,15 @@
       "id": "comedy-heights",
       "name": "Comedy Heights",
       "enabled": true,
-      "adapter": "html-generic",
-      "url": "https://www.comedyheights.com/coming-up/",
+      "adapter": "ical",
+      "url": "https://calendar.google.com/calendar/ical/comedyheights%40gmail.com/public/basic.ics",
       "category": "Venue / Comedy",
       "town": "San Diego",
-      "notes": "[2026-05-28 probe] WordPress site, blog-style content (no Tribe REST, no JSON-LD events). Shows are announced via individual blog posts under /category/shows/. /coming-up/ aggregates the most recent. html-generic best-effort against /coming-up/ — likely 0 until they add structured data or we wire a WP REST posts adapter.",
-      "defaultEventType": "comedy"
+      "notes": "[2026-05-28 probe v3] /calendar/ embeds a Google Calendar iframe with src=comedyheights@gmail.com — a public calendar exposing the standard /public/basic.ics endpoint. Switched from html-generic to ical: 1305 VEVENTs in the feed (most past, ingest auto-drops). San Diego's longest-running independent comedy show, hosted at Lestat's on Adams Ave.",
+      "defaultEventType": "comedy",
+      "config": {
+        "defaultVenue": "Lestat's Coffee House"
+      }
     },
     {
       "id": "grand-comedy",
