@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T20:34:03.722Z",
+  "generatedAt": "2026-05-28T03:10:09.962Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -77,9 +77,9 @@
         "Harvey Cedars, NJ",
         "Barnegat Light, NJ"
       ],
-      "eventCount": 1201,
+      "eventCount": 1238,
       "eventsPath": "/events.lbi.json",
-      "generatedAt": "2026-05-27T13:00:47.888Z"
+      "generatedAt": "2026-05-28T03:09:38.206Z"
     },
     {
       "id": "outercape",

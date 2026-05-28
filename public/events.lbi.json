@@ -20,8 +20,8 @@
       "Barnegat Light, NJ"
     ]
   },
-  "generatedAt": "2026-05-27T13:00:47.879Z",
-  "count": 1201,
+  "generatedAt": "2026-05-28T03:09:38.206Z",
+  "count": 1238,
   "events": [
     {
       "title": "Surflight Theatre - A Grand Night For Singing",
@@ -646,12 +646,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "01c7b6d758939f77",
+      "id": "5105aa4fd98bfac0",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.033Z"
     },
     {
       "title": "Mike Matthews",
@@ -919,12 +919,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "daac5be5e689813b",
+      "id": "340296283ea6208d",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -979,12 +979,12 @@
         "lon": -74.1668909
       },
       "type": "community",
-      "id": "c2a136b07c33cfca",
+      "id": "8b2d4d33ff26a5fb",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Open Mic",
@@ -1298,12 +1298,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "ebdc5d9b9627da07",
+      "id": "fb0ca0ffeb2f1eae",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -1569,12 +1569,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "b8d4d2ff734e39e2",
+      "id": "8f0ae35b820c63ce",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -2407,12 +2407,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "efa26e0d4fc3c414",
+      "id": "f8da11f3a15ab7d7",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -2635,12 +2635,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "ea7a07ba49670423",
+      "id": "6a10d76e9d291457",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -2662,6 +2662,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-06-05T23:00:00.000Z",
+      "end": "2026-06-06T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "16ebc04cacd4769b",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Band - open mike",
@@ -3075,12 +3095,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "7d11a05312edcebd",
+      "id": "c87a02f149b14e19",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -3346,12 +3366,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "995242bc92b3ac16",
+      "id": "174320aa1b964103",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "The Island Singers presents \"United Through Song\"",
@@ -4230,12 +4250,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "aeff140f0e0b137c",
+      "id": "03e66b4e17becfac",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -4460,12 +4480,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "7b5c91de7b7c8626",
+      "id": "e669064402d24752",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -4487,6 +4507,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.033Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-06-12T23:00:00.000Z",
+      "end": "2026-06-13T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "74175d4e81c5ddac",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Band - open mike",
@@ -4875,12 +4915,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "927448f317fbbbde",
+      "id": "e47cf034a1c1db5f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.027Z"
     },
     {
       "title": "No Dead Air- Beach Stage",
@@ -5206,12 +5246,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "06a042578068ef1f",
+      "id": "e02805fb2130cdef",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -6154,12 +6194,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "dbadc3031e0fe564",
+      "id": "552a7b39e41b5c52",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -6459,12 +6499,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "66b08921dd002202",
+      "id": "fa1610a7892d41d0",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -6835,12 +6875,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "2845efe768e93a72",
+      "id": "7116e7fd750e6418",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -6876,12 +6916,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9a97500777c6ebb2",
+      "id": "7e5ac0c817e23800",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Band - shallow green",
@@ -7087,12 +7127,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "6a7a7fe14ad8b4e2",
+      "id": "375047a73c4f31a8",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.034Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -7128,12 +7168,12 @@
         "lon": -74.1668909
       },
       "type": "community",
-      "id": "18c9e7747813db15",
+      "id": "a0fc177e278db594",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "St. Francis Holds Trek E-Bike Raffle",
@@ -7690,12 +7730,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "1d64ff05f985134f",
+      "id": "30f937fdf79eca71",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -8085,12 +8125,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "5a15fff08585839d",
+      "id": "8c424cba9bc46b63",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.027Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -8522,12 +8562,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "87cd0a26d05f1f37",
+      "id": "bff17da3d971c248",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.033Z"
     },
     {
       "title": "Golden Hour at The Farm On Main",
@@ -8860,12 +8900,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "c5baddc884ed8f81",
+      "id": "03ded0e6234ee8d4",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -8939,12 +8979,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "8146282d7d8d0289",
+      "id": "1417125a13123908",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Band - steel the sky",
@@ -9194,12 +9234,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "462cb114af301684",
+      "id": "d99be9ae43c88f82",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.026Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -9254,12 +9294,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "594a726d99e70eae",
+      "id": "c4b3ca92cdfbdbdb",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -9509,12 +9549,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "fe24c7c50e8c1b2f",
+      "id": "92ddcc80cf9a5593",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -9536,6 +9576,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-06-28T23:00:00.000Z",
+      "end": "2026-06-29T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "0d5106da6c7df5ae",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Bayside Ukulele Club Meets at Barnegat Library",
@@ -9886,12 +9946,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "bef6c7a3c96aeeaf",
+      "id": "88321c485d11941e",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -10093,12 +10153,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "025c383a28593e63",
+      "id": "3672fe61941c490f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -10153,12 +10213,12 @@
         "lon": -74.1668909
       },
       "type": "theater",
-      "id": "c50ddb13811295bc",
+      "id": "d1c4c0bdd814f0ee",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -10377,12 +10437,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "7c53ac21e279501b",
+      "id": "8ad60b75db8e11e7",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -10598,12 +10658,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9d912b0d4e23a14d",
+      "id": "7c6fb0876d5527ab",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -10658,12 +10718,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "5c717802e1ffb1d5",
+      "id": "d8ba444a8d09fa21",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -10813,12 +10873,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "a41f7de17e18a619",
+      "id": "7ed58d97e9377ba6",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - hybrid",
@@ -10854,12 +10914,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "6f395bf73e682a13",
+      "id": "764dc4dd56ecdf6a",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Band - nerds",
@@ -10984,12 +11044,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "4bb40fc47c947a05",
+      "id": "ee8f9ca136d4d415",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -11011,6 +11071,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.031Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-05T23:00:00.000Z",
+      "end": "2026-07-06T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "e992d2ba265623b4",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -11161,12 +11241,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "bc6a4fc29a2f1642",
+      "id": "2e6924418ed47b8a",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -11242,12 +11322,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "c18db4391baca42b",
+      "id": "a64e5696993205c4",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Drifting Roots",
@@ -11382,12 +11462,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "338417a8e9518565",
+      "id": "86d71d5f458bcc45",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -11447,6 +11527,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.496Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-09T00:00:00.000Z",
+      "end": "2026-07-09T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "6d15b8ac1d851914",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -11643,12 +11743,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "0b53dfefb1322689",
+      "id": "e84876a30e60ceb2",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - gypsy moon",
@@ -11836,12 +11936,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "a2e0364cde8b8f97",
+      "id": "23b9495985a18a91",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -11896,12 +11996,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "2679aaa13ce3ef29",
+      "id": "fa9828a524a4ea6f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.033Z"
     },
     {
       "title": "Band - anger management",
@@ -12101,12 +12201,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "22e4b0d327062f20",
+      "id": "4973f5b4ab356f62",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.026Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -12130,26 +12230,6 @@
       "ingestedAt": "2026-05-27T13:00:18.033Z"
     },
     {
-      "title": "Don't Call Me Frances with DJ Dominic",
-      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
-      "start": "2026-07-12T01:00:00.000Z",
-      "end": "2026-07-12T05:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Surf City Hotel",
-        "town": "Surf City",
-        "lat": 39.6600366,
-        "lon": -74.1668909
-      },
-      "type": "live-music",
-      "id": "37f26756e8554e30",
-      "source": {
-        "id": "surf-city-hotel",
-        "name": "Surf City Hotel"
-      },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
-    },
-    {
       "title": "Full Moon Party",
       "description": "Annual 'Scandalous Extravaganza' — when the moon is bigger so are our drinks. Band on the beach, DJ inside the club. Look for the spotlights in the sky to guide you in!",
       "url": "https://theseashellresort.com/events",
@@ -12169,6 +12249,26 @@
         "name": "LBI Manual One-Off"
       },
       "ingestedAt": "2026-05-27T13:00:46.625Z"
+    },
+    {
+      "title": "Don't Call Me Frances with DJ Dominic",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-12T01:00:00.000Z",
+      "end": "2026-07-12T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "f6c26872d41d7164",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Band - 5 dollar shakes",
@@ -12337,12 +12437,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "29c1b8b50a331711",
+      "id": "dce3a058342d343f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.033Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -12364,6 +12464,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.033Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-12T23:00:00.000Z",
+      "end": "2026-07-13T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "a0d59211322cc83a",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Hearts of Mercy Offers Kids Summer Camps",
@@ -12633,12 +12753,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "b9bdb91322065c5d",
+      "id": "223d2c47941d74df",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.026Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -12681,6 +12801,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Short Long & The Jersey Horns",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-15T01:00:00.000Z",
+      "end": "2026-07-15T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "c6bfe24cdd00b612",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "SUM SUN with Wim Tapley &amp; The Cannons",
@@ -12909,12 +13049,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d171554484a981fc",
+      "id": "a93b7a2618cefd75",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -12974,6 +13114,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.499Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-16T00:00:00.000Z",
+      "end": "2026-07-16T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "408826707b6bf81d",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -13217,12 +13377,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "0a8443cd6604c589",
+      "id": "755b8b27b8eca248",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -13410,12 +13570,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "8371c029b0b39740",
+      "id": "695b0170d8c3c772",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -13489,12 +13649,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "7814a07444977ba7",
+      "id": "0d8cd65e63803ca1",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Band - screamin brocolli",
@@ -13691,12 +13851,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "5c0a0aaa5456b7e4",
+      "id": "8e91c11a50beda62",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -13732,12 +13892,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "4108dd54b68a340b",
+      "id": "f95698b538f8f979",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Band - turning the tide",
@@ -13887,12 +14047,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "e4b5773e49707717",
+      "id": "b6a5ad8c36de55df",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.026Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -13914,6 +14074,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-19T23:00:00.000Z",
+      "end": "2026-07-20T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "63081b10370f268c",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Hearts of Mercy Offers Kids Summer Camps",
@@ -14183,12 +14363,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "ae9324dc6ec8d9a5",
+      "id": "e4577fae30eb0033",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.027Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -14231,6 +14411,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.033Z"
+    },
+    {
+      "title": "Short Long & The Jersey Horns",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-22T01:00:00.000Z",
+      "end": "2026-07-22T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "160171bd11064ca3",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Rob Benton",
@@ -14415,12 +14615,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "4da564714ee1db5e",
+      "id": "df96fa220f598c9c",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -14461,6 +14661,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.504Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-23T00:00:00.000Z",
+      "end": "2026-07-23T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "f04437e85fefa648",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -14754,12 +14974,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "f03545defbdae161",
+      "id": "031775001c13917b",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -14997,12 +15217,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "0360947eddb8ab35",
+      "id": "8efc59b4455abe04",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.026Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -15057,12 +15277,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "5695cfe1a0db4633",
+      "id": "bb2ccb24d1d1c833",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -15240,12 +15460,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "f01ea35df2c00570",
+      "id": "ef77e5deb75d44db",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -15300,12 +15520,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "79485112256743c5",
+      "id": "fe9ef0a89b5c9aa3",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Band - steel the sky",
@@ -15455,12 +15675,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "dc9b9eef2e22f011",
+      "id": "0d2df16a93bcf067",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -15482,6 +15702,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-26T23:00:00.000Z",
+      "end": "2026-07-27T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "74988bad66e52334",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Children’s Sand and Surf Mission Meets",
@@ -15682,12 +15922,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "23208e498e78da30",
+      "id": "f0895d2702fbc5c4",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -15768,6 +16008,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.507Z"
+    },
+    {
+      "title": "Short Long & The Jersey Horns",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-29T01:00:00.000Z",
+      "end": "2026-07-29T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "e75863f902ec7233",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Tunnel Vision and Capital Dub",
@@ -15952,12 +16212,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "33d5ed4f1dcc0be0",
+      "id": "848152c6f145a112",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -16017,6 +16277,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.508Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-07-30T00:00:00.000Z",
+      "end": "2026-07-30T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "4016c88330c4a3d3",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -16285,12 +16565,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9561f068d741d9f2",
+      "id": "7b54d7eece9c7772",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -16522,12 +16802,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "645199115715d484",
+      "id": "2cc30d771323e489",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -16601,12 +16881,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "6e93d642a32b46b9",
+      "id": "11129544560ebdbd",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Band - porch",
@@ -16806,12 +17086,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d5c1b5a48096b308",
+      "id": "529683b51f5e9169",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -16854,26 +17134,6 @@
       "ingestedAt": "2026-05-27T13:00:45.510Z"
     },
     {
-      "title": "Sir Rod with DJ Dominic",
-      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
-      "start": "2026-08-02T01:00:00.000Z",
-      "end": "2026-08-02T05:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Surf City Hotel",
-        "town": "Surf City",
-        "lat": 39.6600366,
-        "lon": -74.1668909
-      },
-      "type": "live-music",
-      "id": "ff1bb6194b9aaa34",
-      "source": {
-        "id": "surf-city-hotel",
-        "name": "Surf City Hotel"
-      },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
-    },
-    {
       "title": "White Out Party",
       "description": "Annual White Out Party — wear white clothes and accessories! Band on the beach stage.",
       "url": "https://theseashellresort.com/events",
@@ -16893,6 +17153,26 @@
         "name": "LBI Manual One-Off"
       },
       "ingestedAt": "2026-05-27T13:00:46.625Z"
+    },
+    {
+      "title": "Sir Rod with DJ Dominic",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-02T01:00:00.000Z",
+      "end": "2026-08-02T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "96006441f88cb18f",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Band - turning the tide",
@@ -17042,12 +17322,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "619840eb297307e2",
+      "id": "805e4c3edbe4158c",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -17069,6 +17349,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-02T23:00:00.000Z",
+      "end": "2026-08-03T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "3cd20a8511866fee",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Back To The Garden 1969 - Woodstock Tribute Show at Surflight Theatre",
@@ -17283,12 +17583,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "36595d6757eb6adf",
+      "id": "07f30f0f2b407041",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -17331,6 +17631,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Short Long & The Jersey Horns",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-05T01:00:00.000Z",
+      "end": "2026-08-05T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "8714f765b314faa2",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Billy Walton Band",
@@ -17490,12 +17810,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "bc5488e2cd77ad40",
+      "id": "82391002d5eab770",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -17555,6 +17875,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.512Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-06T00:00:00.000Z",
+      "end": "2026-08-06T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "4d95234633021440",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -17754,12 +18094,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "25d97389d9caee32",
+      "id": "87e51b7bb14e6b84",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - petti's",
@@ -17897,12 +18237,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "a0a6d4c136e17b91",
+      "id": "d9bbbc916519d038",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -17976,12 +18316,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d76f0971b0d2d40f",
+      "id": "79cbdf64a529d980",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -18137,12 +18477,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "569bdeecf63e2252",
+      "id": "2a8041397c2c6db6",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -18178,12 +18518,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "fe0974bf63078cda",
+      "id": "21a687be5360b223",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Band - steel the sky",
@@ -18333,12 +18673,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "e3405584aa1c0dd0",
+      "id": "e74aa90d5d35ef76",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -18360,6 +18700,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-09T23:00:00.000Z",
+      "end": "2026-08-10T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "b63d8d36870423cc",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Taylor Mason - Family Comedy Night’",
@@ -18623,12 +18983,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "51884d800090c1c1",
+      "id": "37ac6003c3114d98",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -18671,6 +19031,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.031Z"
+    },
+    {
+      "title": "Short Long & The Jersey Horns",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-12T01:00:00.000Z",
+      "end": "2026-08-12T05:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "7854b58ff1b252d4",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "St. Cecilia",
@@ -18825,12 +19205,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "94d6be589bf5866d",
+      "id": "4a80e8468b19aa02",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -18871,6 +19251,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.516Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-13T00:00:00.000Z",
+      "end": "2026-08-13T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "f2bab053022a4081",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia  ",
@@ -19045,12 +19445,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d50b60038da0d62c",
+      "id": "615d3ac6ad5083b6",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.031Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -19194,12 +19594,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "76d8204a60b0e4b6",
+      "id": "ce2169f936ee884e",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -19254,12 +19654,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "b5e309664c4e0477",
+      "id": "2364131e38428292",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Band - porch",
@@ -19415,12 +19815,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "503316010e1ae25e",
+      "id": "2453e778085d1057",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Happy Hour - rob silvers",
@@ -19456,12 +19856,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "4b7798a228224f75",
+      "id": "222911b2964fc003",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Band - anger management",
@@ -19636,12 +20036,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "602d219808fa0435",
+      "id": "8a8a15dd6526a67d",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -19663,6 +20063,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-16T23:00:00.000Z",
+      "end": "2026-08-17T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "d75332ddd9268314",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -19813,12 +20233,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "7d5568fbbe3f3169",
+      "id": "a4d6e77fef7b603e",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -20044,12 +20464,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "c4a4673318df2967",
+      "id": "c18b17852ebcf87e",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -20090,6 +20510,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.519Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-20T00:00:00.000Z",
+      "end": "2026-08-20T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "eb1f6473d515a8e5",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia ",
@@ -20289,12 +20729,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "142dc3012166f8de",
+      "id": "3fd64a8726228a74",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - meg whalen",
@@ -20438,12 +20878,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "ad60a65c81b52b2a",
+      "id": "73837878dedfd563",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -20639,12 +21079,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "7099245c7649c366",
+      "id": "d32e479b02e31200",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - mike dougherty",
@@ -20840,12 +21280,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "66241f1cbc0faa0b",
+      "id": "a509776629990835",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -20867,6 +21307,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.031Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-23T23:00:00.000Z",
+      "end": "2026-08-24T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "763475b4e2f9ae00",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Comedy Night Fundraiser for JCC of LBI",
@@ -21080,12 +21540,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9ca2a14b94a1327e",
+      "id": "358eb859ac973a6f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - chris fritz",
@@ -21267,12 +21727,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "2604804c55088887",
+      "id": "0f2a2e04fe8ea7e4",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -21313,6 +21773,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.522Z"
+    },
+    {
+      "title": "Singo-Musical Bingo",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-27T00:00:00.000Z",
+      "end": "2026-08-27T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "theater",
+      "id": "d79f02cedd8bd806",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Highly Questionable Trivia   ",
@@ -21487,12 +21967,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9231eed1fbbdc8aa",
+      "id": "5886af569bd4779e",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.031Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -21611,12 +22091,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "74e97b743013fbe2",
+      "id": "afd4ba21b0588a0f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -21869,12 +22349,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "09888d5d0dbc9043",
+      "id": "774c8508677d86dd",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - josh werner",
@@ -22064,12 +22544,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "6ace246164b5c026",
+      "id": "048529b621a188e6",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.026Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -22091,6 +22571,26 @@
         "name": "Joe Pop's Shore Bar"
       },
       "ingestedAt": "2026-05-27T13:00:18.033Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-08-30T23:00:00.000Z",
+      "end": "2026-08-31T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "84199b8245d092d8",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.021Z"
     },
     {
       "title": "Happy Hour - ty mares",
@@ -22216,12 +22716,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "1c0dc631cf0a27a6",
+      "id": "523aa5ae8b62b6de",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Happy Hour - ned",
@@ -22397,12 +22897,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "da328228edff9145",
+      "id": "3adbbbc8ac56e51c",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.031Z"
     },
     {
       "title": "Happy Hour - jersey select",
@@ -22573,12 +23073,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "e6630cf4a3d630af",
+      "id": "d1d39181a39fb281",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.040Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -22705,12 +23205,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "2a6df6d544aff8c4",
+      "id": "55c37d4fd618ee45",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -22765,12 +23265,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "3052a9322d6b1eff",
+      "id": "86f04ad4f3513ab4",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Band - goodman fiske",
@@ -22876,12 +23376,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "efebf7bad38d9d99",
+      "id": "17e25ce9bf8c8a40",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Happy Hour - chad miller",
@@ -22917,12 +23417,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "a289fa348e1dbb57",
+      "id": "3a1e25709bc84706",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Band - nerds",
@@ -23072,12 +23572,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "e277260c9a2def5a",
+      "id": "3a7da2efe7b4c971",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Happy Hour - jack mangan",
@@ -23113,12 +23613,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d23194cb47a461ab",
+      "id": "5cfc1af3c2ad08b8",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.033Z"
     },
     {
       "title": "Dave Jones Duo",
@@ -23133,12 +23633,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "4d2b0b8175512614",
+      "id": "2c50990f56a61199",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Happy Hour - ty duo",
@@ -23318,12 +23818,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "37c112a9fb069d5d",
+      "id": "14feacf8e6d0c881",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.031Z"
     },
     {
       "title": "Happy Hour - redbird",
@@ -23384,12 +23884,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d2d185aed5d0669d",
+      "id": "e723696d4c2a8c02",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - third wheel",
@@ -23444,12 +23944,12 @@
         "lon": -74.1668909
       },
       "type": "community",
-      "id": "2cdcee7394998be9",
+      "id": "3a7e02af7f48b1c5",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "Band - Friday Sept 11 needs a band, Mike or Anthony can help",
@@ -23530,12 +24030,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "bbb06c39b5074236",
+      "id": "d71ffd7ebed35a61",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Happy Hour - trevor baylor",
@@ -23662,12 +24162,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "5ee0f1d431f64451",
+      "id": "6402a71cd77d02e2",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.033Z"
     },
     {
       "title": "Happy Hour - east 23",
@@ -23897,12 +24397,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "ec18dcc8cf76a7de",
+      "id": "14b14e45ae44f3a6",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Ghost The Musical’",
@@ -23942,32 +24442,32 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d31730e985fc0cae",
+      "id": "3f0d473fea29fc85",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
-      "title": "Halfway to St. Patrick's Day",
+      "title": "Trivia on Tap",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-09-19T00:00:00.000Z",
-      "end": "2026-09-20T00:00:00.000Z",
-      "allDay": true,
+      "end": "2026-09-19T02:00:00.000Z",
+      "allDay": false,
       "location": {
         "venue": "Surf City Hotel",
         "town": "Surf City",
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "live-music",
-      "id": "5bf543c580625ae9",
+      "type": "community",
+      "id": "7351090bc3bd4924",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:20.993Z"
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Ghost The Musical’",
@@ -24020,6 +24520,26 @@
       "ingestedAt": "2026-05-27T13:00:41.952Z"
     },
     {
+      "title": "Halfway to St. Patrick's Day",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-09-19T04:00:00.000Z",
+      "end": "2026-09-20T04:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "998ba2b5ffd7fda2",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:37.986Z"
+    },
+    {
       "title": "Ocean County Emerald Society Pipes & Drums",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-09-19T23:00:00.000Z",
@@ -24032,12 +24552,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9ecdb10cecd1787d",
+      "id": "5604e0ab43ef9f1b",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Shay Mac",
@@ -24052,12 +24572,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "aee26b76b73c6de0",
+      "id": "2546b753c5f7b1df",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -24122,12 +24642,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "6e9cdbcea8499eb8",
+      "id": "31ad966ed06230bc",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.031Z"
     },
     {
       "title": "Knitting Group Meets at Beach Haven Library",
@@ -24236,12 +24756,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "39fff7f5f70de479",
+      "id": "5c0c6ec530a78b84",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Jack Mangan",
@@ -24256,12 +24776,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "97aad9000589c099",
+      "id": "f6ba3b5cf6c443e7",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Comedy Night",
@@ -24281,6 +24801,26 @@
         "name": "Southern Ocean County Chamber of Commerce – Events Calendar"
       },
       "ingestedAt": "2026-05-27T13:00:45.529Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-09-26T00:00:00.000Z",
+      "end": "2026-09-26T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "c22e1e10420075b4",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "The Polish Nannies",
@@ -24340,12 +24880,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "83cbffd9be447a36",
+      "id": "70b777d15b635719",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "95 Live",
@@ -24430,12 +24970,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "8768d1483806664e",
+      "id": "cb58b6463bb0e6d6",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Knitting Group Meets at Beach Haven Library",
@@ -24600,12 +25140,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "8451445c62522a6d",
+      "id": "fd50892a4050732c",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Vanities: The Musical’",
@@ -24633,24 +25173,24 @@
       "ingestedAt": "2026-05-27T13:00:41.969Z"
     },
     {
-      "title": "Surf City 2nd Annual Kite Show",
+      "title": "Trivia on Tap",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-04T00:00:00.000Z",
-      "allDay": true,
+      "end": "2026-10-03T02:00:00.000Z",
+      "allDay": false,
       "location": {
         "venue": "Surf City Hotel",
         "town": "Surf City",
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "live-music",
-      "id": "4dd6bc17eb303443",
+      "type": "community",
+      "id": "6234a987841125b1",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "Jel &amp; The Kidz",
@@ -24698,6 +25238,26 @@
       "ingestedAt": "2026-05-27T13:00:41.969Z"
     },
     {
+      "title": "Surf City 2nd Annual Kite Show",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-10-03T04:00:00.000Z",
+      "end": "2026-10-04T04:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "live-music",
+      "id": "3d8294734db55887",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.033Z"
+    },
+    {
       "title": "Rob Connolly",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-10-03T20:00:00.000Z",
@@ -24710,12 +25270,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "05596710c27132d7",
+      "id": "98709b1d46cf14b1",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
     },
     {
       "title": "Band of Make Believe ",
@@ -24825,12 +25385,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "35b048c7ea902609",
+      "id": "20d094f160e6c600",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Knitting Group Meets at Beach Haven Library",
@@ -24964,12 +25524,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "2568e2008cee590b",
+      "id": "6ced6e8dbb08c0c8",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Deceived’",
@@ -25009,12 +25569,32 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "84629c55575dfc06",
+      "id": "1b48b9af6af57a3b",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-10-10T00:00:00.000Z",
+      "end": "2026-10-10T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "6620f4228a50c4be",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Deceived’",
@@ -25054,12 +25634,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "bdc0dd47434e85d0",
+      "id": "1ff05f7a4c5947e6",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.027Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -25124,12 +25704,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "4a9e4cd3e55607b8",
+      "id": "831378f034aa0654",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.034Z"
     },
     {
       "title": "Knitting Group Meets at Beach Haven Library",
@@ -25169,12 +25749,32 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "17e3ccfbf79bae7c",
+      "id": "f67cef8266ca2e83",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-10-17T00:00:00.000Z",
+      "end": "2026-10-17T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "784afb9f4041e2f0",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "Mike Dougherty",
@@ -25189,12 +25789,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "868c90943e0f8dcb",
+      "id": "67fd4382e5ddb56c",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -25284,12 +25884,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "54f7601ec30da4c1",
+      "id": "d96af217b18e9b92",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Striped Bass Derby (Day 1)",
@@ -25311,6 +25911,26 @@
         "name": "LBI Manual One-Off"
       },
       "ingestedAt": "2026-05-27T13:00:46.625Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-10-24T00:00:00.000Z",
+      "end": "2026-10-24T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "75969178c4a91c54",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "See Almost Cher: A Tribute at STAC",
@@ -25372,12 +25992,12 @@
         "lon": -74.1668909
       },
       "type": "family",
-      "id": "874a5a520084c992",
+      "id": "4f3f098b908c701a",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -25488,12 +26108,32 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "4e020c756991120a",
+      "id": "5f481f63890a715c",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-10-31T00:00:00.000Z",
+      "end": "2026-10-31T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "51d07044e39e1528",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.023Z"
     },
     {
       "title": "Halloween Party",
@@ -25508,12 +26148,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "c4c40c781e6f3451",
+      "id": "9af9e236254ec78d",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -25603,12 +26243,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "332f44589e2eea03",
+      "id": "264c8bf77e267283",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Trivia on Tap",
@@ -25623,12 +26263,12 @@
         "lon": -74.1668909
       },
       "type": "community",
-      "id": "bb182a877aa97e32",
+      "id": "554af82f9559846f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Comedy Night Fundraiser for Beach Haven Volunteer Fire Company at Surflight Theatre",
@@ -25668,12 +26308,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "87f2d71fef2ffa29",
+      "id": "4f0ae67266070fdc",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Comedy Night Fundraiser for BHVFC",
@@ -25757,12 +26397,32 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "620ddeea03905f86",
+      "id": "8a2877778355ee84",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-11-14T00:00:00.000Z",
+      "end": "2026-11-14T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "af461dc74c1c4963",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "La Traviata by Center Stage Opera Co. at Surflight Theatre",
@@ -25827,12 +26487,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "1b1c68a612b4428e",
+      "id": "643a32b20380d12e",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "La Traviata by Center Stage Opera Co.",
@@ -25941,12 +26601,32 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "0e8cf94692fd9ef9",
+      "id": "e0fdbb47da4d95fc",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-11-21T00:00:00.000Z",
+      "end": "2026-11-21T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "2bf2d665303af78c",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Three Decades Rewind, Powerhouse Tribute Band at STAC",
@@ -25986,12 +26666,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9ae1e3030d7e50a9",
+      "id": "213e6bf7c7b828b1",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.005Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -26125,12 +26805,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "7b6b78413e31c940",
+      "id": "21c375807555d842",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.007Z"
+      "ingestedAt": "2026-05-28T03:09:38.035Z"
     },
     {
       "title": "Amptons Duo",
@@ -26145,12 +26825,32 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "6604b27638c25eb2",
+      "id": "84c10a408cb52988",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.032Z"
+    },
+    {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-11-28T00:00:00.000Z",
+      "end": "2026-11-28T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "80715afa169fbb96",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Holiday Inn’",
@@ -26209,12 +26909,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "872f773daf1d98ab",
+      "id": "9d42c0494783f20d",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.036Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -26417,24 +27117,24 @@
       "ingestedAt": "2026-05-27T13:00:43.674Z"
     },
     {
-      "title": "Christmas Parade Party",
+      "title": "Trivia on Tap",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-12-05T00:00:00.000Z",
-      "end": "2026-12-06T00:00:00.000Z",
-      "allDay": true,
+      "end": "2026-12-05T02:00:00.000Z",
+      "allDay": false,
       "location": {
         "venue": "Surf City Hotel",
         "town": "Surf City",
         "lat": 39.6600366,
         "lon": -74.1668909
       },
-      "type": "festival",
-      "id": "73298e2bd361d91a",
+      "type": "community",
+      "id": "55c5cfac006d00f1",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
     },
     {
       "title": "Surflight Theatre Presents ‘Holiday Inn’",
@@ -26462,6 +27162,26 @@
       "ingestedAt": "2026-05-27T13:00:43.674Z"
     },
     {
+      "title": "Christmas Parade Party",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-12-05T05:00:00.000Z",
+      "end": "2026-12-06T05:00:00.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "festival",
+      "id": "722fe2027c68da7a",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.038Z"
+    },
+    {
       "title": "Bistro Open Christmas Parade",
       "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
       "start": "2026-12-05T19:00:00.000Z",
@@ -26474,12 +27194,12 @@
         "lon": -74.1668909
       },
       "type": "festival",
-      "id": "bb46a47452419af4",
+      "id": "b0d06404f5aa49bd",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.004Z"
+      "ingestedAt": "2026-05-28T03:09:38.003Z"
     },
     {
       "title": "Ned Ryerson",
@@ -26494,12 +27214,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "d915b01c35086874",
+      "id": "6eb07c98c28c8325",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.006Z"
+      "ingestedAt": "2026-05-28T03:09:38.025Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
@@ -26677,6 +27397,26 @@
       "ingestedAt": "2026-05-27T13:00:43.675Z"
     },
     {
+      "title": "Trivia on Tap",
+      "url": "https://calendar.google.com/calendar/ical/1kqs01567uivojit1st1o89kug%40group.calendar.google.com/public/basic.ics",
+      "start": "2026-12-12T00:00:00.000Z",
+      "end": "2026-12-12T02:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Surf City Hotel",
+        "town": "Surf City",
+        "lat": 39.6600366,
+        "lon": -74.1668909
+      },
+      "type": "community",
+      "id": "40820e7aff60cdda",
+      "source": {
+        "id": "surf-city-hotel",
+        "name": "Surf City Hotel"
+      },
+      "ingestedAt": "2026-05-28T03:09:38.028Z"
+    },
+    {
       "title": "Surflight Theatre Presents ‘Holiday Inn’",
       "description": "Holiday Inn Irving Berlin’s Holiday Inn tells the story of Jim, who leaves the bright lights of show business behind to settle down on his farmhouse in Connecticut ... but life just isn’t the same without a bit of song and dance. Jim’s luck takes a spectacular turn when he meets Linda, a spirited schoolteacher with talent to spare. Together they turn the farmhouse into a fabulous inn with dazzling performances to celebrate each holiday, from Thanksgiving to the Fourth of July. Based on the classic film, this joyous musical features thrilling dance numbers, laugh-out-loud comedy and a parade of hit Irving Berlin songs, including “Blue Skies,” “Easter Parade,” “Steppin’ Out With My Baby,” “Heat Wave,” “White Christmas” and many more! November 28, 29, December 2, 3, 5, 6, 8, 10, 12, 13, 16, 17, 19, 20 at 2:00 p.m. November 28, December 4, 5, 11, 12, 18, 19 at 7:30 p.m. All shows, dates, times. are subject to change For tickets visit surflight.org",
       "url": "https://www.thesandpaper.net/events/surflight-theatre-presents-holiday-inn/",
@@ -26714,12 +27454,12 @@
         "lon": -74.1668909
       },
       "type": "live-music",
-      "id": "9598db8cd0c470db",
+      "id": "9d9b8fcbabe3cb7f",
       "source": {
         "id": "surf-city-hotel",
         "name": "Surf City Hotel"
       },
-      "ingestedAt": "2026-05-27T13:00:21.009Z"
+      "ingestedAt": "2026-05-28T03:09:38.042Z"
     },
     {
       "title": "Barnegat Quakers Hold Weekly Worship",
