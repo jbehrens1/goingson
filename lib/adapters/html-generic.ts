@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import type { Adapter, AdapterResult } from "../types";
-import { buildEvent, politeFetch, toIsoOrUndefined } from "../util";
+import { buildEvent, fetchSourceHtml, toIsoOrUndefined } from "../util";
 import { extractJsonLdEvents, jsonLdImageUrl, jsonLdLocation } from "./jsonld";
 
 type HtmlGenericConfig = {
@@ -20,11 +20,16 @@ type HtmlGenericConfig = {
 
 export const htmlGenericAdapter: Adapter = async ({ source }): Promise<AdapterResult> => {
   const warnings: string[] = [];
-  const res = await politeFetch(source.url);
-  if (!res.ok) {
-    return { events: [], warnings: [`HTTP ${res.status} fetching ${source.url}`] };
+  const { html, status, viaHeadless } = await fetchSourceHtml(source.url, source);
+  if (!html) {
+    return {
+      events: [],
+      warnings: [`HTTP ${status ?? "?"} fetching ${source.url}`],
+    };
   }
-  const html = await res.text();
+  if (viaHeadless) {
+    warnings.push(`Fetched via headless browser (Browserless).`);
+  }
   const $ = cheerio.load(html);
 
   const ldEvents = extractJsonLdEvents($);

@@ -40,6 +40,7 @@ jobs:
         env:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          HEADLESS_FETCH_URL: ${{ secrets.HEADLESS_FETCH_URL }}
           REGION: ${{ inputs.region }}
           INGEST_ONLY: ${{ inputs.onlySource }}
 

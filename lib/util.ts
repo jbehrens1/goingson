@@ -263,3 +263,44 @@ export async function politeFetch(
     attempt++;
   }
 }
+
+/** Source-aware HTML fetch: picks between politeFetch and headlessFetch
+ *  based on the source's `useHeadless` config flag and (as a safety net)
+ *  the response status code.
+ *
+ *  Resolves to either:
+ *    { html, viaHeadless }   – success, HTML available
+ *    { html: null, status }  – failure; status set if a regular HTTP error
+ *
+ *  Behavior:
+ *    1. If source.config.useHeadless is true AND HEADLESS_FETCH_URL is set,
+ *       go straight to headless. Skips politeFetch entirely (no point in
+ *       hitting a known-blocked URL).
+ *    2. Otherwise call politeFetch. If response is 403 AND headless is
+ *       configured, fall back to headless (catches Cloudflare/Kemo gates
+ *       we didn't mark in config — McCallum, AXS, Bandsintown, etc.).
+ *    3. Otherwise return the politeFetch body. */
+export async function fetchSourceHtml(
+  url: string,
+  source: { config?: { useHeadless?: boolean } | Record<string, unknown> } | undefined,
+): Promise<{ html: string | null; status?: number; viaHeadless: boolean }> {
+  // Defer the import to keep server-only deps off any client-bundled file.
+  const { headlessFetch, isHeadlessConfigured } = await import("./headless-fetch");
+  const useHeadless =
+    (source?.config as { useHeadless?: boolean } | undefined)?.useHeadless === true;
+
+  if (useHeadless && isHeadlessConfigured()) {
+    const html = await headlessFetch(url);
+    return { html, viaHeadless: true };
+  }
+
+  const res = await politeFetch(url);
+  if (res.ok) {
+    return { html: await res.text(), viaHeadless: false };
+  }
+  if (res.status === 403 && isHeadlessConfigured()) {
+    const html = await headlessFetch(url);
+    if (html) return { html, viaHeadless: true };
+  }
+  return { html: null, status: res.status, viaHeadless: false };
+}

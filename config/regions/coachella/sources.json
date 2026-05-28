@@ -112,9 +112,11 @@
       "url": "https://mccallumtheatre.org/",
       "category": "Venue / Theater",
       "town": "Palm Desert",
-      "notes": "[2026-05-26 probe + 2026-05-28 venueId lookup] mccallumtheatre.org sits behind Kemo bot-challenge (JS gate at ?ki-cf-botcl=1) — uncircumventable server-side without a headless browser. Initially hoped Ticketmaster Discovery API would cover them, but /discovery/v2/venues?keyword=McCallum returned 0 results — McCallum is NOT listed on Ticketmaster. They likely use AXS or in-house ticketing. Two paths forward: (1) configure HEADLESS_FETCH_URL env var and set useHeadless:true here to get past Kemo (see lib/headless-fetch.ts), or (2) find their AXS organizer ID and write an axs adapter. For now this source yields 0 events. McCallum carries ~98 shows/season per Bandsintown — the biggest single venue in the valley.",
+      "notes": "[2026-05-26 + 2026-05-28] mccallumtheatre.org sits behind Kemo bot-challenge (JS gate at ?ki-cf-botcl=1). TM Discovery API returned 0 venue results (McCallum is NOT on Ticketmaster). AXS / Bandsintown also Cloudflare-gated. Only working path is headless-browser via HEADLESS_FETCH_URL (Browserless). When that env var is set, html-generic adapter + useHeadless:true routes through the headless renderer, bypasses Kemo, and parses the rendered HTML for JSON-LD events or html-generic selectors. McCallum carries ~98 shows/season per Bandsintown — biggest valley venue.",
       "defaultEventType": "theater",
-      "enabled": false,
+      "enabled": true,
+      "adapter": "html-generic",
+      "url": "https://www.mccallumtheatre.org/season",
       "config": {
         "useHeadless": true
       }
