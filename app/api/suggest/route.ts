@@ -66,7 +66,7 @@ export async function POST(req: Request) {
   };
   let probeFindings: PendingSuggestion["probe"];
   try {
-    const candidates = await probeSource(stubSource);
+    const { candidates } = await probeSource(stubSource);
     probeFindings = {
       candidates: candidates.slice(0, 5).map((c) => ({
         confidence: c.confidence,

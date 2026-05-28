@@ -20,6 +20,7 @@ import { seeticketsListAdapter } from "./adapters/seetickets-list";
 import { squarespaceEventsAdapter } from "./adapters/squarespace-events";
 import { elfsightEventsAdapter } from "./adapters/elfsight-events";
 import { politeFetch } from "./util";
+import { headlessFetch, isHeadlessConfigured } from "./headless-fetch";
 
 /** When the live ingest count is below this, run a probe to find a better
  *  config. Was ≤1 originally — bumped to <5 so brand-new venues that yield
@@ -43,6 +44,24 @@ export type ProbeCandidate = {
   config?: Record<string, unknown>;
   /** Short human-readable explanation: "Tockify embed detected (slug=prezhall)". */
   evidence: string;
+};
+
+/** Every URL/adapter combination the probe attempted, whether it produced
+ *  events or not. Surfaced in the QC dashboard so admin can see the effort
+ *  ("we tried 20 paths and got 0 from each") and confirm the source really
+ *  has nothing rather than missing a clever variant. */
+export type ProbeAttempt = {
+  url: string;
+  adapter: AdapterType;
+  count: number;
+  /** Short label describing what was being checked. */
+  note?: string;
+};
+
+/** Full probe result: both ranked candidates and every URL we touched. */
+export type ProbeResult = {
+  candidates: ProbeCandidate[];
+  attempts: ProbeAttempt[];
 };
 
 const VERIFY_ADAPTERS: Partial<Record<AdapterType, Adapter>> = {
@@ -271,17 +290,52 @@ async function discoverWpEventPostTypes(origin: string): Promise<Array<{ rest_ba
 export async function probeSource(
   source: SourceConfig,
   mode: ProbeMode = "light",
-): Promise<ProbeCandidate[]> {
+): Promise<ProbeResult> {
   const candidates: ProbeCandidate[] = [];
+  const attempts: ProbeAttempt[] = [];
   const base = new URL(source.url);
 
+  // Wrap verify() so every attempt is logged regardless of outcome. Callers
+  // continue to use raw counts for branching but the audit trail builds up
+  // automatically.
+  const tryAdapter = async (
+    adapter: AdapterType,
+    url: string,
+    config?: Record<string, unknown>,
+    note?: string,
+  ): Promise<number> => {
+    const count = await verify(source, adapter, url, config);
+    attempts.push({ url, adapter, count, note });
+    return count;
+  };
+
   // 1) Fetch the canonical page (follows redirects) and scan for embeds.
+  //    For sources flagged useHeadless OR that 403 on the first GET (likely
+  //    Cloudflare/Kemo bot-gate), retry through the headless rendering
+  //    service if one is configured. McCallum Theatre is the canonical
+  //    example — without JS execution we get a 403; with it we get the
+  //    real season schedule.
   let html = "";
   let finalUrl = source.url;
+  const useHeadless = (source.config as { useHeadless?: boolean } | undefined)
+    ?.useHeadless === true;
   try {
     const res = await politeFetch(base.toString(), { redirect: "follow" });
     finalUrl = res.url || source.url;
-    if (res.ok) html = await res.text();
+    if (res.ok) {
+      html = await res.text();
+    } else if ((useHeadless || res.status === 403) && isHeadlessConfigured()) {
+      const headlessHtml = await headlessFetch(base.toString());
+      if (headlessHtml) {
+        html = headlessHtml;
+        attempts.push({
+          url: base.toString(),
+          adapter: source.adapter,
+          count: 0,
+          note: `Headless fallback (politeFetch returned ${res.status})`,
+        });
+      }
+    }
   } catch {
     // ignore — we'll just have no HTML to analyze
   }
@@ -290,7 +344,7 @@ export async function probeSource(
   const tockify = html ? detectTockify(html) : null;
   if (tockify) {
     const url = `https://tockify.com/api/feeds/ics/${tockify.slug}`;
-    const count = await verify(source, "ical", url, {
+    const count = await tryAdapter("ical", url, {
       defaultVenue: source.config?.defaultVenue ?? source.name,
     });
     if (count > 0) {
@@ -309,7 +363,7 @@ export async function probeSource(
   if (tribe && source.adapter !== "wordpress-tribe") {
     const baseUrl = new URL(finalUrl);
     const wpUrl = `${baseUrl.origin}/`;
-    const count = await verify(source, "wordpress-tribe", wpUrl, source.config);
+    const count = await tryAdapter("wordpress-tribe", wpUrl, source.config, "Tribe REST");
     if (count > 0) {
       candidates.push({
         confidence: count > 10 ? "high" : "medium",
@@ -340,7 +394,7 @@ export async function probeSource(
       pageUrl: finalUrl,
       defaultVenue: source.config?.defaultVenue ?? source.name,
     };
-    const count = await verify(source, "elfsight-events", source.url, cfg);
+    const count = await tryAdapter("elfsight-events", source.url, cfg, "Elfsight boot endpoint");
     if (count > 0) {
       candidates.push({
         confidence: count > 5 ? "high" : "medium",
@@ -376,7 +430,7 @@ export async function probeSource(
     ) {
       // Try the existing adapter against the new origin with the existing path.
       const newUrl = `${new URL(finalUrl).origin}/`;
-      const count = await verify(source, source.adapter, newUrl, source.config);
+      const count = await tryAdapter(source.adapter, newUrl, source.config, "Redirect repair");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : "medium",
@@ -397,7 +451,7 @@ export async function probeSource(
     const origin = new URL(finalUrl || source.url).origin;
     const probes = await Promise.all(
       SQUARESPACE_ALT_PATHS.map(async (p) => {
-        const count = await verify(source, "squarespace-events", `${origin}/`, {
+        const count = await tryAdapter("squarespace-events", `${origin}/`, {
           ...source.config,
           path: p,
         });
@@ -424,7 +478,7 @@ export async function probeSource(
     const origin = new URL(finalUrl || source.url).origin;
     for (const p of ICAL_ALT_PATHS) {
       const url = `${origin}${p}`;
-      const count = await verify(source, "ical", url);
+      const count = await tryAdapter("ical", url, undefined, "iCal autodiscovery");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : "medium",
@@ -444,7 +498,7 @@ export async function probeSource(
     const wpUrl = `${origin}/`;
 
     if (detectMec(html) && source.adapter !== "wordpress-mec") {
-      const count = await verify(source, "wordpress-mec", wpUrl, source.config);
+      const count = await tryAdapter("wordpress-mec", wpUrl, source.config, "MEC plugin");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : "medium",
@@ -457,7 +511,7 @@ export async function probeSource(
       }
     }
     if (detectMyCalendar(html) && source.adapter !== "wordpress-mc") {
-      const count = await verify(source, "wordpress-mc", wpUrl, source.config);
+      const count = await tryAdapter("wordpress-mc", wpUrl, source.config, "My Calendar plugin");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : "medium",
@@ -470,7 +524,7 @@ export async function probeSource(
       }
     }
     if (detectGeoDirectory(html) && source.adapter !== "wordpress-geodir") {
-      const count = await verify(source, "wordpress-geodir", wpUrl, source.config);
+      const count = await tryAdapter("wordpress-geodir", wpUrl, source.config, "GeoDirectory plugin");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : "medium",
@@ -483,7 +537,7 @@ export async function probeSource(
       }
     }
     if (detectGrowthZone(html) && source.adapter !== "growthzone-calendar") {
-      const count = await verify(source, "growthzone-calendar", source.url, source.config);
+      const count = await tryAdapter("growthzone-calendar", source.url, source.config, "GrowthZone calendar");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : "medium",
@@ -498,7 +552,7 @@ export async function probeSource(
     if (detectSeeTickets(html) && source.adapter !== "seetickets-list") {
       // See Tickets plugin renders calendar at /calendar/. Try that path.
       const sUrl = `${origin}/calendar/`;
-      const count = await verify(source, "seetickets-list", sUrl, source.config);
+      const count = await tryAdapter("seetickets-list", sUrl, source.config, "See Tickets plugin");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : "medium",
@@ -523,12 +577,19 @@ export async function probeSource(
       const types = await discoverWpEventPostTypes(origin);
       for (const t of types) {
         const count = await tryWpCustomPostType(source, origin, t.rest_base);
+        const cptUrl = `${origin}/wp-json/wp/v2/${t.rest_base}`;
+        attempts.push({
+          url: cptUrl,
+          adapter: source.adapter,
+          count,
+          note: `WP custom post type "${t.slug}"`,
+        });
         if (count > 0) {
           candidates.push({
             confidence: "low", // no dedicated adapter — surface as lead only
             verifiedCount: count,
             adapter: source.adapter, // unchanged
-            url: `${origin}/wp-json/wp/v2/${t.rest_base}`,
+            url: cptUrl,
             evidence: `WP custom post type "${t.slug}" exposes ${count} entries via REST. Build a custom adapter or extend wordpress-mc/mec to consume.`,
           });
         }
@@ -546,7 +607,7 @@ export async function probeSource(
     for (const p of GENERIC_EVENT_PATHS) {
       const tryUrl = `${origin}${p}`;
       if (tryUrl === source.url) continue;
-      const count = await verify(source, source.adapter, tryUrl, source.config);
+      const count = await tryAdapter(source.adapter, tryUrl, source.config, "Alt-path crawl");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "high" : count > 3 ? "medium" : "low",
@@ -569,7 +630,7 @@ export async function probeSource(
   if (mode === "deep" && html && source.adapter !== "html-generic") {
     const jsonLdCount = detectJsonLdEvents(html);
     if (jsonLdCount > 0) {
-      const count = await verify(source, "html-generic" as AdapterType, source.url);
+      const count = await tryAdapter("html-generic" as AdapterType, source.url, undefined, "JSON-LD scan");
       if (count > 0) {
         candidates.push({
           confidence: count > 10 ? "medium" : "low",
@@ -588,7 +649,7 @@ export async function probeSource(
     if (b.verifiedCount !== a.verifiedCount) return b.verifiedCount - a.verifiedCount;
     return confRank[b.confidence] - confRank[a.confidence];
   });
-  return candidates;
+  return { candidates, attempts };
 }
 
 /**

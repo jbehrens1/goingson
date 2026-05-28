@@ -208,6 +208,37 @@ function safeVenueAliases() {
 // browser-like. Use a generic Mozilla UA — still polite, just not flagged.
 const USER_AGENT = "Mozilla/5.0 (compatible; goingson/0.1)";
 
+// Per-host rate limiting. Deep probes can fire 20+ requests at the same
+// origin (e.g. trying every common event-path against one venue). Without
+// pacing we'd get 429-throttled or banned by shared-hosting WAFs.
+//
+// Strategy:
+//   - Enforce a minimum 250 ms gap between requests to the same host.
+//   - Honor 429 responses with exponential backoff (Retry-After respected,
+//     capped at 8 s; up to 3 retries).
+//   - Track per-host "last request time" in a Map; no cleanup needed because
+//     entries are tiny and reset between ingest runs.
+const MIN_HOST_GAP_MS = 250;
+const MAX_RETRIES_429 = 3;
+const lastFetchByHost = new Map<string, number>();
+
+async function pacedFetch(url: string, init: RequestInit): Promise<Response> {
+  let host: string;
+  try {
+    host = new URL(url).host;
+  } catch {
+    return fetch(url, init);
+  }
+  const now = Date.now();
+  const last = lastFetchByHost.get(host) ?? 0;
+  const elapsed = now - last;
+  if (elapsed < MIN_HOST_GAP_MS) {
+    await new Promise((r) => setTimeout(r, MIN_HOST_GAP_MS - elapsed));
+  }
+  lastFetchByHost.set(host, Date.now());
+  return fetch(url, init);
+}
+
 export async function politeFetch(
   url: string,
   init: RequestInit = {},
@@ -217,5 +248,18 @@ export async function politeFetch(
   if (!headers.has("Accept")) {
     headers.set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
   }
-  return fetch(url, { ...init, headers });
+
+  // Retry loop: 429 only. Other 4xx/5xx are returned as-is so callers can
+  // surface the failure status to the user (e.g. "HTTP 403 bot-blocked").
+  let attempt = 0;
+  while (true) {
+    const res = await pacedFetch(url, { ...init, headers });
+    if (res.status !== 429 || attempt >= MAX_RETRIES_429) return res;
+    const retryAfter = res.headers.get("retry-after");
+    const backoffMs = retryAfter
+      ? Math.min(parseInt(retryAfter, 10) * 1000 || 0, 8000) || 1000 * Math.pow(2, attempt)
+      : 1000 * Math.pow(2, attempt);
+    await new Promise((r) => setTimeout(r, backoffMs));
+    attempt++;
+  }
 }

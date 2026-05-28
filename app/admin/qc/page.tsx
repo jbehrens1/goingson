@@ -20,6 +20,7 @@ import {
   type IngestHistoryRow,
 } from "@/lib/ingest-history";
 import type { SourceConfig } from "@/lib/types";
+import { ReprobeButton } from "./ReprobeButton";
 
 export const dynamic = "force-dynamic";
 
@@ -27,12 +28,20 @@ type SourceHealth = {
   count: number;
   warnings: string[];
   probe?: {
+    mode?: "light" | "deep";
     candidates: Array<{
       confidence: "high" | "medium" | "low";
       verifiedCount: number;
       adapter: string;
       url: string;
       evidence: string;
+    }>;
+    /** Every URL/adapter pair the probe actually attempted. */
+    attempts?: Array<{
+      url: string;
+      adapter: string;
+      count: number;
+      note?: string;
     }>;
     autoApplied?: {
       from: { adapter: string; url: string };
@@ -285,6 +294,7 @@ function RegionGroup({ region, entries }: { region: string; entries: QcEntry[] }
 }
 
 function QcCard({ entry }: { entry: QcEntry }) {
+  const region = entry.region;
   const { source, count, history, health } = entry;
 
   // History trend: distinct (adapter, count) transitions for spotting
@@ -325,6 +335,7 @@ function QcCard({ entry }: { entry: QcEntry }) {
           <Link href="/sources" className="ghost-btn">
             Edit in /sources
           </Link>
+          <ReprobeButton regionId={region} sourceId={source.id} />
         </div>
       </header>
 
@@ -439,6 +450,54 @@ function QcCard({ entry }: { entry: QcEntry }) {
             <dd>
               <span className="health-badge health-fixed">auto-fixed</span>{" "}
               <span className="muted small">{health.probe.autoApplied.reason}</span>
+            </dd>
+          </>
+        )}
+
+        {/* Tried paths: full audit of what the probe touched. Useful for
+         *  proving effort on a source that still yielded zero ("we tried
+         *  20 paths and got 0 from each") and for spotting one path that
+         *  almost worked. Collapsed by default to avoid drowning the page. */}
+        {health?.probe?.attempts && health.probe.attempts.length > 0 && (
+          <>
+            <dt>Tried paths</dt>
+            <dd>
+              <details className="qc-attempts">
+                <summary>
+                  {health.probe.attempts.length} attempt
+                  {health.probe.attempts.length === 1 ? "" : "s"}
+                  {health.probe.mode ? ` (${health.probe.mode} mode)` : ""}
+                  {" — "}
+                  {health.probe.attempts.filter((a) => a.count > 0).length} produced events
+                </summary>
+                <table className="qc-attempts-table">
+                  <thead>
+                    <tr>
+                      <th>Count</th>
+                      <th>Adapter</th>
+                      <th>URL</th>
+                      <th>Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {health.probe.attempts
+                      .slice()
+                      .sort((a, b) => b.count - a.count)
+                      .map((a, i) => (
+                        <tr key={i} className={a.count === 0 ? "muted-row" : ""}>
+                          <td className="sources-count-cell">{a.count}</td>
+                          <td><code className="small">{a.adapter}</code></td>
+                          <td className="qc-attempt-url">
+                            <a href={a.url} target="_blank" rel="noopener noreferrer">
+                              {a.url}
+                            </a>
+                          </td>
+                          <td className="muted small">{a.note ?? ""}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </details>
             </dd>
           </>
         )}

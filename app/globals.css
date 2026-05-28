@@ -1477,6 +1477,58 @@ footer {
   border-radius: 5px;
   font-size: 0.85rem;
 }
+
+/* ---------- Tried-paths table on /admin/qc ---------- */
+.qc-attempts > summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.85rem;
+  list-style: none;
+  user-select: none;
+}
+.qc-attempts > summary::-webkit-details-marker {
+  display: none;
+}
+.qc-attempts > summary::before {
+  content: "▸ ";
+  color: var(--muted);
+}
+.qc-attempts[open] > summary::before {
+  content: "▾ ";
+}
+.qc-attempts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+.qc-attempts-table th {
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.7rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  padding: 0.3rem 0.4rem;
+}
+.qc-attempts-table td {
+  padding: 0.3rem 0.4rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.qc-attempts-table tr.muted-row td {
+  color: var(--muted);
+  opacity: 0.7;
+}
+.qc-attempt-url {
+  max-width: 32rem;
+  word-break: break-all;
+}
+.qc-attempt-url a {
+  color: var(--accent);
+  text-decoration: none;
+}
 .sources-editor-toolbar {
   display: flex;
   flex-wrap: wrap;

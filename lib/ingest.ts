@@ -13,6 +13,10 @@ import { wordpressGeodirAdapter } from "./adapters/wordpress-geodir";
 import { beehiivLowdownAdapter } from "./adapters/beehiiv-lowdown";
 import { growthzoneCalendarAdapter } from "./adapters/growthzone-calendar";
 import { seeticketsListAdapter } from "./adapters/seetickets-list";
+import { leapeventsListAdapter } from "./adapters/leapevents-list";
+import { shopifyProductsAdapter } from "./adapters/shopify-products";
+import { woocommerceShowsAdapter } from "./adapters/woocommerce-shows";
+import { eventbritePageAdapter } from "./adapters/eventbrite-page";
 import { ticketmasterAdapter } from "./adapters/ticketmaster";
 import { squarespaceEventsAdapter } from "./adapters/squarespace-events";
 import { elfsightEventsAdapter } from "./adapters/elfsight-events";
@@ -34,6 +38,7 @@ import {
   LOW_YIELD_THRESHOLD,
   probeSource,
   shouldAutoApply,
+  type ProbeAttempt,
   type ProbeCandidate,
 } from "./probe";
 import { appendHistory, readHistory, type HistoryRow } from "./source-history";
@@ -47,6 +52,7 @@ const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   ical: icalAdapter,
   rss: rssAdapter,
   eventbrite: eventbriteAdapter,
+  "eventbrite-page": eventbritePageAdapter,
   patch: patchAdapter,
   "wordpress-tribe": wordpressTribeAdapter,
   "wordpress-tribe-list": wordpressTribeListAdapter,
@@ -56,6 +62,9 @@ const ADAPTERS: Record<SourceConfig["adapter"], Adapter> = {
   "beehiiv-lowdown": beehiivLowdownAdapter,
   "growthzone-calendar": growthzoneCalendarAdapter,
   "seetickets-list": seeticketsListAdapter,
+  "leapevents-list": leapeventsListAdapter,
+  "shopify-products": shopifyProductsAdapter,
+  "woocommerce-shows": woocommerceShowsAdapter,
   ticketmaster: ticketmasterAdapter,
   "squarespace-events": squarespaceEventsAdapter,
   "elfsight-events": elfsightEventsAdapter,
@@ -79,9 +88,13 @@ export type SourceReport = {
   count: number;
   warnings: string[];
   error?: string;
-  /** Probe findings when initial count was ≤1. */
+  /** Probe findings when initial count was below LOW_YIELD_THRESHOLD. */
   probe?: {
+    mode: "light" | "deep";
     candidates: ProbeCandidate[];
+    /** Every URL/adapter combo the probe touched. Surfaced in /admin/qc so
+     *  admins can see the actual effort ("we tried 20 paths"). */
+    attempts: ProbeAttempt[];
     autoApplied?: {
       from: { adapter: string; url: string; config?: Record<string, unknown> };
       to: { adapter: string; url: string; config?: Record<string, unknown> };
@@ -232,8 +245,13 @@ export async function runIngest(opts: IngestOptions): Promise<IngestReport> {
           isFirstTime ? " (first-time source)" : ""
         }...`,
       );
-      const candidates = await probeSource(activeSource, mode);
-      probe = { candidates };
+      const probeResult = await probeSource(activeSource, mode);
+      probe = {
+        mode,
+        candidates: probeResult.candidates,
+        attempts: probeResult.attempts,
+      };
+      const candidates = probeResult.candidates;
       const best = candidates[0];
       if (best && shouldAutoApply(best, result.events.length)) {
         console.log(
