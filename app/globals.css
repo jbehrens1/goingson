@@ -1704,8 +1704,13 @@ footer {
     flex-basis: 100%;
   }
 }
-.sources-table input,
-.sources-table select,
+/* Inline-edit inputs in source rows fill their cell width — but exclude
+ * checkbox/radio so the MultiSelectPicker's checkboxes (which render inside
+ * the table's <th> popover) don't blow out and squash the labels to 0
+ * width. Same reason `select` is filtered: native option lists need
+ * intrinsic sizing inside the picker's own select boxes too. */
+.sources-table input:not([type="checkbox"]):not([type="radio"]),
+.sources-table select:not(.col-multi-summary),
 .sources-table textarea {
   width: 100%;
   padding: 0.3rem 0.4rem;
