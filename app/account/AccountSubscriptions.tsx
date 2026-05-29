@@ -18,6 +18,7 @@ type Props = {
   initialState: NewsletterState;
   regions: string[];
   venuesByRegion: Record<string, string[]>;
+  townsByRegion: Record<string, string[]>;
   eventTypes: EventType[];
 };
 
@@ -25,6 +26,7 @@ export function AccountSubscriptions({
   initialState,
   regions,
   venuesByRegion,
+  townsByRegion,
   eventTypes,
 }: Props) {
   const [state, setState] = useState<NewsletterState>(initialState);
@@ -125,6 +127,7 @@ export function AccountSubscriptions({
             sub={sub}
             regions={regions}
             venuesByRegion={venuesByRegion}
+            townsByRegion={townsByRegion}
             eventTypes={eventTypes}
             onChanged={onSubChanged}
             expanded={expanded.has(sub.id)}
@@ -146,6 +149,8 @@ function summarize(
   parts.push(s.schedule === "daily" ? "daily" : "weekly");
   parts.push(`${s.lookaheadDays}d window`);
   parts.push(s.types.length === 0 ? "all types" : `${s.types.length} type${s.types.length === 1 ? "" : "s"}`);
+  const townCount = s.towns?.length ?? 0;
+  parts.push(townCount === 0 ? "all towns" : `${townCount} town${townCount === 1 ? "" : "s"}`);
   parts.push(s.venues.length === 0 ? "all venues" : `${s.venues.length} venue${s.venues.length === 1 ? "" : "s"}`);
   if (s.center && s.radiusMi) {
     parts.push(`${s.radiusMi}mi of ${s.center.label.split(",")[0]}`);
@@ -160,6 +165,7 @@ function SubscriptionCard({
   sub,
   regions,
   venuesByRegion,
+  townsByRegion,
   eventTypes,
   onChanged,
   expanded,
@@ -168,6 +174,7 @@ function SubscriptionCard({
   sub: NewsletterSubscription;
   regions: string[];
   venuesByRegion: Record<string, string[]>;
+  townsByRegion: Record<string, string[]>;
   eventTypes: EventType[];
   onChanged: (s: NewsletterState) => void;
   expanded: boolean;
@@ -189,6 +196,11 @@ function SubscriptionCard({
   );
 
   const venues = venuesByRegion[draft.region] ?? [];
+  const towns = townsByRegion[draft.region] ?? [];
+  const townOptions = useMemo(
+    () => towns.map((t) => ({ key: t, label: t, count: 0 })),
+    [towns],
+  );
   const typeOptions = useMemo(
     // EVENT_TYPES is in priority/specificity order for the categorizer; sort
     // by display label here so the picker matches the alphabetized one on
@@ -521,6 +533,20 @@ function SubscriptionCard({
             selected={new Set(draft.types)}
             onChange={(next) => patch({ types: [...next] as EventType[] })}
             options={typeOptions}
+          />
+        </div>
+
+        <div
+          className="account-picker-inline"
+          title="Leave empty to include events from all towns in this region"
+        >
+          <label className="account-label">Towns</label>
+          <MultiSelectPicker
+            label="towns"
+            singularLabel="town"
+            selected={new Set(draft.towns ?? [])}
+            onChange={(next) => patch({ towns: [...next] })}
+            options={townOptions}
           />
         </div>
 

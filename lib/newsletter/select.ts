@@ -60,6 +60,10 @@ export function selectDigest(
 
   function passesUserFilters(ev: EventRecord): boolean {
     if (sub.types.length > 0 && !sub.types.includes(ev.type)) return false;
+    if (sub.towns && sub.towns.length > 0) {
+      const t = ev.location?.town?.trim() ?? "";
+      if (!sub.towns.includes(t)) return false;
+    }
     if (sub.venues.length > 0) {
       const v = ev.location?.venue?.trim() ?? "";
       if (!sub.venues.includes(v)) return false;

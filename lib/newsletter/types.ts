@@ -21,6 +21,11 @@ export type NewsletterSubscription = {
   lookaheadDays: number;
   /** Event types this digest includes. Empty = all. */
   types: EventType[];
+  /** Town names this digest includes. Empty = all. Independent from
+   *  center+radius distance filter — set this when the user wants events
+   *  from a specific list of towns regardless of how far the town centroid
+   *  is from any pin they've placed. */
+  towns?: string[];
   /** Venue names this digest includes. Empty = all. */
   venues: string[];
   /** Optional geographic center for distance filtering. */
@@ -49,6 +54,7 @@ export const DEFAULT_SUBSCRIPTION: Omit<NewsletterSubscription, "id" | "name"> =
   schedule: "weekly",
   lookaheadDays: 7,
   types: [],
+  towns: [],
   venues: [],
   surprise: "sometimes",
 };

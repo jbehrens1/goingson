@@ -33,6 +33,43 @@ async function loadVenuesByRegion(
   return out;
 }
 
+/** Union of town names that appear in (a) the region's curated towns.json
+ *  and (b) the actual ingested events — so picker options always reflect
+ *  reality even when an event references a town not yet in the curated list. */
+async function loadTownsByRegion(
+  regions: string[],
+): Promise<Record<string, string[]>> {
+  const out: Record<string, string[]> = {};
+  for (const r of regions) {
+    const towns = new Set<string>();
+    // Curated town list
+    try {
+      const tFile = path.join(process.cwd(), "config/regions", r, "towns.json");
+      const tRaw = await readFile(tFile, "utf8");
+      const tParsed = JSON.parse(tRaw) as { towns?: Array<{ name?: string }> };
+      for (const t of tParsed.towns ?? []) {
+        if (t.name) towns.add(t.name.trim());
+      }
+    } catch {
+      /* no towns.json — fall back to ingested-events scan only */
+    }
+    // Ingested-events scan
+    try {
+      const eFile = path.join(process.cwd(), "public", `events.${r}.json`);
+      const eRaw = await readFile(eFile, "utf8");
+      const eParsed = JSON.parse(eRaw) as { events: EventRecord[] };
+      for (const e of eParsed.events) {
+        const t = e.location?.town?.trim();
+        if (t) towns.add(t);
+      }
+    } catch {
+      /* no events file yet */
+    }
+    out[r] = [...towns].sort();
+  }
+  return out;
+}
+
 export default async function AccountPage() {
   if (!authIsConfigured()) {
     return (
@@ -61,6 +98,7 @@ export default async function AccountPage() {
   const state = await getStateForUserId(userId);
   const regions = await listRegions();
   const venuesByRegion = await loadVenuesByRegion(regions);
+  const townsByRegion = await loadTownsByRegion(regions);
 
   return (
     <main className="sources-page account-page">
@@ -82,6 +120,7 @@ export default async function AccountPage() {
           initialState={state}
           regions={regions}
           venuesByRegion={venuesByRegion}
+          townsByRegion={townsByRegion}
           eventTypes={[...EVENT_TYPES]}
         />
       </section>
