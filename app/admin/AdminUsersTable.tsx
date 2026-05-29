@@ -306,6 +306,56 @@ function SubscriptionCard({
     });
   }
 
+  // Test-send via the admin API. `recipient: "admin"` mails the digest
+  // to the admin (with [PREVIEW] prefix) so they can see what the user
+  // would receive; `"user"` mails it to the actual user. Both bypass the
+  // due-date cooldown via forceSend=true on the server side.
+  const [testStatus, setTestStatus] = useState<string | null>(null);
+  function sendTest(recipient: "admin" | "user") {
+    if (
+      recipient === "user" &&
+      !confirm(
+        `Send a real test of "${sub.name || "this subscription"}" to this user's email now?`,
+      )
+    ) {
+      return;
+    }
+    setTestStatus(null);
+    setError(null);
+    startSave(async () => {
+      try {
+        const res = await fetch("/api/admin/newsletter-test", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            userId,
+            subscriptionId: sub.id,
+            recipient,
+          }),
+        });
+        const json = (await res.json()) as {
+          ok: boolean;
+          error?: string;
+          skipped?: string;
+          recipient?: string;
+        };
+        if (!json.ok) {
+          setError(json.error ?? "Send failed");
+          return;
+        }
+        if (json.skipped) {
+          setTestStatus(`Skipped: ${json.skipped}`);
+        } else {
+          setTestStatus(
+            `Sent to ${json.recipient ?? (recipient === "admin" ? "you" : "user")}`,
+          );
+        }
+      } catch (err) {
+        setError((err as Error).message);
+      }
+    });
+  }
+
 
   const typeLabels =
     sub.types.length === 0
@@ -376,6 +426,24 @@ function SubscriptionCard({
               <button
                 type="button"
                 className="ghost-btn"
+                disabled={saving}
+                onClick={() => sendTest("admin")}
+                title="Send this user's digest to YOUR email (admin preview). Subject will be tagged [PREVIEW]."
+              >
+                {saving ? "Sending…" : "Send test to me"}
+              </button>
+              <button
+                type="button"
+                className="ghost-btn"
+                disabled={saving}
+                onClick={() => sendTest("user")}
+                title="Send a real digest to the user's email address (bypasses cooldown)"
+              >
+                Send test to user
+              </button>
+              <button
+                type="button"
+                className="ghost-btn"
                 onClick={() => setEditing(true)}
               >
                 Edit
@@ -392,6 +460,7 @@ function SubscriptionCard({
           )}
         </div>
       </div>
+      {testStatus && <p className="hint hint-ok">{testStatus}</p>}
       {error && <p className="hint hint-error">{error}</p>}
       {editing ? (
         <dl className="admin-sub-card-grid">
