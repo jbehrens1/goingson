@@ -60,6 +60,21 @@ type QcEntry = {
   health?: SourceHealth;
 };
 
+// Per-region health snapshot computed across ALL enabled sources in the
+// region — same numbers as the /sources accordion. Surfaced on the QC
+// region summaries so an admin can see overall region health while the
+// section is still collapsed, without bouncing between QC and /sources.
+type RegionStats = {
+  enabled: number;
+  total: number;
+  totalEvents: number;
+  avgEvents: number;
+  lowYield: number;
+  zeroYield: number;
+  autoFixed: number;
+  probeLeads: number;
+};
+
 async function loadEventCount(region: string, sourceId: string): Promise<number> {
   try {
     const file = path.join(process.cwd(), "public", `events.${region}.json`);
@@ -101,17 +116,35 @@ export default async function QcPage() {
   const health = await loadHealth();
 
   // Build the bucketed entries — only ENABLED sources (no point flagging
-  // intentionally-disabled ones).
+  // intentionally-disabled ones). Same pass also computes per-region
+  // health stats across ALL enabled sources, mirroring the badges shown
+  // in /sources so the QC page tells the same story at a glance.
   const zeroByRegion: Record<string, QcEntry[]> = {};
   const lowByRegion: Record<string, QcEntry[]> = {};
+  const statsByRegion: Record<string, RegionStats> = {};
 
   for (const region of regions) {
     zeroByRegion[region] = [];
     lowByRegion[region] = [];
     const file = await readSources(region);
+    let enabled = 0;
+    let totalEvents = 0;
+    let lowYield = 0;
+    let zeroYield = 0;
+    let autoFixed = 0;
+    let probeLeads = 0;
     for (const source of file.sources) {
       if (!source.enabled) continue;
+      enabled++;
       const count = await loadEventCount(region, source.id);
+      totalEvents += count;
+      if (count === 0) zeroYield++;
+      if (count < 5) lowYield++;
+      const h = health[`${region}:${source.id}`];
+      if (h?.probe?.autoApplied) autoFixed++;
+      if (h?.probe?.candidates && h.probe.candidates.length > 0 && !h.probe.autoApplied) {
+        probeLeads++;
+      }
       const history = allHistory
         .filter((h) => h.regionId === region && h.sourceId === source.id)
         .slice(-20);
@@ -120,11 +153,21 @@ export default async function QcPage() {
         source,
         count,
         history,
-        health: health[`${region}:${source.id}`],
+        health: h,
       };
       if (count === 0) zeroByRegion[region].push(entry);
       else if (count >= 1 && count <= 5) lowByRegion[region].push(entry);
     }
+    statsByRegion[region] = {
+      enabled,
+      total: file.sources.length,
+      totalEvents,
+      avgEvents: enabled > 0 ? Math.round(totalEvents / enabled) : 0,
+      lowYield,
+      zeroYield,
+      autoFixed,
+      probeLeads,
+    };
   }
 
   const totalZero = Object.values(zeroByRegion).flat().length;
@@ -161,10 +204,11 @@ export default async function QcPage() {
         </p>
       </header>
 
-      <section className="qc-section">
-        <h2>
-          ⏱ Recent ingest runs <span className="muted">· {recentRuns.length}</span>
-        </h2>
+      <details className="qc-section">
+        <summary>
+          <span className="qc-section-title">⏱ Recent ingest runs</span>{" "}
+          <span className="muted">· {recentRuns.length}</span>
+        </summary>
         {recentRuns.length === 0 ? (
           <p className="muted">
             No ingest runs tracked yet. The next time the daily cron runs (or you
@@ -220,12 +264,13 @@ export default async function QcPage() {
             </tbody>
           </table>
         )}
-      </section>
+      </details>
 
-      <section className="qc-section">
-        <h2>
-          🛑 0 events <span className="muted">· {totalZero}</span>
-        </h2>
+      <details className="qc-section">
+        <summary>
+          <span className="qc-section-title">🛑 0 events</span>{" "}
+          <span className="muted">· {totalZero}</span>
+        </summary>
         {totalZero === 0 && (
           <p className="muted">No enabled sources are currently returning 0 events. 🎉</p>
         )}
@@ -233,24 +278,37 @@ export default async function QcPage() {
           const list = zeroByRegion[region];
           if (list.length === 0) return null;
           return (
-            <RegionGroup key={`zero-${region}`} region={region} entries={list} />
+            <RegionGroup
+              key={`zero-${region}`}
+              region={region}
+              entries={list}
+              stats={statsByRegion[region]}
+            />
           );
         })}
-      </section>
+      </details>
 
-      <section className="qc-section">
-        <h2>
-          ⚠️ 1–5 events <span className="muted">· {totalLow}</span>
-        </h2>
+      <details className="qc-section">
+        <summary>
+          <span className="qc-section-title">⚠️ 1–5 events</span>{" "}
+          <span className="muted">· {totalLow}</span>
+        </summary>
         {totalLow === 0 && (
           <p className="muted">Nothing in the low-yield bucket right now.</p>
         )}
         {regions.map((region) => {
           const list = lowByRegion[region];
           if (list.length === 0) return null;
-          return <RegionGroup key={`low-${region}`} region={region} entries={list} />;
+          return (
+            <RegionGroup
+              key={`low-${region}`}
+              region={region}
+              entries={list}
+              stats={statsByRegion[region]}
+            />
+          );
         })}
-      </section>
+      </details>
     </main>
   );
 }
@@ -275,14 +333,57 @@ function formatRelativeTime(iso: string): string {
   return `${day} day${day === 1 ? "" : "s"} ago`;
 }
 
-function RegionGroup({ region, entries }: { region: string; entries: QcEntry[] }) {
+function RegionGroup({
+  region,
+  entries,
+  stats,
+}: {
+  region: string;
+  entries: QcEntry[];
+  stats?: RegionStats;
+}) {
+  // Same conditional badges as /sources — only render when non-zero
+  // so healthy regions stay clean. Numbers are computed across ALL
+  // enabled sources in the region (not just this bucket's entries),
+  // so the badges read consistently between /sources and /admin/qc.
   return (
-    <details className="qc-region" open>
+    <details className="qc-region">
       <summary>
         <span className="qc-region-name">{region}</span>
         <span className="muted small">
-          · {entries.length} source{entries.length === 1 ? "" : "s"}
+          · {entries.length} source{entries.length === 1 ? "" : "s"} in this bucket
+          {stats && stats.enabled > 0 && (
+            <>
+              {" · "}
+              {stats.enabled} enabled · {stats.totalEvents.toLocaleString()} events ·
+              ~{stats.avgEvents} avg/source
+            </>
+          )}
         </span>
+        {stats && stats.lowYield > 0 && (
+          <span
+            className="sources-region-badge sources-region-badge-warn"
+            title={`${stats.zeroYield} returned 0; ${stats.lowYield - stats.zeroYield} returned 1-4. Threshold matches LOW_YIELD_THRESHOLD.`}
+          >
+            {stats.lowYield} low-yield
+          </span>
+        )}
+        {stats && stats.probeLeads > 0 && (
+          <span
+            className="sources-region-badge sources-region-badge-info"
+            title="Probe found candidate fixes but didn't auto-apply (low/medium confidence). Manual review recommended."
+          >
+            {stats.probeLeads} probe lead{stats.probeLeads === 1 ? "" : "s"}
+          </span>
+        )}
+        {stats && stats.autoFixed > 0 && (
+          <span
+            className="sources-region-badge sources-region-badge-ok"
+            title="Sources where the probe auto-applied an adapter swap on the most recent ingest. Worth a glance to confirm the swap was correct."
+          >
+            {stats.autoFixed} auto-fixed
+          </span>
+        )}
       </summary>
       <div className="qc-entries">
         {entries.map((e) => (
