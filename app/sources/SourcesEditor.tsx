@@ -465,6 +465,18 @@ export function SourcesEditor({
                   <td>{s.category ?? "—"}</td>
                   <td className="sources-count-cell">
                     {count ?? (s.enabled ? "0" : "—")}
+                    {h?.probe?.autoApplied && (
+                      <div className="health-badge health-fixed">auto-fixed</div>
+                    )}
+                    {h && !h.probe?.autoApplied && s.enabled && h.count < 5 && (
+                      <div className="health-badge health-low">low yield</div>
+                    )}
+                    {h?.probe?.candidates && h.probe.candidates.length > 0 && !h.probe.autoApplied && (
+                      <div className="health-badge health-info">
+                        {h.probe.candidates.length} probe lead
+                        {h.probe.candidates.length === 1 ? "" : "s"}
+                      </div>
+                    )}
                   </td>
                   <td className="sources-notes-cell">
                     <span className="muted small">{s.notes ?? ""}</span>
@@ -552,17 +564,39 @@ export function SourcesEditor({
                       auto-fixed
                     </div>
                   )}
-                  {h && !h.probe?.autoApplied && s.enabled && h.count <= 1 && (
+                  {/* low-yield threshold matches LOW_YIELD_THRESHOLD (5) in
+                   * lib/probe.ts so the inline indicator agrees with the
+                   * region-summary count. */}
+                  {h && !h.probe?.autoApplied && s.enabled && h.count < 5 && (
                     <div
                       className="health-badge health-low"
                       title={
                         h.probe?.candidates?.length
                           ? `Probe ran, no auto-fix candidate. Top finding: ${h.probe.candidates[0].evidence}`
-                          : "Source yielded ≤1 events. No probe candidate found."
+                          : "Source yielded <5 events. No probe candidate found."
                       }
                     >
                       low yield
                     </div>
+                  )}
+                  {/* Probe leads: probe surfaced candidate fixes but didn't
+                   * auto-apply. Highest-leverage manual-review targets. The
+                   * count + top adapter give the admin enough signal to
+                   * decide if it's worth investigating before clicking
+                   * through to /admin/qc for the full picture. */}
+                  {h?.probe?.candidates && h.probe.candidates.length > 0 && !h.probe.autoApplied && (
+                    <a
+                      href={`/admin/qc#${s.id}`}
+                      className="health-badge health-info"
+                      title={`${h.probe.candidates.length} candidate${
+                        h.probe.candidates.length === 1 ? "" : "s"
+                      } found. Top: ${h.probe.candidates[0].adapter} → ${h.probe.candidates[0].verifiedCount} events (${
+                        h.probe.candidates[0].confidence
+                      } confidence). Click to review in /admin/qc.`}
+                    >
+                      {h.probe.candidates.length} probe lead
+                      {h.probe.candidates.length === 1 ? "" : "s"} ↗
+                    </a>
                   )}
                 </td>
                 <td className="sources-notes-cell">

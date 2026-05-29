@@ -1910,6 +1910,19 @@ footer {
   background: #d4f3df;
   color: #16603d;
 }
+.health-info {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+}
+/* When .health-info is rendered as an <a> (linking to /admin/qc),
+ * keep the badge look — no underline, hover brightens. */
+a.health-badge {
+  text-decoration: none;
+}
+a.health-badge:hover {
+  filter: brightness(0.95);
+  text-decoration: none;
+}
 @media (prefers-color-scheme: dark) {
   .health-low {
     background: #3a1a1a;
