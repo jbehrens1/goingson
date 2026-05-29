@@ -91,14 +91,75 @@ export default async function SourcesPage() {
           (a, b) => a + (b as number),
           0,
         );
-        const enabled = sources.filter((s) => s.enabled).length;
+        const enabledSources = sources.filter((s) => s.enabled);
+        const enabled = enabledSources.length;
+
+        // Per-region health stats surfaced in the collapsed accordion summary
+        // so admins can spot trouble regions at a glance without expanding.
+        // Each badge is conditionally rendered (only when count > 0) so
+        // well-functioning regions stay clean.
+        //
+        //   lowYield: enabled sources with <5 events. Matches the
+        //     LOW_YIELD_THRESHOLD that triggers a probe at ingest time.
+        //   zeroYield: enabled sources with exactly 0. Subset of lowYield;
+        //     called out separately because they're the most urgent.
+        //   autoFixed: sources where the probe auto-applied an adapter
+        //     swap on the most recent ingest. Worth reviewing but not
+        //     broken — keeps the admin in the loop on automation.
+        //   probeLeads: sources where the probe surfaced candidate fixes
+        //     but didn't auto-apply (low/medium confidence). These are
+        //     the next-best targets for manual review.
+        let lowYield = 0;
+        let zeroYield = 0;
+        let autoFixed = 0;
+        let probeLeads = 0;
+        for (const s of enabledSources) {
+          const c = counts[s.id] ?? 0;
+          if (c === 0) zeroYield++;
+          if (c < 5) lowYield++;
+          const h = sourceHealth[`${region}:${s.id}`];
+          if (h?.probe?.autoApplied) autoFixed++;
+          if (h?.probe?.candidates && h.probe.candidates.length > 0 && !h.probe.autoApplied) {
+            probeLeads++;
+          }
+        }
+        // Average events per *enabled* source. Gives a rough "health
+        // score" so the admin can compare regions ("MetroWest averages
+        // 12 events per source, Coachella averages 6").
+        const avgEvents = enabled > 0 ? Math.round(totalEvents / enabled) : 0;
+
         return (
           <details key={region} className="sources-region">
             <summary>
               <span className="sources-region-name">{region}</span>
               <span className="muted small">
                 · {enabled}/{sources.length} enabled · {totalEvents.toLocaleString()} events
+                {enabled > 0 ? ` · ~${avgEvents} avg/source` : ""}
               </span>
+              {lowYield > 0 && (
+                <span
+                  className="sources-region-badge sources-region-badge-warn"
+                  title={`${zeroYield} returned 0; ${lowYield - zeroYield} returned 1-4. Threshold matches LOW_YIELD_THRESHOLD.`}
+                >
+                  {lowYield} low-yield
+                </span>
+              )}
+              {probeLeads > 0 && (
+                <span
+                  className="sources-region-badge sources-region-badge-info"
+                  title="Probe found candidate fixes but didn't auto-apply (low/medium confidence). Manual review recommended."
+                >
+                  {probeLeads} probe lead{probeLeads === 1 ? "" : "s"}
+                </span>
+              )}
+              {autoFixed > 0 && (
+                <span
+                  className="sources-region-badge sources-region-badge-ok"
+                  title="Sources where the probe auto-applied an adapter swap on the most recent ingest. Worth a glance to confirm the swap was correct."
+                >
+                  {autoFixed} auto-fixed
+                </span>
+              )}
             </summary>
             <SourcesEditor
               region={region}

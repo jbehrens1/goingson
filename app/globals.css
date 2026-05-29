@@ -976,6 +976,45 @@ footer {
 .sources-region-name {
   text-transform: capitalize;
 }
+
+/* Per-region health badges in the collapsed accordion summary.
+ * Three variants: warn (low-yield), info (probe leads = manual action
+ * available), ok (auto-fixed = nothing wrong, just FYI). Visually
+ * subdued so they don't dominate the line, but distinguishable enough
+ * for at-a-glance triage. */
+.sources-region-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  cursor: help;
+}
+.sources-region-badge-warn {
+  background: #fde2e2;
+  color: #8a1a1a;
+}
+.sources-region-badge-info {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--accent);
+}
+.sources-region-badge-ok {
+  background: #d4f3df;
+  color: #16603d;
+}
+@media (prefers-color-scheme: dark) {
+  .sources-region-badge-warn {
+    background: #3a1a1a;
+    color: #f9c5c5;
+  }
+  .sources-region-badge-ok {
+    background: #1a3a1a;
+    color: #c0e7be;
+  }
+}
 .sources-region[open] > summary {
   border-bottom: 1px solid var(--border);
   border-radius: 8px 8px 0 0;
