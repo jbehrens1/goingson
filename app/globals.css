@@ -1763,6 +1763,18 @@ footer {
   width: auto;
   min-width: 8rem;
 }
+/* MultiSelectPicker triggers inside the admin editor: cap width so the
+ * dropdown doesn't span the whole row, but the popover (absolutely
+ * positioned by .col-multi-popover) still floats above as designed. */
+.admin-sub-card-grid dd > details.col-multi {
+  display: inline-block;
+  max-width: 32rem;
+  width: 100%;
+}
+.admin-sub-card-grid dd > details.col-multi > summary {
+  padding: 0.3rem 0.55rem;
+  font-size: 0.85rem;
+}
 .admin-sub-card-actions {
   margin-left: auto;
   display: flex;

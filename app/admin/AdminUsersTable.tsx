@@ -1,9 +1,10 @@
 "use client";
 
-import { Fragment, useState, useTransition } from "react";
+import { Fragment, useMemo, useState, useTransition } from "react";
 import type { Role } from "@/lib/auth";
-import { TYPE_LABELS } from "@/lib/categorize";
+import { TYPE_LABELS, type EventType } from "@/lib/categorize";
 import type { NewsletterSubscription } from "@/lib/newsletter/types";
+import { MultiSelectPicker } from "../_components/MultiSelectPicker";
 
 type UserRow = {
   id: string;
@@ -16,7 +17,19 @@ type UserRow = {
 
 const ROLES: Role[] = ["regular", "admin", "owner"];
 
-export function AdminUsersTable({ initialUsers }: { initialUsers: UserRow[] }) {
+export function AdminUsersTable({
+  initialUsers,
+  regions,
+  venuesByRegion,
+  townsByRegion,
+  eventTypes,
+}: {
+  initialUsers: UserRow[];
+  regions: string[];
+  venuesByRegion: Record<string, string[]>;
+  townsByRegion: Record<string, string[]>;
+  eventTypes: EventType[];
+}) {
   const [users, setUsers] = useState(initialUsers);
   const [pendingId, setPendingId] = useState<string | null>(null);
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -129,6 +142,10 @@ export function AdminUsersTable({ initialUsers }: { initialUsers: UserRow[] }) {
                       <SubscriptionList
                         userId={u.id}
                         subs={u.subscriptions}
+                        regions={regions}
+                        venuesByRegion={venuesByRegion}
+                        townsByRegion={townsByRegion}
+                        eventTypes={eventTypes}
                         onChanged={(newSubs) =>
                           setUsers((prev) =>
                             prev.map((row) =>
@@ -155,10 +172,18 @@ export function AdminUsersTable({ initialUsers }: { initialUsers: UserRow[] }) {
 function SubscriptionList({
   userId,
   subs,
+  regions,
+  venuesByRegion,
+  townsByRegion,
+  eventTypes,
   onChanged,
 }: {
   userId: string;
   subs: NewsletterSubscription[];
+  regions: string[];
+  venuesByRegion: Record<string, string[]>;
+  townsByRegion: Record<string, string[]>;
+  eventTypes: EventType[];
   onChanged: (next: NewsletterSubscription[]) => void;
 }) {
   return (
@@ -168,6 +193,10 @@ function SubscriptionList({
           key={s.id}
           userId={userId}
           sub={s}
+          regions={regions}
+          venuesByRegion={venuesByRegion}
+          townsByRegion={townsByRegion}
+          eventTypes={eventTypes}
           onChanged={onChanged}
         />
       ))}
@@ -178,16 +207,54 @@ function SubscriptionList({
 function SubscriptionCard({
   userId,
   sub,
+  regions,
+  venuesByRegion,
+  townsByRegion,
+  eventTypes,
   onChanged,
 }: {
   userId: string;
   sub: NewsletterSubscription;
+  regions: string[];
+  venuesByRegion: Record<string, string[]>;
+  townsByRegion: Record<string, string[]>;
+  eventTypes: EventType[];
   onChanged: (next: NewsletterSubscription[]) => void;
 }) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState<NewsletterSubscription>(sub);
   const [saving, startSave] = useTransition();
   const [error, setError] = useState<string | null>(null);
+
+  // Picker option lists tied to whichever region the admin currently has
+  // selected in the draft. When they change region, the town/venue lists
+  // update too. Same selectable-set convention as the user-facing editor:
+  // empty selection means "all of this kind."
+  const typeOptions = useMemo(
+    () =>
+      eventTypes
+        .map((t) => ({ key: t, label: TYPE_LABELS[t] ?? t, count: 0 }))
+        .sort((a, b) => a.label.localeCompare(b.label)),
+    [eventTypes],
+  );
+  const townOptions = useMemo(
+    () =>
+      (townsByRegion[draft.region] ?? []).map((t) => ({
+        key: t,
+        label: t,
+        count: 0,
+      })),
+    [townsByRegion, draft.region],
+  );
+  const venueOptions = useMemo(
+    () =>
+      (venuesByRegion[draft.region] ?? []).map((v) => ({
+        key: v,
+        label: v,
+        count: 0,
+      })),
+    [venuesByRegion, draft.region],
+  );
 
   async function callApi(
     action: "patch" | "delete",
@@ -338,12 +405,30 @@ function SubscriptionCard({
           </dd>
           <dt>Region</dt>
           <dd>
-            <input
-              type="text"
+            <select
               value={draft.region}
-              onChange={(e) => setDraft({ ...draft, region: e.target.value })}
-              placeholder="e.g. lbi, metrowest"
-            />
+              onChange={(e) =>
+                setDraft({
+                  ...draft,
+                  region: e.target.value,
+                  // Switching region invalidates town/venue selections
+                  // since they're region-scoped.
+                  towns: [],
+                  venues: [],
+                })
+              }
+            >
+              {regions.map((r) => (
+                <option key={r} value={r}>
+                  {r}
+                </option>
+              ))}
+              {/* If the user's region isn't in the manifest (e.g. a deleted
+                * region), keep it visible as the current selection. */}
+              {!regions.includes(draft.region) && (
+                <option value={draft.region}>{draft.region} (unknown)</option>
+              )}
+            </select>
           </dd>
           <dt>Schedule</dt>
           <dd>
@@ -373,53 +458,34 @@ function SubscriptionCard({
           </dd>
           <dt>Types</dt>
           <dd>
-            <input
-              type="text"
-              value={draft.types.join(", ")}
-              placeholder="comma-separated (e.g. live-music, theater) — empty = all"
-              onChange={(e) =>
-                setDraft({
-                  ...draft,
-                  types: e.target.value
-                    .split(",")
-                    .map((s) => s.trim())
-                    .filter(Boolean) as typeof draft.types,
-                })
+            <MultiSelectPicker
+              label="types"
+              singularLabel="type"
+              selected={new Set(draft.types)}
+              onChange={(next) =>
+                setDraft({ ...draft, types: [...next] as EventType[] })
               }
+              options={typeOptions}
             />
           </dd>
           <dt>Towns</dt>
           <dd>
-            <input
-              type="text"
-              value={(draft.towns ?? []).join(", ")}
-              placeholder="comma-separated (e.g. Wellesley, Natick) — empty = all"
-              onChange={(e) =>
-                setDraft({
-                  ...draft,
-                  towns: e.target.value
-                    .split(",")
-                    .map((s) => s.trim())
-                    .filter(Boolean),
-                })
-              }
+            <MultiSelectPicker
+              label="towns"
+              singularLabel="town"
+              selected={new Set(draft.towns ?? [])}
+              onChange={(next) => setDraft({ ...draft, towns: [...next] })}
+              options={townOptions}
             />
           </dd>
           <dt>Venues</dt>
           <dd>
-            <input
-              type="text"
-              value={draft.venues.join(", ")}
-              placeholder="comma-separated — empty = all"
-              onChange={(e) =>
-                setDraft({
-                  ...draft,
-                  venues: e.target.value
-                    .split(",")
-                    .map((s) => s.trim())
-                    .filter(Boolean),
-                })
-              }
+            <MultiSelectPicker
+              label="venues"
+              singularLabel="venue"
+              selected={new Set(draft.venues)}
+              onChange={(next) => setDraft({ ...draft, venues: [...next] })}
+              options={venueOptions}
             />
           </dd>
           <dt>Surprise</dt>
