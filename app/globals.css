@@ -562,6 +562,13 @@ details.day-group[open] > .day-heading::before {
   transform: scale(0.9);
   margin: 0;
   flex-shrink: 0;
+  /* Defensive: any ancestor rule that sets `input { width: 100% }` would
+   * blow this checkbox out to fill its flex parent, squashing the label
+   * span next to it to zero width. We've hit that bug twice now (task
+   * #44 on /sources, the admin newsletter editor). Force intrinsic
+   * sizing here so the picker is self-protecting wherever it lands. */
+  width: auto !important;
+  flex: 0 0 auto !important;
 }
 
 .col-multi-name {
@@ -1747,7 +1754,11 @@ footer {
   margin: 0;
   color: var(--fg);
 }
-.admin-sub-card-grid dd input,
+/* Exclude checkbox/radio so the MultiSelectPicker's option-row checkboxes
+ * (rendered inside the popover via .col-multi-popover) don't get blown out
+ * to 100% width and squash the .col-multi-name label to 0px. Same shape of
+ * bug as task #44 on /sources. */
+.admin-sub-card-grid dd input:not([type="checkbox"]):not([type="radio"]),
 .admin-sub-card-grid dd select {
   font: inherit;
   font-size: 0.85rem;
