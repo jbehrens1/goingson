@@ -35,7 +35,6 @@ export async function SiteHeader() {
           Goings On
         </Link>
         <div className="site-header-links">
-          <Link href="/sources">Sources</Link>
           <Link href="/suggest">Suggest a venue</Link>
           {userId && <Link href="/account">Newsletter</Link>}
           {isAdmin && (

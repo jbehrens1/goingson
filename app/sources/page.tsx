@@ -1,5 +1,6 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { redirect } from "next/navigation";
 import { getCurrentRole, authIsConfigured } from "@/lib/auth";
 import { listRegions, readSources } from "@/lib/sources-config";
 import type { SourceConfig } from "@/lib/types";
@@ -49,6 +50,14 @@ export default async function SourcesPage() {
   const role = configured ? await getCurrentRole() : null;
   const canEdit = role === "admin" || role === "owner";
 
+  // Sources is an admin-only page now (moved out of the top-nav and into
+  // the Admin dropdown). When Clerk is configured, redirect non-admin
+  // viewers home. The dev/local mode (no Clerk) still renders so the page
+  // is usable during initial setup.
+  if (configured && !canEdit) {
+    redirect("/");
+  }
+
   const regions = await listRegions();
   const eventCounts = await loadRegionEventCounts(regions);
   const sourceHealth = await loadSourceHealth();
@@ -72,12 +81,6 @@ export default async function SourcesPage() {
             Auth is not configured (missing Clerk env vars). Editing is disabled until
             Clerk is set up.
           </p>
-        )}
-        {configured && !role && (
-          <p className="hint">Sign in to see your role. Admins and owners can edit sources.</p>
-        )}
-        {configured && role === "regular" && (
-          <p className="hint">You&rsquo;re signed in as <strong>regular</strong>. Editing requires admin or owner.</p>
         )}
       </header>
 

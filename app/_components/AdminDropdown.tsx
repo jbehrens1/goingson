@@ -61,13 +61,11 @@ export function AdminDropdown({ isOwner, pendingCount }: Props) {
         </span>
       </summary>
       <div className="header-dropdown-menu" role="menu">
-        {isOwner && (
-          <Link href="/admin" role="menuitem" onClick={closeMenu}>
-            Users
-          </Link>
-        )}
-        <Link href="/admin/discover" role="menuitem" onClick={closeMenu}>
-          Discover
+        <Link href="/sources" role="menuitem" onClick={closeMenu}>
+          Sources
+        </Link>
+        <Link href="/admin/qc" role="menuitem" onClick={closeMenu}>
+          QC
         </Link>
         <Link href="/sources/pending" role="menuitem" onClick={closeMenu}>
           Pending
@@ -75,9 +73,14 @@ export function AdminDropdown({ isOwner, pendingCount }: Props) {
             <span className="header-badge">{pendingCount}</span>
           )}
         </Link>
-        <Link href="/admin/qc" role="menuitem" onClick={closeMenu}>
-          QC
+        <Link href="/admin/discover" role="menuitem" onClick={closeMenu}>
+          Discover
         </Link>
+        {isOwner && (
+          <Link href="/admin" role="menuitem" onClick={closeMenu}>
+            Users
+          </Link>
+        )}
       </div>
     </details>
   );
