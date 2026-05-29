@@ -73,6 +73,20 @@ const styles = {
     color: "#5b6470",
     margin: "0 0 8px",
   },
+  // Prominent CTA at the top of every digest. Sized for a good thumb
+  // target on mobile and high-contrast against the white header so it
+  // doesn't get lost. Reuses the accent blue from the web app.
+  editButton: {
+    display: "inline-block",
+    backgroundColor: "#1d4ed8",
+    color: "#ffffff",
+    textDecoration: "none",
+    fontSize: "13px",
+    fontWeight: 600,
+    padding: "10px 18px",
+    borderRadius: "6px",
+    marginTop: "8px",
+  },
   section: {
     padding: "8px 32px",
   },
@@ -221,6 +235,9 @@ export function Newsletter(props: NewsletterProps) {
                 ? `${matched.length} event${matched.length === 1 ? "" : "s"} match your filters.`
                 : "No events match your filters in this window."}
             </Text>
+            <Link href={manageUrl} style={styles.editButton}>
+              Edit newsletter settings →
+            </Link>
           </Section>
 
           {matchedByDay.size > 0 && (
