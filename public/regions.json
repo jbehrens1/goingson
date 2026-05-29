@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T15:01:14.516Z",
+  "generatedAt": "2026-05-29T13:10:43.109Z",
   "defaultRegionId": "metrowest",
   "regions": [
     {
@@ -25,9 +25,9 @@
         "Marlborough, MA",
         "Concord, MA"
       ],
-      "eventCount": 1049,
+      "eventCount": 1045,
       "eventsPath": "/events.metrowest.json",
-      "generatedAt": "2026-05-28T14:02:22.810Z"
+      "generatedAt": "2026-05-29T12:56:49.221Z"
     },
     {
       "id": "coachella",
@@ -53,9 +53,9 @@
         "Coachella, CA",
         "Desert Hot Springs, CA"
       ],
-      "eventCount": 187,
+      "eventCount": 254,
       "eventsPath": "/events.coachella.json",
-      "generatedAt": "2026-05-28T14:03:18.942Z"
+      "generatedAt": "2026-05-29T12:57:54.789Z"
     },
     {
       "id": "lbi",
@@ -77,9 +77,9 @@
         "Harvey Cedars, NJ",
         "Barnegat Light, NJ"
       ],
-      "eventCount": 1298,
+      "eventCount": 1287,
       "eventsPath": "/events.lbi.json",
-      "generatedAt": "2026-05-28T14:04:21.434Z"
+      "generatedAt": "2026-05-29T12:58:44.030Z"
     },
     {
       "id": "outercape",
@@ -101,9 +101,9 @@
         "Eastham, MA",
         "Orleans, MA"
       ],
-      "eventCount": 1177,
+      "eventCount": 1172,
       "eventsPath": "/events.outercape.json",
-      "generatedAt": "2026-05-28T14:05:30.012Z"
+      "generatedAt": "2026-05-29T13:03:30.898Z"
     },
     {
       "id": "sandiego",
@@ -133,9 +133,9 @@
         "Del Mar, CA",
         "Solana Beach, CA"
       ],
-      "eventCount": 2689,
+      "eventCount": 2937,
       "eventsPath": "/events.sandiego.json",
-      "generatedAt": "2026-05-28T15:01:14.511Z"
+      "generatedAt": "2026-05-29T13:10:43.109Z"
     }
   ]
 }

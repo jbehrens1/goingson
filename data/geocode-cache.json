@@ -3512,5 +3512,316 @@
     "lon": -117.1219992,
     "displayName": "Lestat's Coffee House, 3343, Adams Avenue, Normal Heights, North Park, San Diego, San Diego County, California, 92116, United States",
     "fetchedAt": "2026-05-28T15:00:35.437Z"
+  },
+  "long hill (trustees), beverly": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-29T12:56:38.831Z"
+  },
+  "beverly": {
+    "lat": 42.5489744,
+    "lon": -70.8781883,
+    "displayName": "Beverly, Essex County, Massachusetts, United States",
+    "fetchedAt": "2026-05-29T12:56:39.969Z"
+  },
+  "fruitlands museum (trustees), harvard": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-29T12:56:40.851Z"
+  },
+  "harvard": {
+    "lat": 42.3657432,
+    "lon": -71.1222139,
+    "displayName": "Harvard University, Raymond Street, Lower Allston, Allston, Boston, Suffolk County, Massachusetts, 02134, United States",
+    "fetchedAt": "2026-05-29T12:56:41.993Z"
+  },
+  "metrowest::virtual event, wellesley": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-29T12:56:43.199Z"
+  },
+  "metrowest::900 washington st, wellesley, ma": {
+    "lat": 42.28045,
+    "lon": -71.30787,
+    "displayName": "Massachusetts Horticultural Society Lib, 900, Washington Street, Wellesley, Norfolk County, Massachusetts, 02482, United States",
+    "fetchedAt": "2026-05-29T12:56:44.632Z"
+  },
+  "metrowest::99 norumbega rd, weston, ma": {
+    "lat": 42.3494682,
+    "lon": -71.2613002,
+    "displayName": "99, Norumbega Road, Weston, Middlesex County, Massachusetts, 02466, United States",
+    "fetchedAt": "2026-05-29T12:56:45.418Z"
+  },
+  "metrowest::592 massachusetts ave, acton, ma": {
+    "lat": 42.476075,
+    "lon": -71.474871,
+    "displayName": "592, Massachusetts Avenue, West Acton, Acton, Middlesex County, Massachusetts, 01720, United States",
+    "fetchedAt": "2026-05-29T12:56:46.658Z"
+  },
+  "metrowest::601 donald lynch blvd, marlboro, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-29T12:56:47.786Z"
+  },
+  "metrowest::the local artizan, marlborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-29T12:56:48.530Z"
+  },
+  "coachella::78010 main street #100, la quinta": {
+    "lat": 33.6772888,
+    "lon": -116.3024806,
+    "displayName": "La Quinta Brewing Company, 78065, Main Street, La Quinta, Riverside County, California, 92253, United States",
+    "fetchedAt": "2026-05-29T12:57:48.289Z"
+  },
+  "coachella::32-250 bob hope drive": {
+    "lat": 33.8148199,
+    "lon": -116.408331,
+    "displayName": "Agua Caliente Resort Casino Spa Rancho Mirage, 32-250, Bob Hope Drive, Rancho Mirage, Riverside County, California, 92270, United States",
+    "fetchedAt": "2026-05-29T12:57:49.252Z"
+  },
+  "coachella::49500 seminole dr": {
+    "lat": 33.9220127,
+    "lon": -116.8012179,
+    "displayName": "Morongo Casino Resort & Spa, 49500, Seminole Drive, Riverside County, California, 92230, United States",
+    "fetchedAt": "2026-05-29T12:57:50.343Z"
+  },
+  "coachella::32250 bob hope dr": {
+    "lat": 33.8101038,
+    "lon": -116.4076117,
+    "displayName": "32250, Bob Hope Drive, Rancho Mirage, Riverside County, California, 92270, United States",
+    "fetchedAt": "2026-05-29T12:57:51.508Z"
+  },
+  "coachella::403 s pavilion way, palm springs": {
+    "lat": 33.8170303,
+    "lon": -116.52524,
+    "displayName": "Palm Springs Pavilion, 403, South Pavilion Way, Palm Springs, Riverside County, California, 92262, United States",
+    "fetchedAt": "2026-05-29T12:57:52.560Z"
+  },
+  "coachella::84245 indio springs dr": {
+    "lat": 33.7211095,
+    "lon": -116.1939963,
+    "displayName": "Fantasy Springs Casino, 84245, Indio Springs Drive, Fantasy Springs, Indio, Riverside County, California, 92203, United States",
+    "fetchedAt": "2026-05-29T12:57:53.460Z"
+  },
+  "650 laguna canyon rd., laguna beach, ca": {
+    "lat": 33.5484621,
+    "lon": -117.782448,
+    "displayName": "650, Laguna Canyon Road, Canyon Acres, Laguna Beach, Orange County, California, 92651, United States",
+    "fetchedAt": "2026-05-29T12:57:54.663Z"
+  },
+  "sandiego::4438 ingraham st, san diego": {
+    "lat": 32.798553,
+    "lon": -117.2408183,
+    "displayName": "4438, Ingraham Street, Pacific Beach, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-29T13:09:55.360Z"
+  },
+  "sandiego::330 park blvd, san diego, ca": {
+    "lat": 32.7089055,
+    "lon": -117.1541411,
+    "displayName": "San Diego Central Library, 330, Park Boulevard, East Village, Golden Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-29T13:09:56.377Z"
+  },
+  "sandiego::9500 gilman drive, la jolla, ca": {
+    "lat": 32.8792438,
+    "lon": -117.2311247,
+    "displayName": "University of California, San Diego, 9500, Gilman Drive, Torrey Pines, San Diego, San Diego County, California, 92093, United States",
+    "fetchedAt": "2026-05-29T13:09:57.586Z"
+  },
+  "sandiego::9325 s scholars dr, la jolla, ca": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-29T13:09:58.613Z"
+  },
+  "sandiego::tata hall, la jolla": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-29T13:09:59.608Z"
+  },
+  "sandiego::5840 el camino real #106, carlsbad, ca": {
+    "lat": 33.1346431,
+    "lon": -117.2701051,
+    "displayName": "5840, El Camino Real, Carlsbad Research Center, Bressi Ranch, Carlsbad, San Diego County, California, 92011, United States",
+    "fetchedAt": "2026-05-29T13:10:01.044Z"
+  },
+  "sandiego::143 s cedros ave": {
+    "lat": 32.9910005,
+    "lon": -117.2706582,
+    "displayName": "143, South Cedros Avenue, Cedros Ave Design District, Eden Gardens, Solana Beach, San Diego County, California, 92075, United States",
+    "fetchedAt": "2026-05-29T13:10:01.742Z"
+  },
+  "sandiego::2891 university ave": {
+    "lat": 32.7480128,
+    "lon": -117.1312797,
+    "displayName": "The Observatory North Park, 2891, University Avenue, North Park, San Diego, San Diego County, California, 92104, United States",
+    "fetchedAt": "2026-05-29T13:10:03.088Z"
+  },
+  "sandiego::3rd & b st.": {
+    "lat": 32.7178118,
+    "lon": -117.1597317,
+    "displayName": "B Street, Core-Columbia, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-29T13:10:04.949Z"
+  },
+  "sandiego::2241 shelter island dr.": {
+    "lat": 32.7164524,
+    "lon": -117.2242336,
+    "displayName": "Humphreys Backstage Live, 2241, Shelter Island Drive, Roseville, Point Loma, San Diego, San Diego County, California, 92106, United States",
+    "fetchedAt": "2026-05-29T13:10:05.400Z"
+  },
+  "sandiego::3201 thorn street, san diego, ca": {
+    "lat": 32.739173,
+    "lon": -117.124872,
+    "displayName": "3201, Thorn Street, Altadena, North Park, San Diego, San Diego County, California, 92104, United States",
+    "fetchedAt": "2026-05-29T13:10:06.438Z"
+  },
+  "sandiego::2260 jimmy durante blvd": {
+    "lat": 32.971303,
+    "lon": -117.262153,
+    "displayName": "2260, Jimmy Durante Boulevard, Del Mar, San Diego County, California, 92014, United States",
+    "fetchedAt": "2026-05-29T13:10:07.484Z"
+  },
+  "2235 n campus dr": {
+    "lat": 32.9101448,
+    "lon": -117.1181369,
+    "displayName": "North Campus Drive, San Diego, San Diego County, California, 92125, United States",
+    "fetchedAt": "2026-05-29T13:10:08.992Z"
+  },
+  "sandiego::2101 stadium way": {
+    "lat": 32.7844813,
+    "lon": -117.1235496,
+    "displayName": "Stadium Way, Serra Mesa, San Diego, San Diego County, California, 92108, United States",
+    "fetchedAt": "2026-05-29T13:10:10.101Z"
+  },
+  "sandiego::200 marina park way": {
+    "lat": 32.705846,
+    "lon": -117.163305,
+    "displayName": "200, Marina Park Way, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-29T13:10:10.832Z"
+  },
+  "sandiego::950 hotel circle south, san diego": {
+    "lat": 32.7596104,
+    "lon": -117.1711799,
+    "displayName": "950, Hotel Circle South, Uptown Medical Complex, Mission Hills, San Diego, San Diego County, California, 92108, United States",
+    "fetchedAt": "2026-05-29T13:10:11.885Z"
+  },
+  "sandiego::210 e main street": {
+    "lat": 32.7950112,
+    "lon": -116.9599599,
+    "displayName": "210, East Main Street, Little Baghdad, El Cajon, San Diego County, California, 92020, United States",
+    "fetchedAt": "2026-05-29T13:10:14.905Z"
+  },
+  "sandiego::100 park blvd": {
+    "lat": 32.7071874,
+    "lon": -117.156913,
+    "displayName": "Petco Park, 100, Park Boulevard, East Village, Golden Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-29T13:10:15.347Z"
+  },
+  "1460 e front st": {
+    "lat": 32.3462253,
+    "lon": -95.2834346,
+    "displayName": "1460, East Front Street, Tyler, Smith County, Texas, 75702, United States",
+    "fetchedAt": "2026-05-29T13:10:20.680Z"
+  },
+  "6000 victory way": {
+    "lat": 41.0025904,
+    "lon": -117.6885768,
+    "displayName": "6000, Victory Way, Humboldt County, Nevada, 89445, United States",
+    "fetchedAt": "2026-05-29T13:10:21.505Z"
+  },
+  "snelling and university ave": {
+    "lat": 44.9555036,
+    "lon": -93.1686305,
+    "displayName": "HOURCAR STP - Snelling and University, University Avenue, Iris Park, Union Park, Saint Paul, Ramsey County, Minnesota, 55104, United States",
+    "fetchedAt": "2026-05-29T13:10:22.215Z"
+  },
+  "100 potomac ave. sw": {
+    "lat": 38.8682612,
+    "lon": -77.0126092,
+    "displayName": "Audi Field, 100, Potomac Avenue Southwest, Buzzard Point, Ward 6, Washington, District of Columbia, 20024, United States",
+    "fetchedAt": "2026-05-29T13:10:23.416Z"
+  },
+  "sandiego::1337 india street": {
+    "lat": 32.7194045,
+    "lon": -117.1680925,
+    "displayName": "Music Box, 1337, India Street, Core-Columbia, Banker's Hill, San Diego, San Diego County, California, 92101, United States",
+    "fetchedAt": "2026-05-29T13:10:24.480Z"
+  },
+  "600 cape may street": {
+    "lat": 40.735115,
+    "lon": -74.155222,
+    "displayName": "600, Cape May Street, Harrison, Hudson County, New Jersey, 07029, United States",
+    "fetchedAt": "2026-05-29T13:10:25.426Z"
+  },
+  "3939 s. figueroa st": {
+    "lat": 34.0126833,
+    "lon": -118.2828391,
+    "displayName": "3939, South Figueroa Street, Historic South-Central, Los Angeles, Los Angeles County, California, 90037, United States",
+    "fetchedAt": "2026-05-29T13:10:26.933Z"
+  },
+  "1844 sw morrison st.": {
+    "lat": 45.5224071,
+    "lon": -122.6924111,
+    "displayName": "PTFC Authentics, 1844, Southwest Morrison Street, Goose Hollow, Portland, Multnomah County, Oregon, 97205, United States",
+    "fetchedAt": "2026-05-29T13:10:27.712Z"
+  },
+  "655 w church st": {
+    "lat": 28.5402287,
+    "lon": -81.3885431,
+    "displayName": "655, West Church Street, Holden Heights, Orlando, Orange County, Florida, 32805, United States",
+    "fetchedAt": "2026-05-29T13:10:30.326Z"
+  },
+  "800 occidental ave s": {
+    "lat": 47.5953459,
+    "lon": -122.3316443,
+    "displayName": "Lumen Field, 800, Occidental Avenue South, Yesler Terrace, Seattle, King County, Washington, 98134, United States",
+    "fetchedAt": "2026-05-29T13:10:30.558Z"
+  },
+  "sandiego::5500 campanile dr": {
+    "lat": 32.776064,
+    "lon": -117.07023,
+    "displayName": "Panda Express, 5500, Campanile Drive, Montezuma Mesa, Mid-City, Del Cerro, San Diego, San Diego County, California, 92182, United States",
+    "fetchedAt": "2026-05-29T13:10:31.841Z"
+  },
+  "1900 nw 37th ave": {
+    "lat": 25.7923568,
+    "lon": -80.2604659,
+    "displayName": "Nu Stadium, 1900, Northwest 37th Avenue, Miami, Miami-Dade County, Florida, 33125, United States",
+    "fetchedAt": "2026-05-29T13:10:32.973Z"
+  },
+  "350 adams st": {
+    "lat": 42.2977637,
+    "lon": -71.0564863,
+    "displayName": "348;350, Adams Street, Fields Corner, Dorchester, Boston, Suffolk County, Massachusetts, 02122, United States",
+    "fetchedAt": "2026-05-29T13:10:37.700Z"
+  },
+  "10414 mckalla place": {
+    "lat": 30.3853074,
+    "lon": -97.719227,
+    "displayName": "10414, McKalla Place, Austin, Travis County, Texas, 78758, United States",
+    "fetchedAt": "2026-05-29T13:10:38.042Z"
+  },
+  "sandiego::3119 mariners way": {
+    "lat": 32.770534,
+    "lon": -117.246901,
+    "displayName": "3119, Mariners Way, Mission Beach, San Diego, San Diego County, California, 92109, United States",
+    "fetchedAt": "2026-05-29T13:10:38.978Z"
+  },
+  "201 soccer park drive": {
+    "lat": 35.7870992,
+    "lon": -78.7539995,
+    "displayName": "201, Soccer Park Drive, Cary, Wake County, North Carolina, 27511, United States",
+    "fetchedAt": "2026-05-29T13:10:40.225Z"
+  },
+  "18400 avalon boulevard": {
+    "lat": 33.9712325,
+    "lon": -118.2651489,
+    "displayName": "Avalon Boulevard, Florence, Los Angeles, Los Angeles County, California, 90003, United States",
+    "fetchedAt": "2026-05-29T13:10:41.651Z"
+  },
+  "1123 coleman avenue": {
+    "lat": 37.3513087,
+    "lon": -121.924672,
+    "displayName": "PayPal Park, 1123, Coleman Avenue, North San Jose, San Jose, Santa Clara County, California, 95110, United States",
+    "fetchedAt": "2026-05-29T13:10:42.436Z"
   }
 }

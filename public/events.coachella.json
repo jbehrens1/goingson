@@ -24,103 +24,9 @@
       "Desert Hot Springs, CA"
     ]
   },
-  "generatedAt": "2026-05-28T16:15:32.325Z",
-  "count": 216,
+  "generatedAt": "2026-05-29T12:57:54.787Z",
+  "count": 254,
   "events": [
-    {
-      "title": "Walking Club",
-      "url": "https://www.livingdesert.org/events/walking-club-3/2026-05-28/",
-      "start": "2026-05-28T15:00:00.000Z",
-      "end": "2026-05-28T16:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "The Living Desert Zoo & Gardens",
-        "town": "Palm Desert",
-        "lat": 33.7222,
-        "lon": -116.3744
-      },
-      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2024/09/TLD_WalkingClub_TaraHoward-10-scaled-e1747947513211.jpg",
-      "categories": [
-        "Members Only"
-      ],
-      "type": "family",
-      "id": "200b0245d09c9101",
-      "source": {
-        "id": "living-desert",
-        "name": "The Living Desert Zoo & Gardens"
-      },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
-    },
-    {
-      "title": "VillageFest every Thursday",
-      "description": "(October – May) 6:00PM-10:00PM (June – September) 7:00PM-10:00PM Every Thursday evening, Downtown Palm Springs transforms into the Palm Springs VillageFest, also known as the Palm Springs Street Fair. At the VillageFest, you will experience a diverse array of artists, artisans, entertainers, and purveyors of fresh fruits and veggies, flowers, jewelry, snacks and sweets. Add all that to the great shops, restaurants, clubs, and entertainment venues located along World Famous Palm Canyon Drive – and the result is one of Southern California’s most popular weekly events: VillageFest!",
-      "url": "https://villagefest.org/event/villagefest-every-thursday-31/2026-05-28/",
-      "start": "2026-05-29T01:00:00.000Z",
-      "end": "2026-05-29T05:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Main Street Palm Springs",
-        "town": "Palm Springs",
-        "address": "100 s. Palm Canyon Drive, Palm Springs, CA",
-        "lat": 33.8229257,
-        "lon": -116.5466056
-      },
-      "type": "festival",
-      "id": "d00cfd225c0f6bfa",
-      "source": {
-        "id": "villagefest",
-        "name": "VillageFest"
-      },
-      "ingestedAt": "2026-05-28T14:02:28.514Z"
-    },
-    {
-      "title": "Palm Springs VillageFest",
-      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
-      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-05-28/",
-      "start": "2026-05-29T01:00:00.000Z",
-      "end": "2026-05-29T05:00:00.000Z",
-      "location": {
-        "venue": "Downtown Palm Springs",
-        "address": "Palm Springs, CA",
-        "town": "All Coachella Valley",
-        "lat": 33.8246269,
-        "lon": -116.540303
-      },
-      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
-      "type": "festival",
-      "id": "3c874a4dc40e40b7",
-      "source": {
-        "id": "palmsprings-com",
-        "name": "PalmSprings.com Calendar of Events"
-      },
-      "ingestedAt": "2026-05-28T14:02:50.462Z"
-    },
-    {
-      "title": "Los Chicos Del Mambo Orchestra",
-      "description": "Los Chicos Del Mambo Orchestra performs at the Cascade Lounge at Agua Caliente Casino Palm Springs on May 28. The high-energy ensemble delivers cumbia, salsa, merengue, and mambo with brass, percussion, and rhythms that turn the room into a dance floor.",
-      "url": "https://www.palmspringslife.com/event/los-chicos-del-mambo-orchestra/",
-      "start": "2026-05-29T02:00:00.000Z",
-      "end": "2026-05-29T02:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Agua Caliente Casino Palm Springs",
-        "town": "Palm Springs",
-        "address": "401 E Amado Road, Palm Springs",
-        "lat": 33.8255177,
-        "lon": -116.5428819
-      },
-      "imageUrl": "https://cdn.palmspringslife.com/media/2026/03/06190006/ps-casino.png",
-      "categories": [
-        "Music"
-      ],
-      "type": "live-music",
-      "id": "1fba4b51609037ee",
-      "source": {
-        "id": "palm-springs-life",
-        "name": "Palm Springs Life — The Calendar"
-      },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
-    },
     {
       "title": "Dummy // Locust",
       "description": "(((folkYEAH!))) Presents:\nHarmony Index\nSupporting Talent: Harmony Index\nRock\n$27.00",
@@ -136,7 +42,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.408Z"
+      "ingestedAt": "2026-05-29T12:57:23.536Z"
     },
     {
       "title": "Palm Springs 70mm Fest",
@@ -163,7 +69,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
     },
     {
       "title": "Mikael Healey’s Baby Grand: Construction Zone",
@@ -190,7 +96,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
     },
     {
       "title": "Girl Talk Comedy Show",
@@ -216,7 +122,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
     },
     {
       "title": "Greater Palm Springs Restaurant Week",
@@ -243,7 +149,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
     },
     {
       "title": "Dog Day at the Zoo",
@@ -264,7 +170,53 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.485Z"
+    },
+    {
+      "title": "Coco Rose Home Closing Sale",
+      "description": "As Coco Rose Home prepares to close its doors, owner Eileen is hosting a special “Let’s Make a Deal” sale, with the shop open daily from noon to 6 p.m. Eileen will be in-store helping guests find exceptional deals on the store’s thoughtfully curated furniture and décor.",
+      "url": "https://www.palmspringslife.com/event/coco-rose-home-closing-sale/",
+      "start": "2026-05-29T19:00:00.000Z",
+      "end": "2026-06-01T01:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Coco Rose Home",
+        "town": "La Quinta",
+        "address": "78010 Main Street #100, La Quinta",
+        "lat": 33.6772888,
+        "lon": -116.3024806
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/28165321/add6b597-0ca7-cb54-5f0d-b5bbf274f4b3.jpeg",
+      "categories": [
+        "Design"
+      ],
+      "type": "workshop",
+      "id": "cc8cb9d0c4f1ad3e",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
+    },
+    {
+      "title": "GenX Takeover Comedy Tour (Under 16 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
+      "description": "With: GenX Takeover Comedy Tour\n\nComedy / Comedy",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9x6",
+      "start": "2026-05-30T03:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "d94d6640491098dc",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "Karma Dealers",
@@ -281,7 +233,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.409Z"
+      "ingestedAt": "2026-05-29T12:57:23.538Z"
     },
     {
       "title": "Flamingo Friday",
@@ -301,7 +253,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.779Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Frey House II Tour + Museum Day Pass",
@@ -327,7 +279,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
     },
     {
       "title": "A Night of Motown: Dinner Show",
@@ -354,7 +306,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
     },
     {
       "title": "Marilyn 100 After Party at Hunters Palm Springs",
@@ -380,7 +332,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.172Z"
     },
     {
       "title": "Palm Springs Certified Farmers Market",
@@ -402,7 +354,27 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.462Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
+    },
+    {
+      "title": "The Fab Four",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\nTicket Prices P2 - First 3 Rows $59.95 P3 - Orchestra - Aisle $49.95 P4 - Orchestra $44.95 P5 - Loge - Asile $39.95 P6 - Loge $34.95 P7 - Mezzanine - Aisle $34.95 P8 - Mezzanine $29.95 P9 - Balcony - Aisle $29.95 P10 - Balcony $24.95 NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\nWith: The Fab Four",
+      "url": "https://www.ticketmaster.com/the-fab-four-rancho-mirage-california-05-30-2026/event/0900648781154D9B",
+      "start": "2026-05-31T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "4625e9e057cf0326",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "Black Crystal Wolf Kids",
@@ -419,7 +391,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.409Z"
+      "ingestedAt": "2026-05-29T12:57:23.538Z"
     },
     {
       "title": "Maná at Acrisure Arena",
@@ -446,7 +418,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
     },
     {
       "title": "MANÁ New Show Added",
@@ -478,7 +450,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.035Z"
+      "ingestedAt": "2026-05-29T12:56:51.366Z"
     },
     {
       "title": "5th Annual – Beneath The Desert Sky Benefit Concert",
@@ -495,7 +467,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.410Z"
+      "ingestedAt": "2026-05-29T12:57:23.539Z"
     },
     {
       "title": "Alain Whyte Band",
@@ -512,7 +484,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.411Z"
+      "ingestedAt": "2026-05-29T12:57:23.540Z"
     },
     {
       "title": "Kimberly Cofer and the Tumbleweeds",
@@ -538,7 +510,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
     },
     {
       "title": "Camera Obscura",
@@ -555,7 +527,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.412Z"
+      "ingestedAt": "2026-05-29T12:57:23.541Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -577,7 +549,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.462Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
     },
     {
       "title": "Carey Frank Organ Trio",
@@ -603,7 +575,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.741Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
     },
     {
       "title": "Nita Whitaker: Sophisticated Lady – Songs of Natalie Cole",
@@ -629,7 +601,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -651,7 +623,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.514Z"
+      "ingestedAt": "2026-05-29T12:56:55.291Z"
     },
     {
       "title": "Lavender Festival",
@@ -667,7 +639,7 @@
         "lat": 33.964353,
         "lon": -116.945249
       },
-      "imageUrl": "https://www.palmspringslife.com/wp-content/uploads/2025/04/lavender-festival.png",
+      "imageUrl": "https://cdn.palmspringslife.com/media/2025/04/28214613/lavender-festival.png",
       "categories": [
         "Fairs, Festivals &amp; Markets"
       ],
@@ -677,7 +649,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
     },
     {
       "title": "Allah-Las",
@@ -694,7 +666,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.413Z"
+      "ingestedAt": "2026-05-29T12:57:23.542Z"
     },
     {
       "title": "Banda Carnaval",
@@ -714,7 +686,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.780Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Flamingo Friday",
@@ -734,7 +706,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.780Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "House Party PS: Pink Saturday 4",
@@ -761,7 +733,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
     },
     {
       "title": "Al Jardine and the Pet Sounds Band at The Plaza Theatre",
@@ -788,7 +760,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
+    },
+    {
+      "title": "Jerry Seinfield (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
+      "description": "With: Jerry Seinfeld",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Oykv",
+      "start": "2026-06-07T03:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "b4e5a052026228ae",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "Dave Catching’s 65th Birthday Celebration",
@@ -805,7 +797,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.413Z"
+      "ingestedAt": "2026-05-29T12:57:23.542Z"
     },
     {
       "title": "Tribute to Heart",
@@ -831,7 +823,33 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
+    },
+    {
+      "title": "Palm Springs Vintage Market",
+      "description": "Palm Springs Vintage Market 2026 Season continues with the first Indoor Summer Series at The Pavilion in Palm Springs. The first Sunday of each month from June–September. Each event is from 7 a.m. to 2 p.m. $10 first pick entry at 7 a.m. $5 general admission entry at 8 a.m.",
+      "url": "https://www.palmspringslife.com/event/palm-springs-vintage-market/",
+      "start": "2026-06-07T07:00:00.000Z",
+      "end": "2026-06-08T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The Pavilion",
+        "town": "Palm Springs",
+        "address": "403 S Pavilion Way, Palm Springs",
+        "lat": 33.8170303,
+        "lon": -116.52524
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/11232553/16x9.jpg",
+      "categories": [
+        "Fairs, Festivals &amp; Markets"
+      ],
+      "type": "festival",
+      "id": "6fd01690dac99310",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-29T12:56:50.173Z"
     },
     {
       "title": "Breakfast with the Beatles Hosted by Chris Carter",
@@ -851,7 +869,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.780Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -875,7 +893,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.485Z"
     },
     {
       "title": "The Messthetics",
@@ -892,7 +910,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.414Z"
+      "ingestedAt": "2026-05-29T12:57:23.543Z"
     },
     {
       "title": "The Juke Joint Preachers",
@@ -918,7 +936,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "Terry Fator at Fantasy Springs Resort Casino",
@@ -945,7 +963,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -969,7 +987,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.485Z"
     },
     {
       "title": "XOXO Palm Springs",
@@ -996,7 +1014,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1020,7 +1038,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.485Z"
     },
     {
       "title": "Where Were You In 1976?: A Star Is Born",
@@ -1046,7 +1064,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -1068,7 +1086,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.462Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
     },
     {
       "title": "Feels So Good: The Chuck Mangione Experience",
@@ -1094,7 +1112,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -1116,7 +1134,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.291Z"
     },
     {
       "title": "Sir Woman",
@@ -1133,7 +1151,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.415Z"
+      "ingestedAt": "2026-05-29T12:57:23.544Z"
     },
     {
       "title": "Edith Márquez at Fantasy Springs Resort Casino",
@@ -1159,7 +1177,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "Hush-Hush: A Variety Show of the Highest Class and Caliber",
@@ -1185,7 +1203,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "Don Hefty at Spotlight 29 Casino",
@@ -1212,7 +1230,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.742Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "Mikael Healey’s Baby Grand: Broken Broadway",
@@ -1239,7 +1257,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
     },
     {
       "title": "The Truck Stop Art Fair",
@@ -1265,7 +1283,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.174Z"
+    },
+    {
+      "title": "Edith Marquez -  Ages 5+",
+      "description": "With: Edith Marquez\n\nOther / Other",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b07",
+      "start": "2026-06-13T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "7bef283989f090c2",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.591Z"
     },
     {
       "title": "Flamingo Friday",
@@ -1285,7 +1323,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.780Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Three Bad Jacks",
@@ -1302,7 +1340,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.415Z"
+      "ingestedAt": "2026-05-29T12:57:23.544Z"
     },
     {
       "title": "Gene Simmons Band at Fantasy Springs Resort Casino",
@@ -1329,7 +1367,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "Avery Pearson’s Comedian Rhapsody ft. Josh Wolf",
@@ -1356,7 +1394,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "Second Saturday Book Swap at Materias Primas",
@@ -1382,7 +1420,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
+    },
+    {
+      "title": "Gene Simmons Band",
+      "description": "With: Gene Simmons Band",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OuM",
+      "start": "2026-06-14T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "da4415ec523752dc",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.591Z"
     },
     {
       "title": "Moonsville Collective",
@@ -1399,7 +1457,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.416Z"
+      "ingestedAt": "2026-05-29T12:57:23.545Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1423,7 +1481,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.485Z"
     },
     {
       "title": "Shakira at Acrisure Arena",
@@ -1450,7 +1508,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1474,7 +1532,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.485Z"
     },
     {
       "title": "SHAKIRA",
@@ -1505,7 +1563,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.035Z"
+      "ingestedAt": "2026-05-29T12:56:51.367Z"
     },
     {
       "title": "Chayce Beckham",
@@ -1522,7 +1580,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.417Z"
+      "ingestedAt": "2026-05-29T12:57:23.545Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1546,7 +1604,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Where Were You In 1976?: The Bad News Bears",
@@ -1572,7 +1630,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -1594,7 +1652,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.463Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -1616,7 +1674,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.291Z"
     },
     {
       "title": "AK’CHAMEL, THE GIVER OF ILLNESS",
@@ -1633,7 +1691,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.417Z"
+      "ingestedAt": "2026-05-29T12:57:23.546Z"
     },
     {
       "title": "Juneteenth Comedy Showcase featuring Ralph Porter",
@@ -1660,7 +1718,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "Forrest Shaw Live: A Night of Smart, Sharp, Fearlessly Funny Comedy",
@@ -1687,7 +1745,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "Billy L’Amour & The Love Notes",
@@ -1714,7 +1772,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "E-40",
@@ -1734,7 +1792,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Flamingo Friday",
@@ -1754,7 +1812,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "The Builders and the Butchers",
@@ -1771,7 +1829,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.418Z"
+      "ingestedAt": "2026-05-29T12:57:23.547Z"
     },
     {
       "title": "Bob Dylan at Acrisure Arena",
@@ -1798,7 +1856,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.743Z"
+      "ingestedAt": "2026-05-29T12:56:50.175Z"
     },
     {
       "title": "Where Were You In 1976?: Escape to Witch Mountain",
@@ -1824,7 +1882,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Juneteenth: Celebrating Freedom Through History and Culture",
@@ -1850,7 +1908,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Bob Dylan",
@@ -1880,7 +1938,27 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.035Z"
+      "ingestedAt": "2026-05-29T12:56:51.367Z"
+    },
+    {
+      "title": "Terry Fator",
+      "description": "With: Terry Fator",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OC4",
+      "start": "2026-06-21T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "591c486bb63509de",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.591Z"
     },
     {
       "title": "The Rare Occasions",
@@ -1897,7 +1975,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.418Z"
+      "ingestedAt": "2026-05-29T12:57:23.547Z"
     },
     {
       "title": "World Giraffe Day 2026",
@@ -1921,7 +1999,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Palm Springs International ShortFest",
@@ -1948,7 +2026,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1972,7 +2050,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1996,7 +2074,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Sasha Berliner at Agua Caliente Casino Palm Springs",
@@ -2022,7 +2100,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2046,7 +2124,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Where Were You In 1976?: Assault on Precinct 13",
@@ -2072,7 +2150,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -2094,7 +2172,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.463Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2116,7 +2194,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Whitewater",
@@ -2133,7 +2211,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.419Z"
+      "ingestedAt": "2026-05-29T12:57:23.548Z"
     },
     {
       "title": "Sarper Güven Comedy Show at Cascade Lounge",
@@ -2160,7 +2238,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2180,7 +2258,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Monolord",
@@ -2197,7 +2275,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.420Z"
+      "ingestedAt": "2026-05-29T12:57:23.548Z"
     },
     {
       "title": "Gia Margaret",
@@ -2214,7 +2292,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.421Z"
+      "ingestedAt": "2026-05-29T12:57:23.549Z"
     },
     {
       "title": "Khemmis",
@@ -2231,7 +2309,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.421Z"
+      "ingestedAt": "2026-05-29T12:57:23.549Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2255,7 +2333,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2279,7 +2357,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2303,7 +2381,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-28T14:02:25.389Z"
+      "ingestedAt": "2026-05-29T12:56:52.486Z"
     },
     {
       "title": "Where Were You In 1976?: Nashville",
@@ -2329,7 +2407,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -2351,7 +2429,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.463Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2373,7 +2451,47 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
+    },
+    {
+      "title": "Tom Keifer w/ LA Guns",
+      "description": "With: Cinderella's Tom Keifer, L.A. Guns\n\nRock / Hard Rock",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N8f",
+      "start": "2026-07-03T02:30:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "f2d8aff73e338086",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
+    },
+    {
+      "title": "The Commodores",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\n$99.00 - ORCHESTRA - FRONT ROWS $79.00 - ORCHESTRA - *AISLE* $74.00 - ORCHESTRA $69.00 - LOGE - *AISLE* $64.00 - LOGE $59.00 - MEZZANINE - *AISLE* $54.00 - MEZZANINE $49.00 - BALCONY - *AISLE* $44.00 - BALCONY NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\nWith: Commodores\n\nR&B / R&B",
+      "url": "https://www.ticketmaster.com/the-commodores-rancho-mirage-california-07-03-2026/event/090064A60A421E01",
+      "start": "2026-07-04T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "067c53ba796c6abb",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2393,7 +2511,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "4th of July Palm Springs 2026",
@@ -2415,7 +2533,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.463Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
     },
     {
       "title": "4th of July Palm Desert &#8211; Independence Day Celebration 2026",
@@ -2437,7 +2555,33 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-28T14:02:50.463Z"
+      "ingestedAt": "2026-05-29T12:57:18.442Z"
+    },
+    {
+      "title": "Palm Springs Vintage Market",
+      "description": "Palm Springs Vintage Market 2026 Season continues with the first Indoor Summer Series at The Pavilion in Palm Springs. The first Sunday of each month from June–September. Each event is from 7 a.m. to 2 p.m. $10 first pick entry at 7 a.m. $5 general admission entry at 8 a.m.",
+      "url": "https://www.palmspringslife.com/event/palm-springs-vintage-market-2/",
+      "start": "2026-07-05T07:00:00.000Z",
+      "end": "2026-07-06T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The Pavilion",
+        "town": "Palm Springs",
+        "address": "403 S Pavilion Way, Palm Springs",
+        "lat": 33.8170303,
+        "lon": -116.52524
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/11232553/16x9.jpg",
+      "categories": [
+        "Fairs, Festivals &amp; Markets"
+      ],
+      "type": "festival",
+      "id": "20d088ab0ef8fc53",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Pearl Charles",
@@ -2454,7 +2598,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.422Z"
+      "ingestedAt": "2026-05-29T12:57:23.550Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2476,7 +2620,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
+    },
+    {
+      "title": "Jo Koy Live",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\nFront Rows (1-3) $225.00, Orchestra $195.00, Loge $150.00, Mezzanine $125.00, Balcony $95.00\n\nWith: Jo Koy\n\nComedy / Comedy",
+      "url": "https://www.ticketmaster.com/jo-koy-live-rancho-mirage-california-07-10-2026/event/0900648A47E9D984",
+      "start": "2026-07-11T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "9a8c3898a9284fa7",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "Dareyes de La Sierra",
@@ -2496,7 +2660,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2516,7 +2680,27 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
+    },
+    {
+      "title": "Jo Koy Live",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\nFront Rows (1-3) $225.00, Orchestra $195.00, Loge $150.00, Mezzanine $125.00, Balcony $95.00\n\nWith: Jo Koy\n\nComedy / Comedy",
+      "url": "https://www.ticketmaster.com/jo-koy-live-rancho-mirage-california-07-11-2026/event/0900648A4EB2DD79",
+      "start": "2026-07-12T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "4e3791254fc223b6",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "Toody Cole (of Dead Moon) & Her Band",
@@ -2533,7 +2717,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.423Z"
+      "ingestedAt": "2026-05-29T12:57:23.551Z"
     },
     {
       "title": "Beats Antique",
@@ -2550,7 +2734,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.423Z"
+      "ingestedAt": "2026-05-29T12:57:23.551Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2572,7 +2756,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Reverend Horton Heat",
@@ -2589,7 +2773,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.424Z"
+      "ingestedAt": "2026-05-29T12:57:23.552Z"
     },
     {
       "title": "Australias Thunder From Down Under",
@@ -2609,7 +2793,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2629,7 +2813,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "Starcrawler",
@@ -2646,7 +2830,27 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.424Z"
+      "ingestedAt": "2026-05-29T12:57:23.552Z"
+    },
+    {
+      "title": "David Spade I Got A Feel For It",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\nWith: David Spade\n\nComedy / Comedy",
+      "url": "https://www.ticketmaster.com/david-spade-i-got-a-feel-rancho-mirage-california-07-18-2026/event/090064B53618164C",
+      "start": "2026-07-19T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "food-drink",
+      "id": "1fcf01f7d546856d",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "Midland",
@@ -2666,7 +2870,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.892Z"
     },
     {
       "title": "James McMurtry",
@@ -2683,7 +2887,47 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.425Z"
+      "ingestedAt": "2026-05-29T12:57:23.553Z"
+    },
+    {
+      "title": "Cole Swindell",
+      "description": "With: Cole Swindell\n\nCountry / Country Folk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-E_7",
+      "start": "2026-07-21T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "ccb181ad1ffef127",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.591Z"
+    },
+    {
+      "title": "Goo Goo Dolls",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\n$129.50 - ORCHESTRA - FRONT ROWS $119.50 - ORCHESTRA - *AISLE* $99.50 - ORCHESTRA $84.50 - LOGE - *AISLE* $74.50 - LOGE $69.50 - MEZZANINE - *AISLE* $59.50 - MEZZANINE $54.50 - BALCONY - *AISLE* $44.50 - BALCONY\n\nWith: Goo Goo Dolls\n\nRock / Alternative Rock",
+      "url": "https://www.ticketmaster.com/goo-goo-dolls-rancho-mirage-california-07-21-2026/event/090064B0F375B486",
+      "start": "2026-07-22T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "05f08430cf741a32",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.802Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2705,7 +2949,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Hawthorne Heights [2 Day Pass]",
@@ -2722,7 +2966,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.426Z"
+      "ingestedAt": "2026-05-29T12:57:23.553Z"
     },
     {
       "title": "Hawthorne Heights – [Night 1]",
@@ -2739,7 +2983,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.426Z"
+      "ingestedAt": "2026-05-29T12:57:23.554Z"
     },
     {
       "title": "Teachers Gone Bad Comedy Show",
@@ -2765,7 +3009,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2785,7 +3029,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Hawthorne Heights – [Night 2 Acoustic]",
@@ -2802,7 +3046,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.427Z"
+      "ingestedAt": "2026-05-29T12:57:23.555Z"
     },
     {
       "title": "Cole Swindell at Fantasy Springs Resort Casino",
@@ -2829,7 +3073,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
+    },
+    {
+      "title": "Cole Swindell (Minors with adult 21+)",
+      "description": "With: Cole Swindell\n\nCountry / Country Folk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-t7w",
+      "start": "2026-07-26T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "34a5c62080d532e4",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.591Z"
     },
     {
       "title": "Dinosaur Pile‐Up",
@@ -2846,7 +3110,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.428Z"
+      "ingestedAt": "2026-05-29T12:57:23.556Z"
     },
     {
       "title": "Boris Brejcha",
@@ -2863,7 +3127,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.429Z"
+      "ingestedAt": "2026-05-29T12:57:23.556Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2885,7 +3149,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Dancing with the Stars Con 2026",
@@ -2912,7 +3176,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.176Z"
     },
     {
       "title": "Tortoise",
@@ -2929,7 +3193,27 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.429Z"
+      "ingestedAt": "2026-05-29T12:57:23.557Z"
+    },
+    {
+      "title": "Jake Owen",
+      "description": "With: Jake Owen\n\nCountry / Country Folk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Nk8",
+      "start": "2026-08-01T03:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "448e67f2c69cd240",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2949,7 +3233,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Dancing with the Stars Con 2026",
@@ -2979,7 +3263,27 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.036Z"
+      "ingestedAt": "2026-05-29T12:56:51.367Z"
+    },
+    {
+      "title": "Kings of Chaos",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\n$149.95 - ORCHESTRA - FRONT ROWS $129.95 - ORCHESTRA - *AISLE* $119.95 - ORCHESTRA $109.95 - LOGE - *AISLE* $99.95 - LOGE $99.95 - MEZZANINE - *AISLE* $94.95 - MEZZANINE $89.95 - BALCONY - *AISLE* $84.95 - BALCONY NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\nWith: Kings of Chaos\n\nRock / Pop",
+      "url": "https://www.ticketmaster.com/kings-of-chaos-rancho-mirage-california-08-01-2026/event/090064A6111C3EE0",
+      "start": "2026-08-02T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "cac443d0a431c7ab",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Tennessee Jet",
@@ -2996,7 +3300,33 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.430Z"
+      "ingestedAt": "2026-05-29T12:57:23.557Z"
+    },
+    {
+      "title": "Palm Springs Vintage Market",
+      "description": "Palm Springs Vintage Market 2026 Season continues with the first Indoor Summer Series at The Pavilion in Palm Springs. The first Sunday of each month from June–September. Each event is from 7 a.m. to 2 p.m. $10 first pick entry at 7 a.m. $5 general admission entry at 8 a.m.",
+      "url": "https://www.palmspringslife.com/event/palm-springs-vintage-market-3/",
+      "start": "2026-08-02T07:00:00.000Z",
+      "end": "2026-08-03T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The Pavilion",
+        "town": "Palm Springs",
+        "address": "403 S Pavilion Way, Palm Springs",
+        "lat": 33.8170303,
+        "lon": -116.52524
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/11232553/16x9.jpg",
+      "categories": [
+        "Fairs, Festivals &amp; Markets"
+      ],
+      "type": "festival",
+      "id": "0ac8cc79f2064403",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-29T12:56:50.177Z"
     },
     {
       "title": "Dancing with the Stars Con 2026",
@@ -3026,7 +3356,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.036Z"
+      "ingestedAt": "2026-05-29T12:56:51.367Z"
     },
     {
       "title": "Los Straitjackets",
@@ -3043,7 +3373,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.430Z"
+      "ingestedAt": "2026-05-29T12:57:23.558Z"
     },
     {
       "title": "Parcels – [Night 1]",
@@ -3060,7 +3390,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.431Z"
+      "ingestedAt": "2026-05-29T12:57:23.558Z"
     },
     {
       "title": "Parcels – [Night 2]",
@@ -3077,7 +3407,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.431Z"
+      "ingestedAt": "2026-05-29T12:57:23.559Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3099,7 +3429,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Splash House Weekend 1",
@@ -3115,7 +3445,7 @@
         "lat": 33.7672351,
         "lon": -116.3560439
       },
-      "imageUrl": "https://www.palmspringslife.com/wp-content/uploads/2025/05/w1-splash-house.png",
+      "imageUrl": "https://cdn.palmspringslife.com/media/2025/05/28223332/w1-splash-house.png",
       "categories": [
         "Fairs, Festivals &amp; Markets",
         "Music"
@@ -3126,7 +3456,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.177Z"
+    },
+    {
+      "title": "Neon Nostalgic Presents 80s Music Television",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\nHosted by MTV VJs Markgoodman and Alan Hunter Ticket Prices $44.95 - LOGE - *AISLE* $39.95 - LOGE $34.95 - MEZZANINE - *AISLE* $29.95 - MEZZANINE $24.95 - BALCONY - *AISLE* $19.95 - BALCONY NO REFUNDS OR EXCHANGES\n\nWith: Ticketmaster Promotion",
+      "url": "https://www.ticketmaster.com/neon-nostalgic-presents-80s-music-television-rancho-mirage-california-08-07-2026/event/090064B0F107AAE0",
+      "start": "2026-08-08T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "food-drink",
+      "id": "151e02cc04308d39",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "La Fiera De Ojinaga",
@@ -3146,7 +3496,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.781Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3166,7 +3516,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Briscoe",
@@ -3183,7 +3533,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.432Z"
+      "ingestedAt": "2026-05-29T12:57:23.559Z"
     },
     {
       "title": "Lionel Richie and Earth, Wind & Fire at Acrisure Arena",
@@ -3210,7 +3560,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.177Z"
     },
     {
       "title": "Osees",
@@ -3227,7 +3577,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.433Z"
+      "ingestedAt": "2026-05-29T12:57:23.560Z"
     },
     {
       "title": "Lionel Richie and Earth, Wind & Fire",
@@ -3254,7 +3604,27 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.036Z"
+      "ingestedAt": "2026-05-29T12:56:51.367Z"
+    },
+    {
+      "title": "Gipsy Kings featuring Nicolas Reyes (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
+      "description": "With: Gipsy Kings featuring Nicolas Reyes\n\nWorld / Latin",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Nk3",
+      "start": "2026-08-09T03:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "09c6578dc728651d",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Chico Bean",
@@ -3274,7 +3644,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Anthony Green",
@@ -3291,7 +3661,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-28T14:03:00.433Z"
+      "ingestedAt": "2026-05-29T12:57:23.560Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3313,7 +3683,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "The Australian Pink Floyd Show at Fantasy Springs Resort Casino",
@@ -3340,7 +3710,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
     },
     {
       "title": "Splash House Weekend 2",
@@ -3367,7 +3737,47 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.744Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
+    },
+    {
+      "title": "Dwight Yoakam (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
+      "description": "With: Dwight Yoakam\n\nCountry / Country Folk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NF3",
+      "start": "2026-08-15T02:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "f1d5045f5fdb9e77",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
+    },
+    {
+      "title": "Australian Pink Floyd Show",
+      "description": "With: Australian Pink Floyd Show\n\nFairs & Festivals",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZp8",
+      "start": "2026-08-15T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "f24782822cd66da2",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.591Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3387,7 +3797,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Brantley Gilbert: The Real American Tour at Fantasy Springs Resort Casino",
@@ -3414,7 +3824,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:23.745Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
+    },
+    {
+      "title": "Brantley Gilbert",
+      "description": "With: Brantley Gilbert\n\nCountry / Country Folk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70O8F",
+      "start": "2026-08-16T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "5508ae6a2b4c1b50",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.592Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3436,7 +3866,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Jason Stuart Comedy Show",
@@ -3462,7 +3892,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.296Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
+    },
+    {
+      "title": "Lee Huyn Woo",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\nTicket Prices P2 - First 3 Rows $184 P3 - Orchestra - Aisle $174 P4 - Orchestra $168 P5 - Loge - Asile $134 P6 - Loge $128 P7 - Mezzanine - Aisle $94 P8 - Mezzanine $88 P9 - Balcony - Aisle $74 P10 - Balcony $68 NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\nBallads/Romantic / Ballads/Romantic",
+      "url": "https://www.ticketmaster.com/lee-huyn-woo-rancho-mirage-california-08-21-2026/event/090064A1CD47555A",
+      "start": "2026-08-22T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "ca4482cd313bf3e5",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Asia featuring John Payne",
@@ -3482,7 +3932,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3502,7 +3952,27 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
+    },
+    {
+      "title": "Pat Benatar and Neil Giraldo (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
+      "description": "With: Pat Benatar & Neil Giraldo, Neil Giraldo\n\nAlternative / Alternative Rock",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NFK",
+      "start": "2026-08-23T03:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "3d1b6068d632f593",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Walker Hayes",
@@ -3522,7 +3992,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3544,7 +4014,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.515Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
+    },
+    {
+      "title": "Gretchen Wilson (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
+      "description": "With: Gretchen Wilson\n\nCountry / Country Folk",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NF4",
+      "start": "2026-08-29T03:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "fe7ec38bb73a6ed8",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3564,7 +4054,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Ramon Ayala at Acrisure Arena",
@@ -3591,7 +4081,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.296Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
     },
     {
       "title": "Ramon Ayala",
@@ -3622,7 +4112,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.036Z"
+      "ingestedAt": "2026-05-29T12:56:51.367Z"
     },
     {
       "title": "Chicago Styx at Acrisure Arena",
@@ -3649,7 +4139,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.296Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
     },
     {
       "title": "Chicago Styx",
@@ -3682,7 +4172,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.036Z"
+      "ingestedAt": "2026-05-29T12:56:51.368Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3704,7 +4194,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3724,7 +4214,33 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
+    },
+    {
+      "title": "Palm Springs Vintage Market",
+      "description": "Palm Springs Vintage Market 2026 Season continues with the first Indoor Summer Series at The Pavilion in Palm Springs. The first Sunday of each month from June–September. Each event is from 7 a.m. to 2 p.m. $10 first pick entry at 7 a.m. $5 general admission entry at 8 a.m.",
+      "url": "https://www.palmspringslife.com/event/palm-springs-vintage-market-4/",
+      "start": "2026-09-06T07:00:00.000Z",
+      "end": "2026-09-07T06:59:59.000Z",
+      "allDay": true,
+      "location": {
+        "venue": "The Pavilion",
+        "town": "Palm Springs",
+        "address": "403 S Pavilion Way, Palm Springs",
+        "lat": 33.8170303,
+        "lon": -116.52524
+      },
+      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/11232553/16x9.jpg",
+      "categories": [
+        "Fairs, Festivals &amp; Markets"
+      ],
+      "type": "festival",
+      "id": "fd16d0161d7c9397",
+      "source": {
+        "id": "palm-springs-life",
+        "name": "Palm Springs Life — The Calendar"
+      },
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3746,7 +4262,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
+    },
+    {
+      "title": "Voyage- Celebrating the Music of Journey ",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\n$59.95 - ORCHESTRA - FRONT ROWS $49.95 - ORCHESTRA - *AISLE* $44.95 - ORCHESTRA $44.95 - LOGE - *AISLE* $39.95 - LOGE $34.95 - MEZZANINE - *AISLE* $29.95 - MEZZANINE $29.95 - BALCONY - *AISLE* $19.95 - BALCONY NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\nWith: Voyage - Celebrating The Music of Journey",
+      "url": "https://www.ticketmaster.com/voyage-celebrating-the-music-of-journey-rancho-mirage-california-09-11-2026/event/09006496EFD0C2BF",
+      "start": "2026-09-12T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "53195813c758fcd1",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3766,7 +4302,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Weird Al Yankovic",
@@ -3797,7 +4333,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.037Z"
+      "ingestedAt": "2026-05-29T12:56:51.368Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3819,7 +4355,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
+    },
+    {
+      "title": "Geoff Tate (Under 18 must be accompanied by an adult 18 years or older)",
+      "description": "With: Geoff Tate\n\nOther / Other",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xaao",
+      "start": "2026-09-19T03:00:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "16ecd44e36eb1c83",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3839,7 +4395,47 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
+    },
+    {
+      "title": "Killers of Kill Tony",
+      "description": "With: Killers of Kill Tony\n\nComedy / Comedy",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fFZ",
+      "start": "2026-09-20T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "51147c63b3e270e7",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.592Z"
+    },
+    {
+      "title": "Matt Mathews: Not What I Ordered World Tour",
+      "description": "NO REFUNDS OR EXCHANGES 8 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\n$129.95 - ORCHESTRA - FRONT ROWS $89.95 - ORCHESTRA - *AISLE* $84.95 - ORCHESTRA $79.95 - LOGE - *AISLE* $74.95 - LOGE $69.95 - MEZZANINE - *AISLE* $64.95 - MEZZANINE $49.95 - BALCONY - *AISLE* $44.95 - BALCONY PRESHOW VIP EXPERIENCE Description of package: ? One (1) Premium Event Ticket ? Group Photo with Matt Mathews ? Access to Not What I Ordered Q&A Experience with Matt Mathews ? One (1) Exclusive Not What I Ordered World Tour Poster ? One (1) Exclusive VIP Only Commemorative Lanyard ? One (1) Tour Koozie ? One (1) Exclusive VIP Only Sticker Pack ? One (1) Exclusive VIP Only Wax Melt PLEASE NOTE: Photos and Videos allowed during VIP Experience!\n\nWith: Matt Mathews\n\nComedy / Comedy",
+      "url": "https://www.ticketmaster.com/matt-mathews-not-what-i-ordered-rancho-mirage-california-09-19-2026/event/090064AEE84DB3C1",
+      "start": "2026-09-20T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "d8df9dcca5432691",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Annabelle Louie and Chi Kwong Chiang",
@@ -3859,7 +4455,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3881,7 +4477,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "Disney Worlds Collide Concert Tour",
@@ -3914,7 +4510,27 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.037Z"
+      "ingestedAt": "2026-05-29T12:56:51.368Z"
+    },
+    {
+      "title": "Kevin Costner & Modern West",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\nFirst 3 Rows $114.95 Orchestra - Aisle $89.95 Orchestra $79.95 Loge - Aisle $69.95 Loge $64.95 Mezzanine - Aisle $59.95 Mezzanine $54.95 Balcony - Aisle $49.95 Balcony $44.95 NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\nWith: Kevin Costner & Modern West\n\nCountry / Country",
+      "url": "https://www.ticketmaster.com/kevin-costner-modern-west-rancho-mirage-california-09-25-2026/event/0900648B50C7ACCF",
+      "start": "2026-09-26T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "501a3698a704f9d0",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "MANÁ",
@@ -3946,7 +4562,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.038Z"
+      "ingestedAt": "2026-05-29T12:56:51.368Z"
     },
     {
       "title": "The Dinah",
@@ -3962,7 +4578,7 @@
         "lat": 33.7672351,
         "lon": -116.3560439
       },
-      "imageUrl": "https://www.palmspringslife.com/wp-content/uploads/2025/05/dinah.png",
+      "imageUrl": "https://cdn.palmspringslife.com/media/2025/05/28223356/dinah.png",
       "categories": [
         "Fairs, Festivals &amp; Markets",
         "LGBTQ+"
@@ -3973,7 +4589,27 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.296Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
+    },
+    {
+      "title": "Daughtry",
+      "description": "NO REFUNDS OR EXCHANGES 6 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 21 must be accompanied by an adult 21 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\nWith: Daughtry\n\nRock / Pop",
+      "url": "https://www.ticketmaster.com/daughtry-rancho-mirage-california-09-30-2026/event/090064877EF14A13",
+      "start": "2026-10-01T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "food-drink",
+      "id": "7e1f67a47e8f423e",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3995,7 +4631,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "The Phil Collins Story",
@@ -4022,7 +4658,47 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.296Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
+    },
+    {
+      "title": "Halestorm",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\nTicket Prices: PL2: $58.24 PL3: $99.25 PL4: $87.33 PL5: $84.25 PL6: $77.31 PL7: $74.20 PL8: $67.29 PL9: $64.23 PL10: $58.24 PL11: $54.21 PL12: $87.33 NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\nWith: Halestorm\n\nRock / Pop",
+      "url": "https://www.ticketmaster.com/halestorm-rancho-mirage-california-10-02-2026/event/0900648782BE5061",
+      "start": "2026-10-03T02:30:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "food-drink",
+      "id": "7bb37d66545e4d2c",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
+    },
+    {
+      "title": "The Phil Collins Story",
+      "description": "With: The Phil Collins Story\n\nOther / Other",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70O83",
+      "start": "2026-10-03T03:00:00Z",
+      "location": {
+        "venue": "Fantasy Springs Resort Casino",
+        "address": "84245 Indio Springs Dr",
+        "town": "Indio",
+        "lat": 33.7211095,
+        "lon": -116.1939963
+      },
+      "type": "live-music",
+      "id": "25362d059422e81a",
+      "source": {
+        "id": "fantasy-springs",
+        "name": "Fantasy Springs Resort Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.592Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4044,7 +4720,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
+    },
+    {
+      "title": "Brit Floyd- The Moon, The Wall and Beyond",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\n$84.95 - ORCHESTRA - FRONT ROWS $79.95 - ORCHESTRA - *AISLE* $74.95 - ORCHESTRA $69.95 - LOGE - *AISLE* $64.95 - LOGE $59.95 - MEZZANINE - *AISLE* $54.95 - MEZZANINE $49.95 - BALCONY - *AISLE* $44.95 - BALCONY NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video recording. Under 18 must be accompanied by an adult 18 years or older. MUST BE 25 MONTHS OLD WITH A TICKET TO ENTER, UNDER 25 MONTHS NOT PERMITTED.\n\nWith: Brit Floyd\n\nRock / Pop",
+      "url": "https://www.ticketmaster.com/brit-floyd-the-moon-the-wall-rancho-mirage-california-10-09-2026/event/09006495C48DD2BA",
+      "start": "2026-10-10T03:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "14479c9a244139b5",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "20th Anniversary Paint El Paseo Pink",
@@ -4071,7 +4767,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.297Z"
+      "ingestedAt": "2026-05-29T12:56:50.801Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4093,7 +4789,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4115,7 +4811,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
     },
     {
       "title": "UB40",
@@ -4135,7 +4831,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-28T14:43:26.782Z"
+      "ingestedAt": "2026-05-29T12:57:22.893Z"
     },
     {
       "title": "Marisela at Fantasy Springs Resort Casino",
@@ -4162,7 +4858,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.297Z"
+      "ingestedAt": "2026-05-29T12:56:50.802Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4184,7 +4880,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.292Z"
+    },
+    {
+      "title": "W.A.S.P. (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
+      "description": "With: W.A.S.P., KK's Priest\n\nRock / Hard Rock",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NFp",
+      "start": "2026-10-30T02:30:00Z",
+      "location": {
+        "venue": "The Show - Agua Caliente Casino",
+        "address": "32-250 Bob Hope Drive",
+        "town": "Rancho Mirage",
+        "lat": 33.8148199,
+        "lon": -116.408331
+      },
+      "type": "live-music",
+      "id": "3673ce9df4ba56a1",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "Bare at The Plaza Theatre",
@@ -4210,7 +4926,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-28T14:02:24.297Z"
+      "ingestedAt": "2026-05-29T12:56:50.802Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4232,7 +4948,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
+    },
+    {
+      "title": "Zeppelin USA",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\n$59.95 - ORCHESTRA - FRONT ROWS $49.95 - ORCHESTRA - *AISLE* $44.95 - ORCHESTRA $44.95 - LOGE - *AISLE* $39.95 - LOGE $34.95 - MEZZANINE - *AISLE* $29.95 - MEZZANINE $29.95 - BALCONY - *AISLE* $19.95 - BALCONY NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\nWith: Zeppelin USA",
+      "url": "https://www.ticketmaster.com/zeppelin-usa-rancho-mirage-california-11-06-2026/event/0900649DEA9E69C7",
+      "start": "2026-11-07T04:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "bebe88553dbac500",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4254,7 +4990,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "Los Tigres del Norte",
@@ -4287,7 +5023,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.038Z"
+      "ingestedAt": "2026-05-29T12:56:51.368Z"
     },
     {
       "title": "90’s Corridos Tour",
@@ -4318,7 +5054,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-28T14:02:25.038Z"
+      "ingestedAt": "2026-05-29T12:56:51.368Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4340,7 +5076,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4362,7 +5098,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4384,7 +5120,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.516Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4406,7 +5142,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
+    },
+    {
+      "title": "Violent Femmes: 45 Years of Violent Femmes Tour",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\nTicket Prices: $129.95 - ORCHESTRA - FRONT ROWS $109.95 - ORCHESTRA - *AISLE* $99.95 - ORCHESTRA $89.95 - LOGE - *AISLE* $79.95 - LOGE $79.95 - MEZZANINE - *AISLE* $69.95 - MEZZANINE $69.95 - BALCONY - *AISLE* $55.95 - BALCONY NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted.\n\nWith: Violent Femmes\n\nRock / Alternative Rock",
+      "url": "https://www.ticketmaster.com/violent-femmes-45-years-of-violent-rancho-mirage-california-12-11-2026/event/0900649D0649A838",
+      "start": "2026-12-12T04:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "3e687d80aea2f3be",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4428,7 +5184,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4450,7 +5206,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4472,7 +5228,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4494,7 +5250,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4516,7 +5272,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4538,7 +5294,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4560,7 +5316,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4582,7 +5338,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.293Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4604,7 +5360,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4626,7 +5382,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4648,7 +5404,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.517Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4670,7 +5426,27 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
+    },
+    {
+      "title": "RuPaul's Drag Race Werq The World 2027 Tour",
+      "description": "NO REFUNDS OR EXCHANGES 4 ticket limit. *AISLE* - The first 2 seats next to the aisle, (may be sold separately). No cans, bottles, or weapons of any kind. No food or smoking of any kind. No flash photography, and no video/live recording. Under 18 must be accompanied by an adult 21 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted. Tickets purchased through third-party sellers cannot be verified for authenticity and may not be honored at redemption. Management reserves all rights.\n\nTicket Prices $124.50 - ORCHESTRA - FRONT ROWS $99.50 - ORCHESTRA - *AISLE* $94.50 - ORCHESTRA $89.50 - LOGE - *AISLE* $85.50 - LOGE $79.50 - MEZZANINE - *AISLE* $74.50- MEZZANINE $64.50 - BALCONY - *AISLE* $59.50 - BALCONY This just in! The world is chaotic, the news is exhausting, and the queens of RuPaul?s Drag Race are here to report it their way. To celebrate its 10-year anniversary, RuPaul?s Drag Race Werq The World Tour returns with WTWN 10: Werq The World News, a high-camp global broadcast hosted by your Anchorma?am, Asia O?Hara. Featuring live reports in weather, sports, entertainment, breaking news and more from Vanessa Vanjie, Jewels Sparkles, Morphine Love Dion, Roxxxy Andrews, Plane Jane, and surprise guests from Season 19. It?s the biggest stories of the year delivered through drag, spectacle, comedy, and world-class performances, only on WTWN 10. Presented by Voss Events in collaboration with World of Wonder and MTV. Line-up subject to change.\n\nWith: RuPaul's Drag Race Werq the World Tour\n\nPerformance Art / Performance Art",
+      "url": "https://www.ticketmaster.com/rupauls-drag-race-werq-the-world-rancho-mirage-california-03-06-2027/event/090064B3DF193DB2",
+      "start": "2027-03-07T04:00:00Z",
+      "location": {
+        "venue": "The Show at Agua Caliente Casino Resort",
+        "address": "32250 Bob Hope Dr",
+        "town": "Rancho Mirage",
+        "lat": 33.8101038,
+        "lon": -116.4076117
+      },
+      "type": "live-music",
+      "id": "a80f12b62e09de7f",
+      "source": {
+        "id": "agua-caliente-the-show",
+        "name": "The Show at Agua Caliente Casino"
+      },
+      "ingestedAt": "2026-05-29T12:57:20.803Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4692,7 +5468,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4714,7 +5490,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4736,7 +5512,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4758,7 +5534,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4780,7 +5556,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4802,7 +5578,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4824,7 +5600,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4846,7 +5622,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4868,7 +5644,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:28.518Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4890,7 +5666,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:30.333Z"
+      "ingestedAt": "2026-05-29T12:56:55.294Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4912,7 +5688,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:30.333Z"
+      "ingestedAt": "2026-05-29T12:56:57.574Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4934,7 +5710,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-28T14:02:30.333Z"
+      "ingestedAt": "2026-05-29T12:56:57.574Z"
     }
   ]
 }

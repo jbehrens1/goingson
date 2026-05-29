@@ -37,3 +37,9 @@
 {"ts":"2026-05-28T13:55:27.554Z","regionId":"outercape","durationMs":68578,"eventCount":1177,"sourceCount":19,"dropped":{"closure":21,"outOfRegion":11,"past":96}}
 {"ts":"2026-05-28T13:55:27.554Z","regionId":"sandiego","durationMs":316978,"eventCount":2278,"sourceCount":64,"dropped":{"closure":73,"outOfRegion":6,"past":323}}
 {"ts":"2026-05-28T13:55:27.554Z","regionId":"__all__","durationMs":919437,"eventCount":5989,"sourceCount":207,"dropped":{"closure":108,"outOfRegion":183,"past":2031},"autoFixes":0}
+{"ts":"2026-05-29T12:51:46.875Z","regionId":"metrowest","durationMs":302338,"eventCount":1045,"sourceCount":87,"dropped":{"closure":4,"outOfRegion":18,"past":212}}
+{"ts":"2026-05-29T12:51:46.875Z","regionId":"coachella","durationMs":65568,"eventCount":254,"sourceCount":22,"dropped":{"outOfRegion":2}}
+{"ts":"2026-05-29T12:51:46.875Z","regionId":"lbi","durationMs":49241,"eventCount":1287,"sourceCount":15,"dropped":{"closure":10,"outOfRegion":143,"past":1403}}
+{"ts":"2026-05-29T12:51:46.875Z","regionId":"outercape","durationMs":286868,"eventCount":1172,"sourceCount":19,"dropped":{"closure":21,"outOfRegion":11,"past":94}}
+{"ts":"2026-05-29T12:51:46.875Z","regionId":"sandiego","durationMs":432211,"eventCount":2937,"sourceCount":66,"dropped":{"closure":73,"outOfRegion":24,"past":387}}
+{"ts":"2026-05-29T12:51:46.875Z","regionId":"__all__","durationMs":1136238,"eventCount":6695,"sourceCount":209,"dropped":{"closure":108,"outOfRegion":198,"past":2096},"autoFixes":0}
