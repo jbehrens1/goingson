@@ -40,7 +40,10 @@ type ResendEvent = {
     to?: string[];
     from?: string;
     subject?: string;
-    tags?: Array<{ name: string; value: string }>;
+    // Wire format is `{name: value}` object map even though the SDK
+    // accepts `[{name, value}]` on the send side. normalizeTags() below
+    // handles either shape.
+    tags?: unknown;
     click?: { link?: string };
     bounce?: { type?: string };
   };
@@ -118,23 +121,63 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "Invalid JSON" }, { status: 400 });
   }
 
-  // Pull the bits worth surfacing in the function log. Tags carry the
-  // region/schedule/surprise metadata sendDigest() attaches per email.
-  const tags: Record<string, string> = {};
-  for (const t of event.data?.tags ?? []) tags[t.name] = t.value;
-  const row = {
-    ts: event.created_at,
-    type: event.type,
-    emailId: event.data?.email_id,
-    to: event.data?.to?.[0],
-    subject: event.data?.subject,
-    region: tags.region,
-    schedule: tags.schedule,
-    surprise: tags.surprise,
-    link: event.data?.click?.link,
-    bounceType: event.data?.bounce?.type,
-  };
-  console.log("[resend-webhook]", JSON.stringify(row));
+  // Wrap everything after sig verification in try/catch as a safety net.
+  // Anything that throws here would otherwise produce a 500 — Resend
+  // counts that as a failed delivery and disables the endpoint after
+  // enough consecutive failures (which is what happened the first time
+  // around). We've already authenticated the call; whatever the row
+  // shape turns out to be, ack with 200 and log the problem.
+  try {
+    // Tags carry the region/schedule/surprise/subscription_id metadata
+    // sendDigest() attaches per email. We send them as
+    // `[{name, value}, ...]` per the Resend SDK, but the webhook payload
+    // delivers them as an object map `{name: value, ...}`. Handle both
+    // so we don't crash on either flavor.
+    const tags = normalizeTags(event.data?.tags);
+    const row = {
+      ts: event.created_at,
+      type: event.type,
+      emailId: event.data?.email_id,
+      to: event.data?.to?.[0],
+      subject: event.data?.subject,
+      region: tags.region,
+      schedule: tags.schedule,
+      surprise: tags.surprise,
+      link: event.data?.click?.link,
+      bounceType: event.data?.bounce?.type,
+    };
+    console.log("[resend-webhook]", JSON.stringify(row));
+  } catch (err) {
+    console.error("[resend-webhook] failed to process event:", (err as Error).message, {
+      type: event.type,
+    });
+  }
 
   return NextResponse.json({ ok: true });
+}
+
+/**
+ * Pull a {name -> value} bag out of whatever shape Resend put in
+ * `data.tags`. Object map is the observed wire format; array of
+ * `{name, value}` is the SDK input shape and shows up in some events.
+ * Anything else (null, string, weirdness) collapses to empty.
+ */
+function normalizeTags(raw: unknown): Record<string, string> {
+  const out: Record<string, string> = {};
+  if (Array.isArray(raw)) {
+    for (const t of raw) {
+      if (t && typeof t === "object" && "name" in t && "value" in t) {
+        const name = (t as { name: unknown }).name;
+        const value = (t as { value: unknown }).value;
+        if (typeof name === "string" && typeof value === "string") {
+          out[name] = value;
+        }
+      }
+    }
+  } else if (raw && typeof raw === "object") {
+    for (const [k, v] of Object.entries(raw)) {
+      if (typeof v === "string") out[k] = v;
+    }
+  }
+  return out;
 }
