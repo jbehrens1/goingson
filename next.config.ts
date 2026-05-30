@@ -11,7 +11,8 @@ const nextConfig: NextConfig = {
     "/sources/**": ["./config/**"],
     "/account": ["./config/**", "./public/events.*.json"],
     "/admin/**": [
-      "./public/newsletter-events.jsonl",
+      // newsletter-events.jsonl removed — see app/api/webhooks/resend
+      // (Vercel FS is read-only at runtime, so the rollup is on hold)
       "./public/source-history.jsonl",
       "./public/ingest-history.jsonl",
       "./public/source-health.json",

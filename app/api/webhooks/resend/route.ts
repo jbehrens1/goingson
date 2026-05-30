@@ -1,22 +1,34 @@
 // Captures Resend webhook events (sent / delivered / opened / clicked /
-// bounced / complained) and appends them to public/newsletter-events.jsonl.
+// bounced / complained) and logs them to the Vercel function log.
 //
-// Why a JSONL file in /public? Same logic as source-health.json:
-//   - The cron commits it back to the repo so we have a historical log
-//   - It's tiny per row (~200 bytes) — millions of rows fit in a few MB
-//   - When we later want SQL-style analytics, we backfill into Postgres
-//   - In the meantime, the /admin/newsletter page can grep this file
+// History note: this used to append rows to public/newsletter-events.jsonl
+// so /admin/newsletter could render a rollup. That never worked on Vercel
+// because the serverless filesystem under process.cwd() is read-only at
+// runtime — every append threw EROFS, the catch swallowed it, the
+// admin page was reading a file that never existed. Resend dashboard
+// (https://resend.com/emails) already has per-email opens/clicks, so for
+// now we just log to console (visible in Vercel function logs) and rely
+// on the dashboard. When this rollup matters we'll move to Vercel KV /
+// Postgres or a logging backend — see /admin/newsletter for the placeholder.
 //
 // To enable: in Resend dashboard → Webhooks → add endpoint
 //   https://www.goingson.co/api/webhooks/resend
 // Select events: email.sent, email.delivered, email.opened, email.clicked,
 //                email.bounced, email.complained.
 // Copy the signing secret into Vercel env as RESEND_WEBHOOK_SECRET.
+//
+// Why this endpoint kept getting disabled by Resend before: signature
+// verification had two bugs that combined to make every call 401:
+//   1. We read headers named "webhook-signature" / "webhook-timestamp",
+//      but Resend (Svix free tier) sends them as "svix-signature" /
+//      "svix-timestamp". Headers were null, verify returned false.
+//   2. The Svix signed payload is `{id}.{timestamp}.{body}`, not
+//      `{timestamp}.{body}` — we were missing the svix-id component.
+// Both are fixed below. We accept either header prefix for forward
+// compatibility (Svix Pro/Enterprise can switch to "webhook-*").
 
 import { NextResponse } from "next/server";
 import { createHmac, timingSafeEqual } from "node:crypto";
-import { appendFile, mkdir } from "node:fs/promises";
-import path from "node:path";
 
 export const runtime = "nodejs";
 
@@ -34,27 +46,40 @@ type ResendEvent = {
   };
 };
 
-/** Verify the Svix-style signature Resend sends on each webhook. */
+/** Read header by either of the Svix prefixes Resend may send. */
+function svixHeader(req: Request, name: string): string | null {
+  return req.headers.get(`svix-${name}`) ?? req.headers.get(`webhook-${name}`);
+}
+
+/**
+ * Verify the Svix signature Resend sends. Signed payload is
+ * `${id}.${timestamp}.${body}`, signature is base64(HMAC-SHA256), the
+ * header may carry multiple space-delimited signatures each prefixed
+ * with `v1,`.
+ */
 function verifyResendSignature(
   rawBody: string,
+  id: string | null,
+  timestamp: string | null,
   signatureHeader: string | null,
-  timestampHeader: string | null,
   secret: string,
 ): boolean {
-  if (!signatureHeader || !timestampHeader) return false;
-  // Resend uses Svix: signature format is "v1,<base64>"
+  if (!id || !timestamp || !signatureHeader) return false;
   const sigs = signatureHeader
     .split(" ")
     .filter((s) => s.startsWith("v1,"))
     .map((s) => s.slice(3));
   if (sigs.length === 0) return false;
-  const signedPayload = `${timestampHeader}.${rawBody}`;
-  // Resend's secret comes prefixed with "whsec_"; the raw secret is base64-
-  // decoded after stripping that prefix.
+
+  const signedPayload = `${id}.${timestamp}.${rawBody}`;
+  // Resend's secret comes prefixed with "whsec_"; the raw secret is
+  // the base64-decoded portion after that prefix.
   const rawSecret = secret.startsWith("whsec_")
     ? Buffer.from(secret.slice(6), "base64")
     : Buffer.from(secret);
-  const expected = createHmac("sha256", rawSecret).update(signedPayload).digest("base64");
+  const expected = createHmac("sha256", rawSecret)
+    .update(signedPayload)
+    .digest("base64");
   const expectedBuf = Buffer.from(expected);
   return sigs.some((s) => {
     const b = Buffer.from(s);
@@ -69,11 +94,19 @@ export async function POST(req: Request) {
   if (secret) {
     const ok = verifyResendSignature(
       raw,
-      req.headers.get("webhook-signature"),
-      req.headers.get("webhook-timestamp"),
+      svixHeader(req, "id"),
+      svixHeader(req, "timestamp"),
+      svixHeader(req, "signature"),
       secret,
     );
     if (!ok) {
+      // Log enough to diagnose without leaking the body — header presence
+      // is the most common failure mode (wrong env, wrong prefix, etc.).
+      console.warn("[resend-webhook] signature verification failed", {
+        hasId: !!svixHeader(req, "id"),
+        hasTimestamp: !!svixHeader(req, "timestamp"),
+        hasSignature: !!svixHeader(req, "signature"),
+      });
       return NextResponse.json({ ok: false, error: "Bad signature" }, { status: 401 });
     }
   }
@@ -85,7 +118,8 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "Invalid JSON" }, { status: 400 });
   }
 
-  // Pull the bits we'll want to query later. Keep it small.
+  // Pull the bits worth surfacing in the function log. Tags carry the
+  // region/schedule/surprise metadata sendDigest() attaches per email.
   const tags: Record<string, string> = {};
   for (const t of event.data?.tags ?? []) tags[t.name] = t.value;
   const row = {
@@ -100,19 +134,7 @@ export async function POST(req: Request) {
     link: event.data?.click?.link,
     bounceType: event.data?.bounce?.type,
   };
-
-  try {
-    const dir = path.join(process.cwd(), "public");
-    await mkdir(dir, { recursive: true });
-    await appendFile(
-      path.join(dir, "newsletter-events.jsonl"),
-      JSON.stringify(row) + "\n",
-      "utf8",
-    );
-  } catch (err) {
-    // Log failure but acknowledge the webhook so Resend doesn't retry forever.
-    console.error("[webhook] failed to append:", (err as Error).message);
-  }
+  console.log("[resend-webhook]", JSON.stringify(row));
 
   return NextResponse.json({ ok: true });
 }

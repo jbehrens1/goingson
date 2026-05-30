@@ -1,46 +1,17 @@
-// Basic newsletter reporting. Aggregates subscriber counts from Clerk +
-// last-30-day send/click totals from public/newsletter-events.jsonl.
-//
-// For deep analytics (which event got most clicks last week, etc.) you can
-// use the Resend dashboard at https://resend.com/emails — filter by tag.
-// Once you outgrow either, migrate the JSONL into Postgres per the
-// architecture notes.
+// Basic newsletter reporting. Aggregates subscriber counts from Clerk.
+// Per-email open/click rollups live on the Resend dashboard
+// (https://resend.com/emails) — the local newsletter-events.jsonl rollup
+// was killed because Vercel's serverless filesystem is read-only at
+// runtime, so the append-on-webhook approach never actually persisted.
+// When we want this rollup back, the webhook needs a real backing store
+// (Vercel KV / Postgres / a logging backend) — see the route handler at
+// app/api/webhooks/resend/route.ts for context.
 
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 import { redirect } from "next/navigation";
 import { authIsConfigured, getCurrentRole } from "@/lib/auth";
 import { iterateAllUsers, stateFromUser } from "@/lib/newsletter/prefs";
 
 export const dynamic = "force-dynamic";
-
-type EventRow = {
-  ts: string;
-  type: string;
-  region?: string;
-  schedule?: string;
-};
-
-async function loadRecentEvents(): Promise<EventRow[]> {
-  const file = path.join(process.cwd(), "public", "newsletter-events.jsonl");
-  try {
-    const raw = await readFile(file, "utf8");
-    const cutoff = Date.now() - 30 * 86_400_000;
-    return raw
-      .split("\n")
-      .filter(Boolean)
-      .map((l) => {
-        try {
-          return JSON.parse(l) as EventRow;
-        } catch {
-          return null;
-        }
-      })
-      .filter((r): r is EventRow => r !== null && new Date(r.ts).getTime() >= cutoff);
-  } catch {
-    return [];
-  }
-}
 
 export default async function NewsletterAdminPage() {
   if (!authIsConfigured()) {
@@ -72,20 +43,6 @@ export default async function NewsletterAdminPage() {
       else r.weekly++;
       byRegion.set(sub.region, r);
     }
-  }
-
-  // Send/click counts from the webhook log (last 30 days).
-  const events = await loadRecentEvents();
-  const eventBuckets: Record<string, number> = {
-    "email.sent": 0,
-    "email.delivered": 0,
-    "email.opened": 0,
-    "email.clicked": 0,
-    "email.bounced": 0,
-    "email.complained": 0,
-  };
-  for (const e of events) {
-    eventBuckets[e.type] = (eventBuckets[e.type] ?? 0) + 1;
   }
 
   return (
@@ -138,28 +95,24 @@ export default async function NewsletterAdminPage() {
       </section>
 
       <section style={{ marginTop: "2rem" }}>
-        <h2>Delivery activity — last 30 days</h2>
-        <table className="sources-table">
-          <thead>
-            <tr>
-              <th>Event</th>
-              <th>Count</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Object.entries(eventBuckets).map(([type, n]) => (
-              <tr key={type}>
-                <td>
-                  <code>{type}</code>
-                </td>
-                <td className="sources-count-cell">{n}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <p className="muted small" style={{ marginTop: "0.5rem" }}>
-          {events.length === 0 &&
-            "No webhook events captured yet. Configure the Resend webhook at /api/webhooks/resend to start logging."}
+        <h2>Delivery activity</h2>
+        <p className="muted">
+          Open / click / bounce metrics live on the{" "}
+          <a
+            href="https://resend.com/emails"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resend dashboard
+          </a>
+          . Filter by tag <code>region:&lt;name&gt;</code> or{" "}
+          <code>schedule:daily</code> / <code>weekly</code> for cohort views.
+        </p>
+        <p className="muted small">
+          The local rollup is on hold — Vercel&rsquo;s serverless filesystem is
+          read-only at runtime, so the webhook can&rsquo;t persist events to a
+          file. When we want this page to show counts again, the webhook
+          needs a real backing store (KV, Postgres, or a logging backend).
         </p>
       </section>
     </main>
