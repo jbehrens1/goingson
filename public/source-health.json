@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T13:10:43.110Z",
+  "generatedAt": "2026-05-30T11:42:15.085Z",
   "sources": {
     "metrowest:visitors-bureau-events": {
       "count": 0,
@@ -13682,7 +13682,7 @@
     "sandiego:la-jolla-playhouse": {
       "count": 0,
       "warnings": [
-        "HTTP 503 fetching https://lajollaplayhouse.org/"
+        "la-jolla-playhouse: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
       ],
       "probe": {
         "mode": "deep",
@@ -14169,7 +14169,7 @@
       "count": 3,
       "warnings": [],
       "probe": {
-        "mode": "deep",
+        "mode": "light",
         "candidates": [],
         "attempts": [
           {
@@ -14201,126 +14201,6 @@
             "adapter": "ical",
             "count": 0,
             "note": "iCal autodiscovery"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/events/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/events",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/calendar/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/calendar",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/shows/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/shows",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/upcoming-events/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/upcoming/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/whats-on/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/whats-on",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/programs/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/programs",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/season/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/season",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/entertainment/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/entertainment",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/performance/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/performances/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/happenings/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
-          },
-          {
-            "url": "https://www.sandiegosymphony.org/visit/events/",
-            "adapter": "ticketmaster",
-            "count": 0,
-            "note": "Alt-path crawl"
           }
         ]
       }
@@ -16038,17 +15918,17 @@
       }
     },
     "sandiego:pacific-beach": {
-      "count": 3,
+      "count": 2,
       "warnings": [],
       "probe": {
         "mode": "light",
         "candidates": [
           {
             "confidence": "medium",
-            "verifiedCount": 3,
+            "verifiedCount": 2,
             "adapter": "ical",
             "url": "https://www.pacificbeach.org/events/?ical=1",
-            "evidence": "iCal feed at /events/?ical=1 yields 3 events."
+            "evidence": "iCal feed at /events/?ical=1 yields 2 events."
           }
         ],
         "attempts": [
@@ -16073,7 +15953,7 @@
           {
             "url": "https://www.pacificbeach.org/events/?ical=1",
             "adapter": "ical",
-            "count": 3,
+            "count": 2,
             "note": "iCal autodiscovery"
           }
         ]
@@ -17222,7 +17102,7 @@
     "sandiego:downtown-sd": {
       "count": 0,
       "warnings": [
-        "downtown-sd: no JSON-LD found and no CSS selectors configured. Add config.selectors {item,title,link,start,...} or switch adapter."
+        "HTTP 502 fetching https://downtownsandiego.org/"
       ],
       "probe": {
         "mode": "deep",

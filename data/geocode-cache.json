@@ -3823,5 +3823,81 @@
     "lon": -121.924672,
     "displayName": "PayPal Park, 1123, Coleman Avenue, North San Jose, San Jose, Santa Clara County, California, 95110, United States",
     "fetchedAt": "2026-05-29T13:10:42.436Z"
+  },
+  "metrowest::15 junction square dr, concord, ma": {
+    "lat": 42.4561403,
+    "lon": -71.3956834,
+    "displayName": "15, Junction Square Drive, West Concord, Concord, Middlesex County, Massachusetts, 01742, United States",
+    "fetchedAt": "2026-05-30T11:29:10.412Z"
+  },
+  "bartholomew’s cobble (trustees), sheffield": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:29:11.443Z"
+  },
+  "sheffield": {
+    "lat": 53.3806626,
+    "lon": -1.4702278,
+    "displayName": "Sheffield, South Yorkshire, England, United Kingdom",
+    "fetchedAt": "2026-05-30T11:29:12.570Z"
+  },
+  "world’s end (trustees), hingham": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:29:13.460Z"
+  },
+  "metrowest::decordova sculpture park and museum (trustees), lincoln": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:29:14.772Z"
+  },
+  "address shared after registration, jamaica plain, ma": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:29:15.810Z"
+  },
+  "jamaica plain, jamaica plain": {
+    "lat": 42.310044,
+    "lon": -71.1162839,
+    "displayName": "First Church in Jamaica Plain Unitarian Universalist, 6, Eliot Street, Jamaica Plain, Boston, Suffolk County, Massachusetts, 02130, United States",
+    "fetchedAt": "2026-05-30T11:29:16.954Z"
+  },
+  "metrowest::120 broad meadow rd needham, ma 02492": {
+    "lat": 42.2790736,
+    "lon": -71.2080797,
+    "displayName": "Broadmeadow Elementary School, 120, Broad Meadow Road, Birds Hill, Needham Heights, Needham, Norfolk County, Massachusetts, 02492, United States",
+    "fetchedAt": "2026-05-30T11:29:18.960Z"
+  },
+  "metrowest::robert r. jay performing arts center, st. john’s high school, shrewsbury, marlborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:29:19.320Z"
+  },
+  "metrowest::robert r. jay performing arts center, st. john's high school shrewsbury, northborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:29:20.270Z"
+  },
+  "metrowest::491 concord rd, sudbury, ma": {
+    "lat": 42.3941543,
+    "lon": -71.4050071,
+    "displayName": "491, Concord Road, North Sudbury, Sudbury, Middlesex County, Massachusetts, 01776, United States",
+    "fetchedAt": "2026-05-30T11:29:21.582Z"
+  },
+  "metrowest::robert r.jay performing arts center, st.john’s high school, shrewsbury, marlborough": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:29:22.698Z"
+  },
+  "decordova sculpture park and museum (trustees), lincoln": {
+    "lat": null,
+    "lon": null,
+    "fetchedAt": "2026-05-30T11:35:44.377Z"
+  },
+  "lincoln": {
+    "lat": 40.8088861,
+    "lon": -96.7077751,
+    "displayName": "Lincoln, Lancaster County, Nebraska, United States",
+    "fetchedAt": "2026-05-30T11:35:45.426Z"
   }
 }

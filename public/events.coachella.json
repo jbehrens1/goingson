@@ -24,200 +24,9 @@
       "Desert Hot Springs, CA"
     ]
   },
-  "generatedAt": "2026-05-29T12:57:54.787Z",
-  "count": 254,
+  "generatedAt": "2026-05-30T11:30:16.650Z",
+  "count": 247,
   "events": [
-    {
-      "title": "Dummy // Locust",
-      "description": "(((folkYEAH!))) Presents:\nHarmony Index\nSupporting Talent: Harmony Index\nRock\n$27.00",
-      "url": "https://wl.seetickets.us/event/dummy-locust/684930?afflky=pappyandharriets",
-      "start": "2026-05-29T03:30:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Pappy & Harriet’s"
-      },
-      "type": "live-music",
-      "id": "54cf820362725437",
-      "source": {
-        "id": "pappy-harriets",
-        "name": "Pappy & Harriet's"
-      },
-      "ingestedAt": "2026-05-29T12:57:23.536Z"
-    },
-    {
-      "title": "Palm Springs 70mm Fest",
-      "description": "Palm Springs 70mm Fest runs May 29–31 at the Palm Springs Cultural Center’s historic Camelot Theatre, presenting large-format screenings of Close Encounters of the Third Kind, The Searchers, 2001: A Space Odyssey, Boogie Nights, Lawrence of Arabia, and West Side Story.",
-      "url": "https://www.palmspringslife.com/event/palm-springs-70mm-fest/",
-      "start": "2026-05-29T07:00:00.000Z",
-      "end": "2026-06-01T06:59:59.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "Camelot Theatres",
-        "town": "Palm Springs",
-        "address": "2300 E. Baristo Rd., Palm Springs, CA",
-        "lat": 33.8200816,
-        "lon": -116.5210299
-      },
-      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/17191747/2026-70MM-Calendar-Image.jpg",
-      "categories": [
-        "Fairs, Festivals &amp; Markets",
-        "Film"
-      ],
-      "type": "film",
-      "id": "17be5abd41ddedf9",
-      "source": {
-        "id": "palm-springs-life",
-        "name": "Palm Springs Life — The Calendar"
-      },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
-    },
-    {
-      "title": "Mikael Healey’s Baby Grand: Construction Zone",
-      "description": "If most jazz performances are carefully drafted blueprints, Construction Zone is the rare site where you can watch the building go up in real time. Pianist Mikael Healey and tenor saxophonist Aaron Mercado abandon setlists and rehearsed arrangements in favor of pure, in-the-moment composition—every note shaped by instinct, chemistry, and the audience itself. Centered around a white baby grand and intimate, in-the-round seating, the experience is as immersive as it is unpredictable. Healey, an internationally respected musical director with a star on the Palm Springs Walk of Fame, brings a refined sensibility; Mercado answers with bold, expressive improvisation. Tickets include dinner.",
-      "url": "https://www.palmspringslife.com/event/mikael-healeys-baby-grand-construction-zone/",
-      "start": "2026-05-29T07:00:00.000Z",
-      "end": "2026-05-30T06:59:59.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "Spirit Animal",
-        "town": "Palm Springs",
-        "address": "150 S Indian Canyon Drive Suite B, Palm Springs",
-        "lat": 33.8221104,
-        "lon": -116.5451167
-      },
-      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/21192101/Screenshot-2026-04-04-at-5.20.00-PM.png",
-      "categories": [
-        "Entertainment",
-        "Music"
-      ],
-      "type": "live-music",
-      "id": "65a376f480cddf5b",
-      "source": {
-        "id": "palm-springs-life",
-        "name": "Palm Springs Life — The Calendar"
-      },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
-    },
-    {
-      "title": "Girl Talk Comedy Show",
-      "description": "Girl Talk Comedy Show featuring Heather Pasternak and Jessica Keenan takes the stage at the Cascade Lounge at Agua Caliente Casino Palm Springs. The stand-up showcase delivers sharp, modern comedy through personal storytelling and bold perspectives from two seasoned performers.",
-      "url": "https://www.palmspringslife.com/event/girl-talk-comedy-show/",
-      "start": "2026-05-29T07:00:00.000Z",
-      "end": "2026-05-30T06:59:59.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "Agua Caliente Casino Palm Springs",
-        "town": "Palm Springs",
-        "address": "401 E Amado Road, Palm Springs",
-        "lat": 33.8255177,
-        "lon": -116.5428819
-      },
-      "imageUrl": "https://cdn.palmspringslife.com/media/2026/02/11012456/Screenshot-2026-02-10-at-5.23.54-PM.png",
-      "categories": [
-        "Comedy"
-      ],
-      "type": "comedy",
-      "id": "c329d3446d57a00a",
-      "source": {
-        "id": "palm-springs-life",
-        "name": "Palm Springs Life — The Calendar"
-      },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
-    },
-    {
-      "title": "Greater Palm Springs Restaurant Week",
-      "description": "Need an excuse not to cook after work? Restaurants throughout the Coachella Valley will offer screaming deals and delicious prix-fixe menus for lunch and dinner this week. Meals start at $15 — a great opportunity to give newer desert dining joints a try, including celebrity chef Richard Blais’ Kestrel, an airy spot for American food at the Indian Wells Golf Resort, and Palm Desert’s Shorebird, where dinner pairs well with wine.",
-      "url": "https://www.palmspringslife.com/event/greater-palm-springs-restaurant-week-2/",
-      "start": "2026-05-29T07:00:00.000Z",
-      "end": "2026-06-08T06:59:59.000Z",
-      "allDay": true,
-      "location": {
-        "venue": "Various Coachella Valley Venues",
-        "town": "Coachella Valley",
-        "address": "Coachella Valley, CA",
-        "lat": 33.7672351,
-        "lon": -116.3560439
-      },
-      "imageUrl": "https://cdn.palmspringslife.com/media/2026/04/22194126/restaurant-week.png",
-      "categories": [
-        "Fairs, Festivals &amp; Markets",
-        "Food &amp; Drink"
-      ],
-      "type": "food-drink",
-      "id": "2ae9fabfaee121df",
-      "source": {
-        "id": "palm-springs-life",
-        "name": "Palm Springs Life — The Calendar"
-      },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
-    },
-    {
-      "title": "Dog Day at the Zoo",
-      "url": "https://www.livingdesert.org/events/dog-day-at-the-zoo-may-2026/",
-      "start": "2026-05-29T15:00:00.000Z",
-      "end": "2026-05-30T00:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "The Living Desert Zoo & Gardens",
-        "town": "Palm Desert",
-        "lat": 33.7222,
-        "lon": -116.3744
-      },
-      "imageUrl": "https://www.livingdesert.org/wp-content/uploads/2026/03/DogDay-PawPup_Facebook_1920x1005.jpg",
-      "type": "family",
-      "id": "3bbac90bbb889349",
-      "source": {
-        "id": "living-desert",
-        "name": "The Living Desert Zoo & Gardens"
-      },
-      "ingestedAt": "2026-05-29T12:56:52.485Z"
-    },
-    {
-      "title": "Coco Rose Home Closing Sale",
-      "description": "As Coco Rose Home prepares to close its doors, owner Eileen is hosting a special “Let’s Make a Deal” sale, with the shop open daily from noon to 6 p.m. Eileen will be in-store helping guests find exceptional deals on the store’s thoughtfully curated furniture and décor.",
-      "url": "https://www.palmspringslife.com/event/coco-rose-home-closing-sale/",
-      "start": "2026-05-29T19:00:00.000Z",
-      "end": "2026-06-01T01:00:00.000Z",
-      "allDay": false,
-      "location": {
-        "venue": "Coco Rose Home",
-        "town": "La Quinta",
-        "address": "78010 Main Street #100, La Quinta",
-        "lat": 33.6772888,
-        "lon": -116.3024806
-      },
-      "imageUrl": "https://cdn.palmspringslife.com/media/2026/05/28165321/add6b597-0ca7-cb54-5f0d-b5bbf274f4b3.jpeg",
-      "categories": [
-        "Design"
-      ],
-      "type": "workshop",
-      "id": "cc8cb9d0c4f1ad3e",
-      "source": {
-        "id": "palm-springs-life",
-        "name": "Palm Springs Life — The Calendar"
-      },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
-    },
-    {
-      "title": "GenX Takeover Comedy Tour (Under 16 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
-      "description": "With: GenX Takeover Comedy Tour\n\nComedy / Comedy",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9x6",
-      "start": "2026-05-30T03:00:00Z",
-      "location": {
-        "venue": "The Show - Agua Caliente Casino",
-        "address": "32-250 Bob Hope Drive",
-        "town": "Rancho Mirage",
-        "lat": 33.8148199,
-        "lon": -116.408331
-      },
-      "type": "live-music",
-      "id": "d94d6640491098dc",
-      "source": {
-        "id": "agua-caliente-the-show",
-        "name": "The Show at Agua Caliente Casino"
-      },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
-    },
     {
       "title": "Karma Dealers",
       "description": "Pappy & Harriet’s Presents:\nThe Kearns Family, Hammer of the Ozz\nSupporting Talent: The Kearns Family, Hammer of the Ozz\nRock\nAll Ages · $20.00",
@@ -233,27 +42,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.538Z"
-    },
-    {
-      "title": "Flamingo Friday",
-      "description": "Flamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nFlamingo Friday Pool Parties are back! Come party with us at the Oasis pool featuring some of the hottest DJs! This event is 21 & OVER Event: 9pm - 12am Must have Valid ID No Refunds No outside alcohol or food allowed\n\nWith: Flamingo Friday\n\nPop / Electro Pop",
-      "url": "https://www.ticketmaster.com/flamingo-friday-cabazon-california-05-29-2026/event/090064A14F90AF71",
-      "start": "2026-05-30T04:00:00Z",
-      "location": {
-        "venue": "Morongo Casino Resort and Spa",
-        "address": "49500 Seminole Dr",
-        "town": "Cabazon",
-        "lat": 33.9220127,
-        "lon": -116.8012179
-      },
-      "type": "food-drink",
-      "id": "fd0f80f8fbf923f4",
-      "source": {
-        "id": "morongo-casino",
-        "name": "Morongo Casino Resort & Spa"
-      },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:50.583Z"
     },
     {
       "title": "Frey House II Tour + Museum Day Pass",
@@ -279,7 +68,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
+      "ingestedAt": "2026-05-30T11:29:24.369Z"
     },
     {
       "title": "A Night of Motown: Dinner Show",
@@ -306,7 +95,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
+      "ingestedAt": "2026-05-30T11:29:24.369Z"
     },
     {
       "title": "Marilyn 100 After Party at Hunters Palm Springs",
@@ -332,7 +121,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.172Z"
+      "ingestedAt": "2026-05-30T11:29:24.369Z"
     },
     {
       "title": "Palm Springs Certified Farmers Market",
@@ -354,7 +143,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.616Z"
     },
     {
       "title": "The Fab Four",
@@ -374,11 +163,11 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.847Z"
     },
     {
       "title": "Black Crystal Wolf Kids",
-      "description": "Pappy & Harriet’s Presents:\nThe Pretty Flowers\nSupporting Talent: The Pretty Flowers\nRock\nAll Ages · $21.00-$26.00",
+      "description": "Pappy & Harriet’s Presents:\nThe Pretty Flowers\nSupporting Talent: The Pretty Flowers\nRock\n$26.00",
       "url": "https://wl.seetickets.us/event/black-crystal-wolf-kids/684964?afflky=pappyandharriets",
       "start": "2026-05-31T04:30:00.000Z",
       "allDay": false,
@@ -391,7 +180,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.538Z"
+      "ingestedAt": "2026-05-30T11:29:50.584Z"
     },
     {
       "title": "Maná at Acrisure Arena",
@@ -418,7 +207,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.369Z"
     },
     {
       "title": "MANÁ New Show Added",
@@ -450,7 +239,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.366Z"
+      "ingestedAt": "2026-05-30T11:29:25.478Z"
     },
     {
       "title": "5th Annual – Beneath The Desert Sky Benefit Concert",
@@ -467,7 +256,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.539Z"
+      "ingestedAt": "2026-05-30T11:29:50.585Z"
     },
     {
       "title": "Alain Whyte Band",
@@ -484,7 +273,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.540Z"
+      "ingestedAt": "2026-05-30T11:29:50.586Z"
     },
     {
       "title": "Kimberly Cofer and the Tumbleweeds",
@@ -510,7 +299,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.369Z"
     },
     {
       "title": "Camera Obscura",
@@ -527,7 +316,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.541Z"
+      "ingestedAt": "2026-05-30T11:29:50.586Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -549,7 +338,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.616Z"
     },
     {
       "title": "Carey Frank Organ Trio",
@@ -575,7 +364,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.369Z"
     },
     {
       "title": "Nita Whitaker: Sophisticated Lady – Songs of Natalie Cole",
@@ -601,7 +390,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.369Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -623,7 +412,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.291Z"
+      "ingestedAt": "2026-05-30T11:29:28.888Z"
     },
     {
       "title": "Lavender Festival",
@@ -649,7 +438,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Allah-Las",
@@ -666,7 +455,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.542Z"
+      "ingestedAt": "2026-05-30T11:29:50.587Z"
     },
     {
       "title": "Banda Carnaval",
@@ -686,7 +475,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.958Z"
     },
     {
       "title": "Flamingo Friday",
@@ -706,7 +495,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.958Z"
     },
     {
       "title": "House Party PS: Pink Saturday 4",
@@ -733,7 +522,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Al Jardine and the Pet Sounds Band at The Plaza Theatre",
@@ -760,7 +549,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Jerry Seinfield (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
@@ -780,7 +569,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.847Z"
     },
     {
       "title": "Dave Catching’s 65th Birthday Celebration",
@@ -797,7 +586,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.542Z"
+      "ingestedAt": "2026-05-30T11:29:50.588Z"
     },
     {
       "title": "Tribute to Heart",
@@ -823,7 +612,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Palm Springs Vintage Market",
@@ -849,7 +638,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.173Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Breakfast with the Beatles Hosted by Chris Carter",
@@ -869,7 +658,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.958Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -893,7 +682,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.485Z"
+      "ingestedAt": "2026-05-30T11:29:26.086Z"
     },
     {
       "title": "The Messthetics",
@@ -910,7 +699,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.543Z"
+      "ingestedAt": "2026-05-30T11:29:50.588Z"
     },
     {
       "title": "The Juke Joint Preachers",
@@ -936,7 +725,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Terry Fator at Fantasy Springs Resort Casino",
@@ -963,7 +752,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -987,7 +776,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.485Z"
+      "ingestedAt": "2026-05-30T11:29:26.086Z"
     },
     {
       "title": "XOXO Palm Springs",
@@ -1014,7 +803,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1038,7 +827,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.485Z"
+      "ingestedAt": "2026-05-30T11:29:26.086Z"
     },
     {
       "title": "Where Were You In 1976?: A Star Is Born",
@@ -1064,7 +853,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -1086,7 +875,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.616Z"
     },
     {
       "title": "Feels So Good: The Chuck Mangione Experience",
@@ -1112,7 +901,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -1134,7 +923,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.291Z"
+      "ingestedAt": "2026-05-30T11:29:28.888Z"
     },
     {
       "title": "Sir Woman",
@@ -1151,7 +940,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.544Z"
+      "ingestedAt": "2026-05-30T11:29:50.589Z"
     },
     {
       "title": "Edith Márquez at Fantasy Springs Resort Casino",
@@ -1177,7 +966,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Hush-Hush: A Variety Show of the Highest Class and Caliber",
@@ -1203,7 +992,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.370Z"
     },
     {
       "title": "Don Hefty at Spotlight 29 Casino",
@@ -1230,7 +1019,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Mikael Healey’s Baby Grand: Broken Broadway",
@@ -1257,7 +1046,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "The Truck Stop Art Fair",
@@ -1283,7 +1072,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.174Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Edith Marquez -  Ages 5+",
@@ -1303,7 +1092,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.591Z"
+      "ingestedAt": "2026-05-30T11:29:47.595Z"
     },
     {
       "title": "Flamingo Friday",
@@ -1323,7 +1112,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.958Z"
     },
     {
       "title": "Three Bad Jacks",
@@ -1340,7 +1129,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.544Z"
+      "ingestedAt": "2026-05-30T11:29:50.589Z"
     },
     {
       "title": "Gene Simmons Band at Fantasy Springs Resort Casino",
@@ -1367,7 +1156,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Avery Pearson’s Comedian Rhapsody ft. Josh Wolf",
@@ -1394,7 +1183,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Second Saturday Book Swap at Materias Primas",
@@ -1420,7 +1209,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Gene Simmons Band",
@@ -1440,13 +1229,13 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.591Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "Moonsville Collective",
       "description": "Pappy & Harriet’s Presents:\nPat Tumbler\nSupporting Talent: Pat Tumbler\nRock\nAll Ages · $15.00-$20.00",
       "url": "https://wl.seetickets.us/event/moonsville-collective/688962?afflky=pappyandharriets",
-      "start": "2026-06-14T04:30:00.000Z",
+      "start": "2026-06-14T04:15:00.000Z",
       "allDay": false,
       "location": {
         "venue": "Pappy & Harriet’s"
@@ -1457,7 +1246,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.545Z"
+      "ingestedAt": "2026-05-30T11:29:50.590Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1481,7 +1270,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.485Z"
+      "ingestedAt": "2026-05-30T11:29:26.086Z"
     },
     {
       "title": "Shakira at Acrisure Arena",
@@ -1508,7 +1297,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1532,7 +1321,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.485Z"
+      "ingestedAt": "2026-05-30T11:29:26.086Z"
     },
     {
       "title": "SHAKIRA",
@@ -1563,7 +1352,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.367Z"
+      "ingestedAt": "2026-05-30T11:29:25.479Z"
     },
     {
       "title": "Chayce Beckham",
@@ -1580,7 +1369,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.545Z"
+      "ingestedAt": "2026-05-30T11:29:50.590Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -1604,7 +1393,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.086Z"
     },
     {
       "title": "Where Were You In 1976?: The Bad News Bears",
@@ -1630,7 +1419,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -1652,7 +1441,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.616Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -1674,7 +1463,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.291Z"
+      "ingestedAt": "2026-05-30T11:29:28.888Z"
     },
     {
       "title": "AK’CHAMEL, THE GIVER OF ILLNESS",
@@ -1691,7 +1480,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.546Z"
+      "ingestedAt": "2026-05-30T11:29:50.591Z"
     },
     {
       "title": "Juneteenth Comedy Showcase featuring Ralph Porter",
@@ -1718,7 +1507,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Forrest Shaw Live: A Night of Smart, Sharp, Fearlessly Funny Comedy",
@@ -1745,7 +1534,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.371Z"
     },
     {
       "title": "Billy L’Amour & The Love Notes",
@@ -1772,7 +1561,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "E-40",
@@ -1792,7 +1581,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Flamingo Friday",
@@ -1812,7 +1601,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "The Builders and the Butchers",
@@ -1829,7 +1618,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.547Z"
+      "ingestedAt": "2026-05-30T11:29:50.591Z"
     },
     {
       "title": "Bob Dylan at Acrisure Arena",
@@ -1856,7 +1645,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.175Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Where Were You In 1976?: Escape to Witch Mountain",
@@ -1882,7 +1671,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Juneteenth: Celebrating Freedom Through History and Culture",
@@ -1908,7 +1697,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Bob Dylan",
@@ -1938,7 +1727,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.367Z"
+      "ingestedAt": "2026-05-30T11:29:25.479Z"
     },
     {
       "title": "Terry Fator",
@@ -1958,7 +1747,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.591Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "The Rare Occasions",
@@ -1975,7 +1764,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.547Z"
+      "ingestedAt": "2026-05-30T11:29:50.592Z"
     },
     {
       "title": "World Giraffe Day 2026",
@@ -1999,7 +1788,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.087Z"
     },
     {
       "title": "Palm Springs International ShortFest",
@@ -2026,7 +1815,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2050,7 +1839,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.087Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2074,7 +1863,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.087Z"
     },
     {
       "title": "Sasha Berliner at Agua Caliente Casino Palm Springs",
@@ -2100,7 +1889,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2124,7 +1913,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.087Z"
     },
     {
       "title": "Where Were You In 1976?: Assault on Precinct 13",
@@ -2150,7 +1939,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -2172,7 +1961,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.616Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2194,7 +1983,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.888Z"
     },
     {
       "title": "Whitewater",
@@ -2211,7 +2000,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.548Z"
+      "ingestedAt": "2026-05-30T11:29:50.592Z"
     },
     {
       "title": "Sarper Güven Comedy Show at Cascade Lounge",
@@ -2238,7 +2027,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2258,7 +2047,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Monolord",
@@ -2275,7 +2064,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.548Z"
+      "ingestedAt": "2026-05-30T11:29:50.593Z"
     },
     {
       "title": "Gia Margaret",
@@ -2292,7 +2081,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.549Z"
+      "ingestedAt": "2026-05-30T11:29:50.594Z"
     },
     {
       "title": "Khemmis",
@@ -2309,7 +2098,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.549Z"
+      "ingestedAt": "2026-05-30T11:29:50.595Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2333,7 +2122,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.087Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2357,7 +2146,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.087Z"
     },
     {
       "title": "Summer ZooCamp 2026",
@@ -2381,7 +2170,7 @@
         "id": "living-desert",
         "name": "The Living Desert Zoo & Gardens"
       },
-      "ingestedAt": "2026-05-29T12:56:52.486Z"
+      "ingestedAt": "2026-05-30T11:29:26.087Z"
     },
     {
       "title": "Where Were You In 1976?: Nashville",
@@ -2407,7 +2196,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Palm Springs VillageFest",
@@ -2429,7 +2218,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.616Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2451,7 +2240,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.888Z"
     },
     {
       "title": "Tom Keifer w/ LA Guns",
@@ -2471,7 +2260,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "The Commodores",
@@ -2491,7 +2280,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2511,7 +2300,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "4th of July Palm Springs 2026",
@@ -2533,7 +2322,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.617Z"
     },
     {
       "title": "4th of July Palm Desert &#8211; Independence Day Celebration 2026",
@@ -2555,7 +2344,7 @@
         "id": "palmsprings-com",
         "name": "PalmSprings.com Calendar of Events"
       },
-      "ingestedAt": "2026-05-29T12:57:18.442Z"
+      "ingestedAt": "2026-05-30T11:29:45.617Z"
     },
     {
       "title": "Palm Springs Vintage Market",
@@ -2581,7 +2370,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Pearl Charles",
@@ -2598,7 +2387,29 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.550Z"
+      "ingestedAt": "2026-05-30T11:29:50.595Z"
+    },
+    {
+      "title": "Palm Springs VillageFest",
+      "description": "Palm Springs VillageFest takes place every Thursday on Palm Canyon Drive in downtown Palm Springs, CA. The street fair features art, entertainment, shopping, and food. Hours October through May from …\n\\n",
+      "url": "https://www.palmsprings.com/event/palm-springs-villagefest-2/2026-07-09/",
+      "start": "2026-07-10T01:00:00.000Z",
+      "end": "2026-07-10T05:00:00.000Z",
+      "location": {
+        "venue": "Downtown Palm Springs",
+        "address": "Palm Springs, CA",
+        "town": "All Coachella Valley",
+        "lat": 33.8246269,
+        "lon": -116.540303
+      },
+      "imageUrl": "https://www.palmsprings.com/wp-content/uploads/2021/05/palm-springs-villagefest.png",
+      "type": "festival",
+      "id": "10d5d0898b511967",
+      "source": {
+        "id": "palmsprings-com",
+        "name": "PalmSprings.com Calendar of Events"
+      },
+      "ingestedAt": "2026-05-30T11:29:45.617Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2620,7 +2431,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Jo Koy Live",
@@ -2640,7 +2451,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Dareyes de La Sierra",
@@ -2660,7 +2471,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2680,7 +2491,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Jo Koy Live",
@@ -2700,7 +2511,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Toody Cole (of Dead Moon) & Her Band",
@@ -2717,7 +2528,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.551Z"
+      "ingestedAt": "2026-05-30T11:29:50.596Z"
     },
     {
       "title": "Beats Antique",
@@ -2734,7 +2545,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.551Z"
+      "ingestedAt": "2026-05-30T11:29:50.596Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2756,7 +2567,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Reverend Horton Heat",
@@ -2773,7 +2584,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.552Z"
+      "ingestedAt": "2026-05-30T11:29:50.597Z"
     },
     {
       "title": "Australias Thunder From Down Under",
@@ -2793,7 +2604,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Flamingo Friday",
@@ -2813,7 +2624,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Starcrawler",
@@ -2830,7 +2641,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.552Z"
+      "ingestedAt": "2026-05-30T11:29:50.597Z"
     },
     {
       "title": "David Spade I Got A Feel For It",
@@ -2850,7 +2661,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Midland",
@@ -2870,7 +2681,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.892Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "James McMurtry",
@@ -2887,7 +2698,24 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.553Z"
+      "ingestedAt": "2026-05-30T11:29:50.598Z"
+    },
+    {
+      "title": "Friendship",
+      "description": "(((folkYEAH!))) Presents:\niji\nSupporting Talent: iji\nRock\nAll Ages · $20.00-$25.00",
+      "url": "https://wl.seetickets.us/event/friendship/693257?afflky=pappyandharriets",
+      "start": "2026-07-20T04:00:00.000Z",
+      "allDay": false,
+      "location": {
+        "venue": "Pappy & Harriet’s"
+      },
+      "type": "live-music",
+      "id": "b75065ebc2b7f53b",
+      "source": {
+        "id": "pappy-harriets",
+        "name": "Pappy & Harriet's"
+      },
+      "ingestedAt": "2026-05-30T11:29:50.598Z"
     },
     {
       "title": "Cole Swindell",
@@ -2907,7 +2735,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.591Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "Goo Goo Dolls",
@@ -2927,7 +2755,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.802Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -2949,7 +2777,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Hawthorne Heights [2 Day Pass]",
@@ -2966,7 +2794,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.553Z"
+      "ingestedAt": "2026-05-30T11:29:50.599Z"
     },
     {
       "title": "Hawthorne Heights – [Night 1]",
@@ -2983,7 +2811,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.554Z"
+      "ingestedAt": "2026-05-30T11:29:50.599Z"
     },
     {
       "title": "Teachers Gone Bad Comedy Show",
@@ -3009,7 +2837,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3029,7 +2857,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Hawthorne Heights – [Night 2 Acoustic]",
@@ -3046,7 +2874,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.555Z"
+      "ingestedAt": "2026-05-30T11:29:50.600Z"
     },
     {
       "title": "Cole Swindell at Fantasy Springs Resort Casino",
@@ -3073,7 +2901,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Cole Swindell (Minors with adult 21+)",
@@ -3093,7 +2921,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.591Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "Dinosaur Pile‐Up",
@@ -3110,7 +2938,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.556Z"
+      "ingestedAt": "2026-05-30T11:29:50.601Z"
     },
     {
       "title": "Boris Brejcha",
@@ -3127,7 +2955,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.556Z"
+      "ingestedAt": "2026-05-30T11:29:50.601Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3149,7 +2977,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Dancing with the Stars Con 2026",
@@ -3176,7 +3004,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.176Z"
+      "ingestedAt": "2026-05-30T11:29:24.372Z"
     },
     {
       "title": "Tortoise",
@@ -3193,7 +3021,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.557Z"
+      "ingestedAt": "2026-05-30T11:29:50.602Z"
     },
     {
       "title": "Jake Owen",
@@ -3213,7 +3041,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3233,7 +3061,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Dancing with the Stars Con 2026",
@@ -3263,7 +3091,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.367Z"
+      "ingestedAt": "2026-05-30T11:29:25.479Z"
     },
     {
       "title": "Kings of Chaos",
@@ -3283,7 +3111,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Tennessee Jet",
@@ -3300,7 +3128,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.557Z"
+      "ingestedAt": "2026-05-30T11:29:50.602Z"
     },
     {
       "title": "Palm Springs Vintage Market",
@@ -3326,7 +3154,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.177Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Dancing with the Stars Con 2026",
@@ -3356,7 +3184,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.367Z"
+      "ingestedAt": "2026-05-30T11:29:25.479Z"
     },
     {
       "title": "Los Straitjackets",
@@ -3373,7 +3201,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.558Z"
+      "ingestedAt": "2026-05-30T11:29:50.603Z"
     },
     {
       "title": "Parcels – [Night 1]",
@@ -3390,7 +3218,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.558Z"
+      "ingestedAt": "2026-05-30T11:29:50.603Z"
     },
     {
       "title": "Parcels – [Night 2]",
@@ -3407,7 +3235,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.559Z"
+      "ingestedAt": "2026-05-30T11:29:50.604Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3429,7 +3257,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Splash House Weekend 1",
@@ -3456,7 +3284,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.177Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Neon Nostalgic Presents 80s Music Television",
@@ -3476,7 +3304,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "La Fiera De Ojinaga",
@@ -3496,7 +3324,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3516,7 +3344,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Briscoe",
@@ -3533,7 +3361,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.559Z"
+      "ingestedAt": "2026-05-30T11:29:50.604Z"
     },
     {
       "title": "Lionel Richie and Earth, Wind & Fire at Acrisure Arena",
@@ -3560,7 +3388,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.177Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Osees",
@@ -3577,7 +3405,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.560Z"
+      "ingestedAt": "2026-05-30T11:29:50.605Z"
     },
     {
       "title": "Lionel Richie and Earth, Wind & Fire",
@@ -3604,7 +3432,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.367Z"
+      "ingestedAt": "2026-05-30T11:29:25.479Z"
     },
     {
       "title": "Gipsy Kings featuring Nicolas Reyes (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
@@ -3624,7 +3452,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Chico Bean",
@@ -3644,7 +3472,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Anthony Green",
@@ -3661,7 +3489,7 @@
         "id": "pappy-harriets",
         "name": "Pappy & Harriet's"
       },
-      "ingestedAt": "2026-05-29T12:57:23.560Z"
+      "ingestedAt": "2026-05-30T11:29:50.605Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3683,7 +3511,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "The Australian Pink Floyd Show at Fantasy Springs Resort Casino",
@@ -3710,7 +3538,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Splash House Weekend 2",
@@ -3737,7 +3565,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Dwight Yoakam (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
@@ -3757,7 +3585,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Australian Pink Floyd Show",
@@ -3777,7 +3605,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.591Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3797,7 +3625,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Brantley Gilbert: The Real American Tour at Fantasy Springs Resort Casino",
@@ -3824,7 +3652,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Brantley Gilbert",
@@ -3844,7 +3672,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.592Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -3866,7 +3694,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Jason Stuart Comedy Show",
@@ -3892,7 +3720,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Lee Huyn Woo",
@@ -3912,7 +3740,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Asia featuring John Payne",
@@ -3932,7 +3760,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Flamingo Friday",
@@ -3952,7 +3780,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Pat Benatar and Neil Giraldo (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
@@ -3972,7 +3800,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Walker Hayes",
@@ -3992,7 +3820,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4014,7 +3842,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Gretchen Wilson (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
@@ -4034,7 +3862,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Flamingo Friday",
@@ -4054,7 +3882,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Ramon Ayala at Acrisure Arena",
@@ -4081,7 +3909,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.373Z"
     },
     {
       "title": "Ramon Ayala",
@@ -4112,7 +3940,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.367Z"
+      "ingestedAt": "2026-05-30T11:29:25.480Z"
     },
     {
       "title": "Chicago Styx at Acrisure Arena",
@@ -4139,7 +3967,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.861Z"
     },
     {
       "title": "Chicago Styx",
@@ -4172,7 +4000,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.368Z"
+      "ingestedAt": "2026-05-30T11:29:25.480Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4194,7 +4022,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Flamingo Friday",
@@ -4214,7 +4042,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Palm Springs Vintage Market",
@@ -4240,7 +4068,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.861Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4262,7 +4090,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Voyage- Celebrating the Music of Journey ",
@@ -4282,7 +4110,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Flamingo Friday",
@@ -4302,7 +4130,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Weird Al Yankovic",
@@ -4333,7 +4161,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.368Z"
+      "ingestedAt": "2026-05-30T11:29:25.480Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4355,7 +4183,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Geoff Tate (Under 18 must be accompanied by an adult 18 years or older)",
@@ -4375,7 +4203,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Flamingo Friday",
@@ -4395,7 +4223,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.959Z"
     },
     {
       "title": "Killers of Kill Tony",
@@ -4415,7 +4243,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.592Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "Matt Mathews: Not What I Ordered World Tour",
@@ -4435,7 +4263,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "Annabelle Louie and Chi Kwong Chiang",
@@ -4455,7 +4283,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.960Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4477,7 +4305,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Disney Worlds Collide Concert Tour",
@@ -4510,7 +4338,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.368Z"
+      "ingestedAt": "2026-05-30T11:29:25.480Z"
     },
     {
       "title": "Kevin Costner & Modern West",
@@ -4530,7 +4358,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.848Z"
     },
     {
       "title": "MANÁ",
@@ -4562,7 +4390,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.368Z"
+      "ingestedAt": "2026-05-30T11:29:25.480Z"
     },
     {
       "title": "The Dinah",
@@ -4589,7 +4417,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.861Z"
     },
     {
       "title": "Daughtry",
@@ -4609,7 +4437,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.849Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4631,7 +4459,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "The Phil Collins Story",
@@ -4658,7 +4486,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.861Z"
     },
     {
       "title": "Halestorm",
@@ -4678,7 +4506,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.849Z"
     },
     {
       "title": "The Phil Collins Story",
@@ -4698,7 +4526,7 @@
         "id": "fantasy-springs",
         "name": "Fantasy Springs Resort Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.592Z"
+      "ingestedAt": "2026-05-30T11:29:47.596Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4720,7 +4548,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Brit Floyd- The Moon, The Wall and Beyond",
@@ -4740,7 +4568,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.849Z"
     },
     {
       "title": "20th Anniversary Paint El Paseo Pink",
@@ -4767,7 +4595,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.801Z"
+      "ingestedAt": "2026-05-30T11:29:24.861Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4789,7 +4617,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4811,7 +4639,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "UB40",
@@ -4831,7 +4659,7 @@
         "id": "morongo-casino",
         "name": "Morongo Casino Resort & Spa"
       },
-      "ingestedAt": "2026-05-29T12:57:22.893Z"
+      "ingestedAt": "2026-05-30T11:29:49.960Z"
     },
     {
       "title": "Marisela at Fantasy Springs Resort Casino",
@@ -4858,7 +4686,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.802Z"
+      "ingestedAt": "2026-05-30T11:29:24.861Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4880,7 +4708,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.292Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "W.A.S.P. (Under 18 must be accompanied by an adult 18 years or older. Must be 2 years old with a ticket to enter, under 2 years not permitted)",
@@ -4900,7 +4728,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.849Z"
     },
     {
       "title": "Bare at The Plaza Theatre",
@@ -4926,7 +4754,7 @@
         "id": "palm-springs-life",
         "name": "Palm Springs Life — The Calendar"
       },
-      "ingestedAt": "2026-05-29T12:56:50.802Z"
+      "ingestedAt": "2026-05-30T11:29:24.861Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4948,7 +4776,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Zeppelin USA",
@@ -4968,7 +4796,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.849Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -4990,7 +4818,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "Los Tigres del Norte",
@@ -5023,7 +4851,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.368Z"
+      "ingestedAt": "2026-05-30T11:29:25.480Z"
     },
     {
       "title": "90’s Corridos Tour",
@@ -5054,7 +4882,7 @@
         "id": "acrisure-arena",
         "name": "Acrisure Arena"
       },
-      "ingestedAt": "2026-05-29T12:56:51.368Z"
+      "ingestedAt": "2026-05-30T11:29:25.480Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5076,7 +4904,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5098,7 +4926,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.889Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5120,7 +4948,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5142,7 +4970,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "Violent Femmes: 45 Years of Violent Femmes Tour",
@@ -5162,7 +4990,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.849Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5184,7 +5012,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5206,7 +5034,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5228,7 +5056,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5250,7 +5078,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5272,7 +5100,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5294,7 +5122,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5316,7 +5144,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5338,7 +5166,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.293Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5360,7 +5188,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5382,7 +5210,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5404,7 +5232,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5426,7 +5254,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.890Z"
     },
     {
       "title": "RuPaul's Drag Race Werq The World 2027 Tour",
@@ -5446,7 +5274,7 @@
         "id": "agua-caliente-the-show",
         "name": "The Show at Agua Caliente Casino"
       },
-      "ingestedAt": "2026-05-29T12:57:20.803Z"
+      "ingestedAt": "2026-05-30T11:29:47.849Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5468,7 +5296,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5490,7 +5318,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5512,7 +5340,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5534,7 +5362,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5556,7 +5384,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5578,7 +5406,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5600,7 +5428,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5622,7 +5450,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5644,7 +5472,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5666,7 +5494,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:55.294Z"
+      "ingestedAt": "2026-05-30T11:29:28.891Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5688,7 +5516,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:57.574Z"
+      "ingestedAt": "2026-05-30T11:29:31.140Z"
     },
     {
       "title": "VillageFest every Thursday",
@@ -5710,7 +5538,7 @@
         "id": "villagefest",
         "name": "VillageFest"
       },
-      "ingestedAt": "2026-05-29T12:56:57.574Z"
+      "ingestedAt": "2026-05-30T11:29:31.140Z"
     }
   ]
 }
